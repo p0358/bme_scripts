@@ -306,18 +306,21 @@ function Brightness_Focused( button )
 {
 	local menu = GetMenu( "AdvancedVideoSettingsMenu" )
 	SetElementsTextByClassname( menu, "MenuItemDescriptionClass", "#ADVANCED_VIDEO_MENU_BRIGHTNESS_DESC" )
+	BTN_NON_FOV_Focused( button )
 }
 
 function ColorMode_Focused( button )
 {
 	local menu = GetMenu( "AdvancedVideoSettingsMenu" )
 	SetElementsTextByClassname( menu, "MenuItemDescriptionClass", "#ADVANCED_VIDEO_MENU_COLORMODE_DESC" )
+	BTN_NON_FOV_Focused( button )
 }
 
 function DisplayMode_Focused( button )
 {
 	local menu = GetMenu( "AdvancedVideoSettingsMenu" )
 	SetElementsTextByClassname( menu, "MenuItemDescriptionClass", "#ADVANCED_VIDEO_MENU_DISPLAYMODE_DESC" )
+	BTN_NON_FOV_Focused( button )
 }
 
 function DisplayMode_Changed( button )
@@ -348,84 +351,98 @@ function Resolution_Focused( button )
 {
 	local menu = GetMenu( "AdvancedVideoSettingsMenu" )
 	SetElementsTextByClassname( menu, "MenuItemDescriptionClass", "#ADVANCED_VIDEO_MENU_RESOLUTION_DESC" )
+	BTN_NON_FOV_Focused( button )
 }
 
 function Antialiasing_Focused( button )
 {
 	local menu = GetMenu( "AdvancedVideoSettingsMenu" )
 	SetElementsTextByClassname( menu, "MenuItemDescriptionClass", "#ADVANCED_VIDEO_MENU_ANTIALIASING_DESC" )
+	BTN_NON_FOV_Focused( button )
 }
 
 function TextureDetail_Focused( button )
 {
 	local menu = GetMenu( "AdvancedVideoSettingsMenu" )
 	SetElementsTextByClassname( menu, "MenuItemDescriptionClass", "#ADVANCED_VIDEO_MENU_TEXTURE_DETAIL_DESC" )
+	BTN_NON_FOV_Focused( button )
 }
 
 function FilteringMode_Focused( button )
 {
 	local menu = GetMenu( "AdvancedVideoSettingsMenu" )
 	SetElementsTextByClassname( menu, "MenuItemDescriptionClass", "#ADVANCED_VIDEO_MENU_FILTERING_MODE_DESC" )
+	BTN_NON_FOV_Focused( button )
 }
 
 function LightingQuality_Focused( button )
 {
 	local menu = GetMenu( "AdvancedVideoSettingsMenu" )
 	SetElementsTextByClassname( menu, "MenuItemDescriptionClass", "#ADVANCED_VIDEO_MENU_LIGHTING_QUALITY_DESC" )
+	BTN_NON_FOV_Focused( button )
 }
 
 function ShadowDetail_Focused( button )
 {
 	local menu = GetMenu( "AdvancedVideoSettingsMenu" )
 	SetElementsTextByClassname( menu, "MenuItemDescriptionClass", "#ADVANCED_VIDEO_MENU_SHADOW_DETAIL_DESC" )
+	BTN_NON_FOV_Focused( button )
 }
 
 function AmbientOcclusion_Focused( button )
 {
 	local menu = GetMenu( "AdvancedVideoSettingsMenu" )
 	SetElementsTextByClassname( menu, "MenuItemDescriptionClass", "#ADVANCED_VIDEO_MENU_AMBIENT_OCCLUSION_DESC" )
+	BTN_NON_FOV_Focused( button )
 }
 
 function EffectsDetail_Focused( button )
 {
 	local menu = GetMenu( "AdvancedVideoSettingsMenu" )
 	SetElementsTextByClassname( menu, "MenuItemDescriptionClass", "#ADVANCED_VIDEO_MENU_EFFECTS_DETAIL_DESC" )
+	BTN_NON_FOV_Focused( button )
 }
 
 function WaterQuality_Focused( button )
 {
 	local menu = GetMenu( "AdvancedVideoSettingsMenu" )
 	SetElementsTextByClassname( menu, "MenuItemDescriptionClass", "#ADVANCED_VIDEO_MENU_WATER_QUALITY_DESC" )
+	BTN_NON_FOV_Focused( button )
 }
 
 function ImpactMarks_Focused( button )
 {
 	local menu = GetMenu( "AdvancedVideoSettingsMenu" )
 	SetElementsTextByClassname( menu, "MenuItemDescriptionClass", "#ADVANCED_VIDEO_MENU_IMPACT_MARKS_DESC" )
+	BTN_NON_FOV_Focused( button )
 }
 
 function Ragdolls_Focused( button )
 {
 	local menu = GetMenu( "AdvancedVideoSettingsMenu" )
 	SetElementsTextByClassname( menu, "MenuItemDescriptionClass", "#ADVANCED_VIDEO_MENU_RAGDOLLS_DESC" )
+	BTN_NON_FOV_Focused( button )
 }
 
 function ShaderDetail_Focused( button )
 {
 	local menu = GetMenu( "AdvancedVideoSettingsMenu" )
 	SetElementsTextByClassname( menu, "MenuItemDescriptionClass", "#ADVANCED_VIDEO_MENU_SHADER_DETAIL_DESC" )
+	BTN_NON_FOV_Focused( button )
 }
 
 function ModelDetail_Focused( button )
 {
 	local menu = GetMenu( "AdvancedVideoSettingsMenu" )
 	SetElementsTextByClassname( menu, "MenuItemDescriptionClass", "#ADVANCED_VIDEO_MENU_MODEL_DETAIL_DESC" )
+	BTN_NON_FOV_Focused( button )
 }
 
 function VSync_Focused( button )
 {
 	local menu = GetMenu( "AdvancedVideoSettingsMenu" )
 	SetElementsTextByClassname( menu, "MenuItemDescriptionClass", "#ADVANCED_VIDEO_MENU_VSYNC_DESC" )
+	BTN_NON_FOV_Focused( button )
 }
 
 function FOV_Focused( button )
@@ -458,13 +475,19 @@ function FOV_Focused( button )
 function FOV_LostFocus( button )
 {
 	//uiGlobal.temp_fovunfocuscount++;
-	if ( uiGlobal.playingIntro && uiGlobal.playingFOVVideo && uiGlobal.keepPlayingFOVVideo && !IsConnected()
-		&& uiGlobal.FOVFocusTime + 0.2 < Time() )
+	if ( uiGlobal.playingIntro && uiGlobal.playingFOVVideo /*&& uiGlobal.keepPlayingFOVVideo*/ && !IsConnected()
+		&& uiGlobal.FOVFocusTime + 0.05 < Time() )
 	{
 		Signal( uiGlobal.signalDummy, "PlayVideoEnded" )
 	}
 	uiGlobal.keepPlayingFOVVideo = false
 }
+
+function BTN_NON_FOV_Focused( button )
+{
+	FOV_LostFocus( button )
+}
+Globalize( BTN_NON_FOV_Focused )
 
 // In case we still wanted to play the vid in UI
 // https://steamcommunity.com/discussions/forum/20/882966056829269381/
@@ -497,7 +520,7 @@ function PlayFOVVideo()
 	uiGlobal.playingIntro = true
 	while ( uiGlobal.keepPlayingFOVVideo )
 	{
-		PlayVideo( "15ms_480x400.bik", false )
+		PlayVideo( "fov_video_15ms_480x400.bik", false )
 
 		WaitSignal( uiGlobal.signalDummy, "PlayVideoEnded" )
 		StopVideo()
