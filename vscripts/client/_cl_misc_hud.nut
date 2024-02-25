@@ -43,6 +43,8 @@ function main()
 	Globalize( ServerCallback_AnnounceRoundWinner )
 
 	file.thirtySecondWarningDone <- false
+
+	file.bme_didReportWaitingForPlayersTimeAlready <- false
 }
 
 
@@ -549,6 +551,12 @@ function GameStateThink_WaitingForPlayers( player )
 			EmitSoundOnEntity( player, WAITING_FOR_PLAYERS_COUNTDOWN_SOUND )
 
 		player.cv.lastTimeRemaining = timeRemaining
+
+		if (file.bme_didReportWaitingForPlayersTimeAlready == false && timeRemaining)
+		{
+			player.ClientCommand("bme_update_gameendtime " + timeRemaining + " _cl_misc_hud:GameStateThink_WaitingForPlayers")
+			file.bme_didReportWaitingForPlayersTimeAlready = true
+		}
 	}
 	else
 	{
@@ -774,6 +782,9 @@ function GameState_Changed()
 			delaythread( 1.5 ) CE_ResetVisualSettings( GetLocalViewPlayer() )
 			break
 	}
+
+	if (GetGameState() != eGameState.WaitingForPlayers)
+		file.bme_didReportWaitingForPlayersTimeAlready = false
 
 	player.ClientCommand("bme_update_is_round_based " + (IsRoundBased() ? "1" : "0") + " GameState_Changed")
 	player.ClientCommand("bme_update_is_switch_sides_based " + (IsSwitchSidesBased() ? "1" : "0") + " GameState_Changed")

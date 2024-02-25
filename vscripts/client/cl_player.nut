@@ -193,6 +193,8 @@ function main()
 	level.onPlayerDisconnectedFuncs <- {}
 
 	level.hasMatchLossProtection <- false
+
+	file.lastPlayerCount <- 0 // BME
 }
 
 function EntitiesDidLoad()
@@ -930,7 +932,9 @@ function PlayerConnectedOrDisconnected( player, state, disconnectingPlayerName )
 		if (IsValid(player))
 		{
 			local playersCount = GetTeamPlayerCount( TEAM_MILITIA ) + GetTeamPlayerCount( TEAM_IMC )
-			player.ClientCommand("bme_update_player_count " + playersCount + " cl_player:PlayerConnectedOrDisconnected")
+			if (playersCount != file.lastPlayerCount)
+				player.ClientCommand("bme_update_player_count " + playersCount + " cl_player:PlayerConnectedOrDisconnected")
+			file.lastPlayerCount = playersCount
 		}
 	}
 

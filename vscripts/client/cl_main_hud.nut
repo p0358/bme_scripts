@@ -102,10 +102,12 @@ function main()
 	RegisterServerVarChangeCallback( "gameState", UpdateMainHudFromGameState )
 	RegisterServerVarChangeCallback( "gameState", UpdateScoreInfo )
 	RegisterServerVarChangeCallback( "gameEndTime", UpdateScoreInfo )
-	RegisterServerVarChangeCallback( "gameEndTime", GameEndTimeUpdate )
 	RegisterServerVarChangeCallback( "roundEndTime", UpdateScoreInfo )
 	RegisterServerVarChangeCallback( "minimapState", UpdateMinimapVisibility )
 	RegisterServerVarChangeCallback( "gameState", VarChangedCallback_GameStateChanged )
+
+	RegisterServerVarChangeCallback( "gameEndTime", GameEndTimeUpdate ) // BME
+	RegisterServerVarChangeCallback( "roundEndTime", GameEndTimeUpdate ) // BME
 
 	RegisterServerVarChangeCallback( "secondsTitanCheckTime", UpdateLastTitanStanding )
 
@@ -3286,13 +3288,19 @@ function UpdateMainHudVisibility( player, duration = null )
 	}
 }
 
-function GameEndTimeUpdate()
+function GameEndTimeUpdate() // BME
 {
 	if (level.nv.gameEndTime)
 	{
 		local player = GetLocalClientPlayer()
 		local endTime = ceil(level.nv.gameEndTime - Time())
-		player.ClientCommand("bme_update_gameendtime " + endTime + " cl_main_hud")
+		player.ClientCommand("bme_update_gameendtime " + endTime + " cl_main_hud:GameEndTimeUpdate:gameEndTime")
+	}
+	else if (level.nv.roundEndTime)
+	{
+		local player = GetLocalClientPlayer()
+		local endTime = ceil(level.nv.roundEndTime - Time())
+		player.ClientCommand("bme_update_gameendtime " + endTime + " cl_main_hud:GameEndTimeUpdate:roundEndTime")
 	}
 }
 
