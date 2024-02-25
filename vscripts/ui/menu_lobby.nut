@@ -584,6 +584,27 @@ function DialogChoice_Regen_ViewChallenges()
 
 function GameStartTime_Changed()
 {
+	if (level.ui.gameStartTime)
+	{
+		//ClientCommand("bme_update_gameendtime2 " + floor(level.ui.gameStartTime - Time()) + " " + level.ui.gameStartTime + " " + Time())
+		/*ClientCommand("bme_update_gameendtime2 "
+		+ (level.ui.gameStartTime - Time())
+		+ " " + (level.ui.gameStartTime - uiGlobal.levelLoadedTime)
+		+ " " + Time()
+		+ " " + level.ui.gameStartTime
+		+ " " + file.initTime
+		+ " " + uiGlobal.levelLoadedTime
+		+ " " + floor(file.initTime - level.ui.gameStartTime)
+		+ " " + floor(level.ui.gameStartTime - file.initTime)
+		+ " GameStartTime_Changed")*/
+		//ClientCommand("bme_update_gameendtime2 " + level.ui.gameStartTime)
+		ClientCommand("bme_update_gameendtime2 " + level.ui.gameStartTime + " GameStartTime_Changed menu_lobby")
+	}
+	else
+	{
+		ClientCommand("bme_update_gameendtime2 null GameStartTime_Changed menu_lobby")
+	}
+
 	UpdateGameStartTimeCounter()
 }
 
@@ -1646,6 +1667,9 @@ function MonitorTeamChange()
 		{
 			UpdateTeamInfo( GetMenu( "LobbyMenu" ), myTeam )
 			UpdateTeamInfo( GetMenu( "RankedPlayMenu" ), myTeam )
+
+			if (myTeam != lastMyTeam)
+				ClientCommand( "bme_update_rich_presence" )
 
 			lastMyTeam = myTeam
 			lastShowBalanced = showBalanced

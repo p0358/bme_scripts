@@ -102,6 +102,7 @@ function main()
 	RegisterServerVarChangeCallback( "gameState", UpdateMainHudFromGameState )
 	RegisterServerVarChangeCallback( "gameState", UpdateScoreInfo )
 	RegisterServerVarChangeCallback( "gameEndTime", UpdateScoreInfo )
+	RegisterServerVarChangeCallback( "gameEndTime", GameEndTimeUpdate )
 	RegisterServerVarChangeCallback( "roundEndTime", UpdateScoreInfo )
 	RegisterServerVarChangeCallback( "minimapState", UpdateMinimapVisibility )
 	RegisterServerVarChangeCallback( "gameState", VarChangedCallback_GameStateChanged )
@@ -2925,6 +2926,20 @@ function UpdatePlayerStatusCounts()
 {
 	level.ent.Signal( "UpdatePlayerStatusCounts" ) //For Pilot Elimination based modes
 	level.ent.Signal( "UpdateTitanCounts" ) //For all modes
+
+	if (IsValid(GetLocalClientPlayer()) || IsValid(GetLocalViewPlayer()))
+	{
+		local player = GetLocalClientPlayer()
+		if (!IsValid(player))
+			player = GetLocalViewPlayer()
+		if (IsValid(player))
+		{
+			local playersCount = GetTeamPlayerCount( TEAM_MILITIA ) + GetTeamPlayerCount( TEAM_IMC )
+			if (playersCount != file.lastPlayerCount)
+				player.ClientCommand("bme_update_player_count " + playersCount + " UpdatePlayerStatusCounts")
+			file.lastPlayerCount = playersCount
+		}
+	}
 }
 
 function ScoreBarsPlayerStatusThink( vgui, player, friendlyPlayerStatusElem, enemyPlayerStatusElem, friendlyPlayerStatusBurnCardBGElem, enemyPlayerStatusBurnCardBGElem )
@@ -3268,6 +3283,16 @@ function UpdateMainHudVisibility( player, duration = null )
 			duration = 1.0
 
 		thread MainHud_TurnOn( mainVGUI, duration, warpSettings.xWarp, warpSettings.xScale, warpSettings.yWarp, warpSettings.yScale, warpSettings.viewDist )
+	}
+}
+
+function GameEndTimeUpdate()
+{
+	if (level.nv.gameEndTime)
+	{
+		local player = GetLocalClientPlayer()
+		local endTime = ceil(level.nv.gameEndTime - Time())
+		player.ClientCommand("bme_update_gameendtime " + endTime + " cl_main_hud")
 	}
 }
 

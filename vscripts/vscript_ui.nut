@@ -583,6 +583,11 @@ function UICodeCallback_LevelLoadingFinished( error )
 	Signal( uiGlobal.signalDummy, "LevelFinishedLoading" )
 	if ( IsConnected() )
 		SmartGlass_SetGlobalProperty( SMARTGLASS_PROP_PLAYERTEAM, TeamIDToSmartGlassString( GetTeam() ) )
+
+
+	/*local playersCount = GetTeamPlayerCount( TEAM_MILITIA ) + GetTeamPlayerCount( TEAM_IMC )
+	ClientCommand("bme_update_player_count " + playersCount + " UICodeCallback_LevelLoadingFinished")*/
+	//ClientCommand("bme_update_rich_presence UICodeCallback_LevelLoadingFinished") // do we really need it tho?
 }
 
 function UICodeCallback_LevelInit( levelname )
@@ -1399,6 +1404,7 @@ function PCBackButton_Activate( button )
 function PCSwitchTeamsButton_Activate( button )
 {
 	ClientCommand( "PrivateMatchSwitchTeams" )
+	//ClientCommand( "bme_update_rich_presence" ) // too fast
 }
 
 function InitFocusFade( menu )

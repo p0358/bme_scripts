@@ -1579,6 +1579,12 @@ function ScriptCallback_DestroyPlayerCockpit()
 
 function ServerCallback_ShowIntroScreen( idx = null )
 {
+	if ( idx >= 0 )
+	{
+		local player = GetLocalClientPlayer()
+		player.ClientCommand( "bme_npe_set_training_stage " + idx )
+	}
+
 	// first one is special
 	if ( idx == 0 )
 		idx = "titlecard"

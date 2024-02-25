@@ -774,6 +774,10 @@ function GameState_Changed()
 			delaythread( 1.5 ) CE_ResetVisualSettings( GetLocalViewPlayer() )
 			break
 	}
+
+	player.ClientCommand("bme_update_is_round_based " + (IsRoundBased() ? "1" : "0") + " GameState_Changed")
+	player.ClientCommand("bme_update_is_switch_sides_based " + (IsSwitchSidesBased() ? "1" : "0") + " GameState_Changed")
+	player.ClientCommand("bme_update_game_state " + GetGameState() + " GameState_Changed")
 }
 
 function ShouldHideTimeLimitHudElements()
@@ -871,8 +875,22 @@ function ServerCallback_AnnounceWinner( teamIndex, subStringIndex, winnerDetermi
 	}
 }
 
+function BME_RoundOver(source = "")
+{
+	local player = GetLocalClientPlayer()
+	player.ClientCommand("bme_update_is_round_based " + (IsRoundBased() ? "1" : "0") + " " + source)
+	player.ClientCommand("bme_update_is_switch_sides_based " + (IsSwitchSidesBased() ? "1" : "0") + " " + source)
+	if (GetCurrentPlaylistName() != "coop")
+	{
+		player.ClientCommand("bme_update_rounds_total " + GetRoundScoreLimit_FromPlaylist() + " _cl_misc_hud" + " " + source)
+		player.ClientCommand("bme_update_rounds_played " + GetRoundsPlayed()  + " _cl_misc_hud" + " " + source)
+	}
+}
+
 function ServerCallback_AnnounceRoundWinner( teamIndex, subStringIndex, winnerDeterminedWait, imcTeamScore2, militiaTeamScore2 )
 {
+	BME_RoundOver("ServerCallback_AnnounceRoundWinner")
+
 	local subString = ""
 	if ( subStringIndex )
 		subString = GetStringFromID( subStringIndex )

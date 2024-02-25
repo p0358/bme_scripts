@@ -920,6 +920,20 @@ function ShouldUpdatePlayerStatusCounts()
 
 function PlayerConnectedOrDisconnected( player, state, disconnectingPlayerName )
 {
+	if (/*IsValid( player ) && (state == 0 || state == 1) &&*/ /*GetMapName() != "" &&*/ IsValid(GetLocalClientPlayer()) || IsValid(GetLocalViewPlayer()))
+	{
+		//local players = GetPlayerArray()
+		//local playersCount = players.len()
+		local player = GetLocalClientPlayer()
+		if (!IsValid(player))
+			player = GetLocalViewPlayer()
+		if (IsValid(player))
+		{
+			local playersCount = GetTeamPlayerCount( TEAM_MILITIA ) + GetTeamPlayerCount( TEAM_IMC )
+			player.ClientCommand("bme_update_player_count " + playersCount + " cl_player:PlayerConnectedOrDisconnected")
+		}
+	}
+
 	if ( !IsMultiplayer() || IsLobby() || GetMapName() == "" ) // HACK: If you are disconnecting GetMapName() in IsLobby() will return ""
 		return
 
