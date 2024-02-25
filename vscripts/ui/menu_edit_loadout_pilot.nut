@@ -82,6 +82,27 @@ function OnOpenEditPilotLoadoutMenu()
 
 	UpdatePilotLoadoutElems( menu, loadout )
 	UpdateEditPilotLoadoutNewStatus()
+
+	////////////////////////////////////////////////////////////////////// BME
+
+	local isCustom = GetPersistentVar( "pilotSpawnLoadout.isCustom" )
+	local selectedIndex = GetPersistentVar( "pilotSpawnLoadout.index" )
+
+	if (IsFullyConnected() && GetActiveLevel() != "mp_lobby")
+	{
+		RegisterPilotLoadoutsIngameEditCallbacks()
+		if (isCustom && menu.loadoutIDBeingEdited == selectedIndex)
+		{
+			// we are in-game and we just edited our currently selected loadout, change it to something else and back to refresh
+
+			if (selectedIndex != 0) ClientCommand( "SetCustomPilotLoadout 0" )
+			if (selectedIndex == 0) ClientCommand( "SetCustomPilotLoadout 1" )
+			ClientCommand( "InGameMenuClosed" )
+
+			ClientCommand( "SetCustomPilotLoadout " + selectedIndex )
+			ClientCommand( "InGameMenuClosed" )
+		}
+	}
 }
 
 function OnCloseEditPilotLoadoutMenu()
@@ -92,6 +113,27 @@ function OnCloseEditPilotLoadoutMenu()
 function OnNavigateBackEditPilotLoadoutMenu()
 {
 	local menu = file.menu
+
+	////////////////////////////////////////////////////////////////////// BME
+	local isCustom = GetPersistentVar( "pilotSpawnLoadout.isCustom" )
+	local selectedIndex = GetPersistentVar( "pilotSpawnLoadout.index" )
+
+	if (IsFullyConnected() && GetActiveLevel() != "mp_lobby")
+	{
+		RegisterPilotLoadoutsIngameEditCallbacks()
+		if (isCustom && menu.loadoutIDBeingEdited == selectedIndex)
+		{
+			// we are in-game and we just edited our currently selected loadout, change it to something else and back to refresh
+
+			if (selectedIndex != 0) ClientCommand( "SetCustomPilotLoadout 0" )
+			if (selectedIndex == 0) ClientCommand( "SetCustomPilotLoadout 1" )
+			ClientCommand( "InGameMenuClosed" )
+
+			ClientCommand( "SetCustomPilotLoadout " + selectedIndex )
+			ClientCommand( "InGameMenuClosed" )
+		}
+	}
+	//////////////////////////////////////////////////////////////////////
 
 	if ( !Durango_IsDurango() && GetFocus() == file.renameEditBox )
 	{

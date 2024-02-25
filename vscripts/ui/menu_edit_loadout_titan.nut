@@ -80,6 +80,27 @@ function OnOpenEditTitanLoadoutMenu()
 
 	UpdateTitanLoadoutElems( menu, loadout )
 	UpdateEditTitanLoadoutNewStatus()
+
+	////////////////////////////////////////////////////////////////////// BME
+
+	local isCustom = GetPersistentVar( "titanSpawnLoadout.isCustom" )
+	local selectedIndex = GetPersistentVar( "titanSpawnLoadout.index" )
+
+	if (IsFullyConnected() && GetActiveLevel() != "mp_lobby")
+	{
+		RegisterTitanLoadoutsIngameEditCallbacks()
+		if (isCustom && menu.loadoutIDBeingEdited == selectedIndex)
+		{
+			// we are in-game and we just edited our currently selected loadout, change it to something else and back to refresh
+
+			if (selectedIndex != 0) ClientCommand( "SetCustomTitanLoadout 0" )
+			if (selectedIndex == 0) ClientCommand( "SetCustomTitanLoadout 1" )
+			ClientCommand( "InGameMenuClosed" )
+
+			ClientCommand( "SetCustomTitanLoadout " + selectedIndex )
+			ClientCommand( "InGameMenuClosed" )
+		}
+	}
 }
 
 function OnCloseEditTitanLoadoutMenu()
@@ -90,6 +111,27 @@ function OnCloseEditTitanLoadoutMenu()
 function OnNavigateBackEditTitanLoadoutMenu()
 {
 	local menu = file.menu
+
+	////////////////////////////////////////////////////////////////////// BME
+	local isCustom = GetPersistentVar( "titanSpawnLoadout.isCustom" )
+	local selectedIndex = GetPersistentVar( "titanSpawnLoadout.index" )
+
+	if (IsFullyConnected() && GetActiveLevel() != "mp_lobby")
+	{
+		RegisterTitanLoadoutsIngameEditCallbacks()
+		if (isCustom && menu.loadoutIDBeingEdited == selectedIndex)
+		{
+			// we are in-game and we just edited our currently selected loadout, change it to something else and back to refresh
+
+			if (selectedIndex != 0) ClientCommand( "SetCustomTitanLoadout 0" )
+			if (selectedIndex == 0) ClientCommand( "SetCustomTitanLoadout 1" )
+			ClientCommand( "InGameMenuClosed" )
+
+			ClientCommand( "SetCustomTitanLoadout " + selectedIndex )
+			ClientCommand( "InGameMenuClosed" )
+		}
+	}
+	//////////////////////////////////////////////////////////////////////
 
 	if ( !Durango_IsDurango() && GetFocus() == file.renameEditBox )
 	{

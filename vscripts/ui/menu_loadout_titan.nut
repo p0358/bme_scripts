@@ -31,6 +31,10 @@ function InitTitanLoadoutsMenu( menu )
 {
 	uiGlobal.navigateBackCallbacks[ menu ] <- TitanLoadoutsNavigateBack
 
+	// BME
+	uiGlobal.focusedTitanLoadoutID <- null
+	uiGlobal.registeredTitanLoadoutsIngameEditCallbacks <- false
+
 	local buttons = GetElementsByClassname( menu, "SelectLoadoutButtonClass" )
 	foreach ( button in buttons )
 	{
@@ -202,11 +206,17 @@ function OnTitanLoadoutButton_Focused( button )
 	local buttonID = button.GetScriptID().tointeger()
 	local presetTitanLoadouts = UI_GetPresetTitanLoadouts()
 
+	uiGlobal.focusedTitanLoadoutID = null
+
 	local loadout
 	if ( buttonID < presetTitanLoadouts.len() )
 		loadout = UI_GetPresetTitanLoadout( button.loadoutID )
 	else if ( buttonID >= presetTitanLoadouts.len() )
+	{
 		loadout = UI_GetCustomTitanLoadout( button.loadoutID )
+		if ( !button.IsLocked() )
+			uiGlobal.focusedTitanLoadoutID = button.loadoutID
+	}
 
 	if ( !loadout )
 		return
@@ -227,6 +237,8 @@ function OnEditTitanLoadoutButton_LostFocus( button )
 
 function OnTitanLoadoutButton_Activate( button )
 {
+	DeregisterTitanLoadoutsIngameEditCallbacks()
+
 	if ( !IsConnected() )
 		return
 
@@ -288,7 +300,7 @@ function OnEditTitanLoadoutButton_Activate( button )
 	if ( button.IsLocked() )
 		return
 
-	Assert( GetActiveLevel() == "mp_lobby" )
+	//Assert( GetActiveLevel() == "mp_lobby" )
 
 	local isCustom = ("isCustom" in button.s) && button.s.isCustom
 
@@ -307,12 +319,59 @@ function OnEditTitanLoadoutButton_Activate( button )
 	}
 }
 
+function RegisterTitanLoadoutsIngameEditCallbacks() // BME
+{
+	if (!uiGlobal.registeredTitanLoadoutsIngameEditCallbacks)
+	{
+		RegisterButtonPressedCallback(BUTTON_Y, TitanLoadoutsIngameEditClick)
+		RegisterButtonPressedCallback(MOUSE_RIGHT, TitanLoadoutsIngameEditClick)
+		uiGlobal.registeredTitanLoadoutsIngameEditCallbacks = true;
+	}
+}
+Globalize(RegisterTitanLoadoutsIngameEditCallbacks)
+
+function DeregisterTitanLoadoutsIngameEditCallbacks() // BME
+{
+	if (uiGlobal.registeredTitanLoadoutsIngameEditCallbacks)
+	{
+		DeregisterButtonPressedCallback(BUTTON_Y, TitanLoadoutsIngameEditClick)
+		DeregisterButtonPressedCallback(MOUSE_RIGHT, TitanLoadoutsIngameEditClick)
+		uiGlobal.registeredTitanLoadoutsIngameEditCallbacks = false;
+	}
+}
+Globalize(DeregisterTitanLoadoutsIngameEditCallbacks)
+
 function TitanLoadoutsNavigateBack()
 {
+	DeregisterTitanLoadoutsIngameEditCallbacks()
+
 	if ( uiGlobal.loadoutSelectionFinished )
 		return true
 
 	AdvanceMenu( GetMenu( "PilotLoadoutsMenu" ) )
+}
+
+function TitanLoadoutsIngameEditClick(player) // BME
+{
+	if (uiGlobal.focusedTitanLoadoutID == null) return
+
+	DeregisterTitanLoadoutsIngameEditCallbacks()
+
+	if ( !IsConnected() ) return
+
+	if ( IsItemLocked( "titan_custom_loadout_" + (uiGlobal.focusedTitanLoadoutID + 1) ) )
+		return
+
+	local loadoutID = uiGlobal.focusedTitanLoadoutID
+	local customTitanLoadouts = UI_GetCustomTitanLoadouts()
+
+	Assert( loadoutID != null && loadoutID < customTitanLoadouts.len() )
+
+	local editMenu = GetMenu( "EditTitanLoadoutMenu" )
+	editMenu.loadoutIDBeingEdited = loadoutID
+	uiGlobal.loadoutBeingEdited = customTitanLoadouts[ loadoutID ]
+
+	AdvanceMenu( editMenu )
 }
 
 function OnOpenTitanLoadoutsMenu( menu )
@@ -325,6 +384,8 @@ function OnOpenTitanLoadoutsMenu( menu )
 	local presetTitanLoadouts = UI_GetPresetTitanLoadouts()
 	local customTitanLoadouts = UI_GetCustomTitanLoadouts()
 	local buttons = GetElementsByClassname( menu, "SelectLoadoutButtonClass" )
+
+	RegisterTitanLoadoutsIngameEditCallbacks()
 
 	if ( IsItemLocked( "titan_custom_loadout_1" ) )
 	{
