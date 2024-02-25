@@ -81,7 +81,7 @@ function UpdateViewmodelAmmo( forceFull = false )
 		return
 
 	local rounds = self.GetWeaponPrimaryClipCount()
-	if ( forceFull || ( rounds > AMMO_BODYGROUP_COUNT ) )
+	if ( ( "AMMO_BODYGROUP_COUNT" in this ) && ( forceFull || ( rounds > AMMO_BODYGROUP_COUNT ) ) )
 		rounds = AMMO_BODYGROUP_COUNT
 
 	//printt( "Updating for rounds: " + rounds );

@@ -289,6 +289,9 @@ function SetTextFromSubitemName( element, parentRef, childRef, defaultText = "" 
 	if ( parentRef && childRef )
 		text = GetSubitemName( parentRef, childRef )
 
+	if (!text || text == "")
+		text = defaultText
+
 	element.SetText( text )
 }
 
@@ -330,9 +333,15 @@ function SetImageFromSubitemImage( element, parentRef, childRef )
 
 function SetImageFromSubitemIcon( element, parentRef, childRef, defaultIcon = null )
 {
+	local icon = null
 	if ( parentRef && childRef )
 	{
-		element.SetImage( GetSubitemIcon( parentRef, childRef ) )
+		icon = GetSubitemIcon( parentRef, childRef )
+	}
+
+	if ( parentRef && childRef && icon )
+	{
+		element.SetImage( icon )
 		element.Show()
 	}
 	else
@@ -351,8 +360,16 @@ function SetImageFromItemTeamImages( element, ref, team )
 {
 	if ( ref )
 	{
-		element.SetImage( GetItemTeamImages( ref )[team] )
-		element.Show()
+		local itemTeamImages = GetItemTeamImages( ref )
+		if (itemTeamImages && team in itemTeamImages)
+		{
+			element.SetImage( GetItemTeamImages( ref )[team] )
+			element.Show()
+		}
+		else
+		{
+			element.Hide()
+		}
 	}
 	else
 	{

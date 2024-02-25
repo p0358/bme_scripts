@@ -844,7 +844,9 @@ function GetItemIcon( ref )
 
 function GetItemTeamImages( ref )
 {
-	return itemData[ref].teamImages
+	if (ref in itemData && "teamImages" in itemData[ref])
+		return itemData[ref].teamImages
+	return null
 }
 
 function GetItemCoreImage( ref )
@@ -1019,6 +1021,11 @@ function GetSubitemName( parentRef, childRef )
 	Assert( parentRef in itemData )
 	Assert( "subitems" in itemData[parentRef] )
 
+	if (!( parentRef in itemData )) return null
+	if (!( "subitems" in itemData[parentRef] )) return null
+	if (!( childRef in itemData[parentRef].subitems )) return null
+	if (!( "name" in itemData[parentRef].subitems[childRef] )) return null
+
 	return itemData[parentRef].subitems[childRef].name
 }
 
@@ -1055,6 +1062,11 @@ function GetSubitemIcon( parentRef, childRef )
 {
 	Assert( parentRef in itemData )
 	Assert( "subitems" in itemData[parentRef] )
+
+	if (!( parentRef in itemData )) return null
+	if (!( "subitems" in itemData[parentRef] )) return null
+	if (!( childRef in itemData[parentRef].subitems )) return null
+	if (!( "icon" in itemData[parentRef].subitems[childRef] )) return null
 
 	return itemData[parentRef].subitems[childRef].icon
 }
