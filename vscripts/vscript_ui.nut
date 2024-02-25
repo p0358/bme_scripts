@@ -1416,6 +1416,38 @@ function PCJoinDiscord_Activate( button )
 	ClientCommand( "bme_discord_guild_invite_open" )
 }
 
+function PCPresetsButton_Activate( button ) // BME
+{
+	local buttonData = []
+
+	buttonData.append( { name = "COMPETITIVE CTF", func = function()
+		{
+			ClientCommand( "PrivateMatchSetMode ctf" )
+			ClientCommand( "UpdatePrivateMatchSetting ctf pm_titan_build 7" ) // 7 mins
+			ClientCommand( "UpdatePrivateMatchSetting ctf pm_titan_rebuild 5" ) // 5 mins
+			ClientCommand( "UpdatePrivateMatchSetting ctf pm_pilot_respawn_delay 6" ) // 6 secs
+			ClientCommand( "UpdatePrivateMatchSetting ctf pm_burn_cards 10" ) // no burn cards
+			// defaults for ctf:
+			ClientCommand( "UpdatePrivateMatchSetting ctf pm_time_limit 14" )
+			ClientCommand( "UpdatePrivateMatchSetting ctf pm_score_limit 3" )
+			ClientCommand( "UpdatePrivateMatchSetting ctf pm_ai_lethality 0" )
+			ClientCommand( "UpdatePrivateMatchSetting ctf pm_ai_type 0" )
+			ClientCommand( "UpdatePrivateMatchSetting ctf pm_titan_shields 0" )
+			ClientCommand( "UpdatePrivateMatchSetting ctf pm_pilot_minimap 0" )
+			ClientCommand( "UpdatePrivateMatchSetting ctf pm_pilot_ammo 0" )
+			ClientCommand( "UpdatePrivateMatchSetting ctf pm_pilot_health 0" )
+		}
+	} )
+	buttonData.append( { name = "#CANCEL", func = null } )
+
+	local dialogData = {}
+	dialogData.header <- "SETTINGS PRESETS"
+	dialogData.detailsMessage <- "This menu allows you to set private match settings to a certain predefined preset."
+	dialogData.buttonData <- buttonData
+
+	OpenChoiceDialog( dialogData, GetMenu( "TrainingDialog" ) )
+}
+
 function InitFocusFade( menu )
 {
 	local elements = GetElementsByClassname( menu, "FocusFadeClass" )

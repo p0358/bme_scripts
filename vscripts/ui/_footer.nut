@@ -219,6 +219,7 @@ function UpdateFooterButtons( menuName = null )
 			{
 				footerData.gamepad.append( { label = "#XBOX_SWITCH_TEAMS" } )
 				footerData.pc.append( { label = "#SWITCH_TEAMS", func = PCSwitchTeamsButton_Activate } )
+				footerData.pc.append( { label = "PRESETS", func = PCPresetsButton_Activate } ) // BME
 			}
 
 			footerData.pc = AppendPCInviteLabels( footerData.pc )
