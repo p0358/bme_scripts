@@ -415,7 +415,7 @@ function OnOpenTitanLoadoutsMenu( menu )
 			button.SetLocked( IsItemLocked( button.s.ref ) )
 			//button.SetNew( HasAnyNewItem( button.s.ref ) )
 
-			if ( isCustom && (buttonID - presetTitanLoadouts.len() == selectedIndex ) )
+			if ( isCustom && button.loadoutID == selectedIndex )
 			{
 				button.SetSelected( true )
 

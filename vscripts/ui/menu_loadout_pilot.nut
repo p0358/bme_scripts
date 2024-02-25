@@ -441,7 +441,7 @@ function OnOpenPilotLoadoutsMenu( menu )
 			button.SetLocked( IsItemLocked( button.s.ref ) )
 			//button.SetNew( HasAnyNewItem( button.s.ref ) )
 
-			if ( isCustom && (buttonID - presetPilotLoadouts.len() == selectedIndex ) )
+			if ( isCustom && button.loadoutID == selectedIndex )
 			{
 				button.SetSelected( true )
 
