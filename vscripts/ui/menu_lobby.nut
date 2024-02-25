@@ -67,6 +67,13 @@ function main()
 	Globalize( DialogChoice_RestartTraining )
 	Globalize( DialogChoice_TrainPilotOnly )
 	Globalize( DialogChoice_TrainTitanOnly )
+
+	// BME
+	Globalize( DialogChoice_Training_Custom )
+	Globalize( DialogChoice_Training_New )
+	Globalize( DialogChoice_DoTrainingWithResumeChoice0 )
+	Globalize( DialogChoice_DoTrainingWithResumeChoice1 )
+
 	Globalize( ServerCallback_DoTraining )
 	Globalize( ServerCallback_EndTraining )
 	Globalize( PrivateMatchSwitchTeams )
@@ -479,12 +486,24 @@ function TrainingButton_ActivateOrStartDialog( button )
 	}
 	else
 	{
-		buttonData.append( { name = "#TRAINING_FULL", func = DialogChoice_RestartTraining } )
-		buttonData.append( { name = "#TRAINING_PILOT_ONLY", func = DialogChoice_TrainPilotOnly } )
-		buttonData.append( { name = "#TRAINING_TITAN_ONLY", func = DialogChoice_TrainTitanOnly } )
+		//buttonData.append( { name = "#TRAINING_FULL", func = DialogChoice_RestartTraining } )
+		//buttonData.append( { name = "#TRAINING_PILOT_ONLY", func = DialogChoice_TrainPilotOnly } )
+		//buttonData.append( { name = "#TRAINING_TITAN_ONLY", func = DialogChoice_TrainTitanOnly } )
+
+		// BME
+		//buttonData.append( { name = "test", func = function() { SetPlayerTrainingResumeChoice( testt ); UI_DoTraining() }, nameData = "a" } )
+		buttonData.append( { name = "Play again... (full or pilot/titan only)", func = DialogChoice_Training_New } )
+		buttonData.append( { name = "Continue from... (custom training area)", func = DialogChoice_Training_Custom } )
+
+		//local textMappings = ["#NPE_MODULE_MENU_DESC_1", "#NPE_MODULE_MENU_DESC_2", "#NPE_MODULE_MENU_DESC_3", "#NPE_MODULE_MENU_DESC_4", "#NPE_MODULE_MENU_DESC_5", "#NPE_MODULE_MENU_DESC_6", "#NPE_MODULE_MENU_DESC_7", "#NPE_MODULE_MENU_DESC_8", "#NPE_MODULE_MENU_DESC_9", "#NPE_MODULE_MENU_DESC_10", "#NPE_MODULE_MENU_DESC_11", "#NPE_MODULE_MENU_DESC_12", "#NPE_MODULE_MENU_DESC_13", "#NPE_MODULE_MENU_DESC_14"]
+		//foreach (text in textMappings)
+		//buttonData.append( { name = "#TRAINING_CONTINUE", func = DialogChoice_DoTrainingWithResumeChoice1, nameData = text } )
+
 		buttonData.append( { name = "#CANCEL", func = null } )
 		header = "#TRAINING_PLAYAGAIN_PROMPT"
-		desc = "#TRAINING_PLAYAGAIN_PROMPT_DESC"
+		//desc = "#TRAINING_PLAYAGAIN_PROMPT_DESC"
+		//desc = "#TRAINING_PLAYAGAIN_PROMPT_DESC \n(both buttons open submenus)" // it will make not convert the localized string...
+		desc = TranslateTokenToUTF8("#TRAINING_PLAYAGAIN_PROMPT_DESC") + " \n(both buttons open submenus)"
 	}
 
 	local dialogData = {}
@@ -523,6 +542,88 @@ function UI_DoTraining()
 	ClientCommand( "DoTraining" )
 }
 
+function DialogChoice_Training_New() // BME
+{
+	local buttonData = []
+	buttonData.append( { name = "#TRAINING_FULL", func = DialogChoice_RestartTraining } )
+	buttonData.append( { name = "#TRAINING_PILOT_ONLY", func = DialogChoice_TrainPilotOnly } )
+	buttonData.append( { name = "#TRAINING_TITAN_ONLY", func = DialogChoice_TrainTitanOnly } )
+	buttonData.append( { name = "#CANCEL", func = null } )
+
+	local header = "#TRAINING_PLAYAGAIN_PROMPT"
+	local desc = "#TRAINING_PLAYAGAIN_PROMPT_DESC"
+
+	local dialogData = {}
+	dialogData.header <- header
+	dialogData.detailsMessage <- desc
+	dialogData.buttonData <- buttonData
+
+	OpenChoiceDialog( dialogData, GetMenu( "TrainingDialog" ) )
+}
+
+function DialogChoice_Training_Custom() // BME
+{
+	CloseDialog(false)
+
+	local buttonData = []
+	local textMappings = ["#NPE_MODULE_MENU_DESC_1", "#NPE_MODULE_MENU_DESC_2", "#NPE_MODULE_MENU_DESC_3", "#NPE_MODULE_MENU_DESC_4", "#NPE_MODULE_MENU_DESC_5", "#NPE_MODULE_MENU_DESC_6", "#NPE_MODULE_MENU_DESC_7", "#NPE_MODULE_MENU_DESC_8", "#NPE_MODULE_MENU_DESC_9", "#NPE_MODULE_MENU_DESC_10", "#NPE_MODULE_MENU_DESC_11", "#NPE_MODULE_MENU_DESC_12", "#NPE_MODULE_MENU_DESC_13", "#NPE_MODULE_MENU_DESC_14"]
+	//foreach (local text in textMappings)
+	//buttonData.append( { name = ("1. " + text), func = DialogChoice_DoTrainingWithResumeChoice1 } )
+	//foreach (text in textMappings) {
+	//	buttonData.append( { name = text, func = DialogChoice_DoTrainingWithResumeChoice1 } )
+	//}
+	/*for (local i = 0; i < 14; i++)
+	{
+		local text = textMappings[i]
+		buttonData.append( { name = text, func = DialogChoice_DoTrainingWithResumeChoice1 } )
+	}*/
+	/*buttonData.append( { name = "#NPE_MODULE_MENU_DESC_1", func = function() { SetPlayerTrainingResumeChoice( 0 ); UI_DoTraining() } } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_2", func = function() { SetPlayerTrainingResumeChoice( 1 ); UI_DoTraining() } } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_3", func = function() { SetPlayerTrainingResumeChoice( 2 ); UI_DoTraining() } } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_4", func = function() { SetPlayerTrainingResumeChoice( 3 ); UI_DoTraining() } } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_5", func = function() { SetPlayerTrainingResumeChoice( 4 ); UI_DoTraining() } } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_6", func = function() { SetPlayerTrainingResumeChoice( 5 ); UI_DoTraining() } } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_7", func = function() { SetPlayerTrainingResumeChoice( 6 ); UI_DoTraining() } } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_8", func = function() { SetPlayerTrainingResumeChoice( 7 ); UI_DoTraining() } } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_9", func = function() { SetPlayerTrainingResumeChoice( 8 ); UI_DoTraining() } } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_10", func = function() { SetPlayerTrainingResumeChoice( 9 ); UI_DoTraining() } } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_11", func = function() { SetPlayerTrainingResumeChoice( 10 ); UI_DoTraining() } } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_12", func = function() { SetPlayerTrainingResumeChoice( 11 ); UI_DoTraining() } } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_13", func = function() { SetPlayerTrainingResumeChoice( 12 ); UI_DoTraining() } } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_14", func = function() { SetPlayerTrainingResumeChoice( 13 ); UI_DoTraining() } } )
+	buttonData.append( { name = "NPE_MODULE_MENU_DESC_14", func = function() { /*SetPlayerTrainingResumeChoice( 13 ); UI_DoTraining()* / } } )
+	buttonData.append( { name = "NPE_MODULE_MENU_DESC_15 -> 14", func = function() { ClientCommand("disconnect \"14\"") } } )*/
+	//buttonData.append( { name = "14 test", func = function() { SetPlayerTrainingResumeChoice( 14 ); UI_DoTraining() } } )
+
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_1", trainingResume = 0 } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_2", trainingResume = 1 } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_3", trainingResume = 2 } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_4", trainingResume = 3 } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_5", trainingResume = 4 } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_6", trainingResume = 5 } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_7", trainingResume = 6 } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_8", trainingResume = 7 } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_9", trainingResume = 8 } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_10", trainingResume = 9 } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_11", trainingResume = 10 } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_12", trainingResume = 11 } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_13", trainingResume = 12 } )
+	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_14", trainingResume = 13 } )
+
+	buttonData.append( { name = "#CANCEL", func = null } )
+
+	local header = "Continue from..."
+	//local desc = "#TRAINING_PLAYAGAIN_PROMPT_DESC"
+	local desc = ""
+
+	local dialogData = {}
+	dialogData.header <- header
+	dialogData.detailsMessage <- desc
+	dialogData.buttonData <- buttonData
+
+	OpenChoiceDialog( dialogData, GetMenu( "ChoiceDialog2" ) )
+}
+
 function DialogChoice_RestartTraining()
 {
 	SetPlayerTrainingResumeChoice( -1 )
@@ -538,6 +639,18 @@ function DialogChoice_TrainPilotOnly()
 function DialogChoice_TrainTitanOnly()
 {
 	SetPlayerTrainingResumeChoice( -4 )
+	UI_DoTraining()
+}
+
+// BME
+function DialogChoice_DoTrainingWithResumeChoice0()
+{
+	SetPlayerTrainingResumeChoice( 0 )
+	UI_DoTraining()
+}
+function DialogChoice_DoTrainingWithResumeChoice1()
+{
+	SetPlayerTrainingResumeChoice( 1 )
 	UI_DoTraining()
 }
 
