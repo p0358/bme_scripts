@@ -366,7 +366,7 @@ function OnOpenTitanLoadoutsMenu( menu )
 			{
 				button.SetSelected( true )
 
-				if ( IsControllerModeActive() )
+				//if ( IsControllerModeActive() ) // BME: should be focused even if we use keyboard...
 					thread DelayedFocus( button )
 			}
 			else
@@ -419,7 +419,7 @@ function OnOpenTitanLoadoutsMenu( menu )
 			{
 				button.SetSelected( true )
 
-				if ( IsControllerModeActive() )
+				//if ( IsControllerModeActive() ) // BME: should be focused even if we use keyboard...
 					thread DelayedFocus( button )
 			}
 			else

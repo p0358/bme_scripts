@@ -393,7 +393,7 @@ function OnOpenPilotLoadoutsMenu( menu )
 			{
 				button.SetSelected( true )
 
-				if ( IsControllerModeActive() )
+				//if ( IsControllerModeActive() ) // BME: should be focused even if we use keyboard...
 					thread PilotDelayedFocus( button )
 			}
 			else
@@ -445,7 +445,7 @@ function OnOpenPilotLoadoutsMenu( menu )
 			{
 				button.SetSelected( true )
 
-				if ( IsControllerModeActive() )
+				//if ( IsControllerModeActive() ) // BME: should be focused even if we use keyboard...
 					thread PilotDelayedFocus( button )
 			}
 			else
