@@ -162,6 +162,8 @@ function main()
 
 	//RegisterButtonPressedCallback( BUTTON_SHOULDER_LEFT, ButtonCallback_MenuShoulderLeft )
 	//RegisterButtonPressedCallback( BUTTON_SHOULDER_RIGHT, ButtonCallback_MenuShoulderRight )
+
+	uiGlobal.bme_version <- ""
 }
 
 function UpdateInstallStatus()
@@ -1407,6 +1409,11 @@ function PCSwitchTeamsButton_Activate( button )
 	//ClientCommand( "bme_update_rich_presence" ) // too fast
 }
 
+function PCJoinDiscord_Activate( button )
+{
+	ClientCommand( "bme_discord_guild_invite_open" )
+}
+
 function InitFocusFade( menu )
 {
 	local elements = GetElementsByClassname( menu, "FocusFadeClass" )
@@ -2412,6 +2419,16 @@ function SeasonEndDialogClosed(...)
 	CloseDialog()
 	if ( IsConnected() )
 		ClientCommand( "SeasonEndDialogClosed" )
+}
+
+function BME_Version()
+{
+	if (uiGlobal.bme_version != "" && uiGlobal.bme_version != "?")
+		return uiGlobal.bme_version
+	uiGlobal.bme_version = GetConVarString("bme_version")
+	if (uiGlobal.bme_version == "")
+		uiGlobal.bme_version = "?"
+	return uiGlobal.bme_version
 }
 
 thread main()

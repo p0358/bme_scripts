@@ -190,6 +190,9 @@ function ShowMainMenu()
 	file.versionDisplay.SetText( GetPublicGameVersion() )
 	file.versionDisplay.Show()
 
+	file.versionDisplay2.SetText( "BME rev. " + BME_Version() )
+	file.versionDisplay2.Show()
+
 	thread UpdateDatacenterInfo()
 	thread UpdateMOTD()
 

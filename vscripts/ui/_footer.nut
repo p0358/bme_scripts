@@ -93,6 +93,7 @@ function UpdateFooterButtons( menuName = null )
 				footerData.gamepad.append( { label = "#B_BUTTON_SWITCH_PROFILE" } )
 
 			footerData.gamepad = AppendGamepadInviteLabels( footerData.gamepad )
+			//footerData.pc.append( { label = "JOIN OUR DISCORD", func = PCJoinDiscord_Activate } )
 			break
 
 		case "RankedModesMenu":
