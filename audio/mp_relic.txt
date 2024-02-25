@@ -1,0 +1,521 @@
+////////////////////
+// GLOBAL AMBIENCE /
+////////////////////
+
+
+"Amb_Relic_EXT_Global"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Relic"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"0.7"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Relic/Ambience/AMB_Relic_EXT_Global_6ch_v1_LP_COMP.wav"
+	}
+}
+
+
+"Amb_Relic_INT_SmallRoom"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Relic"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"1.2"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Relic/Ambience/AMB_Relic_INT_SmallRoom_6ch_v1_LP.wav"
+	}
+}
+
+
+"Amb_Relic_INT_ClosedRoom"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Relic"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"3.0"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Relic/Ambience/AMB_Relic_INT_ClosedRoom_6ch_v1_LP.wav"
+	}
+}
+
+
+
+////////////////////
+// MUSIC /
+////////////////////
+
+
+"Music_Relic_Intro_MCOR"
+{
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic"
+	"volume"		"2"
+	"radius"		"0"
+	"flags"			"music"
+	
+	"rndwave"
+   	{	
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}		
+	"wave"			"music\Campaign\Relic\TF_Master_RE_Intro_MCOR_STMIX_100_BPM.wav"
+	}
+}
+
+"Music_Relic_Intro_IMC"
+{
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic"
+	"volume"		"2"
+	"radius"		"0"
+	"flags"			"music"
+	
+	"rndwave"
+   	{	
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}		
+	"wave"			"music\Campaign\Relic\TF_Master_RE_Intro_IMC_STMIX_100_BPM.wav"
+	}
+}
+
+
+////////////////////
+// AMBIENT EMMITERS/
+////////////////////
+"Amb_Relic_Emit_Electrical_Wire"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Relic"
+	"volume"			"1.0"
+	"radius"			"800"
+	"pitch"				"95,105"
+	"nextAlias"			"Amb_Relic_Emit_Electrical_Wire"
+
+	"rndwave"
+	{
+	"volume"	"2.0,2.5"
+	"pitch"		"80,120"
+	"limit"		"2"
+
+	"wave"		"exo/damage/titan_damage_arc_01.wav"
+	"wave"		"exo/damage/titan_damage_arc_02.wav"
+	"wave"		"exo/damage/titan_damage_arc_03.wav"
+	}
+
+}
+
+
+
+"Amb_Relic_Emit_Turbine"
+{
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Relic"
+	"volume"		"7.2,7.6"
+	"radius"		"1500"
+	"falloff"		"1"
+	"pitch"			"88"
+	"flags"			"loop"
+
+	"rndwave"
+
+
+	{
+	"wave"			"Maps/Fracture/Emitters/Fracture_Turbine_1ch_LP_01.wav"
+
+	}
+
+}
+
+////////////////////
+// INTRO - MILITIA
+////////////////////
+
+"Relic_Scr_MilitiaIntro_DropshipFlyinAmb" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted"
+	"volume"		"1.5"
+	"radius"		"5000"
+	"falloff"		"8"
+	"flags"				"mobile"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"campaign/Relic/Relic_Scr_MilitiaIntro_Dropship_6ch_v1.wav"
+	}
+}
+
+
+"Relic_Scr_BishIntro_Foley_part1"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Relic"
+	"volume"			"5.0"
+	"pitch"				"100"
+	"radius"			"1000"
+
+
+	"rndwave"
+	{
+
+				"wave"				"campaign/Relic/Relic_Scr_MCOR_BishIntroFOley_pt1_fr97_1ch_01.wav"
+	}
+
+}
+
+
+"Relic_Scr_MacAllanIntro_Foley_part1"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Relic"
+	"volume"			"4.0"
+	"pitch"				"100"
+	"radius"			"1000"
+
+
+	"rndwave"
+	{
+
+				"wave"				"campaign/Relic/Relic_Scr_MCOR_McAllenIntroFoley_pt1_fr309_1ch_01.wav"
+	}
+
+}
+
+
+
+
+"Relic_Scr_MilitiaIntro_DropshipFlyaway" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted"
+	"volume"		"3.5"
+	"radius"		"25000"
+	"falloff"		"5"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+	"wave"			"campaign/Relic/Relic_Scr_MilitiaIntro_DropshipFlyaway_2ch_v1.wav"
+	}
+}
+
+////////////////////
+// INTRO - IMC
+////////////////////
+
+"Relic_Scr_IMCIntro_FlyIn"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Relic"
+	"volume"		"5.5"
+	"radius"		"10000"
+	"falloff"		"5"
+	"pitch" 		"100"
+	"flags"				"mobile"
+
+	"rndwave"
+	{
+	"limit"			"1"	
+		"wave"		"campaign/Relic/Relic_Scr_IMCIntro_Dropship_6ch_v3_01.wav"
+	}
+}
+
+
+"Relic_Scr_GravesIntro_Foley_part1"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Relic"
+	"volume"			"7.0"
+	"pitch"				"100"
+	"radius"			"1000"
+
+
+	"rndwave"
+	{
+
+				"wave"				"campaign/Relic/Relic_Scr_IMC_GravesIntroFoley_pt1_fr36_1ch_01.wav"
+	}
+
+}
+
+"Relic_Scr_GravesIntro_Foley_part2"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Relic"
+	"volume"			"7.0"
+	"pitch"				"100"
+	"radius"			"1000"
+
+
+	"rndwave"
+	{
+
+				"wave"				"campaign/Relic/Relic_Scr_IMC_GravesIntroFoley_pt2_fr397_1ch_01.wav"
+	}
+
+}
+
+////////////////////
+// SCRIPTED EVENTS
+////////////////////
+
+"Relic_Scr_ShipLights_On"
+{
+
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Relic"
+	"radius"		"8000"
+	"volume"		"10.0"
+	"flags"			"nevercull"
+
+
+
+	"rndwave"
+	{
+	"flags"				"spatialized"
+	"panWidth"			"90"
+	"folddownDistance"	"2000"
+	"delay"				"600"
+	"wave"			"campaign/Relic/Relic_Scr_ShipLightsOn_LR_v1.wav"
+	}
+
+	"rndwave"
+	{
+	"flags"				"spatialized"
+	"panWidth"			"90"
+	"folddownDistance"	"2000"
+	"wave"			"campaign/Relic/Relic_Scr_ShipLightsOn_PowerUp_LR_v1.wav"
+	}
+
+}
+
+"Relic_Scr_ShipLights_Off"
+{
+
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Relic"
+	"radius"		"8000"
+	"volume"		"10.0"
+	"flags"			"nevercull"
+
+
+
+	"rndwave"
+	{
+	"flags"				"spatialized"
+	"panWidth"			"90"
+	"folddownDistance"	"2000"
+	"delay"				"800"
+	"wave"			"campaign/Relic/Relic_Scr_ShipLightsOff_LR_v1.wav"
+	}
+
+	"rndwave"
+	{
+	"flags"				"spatialized"
+	"panWidth"			"90"
+	"folddownDistance"	"2000"
+	"wave"			"campaign/Relic/Relic_Scr_ShipLightsOn_PowerOff_LR_v1.wav"
+	}
+
+}
+
+"Relic_Scr_ShipEngines_Malfunction"
+{
+
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Relic"
+	"radius"		"12000"
+	"falloff"		"5"
+	"volume"		"7.0"
+	"flags"			"nevercull"
+
+
+
+	"rndwave"
+	{
+	"pitch"				"80,100"
+	"flags"				"spatialized"
+	"panWidth"			"90"
+	"folddownDistance"	"1000"
+	"wave"			"campaign/Relic/Relic_Scr_ShipEngineMalfunction_a_LR_v2.wav"
+	"wave"			"campaign/Relic/Relic_Scr_ShipEngineMalfunction_b_LR_v2.wav"
+	"wave"			"campaign/Relic/Relic_Scr_ShipEngineMalfunction_c_LR_v2.wav"
+	}
+}
+
+
+
+"Relic_Scr_ShipEngines_On"
+{
+
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Relic"
+	"radius"		"12000"
+	"volume"		"7.0"
+	"flags"			"nevercull"
+
+
+
+	"rndwave"
+	{
+	"flags"				"spatialized"
+	"panWidth"			"90"
+	"folddownDistance"	"2000"
+	"wave"			"campaign/Relic/Relic_Scr_ShipEnginesOn_LR_v2.wav"
+	}
+}
+
+"Relic_Scr_ShipEngines_Loop"
+{
+
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Relic"
+	"radius"		"10000"
+	"volume"		"5.0"
+	"falloff"		"1"
+	"flags"			"loop,nevercull"
+
+
+
+	"rndwave"
+	{
+	"flags"				"spatialized"
+	"panWidth"			"90"
+	"folddownDistance"	"1000"
+	"wave"			"campaign/Relic/Relic_Scr_ShipEnginesLoop_LR_v1.wav"
+	}
+}
+
+
+"Relic_Scr_ShipEngines_Break"
+{
+
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Relic"
+	"radius"		"16000"
+	"falloff"		"5"
+	"volume"		"9.5"
+	"flags"			"nevercull"
+
+
+
+	"rndwave"
+	{
+	"flags"				"spatialized"
+	"panWidth"			"90"
+	"folddownDistance"	"2000"
+	"wave"			"campaign/Relic/Relic_Scr_ShipEngineBreaks_LR_v1.wav"
+	}
+}
+
+
+"Relic_Scr_ShipVent_Start"
+{
+
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Relic"
+	"radius"		"10000"
+	"volume"		"4.0"
+	"flags"			"nevercull"
+
+
+
+	"rndwave"
+	{
+	"flags"				"spatialized"
+	"panWidth"			"90"
+	"folddownDistance"	"2000"
+	"wave"			"campaign/Relic/Relic_Scr_ShipVentStart_LR_v1.wav"
+	}
+}
+
+"Relic_Scr_ShipVent_Loop"
+{
+
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Relic"
+	"radius"		"10000"
+	"volume"		"4.0"
+	"flags"			"loop,nevercull"
+
+
+
+	"rndwave"
+	{
+	"flags"				"spatialized"
+	"panWidth"			"90"
+	"folddownDistance"	"2000"
+	"wave"			"campaign/Relic/Relic_Scr_ShipVentLoop_LR_v1.wav"
+	}
+}
+
+
+////////////////////
+// SHIP WARNING ANNOUNCEMENTS - PLACEHOLDER
+////////////////////
+
+"warning1"
+{
+	"flags"			"drymix"
+	"radius"		"2000"
+	"falloff"		"4"
+	"mixgroup"		"vo,DIAL,DIAL_AMB,DIAL_AMB_PA"
+	"volume"		"3.0"
+	"pitch"			"PITCH_NORM"
+
+	"ducks"			"SFX,0.2:1.0,1.0,0,0"
+	"ducks"			"music,0.3:1.0,1.0,0,0"
+	"ducks"			"DIAL_AI,0.2:1.0,1.0,0,0"
+
+	"rndwave"
+	{
+
+//		"wave"	"dialogue/Cinematics/outpost207/diag_rgPrefire_OP130_01_01_neut_rgunpa.wav"
+		"wave"	"dialogue/Cinematics/outpost207/diag_rgPrefire_OP128_01_01_neut_rgunpa.wav"
+	}
+}
+
+
+"warning2"
+{
+	"flags"			"drymix"
+	"radius"		"2000"
+	"falloff"		"4"
+	"mixgroup"		"vo,DIAL,DIAL_AMB,DIAL_AMB_PA"
+	"volume"		"3.0"
+	"pitch"			"PITCH_NORM"
+
+	"ducks"			"SFX,0.2:1.0,1.0,0,0"
+	"ducks"			"music,0.3:1.0,1.0,0,0"
+	"ducks"			"DIAL_AI,0.2:1.0,1.0,0,0"
+
+	"rndwave"
+	{
+		"wave"	"dialogue/Cinematics/outpost207/diag_rgPrefire_OP128_01_02_neut_rgunpa.wav"
+
+	}
+}
+
+
+"warning3"
+{
+	"flags"			"drymix"
+	"radius"		"2000"
+	"falloff"		"4"
+	"mixgroup"		"vo,DIAL,DIAL_AMB,DIAL_AMB_PA"
+	"volume"		"3.0"
+	"pitch"			"PITCH_NORM"
+
+	"ducks"			"SFX,0.2:1.0,1.0,0,0"
+	"ducks"			"music,0.3:1.0,1.0,0,0"
+	"ducks"			"DIAL_AI,0.2:1.0,1.0,0,0"
+
+	"rndwave"
+	{
+		"wave"	"dialogue/Cinematics/outpost207/diag_rgPrefire_OP128_01_03_neut_rgunpa.wav"
+
+	}
+}

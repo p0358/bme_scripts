@@ -1,0 +1,32 @@
+/////////////
+// Cinematics & Campaign Dialogue 
+/////////////
+// Angel City
+////////////
+
+
+
+"diag_cmp_angc_imc_blisk_losepostep_22_1a"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/cinematics/angelcity/diag_cmp_angc_imc_blisk_losepostep_22_1a.wav"
+	}
+}
+

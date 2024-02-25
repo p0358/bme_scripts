@@ -1,0 +1,3115 @@
+// Player Movement Sounds
+
+"BaseEntity.EnterWater"
+{
+	"mixgroup"		"player,SFX,SFX_Player,SFX_Player_Pilot"
+	"radius"		"1250"
+	"volume"		"0.6"
+	
+	"rndwave"
+	{
+		"limit"		"3"
+		"wave"		"player/movement/water_enter_01.wav"
+		"wave"		"player/movement/water_enter_02.wav"
+		"wave"		"player/movement/water_enter_03.wav"
+		"wave"		"player/movement/water_enter_04.wav"
+		"wave"		"player/movement/water_enter_05.wav"
+		"wave"		"player/movement/water_enter_06.wav"
+	}
+}
+"BaseEntity.ExitWater"
+{
+	"mixgroup"		"player,SFX,SFX_Player,SFX_Player_Pilot"
+	"radius"		"1250"
+	"volume"		"0.6"
+	
+	"rndwave"
+	{
+		"limit"		"3"
+		"wave"		"player/movement/water_exit_drip_01.wav"
+		"wave"		"player/movement/water_exit_drip_02.wav"
+		"wave"		"player/movement/water_exit_drip_03.wav"
+	}
+}
+
+"Player.Death"
+{
+	"mixgroup"		"SFX,SFX_Impacts,SFX_Impacts_1P_Hits_3P,SFX_Impacts_1P_Hits_3P_Bullets"
+	"radius"		"1000"
+	"volume"		"2.4"
+	"pitch"			"85,105"
+	"mixgroup"		"FleshImpacts"
+	"ducks"			"SFX_Weapons_Pilot_1P_Gunfire,0.3:0.0"
+	"ducks"			"SFX_Weapons_SingleShot_Pilot_1P_Gunfire,0.15:0.0"
+	"ducks"			"SFX_Weapons_Titan_1P_Gunfire,0.3:0.0"
+	"ducks"			"SFX_Weapons_SingleShot_Titan_1P_Gunfire,0.15:0.0"
+	"rndwave"
+	{
+
+		"limit"		"3"
+
+		"wave"	"impacts/LightBallistic/Imp_Bullet_LightBallistic_Flesh_1p_vs_3p_v1_01.wav"
+		"wave"	"impacts/LightBallistic/Imp_Bullet_LightBallistic_Flesh_1p_vs_3p_v1_02.wav"
+		"wave"	"impacts/LightBallistic/Imp_Bullet_LightBallistic_Flesh_1p_vs_3p_v1_03.wav"
+		"wave"	"impacts/LightBallistic/Imp_Bullet_LightBallistic_Flesh_1p_vs_3p_v1_04.wav"		
+		"wave"	"impacts/LightBallistic/Imp_Bullet_LightBallistic_Flesh_1p_vs_3p_v1_05.wav"
+		"wave"	"impacts/LightBallistic/Imp_Bullet_LightBallistic_Flesh_1p_vs_3p_v1_06.wav"
+		"wave"	"impacts/LightBallistic/Imp_Bullet_LightBallistic_Flesh_1p_vs_3p_v1_07.wav"
+		"wave"	"impacts/LightBallistic/Imp_Bullet_LightBallistic_Flesh_1p_vs_3p_v1_08.wav"
+		"wave"	"impacts/LightBallistic/Imp_Bullet_LightBallistic_Flesh_1p_vs_3p_v1_09.wav"
+		"wave"	"impacts/LightBallistic/Imp_Bullet_LightBallistic_Flesh_1p_vs_3p_v1_10.wav"
+		"wave"	"impacts/LightBallistic/Imp_Bullet_LightBallistic_Flesh_1p_vs_3p_v1_11.wav"
+		"wave"	"impacts/LightBallistic/Imp_Bullet_LightBallistic_Flesh_1p_vs_3p_v1_12.wav"
+		"wave"	"impacts/LightBallistic/Imp_Bullet_LightBallistic_Flesh_1p_vs_3p_v1_13.wav"
+		"wave"	"impacts/LightBallistic/Imp_Bullet_LightBallistic_Flesh_1p_vs_3p_v1_14.wav"
+		"wave"	"impacts/LightBallistic/Imp_Bullet_LightBallistic_Flesh_1p_vs_3p_v1_15.wav"
+		"wave"	"impacts/LightBallistic/Imp_Bullet_LightBallistic_Flesh_1p_vs_3p_v1_16.wav"
+		"wave"	"impacts/LightBallistic/Imp_Bullet_LightBallistic_Flesh_1p_vs_3p_v1_17.wav"
+		"wave"	"impacts/LightBallistic/Imp_Bullet_LightBallistic_Flesh_1p_vs_3p_v1_18.wav"
+		"wave"	"impacts/LightBallistic/Imp_Bullet_LightBallistic_Flesh_1p_vs_3p_v1_19.wav"
+		
+			
+	}
+}
+
+
+///////////////
+// Radar Pulse
+///////////////
+
+
+"radarpulse_on"
+{
+
+	"mixgroup"		"weapons,SFX,SFX_Gadgets,SFX_Gadgets_Cloak"
+	"radius"		"2000"
+	"volume"		"3"
+	"falloff"		"0"
+	
+	
+	"rndwave"
+	{
+		"maxrange"		"100"
+		
+		"wave"			"player\RadarPulse\RadarPulse_1P_Activate_2ch_v2_01.wav"
+	}
+	
+	"rndwave"
+	{
+
+	"flags"			"spatialized"
+	"folddownDistance"	"500"
+	"minrange"			"100"
+		
+		"wave"			"player\RadarPulse\RadarPulse_1P_Activate_2ch_v2_01.wav"	
+	}
+	
+
+}
+
+
+"radarpulse_Ping"
+{
+
+	"mixgroup"		"weapons,SFX,SFX_Gadgets,SFX_Gadgets_Cloak"
+	"radius"		"2000"
+	"volume"		"1.3"
+
+	"falloff"		"5"
+
+	"rndwave"
+	{
+		"maxrange"		"100"
+		"wave"			"player\RadarPulse\RadarPulse_1P_Ping_2ch_v2_01.wav"	
+	}
+	
+	"rndwave"
+	{
+	"delay"			"90"
+	"flags"			"spatialized"
+	"minrange"		"100"
+	"folddownDistance"	"250"
+		
+		"wave"			"player\RadarPulse\RadarPulse_1P_Ping_2ch_v2_01.wav"	
+	}
+
+}
+
+
+
+/////////
+// Cloak
+/////////
+
+
+"cloak_on"
+{
+
+	"mixgroup"		"weapons,SFX,SFX_Gadgets,SFX_Gadgets_Cloak"
+	"radius"		"2000"
+	"volume"		"1"
+	"falloff"		"7"
+	
+	"rndwave"
+	{
+		"maxrange"		"100"
+		
+		"wave"			"player\Cloak\Cloak_1P_Activate_2ch_v3_01.wav"	
+	}
+	
+	"rndwave"
+	{
+		"minrange"		"100"
+		"maxrange"		"2000"
+		
+		"wave"			"player\Cloak\Cloak_3P_Activate_1ch_v2_01.wav"	
+	}
+
+}
+
+"cloak_loop"
+{
+
+	"mixgroup"		"weapons,SFX,SFX_Gadgets,SFX_Gadgets_Cloak"
+	"radius"		"2000"
+	"volume"		"1"
+	"falloff"		"7"
+
+	
+	"rndwave"
+	{
+
+		"maxrange"		"100"
+		
+		"wave"			"player\Cloak\Cloak_1P_Loop_6ch_v2_01.wav"	
+	}
+	
+	"rndwave"
+	{
+		"minrange"		"100"
+		"maxrange"		"2000"
+		
+		"wave"			"player\Cloak\Cloak_3P_Loop_1ch_v3_01.wav"	
+	}
+
+}
+
+
+"cloak_sustain_loop"
+{
+
+	"mixgroup"		"weapons,SFX,SFX_Gadgets,SFX_Gadgets_Cloak"
+	"radius"		"2000"
+	"volume"		"1"
+	"falloff"		"7"
+	"flags"			"loop"
+
+	
+	"rndwave"
+	{
+
+		"maxrange"		"100"
+		
+		"wave"			"player\Cloak\Cloak_1P_Loop_6ch_v2_01.wav"	
+	}
+	
+	"rndwave"
+	{
+		"minrange"		"100"
+		"maxrange"		"2000"
+		
+		"wave"			"player\Cloak\Cloak_3P_Loop_1ch_v3_01.wav"	
+	}
+
+}
+
+"cloak_WarningToEnd"  //play 3.45 seconds before deactivating cloak
+{
+
+	"mixgroup"		"weapons,SFX,SFX_Gadgets,SFX_Gadgets_Cloak"
+	"radius"		"2000"
+	"volume"		"2"
+	"falloff"		"7"
+	
+	"rndwave"
+	{
+		"maxrange"		"100"
+		
+		"wave"			"player\Cloak\Cloak_1P_Deactivate_2ch_v3_01.wav"	
+	}
+	
+	"rndwave"
+	{
+		"minrange"		"100"
+		"maxrange"		"2000"
+		
+		"wave"			"player\Cloak\Cloak_3P_Deactivate_1ch_v3_01.wav"	
+	}
+
+}
+
+
+
+"cloak_InterruptEnd"  //only for when the cloak is interrupted and ends prematurely
+{
+
+	"mixgroup"		"weapons,SFX,SFX_Gadgets,SFX_Gadgets_Cloak"
+	"radius"		"2000"
+	"volume"		"2"
+	"falloff"		"7"
+	
+	"rndwave"
+	{
+		"maxrange"		"100"
+		
+		"wave"			"player\Cloak\Cloak_1P_InterruptEnd_2ch_v2_01.wav"	
+	}
+	
+	"rndwave"
+	{
+		"minrange"		"100"
+		"maxrange"		"2000"
+		
+		"wave"			"player\Cloak\Cloak_3P_InterruptEnd_1ch_v2_01.wav"	
+	}
+
+}
+
+
+////////////////
+//player melee
+////////////////
+
+"Weapon_R1Melee.NeckBreak"
+{
+	
+	"mixgroup"		"weapon,SFX,SFX_Player,SFX_Player_Pilot"
+	"volume"		"1.0"
+	"radius"		"2000"
+	
+	"rndwave"
+	{
+		"maxrange"		"185"	
+		"wave"			"impacts/player_neckbreak.wav"
+	}
+	
+	"rndwave"
+	{
+		"maxrange"		"2000"	
+		"wave"			"impacts/neckbreak_mono.wav"
+	}
+	
+}
+
+// NEW neckbreak - vs. human
+
+"Human_Mvmt_Melee_NeckSnap_1p_vs_3p"
+{
+
+// Attacker perspective
+
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"radius"		"0"
+
+	"rndwave"
+	{
+		"limit"				"2"
+		"volume"			"5.0"
+		
+		"channels"
+		{
+			"1"				"L,1.0"
+			"2"				"R,1.0"
+		}
+		
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_01.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_02.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_03.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_04.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_05.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_06.wav"
+
+	}
+
+	"rndwave"
+	{
+		"limit"				"2"
+	
+		"volume"		"4.0"
+		"delay"			"310"
+	
+		"channels"
+		{
+			"1"				"L,1.0"
+			"2"				"R,1.0"
+		}
+		
+		
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Human_2ch_v3_01.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Human_2ch_v3_02.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Human_2ch_v3_03.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Human_2ch_v3_04.wav"
+
+
+	}
+}
+
+"Human_Mvmt_Melee_NeckSnap_3p_vs_3p"
+{
+
+// Victim and bystander perspective
+
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Pilot"
+	"flags"			"layered"
+
+// 1P elements
+
+	"rndwave"
+	{
+		"limit"				"2"
+		
+		"volume"			"5.0"
+		"startDistance"   	"0"
+		"peakDistance"    	"0"
+		"startCurve"      	"0"
+		"falloffStart"    	"80"
+		"falloffEnd"      	"85"
+		"falloffCurve"    	"0"
+			
+		"channels"
+		{
+			"1"				"L,1.0"
+			"2"				"R,1.0"
+		}
+		
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_01.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_02.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_03.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_04.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_05.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_06.wav"
+
+	}
+
+	"rndwave"
+	{
+		"limit"				"2"
+		
+		"volume"			"4.0"
+		"pitch"				"97,103"
+		"startDistance"   	"0"
+		"peakDistance"    	"0"
+		"startCurve"      	"0"
+		"falloffStart"    	"80"
+		"falloffEnd"      	"85"
+		"falloffCurve"    	"0"
+		"delay"			"310"
+
+		"channels"
+		{
+			"1"				"L,1.0"
+			"2"				"R,1.0"
+		}
+		
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Human_2ch_v3_01.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Human_2ch_v3_02.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Human_2ch_v3_03.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Human_2ch_v3_04.wav"
+	}
+
+// 3P elements
+	
+	"rndwave"
+	{
+		"limit"				"2"
+		
+		"volume"			"5.0"
+		"startDistance"   	"85"
+		"peakDistance"    	"85"
+		"startCurve"      	"0"
+		"falloffStart"    	"90"
+		"falloffEnd"      	"2000"
+		"falloffCurve"    	"0"
+			
+		"flags"				"spatialized"
+		"folddownDistance"	"120"
+		
+		
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_01.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_02.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_03.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_04.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_05.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_06.wav"
+
+	}
+
+	"rndwave"
+	{
+		"limit"				"2"
+		
+		"volume"			"4.0"
+		"pitch"				"97,103"
+		"startDistance"   	"85"
+		"peakDistance"    	"85"
+		"startCurve"      	"0"
+		"falloffStart"    	"90"
+		"falloffEnd"      	"2000"
+		"falloffCurve"    	"0"
+		"delay"			"310"
+	
+		"flags"				"spatialized"
+		"folddownDistance"	"120"
+		
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Human_2ch_v3_01.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Human_2ch_v3_02.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Human_2ch_v3_03.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Human_2ch_v3_04.wav"
+	}
+		
+}
+
+// NEW neckbreak - vs. Spectre
+
+"Spectre_Mvmt_Melee_NeckSnap_1p_vs_3p"
+{
+
+// Attacker perspective
+
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"radius"		"0"
+
+	"rndwave"
+	{
+		"limit"				"2"
+		
+		"volume"		"5.0"
+		"channels"
+		{
+			"1"				"L,1.0"
+			"2"				"R,1.0"
+		}
+		
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_01.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_02.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_03.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_04.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_05.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_06.wav"
+
+	}
+
+	"rndwave"
+	{
+		"limit"				"2"
+		
+		"volume"		"4.0"
+		"delay"			"310"
+	
+		"channels"
+		{
+			"1"				"L,1.0"
+			"2"				"R,1.0"
+		}
+		
+		
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Spectre_2ch_v1_01.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Spectre_2ch_v1_02.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Spectre_2ch_v1_03.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Spectre_2ch_v1_04.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Spectre_2ch_v1_05.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Spectre_2ch_v1_06.wav"
+
+	}
+}
+
+"Spectre_Mvmt_Melee_NeckSnap_3p_vs_3p"
+{
+
+// Victim and bystander perspective
+
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Pilot"
+	"flags"			"layered"
+
+// 1P elements
+
+"rndwave"
+	{
+		"limit"				"2"
+		
+		"volume"			"5.0"
+		"startDistance"   	"0"
+		"peakDistance"    	"0"
+		"startCurve"      	"0"
+		"falloffStart"    	"80"
+		"falloffEnd"      	"85"
+		"falloffCurve"    	"0"
+			
+		"channels"
+		{
+			"1"				"L,1.0"
+			"2"				"R,1.0"
+		}
+		
+		
+		
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_01.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_02.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_03.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_04.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_05.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_06.wav"
+
+	}
+
+	"rndwave"
+	{
+		"limit"				"2"
+		"volume"			"4.0"
+		"pitch"				"97,103"
+		"startDistance"   	"0"
+		"peakDistance"    	"0"
+		"startCurve"      	"0"
+		"falloffStart"    	"80"
+		"falloffEnd"      	"85"
+		"falloffCurve"    	"0"
+		"delay"			"310"
+	
+		"channels"
+		{
+			"1"				"L,1.0"
+			"2"				"R,1.0"
+		}
+		
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Spectre_2ch_v1_01.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Spectre_2ch_v1_02.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Spectre_2ch_v1_03.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Spectre_2ch_v1_04.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Spectre_2ch_v1_05.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Spectre_2ch_v1_06.wav"
+	}
+	
+	
+// 3P elements
+	
+	"rndwave"
+	{
+		"limit"				"2"
+		
+		"volume"			"5.0"
+		"startDistance"   	"85"
+		"peakDistance"    	"85"
+		"startCurve"      	"0"
+		"falloffStart"    	"85"
+		"falloffEnd"      	"2000"
+		"falloffCurve"    	"0"
+			
+		"flags"				"spatialized"
+		"folddownDistance"	"120"
+		
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_01.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_02.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_03.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_04.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_05.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NecksnapClothGear_2ch_v1_06.wav"
+
+	}
+
+	"rndwave"
+	{
+		"limit"				"2"
+		"volume"			"4.0"
+		"pitch"				"97,103"
+		"startDistance"   	"85"
+		"peakDistance"    	"85"
+		"startCurve"      	"0"
+		"falloffStart"    	"85"
+		"falloffEnd"      	"2000"
+		"falloffCurve"    	"0"
+		"delay"			"310"
+	
+		"flags"				"spatialized"
+		"folddownDistance"	"120"
+		
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Spectre_2ch_v1_01.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Spectre_2ch_v1_02.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Spectre_2ch_v1_03.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Spectre_2ch_v1_04.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Spectre_2ch_v1_05.wav"
+		"wave"			"player/Melee/Mvmt_Human_1p_NeckSnap_Spectre_2ch_v1_06.wav"
+	}
+	
+}
+
+// OLD neckbreak
+
+"player_neckbreak"
+{
+
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"volume"		"4.0"
+	"radius"		"2000"
+
+	"rndwave"
+	{
+		"maxrange"		"2000"	
+		"pitch"			"55,85"
+		"wave"			"impacts/neckbreak_mono.wav"
+	}
+
+}
+
+"player_neckpunch"
+{
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	
+	"rndwave"
+	{
+	
+	"wave"			"player/player_human_melee1.wav"
+	"wave"			"player/player_human_melee2.wav"
+	"wave"			"player/player_human_melee3.wav"
+	"wave"			"player/player_human_melee4.wav"
+	"wave"			"player/player_human_melee5.wav"
+	
+	}
+
+}
+
+"player_melee_kick_1P" 
+{
+
+	"mixgroup"			"player,SFX,SFX_Player,SFX_Player_Pilot"	
+	"volume"			"3.5"
+	"radius"			"0"
+	
+	
+	"rndwave"	
+	{
+	"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_01.wav"
+	"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_02.wav"
+	"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_03.wav"
+	"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_04.wav"
+	"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_05.wav"
+	"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_06.wav"
+	"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_07.wav"
+	"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_08.wav"
+	}
+}
+
+"player_melee_kick_3P" 
+{
+
+	"mixgroup"			"SFX,SFX_3P"	
+	"volume"			"3.5"
+	"radius"			"1500"
+	
+	
+	"rndwave"	
+	{
+	"flags"				"spatialized"
+	"panWidth"			"90"
+	"folddownDistance"	"80"
+	"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_01.wav"
+	"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_02.wav"
+	"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_03.wav"
+	"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_04.wav"
+	"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_05.wav"
+	"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_06.wav"
+	"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_07.wav"
+	"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_08.wav"
+	}
+}
+
+
+////////////////
+//Pilot StimPack
+////////////////
+
+"Pilot_Stimpack_Activiate_1P" {
+
+	"mixgroup"		"player,SFX,SFX_Gadgets"
+	"volume"		"3.3"
+	"radius"		"0"
+	
+	"rndwave"
+	{
+	"wave"			"player/StimPack_Activate_2ch_01.wav"
+	}
+
+}
+
+"Pilot_Stimpack_Activate" {
+
+	"mixgroup"		"player,SFX,SFX_Gadgets"
+	"volume"		"3.0"
+	"radius"		"2000"
+	
+	"rndwave"
+	{
+		"maxrange"		"100"
+	
+		"wave"			"player/StimPack/StimPack_1P_Activate_6ch_01.wav"
+	}
+	
+	"rndwave"
+	{
+		"minrange"			"100"
+		"maxrange"			"2000"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"100"
+		"wave"			"player/StimPack/StimPack_3P_Activate_2ch_01.wav"
+	}
+	
+
+}
+
+"Pilot_Stimpack_Loop" {
+
+	"mixgroup"		"player,SFX,SFX_Gadgets"
+	"volume"		"3.0"
+	"radius"		"2000"
+	"flags"			"loop"
+	
+	
+	"rndwave"	
+	{
+		"maxrange"		"100"
+		"wave"			"player/StimPack/StimPack_1P_Loop_6ch_01.wav"
+	}
+	"rndwave"	
+	{
+		"minrange"			"100"
+		"maxrange"			"2000"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"100"
+		"wave"			"player/StimPack/StimPack_3P_Loop_2ch_01.wav"
+	}
+
+}
+
+"Pilot_Stimpack_Deactivate"  //Play 2 Seconds Before Ability Ends.
+{
+
+	"mixgroup"		"player,SFX,SFX_Gadgets"
+	"volume"		"3.0"
+	"radius"		"2000"
+	
+	"rndwave"
+	{
+		"maxrange"		"100"
+		"wave"			"player/StimPack/StimPack_1P_Deactivate_6ch_01.wav"
+	}
+	
+	"rndwave"
+	{
+		"minrange"			"100"
+		"maxrange"			"2000"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"100"
+		"wave"			"player/StimPack/StimPack_3P_Deactivate_2ch_01.wav"
+	}
+
+}
+
+
+"Pilot_Stimpack_Activate_3P" {
+
+	"mixgroup"		"player,SFX,SFX_Gadgets"
+	"volume"		"2.0"
+	"radius"		"2500"
+	
+	
+	"rndwave"	
+	{
+	"flags"				"spatialized"
+	"panWidth"			"90"
+	"folddownDistance"	"500"
+	"wave"			"player/StimPack_Activate_2ch_01.wav"
+	}
+}
+
+
+//////////////////
+// Player Ziplines
+//////////////////
+
+"player_zipline_attach" {
+
+	"mixgroup"		"player,SFX,SFX_Gadgets,SFX_Gadgets_Zipline"
+	"volume"		"2"
+	"radius"		"0"
+
+	"rndwave"
+	{	
+	"wave"			"player/player_zipline_attach.wav"
+	}
+	
+	"rndwave"
+	{
+	"wave"			"player/zipline/dropship_zipline_impacts_v2_1.wav"
+	"wave"			"player/zipline/dropship_zipline_impacts_v2_2.wav"
+	"wave"			"player/zipline/dropship_zipline_impacts_v2_3.wav"
+	"wave"			"player/zipline/dropship_zipline_impacts_v2_4.wav"
+	"wave"			"player/zipline/dropship_zipline_impacts_v2_5.wav"
+	"wave"			"player/zipline/dropship_zipline_impacts_v2_6.wav"
+	}
+	
+	
+}
+
+"player_zipline_loop" {
+
+	"mixgroup"		"player,SFX,SFX_Gadgets,SFX_Gadgets_Zipline"
+	"flags"			"loop"
+	"volume"		"3"
+	"radius"		"0"
+	
+	"rndwave"
+	{
+		"limit"			"2"
+		"wave"			"player/player_zipline_loop_01.wav"
+		"wave"			"player/player_zipline_loop_02.wav"
+		"wave"			"player/player_zipline_loop_03.wav"
+		"wave"			"player/player_zipline_loop_04.wav"	
+	}
+
+}
+
+"player_zipline_detach" {
+	
+	"mixgroup"		"player,SFX,SFX_Gadgets,SFX_Gadgets_Zipline"
+	"volume"		"2"
+	"radius"		"0"
+
+	"rndwave"
+	{	
+	"wave"			"player/player_zipline_detach.wav"
+	}	
+
+	"rndwave"
+	{
+	"limit"			"2"
+	"wave"			"player/zipline/dropship_zipline_impacts_v2_1.wav"
+	"wave"			"player/zipline/dropship_zipline_impacts_v2_2.wav"
+	"wave"			"player/zipline/dropship_zipline_impacts_v2_3.wav"
+	"wave"			"player/zipline/dropship_zipline_impacts_v2_4.wav"
+	"wave"			"player/zipline/dropship_zipline_impacts_v2_5.wav"
+	"wave"			"player/zipline/dropship_zipline_impacts_v2_6.wav"
+	}
+	
+}
+
+"3p_zipline_attach" {
+
+	"mixgroup"		"player,SFX,SFX_Gadgets,SFX_Gadgets_Zipline"
+	"volume"		"0.65"
+	"radius"		"2500"
+	
+	"wave"			"player/3p_zipline_attach.wav"
+
+}
+
+"3p_zipline_loop" {
+
+	"mixgroup"		"player,SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"		"1"
+	"pitch"			"90,120"
+	"radius"		"2500"
+	"falloff"		"8"
+	"flags"			"loop"
+	
+	"rndwave"
+	{
+		"limit"			"2"
+		"wave"			"player/3p_zipline_loop_01.wav"
+		"wave"			"player/3p_zipline_loop_02.wav"
+		"wave"			"player/3p_zipline_loop_03.wav"
+		"wave"			"player/3p_zipline_loop_04.wav"	
+	}
+
+}
+
+"3p_zipline_detach" {
+
+	"mixgroup"		"player,SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"		"1"
+	"radius"		"2500"
+	"rndwave"
+	{
+	"limit"			"2"
+	"wave"			"player/zipline/3P_zipline_detach_v2_1.wav"
+	"wave"			"player/zipline/3P_zipline_detach_v2_2.wav"
+	"wave"			"player/zipline/3P_zipline_detach_v2_3.wav"
+	"wave"			"player/zipline/3P_zipline_detach_v2_4.wav"
+	"wave"			"player/zipline/3P_zipline_detach_v2_5.wav"
+	"wave"			"player/zipline/3P_zipline_detach_v2_6.wav"
+	"wave"			"player/zipline/3P_zipline_detach_v2_7.wav"
+	}
+}
+
+
+
+/////////////////////
+// Titan Rodeo Sounds
+/////////////////////
+
+"Rodeo_Jump_Off"
+{
+	"volume"		"3.0"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_jump_off_01.wav"
+		"wave"		"player/titanclimber/rodeo_jump_off_02.wav"
+	}
+	
+}
+"Rodeo_Jump_Off_Interior"
+{
+	"volume"		"5.0"
+	"radius"		"0"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_jump_off_int_01.wav"
+		"wave"		"player/titanclimber/rodeo_jump_off_int_02.wav"
+	}
+	
+}
+
+/////////////////////
+// ATLAS RODEO SOUNDS
+/////////////////////
+
+"Rodeo_Atlas_Rodeo_LandOn_Right"
+{
+	"volume"		"3.0"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_atlas_rodeo_landon_right_ext.wav"
+	}
+	
+}
+
+
+"Rodeo_Atlas_Rodeo_ClimbOn_Back"
+{
+	"volume"		"3.0"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_atlas_rodeo_climbon_back_ext.wav"
+	}
+	
+}
+
+"Rodeo_Atlas_Rodeo_ClimbOn_Back_Mid"
+{
+	"volume"		"3.0"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_atlas_rodeo_climbon_back_mid_ext.wav"
+	}
+	
+}
+
+
+
+
+"Rodeo_Atlas_Rodeo_LandOn_Above"
+{
+	"volume"		"3.0"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_atlas_rodeo_landon_above_ext.wav"
+	}
+}
+
+
+
+
+"Rodeo_Atlas_Rodeo_LandOn_Back"
+{
+	"volume"		"3.0"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_atlas_rodeo_landon_back_ext.wav"
+	}
+}
+
+"Rodeo_Atlas_Rodeo_LandOn_Front"
+{
+	"volume"		"3.0"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"delay"		"220"
+		"wave"		"player/titanclimber/rodeo_atlas_rodeo_landon_front_ext.wav"
+	}
+}
+
+
+
+
+"Rodeo_Atlas_Rodeo_LandOn_Left"
+{
+	"volume"		"3.0"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_atlas_rodeo_landon_left_ext.wav"
+	}
+}
+
+
+
+"Player_Titanrodeo_hatch_rip_open"
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"volume"		"3.0"
+	"radius"		"1000"
+	
+	"rndwave"
+	{
+	
+		"wave"		"player/titanclimber/rodeo_atlas_hatch_ripoff_exterior_01.wav"
+		"wave"		"player/titanclimber/rodeo_atlas_hatch_ripoff_exterior_02.wav"
+	}
+}
+
+"Player_Titanrodeo_hatch_rip_interior"
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"volume"		"5.0"
+	"radius"		"0"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_atlas_hatch_ripoff_interior.wav"
+	}
+}
+
+"Player_Titanrodeo_hatch_rip_open_start"
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"volume"		"1.0"
+	"radius"		"1000"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+	"minrange"	"0"
+	"maxrange"	"700"
+	
+		"wave"		"player/titanclimber/rodeo_atlas_hatch_ripoff_exterior_start_01.wav"
+	}
+}
+
+"Player_Titanrodeo_hatch_rip_open_finish"
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"volume"		"1.0"
+	"radius"		"1000"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+	"minrange"	"0"
+	"maxrange"	"700"
+	
+		"wave"		"player/titanclimber/rodeo_atlas_hatch_ripoff_exterior_finish_01.wav"
+	}
+}
+
+"Player_Titanrodeo_hatch_rip_interior_start"
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"volume"		"3.0"
+	"radius"		"0"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_atlas_hatch_ripoff_interior_start_01.wav"
+	}
+}
+
+"Player_Titanrodeo_hatch_rip_interior_finish"
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"volume"		"3.0"
+	"radius"		"0"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_atlas_hatch_ripoff_interior_finish_01.wav"
+	}
+}
+
+
+"Rodeo_Atlas_hatch_rip_open_Exterior"
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"volume"		"3.0"
+	"radius"		"1000"
+	
+	"rndwave"
+	{
+	
+		"wave"		"player/titanclimber/rodeo_atlas_hatch_ripoff_exterior_01.wav"
+		"wave"		"player/titanclimber/rodeo_atlas_hatch_ripoff_exterior_02.wav"
+	}
+}
+
+"Rodeo_Atlas_hatch_rip_Interior"
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"volume"		"5.0"
+	"radius"		"0"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_atlas_hatch_ripoff_interior.wav"
+	}
+}
+
+
+/////////////////////
+// ATLAS RODEO SOUNDS - Consistent Naming
+/////////////////////
+
+"Rodeo_Atlas_Rodeo_ClimbOn_Right_Exterior"
+{
+	"volume"		"5.0"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.35"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_atlas_rodeo_landon_right_ext.wav"
+	}
+	
+}
+
+"Rodeo_Atlas_Rodeo_ClimbOn_Right_Interior"
+{
+	"volume"		"5.0"
+	"radius"		"0"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"ducks"			"all,0.35"
+	
+	"rndwave"
+	{
+			
+			"wave"		"player/titanclimber/rodeo_atlas_rodeo_landon_right_int.wav"
+	}
+}
+
+"Rodeo_Atlas_Rodeo_ClimbOn_Back_Exterior"
+{
+	"volume"		"5.0"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.35"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_atlas_rodeo_climbon_back_ext.wav"
+	}
+	
+}
+
+"Rodeo_Atlas_Rodeo_ClimbOn_Back_Interior"
+{
+	"volume"		"5.0"
+	"radius"		"0"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"ducks"			"all,0.35"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_atlas_rodeo_climbon_back_int.wav"
+	}
+}
+
+"Rodeo_Atlas_Rodeo_ClimbOn_Back_Mid_Exterior"
+{
+	"volume"		"5.0"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.35"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_atlas_rodeo_climbon_back_mid_ext.wav"
+	}
+	
+}
+
+
+"Rodeo_Atlas_Rodeo_ClimbOn_Back_Mid_Interior"
+{
+	"volume"		"5.0"
+	"radius"		"0"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"ducks"			"all,0.35"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_atlas_rodeo_climbon_back_mid_int.wav"
+	}
+}
+
+"Rodeo_Atlas_Rodeo_LandOn_Above_Exterior"
+{
+	"volume"		"5.0"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.35"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_atlas_rodeo_landon_above_ext.wav"
+	}
+}
+
+
+"Rodeo_Atlas_Rodeo_LandOn_Above_Interior"
+{
+	"volume"		"5.0"
+	"radius"		"0"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"ducks"			"all,0.35"
+	
+	"rndwave"
+	{	
+		"wave"		"player/titanclimber/rodeo_atlas_rodeo_landon_above_int.wav"
+	}
+}
+
+
+"Rodeo_Atlas_Rodeo_LandOn_Back_Exterior"
+{
+	"volume"		"5.0"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.35"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_atlas_rodeo_landon_back_ext.wav"
+	}
+}
+
+
+"Rodeo_Atlas_Rodeo_LandOn_Back_Interior"
+{
+	"volume"		"5.0"
+	"radius"		"0"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"ducks"			"all,0.35"
+	
+	"rndwave"	
+	{
+		"wave"		"player/titanclimber/rodeo_atlas_rodeo_landon_back_int.wav"
+	}
+}
+
+
+"Rodeo_Atlas_Rodeo_ClimbOn_Front_Exterior"
+{
+	"volume"		"5.0"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.35"
+	
+	"rndwave"
+	{
+		"delay"		"220"
+		"wave"		"player/titanclimber/rodeo_atlas_rodeo_climbon_front_ext_v2.wav"
+	}
+}
+
+"Rodeo_Atlas_Rodeo_ClimbOn_Front_Interior"
+{
+	"volume"		"5.0"
+	"radius"		"0"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"ducks"			"all,0.35"
+	
+	"rndwave"	
+	{
+		"delay"		"350"
+		"wave"		"player/titanclimber/rodeo_atlas_rodeo_climbon_front_int_v2.wav"
+	}
+}
+
+
+"Rodeo_Atlas_Rodeo_ClimbOn_Left_Exterior"
+{
+	"volume"		"5.0"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.35"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_atlas_rodeo_landon_left_ext.wav"
+	}
+}
+
+"Rodeo_Atlas_Rodeo_ClimbOn_Left_Interior"
+{
+	"volume"		"5.0"
+	"radius"		"0"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"ducks"			"all,0.35"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_atlas_rodeo_landon_left_int.wav"
+	}
+}
+
+"Rodeo_Atlas_Hatch_Ripoff_exterior"
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"volume"		"5.0"
+	"radius"		"1000"
+	
+	"rndwave"
+	{
+	
+		"wave"		"player/titanclimber/rodeo_atlas_hatch_ripoff_exterior_01.wav"
+		"wave"		"player/titanclimber/rodeo_atlas_hatch_ripoff_exterior_02.wav"
+	}
+}
+
+"Rodeo_Atlas_Hatch_Ripoff_Interior"
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"volume"		"5.0"
+	"radius"		"0"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_atlas_hatch_ripoff_interior.wav"
+	}
+}
+
+
+/////////////////////
+// STRYDER RODEO SOUNDS
+/////////////////////
+
+
+"Rodeo_Stryder_Rodeo_ClimbOn_Back_Exterior"
+{
+	"volume"		"5.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_stryder_rodeo_entrance_back_ext.wav"
+	}
+}
+
+"Rodeo_Stryder_Rodeo_ClimbOn_Back_Interior"
+{
+	"volume"		"6.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_stryder_rodeo_entrance_back_int.wav"
+	}
+}
+
+
+"Rodeo_Stryder_Rodeo_ClimbOn_Back_Mid_Exterior"
+{
+	"volume"		"5.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_stryder_rodeo_entrance_back_ext.wav"
+	}
+}
+
+"Rodeo_Stryder_Rodeo_ClimbOn_Back_Mid_Interior"
+{
+	"volume"		"6.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_stryder_rodeo_entrance_back_int.wav"
+	}
+}
+
+
+"Rodeo_Stryder_Rodeo_ClimbOn_Front_Exterior"
+{
+	"volume"		"5.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_stryder_rodeo_entrance_front_ext.wav"
+	}
+}
+
+"Rodeo_Stryder_Rodeo_ClimbOn_Front_Interior"
+{
+	"volume"		"6.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_stryder_rodeo_entrance_front_int.wav"
+	}
+}
+
+"Rodeo_Stryder_Rodeo_ClimbOn_Left_Exterior"
+{
+	"volume"		"5.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_stryder_rodeo_entrance_left_ext.wav"
+	}
+}
+
+"Rodeo_Stryder_Rodeo_ClimbOn_Left_Interior"
+{
+	"volume"		"6.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_stryder_rodeo_entrance_left_int.wav"
+	}
+}
+
+"Rodeo_Stryder_Rodeo_ClimbOn_Right_Exterior"
+{
+	"volume"		"5.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_stryder_rodeo_entrance_right_ext.wav"
+	}
+}
+
+"Rodeo_Stryder_Rodeo_ClimbOn_Right_Interior"
+{
+	"volume"		"6.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_stryder_rodeo_entrance_right_int.wav"
+	}
+}
+
+"Rodeo_Stryder_Rodeo_LandOn_Above_Exterior"
+{
+	"volume"		"5.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_stryder_rodeo_entrance_back_ext.wav"
+	}
+}
+
+"Rodeo_Stryder_Rodeo_LandOn_Above_Interior"
+{
+	"volume"		"6.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_stryder_rodeo_entrance_back_int.wav"
+	}
+}
+
+"Rodeo_Stryder_Rodeo_LandOn_Back_Exterior"
+{
+	"volume"		"5.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_stryder_rodeo_entrance_back_ext.wav"
+	}
+}
+
+"Rodeo_Stryder_Rodeo_LandOn_Back_Interior"
+{
+	"volume"		"6.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_stryder_rodeo_entrance_back_int.wav"
+	}
+}
+
+
+"Rodeo_Stryder_Hatch_Ripoff_Exterior"
+{
+	"volume"		"5.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_stryder_hatch_ripoff_exterior_2ch_01.wav"
+	}
+}
+
+"Rodeo_Stryder_Hatch_Ripoff_Interior"
+{
+	"volume"		"6.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_stryder_hatch_ripoff_interior_2ch_01.wav"
+	}
+}
+
+/////////////////////
+// OGRE RODEO SOUNDS
+/////////////////////
+
+"Rodeo_Ogre_Rodeo_LandOn_Back_Exterior"
+{
+	"volume"		"5.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_ogre_rodeo_climbon_back_ext.wav"
+	}
+}
+
+"Rodeo_Ogre_Rodeo_LandOn_Back_Interior"
+{
+	"volume"		"5.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_ogre_rodeo_climbon_back_int.wav"
+	}
+}
+
+"Rodeo_Ogre_Rodeo_ClimbOn_Back_Exterior"
+{
+	"volume"		"5.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_ogre_rodeo_climbon_back_lower_ext.wav"
+	}
+}
+
+"Rodeo_Ogre_Rodeo_ClimbOn_Back_Interior"
+{
+	"volume"		"5.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_ogre_rodeo_climbon_back_lower_int.wav"
+	}
+}
+
+"Rodeo_Ogre_Rodeo_ClimbOn_Back_Mid_Exterior"
+{
+	"volume"		"5.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_ogre_rodeo_climbon_back_mid_ext.wav"
+	}
+}
+
+"Rodeo_Ogre_Rodeo_ClimbOn_Back_Mid_Interior"
+{
+	"volume"		"5.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_ogre_rodeo_climbon_back_mid_int.wav"
+	}
+}
+
+"Rodeo_Ogre_Rodeo_LandOn_Above_Exterior"
+{
+	"volume"		"5.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_ogre_rodeo_climbon_front_ext.wav"
+	}
+}
+
+"Rodeo_Ogre_Rodeo_LandOn_Above_Interior"
+{
+	"volume"		"5.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_ogre_rodeo_climbon_front_int.wav"
+	}
+}
+
+"Rodeo_Ogre_Rodeo_ClimbOn_Front_Exterior"
+{
+	"volume"		"5.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_ogre_rodeo_climbon_front_lower_ext.wav"
+	}
+}
+
+"Rodeo_Ogre_Rodeo_ClimbOn_Front_Interior"
+{
+	"volume"		"5.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_ogre_rodeo_climbon_front_lower_int.wav"
+	}
+}
+
+"Rodeo_Ogre_Rodeo_ClimbOn_Left_Exterior"
+{
+	"volume"		"5.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_ogre_rodeo_climbon_left_ext.wav"
+	}
+}
+
+"Rodeo_Ogre_Rodeo_ClimbOn_Left_Interior"
+{
+	"volume"		"5.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_ogre_rodeo_climbon_left_int.wav"
+	}
+}
+
+"Rodeo_Ogre_Rodeo_ClimbOn_Right_Exterior"
+{
+	"volume"		"5.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_ogre_rodeo_climbon_right_ext.wav"
+	}
+}
+
+"Rodeo_Ogre_Rodeo_ClimbOn_Right_Interior"
+{
+	"volume"		"5.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_ogre_rodeo_climbon_right_int.wav"
+	}
+}
+
+"Rodeo_Ogre_Hatch_Ripoff_Exterior"
+{
+	"volume"		"5.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_ogre_hatch_ripoff_ext.wav"
+	}
+}
+
+"Rodeo_Ogre_Hatch_Ripoff_Interior"
+{
+	"volume"		"5.5"
+	"radius"		"500"
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"ducks"			"all,0.3"
+	
+	"rndwave"
+	{
+		"wave"		"player/titanclimber/rodeo_ogre_hatch_ripoff_int.wav"
+	}
+}
+
+
+
+/////////////////////
+// DATA KNIFE SOUNDS
+/////////////////////
+
+"DataKnife_Hack_Spectre_Pt1" 
+{
+	"mixgroup"		"weapon,SFX,SFX_Gadgets,SFX_Gadgets_Dataknife"
+	"volumescale"		"4.2"
+	"flags"			"layered"
+	
+	"rndwave" 
+	{
+	
+		"startDistance"     		"0"
+		"peakDistance"     			"0"
+		"startCurve"       			"0"
+		"falloffStart"      		"80"
+		"falloffEnd"        		"81"
+		"falloffCurve"      		"5"
+	
+		"channels" 
+		{ 
+			"1"		"L,2.5"
+			"2"		"R,2.5"
+			"3"		"C,2.5"
+			"4"		"LFE"
+			"5"		"Ls"
+			"6"		"Rs"	
+		}
+		
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_Pt1_6ch_v1_01.wav"
+	}
+	
+		"rndwave" 
+	{
+
+		"startDistance"     		"70"
+		"peakDistance"     			"70"
+		"startCurve"       			"0"
+		"falloffStart"      		"0"
+		"falloffEnd"        		"1500"
+		"falloffCurve"      		"0"
+		
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_Pt1_1ch_v1_01.wav"
+	}
+		
+}
+
+"DataKnife_Hack_Spectre_Pt2" 
+{
+
+	"mixgroup"		"weapon,SFX,SFX_Gadgets,SFX_Gadgets_Dataknife"
+	"volumescale"		"2.6"
+	"flags"			"layered"
+		
+	"rndwave" 
+	{
+		"startDistance"     		"0"
+		"peakDistance"     			"0"
+		"startCurve"       			"0"
+		"falloffStart"      		"70"
+		"falloffEnd"        		"71"
+		"falloffCurve"      		"5"
+	
+		"channels" 
+		{ 
+			"1"		"L,2.4"
+			"2"		"R,2.4"
+			"3"		"C,2.4"
+			"4"		"LFE"
+			"5"		"Ls"
+			"6"		"Rs"	
+		}
+		
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_Pt2_6ch_v1_01.wav"
+	}
+	
+		"rndwave" 
+	{
+		"startDistance"     		"0"
+		"peakDistance"     			"0"
+		"startCurve"       			"0"
+		"falloffStart"      		"70"
+		"falloffEnd"        		"71"
+		"falloffCurve"      		"5"
+	
+		"channels" 
+		{ 
+			"1"		"L,2.4"
+			"2"		"R,2.4"
+			"3"		"C,2.4"
+			"4"		"LFE"
+			"5"		"Ls"
+			"6"		"Rs"	
+		}
+		
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_Pt2Cloth_6ch_v1_01.wav"
+	}
+
+		"rndwave" 
+	{
+
+		"startDistance"     		"70"
+		"peakDistance"     			"70"
+		"startCurve"       			"0"
+		"falloffStart"      		"0"
+		"falloffEnd"        		"1500"
+		"falloffCurve"      		"0"
+		
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_Pt2_1ch_v1_01.wav"
+	}
+	
+		"rndwave" 
+	{
+
+		"startDistance"     		"70"
+		"peakDistance"     			"70"
+		"startCurve"       			"0"
+		"falloffStart"      		"0"
+		"falloffEnd"        		"1500"
+		"falloffCurve"      		"0"
+		
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_Pt2Cloth_1ch_v1_01.wav"
+	}
+	
+}
+
+"DataKnife_Hack_Spectre_Pt3" 
+{
+	"mixgroup"		"weapon,SFX,SFX_Gadgets,SFX_Gadgets_Dataknife"
+	"volumescale"		"3.5"
+	"flags"			"layered"
+		
+	"rndwave" 
+	{
+	
+		"startDistance"     		"0"
+		"peakDistance"     			"0"
+		"startCurve"       			"0"
+		"falloffStart"      		"90"
+		"falloffEnd"        		"91"
+		"falloffCurve"      		"5"
+	
+		"channels" 
+		{ 
+			"1"		"L,2.4"
+			"2"		"R,2.4"
+			"3"		"C,2.4"
+			"4"		"LFE"
+			"5"		"Ls"
+			"6"		"Rs"	
+		}
+		
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_Pt3_6ch_v1_01.wav"
+	}
+	
+		"rndwave" 
+	{
+
+		"startDistance"     		"70"
+		"peakDistance"     			"70"
+		"startCurve"       			"0"
+		"falloffStart"      		"0"
+		"falloffEnd"        		"1500"
+		"falloffCurve"      		"0"
+		
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_Pt3_1ch_v1_01.wav"
+	}	
+}
+
+"DataKnife_Hack_Spectre_ArmorRattle" 
+{
+
+	"radius"		"500"
+	"mixgroup"		"weapon,SFX,SFX_Gadgets,SFX_Gadgets_Dataknife"
+	"volume"		"6.1"
+	"pitch"			"120"
+		
+	"rndwave" 
+	{
+	
+		"channels" 
+		{ 
+			"1"		"C"
+
+		}
+		
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ArmorRattle_01.wav"
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ArmorRattle_02.wav"
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ArmorRattle_03.wav"
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ArmorRattle_04.wav"
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ArmorRattle_05.wav"
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ArmorRattle_06.wav"
+	}
+		
+}
+
+"DataKnife_Hack_Spectre_ArmorRattle_3P" 
+{
+
+	"radius"		"900"
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Spectres"
+	"volume"		"8.0"
+	"pitch"			"110,120"
+		
+	"rndwave" 
+	{
+		
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ArmorRattle_01.wav"
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ArmorRattle_02.wav"
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ArmorRattle_03.wav"
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ArmorRattle_04.wav"
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ArmorRattle_05.wav"
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ArmorRattle_06.wav"
+	}
+	
+	"rndwave" 
+	{
+		"delay"			"40"
+		"pitch"			"100,110"
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ArmorRattle_01.wav"
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ArmorRattle_02.wav"
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ArmorRattle_03.wav"
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ArmorRattle_04.wav"
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ArmorRattle_05.wav"
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ArmorRattle_06.wav"
+	}
+		
+}
+
+"DataKnife_Hack_Spectre_ReprogramTones" 
+{
+	"mixgroup"		"weapon,SFX,SFX_Gadgets,SFX_Gadgets_Dataknife"
+	"volume"		"3.2"
+	"pitch"			"97,102"
+	"flags"			"layered"
+		
+	"rndwave" 
+	{
+
+		"startDistance"     		"0"
+		"peakDistance"     			"0"
+		"startCurve"       			"0"
+		"falloffStart"      		"0"
+		"falloffEnd"        		"1000"
+		"falloffCurve"      		"0"
+		
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ReprogramTones_1ch_v1_01.wav"
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ReprogramTones_1ch_v1_02.wav"
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ReprogramTones_1ch_v1_03.wav"
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ReprogramTones_1ch_v1_04.wav"
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ReprogramTones_1ch_v1_05.wav"
+	}	
+}
+
+
+"DataKnife_Hack_Console_Pt1" 
+{
+
+	
+	"mixgroup"		"weapon,SFX,SFX_Gadgets,SFX_Gadgets_Dataknife"
+	"volume"		"5.0"
+	"flags"			"layered"
+		
+	"rndwave" 
+	{
+	
+		"startDistance"     		"0"
+		"peakDistance"     			"0"
+		"startCurve"       			"0"
+		"falloffStart"      		"70"
+		"falloffEnd"        		"71"
+		"falloffCurve"      		"5"
+			
+		"channels" 
+		{ 
+			"1"		"L,1.0"
+			"2"		"R,1.0"
+			"3"		"C,1.0"
+			"4"		"LFE"
+			"5"		"Ls"
+			"6"		"Rs"	
+		}
+		
+		"wave"			"player/DataKnife/DataKnife_Hack_Console_Pt1_6ch_v1_01.wav"
+	}
+
+		"rndwave" 
+	{
+		"startDistance"     		"70"
+		"peakDistance"     			"70"
+		"startCurve"       			"0"
+		"falloffStart"      		"0"
+		"falloffEnd"        		"1500"
+		"falloffCurve"      		"5"
+				
+		"wave"			"player/DataKnife/DataKnife_Hack_Console_Pt1_1ch_v1_01.wav"
+	}
+	
+}
+
+"DataKnife_Hack_Console_Pt2" 
+{
+
+	
+	"mixgroup"		"weapon,SFX,SFX_Gadgets,SFX_Gadgets_Dataknife"
+	"volume"		"5.0"
+	"flags"			"layered"
+		
+	"rndwave" 
+	{
+		
+		"startDistance"     		"0"
+		"peakDistance"     			"0"
+		"startCurve"       			"0"
+		"falloffStart"      		"70"
+		"falloffEnd"        		"71"
+		"falloffCurve"      		"5"
+			
+		"channels" 
+		{ 
+			"1"		"L,1.0"
+			"2"		"R,1.0"
+			"3"		"C,1.0"
+			"4"		"LFE"
+			"5"		"Ls"
+			"6"		"Rs"	
+		}
+		
+		"wave"			"player/DataKnife/DataKnife_Hack_Console_Pt2_6ch_v1_01.wav"
+	}
+
+		"rndwave" 
+	{
+
+		
+		"startDistance"     		"70"
+		"peakDistance"     			"70"
+		"startCurve"       			"0"
+		"falloffStart"      		"0"
+		"falloffEnd"        		"1500"
+		"falloffCurve"      		"5"
+				
+		"wave"			"player/DataKnife/DataKnife_Hack_Console_Pt2_1ch_v1_01.wav"
+	}
+	
+	
+}
+
+"DataKnife_Hack_Console_Pt3" 
+{
+
+	
+	"mixgroup"		"weapon,SFX,SFX_Gadgets,SFX_Gadgets_Dataknife"
+	"volume"		"5.0"
+	"flags"			"layered"
+		
+	"rndwave" 
+	{
+	
+		"startDistance"     		"0"
+		"peakDistance"     			"0"
+		"startCurve"       			"0"
+		"falloffStart"      		"70"
+		"falloffEnd"        		"71"
+		"falloffCurve"      		"5"
+				
+		"channels" 
+		{ 
+			"1"		"L,1.0"
+			"2"		"R,1.0"
+			"3"		"C,1.0"
+			"4"		"LFE"
+			"5"		"Ls"
+			"6"		"Rs"	
+		}
+		
+		"wave"			"player/DataKnife/DataKnife_Hack_Console_Pt3_6ch_v1_01.wav"
+	}
+
+		"rndwave" 
+	{
+
+		
+		"startDistance"     		"70"
+		"peakDistance"     			"70"
+		"startCurve"       			"0"
+		"falloffStart"      		"0"
+		"falloffEnd"        		"1500"
+		"falloffCurve"      		"5"
+				
+		"wave"			"player/DataKnife/DataKnife_Hack_Console_Pt3_1ch_v1_01.wav"
+	}
+	
+}
+
+"DataKnife_Hack_Console_Pt4" 
+{
+
+	
+	"mixgroup"		"weapon,SFX,SFX_Gadgets,SFX_Gadgets_Dataknife"
+	"volume"		"5.0"
+	"flags"			"layered"
+		
+	"rndwave" 
+	{
+		"startDistance"     		"0"
+		"peakDistance"     			"0"
+		"startCurve"       			"0"
+		"falloffStart"      		"70"
+		"falloffEnd"        		"71"
+		"falloffCurve"      		"5"
+				
+		"channels" 
+		{ 
+			"1"		"L,1.0"
+			"2"		"R,1.0"
+			"3"		"C,1.0"
+			"4"		"LFE"
+			"5"		"Ls"
+			"6"		"Rs"	
+		}
+		
+		"wave"			"player/DataKnife/DataKnife_Hack_Console_Pt4_6ch_v1_01.wav"
+	}
+
+		"rndwave" 
+	{
+
+		
+		"startDistance"     		"70"
+		"peakDistance"     			"70"
+		"startCurve"       			"0"
+		"falloffStart"      		"0"
+		"falloffEnd"        		"1500"
+		"falloffCurve"      		"5"
+				
+		"wave"			"player/DataKnife/DataKnife_Hack_Console_Pt4_1ch_v1_01.wav"
+	}
+	
+}
+
+"DataKnife_Hack_Console_Pt5" 
+{
+
+	
+	"mixgroup"		"weapon,SFX,SFX_Gadgets,SFX_Gadgets_Dataknife"
+	"volume"		"5.0"
+	"flags"			"layered"
+		
+	"rndwave" 
+	{
+	
+		"startDistance"     		"0"
+		"peakDistance"     			"0"
+		"startCurve"       			"0"
+		"falloffStart"      		"70"
+		"falloffEnd"        		"71"
+		"falloffCurve"      		"5"
+				
+		"channels" 
+		{ 
+			"1"		"L,1.0"
+			"2"		"R,1.0"
+			"3"		"C,1.0"
+			"4"		"LFE"
+			"5"		"Ls"
+			"6"		"Rs"	
+		}
+		
+		"wave"			"player/DataKnife/DataKnife_Hack_Console_Pt5_6ch_v1_01.wav"
+	}
+
+		"rndwave" 
+	{
+
+		
+		"startDistance"     		"70"
+		"peakDistance"     			"70"
+		"startCurve"       			"0"
+		"falloffStart"      		"0"
+		"falloffEnd"        		"1500"
+		"falloffCurve"      		"5"
+		
+		"wave"			"player/DataKnife/DataKnife_Hack_Console_Pt5_1ch_v1_01.wav"
+	}
+	
+}
+
+
+"DataKnife_HackComplete_Console_Pt1" 
+{
+
+	"mixgroup"		"weapon,SFX,SFX_Gadgets,SFX_Gadgets_Dataknife"
+	"volume"		"5.0"
+	"flags"			"layered"
+		
+	"rndwave" 
+	{
+	
+		"startDistance"     		"0"
+		"peakDistance"     			"0"
+		"startCurve"       			"0"
+		"falloffStart"      		"70"
+		"falloffEnd"        		"71"
+	
+		"channels" 
+		{ 
+			"1"		"L,1.0"
+			"2"		"R,1.0"
+			"3"		"C,1.0"
+			"4"		"LFE"
+			"5"		"Ls"
+			"6"		"Rs"	
+		}
+		
+		"wave"			"player/DataKnife/DataKnife_HackComplete_Console_Pt1_6ch_v1_01.wav"
+	}
+	
+
+		"rndwave" 
+	{
+
+		
+		"startDistance"     		"70"
+		"peakDistance"     			"70"
+		"startCurve"       			"0"
+		"falloffStart"      		"0"
+		"falloffEnd"        		"1500"
+		"falloffCurve"      		"5"
+		
+		"wave"			"player/DataKnife/DataKnife_HackComplete_Console_Pt1_1ch_v1_01.wav"
+	}	
+}
+
+"Dataknife_Loopable_Beep" 
+{
+	"mixgroup"		"weapon,SFX,SFX_Gadgets,SFX_Gadgets_Dataknife"
+	"volume"		"5.0"
+	"flags"			"loop,layered"
+	
+	"rndwave" 
+	{
+	
+		"startDistance"     		"0"
+		"peakDistance"     			"0"
+		"startCurve"       			"0"
+		"falloffStart"      		"70"
+		"falloffEnd"        		"71"
+		"falloffCurve"      		"5"
+	
+		"channels" 
+		{ 
+			"1"		"C"
+		}
+		
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_Beep_1ch_v1_LP.wav"
+	}
+
+}
+
+"Dataknife_Ring1" 
+{
+	"radius"		"200"
+	"mixgroup"		"weapon,SFX,SFX_Gadgets,SFX_Gadgets_Dataknife"
+	"volume"			"5.0"
+		
+	"rndwave" 
+	{
+	
+		"channels" 
+		{ 
+			"1"		"C"
+		}
+		
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ProgressBeep_1ch_v1.wav"
+	}
+
+}
+
+"Dataknife_Ring2" 
+{
+	"radius"		"200"
+	"mixgroup"		"weapon,SFX,SFX_Gadgets,SFX_Gadgets_Dataknife"
+	"volume"			"5.0"
+		
+	"rndwave" 
+	{
+	
+		"channels" 
+		{ 
+			"1"		"C"
+		}
+		
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_ProgressBeep_1ch_v1.wav"
+	}
+
+}
+
+"Dataknife_Complete" 
+{
+	"radius"		"200"
+	"mixgroup"		"weapon,SFX,SFX_Gadgets,SFX_Gadgets_Dataknife"
+	"volume"			"5.5"
+		
+	"rndwave" 
+	{
+	
+		"channels" 
+		{ 
+			"1"		"C"
+		}
+		
+		"wave"			"player/DataKnife/DataKnife_Hack_Spectre_CompletedBeep_6ch_v1.wav"
+	}
+
+}
+
+
+/////////////////////////////
+// OLD DATAKNIFE SOUNDS   //
+///////////////////////////
+
+"dataknife_stab" 
+{
+
+	"radius"		"500"
+	"mixgroup"		"weapon,SFX,SFX_Gadgets,SFX_Gadgets_Dataknife"
+	"volume"			"1.0"
+	"pitch"			"100"
+	
+	"wave"			"player/dataknife_stab.wav"
+
+}
+
+"dataknife_remove" 
+{
+	"radius"		"500"
+	"mixgroup"		"weapon,SFX,SFX_Gadgets,SFX_Gadgets_Dataknife"
+	"volume"			"1.0"
+	"pitch"			"100"
+	
+	"wave"			"player/dataknife_remove.wav"
+
+}
+
+"dataknife_control_panel_open" 
+{
+	"radius"		"500"
+	"mixgroup"		"weapon,SFX,SFX_Gadgets,SFX_Gadgets_Dataknife"
+	"volume"			"1.0"
+	"pitch"			"100"
+	
+	"wave"			"player/dataknife_control_panel_open.wav"
+
+}
+
+"dataknife_switchblade_activate" 
+{
+	"radius"		"500"
+	"mixgroup"		"weapon,SFX,SFX_Gadgets,SFX_Gadgets_Dataknife"
+	"volume"			"1.0"
+	"pitch"			"100"
+	
+	"wave"			"player/dataknife_switchblade_activate.wav"
+
+}
+
+"dataknife_control_panel_stab" 
+{
+	"radius"		"500"
+	"mixgroup"		"weapon,SFX,SFX_Gadgets,SFX_Gadgets_Dataknife"
+	"volume"			"1.0"
+	"pitch"			"100"
+	
+	"wave"			"player/dataknife_control_panel_stab.wav"
+
+}
+
+"dataknife_control_panel_close" 
+{
+	"radius"		"500"
+	"mixgroup"		"weapon,SFX,SFX_Gadgets,SFX_Gadgets_Dataknife"
+	"volume"			"1.0"
+	"pitch"			"100"
+	
+	"wave"			"player/dataknife_control_panel_close.wav"
+
+}
+
+
+//-----------------------
+//PLAYER GENERAL MOVEMENT
+//-----------------------
+
+"player_eject_windrush" 
+{
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Pilot"
+	"volume"		"1.5"
+	"radius"		"0"
+		
+	"rndwave"
+	{	
+
+		"wave"			"exo\Atlas\Eject\Atlas_Eject_PilotAscentFoley_01.wav"
+		"wave"			"exo\Atlas\Eject\Atlas_Eject_PilotAscentFoley_02.wav"
+		"wave"			"exo\Atlas\Eject\Atlas_Eject_PilotAscentFoley_03.wav"
+	}	
+	
+}
+
+"player_fallingdescent_windrush" 
+{
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Pilot"
+	"volume"		"1"
+	"radius"		"0"
+		
+	"rndwave"
+	{	
+
+		"wave"			"exo\Atlas\Eject\Atlas_Eject_PilotDescentFoley_longer_01.wav"
+		"wave"			"exo\Atlas\Eject\Atlas_Eject_PilotDescentFoley_longer_02.wav"
+		"wave"			"exo\Atlas\Eject\Atlas_Eject_PilotDescentFoley_longer_03.wav"
+	}	
+	
+}
+
+"player_eject_apex_wind" 
+{
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Pilot"
+	"volume"		"3"
+	"radius"		"0"
+		
+	"rndwave"
+	{	
+
+		"wave"			"exo\Atlas\Eject\Atlas_Eject_PilotApexWind_01.wav"
+		"wave"			"exo\Atlas\Eject\Atlas_Eject_PilotApexWind_02.wav"
+		"wave"			"exo\Atlas\Eject\Atlas_Eject_PilotApexWind_03.wav"
+
+	}	
+	
+}
+
+
+
+"player_enter_water"
+{
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Pilot"
+	"radius"		"800"
+	"volume"		"0.9, 0.95"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+	
+		"flags"				"spatialized"
+		"folddowndistance"	"100"
+		"limit"			"2"
+		"wave"		"player/movement/water_enter_01.wav"
+		"wave"		"player/movement/water_enter_02.wav"
+		"wave"		"player/movement/water_enter_03.wav"
+		"wave"		"player/movement/water_enter_04.wav"
+		"wave"		"player/movement/water_enter_05.wav"
+		"wave"		"player/movement/water_enter_06.wav"
+	}
+}
+
+"player_leave_water"
+{
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Pilot"
+	"radius"		"800"
+	"volume"		"0.9, 0.95"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddowndistance"	"100"
+		"limit"			"2"
+		"wave"		"player/movement/water_exit_drip_01.wav"
+		"wave"		"player/movement/water_exit_drip_02.wav"
+		"wave"		"player/movement/water_exit_drip_03.wav"
+	}
+}
+
+
+"Pilot_Wallslam"
+{
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Pilot"
+	"radius"		"900"
+	"volume"		"1.5"
+	"pitch"			"90,110"
+	
+	"rndwave"
+	{
+		"channels"
+        {
+            "1"               "L"
+            "1"               "R"
+        }
+		"maxrange"		"500"
+		"limit"			"2"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Soft_1ch_v2_01.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Soft_1ch_v2_02.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Soft_1ch_v2_03.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Soft_1ch_v2_04.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Soft_1ch_v2_05.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Soft_1ch_v2_06.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Soft_1ch_v2_07.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Soft_1ch_v2_08.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Soft_1ch_v2_09.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Soft_1ch_v2_10.wav"
+		
+	}
+	
+		"rndwave"
+	{
+		
+		"minrange"		"501"
+		"limit"			"2"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Soft_1ch_v2_01.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Soft_1ch_v2_02.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Soft_1ch_v2_03.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Soft_1ch_v2_04.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Soft_1ch_v2_05.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Soft_1ch_v2_06.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Soft_1ch_v2_07.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Soft_1ch_v2_08.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Soft_1ch_v2_09.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Soft_1ch_v2_10.wav"
+		
+	}
+}
+
+
+"Pilot_CrouchDown_1P"
+{
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Pilot"
+	"radius"		"800"
+	"volume"		"4.0"
+	"pitch"			"95,105"
+	
+	"rndwave"
+	{
+		"limit"		"1"
+		"wave"		"player/stance_change/Mvmt_Human_1p_CrouchDown_2ch_v1_01.wav"
+		"wave"		"player/stance_change/Mvmt_Human_1p_CrouchDown_2ch_v1_02.wav"
+		"wave"		"player/stance_change/Mvmt_Human_1p_CrouchDown_2ch_v1_03.wav"
+		"wave"		"player/stance_change/Mvmt_Human_1p_CrouchDown_2ch_v1_04.wav"
+		"wave"		"player/stance_change/Mvmt_Human_1p_CrouchDown_2ch_v1_05.wav"
+		
+		}
+}
+
+"Pilot_CrouchStand_1P"
+{
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Pilot"
+	"radius"		"800"
+	"volume"		"4.0"
+	"pitch"			"95,105"
+	
+	"rndwave"
+	{
+		"limit"		"1"
+		"wave"		"player/stance_change/Mvmt_Human_1p_CrouchStand_2ch_v1_01.wav"
+		"wave"		"player/stance_change/Mvmt_Human_1p_CrouchStand_2ch_v1_02.wav"
+		"wave"		"player/stance_change/Mvmt_Human_1p_CrouchStand_2ch_v1_03.wav"
+	}
+}
+
+"Pilot_CrouchDown_3P"
+{
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Pilot"
+	"radius"		"800"
+	"volume"		"4.0"
+	"pitch"			"95,105"
+	
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"100"
+		"limit"			"2"
+		"wave"		"player/stance_change/Mvmt_Human_1p_CrouchDown_2ch_v1_01.wav"
+		"wave"		"player/stance_change/Mvmt_Human_1p_CrouchDown_2ch_v1_02.wav"
+		"wave"		"player/stance_change/Mvmt_Human_1p_CrouchDown_2ch_v1_03.wav"
+		"wave"		"player/stance_change/Mvmt_Human_1p_CrouchDown_2ch_v1_04.wav"
+		"wave"		"player/stance_change/Mvmt_Human_1p_CrouchDown_2ch_v1_05.wav"
+		}
+}
+
+"Pilot_CrouchStand_3P"
+{
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Pilot"
+	"radius"		"800"
+	"volume"		"4.0"
+	"pitch"			"95,105"
+	
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"100"
+		"limit"			"2"
+		"wave"		"player/stance_change/Mvmt_Human_1p_CrouchStand_2ch_v1_01.wav"
+		"wave"		"player/stance_change/Mvmt_Human_1p_CrouchStand_2ch_v1_02.wav"
+		"wave"		"player/stance_change/Mvmt_Human_1p_CrouchStand_2ch_v1_03.wav"
+	}
+}
+
+
+
+
+//--------------
+// FREE RUNNING
+//--------------
+
+"Player.SuperJump"
+{
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Pilot,SFX_Player_Pilot_Jumpjet"
+	"volumescale"		"1.5"
+	
+	"radius"		"4000"
+
+	"rndwave"
+	{
+		"minrange"		"0"
+		"maxrange"		"400"
+		"volume"		".2"
+		"pitch"			"95, 105"
+			"wave"		"player\doublejump.wav"
+	}
+
+	"rndwave"
+	{
+		"minrange"		"0"
+		"maxrange"		"400"
+		"volume"		".8"
+		"pitch"			"95, 105"
+			"wave"		"player/jumpjet/Jumpjet_Chuff_v2_ST_01.wav"
+			"wave"		"player/jumpjet/Jumpjet_Chuff_v2_ST_02.wav"
+			"wave"		"player/jumpjet/Jumpjet_Chuff_v2_ST_03.wav"
+			"wave"		"player/jumpjet/Jumpjet_Chuff_v2_ST_04.wav"
+//			"wave"		"player/jumpjet/Jumpjet_Chuff_v2_ST_05.wav"
+
+	}
+
+	"rndwave"
+	{
+		"minrange"		"0"
+		"maxrange"		"400"
+		"volume"		"1.2"
+		"pitch"			"80, 95"
+			"wave"		"player/jumpjet/Jumpjet_Burn_v2_ST_01.wav"
+			"wave"		"player/jumpjet/Jumpjet_Burn_v2_ST_02.wav"
+			"wave"		"player/jumpjet/Jumpjet_Burn_v2_ST_03.wav"
+			"wave"		"player/jumpjet/Jumpjet_Burn_v2_ST_04.wav"
+			"wave"		"player/jumpjet/Jumpjet_Burn_v2_ST_05.wav"
+			"wave"		"player/jumpjet/Jumpjet_Burn_v2_ST_06.wav"
+			"wave"		"player/jumpjet/Jumpjet_Burn_v2_ST_07.wav"
+
+	}
+
+
+	"rndwave"
+	{
+		"minrange"		"200"
+		"maxrange"		"4000"
+		"volume"		"1.5"
+		"pitch"			"90, 110"
+
+			"wave"		"player/jumpjet/Jumpjet_Chuff_v2_M_01.wav"
+			"wave"		"player/jumpjet/Jumpjet_Chuff_v2_M_02.wav"
+			"wave"		"player/jumpjet/Jumpjet_Chuff_v2_M_03.wav"
+
+	}
+
+	"rndwave"
+	{
+		"minrange"		"200"
+		"maxrange"		"4000"
+		"volume"		"1.5"
+		"pitch"			"110,130"
+
+			"wave"		"player/jumpjet/Jumpjet_Burn_v2_M_01.wav"
+			"wave"		"player/jumpjet/Jumpjet_Burn_v2_M_02.wav"
+			"wave"		"player/jumpjet/Jumpjet_Burn_v2_M_03.wav"
+
+
+	}
+}
+"Player.SuperJumpFail"
+{
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Pilot,SFX_Player_Pilot_Jumpjet"
+	"volume"	".75"
+	"radius"  	"200"
+
+	"wave"	"player/doublejump_fail.wav"
+}
+
+"wallrun_impact"
+{
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Pilot"
+	"radius"		"1000"
+	"volume"		"0.9, 0.95"
+	"pitch"			"90,110"
+	"rndwave"
+	{
+		"limit"			"3"
+		"wave"		"player/movement/wallrun_impact_01.wav"
+		"wave"		"player/movement/wallrun_impact_02.wav"
+		"wave"		"player/movement/wallrun_impact_03.wav"
+		"wave"		"player/movement/wallrun_impact_04.wav"
+	}
+}
+
+
+"mantle_extralow"
+{
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Pilot,SFX_Player_Pilot_Foley"
+	"radius"		"0"
+	"volume"		"3.2"
+	"pitch"			"95,110 "
+	"rndwave"
+	{
+				"channels" 
+		{
+				"3"		"L"
+				"3"		"R"
+		}
+	
+//	"maxrange"		"200"
+		"limit"			"2"
+		"wave"		"player/movement/Mantle/Player_Mantle_Default_01_6ch.wav"
+		"wave"		"player/movement/Mantle/Player_Mantle_Default_02_6ch.wav"
+		"wave"		"player/movement/Mantle/Player_Mantle_Default_03_6ch.wav"
+		"wave"		"player/movement/Mantle/Player_Mantle_Default_04_6ch.wav"
+		"wave"		"player/movement/Mantle/Player_Mantle_Default_05_6ch.wav"	
+	}
+//	"rndwave"
+//	{
+//	"minrange"		"200"
+//	
+//		"wave"		"player/movement/mantle_extralow.wav"
+//	}
+	
+}
+
+"mantle_idle"
+{
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Pilot,SFX_Player_Pilot_Foley"
+	"radius"		"800"
+	"volume"		"1.0"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+
+	"maxrange"		"200"
+	
+		"wave"		"player/movement/mantle_idle_fp.wav"
+	}
+	"rndwave"
+	{
+		"minrange"		"200"
+	
+		"wave"		"player/movement/mantle_idle.wav"
+	}
+}
+
+"mantle_lowmantle"
+{
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Pilot,SFX_Player_Pilot_Foley"
+	"radius"		"0"
+	"volume"		"3.2"
+	"pitch"		"95,110"
+	"rndwave"
+	{
+	
+		"channels" 
+		{
+				"3"		"L"
+				"3"		"R"
+		}
+//		"maxrange"		"200"
+		"limit"			"2"
+		"wave"		"player/movement/Mantle/Player_Mantle_Default_01_6ch.wav"
+		"wave"		"player/movement/Mantle/Player_Mantle_Default_02_6ch.wav"
+		"wave"		"player/movement/Mantle/Player_Mantle_Default_03_6ch.wav"
+		"wave"		"player/movement/Mantle/Player_Mantle_Default_04_6ch.wav"
+		"wave"		"player/movement/Mantle/Player_Mantle_Default_05_6ch.wav"	
+	}
+//	"rndwave"
+//	{
+//	"minrange"		"200"
+//	
+//		"wave"		"player/movement/mantle_lowmantle.wav"
+//	}
+}
+
+"mantle_mediummantle"
+{
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Pilot,SFX_Player_Pilot_Foley"
+	"radius"		"800"
+	"volume"		"1.0"
+	"pitch"		"100,105"
+	"rndwave"
+	{
+	"maxrange"		"200"
+		"limit"			"2"
+		"wave"		"player/movement/mantle_mediummantle_fp_01.wav"
+	}
+	"rndwave"
+	{
+	"minrange"		"200"
+		"limit"			"2"
+		"wave"		"player/movement/mantle_mediummantle.wav"
+	}
+}
+
+"mantle_smallmantle"
+{
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Pilot,SFX_Player_Pilot_Foley"
+	"radius"		"800"
+	"volume"		"1.0"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+	"maxrange"		"200"
+		"limit"			"2"
+		"wave"		"player/movement/mantle_smallmantle_fp.wav"
+	}
+	"rndwave"
+	{
+	"minrange"		"200"
+		"limit"			"2"
+		"wave"		"player/movement/mantle_smallmantle.wav"
+	}
+}
+
+//------------------------
+// Player Movement Vocals
+//------------------------
+
+"player_vocal_exert"
+{
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Pilot,SFX_Player_Pilot_Foley"
+	"radius"		"1000"
+	"volume"		"2.0"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"		"player/vocal_exert_b_01.wav"
+		"wave"		"player/vocal_exert_b_02.wav"
+		"wave"		"player/vocal_exert_b_03.wav"
+		"wave"		"player/vocal_exert_b_04.wav"
+	}
+}
+
+"player_vocal_exhale"
+{
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Pilot,SFX_Player_Pilot_Foley"
+	"radius"		"1000"
+	"volume"		"2.0"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"		"null.wav"
+		
+	}
+	
+}
+
+
+
+//----------------------
+// TITAN WATER MOVEMENT
+//----------------------
+"titan_enter_water"
+{
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Titan"
+	"soundlevel"		"SNDLVL_35dB"
+	"volume"		"0.3, 0.6"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"limit"			"2"
+		"wave"		"player/movement/footsteps/mono/walk_water_01.wav"
+		"wave"		"player/movement/footsteps/mono/walk_water_02.wav"
+		"wave"		"player/movement/footsteps/mono/walk_water_03.wav"
+		"wave"		"player/movement/footsteps/mono/walk_water_04.wav"
+		"wave"		"player/movement/footsteps/mono/walk_water_05.wav"
+		"wave"		"player/movement/footsteps/mono/walk_water_06.wav"
+		"wave"		"player/movement/footsteps/mono/walk_water_07.wav"
+		"wave"		"player/movement/footsteps/mono/walk_water_08.wav"
+		"wave"		"player/movement/footsteps/mono/walk_water_09.wav"
+		"wave"		"player/movement/footsteps/mono/walk_water_10.wav"
+		"wave"		"player/movement/footsteps/mono/walk_water_11.wav"
+	}
+}
+
+"titan_leave_water"
+{
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Titan"
+	"soundlevel"		"SNDLVL_35dB"
+	"volume"		"0.3, 0.6"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"limit"			"2"
+		"wave"		"player/movement/footsteps/mono/walk_water_01.wav"
+		"wave"		"player/movement/footsteps/mono/walk_water_02.wav"
+		"wave"		"player/movement/footsteps/mono/walk_water_03.wav"
+		"wave"		"player/movement/footsteps/mono/walk_water_04.wav"
+		"wave"		"player/movement/footsteps/mono/walk_water_05.wav"
+		"wave"		"player/movement/footsteps/mono/walk_water_06.wav"
+		"wave"		"player/movement/footsteps/mono/walk_water_07.wav"
+		"wave"		"player/movement/footsteps/mono/walk_water_08.wav"
+		"wave"		"player/movement/footsteps/mono/walk_water_09.wav"
+		"wave"		"player/movement/footsteps/mono/walk_water_10.wav"
+		"wave"		"player/movement/footsteps/mono/walk_water_11.wav"
+	}
+}
+
+

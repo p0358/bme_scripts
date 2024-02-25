@@ -1,0 +1,212 @@
+////////////////////
+// GLOBAL AMBIENCE /
+////////////////////
+
+"Amb_TrainingGround_EXT_Global"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_TrainingGround"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"0.7"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Training_Ground/Ambience/AMB_TrainingGround_EXT_Global_6ch_v2_LP_COMP.wav"
+	}
+	
+}
+
+"Amb_TrainingGround_INT_HalfOpen"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_TrainingGround"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"1.0"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Training_Ground/Ambience/AMB_TrainingGround_INT_HalfOpen_6ch_v1_LP.wav"
+	}
+	
+}
+
+"Amb_TrainingGround_INT_SmallRoom"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_TrainingGround"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"1.0"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Training_Ground/Ambience/AMB_TrainingGround_INT_SmallRoom_6ch_v1_LP.wav"
+	}
+	
+}
+
+"Amb_TrainingGround_INT_ClosedRoom"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_TrainingGround"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"2.0"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Training_Ground/Ambience/AMB_TrainingGround_INT_ClosedRoom_6ch_v1_LP.wav"
+	}
+	
+}
+
+///////////////////
+//		MUSIC
+///////////////////
+
+
+
+
+///////////////////
+//		EMITTERS
+///////////////////
+
+"Amb_TrainingGround_Emitter_Fan"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_TrainingGround"
+	"flags"			"loop"
+	"radius"		"800"
+	
+	
+	"rndwave"
+	{
+	"volume"		"1.0,1.5"
+	"pitch"			"80,120"
+	"limit"				"4"
+	
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_GeneratorLoop_LR_v3_LP.wav"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_FanLoop_LR_v1_LP.wav"
+	}
+}
+
+
+"amb_TrainingGround_fire_small"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_TrainingGround"
+	"volume"			"2"
+	"pitch"				"120"
+	"flags"				"mobile,loop,layered"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "200"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"1"
+		"limit"				"2"
+
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v1_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v2_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v3_LP_Crackle.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "600"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"1"
+		"limit"				"2"
+
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v1_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v2_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v3_LP_Flame.wav"
+	}
+
+}
+
+"amb_TrainingGround_fire_medium"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_TrainingGround"
+	"volume"			"2"
+	"pitch"				"100"
+	"flags"				"mobile,loop,layered"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "600"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"2"
+		"limit"				"2"
+
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v1_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v2_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v3_LP_Crackle.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1400"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"2"
+		"limit"				"2"
+
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v1_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v2_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v3_LP_Flame.wav"
+	}
+
+}

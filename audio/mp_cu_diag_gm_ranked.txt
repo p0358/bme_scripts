@@ -1,0 +1,771 @@
+//Ranked Dialogue content:
+
+
+
+
+//	New Iteration: Rank Chip AI
+
+
+
+"diag_rp_chipActive_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_chipActive_01_01_neut_chipai.wav"
+	"wave"	"dialogue_cu/ranked/diag_rp_chipActive_02_01_neut_chipai.wav"
+	"wave"	"dialogue_cu/ranked/diag_rp_chipActive_03_01_neut_chipai.wav"
+	"wave"	"dialogue_cu/ranked/diag_rp_chipActive_04_01_neut_chipai.wav"
+
+	}
+}
+
+
+"diag_rp_chipEnable_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_chipActive_04_01_neut_chipai.wav"
+
+	}
+}
+
+
+
+
+"diag_rp_ratingComment_01_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_ratingComment_01_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+"diag_rp_ratingComment_02_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_ratingComment_02_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+"diag_rp_ratingComment_03_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_ratingComment_03_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+"diag_rp_ratingComment_04_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_ratingComment_04_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+"diag_rp_ratingComment_05_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_ratingComment_05_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+"diag_rp_ratingComment_06_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_ratingComment_06_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+"diag_rp_ratingComment_07_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_ratingComment_07_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+"diag_rp_ratingComment_08_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_ratingComment_08_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+"diag_rp_ratingComment_09_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_ratingComment_09_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+
+"diag_rp_endScoreComment_01_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_endScoreComment_01_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+
+"diag_rp_endScorePrefix_01_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_endScorePrefix_01_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+"diag_rp_endScorePrefix_02_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_endScorePrefix_02_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+"diag_rp_endScorePrefix_03_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_endScorePrefix_03_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+
+"diag_rp_endScoreOutcome_03_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_endScoreOutcome_03_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+"diag_rp_endScoreOutcome_04_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_endScoreOutcome_04_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+"diag_rp_endScoreOutcome_05_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_endScoreOutcome_05_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+
+"diag_rp_endScoreOutcome_07_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_endScoreOutcome_07_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+"diag_rp_endScoreOutcome_08_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_endScoreOutcome_08_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+"diag_rp_endScoreOutcome_09_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_endScoreOutcome_09_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+"diag_rp_endScoreOutcome_10_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_endScoreOutcome_10_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+"diag_rp_endScoreOutcome_11_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_endScoreOutcome_11_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+"diag_rp_endScoreOutcome_12_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_endScoreOutcome_12_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+"diag_rp_endScoreOutcome_13_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_endScoreOutcome_13_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+"diag_rp_endScoreOutcome_14_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_endScoreOutcome_14_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+"diag_rp_endScoreOutcome_15_01_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_endScoreOutcome_15_01_neut_chipai.wav"
+
+
+	}
+}
+
+
+"diag_rp_ratingChangedPrefix_04_01a_neut_chipai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_VDU"
+	"volume"		"1.10"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.5:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.7:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.7:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/ranked/diag_rp_ratingChangedPrefix_04_01a_neut_chipai.wav"
+
+
+	}
+}
+

@@ -1,0 +1,890 @@
+////////////////////
+// GLOBAL AMBIENCE /
+////////////////////
+
+"Amb_Switchback_EXT_Global"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Switchback"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"0.7"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"maps/Switchback/AMB_Switchback_EXT_Global_6ch_v1_LP.wav"
+	}
+
+}
+
+
+"Amb_Switchback_INT_Building"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Switchback"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"1.0"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"maps/Switchback/AMB_Switchback_INT_Global_6ch_v1_LP.wav"
+	}
+
+}
+
+
+
+///////////////////
+//		EMITTERS
+///////////////////
+
+
+///////////////////
+//SCRIPTED EVENTS
+///////////////////
+
+
+
+"Switchback_Terminal_Activate"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Switchback"
+	"volumeScale"	"2.0"
+	"radius"		"3000"
+	"falloff"		"1"
+	"pitch"			"100"
+
+
+	"rndwave"
+	{
+	"flags"				"spatialized"
+	"foldDownDistance"	"100"
+	"volume"			"8"
+	"limit"				"1"
+	"wave"				"Maps/Switchback/Switchback_Scr_ElecExplo_2ch_v1_01.wav"
+	"wave"				"Maps/Switchback/Switchback_Scr_ElecExplo_2ch_v1_02.wav"
+	"wave"				"Maps/Switchback/Switchback_Scr_ElecExplo_2ch_v1_03.wav"
+	}
+}
+
+
+
+
+"Switchback_Killer_Electrical_Arc"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Switchback"
+	"volume"		"5.0"
+	"radius"		"5000"
+	"pitch"			"70"
+
+
+	"rndwave"
+	{
+			"pitch"				"70,80"
+			"limit"				"5"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_Electricity_1ch_v1_01.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_Electricity_1ch_v1_02.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_Electricity_1ch_v1_03.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_Electricity_1ch_v1_04.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_Electricity_1ch_v1_05.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_Electricity_1ch_v1_06.wav"
+	}
+}
+
+
+
+
+"Switchback_Terminal_Small_Arcs"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Switchback"
+	"volume"		"3.0"
+	"radius"		"1000"
+
+
+	"rndwave"
+	{
+			"pitch"				"100"
+			"limit"				"2"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_Electricity_1ch_v1_01.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_Electricity_1ch_v1_02.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_Electricity_1ch_v1_03.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_Electricity_1ch_v1_04.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_Electricity_1ch_v1_05.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_Electricity_1ch_v1_06.wav"
+	}
+}
+"Switchback_Electrical_Alarm"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Switchback"
+	"volumeScale"	"2.0"
+	"radius"		"3000"
+	"falloff"		"5"
+	"pitch"			"100"
+	"flags"			"mobile"
+
+
+	"rndwave"
+	{
+	"volume"			"8"
+	"limit"				"2"
+	"flags"				"spatialized"
+	"foldDownDistance"	"500"
+	"wave"			"Maps/Switchback/Switchback_Scr_Alarm_2ch_v1_01.wav"
+	}
+
+}
+
+
+"Switchback_Electrical_DamageArea"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Switchback"
+	"volume"		"3.0"
+	"radius"		"4000"
+	"falloff"		"0"
+	"pitch"			"80,100"
+	"flags"			"mobile"
+
+//	"rndwave"
+//	{
+//	"flags"			"spatialized"
+//	"limit"			"4"
+//	"pitch"			"80,110"
+//	"volume"		"3.0,4.0"
+//	"wave"			"supers\Electric_Smoke_Deploy_01.wav"
+//	}
+	
+	"rndwave"
+	{
+			"pitch"				"97,103"
+			"flags"			"spatialized"
+			"foldDownDistance"	"200"
+			"limit"				"3"
+			"volume"			"7"
+			"wave"				"maps/Switchback/Switchback_ElectricalDamageArea_2ch_v3_01.wav"
+			"wave"				"maps/Switchback/Switchback_ElectricalDamageArea_2ch_v3_02.wav"
+			"wave"				"maps/Switchback/Switchback_ElectricalDamageArea_2ch_v3_03.wav"
+			"wave"				"maps/Switchback/Switchback_ElectricalDamageArea_2ch_v3_04.wav"
+			"wave"				"maps/Switchback/Switchback_ElectricalDamageArea_2ch_v3_05.wav"
+			"wave"				"maps/Switchback/Switchback_ElectricalDamageArea_2ch_v3_06.wav"
+			"wave"				"maps/Switchback/Switchback_ElectricalDamageArea_2ch_v3_07.wav"
+			"wave"				"maps/Switchback/Switchback_ElectricalDamageArea_2ch_v3_08.wav"
+	}
+
+}
+
+
+"Switchback_building_explosion"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Haven"
+	"volumescale"		"5.0"
+	"pitch"				"100"
+	"flags"				"layered"
+
+
+	"rndwave"
+	{
+
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"800"
+
+		"limit"				"2"
+		"volume"			"0.7,1.2"
+		"pitch"				"70,130"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "2000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Close_Debris_2ch_v1_01.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Close_Debris_2ch_v1_02.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Close_Debris_2ch_v1_03.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Close_Debris_2ch_v1_04.wav"
+	}
+
+	"rndwave"
+	{
+
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"800"
+
+		"limit"				"6"
+		"volume"			"3.5,5"
+		"pitch"				"70,130"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "4000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Close_Kaboom_2ch_v1_01.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Close_Kaboom_2ch_v1_02.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Close_Kaboom_2ch_v1_03.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Close_Kaboom_2ch_v1_04.wav"
+	}
+
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"volume"			"1.5,2"
+		"pitch"				"70,130"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "3500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_MidDist_Debris_1ch_v1_01.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_MidDist_Debris_1ch_v1_02.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_MidDist_Debris_1ch_v1_03.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_MidDist_Debris_1ch_v1_04.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"2"
+		"volume"			"0.7,1.0"
+		"pitch"				"70,130"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "6000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_MidDist_Kaboom_1ch_v1_01.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_MidDist_Kaboom_1ch_v1_02.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_MidDist_Kaboom_1ch_v1_03.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_MidDist_Kaboom_1ch_v1_04.wav"
+	}
+
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"volume"			"2.3,3"
+		"pitch"				"70,130"
+
+		"startDistance"   "3400"
+        "peakDistance"    "0"
+        "falloffStart"    "3400"
+        "falloffEnd"      "10000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Metal_1ch_v1_01.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Metal_1ch_v1_02.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Metal_1ch_v1_03.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Metal_1ch_v1_04.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Metal_1ch_v1_05.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"2"
+		"volume"			"0.7,1.2"
+		"pitch"				"70,130"
+
+		"startDistance"   "4500"
+        "peakDistance"    "0"
+        "falloffStart"    "4500"
+        "falloffEnd"      "15000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Kaboom_1ch_v1_01.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Kaboom_1ch_v1_02.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Kaboom_1ch_v1_03.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Kaboom_1ch_v1_04.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Kaboom_1ch_v1_05.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Kaboom_1ch_v1_06.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Kaboom_1ch_v1_07.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Kaboom_1ch_v1_08.wav"
+	}
+
+}
+
+
+"Switchback_BoatWheel_Rotate"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Switchback"
+	"volumeScale"		"1.2"
+	"pitch"				"100"
+	"flags"				"layered"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"2000"
+		"limit"				"1"
+		"volume"			"8"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "6000"
+        "startCurve"      "0"
+        "falloffCurve"    "6"
+
+			"wave"				"maps/Switchback/Switchback_Scr_BoatWheel_Turn_Close_2ch_v1_01.wav"
+			"wave"				"maps/Switchback/Switchback_Scr_BoatWheel_Turn_Close_2ch_v1_02.wav"
+			"wave"				"maps/Switchback/Switchback_Scr_BoatWheel_Turn_Close_2ch_v1_03.wav"
+	}
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"folddownDistance"	"1000"
+		"panWidth"			"90"
+		"limit"				"1"
+		"volume"			"8"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "2000"
+        "falloffEnd"      "16000"
+        "startCurve"      "0"
+        "falloffCurve"    "2"
+
+			"wave"				"maps/Switchback/Switchback_Scr_BoatWheel_Turn_Dist_2ch_v1_01.wav"
+			"wave"				"maps/Switchback/Switchback_Scr_BoatWheel_Turn_Dist_2ch_v1_02.wav"
+			"wave"				"maps/Switchback/Switchback_Scr_BoatWheel_Turn_Dist_2ch_v1_03.wav"
+	}
+}
+
+"Switchback_BoatWheel_Splash"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Switchback"
+	"volumescale"		"1.8"
+	"pitch"				"90,100"
+	"flags"				"layered"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"500"
+		"limit"				"3"
+		"volume"			"5"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "200"
+        "falloffEnd"      "8000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"maps/Switchback/Switchback_Scr_BoatWheel_Splash_2ch_v1_01.wav"
+			"wave"				"maps/Switchback/Switchback_Scr_BoatWheel_Splash_2ch_v1_02.wav"
+			"wave"				"maps/Switchback/Switchback_Scr_BoatWheel_Splash_2ch_v1_03.wav"
+			"wave"				"maps/Switchback/Switchback_Scr_BoatWheel_Splash_2ch_v1_04.wav"
+			"wave"				"maps/Switchback/Switchback_Scr_BoatWheel_Splash_2ch_v1_05.wav"
+			"wave"				"maps/Switchback/Switchback_Scr_BoatWheel_Splash_2ch_v1_06.wav"
+			"wave"				"maps/Switchback/Switchback_Scr_BoatWheel_Splash_2ch_v1_07.wav"
+			"wave"				"maps/Switchback/Switchback_Scr_BoatWheel_Splash_2ch_v1_08.wav"
+						
+	}
+
+}
+
+
+"Switchback_Death_Splash_1P"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Switchback"
+	"volumescale"		"1.4"
+	"pitch"				"100,105"
+	"flags"				"layered"
+	"ducks"				"all,0.9"
+
+	"rndwave"
+	{
+
+		"limit"				"2"
+		"volume"			"6"
+		"pitch"				"90,95"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"maps/Switchback/Switchback_Water_Death_Splash_1P_2ch_v2_01.wav"
+			"wave"				"maps/Switchback/Switchback_Water_Death_Splash_1P_2ch_v2_02.wav"
+					
+	}
+	
+	"rndwave"
+	{
+
+		"limit"				"2"
+		"volume"			"6"
+		"pitch"				"98,102"
+		"delay"				"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"maps/Switchback/Switchback_Water_Underwater_1P_6ch_v1_01.wav"
+			"wave"				"maps/Switchback/Switchback_Water_Underwater_1P_6ch_v1_02.wav"
+					
+	}
+}
+
+"Switchback_Death_Splash_3P"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Switchback"
+	"volumescale"		"1.8"
+	"pitch"				"95,107"
+	"flags"				"layered"
+
+	"rndwave"
+	{
+
+		"limit"				"2"
+		"volume"			"6"
+		"pitch"				"90,95"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "3000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"maps/Switchback/Switchback_Water_Death_Splash_3P_1ch_v1_01.wav"
+			"wave"				"maps/Switchback/Switchback_Water_Death_Splash_3P_1ch_v1_02.wav"
+					
+	}
+	
+	
+		"rndwave"
+	{	
+		"volume"			"0.8"
+		"pitch"				"90,100"
+		"limit"				"2"
+		"delay"				"100"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "3000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+		
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_01.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_02.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_03.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_04.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_05.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_06.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_07.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_08.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_09.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_10.wav"
+		
+	}
+}
+
+
+//"Switchback_Death_TitanSplash_1P"
+
+"Switchback_Death_TitanSplash_1P"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Switchback"
+	"volumescale"		"1.6"
+	"pitch"				"100,105"
+	"flags"				"layered"
+	"ducks"				"all,0.9"
+
+	"rndwave"
+	{
+
+		"limit"				"2"
+		"volume"			"6"
+		"pitch"				"98,102"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"maps/Switchback/Switchback_Water_TitanDeath_Splash_1P_2ch_v3_01.wav"
+			"wave"				"maps/Switchback/Switchback_Water_TitanDeath_Splash_1P_2ch_v3_02.wav"
+					
+	}
+	
+	"rndwave"
+	{
+
+		"limit"				"1"
+		"volume"			"6"
+		"pitch"				"98,102"
+		"delay"				"1500"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"maps/Switchback/Switchback_Water_Underwater_1P_6ch_v1_01.wav"
+			"wave"				"maps/Switchback/Switchback_Water_Underwater_1P_6ch_v1_02.wav"
+					
+	}
+	
+	
+	"rndwave"
+
+	{
+
+		"limit"	 "1"
+		"volume"	 "5.5"
+		"pitch"	 "60,70"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+		
+			"wave" "impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_01.wav"
+			"wave" "impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_02.wav"
+			"wave" "impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_03.wav"
+
+
+	}
+}
+
+
+"Switchback_Death_TitanSplash_3P"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Switchback"
+	"volumescale"		"1.8"
+	"pitch"				"95,107"
+	"flags"				"layered"
+
+	"rndwave"
+	{
+
+		"limit"				"2"
+		"volume"			"6"
+		"pitch"				"90,100"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"maps/Switchback/Switchback_Water_TitanDeath_Splash_3P_1ch_v2_01.wav"
+			"wave"				"maps/Switchback/Switchback_Water_TitanDeath_Splash_3P_1ch_v2_02.wav"
+					
+	}
+	
+	
+		"rndwave"
+	{	
+		"volume"			"0.8"
+		"flags"				"spatialized"
+		"foldDownDistance"	"200"
+		"pitch"				"90,100"
+		"limit"				"2"
+		"delay"				"100"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+		
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_01.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_02.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_03.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_04.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_05.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_06.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_07.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_08.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_09.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_10.wav"
+		
+	}
+}
+
+"Switchback_Emit_Generator"  
+{
+
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Switchback"
+	"flags"					"loop"
+	"radius"				"600"
+	"falloff"				"1"
+	"occlusionDuckScale"	"0"
+	
+	
+	"rndwave"
+	{
+	"volume"		"5.5,6.5"
+	"pitch"			"125,130"
+	
+	"limit"				"3"
+	
+//	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_GeneratorLoop_LR_v1_LP.wav"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_GeneratorLoop_LR_v2_LP.wav"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_GeneratorLoop_LR_v3_LP.wav"
+
+	}
+}
+
+"Switchback_emit_DockWater_01"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Switchback"
+	"flags"			"mobile,loop"
+	"radius"		"1500"
+	"volume"		"3.5"
+	"pitch"			"90,110"
+	
+	
+	"rndwave"
+	{
+	"limit"			"3"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DockWater_1ch_01.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DockWater_1ch_02.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DockWater_1ch_03.wav"
+	}
+}
+
+"Switchback_emit_DockWater_02"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Switchback"
+	"flags"			"mobile,loop"
+	"radius"		"1500"
+	"volume"		"3.5"
+	"pitch"			"90,110"
+	
+	
+	"rndwave"
+	{
+	"limit"			"3"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DockWater_1ch_04.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DockWater_1ch_05.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DockWater_1ch_06.wav"
+	}
+}
+
+
+
+"Switchback_emit_fire_small"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Switchback"
+	"volume"			"2"
+	"pitch"				"120"
+	"flags"				"mobile,loop,layered"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "400"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"1"
+		"limit"				"2"
+
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v1_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v2_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v3_LP_Crackle.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "900"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"1"
+		"limit"				"2"
+
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v1_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v2_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v3_LP_Flame.wav"
+	}
+
+}
+
+"Switchback_emit_fan_antique"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Switchback"
+	"volume"			"2"
+	"pitch"				"50"
+	"radius"			"1000"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"volume"			"6"
+		"limit"				"2"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Fan_Antique_1ch_01.wav"
+	}
+
+}
+
+"Switchback_emit_fan_blade"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Switchback"
+	"volumeScale"			"1.0"
+	"pitch"					"100"
+	"radius"				"1000"
+	"flags"					"loop"
+	"falloff"				"5"
+	"occlusionDuckScale"	"0"
+
+
+	"rndwave"
+	{
+		"volume"			"7"
+		"limit"				"2"
+		"pitch"				"30"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Fan_Blade_1ch_01.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"			"6"
+		"limit"				"2"
+		"pitch"				"90"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Industrial_Vent_1ch_01.wav"
+	}
+
+}
+
+
+"Switchback_emit_steam"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"500"
+	"falloff"			"0"
+	"flags"				"mobile,loop"
+
+
+	"rndwave"
+	{
+		"volume"			"5"
+		"pitch"				"80,120"
+		"limit"				"3"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Medium_1ch_01_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Medium_1ch_02_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Medium_1ch_03_LP.wav"
+	}
+}
+
+"Switchback_emit_console"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"1000"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"volume"			"5"
+		"limit"				"3"
+		"pitch"				"70,80"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Console1_LR_v1_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Console1_LR_v2_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Console1_LR_v3_LP.wav"
+	}
+}
+
+
+"Switchback_emit_sparks"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Haven"
+	"flags"			"mobile,loop"
+	"radius"		"400"
+	"volume"		"2.0"
+	"falloff"		"0"
+	
+	
+	"rndwave"
+	{
+	"limit"			"2"
+	"pitch"			"115,120"
+	"wave"			"Maps/Haven/Ambient/Haven_Emitter_ElectricalGrind_1ch_v4_01.wav"
+	"wave"			"Maps/Haven/Ambient/Haven_Emitter_ElectricalGrind_1ch_v4_02.wav"
+
+	}
+}

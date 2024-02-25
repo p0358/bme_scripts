@@ -1,0 +1,126 @@
+////////////////////
+// GLOBAL AMBIENCE /
+////////////////////
+
+"Amb_SmugglersCove_EXT_Global"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_SmugglersCove"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"1.5"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Smugglers_Cove/Ambience/AMB_SmugglersCove_EXT_Global_6ch_v2_LP_COMP.wav"
+	}
+	
+}
+
+"Amb_SmugglersCove_INT_HalfOpen"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_SmugglersCove"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"2.0"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Smugglers_Cove/Ambience/AMB_SmugglersCove_INT_HalfOpen_6ch_v1_LP.wav"
+	}
+}
+
+"Amb_SmugglersCove_INT_SmallRoom"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_SmugglersCove"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"2.0"
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Smugglers_Cove/Ambience/AMB_SmugglersCove_INT_SmallRoom_6ch_v1_LP.wav"
+	}
+}
+
+"Amb_SmugglersCove_INT_ClosedRoom"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_SmugglersCove"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"3.0"
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Smugglers_Cove/Ambience/AMB_SmugglersCove_INT_ClosedRoom_6ch_v1_LP.wav"
+	}
+}
+
+
+
+///////////////////
+//		MUSIC
+///////////////////
+
+
+
+
+
+////////////////////
+// Emitters        //
+////////////////////
+
+
+"Amb_SmugglersCove_Emitter_WaterLap"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_SmugglersCove"
+	"flags"			"loop"
+	"radius"		"700"
+	
+	
+	"rndwave"
+	{
+	"volume"		"1.0,1.5"
+	"pitch"			"80,120"
+	"limit"				"3"
+	
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLap_1ch_01.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLap_1ch_02.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLap_1ch_03.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLap_1ch_04.wav"
+	}
+}
+
+"Amb_SmugglersCove_Emitter_WaterLapShore"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_SmugglersCove"
+	"flags"			"loop"
+	"radius"		"500"
+	
+	
+	"rndwave"
+	{
+	"volume"		"1.0,1.5"
+	"pitch"			"100,120"
+	"limit"				"3"
+	
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLapShore_1ch_01.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLapShore_1ch_02.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLapShore_1ch_03.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLapShore_1ch_04.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLapShore_1ch_05.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLapShore_1ch_06.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLapShore_1ch_07.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLapShore_1ch_08.wav"
+	}
+}
+
+
+"

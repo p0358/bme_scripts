@@ -1,0 +1,1889 @@
+//////////////////////////////
+////  R101 NPC AI   //////////
+//////////////////////////////
+
+
+"R101_AI_WpnFire_FirstShot_A"
+{
+	"volumescale"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"80,120"
+	"radius"		"3000"
+	"falloff"		"5"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+    {
+		"flags"			"spatialized"
+		"volume"		"1.5"
+		"pitch"			"120,140"
+		"limit"			"2"
+
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_01.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_02.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_03.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_04.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_05.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_06.wav"
+	}
+
+}
+
+"R101_AI_WpnFire_Loop_A"
+{
+	"volumescale"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"90,120"
+	"radius"		"4000"
+	"falloff"		"5"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+    {
+		"volume"		"3"
+		"limit"			"2"
+		"minrange"      "0"
+		"maxrange"      "500"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Close_F_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Close_F_1ch_v1_02.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"2"
+		"limit"			"2"
+		"minrange"      "300"
+		"maxrange"      "1000"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Mid_F_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Mid_F_1ch_v1_02.wav"
+
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "700"
+		"maxrange"      "2000"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_DistDry_A_1ch_v1_02.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_DistDry_A_1ch_v1_03.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "1500"
+		"maxrange"      "2500"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_VeryDistWet_A_1ch_v1_04.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_VeryDistWet_A_1ch_v1_05.wav"
+
+	}
+}
+
+
+"R101_AI_WpnFire_Tail_A"
+{
+	"volumescale"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"90,120"
+	"occlusionDuckScale"	"1.5"
+	"flags"			"layered"
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"1"
+
+	"startDistance"     "0"
+    "peakDistance"      "0"
+    "startCurve"        "0"
+    "falloffStart"      "500"
+    "falloffEnd"        "700"
+    "falloffCurve"      "5"
+    "clampVolume"       "0"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Close_A_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Close_A_1ch_v1_02.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"1"
+		"pitch"			"90,110"
+
+	"startDistance"     "300"
+    "peakDistance"      "700"
+    "startCurve"        "5"
+    "falloffStart"      "800"
+    "falloffEnd"        "1500"
+    "falloffCurve"      "0"
+    "clampVolume"       "0"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Mid_A_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Mid_A_1ch_v1_02.wav"
+
+	}
+
+}
+
+
+
+
+"R101_AI_WpnFire_FirstShot_B"
+{
+	"volumescale"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"80,120"
+	"radius"		"3000"
+	"falloff"		"5"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+    {
+		"flags"			"spatialized"
+		"volume"		"1.5"
+		"pitch"			"120,140"
+		"limit"			"2"
+
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_01.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_02.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_03.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_04.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_05.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_06.wav"
+	}
+
+}
+
+"R101_AI_WpnFire_Loop_B"
+{
+	"volumescale"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"110,140"
+	"radius"		"4000"
+	"falloff"		"5"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+    {
+		"volume"		"3"
+		"limit"			"2"
+		"minrange"      "0"
+		"maxrange"      "650"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Close_D_1ch_v1_03.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Close_D_1ch_v1_06.wav"
+	}
+
+	"rndwave"
+    {
+		"volume"		"2"
+		"limit"			"2"
+		"minrange"      "300"
+		"maxrange"      "1000"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Mid_D_1ch_v1_03.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Mid_D_1ch_v1_06.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "700"
+		"maxrange"      "2000"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_DistWet_A_1ch_v1_02.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_DistWet_A_1ch_v1_03.wav"
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "1500"
+		"maxrange"      "2500"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_VeryDistWet_D_1ch_v1_03.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_VeryDistWet_D_1ch_v1_06.wav"
+	}
+}
+
+
+
+"R101_AI_WpnFire_Tail_B"
+{
+	"volumescale"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"90,120"
+	"occlusionDuckScale"	"1.5"
+	"flags"			"layered"
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"1"
+
+	"startDistance"     "0"
+    "peakDistance"      "0"
+    "startCurve"        "0"
+    "falloffStart"      "500"
+    "falloffEnd"        "700"
+    "falloffCurve"      "5"
+    "clampVolume"       "0"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Close_A_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Close_A_1ch_v1_02.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"1"
+		"pitch"			"90,110"
+
+	"startDistance"     "300"
+    "peakDistance"      "700"
+    "startCurve"        "5"
+    "falloffStart"      "800"
+    "falloffEnd"        "1500"
+    "falloffCurve"      "0"
+    "clampVolume"       "0"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Mid_A_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Mid_A_1ch_v1_02.wav"
+
+	}
+
+
+}
+
+
+
+"R101_AI_WpnFire_FirstShot_C"
+{
+	"volumescale"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"80,120"
+	"radius"		"3000"
+	"falloff"		"5"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+    {
+		"flags"			"spatialized"
+		"volume"		"1.5"
+		"pitch"			"120,140"
+		"limit"			"2"
+
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_01.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_02.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_03.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_04.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_05.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_06.wav"
+	}
+
+}
+
+"R101_AI_WpnFire_Loop_C"
+{
+	"volumescale"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"90,100"
+	"radius"		"4000"
+	"falloff"		"5"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+    {
+		"volume"		"3"
+		"limit"			"2"
+		"minrange"      "0"
+		"maxrange"      "500"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Close_A_1ch_v1_04.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Close_A_1ch_v1_05.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"2"
+		"limit"			"2"
+		"minrange"      "300"
+		"maxrange"      "1000"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Mid_A_1ch_v1_04.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Mid_A_1ch_v1_05.wav"
+
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "700"
+		"maxrange"      "2000"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_DistDry_B_1ch_v1_05.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_DistDry_B_1ch_v1_06.wav"
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "1500"
+		"maxrange"      "2500"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_VeryDistWet_A_1ch_v1_04.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_VeryDistWet_A_1ch_v1_05.wav"
+	}
+}
+
+
+"R101_AI_WpnFire_Tail_C"
+{
+	"volumescale"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"90,120"
+	"occlusionDuckScale"	"1.5"
+	"flags"			"layered"
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"1"
+
+	"startDistance"     "0"
+    "peakDistance"      "0"
+    "startCurve"        "0"
+    "falloffStart"      "500"
+    "falloffEnd"        "700"
+    "falloffCurve"      "5"
+    "clampVolume"       "0"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Close_A_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Close_A_1ch_v1_02.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"1"
+		"pitch"			"90,110"
+
+	"startDistance"     "300"
+    "peakDistance"      "700"
+    "startCurve"        "5"
+    "falloffStart"      "800"
+    "falloffEnd"        "1500"
+    "falloffCurve"      "0"
+    "clampVolume"       "0"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Mid_A_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Mid_A_1ch_v1_02.wav"
+
+	}
+
+
+}
+
+
+"R101_AI_WpnFire_FirstShot_D"
+{
+	"volumescale"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"80,120"
+	"radius"		"3000"
+	"falloff"		"5"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+    {
+		"flags"			"spatialized"
+		"volume"		"1.5"
+		"pitch"			"120,140"
+		"limit"			"2"
+
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_01.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_02.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_03.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_04.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_05.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_06.wav"
+	}
+
+}
+"R101_AI_WpnFire_Loop_D"
+{
+	"volumescale"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"100,120"
+	"radius"		"4000"
+	"falloff"		"5"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+    {
+		"volume"		"3"
+		"limit"			"2"
+		"minrange"      "0"
+		"maxrange"      "500"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Close_G_1ch_v1_03.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Close_G_1ch_v1_06.wav"
+	}
+
+	"rndwave"
+    {
+		"volume"		"2"
+		"limit"			"2"
+		"minrange"      "300"
+		"maxrange"      "1000"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Mid_G_1ch_v1_03.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Mid_G_1ch_v1_06.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "700"
+		"maxrange"      "2000"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_DistDry_A_1ch_v1_05.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_DistDry_A_1ch_v1_06.wav"
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "1500"
+		"maxrange"      "2500"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_VeryDistWet_C_1ch_v1_03.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_VeryDistWet_C_1ch_v1_06.wav"
+	}
+}
+
+
+"R101_AI_WpnFire_Tail_D"
+{
+	"volumescale"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"90,120"
+	"occlusionDuckScale"	"1.5"
+	"flags"			"layered"
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"1"
+
+	"startDistance"     "0"
+    "peakDistance"      "0"
+    "startCurve"        "0"
+    "falloffStart"      "500"
+    "falloffEnd"        "700"
+    "falloffCurve"      "5"
+    "clampVolume"       "0"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Close_A_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Close_A_1ch_v1_02.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"1"
+		"pitch"			"90,110"
+
+	"startDistance"     "300"
+    "peakDistance"      "700"
+    "startCurve"        "5"
+    "falloffStart"      "800"
+    "falloffEnd"        "1500"
+    "falloffCurve"      "0"
+    "clampVolume"       "0"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Mid_A_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Mid_A_1ch_v1_02.wav"
+
+	}
+
+
+}
+
+
+//////////////////////////////
+////  R97 NPC AI   ///////////
+//////////////////////////////
+
+
+"R97_AI_WpnFire_FirstShot_A"
+{
+	"volumescale"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"80,120"
+	"radius"		"3000"
+	"falloff"		"5"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+    {
+		"flags"			"spatialized"
+		"volume"		"1.5"
+		"pitch"			"120,140"
+		"limit"			"2"
+
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_01.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_02.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_03.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_04.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_05.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_06.wav"
+	}
+
+}
+
+"R97_AI_WpnFire_Loop_A"
+{
+	"volumescale"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"150,160"
+	"radius"		"4000"
+	"falloff"		"5"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+    {
+		"flags"			"spatialized"
+		"volume"		"1"
+		"pitch"			"75"
+		"limit"			"2"
+		"minrange"      "0"
+		"maxrange"      "500"
+
+	"wave"			"weapons\R97\Wpn_R97_3p_WpnFire_Loop_Close_Core_2ch_v1_01.wav"
+	"wave"			"weapons\R97\Wpn_R97_3p_WpnFire_Loop_Close_Core_2ch_v1_03.wav"
+	}
+
+	"rndwave"
+    {
+		"volume"		"2"
+		"limit"			"2"
+		"minrange"      "0"
+		"maxrange"      "500"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Close_A_1ch_v1_05.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Close_A_1ch_v1_06.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "300"
+		"maxrange"      "1000"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Mid_A_1ch_v1_05.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Mid_A_1ch_v1_06.wav"
+
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "700"
+		"maxrange"      "2000"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_DistDry_A_1ch_v1_05.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_DistDry_A_1ch_v1_06.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "1500"
+		"maxrange"      "2500"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_VeryDistWet_A_1ch_v1_05.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_VeryDistWet_A_1ch_v1_06.wav"
+
+	}
+}
+
+
+
+"R97_AI_WpnFire_Tail_A"
+{
+	"volumescale"		"1.5"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"135,150"
+	"occlusionDuckScale"	"1.5"
+	"flags"			"layered"
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"1"
+
+	"startDistance"     "0"
+    "peakDistance"      "0"
+    "startCurve"        "0"
+    "falloffStart"      "500"
+    "falloffEnd"        "700"
+    "falloffCurve"      "5"
+    "clampVolume"       "0"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Close_A_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Close_A_1ch_v1_02.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		".5"
+		"limit"			"1"
+
+	"startDistance"     "300"
+    "peakDistance"      "700"
+    "startCurve"        "5"
+    "falloffStart"      "800"
+    "falloffEnd"        "2500"
+    "falloffCurve"      "0"
+    "clampVolume"       "0"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Mid_A_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Mid_A_1ch_v1_02.wav"
+
+	}
+
+}
+
+"R97_AI_WpnFire_FirstShot_B"
+{
+	"volumescale"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"80,120"
+	"radius"		"3000"
+	"falloff"		"5"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+    {
+		"flags"			"spatialized"
+		"volume"		"1.5"
+		"pitch"			"120,140"
+		"limit"			"2"
+
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_01.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_02.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_03.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_04.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_05.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_06.wav"
+	}
+
+}
+
+"R97_AI_WpnFire_Loop_B"
+{
+	"volumescale"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"175,180"
+	"radius"		"4000"
+	"falloff"		"5"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+    {
+		"flags"			"spatialized"
+		"volume"		"2"
+		"pitch"			"100"
+		"limit"			"2"
+		"minrange"      "0"
+		"maxrange"      "500"
+
+	"wave"			"weapons\R97\Wpn_R97_3p_WpnFire_Loop_Close_Core_2ch_v1_02.wav"
+	"wave"			"weapons\R97\Wpn_R97_3p_WpnFire_Loop_Close_Core_2ch_v1_04.wav"
+	}
+
+	"rndwave"
+    {
+		"volume"		"2"
+		"limit"			"2"
+		"minrange"      "0"
+		"maxrange"      "500"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Close_E_1ch_v1_05.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Close_E_1ch_v1_06.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "300"
+		"maxrange"      "1000"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Mid_E_1ch_v1_05.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Mid_E_1ch_v1_06.wav"
+
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "700"
+		"maxrange"      "2000"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_DistDry_B_1ch_v1_05.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_DistDry_B_1ch_v1_06.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "1500"
+		"maxrange"      "2500"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_VeryDistWet_C_1ch_v1_05.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_VeryDistWet_C_1ch_v1_06.wav"
+
+	}
+}
+
+
+
+"R97_AI_WpnFire_Tail_B"
+{
+	"volumescale"		"1.5"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"135,150"
+	"occlusionDuckScale"	"1.5"
+	"flags"			"layered"
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+
+	"startDistance"     "0"
+    "peakDistance"      "0"
+    "startCurve"        "0"
+    "falloffStart"      "500"
+    "falloffEnd"        "700"
+    "falloffCurve"      "5"
+    "clampVolume"       "0"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Close_A_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Close_A_1ch_v1_02.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		".5"
+		"limit"			"2"
+
+
+	"startDistance"     "300"
+    "peakDistance"      "700"
+    "startCurve"        "5"
+    "falloffStart"      "800"
+    "falloffEnd"        "2500"
+    "falloffCurve"      "0"
+    "clampVolume"       "0"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Mid_A_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Mid_A_1ch_v1_02.wav"
+
+	}
+
+}
+
+
+"ai_weapon_fire"
+{
+	"volumescale"		"0"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"100,110"
+	"radius"		"4000"
+	"falloff"		"8"
+
+	"rndwave"
+    {
+		"volume"		"0"
+		"limit"			"8"
+		"minrange"      "0"
+		"maxrange"      "300"
+
+		"wave"			"weapons\R101\R101_3P_Gunfire_VeryClose_Test_01.wav"
+//		"wave"			"weapons\R101\R101_3P_Gunfire_VeryClose_Test_02.wav"
+//		"wave"			"weapons\R101\R101_3P_Gunfire_VeryClose_Test_03.wav"
+//		"wave"			"weapons\R101\R101_3P_Gunfire_VeryClose_Test_04.wav"
+//		"wave"			"weapons\R101\R101_3P_Gunfire_VeryClose_Test_05.wav"
+//		"wave"			"weapons\R101\R101_3P_Gunfire_VeryClose_Test_06.wav"
+	}
+
+}
+
+
+"ai_hemlok_fire" {
+
+	"volume"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"90,110"
+	"radius"		"4000"
+	"falloff"		"8"
+
+
+	"rndwave"
+    {
+		"volume"		".9"
+		"limit"			"8"
+		"minrange"      "0"
+		"maxrange"      "300"
+
+		"wave"			"weapons\R101\R101_3P_Gunfire_VeryClose_Test_01.wav"
+//		"wave"			"weapons\R101\R101_3P_Gunfire_VeryClose_Test_02.wav"
+//		"wave"			"weapons\R101\R101_3P_Gunfire_VeryClose_Test_03.wav"
+//		"wave"			"weapons\R101\R101_3P_Gunfire_VeryClose_Test_04.wav"
+//		"wave"			"weapons\R101\R101_3P_Gunfire_VeryClose_Test_05.wav"
+//		"wave"			"weapons\R101\R101_3P_Gunfire_VeryClose_Test_06.wav"
+	}
+
+}
+
+"megaturret_fire"
+{
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"volumescale"			"1.7"
+	"pitch"				"95,105"
+	"falloff"			"1"
+	"radius"			"15000"
+	"flags"				"nevercull"
+
+	"rndwave"
+	{
+		"volume"			"3"
+		"pitch"				"70,99"
+		"limit"				"12"
+		"minrange"			"0"
+		"maxrange"			"2000"
+			"wave"				"scripted/MegaTurret/MegaTurret_Med_Short_v3_01.wav"
+			"wave"				"scripted/MegaTurret/MegaTurret_Med_Short_v3_02.wav"
+			"wave"				"scripted/MegaTurret/MegaTurret_Med_Short_v3_03.wav"
+//			"wave"				"scripted/MegaTurret/MegaTurret_Med_Short_v3_04.wav"
+
+
+	}
+
+		"rndwave"
+	{
+		"volume"			"3"
+		"limit"				"12"
+		"minrange"			"1000"
+		"maxrange"			"8000"
+			"wave"				"scripted/megaturret_fire_distant_01.wav"
+			"wave"				"scripted/megaturret_fire_distant_02.wav"
+			"wave"				"scripted/megaturret_fire_distant_03.wav"
+//			"wave"				"scripted/megaturret_fire_distant_04.wav"
+//			"wave"				"scripted/megaturret_fire_distant_05.wav"
+//			"wave"				"scripted/megaturret_fire_distant_06.wav"
+	}
+
+//	"rndwave"
+//	{
+//		"limit"				"3"
+//		"minrange"			"0"
+//		"maxRange"			"2000"
+//			"wave"				"scripted/megaturret_fire_lfe_01.wav"
+//	}
+}
+
+"MegaTurret_Extend_Guns"
+{
+	"mixgroup"			"weapon,SFX,SFX_Weapons,SFX_Weapons_Turrets"
+	"volume"			"10"
+	"pitch"				"100"
+	"falloff"			"2"
+	"radius"			"7500"
+
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"800"
+		"limit"				"3"
+		"volume"			"4.5"
+
+			"wave"				"scripted/MegaTurret/MegaTurret_Extend_Guns_2ch_01.wav"
+
+
+	}
+}
+
+"MegaTurret_Retract_Guns"
+{
+	"mixgroup"			"weapon,SFX,SFX_Weapons,SFX_Weapons_Turrets"
+	"volume"			"10"
+	"pitch"				"100"
+	"falloff"			"2"
+	"radius"			"7500"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"800"
+		"volume"			"3"
+		"limit"				"3"
+
+			"wave"				"scripted/MegaTurret/MegaTurret_Retract_Guns_2ch_01.wav"
+	}
+
+}
+
+"MegaTurret_Servos_Rotate_LP"
+{
+	"mixgroup"			"weapon,SFX,SFX_Weapons,SFX_Weapons_Turrets"
+	"volumescale"		"1.8"
+	"pitch"				"84"
+	"falloff"			"0"
+	"radius"			"2500"
+	"flags"				"mobile,loop"
+
+
+	"rndwave"
+	{
+		"delay"				"40"
+		"flags"				"spatialized"
+		"folddownDistance"	"800"
+		"volume"			"2"
+		"limit"				"2"
+
+			"wave"				"scripted/MegaTurret/MegaTurret_Servos_Rotate_LP_2ch_v1.wav"
+
+
+	}
+
+}
+
+"MegaTurret_Servos_Tilt_LP"
+{
+	"mixgroup"			"weapon,SFX,SFX_Weapons,SFX_Weapons_Turrets"
+	"volumescale"		"0"
+	"pitch"				"92"
+	"falloff"			"0"
+	"radius"			"2500"
+	"flags"				"mobile,loop"
+
+	"rndwave"
+	{
+		//"delay"				"100"
+		"flags"				"spatialized"
+		"folddownDistance"	"800"
+		"volume"			"3.0"
+		"limit"				"2"
+
+			"wave"				"scripted/MegaTurret/MegaTurret_Servos_Tilt_LP_2ch_v1.wav"
+
+
+	}
+
+}
+
+"MegaTurret_Servos_Clunk"
+{
+	"mixgroup"			"weapon,SFX,SFX_Weapons,SFX_Weapons_Turrets"
+	"volumescale"		"1.5"
+	"falloff"			"0"
+	"radius"			"2500"
+
+
+	"rndwave"
+	{
+
+		"flags"				"spatialized"
+		"folddownDistance"	"600"
+		"volume"			"3"
+		"pitch"				"90,102"
+		"limit"				"2"
+
+			"wave"				"scripted/MegaTurret/MegaTurret_Servos_Clunk_2ch_v1_01.wav"
+			"wave"				"scripted/MegaTurret/MegaTurret_Servos_Clunk_2ch_v1_02.wav"
+			"wave"				"scripted/MegaTurret/MegaTurret_Servos_Clunk_2ch_v1_03.wav"
+			"wave"				"scripted/MegaTurret/MegaTurret_Servos_Clunk_2ch_v1_04.wav"
+			"wave"				"scripted/MegaTurret/MegaTurret_Servos_Clunk_2ch_v1_05.wav"
+
+	}
+
+}
+
+
+////////////////////////////////////////////////////////////
+///////////   COOP WEAPONS   ///////////////////////////////
+////////////////////////////////////////////////////////////
+
+
+
+"R101_AI_WpnFire_FirstShot_A_Coop"
+{
+	"volumescale"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"80,120"
+	"radius"		"3000"
+	"falloff"		"5"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+    {
+		"flags"			"spatialized"
+		"volume"		"1.5"
+		"pitch"			"120,140"
+		"limit"			"2"
+
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_01.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_02.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_03.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_04.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_05.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_06.wav"
+	}
+
+}
+
+"R101_AI_WpnFire_Loop_A_Coop"
+{
+	"volumescale"		"1.5"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"90,120"
+	"radius"		"4000"
+	"falloff"		"5"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+    {
+		"volume"		"3"
+		"limit"			"2"
+		"minrange"      "0"
+		"maxrange"      "500"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Close_F_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Close_F_1ch_v1_02.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"2"
+		"limit"			"2"
+		"minrange"      "300"
+		"maxrange"      "1000"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Mid_F_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Mid_F_1ch_v1_02.wav"
+
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "700"
+		"maxrange"      "2000"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_DistDry_A_1ch_v1_02.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_DistDry_A_1ch_v1_03.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "1500"
+		"maxrange"      "2500"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_VeryDistWet_A_1ch_v1_04.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_VeryDistWet_A_1ch_v1_05.wav"
+
+	}
+}
+
+
+"R101_AI_WpnFire_Tail_A_Coop"
+{
+	"volumescale"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"90,120"
+	"occlusionDuckScale"	"1.5"
+	"flags"			"layered"
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"1"
+
+	"startDistance"     "0"
+    "peakDistance"      "0"
+    "startCurve"        "0"
+    "falloffStart"      "500"
+    "falloffEnd"        "700"
+    "falloffCurve"      "5"
+    "clampVolume"       "0"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Close_A_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Close_A_1ch_v1_02.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"1"
+		"pitch"			"90,110"
+
+	"startDistance"     "300"
+    "peakDistance"      "700"
+    "startCurve"        "5"
+    "falloffStart"      "800"
+    "falloffEnd"        "1500"
+    "falloffCurve"      "0"
+    "clampVolume"       "0"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Mid_A_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Mid_A_1ch_v1_02.wav"
+
+	}
+
+}
+
+
+
+
+"R101_AI_WpnFire_FirstShot_B_Coop"
+{
+	"volumescale"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"80,120"
+	"radius"		"3000"
+	"falloff"		"5"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+    {
+		"flags"			"spatialized"
+		"volume"		"1.5"
+		"pitch"			"120,140"
+		"limit"			"2"
+
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_01.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_02.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_03.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_04.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_05.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_06.wav"
+	}
+
+}
+
+"R101_AI_WpnFire_Loop_B_Coop"
+{
+	"volumescale"		"1.5"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"110,140"
+	"radius"		"4000"
+	"falloff"		"5"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+    {
+		"volume"		"3"
+		"limit"			"2"
+		"minrange"      "0"
+		"maxrange"      "650"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Close_D_1ch_v1_03.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Close_D_1ch_v1_06.wav"
+	}
+
+	"rndwave"
+    {
+		"volume"		"2"
+		"limit"			"2"
+		"minrange"      "300"
+		"maxrange"      "1000"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Mid_D_1ch_v1_03.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Mid_D_1ch_v1_06.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "700"
+		"maxrange"      "2000"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_DistWet_A_1ch_v1_02.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_DistWet_A_1ch_v1_03.wav"
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "1500"
+		"maxrange"      "2500"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_VeryDistWet_D_1ch_v1_03.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_VeryDistWet_D_1ch_v1_06.wav"
+	}
+}
+
+
+
+"R101_AI_WpnFire_Tail_B_Coop"
+{
+	"volumescale"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"90,120"
+	"occlusionDuckScale"	"1.5"
+	"flags"			"layered"
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"1"
+
+	"startDistance"     "0"
+    "peakDistance"      "0"
+    "startCurve"        "0"
+    "falloffStart"      "500"
+    "falloffEnd"        "700"
+    "falloffCurve"      "5"
+    "clampVolume"       "0"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Close_A_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Close_A_1ch_v1_02.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"1"
+		"pitch"			"90,110"
+
+	"startDistance"     "300"
+    "peakDistance"      "700"
+    "startCurve"        "5"
+    "falloffStart"      "800"
+    "falloffEnd"        "1500"
+    "falloffCurve"      "0"
+    "clampVolume"       "0"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Mid_A_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Mid_A_1ch_v1_02.wav"
+
+	}
+
+
+}
+
+
+
+"R101_AI_WpnFire_FirstShot_C_Coop"
+{
+	"volumescale"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"80,120"
+	"radius"		"3000"
+	"falloff"		"5"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+    {
+		"flags"			"spatialized"
+		"volume"		"1.5"
+		"pitch"			"120,140"
+		"limit"			"2"
+
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_01.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_02.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_03.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_04.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_05.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_06.wav"
+	}
+
+}
+
+"R101_AI_WpnFire_Loop_C_Coop"
+{
+	"volumescale"		"1.5"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"90,100"
+	"radius"		"4000"
+	"falloff"		"5"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+    {
+		"volume"		"3"
+		"limit"			"2"
+		"minrange"      "0"
+		"maxrange"      "500"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Close_A_1ch_v1_04.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Close_A_1ch_v1_05.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"2"
+		"limit"			"2"
+		"minrange"      "300"
+		"maxrange"      "1000"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Mid_A_1ch_v1_04.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Mid_A_1ch_v1_05.wav"
+
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "700"
+		"maxrange"      "2000"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_DistDry_B_1ch_v1_05.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_DistDry_B_1ch_v1_06.wav"
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "1500"
+		"maxrange"      "2500"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_VeryDistWet_A_1ch_v1_04.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_VeryDistWet_A_1ch_v1_05.wav"
+	}
+}
+
+
+"R101_AI_WpnFire_Tail_C_Coop"
+{
+	"volumescale"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"90,120"
+	"occlusionDuckScale"	"1.5"
+	"flags"			"layered"
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"1"
+
+	"startDistance"     "0"
+    "peakDistance"      "0"
+    "startCurve"        "0"
+    "falloffStart"      "500"
+    "falloffEnd"        "700"
+    "falloffCurve"      "5"
+    "clampVolume"       "0"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Close_A_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Close_A_1ch_v1_02.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"1"
+		"pitch"			"90,110"
+
+	"startDistance"     "300"
+    "peakDistance"      "700"
+    "startCurve"        "5"
+    "falloffStart"      "800"
+    "falloffEnd"        "1500"
+    "falloffCurve"      "0"
+    "clampVolume"       "0"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Mid_A_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Mid_A_1ch_v1_02.wav"
+
+	}
+
+
+}
+
+
+"R101_AI_WpnFire_FirstShot_D_Coop"
+{
+	"volumescale"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"80,120"
+	"radius"		"3000"
+	"falloff"		"5"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+    {
+		"flags"			"spatialized"
+		"volume"		"1.5"
+		"pitch"			"120,140"
+		"limit"			"2"
+
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_01.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_02.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_03.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_04.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_05.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_06.wav"
+	}
+
+}
+"R101_AI_WpnFire_Loop_D_Coop"
+{
+	"volumescale"		"1.5"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"100,120"
+	"radius"		"4000"
+	"falloff"		"5"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+    {
+		"volume"		"3"
+		"limit"			"2"
+		"minrange"      "0"
+		"maxrange"      "500"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Close_G_1ch_v1_03.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Close_G_1ch_v1_06.wav"
+	}
+
+	"rndwave"
+    {
+		"volume"		"2"
+		"limit"			"2"
+		"minrange"      "300"
+		"maxrange"      "1000"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Mid_G_1ch_v1_03.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Mid_G_1ch_v1_06.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "700"
+		"maxrange"      "2000"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_DistDry_A_1ch_v1_05.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_DistDry_A_1ch_v1_06.wav"
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "1500"
+		"maxrange"      "2500"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_VeryDistWet_C_1ch_v1_03.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_VeryDistWet_C_1ch_v1_06.wav"
+	}
+}
+
+
+"R101_AI_WpnFire_Tail_D_Coop"
+{
+	"volumescale"		"1"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"90,120"
+	"occlusionDuckScale"	"1.5"
+	"flags"			"layered"
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"1"
+
+	"startDistance"     "0"
+    "peakDistance"      "0"
+    "startCurve"        "0"
+    "falloffStart"      "500"
+    "falloffEnd"        "700"
+    "falloffCurve"      "5"
+    "clampVolume"       "0"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Close_A_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Close_A_1ch_v1_02.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"1"
+		"pitch"			"90,110"
+
+	"startDistance"     "300"
+    "peakDistance"      "700"
+    "startCurve"        "5"
+    "falloffStart"      "800"
+    "falloffEnd"        "1500"
+    "falloffCurve"      "0"
+    "clampVolume"       "0"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Mid_A_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Mid_A_1ch_v1_02.wav"
+
+	}
+
+
+}
+
+
+//////////////////////////////
+////  R97 NPC AI   ///////////
+//////////////////////////////
+
+
+"R97_AI_WpnFire_FirstShot_A_Coop"
+{
+	"volumescale"		"1.5"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"80,120"
+	"radius"		"3000"
+	"falloff"		"5"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+    {
+		"flags"			"spatialized"
+		"volume"		"1.5"
+		"pitch"			"120,140"
+		"limit"			"2"
+
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_01.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_02.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_03.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_04.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_05.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_06.wav"
+	}
+
+}
+
+"R97_AI_WpnFire_Loop_A_Coop"
+{
+	"volumescale"		"1.5"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"150,160"
+	"radius"		"4000"
+	"falloff"		"5"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+    {
+		"flags"			"spatialized"
+		"volume"		"1"
+		"pitch"			"75"
+		"limit"			"2"
+		"minrange"      "0"
+		"maxrange"      "500"
+
+	"wave"			"weapons\R97\Wpn_R97_3p_WpnFire_Loop_Close_Core_2ch_v1_01.wav"
+	"wave"			"weapons\R97\Wpn_R97_3p_WpnFire_Loop_Close_Core_2ch_v1_03.wav"
+	}
+
+	"rndwave"
+    {
+		"volume"		"2"
+		"limit"			"2"
+		"minrange"      "0"
+		"maxrange"      "500"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Close_A_1ch_v1_05.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Close_A_1ch_v1_06.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "300"
+		"maxrange"      "1000"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Mid_A_1ch_v1_05.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Mid_A_1ch_v1_06.wav"
+
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "700"
+		"maxrange"      "2000"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_DistDry_A_1ch_v1_05.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_DistDry_A_1ch_v1_06.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "1500"
+		"maxrange"      "2500"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_VeryDistWet_A_1ch_v1_05.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_VeryDistWet_A_1ch_v1_06.wav"
+
+	}
+}
+
+
+
+"R97_AI_WpnFire_Tail_A_Coop"
+{
+	"volumescale"		"2"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"135,150"
+	"occlusionDuckScale"	"1.5"
+	"flags"			"layered"
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"1"
+
+	"startDistance"     "0"
+    "peakDistance"      "0"
+    "startCurve"        "0"
+    "falloffStart"      "500"
+    "falloffEnd"        "700"
+    "falloffCurve"      "5"
+    "clampVolume"       "0"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Close_A_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Close_A_1ch_v1_02.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		".5"
+		"limit"			"1"
+
+	"startDistance"     "300"
+    "peakDistance"      "700"
+    "startCurve"        "5"
+    "falloffStart"      "800"
+    "falloffEnd"        "2500"
+    "falloffCurve"      "0"
+    "clampVolume"       "0"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Mid_A_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Mid_A_1ch_v1_02.wav"
+
+	}
+
+}
+
+"R97_AI_WpnFire_FirstShot_B_Coop"
+{
+	"volumescale"		"1.5"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"80,120"
+	"radius"		"3000"
+	"falloff"		"5"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+    {
+		"flags"			"spatialized"
+		"volume"		"1.5"
+		"pitch"			"120,140"
+		"limit"			"2"
+
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_01.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_02.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_03.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_04.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_05.wav"
+	"wave"			"weapons\R101\Wpn_R101_3p_WpnFire_Tail_2ch_v4_06.wav"
+	}
+
+}
+
+"R97_AI_WpnFire_Loop_B_Coop"
+{
+	"volumescale"		"1.5"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"175,180"
+	"radius"		"4000"
+	"falloff"		"5"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+    {
+		"flags"			"spatialized"
+		"volume"		"2"
+		"pitch"			"100"
+		"limit"			"2"
+		"minrange"      "0"
+		"maxrange"      "500"
+
+	"wave"			"weapons\R97\Wpn_R97_3p_WpnFire_Loop_Close_Core_2ch_v1_02.wav"
+	"wave"			"weapons\R97\Wpn_R97_3p_WpnFire_Loop_Close_Core_2ch_v1_04.wav"
+	}
+
+	"rndwave"
+    {
+		"volume"		"2"
+		"limit"			"2"
+		"minrange"      "0"
+		"maxrange"      "500"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Close_E_1ch_v1_05.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Close_E_1ch_v1_06.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "300"
+		"maxrange"      "1000"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Mid_E_1ch_v1_05.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_Mid_E_1ch_v1_06.wav"
+
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "700"
+		"maxrange"      "2000"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_DistDry_B_1ch_v1_05.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_DistDry_B_1ch_v1_06.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+		"minrange"      "1500"
+		"maxrange"      "2500"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_VeryDistWet_C_1ch_v1_05.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Burst_VeryDistWet_C_1ch_v1_06.wav"
+
+	}
+}
+
+
+
+"R97_AI_WpnFire_Tail_B_Coop"
+{
+	"volumescale"		"2"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_AI,SFX_Weapons_AI_Gunfire"
+	"pitch"			"135,150"
+	"occlusionDuckScale"	"1.5"
+	"flags"			"layered"
+
+	"rndwave"
+    {
+		"volume"		"1"
+		"limit"			"2"
+
+	"startDistance"     "0"
+    "peakDistance"      "0"
+    "startCurve"        "0"
+    "falloffStart"      "500"
+    "falloffEnd"        "700"
+    "falloffCurve"      "5"
+    "clampVolume"       "0"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Close_A_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Close_A_1ch_v1_02.wav"
+
+	}
+
+	"rndwave"
+    {
+		"volume"		".5"
+		"limit"			"2"
+
+
+	"startDistance"     "300"
+    "peakDistance"      "700"
+    "startCurve"        "5"
+    "falloffStart"      "800"
+    "falloffEnd"        "2500"
+    "falloffCurve"      "0"
+    "clampVolume"       "0"
+
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Mid_A_1ch_v1_01.wav"
+		"wave"			"weapons\R101_AI\Wpn_R101_AI_WpnFire_Tail_Mid_A_1ch_v1_02.wav"
+
+	}
+
+}

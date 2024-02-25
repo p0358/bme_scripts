@@ -1,0 +1,3888 @@
+/////////////
+// Cinematics
+/////////////
+// Boneyard
+////////////
+
+
+//Boneyard Dropship Intro
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+
+// Ground Outside
+
+"diag_hp_matchIntro_BY103_01_01_mcor_grunt1"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"2.5"
+	"pitch"			"PITCH_NORM"
+	"radius"		"5000"
+	"ducks"			"SFX,0.3:200,1000,0,0"	
+	"ducks"			"music,0.3:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.3:200,1000,0,0"
+	
+	"wave"			"dialogue/Cinematics/Boneyard/diag_hp_matchIntro_BY103_01_01_mcor_grunt1.wav"
+}
+
+
+"diag_hp_matchIntro_BY103_02_01_mcor_grunt2"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.7"
+	"pitch"			"PITCH_NORM"
+	"radius"		"5000"
+	"ducks"			"SFX,0.3:200,1000,0,0"	
+	"ducks"			"music,0.3:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.3:200,1000,0,0"
+	
+	"wave"			"dialogue/Cinematics/Boneyard/diag_hp_matchIntro_BY103_02_01_mcor_grunt2.wav"
+}
+
+
+"diag_hp_matchIntro_BY103_03_01_mcor_grunt3"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.7"
+	"pitch"			"PITCH_NORM"
+	"radius"		"5000"
+	"ducks"			"SFX,0.3:200,1000,0,0"	
+	"ducks"			"music,0.3:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.3:200,1000,0,0"
+	
+	"wave"			"dialogue/Cinematics/Boneyard/diag_hp_matchIntro_BY103_03_01_mcor_grunt3.wav"
+}
+
+
+"diag_hp_matchIntro_BY103_04_01_mcor_grunt2"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.7"
+	"pitch"			"PITCH_NORM"
+	"radius"		"5000"
+	"ducks"			"SFX,0.3:200,1000,0,0"	
+	"ducks"			"music,0.3:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.3:200,1000,0,0"
+	
+	"wave"			"dialogue/Cinematics/Boneyard/diag_hp_matchIntro_BY103_04_01_mcor_grunt2.wav"
+}
+
+//AliasRemovedByBatchProcess
+
+
+"diag_sitFlavor_BY204_01_01_mcor_grunt1"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.7"
+	"pitch"			"PITCH_NORM"
+	"radius"		"5000"
+	"ducks"			"SFX,0.3:200,1000,0,0"	
+	"ducks"			"music,0.3:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.3:200,1000,0,0"
+	
+	"wave"			"dialogue/Cinematics/Boneyard/diag_sitFlavor_BY204_01_01_mcor_grunt1.wav"
+}
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+
+"diag_sitFlavor_BY207_01_01_imc_grunt1"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.7"
+	"pitch"			"PITCH_NORM"
+	"radius"		"5000"
+	"ducks"			"SFX,0.3:200,1000,0,0"	
+	"ducks"			"music,0.3:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.3:200,1000,0,0"
+	
+	"wave"			"dialogue/Cinematics/Boneyard/diag_sitFlavor_BY207_01_01_imc_grunt1.wav"
+}
+
+
+"diag_sitFlavor_BY208_01_01_imc_grunt1"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.7"
+	"pitch"			"PITCH_NORM"
+	"radius"		"5000"
+	"ducks"			"SFX,0.3:200,1000,0,0"	
+	"ducks"			"music,0.3:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.3:200,1000,0,0"
+	
+	"wave"			"dialogue/Cinematics/Boneyard/diag_sitFlavor_BY208_01_01_imc_grunt1.wav"
+}
+
+
+"diag_sitFlavor_BY209_01_01_imc_grunt1"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.7"
+	"pitch"			"PITCH_NORM"
+	"radius"		"5000"
+	"ducks"			"SFX,0.3:200,1000,0,0"	
+	"ducks"			"music,0.3:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.3:200,1000,0,0"
+	
+	"wave"			"dialogue/Cinematics/Boneyard/diag_sitFlavor_BY209_01_01_imc_grunt1.wav"
+}
+
+
+// VDUs
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+
+"diag_hp_LostAll_BY104_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_LostAll_BY104_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_LostAll_BY105_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_LostAll_BY105_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_LostAll_BY106_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_LostAll_BY106_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_PatchedIn_BY107_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_PatchedIn_BY107_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_PatchedInA_BY108_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_PatchedInA_BY108_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_PatchedInB_BY109_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_PatchedInB_BY109_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_PatchedInC_BY110_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_PatchedInC_BY110_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_NeutProg_MIL25_BY111_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_NeutProg_MIL25_BY111_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_NeutProg_MIL50_BY112_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_NeutProg_MIL50_BY112_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_NeutProg_MIL75_BY113_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_NeutProg_MIL75_BY113_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_Neutralized_BY114_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_Neutralized_BY114_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_NeutralizedA_BY115_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_NeutralizedA_BY115_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_NeutralizedB_BY116_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_NeutralizedB_BY116_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_NeutralizedC_BY117_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_NeutralizedC_BY117_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_NeutralizedA_BY118_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_NeutralizedA_BY118_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_NeutralizedB_BY119_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_NeutralizedB_BY119_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_NeutralizedC_BY120_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_NeutralizedC_BY120_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_CapProg_MIL25_BY121_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapProg_MIL25_BY121_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_CapProg_MIL50_BY122_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapProg_MIL50_BY122_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_CapProg_MIL75_BY123_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapProg_MIL75_BY123_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_CapB_NeedAC_BY124_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapB_NeedAC_BY124_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_CapA_NeedBC_BY125_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapA_NeedBC_BY125_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_CapC_NeedAB_BY126_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapC_NeedAB_BY126_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_CapB_NeedA_BY127_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapB_NeedA_BY127_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_CapC_NeedA_BY128_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapC_NeedA_BY128_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_CapA_NeedB_BY129_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapA_NeedB_BY129_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_CapC_NeedB_BY130_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapC_NeedB_BY130_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_CapA_NeedC_BY131_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapA_NeedC_BY131_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_CapB_NeedC_BY132_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapB_NeedC_BY132_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_Cap2_Need1_BY133_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_Cap2_Need1_BY133_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_CapAll_BY134_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapAll_BY134_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_CapAll_BY135_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapAll_BY135_01_01_mcor_Bish.wav"
+	}
+}
+
+
+"diag_hp_CapAll_BY136_01_01_mcor_Bish"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapAll_BY136_01_01_mcor_Bish.wav"
+	}
+}
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+
+"diag_hp_LostAll_BY150_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_LostAll_BY150_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_LostAll_BY151_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_LostAll_BY151_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_LostAll_BY152_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_LostAll_BY152_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_PatchedIn_BY153_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_PatchedIn_BY153_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_PatchedInA_BY154_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_PatchedInA_BY154_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_PatchedInB_BY155_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_PatchedInB_BY155_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_PatchedInC_BY156_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_PatchedInC_BY156_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_NeutProg_IMC25_BY157_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_NeutProg_IMC25_BY157_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_NeutProg_IMC50_BY158_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_NeutProg_IMC50_BY158_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_NeutProg_IMC75_BY159_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_NeutProg_IMC75_BY159_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_Neutralized_BY160_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_Neutralized_BY160_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_NeutralizedA_BY161_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_NeutralizedA_BY161_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_NeutralizedB_BY162_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_NeutralizedB_BY162_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_NeutralizedC_BY163_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_NeutralizedC_BY163_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_NeutralizedA_BY164_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_NeutralizedA_BY164_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_NeutralizedB_BY165_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_NeutralizedB_BY165_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_NeutralizedC_BY166_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_NeutralizedC_BY166_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_CapProg_IMC25_BY167_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapProg_IMC25_BY167_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_CapProg_IMC50_BY168_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapProg_IMC50_BY168_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_CapProg_IMC75_BY169_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapProg_IMC75_BY169_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_CapB_NeedAC_BY170_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapB_NeedAC_BY170_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_CapA_NeedBC_BY171_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapA_NeedBC_BY171_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_CapC_NeedAB_BY172_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapC_NeedAB_BY172_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_CapB_NeedA_BY173_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapB_NeedA_BY173_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_CapC_NeedA_BY174_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapC_NeedA_BY174_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_CapA_NeedB_BY175_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapA_NeedB_BY175_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_CapC_NeedB_BY176_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapC_NeedB_BY176_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_CapA_NeedC_BY177_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapA_NeedC_BY177_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_CapB_NeedC_BY178_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapB_NeedC_BY178_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_Cap2_Need1_BY179_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_Cap2_Need1_BY179_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_CapAll_BY180_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapAll_BY180_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_CapAll_BY181_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapAll_BY181_01_01_imc_Blisk.wav"
+	}
+}
+
+
+"diag_hp_CapAll_BY182_01_01_imc_Blisk"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.8:200,1000,0,0"	
+	"ducks"		"music,0.5:200,1000,0,0"	
+	"ducks"		"DIAL_AI,0.5:200,1000,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_hp_CapAll_BY182_01_01_imc_Blisk.wav"
+	}
+}
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+
+
+//Boneyard Pickups 130829
+
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+
+
+
+
+
+
+
+
+
+
+
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+
+
+
+
+"diag_matchIntro_BY301_01_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.8"
+
+	"radius"		"5000"
+	
+//	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+//	"ducks"			"music,0.5:30.0,100.0,0,0"	
+//	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+//	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"wave"			"dialogue/Cinematics/Boneyard/diag_matchIntro_BY301_01_01_mcor_barker.wav"
+}
+
+
+"diag_matchIntro_BY301_02_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.8"
+
+	"radius"		"5000"
+	
+//	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+//	"ducks"			"music,0.5:30.0,100.0,0,0"	
+//	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+//	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"wave"			"dialogue/Cinematics/Boneyard/diag_matchIntro_BY301_02_01_mcor_barker.wav"
+}
+
+
+"diag_matchIntro_BY301_01_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"2.2"
+
+	"radius"		"5000"
+	
+//	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+//	"ducks"			"music,0.5:30.0,100.0,0,0"	
+//	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+//	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"wave"			"dialogue/Cinematics/Boneyard/diag_matchIntro_BY301_01_01_mcor_macal.wav"
+}
+
+
+"diag_matchIntro_BY301_02_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.5"
+
+	"radius"		"5000"
+	
+//	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+//	"ducks"			"music,0.5:30.0,100.0,0,0"	
+//	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+//	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"wave"			"dialogue/Cinematics/Boneyard/diag_matchIntro_BY301_02_01_mcor_macal.wav"
+}
+
+
+"diag_matchIntro_BY302_01_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+
+	"radius"		"5000"
+	
+//	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+//	"ducks"			"music,0.5:30.0,100.0,0,0"	
+//	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+//	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"wave"			"dialogue/Cinematics/Boneyard/diag_matchIntro_BY302_01_01_imc_blisk.wav"
+}
+
+
+"diag_matchIntro_BY302_02_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+
+	"radius"		"5000"
+	
+//	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+//	"ducks"			"music,0.5:30.0,100.0,0,0"	
+//	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+//	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"wave"			"dialogue/Cinematics/Boneyard/diag_matchIntro_BY302_02_01_imc_blisk.wav"
+}
+
+
+"diag_matchIntro_BY302_03_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+
+	"radius"		"5000"
+	
+//	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+//	"ducks"			"music,0.5:30.0,100.0,0,0"	
+//	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+//	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"wave"			"dialogue/Cinematics/Boneyard/diag_matchIntro_BY302_03_01_imc_blisk.wav"
+}
+
+
+"diag_matchIntro_BY302_04_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+
+	"radius"		"5000"
+	
+//	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+//	"ducks"			"music,0.5:30.0,100.0,0,0"	
+//	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+//	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"wave"			"dialogue/Cinematics/Boneyard/diag_matchIntro_BY302_04_01_imc_blisk.wav"
+}
+
+
+"diag_matchIntro_BY302_05_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+
+	"radius"		"5000"
+	
+//	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+//	"ducks"			"music,0.5:30.0,100.0,0,0"	
+//	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+//	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"wave"			"dialogue/Cinematics/Boneyard/diag_matchIntro_BY302_05_01_imc_blisk.wav"
+}
+
+//AliasRemovedByBatchProcess
+
+
+"diag_story25Mil_BY303_01a_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story25Mil_BY303_01a_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_story25Mil_BY303_02_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.8"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story25Mil_BY303_02_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_story25Mil_BY303_03_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story25Mil_BY303_03_01_mcor_macal.wav"
+	}
+}
+
+//AliasRemovedByBatchProcess
+
+
+"diag_story25Mil_BY303_04a_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story25Mil_BY303_04a_01_mcor_bish.wav"
+	}
+}
+
+//AliasRemovedByBatchProcess
+
+
+"diag_story50Mil_BY304_01a_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story50Mil_BY304_01a_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_story50Mil_BY304_02_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story50Mil_BY304_02_01_mcor_macal.wav"
+	}
+}
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+
+
+
+
+"diag_story75Mil_BY305_01a_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story75Mil_BY305_01a_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_story75Mil_BY305_02_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.8"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story75Mil_BY305_02_01_mcor_sarah.wav"
+	}
+}
+
+
+
+"diag_story75Mil_BY305_03_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story75Mil_BY305_03_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_story25Mil_BY306_01_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story25Mil_BY306_01_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_story25Mil_BY306_02_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story25Mil_BY306_02_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_story25Mil_BY306_03_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story25Mil_BY306_03_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_story50Mil_BY307_01_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story50Mil_BY307_01_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_story50Mil_BY307_02_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story50Mil_BY307_02_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_story50Mil_BY307_03_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story50Mil_BY307_03_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_story50Mil_BY307_04_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story50Mil_BY307_04_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_story75Mil_BY308_01_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story75Mil_BY308_01_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_story75Mil_BY308_02_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story75Mil_BY308_02_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_story75Mil_BY308_03_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story75Mil_BY308_03_01_imc_blisk.wav"
+	}
+}
+
+//AliasRemovedByBatchProcess
+
+
+"diag_milWinAnnc_BY309_01_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_milWinAnnc_BY309_01_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_imcLoseAnnc_BY310_01_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_imcLoseAnnc_BY310_01_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_epMid_milWin_BY311_01_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epMid_milWin_BY311_01_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_epMid_milWin_BY311_02_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epMid_milWin_BY311_02_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_epMid_milWin_BY311_03_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epMid_milWin_BY311_03_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_epMid_imcLose_BY312_01_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epMid_imcLose_BY312_01_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_epMid_imcLose_BY312_02_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epMid_imcLose_BY312_02_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_epMid_imcLose_BY312_03_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epMid_imcLose_BY312_03_01_imc_graves.wav"
+	}
+}
+
+
+"diag_epMid_imcWin_BY313_01_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epMid_imcWin_BY313_01_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_epMid_imcWin_BY313_02_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epMid_imcWin_BY313_02_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_imcWinAnnc_BY314_01_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_imcWinAnnc_BY314_01_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_milLoseAnnc_BY314_02_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_milLoseAnnc_BY314_02_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_epMid_imcWin_BY315_01_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epMid_imcWin_BY315_01_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_epMid_imcWin_BY315_02_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epMid_imcWin_BY315_02_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_epMid_imcWin_BY315_03_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epMid_imcWin_BY315_03_01_imc_graves.wav"
+	}
+}
+
+
+"diag_epMid_milLose_BY316_01_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epMid_milLose_BY316_01_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_epMid_milLose_BY316_02_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epMid_milLose_BY316_02_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_epMid_milLose_BY316_03_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epMid_milLose_BY316_03_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_epMid_milLose_BY316_04_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epMid_milLose_BY316_04_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_epPostMil_BY317_01_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epPostMil_BY317_01_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_epPostMil_BY317_02_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epPostMil_BY317_02_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_epPostMil_BY317_03_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epPostMil_BY317_03_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_epPostMil_BY317_04_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epPostMil_BY317_04_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_epPostImc_BY318_01_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epPostImc_BY318_01_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_epPostImc_BY318_02_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epPostImc_BY318_02_01_imc_graves.wav"
+	}
+}
+
+
+"diag_epPostImc_BY318_03_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epPostImc_BY318_03_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_epPostImc_BY318_04_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epPostImc_BY318_04_01_imc_graves.wav"
+	}
+}
+
+
+"diag_story25imc_BY319_01_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story25imc_BY319_01_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_story25imc_BY319_02_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story25imc_BY319_02_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_story25imc_BY320_01_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story25imc_BY320_01_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_story25imc_BY320_02_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story25imc_BY320_02_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_story35Mil_BY321_01_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story35Mil_BY321_01_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_story35Mil_BY321_02_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story35Mil_BY321_02_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_story35Mil_BY322_01_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story35Mil_BY322_01_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_story35Mil_BY322_02_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story35Mil_BY322_02_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_story35imc_BY323_01_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story35imc_BY323_01_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_story35imc_BY323_02_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story35imc_BY323_02_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_story35imc_BY323_03_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story35imc_BY323_03_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_story35imc_BY323_04_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.8"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story35imc_BY323_04_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_story35imc_BY324_01_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story35imc_BY324_01_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_story35imc_BY324_02_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story35imc_BY324_02_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_story50imc_BY325_01_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story50imc_BY325_01_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_story50imc_BY325_02_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story50imc_BY325_02_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_story50imc_BY326_01_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story50imc_BY326_01_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_story50imc_BY326_02_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.8"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story50imc_BY326_02_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_story75imc_BY327_01_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story75imc_BY327_01_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_story75imc_BY327_02_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story75imc_BY327_02_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_story75imc_BY328_01_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story75imc_BY328_01_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_story75imc_BY328_02_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.8"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story75imc_BY328_02_01_mcor_macal.wav"
+	}
+}
+
+
+
+"diag_story50Mil_BY304_02a_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.5"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_story50Mil_BY304_02a_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_epMid_imcLose_BY312_03a_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epMid_imcLose_BY312_03a_01_imc_graves.wav"
+	}
+}
+
+
+
+
+
+"diag_epMid_imcWin_BY313_02a_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epMid_imcWin_BY313_02a_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_milLoseAnnc_BY314_02a_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_milLoseAnnc_BY314_02a_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_epPostImc_BY318_04a_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Boneyard/diag_epPostImc_BY318_04a_01_imc_graves.wav"
+	}
+}
+
+

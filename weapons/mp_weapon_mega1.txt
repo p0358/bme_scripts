@@ -1,0 +1,172 @@
+WeaponData
+{
+	// General
+	"printname"										"Smart Cannon"
+	"description"									"Lock-on Storm Rifle"
+	"longdesc"										""
+	"weaponClass"									"titan"
+	"fire_mode"										"auto"
+	"server_vscript"									"weapons/mp_titanweapon_smart_cannon"
+	"client_vscript"									"weapons/mp_titanweapon_smart_cannon"
+	"pickup_hold_prompt"								"Hold [USE] [WEAPONNAME]"
+	"pickup_press_prompt"							"[USE] [WEAPONNAME]"
+
+	// Models
+	"viewmodel"										"models/weapons/xotbr16/atpov_xotbr16.mdl"
+	"playermodel"									"models/weapons/xotbr16/w_xotbr16.mdl"
+	"projectilemodel"								""
+	"anim_prefix"									"python"
+
+	// Effects
+	"tracer_effect"									"weapon_tracers_xo16"
+	"impact_effect_table"							""
+	"projectile_trail_effect_0"						"wpn_orbital_rockettrail"
+	"projectile_trail_attachment"					"exhaust"
+
+	// Damage - When Used by Players
+	"damage_type"									"bullet"
+	"damage_near_distance"							"2000"
+	"damage_far_distance"							"2500"
+	"damage_near_value"								"50"
+	"damage_far_value"								"45"
+	"damage_near_value_titanarmor"					""
+	"damage_far_value_titanarmor"					""
+	"explosion_damage"								"0"
+	"explosion_damage_heavy_armor"					""
+
+	// Damage - When Used by NPCs
+	"npc_damage_near_distance"						"2000"
+	"npc_damage_far_distance"						"2500"
+	"npc_damage_near_value"							"20"
+	"npc_damage_far_value"							"18"
+	"npc_damage_near_value_titanarmor"				""
+	"npc_damage_far_value_titanarmor"				""
+	"npc_explosion_damage"							""
+	"npc_explosion_damage_heavy_armor"				""
+
+	"explosion_inner_radius"							""
+	"explosionradius"								"0"
+	"impulse_force"									""
+
+	// Ammo
+	"ammo_stockpile_max"									"200"
+	"ammo_clip_size"										"20"
+	"ammo_default_total"									"200"
+
+	// Behavior
+	"fire_rate"										"12"
+	"burst_fire_count"								""
+	"burst_fire_delay"								""
+	"zoom_time_in"									"0.1"
+	"zoom_time_out"									"0.1"
+	"zoom_fov"										"44"
+	"reload_time"									"2"
+	"reloadempty_time"								""
+	"holster_time"									""
+	"deploy_time"									""
+	"lower_time"										""
+	"raise_time"										""
+	"charge_cooldown_time"							""
+	"charge_cooldown_delay"							""
+	"allow_empty_fire"					"0"
+	"reload_enabled"					"1"
+
+	// Spread
+	"spread_stand_hip"									"8"
+	"spread_stand_ads"								"8"
+	"spread_npc"										"8"
+
+	"spread_kick_on_fire"							""
+	"spread_max_kick"								""
+	"spread_decay_rate"								""
+	"spread_decay_delay"								""
+
+	// View Kick
+	"viewkick_spring"								"pistol"
+
+	"viewkick_pitch_base"							""
+	"viewkick_pitch_random"							""
+	"viewkick_pitch_softScale"						""
+	"viewkick_pitch_hardScale"						""
+
+	"viewkick_yaw_base"								""
+	"viewkick_yaw_random"							""
+	"viewkick_yaw_softScale"							""
+	"viewkick_yaw_hardScale"							""
+
+	"viewkick_roll_base"								""
+	"viewkick_roll_randomMin"						""
+	"viewkick_roll_randomMax"						""
+	"viewkick_roll_softScale"						""
+	"viewkick_roll_hardScale"						""
+
+	"viewkick_hipfire_weaponFraction"				""
+	"viewkick_hipfire_weaponFraction_vmScale"		""
+	"viewkick_ads_weaponFraction"					""
+	"viewkick_ads_weaponFraction_vmScale"			""
+
+	// Bob
+	"bob_cycle_time"									"0"
+	"bob_vert_dist"									"0.125"
+	"bob_horz_dist"									"0.25"
+	"bob_max_speed"									"320.0"
+	"bob_tilt_angle"									""
+
+	// Sway
+	"sway_turn_angle_factor"							".8"
+	"sway_turn_origin_factor"						"0.25"
+	"sway_turn_angle_factor_zoomed"					"1.5"
+	"sway_turn_origin_factor_zoomed"					"0.2"
+	"sway_move_angle_factor"							"-1"
+	"sway_move_origin_factor"						"-.3"
+	"sway_move_angle_factor_zoomed"					"0"
+	"sway_move_origin_factor_zoomed"					"0.03"
+	"sway_gain"										"15.0"
+
+	// Rumble
+	"rumble"											"6"
+
+	// NPC
+	"proficiency_poor_spreadscale"					"7.0"
+	"proficiency_poor_bias"							"0.75"
+	"proficiency_average_spreadscale"				"5.0"
+	"proficiency_average_bias"						"0.9"
+	"proficiency_good_spreadscale"					"3.33333"
+	"proficiency_good_bias"							"0.9"
+	"proficiency_very_good_spreadscale"				"1.66667"
+	"proficiency_very_good_bias"						"0.9"
+	"proficiency_perfect_spreadscale"				"1.0"
+	"proficiency_perfect_bias"						"1.0"
+
+	"npc_min_range"									"0"
+	"npc_max_range"									"8000"
+	"npc_min_range_secondary"						"0"
+	"npc_max_range_secondary"						"2500"
+	"npc_min_burst"									"2"
+	"npc_max_burst"									"5"
+
+	// WeaponED Unhandled Key/Values and custom script Key/Values
+
+	TextureData
+	{
+		"crosshair"
+		{
+			"file"									"vgui/HUD/crosshair_hex_small"
+			"x"										"0"
+			"y"										"0"
+			"width"									"256"
+			"height"									"256"
+		}
+		"crosshair_zoom"
+		{
+			"file"									"vgui/HUD/crosshair_hex_small"
+			"x"										"0"
+			"y"										"0"
+			"width"									"256"
+			"height"									"256"
+		}
+		"autoaim"
+		{
+		}
+	}
+}

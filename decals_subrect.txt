@@ -1,0 +1,138 @@
+// Decal definitions, format is 
+//   decalname weight
+//   where weight is used to randomly selected a decal to apply from within the group
+//
+// "gamematerial types are defined in "C:\Depot\r1dev\src\game\client\fx_impact.cpp"
+//
+// This is just an entry to map material types to "impact.xxx"
+"TranslationData"
+{
+	"-"			""  // don't decal this surface
+
+	"C"			"Impact.Concrete" 			//Concrete
+	"D"			"Impact.Default" 				//Dirt
+	"E"			"Impact.MetalTitan"			//Titan
+	"F"			"Impact.Flesh"					//Flesh
+	"G"			"Impact.Metal" 					//Chainlink
+	"J"			"Impact.Grass" 					//Grass
+	"L"			"Impact.Default" 				//Plastic
+	"M"			"Impact.Metal" 					//Metal
+	"P"			"Impact.Metal" 					//Computer
+	"T"			"Impact.Concrete" 			//Tile
+	"W"			"Impact.Wood"						//Wood
+	"Y"			"Impact.Glass"
+	"B"			""
+	"H"			"Impact.Flesh"					//AlienFlesh
+	"V"			"Impact.Metal" 					//Vent
+
+
+}
+
+"Impact.Default"
+{
+	"decals/bullets/default/shot1_subrect" "1"
+//	"decals/bullets/default/shot2_subrect" "1"
+
+}
+
+"Impact.Concrete"
+{
+	"decals/bullets/concrete/shot1_subrect" "1"
+//	"decals/concrete/shot3_subrect" "1"
+//	"decals/concrete/shot4_subrect" "1"
+//	"decals/concrete/shot5_subrect" "1"
+}
+
+
+"Impact.Grass"
+{
+	"decals/bullets/default/shot1_subrect" "1"
+}
+
+"Impact.Metal"
+{
+	"decals/bullets/metal/shot1_subrect" "1"
+	"decals/bullets/metal/shot2_subrect" "1"
+}
+
+"Impact.MetalTitan"
+{
+	"decals/bullets/metal_titan/shot1" "1"
+	"decals/bullets/metal_titan/shot2" "1"
+}
+
+"Impact.Wood"
+{
+	"decals/bullets/wood/shot1_subrect" "1"
+	"decals/bullets/wood/shot2_subrect" "1"
+	"decals/bullets/wood/shot3_subrect" "1"
+}
+
+"Impact.Glass"
+{
+	"decals/bullets/glass/shot1_subrect" "1"
+	"decals/bullets/glass/shot2_subrect" "1"
+	"decals/bullets/glass/shot3_subrect" "1"
+}
+
+
+"Impact.Flesh"
+{
+	"decals/bullets/flesh/shot1_subrect" "1"
+	"decals/bullets/flesh/shot2_subrect" "1"
+}
+
+
+"Scorch"
+{
+	"decals/scorch1_subrect" "1"
+	"decals/scorch2_subrect" "1"
+}
+
+"Blood"
+{
+	"decals/blood1_subrect" "1"
+	"decals/blood2_subrect" "1"
+	"decals/blood3_subrect" "1"
+//	"decals/blood4_subrect" "1"
+//	"decals/blood5_subrect" "1"
+//	"decals/blood6_subrect" "1"
+}
+
+"BloodBig"
+{
+	"decals/bloodbig1_subrect" "1"
+}
+
+"BigShot"
+{
+	"decals/bullets/metal/shot1_subrect" "1"
+	"decals/bullets/metal/shot2_subrect" "1"
+}
+
+"Models"
+{
+	// World Model specific decal precache.
+	"decals/bullets/concrete/shot1" "1"
+	"decals/bullets/metal/shot1" "1"
+	"decals/bullets/metal/shot2" "1"
+	"decals/bullets/metal_titan/shot1" "1"
+	"decals/bullets/metal_titan/shot2" "1"
+	"decals/bullets/wood/shot1" "1"
+	"decals/bullets/wood/shot2" "1"
+	"decals/bullets/glass/shot1" "1"
+	"decals/bullets/glass/shot2" "1"
+	"decals/bullets/glass/shot3" "1"
+	"decals/scorch1" "1"
+	"decals/scorch2" "1"
+//	"decals/blood1" "1"
+//	"decals/blood2" "1"
+//	"decals/blood3" "1"
+//	"decals/blood4" "1"
+//	"decals/blood5" "1"
+//	"decals/blood6" "1"
+//	"decals/blood7" "1"
+//	"decals/blood8" "1"
+	"decals/bullets/flesh/shot1" "1"
+	"decals/bullets/flesh/shot2" "1"
+}

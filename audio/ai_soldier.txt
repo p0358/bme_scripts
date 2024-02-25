@@ -1,0 +1,629 @@
+///////////////////////////////
+// AI GRUNT DEATHS AND PAINS //
+//////////////////////////////
+
+
+"npc_grunt_pain"
+{
+	"volume"		"1.0"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Impacts"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"rndwave"
+	{
+		"limit"			"2"
+		"wave"			"ai/npc_pain_01.wav"
+		"wave"			"ai/npc_pain_02.wav"
+		"wave"			"ai/npc_pain_03.wav"
+		"wave"			"ai/npc_pain_04.wav"
+		"wave"			"ai/npc_pain_05.wav"
+		"wave"			"ai/npc_pain_06.wav"
+		"wave"			"ai/npc_pain_07.wav"
+		"wave"			"ai/npc_pain_08.wav"
+		"wave"			"ai/npc_pain_09.wav"
+		"wave"			"ai/npc_pain_10.wav"
+	}
+}
+
+"npc_grunt_death"
+{
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Impacts"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"rndwave"
+	{
+		"limit"			"2"
+		"wave"			"ai/npc_death_01.wav"
+		"wave"			"ai/npc_death_02.wav"
+		"wave"			"ai/npc_death_03.wav"
+		"wave"			"ai/npc_death_04.wav"
+		"wave"			"ai/npc_death_05.wav"
+		"wave"			"ai/npc_death_06.wav"
+		"wave"			"ai/npc_death_07.wav"
+	}
+}
+
+"Death.Pinkmist"
+{
+	"mixgroup"		"SFX,SFX_Impacts,SFX_Impacts_Deaths"
+	"volume"		"9.0"
+	"radius"		"1250"
+	"pitch"			"90,110"
+	"rndwave"
+	{
+		"limit"			"2"
+		"wave"			"impacts/red_mist_death_01.wav"
+		"wave"			"impacts/red_mist_death_02.wav"
+		"wave"			"impacts/red_mist_death_03.wav"
+		"wave"			"impacts/red_mist_death_04.wav"
+		"wave"			"impacts/red_mist_death_05.wav"
+		"wave"			"impacts/red_mist_death_06.wav"
+	}
+}
+
+"Death.Char"
+{
+	"mixgroup"		"SFX,SFX_Impacts,SFX_Impacts_Deaths"
+	"volume"		"1.0"
+	"radius"		"1250"
+	"pitch"			"90,110"
+	"rndwave"
+	{
+		"limit"			"2"
+		"wave"			"impacts/red_mist_death_01.wav"
+		"wave"			"impacts/red_mist_death_02.wav"
+		"wave"			"impacts/red_mist_death_03.wav"
+		"wave"			"impacts/red_mist_death_04.wav"
+		"wave"			"impacts/red_mist_death_05.wav"
+		"wave"			"impacts/red_mist_death_06.wav"
+	}
+}
+
+"Death.Dissolve"
+{
+	"mixgroup"		"SFX,SFX_Impacts,SFX_Impacts_Deaths"
+	"volume"		"1.0"
+	"radius"		"1250"
+	"pitch"			"90,110"
+	"rndwave"
+	{
+		"limit"			"2"
+		"wave"			"impacts/red_mist_death_01.wav"
+		"wave"			"impacts/red_mist_death_02.wav"
+		"wave"			"impacts/red_mist_death_03.wav"
+		"wave"			"impacts/red_mist_death_04.wav"
+		"wave"			"impacts/red_mist_death_05.wav"
+		"wave"			"impacts/red_mist_death_06.wav"
+	}
+}
+
+//////////////////////////////
+// DEATH BY FLYER          //
+////////////////////////////
+
+"Grunt_MauledByFlyer"
+{
+	"mixgroup"		"SFX,SFX_Impacts,SFX_Impacts_Deaths"
+	"volume"		"6.0"
+	"radius"		"4000"
+	"pitch"			"95,105"
+	"rndwave"
+	{
+		"limit"			"2"
+		"wave"			"ai/Deaths/Grunt_MauledByFlyer_1ch_v1_01.wav"
+		"wave"			"ai/Deaths/Grunt_MauledByFlyer_1ch_v1_02.wav"
+		"wave"			"ai/Deaths/Grunt_MauledByFlyer_1ch_v1_03.wav"
+		"wave"			"ai/Deaths/Grunt_MauledByFlyer_1ch_v1_04.wav"
+		"wave"			"ai/Deaths/Grunt_MauledByFlyer_1ch_v1_05.wav"
+		"wave"			"ai/Deaths/Grunt_MauledByFlyer_1ch_v1_06.wav"
+//		"wave"			"ai/Deaths/Grunt_MauledByFlyer_1ch_v1_07.wav"
+//		"wave"			"ai/Deaths/Grunt_MauledByFlyer_1ch_v1_08.wav"
+//		"wave"			"ai/Deaths/Grunt_MauledByFlyer_1ch_v1_09.wav"
+//		"wave"			"ai/Deaths/Grunt_MauledByFlyer_1ch_v1_10.wav"
+//		"wave"			"ai/Deaths/Grunt_MauledByFlyer_1ch_v1_11.wav"
+//		"wave"			"ai/Deaths/Grunt_MauledByFlyer_1ch_v1_12.wav"
+	}
+}
+
+"Grunt_FearOfFlyer"
+{
+	"mixgroup"		"SFX,SFX_Impacts,SFX_Impacts_Deaths"
+	"volume"		"4.0"
+	"radius"		"4000"
+	"pitch"			"95,105"
+	"rndwave"
+	{
+		"limit"			"2"
+		"wave"			"ai/Deaths/Grunt_FearOfFlyer_1ch_v1_01.wav"
+		"wave"			"ai/Deaths/Grunt_FearOfFlyer_1ch_v1_02.wav"
+		"wave"			"ai/Deaths/Grunt_FearOfFlyer_1ch_v1_03.wav"
+		"wave"			"ai/Deaths/Grunt_FearOfFlyer_1ch_v1_04.wav"
+		"wave"			"ai/Deaths/Grunt_FearOfFlyer_1ch_v1_05.wav"
+		"wave"			"ai/Deaths/Grunt_FearOfFlyer_1ch_v1_06.wav"
+//		"wave"			"ai/Deaths/Grunt_FearOfFlyer_1ch_v1_07.wav"
+//		"wave"			"ai/Deaths/Grunt_FearOfFlyer_1ch_v1_08.wav"
+//		"wave"			"ai/Deaths/Grunt_FearOfFlyer_1ch_v1_09.wav"
+//		"wave"			"ai/Deaths/Grunt_FearOfFlyer_1ch_v1_10.wav"
+//		"wave"			"ai/Deaths/Grunt_FearOfFlyer_1ch_v1_11.wav"
+//		"wave"			"ai/Deaths/Grunt_FearOfFlyer_1ch_v1_12.wav"
+	}
+}
+
+
+"Grunt_DroppedByFlyer"
+{
+	"mixgroup"		"SFX,SFX_Impacts,SFX_Impacts_Deaths"
+	"volume"		"5.0"
+	"radius"		"4000"
+	"pitch"			"90,105"
+	"rndwave"
+	{	
+		"limit"			"2"
+		"wave"			"ai/Deaths/Grunt_FlyerDrop_1ch_v1_02.wav"
+		"wave"			"ai/Deaths/Grunt_FlyerDrop_1ch_v1_03.wav"
+		"wave"			"ai/Deaths/Grunt_FlyerDrop_1ch_v1_05.wav"
+		"wave"			"ai/Deaths/Grunt_FlyerDrop_1ch_v1_06.wav"
+//		"wave"			"ai/Deaths/Grunt_FlyerDrop_1ch_v1_07.wav"
+//		"wave"			"ai/Deaths/Grunt_FlyerDrop_1ch_v1_08.wav"
+//		"wave"			"ai/Deaths/Grunt_FlyerDrop_1ch_v1_09.wav"
+	}
+}
+
+
+//////////////////////////////
+// GRUNT SQUISHED          //
+////////////////////////////
+
+"titan_grunt_squish"
+
+{
+	"mixgroup"		"SFX,SFX_3P"
+	"volume"			"3.2"
+	"radius"			"2000"
+	"pitch"				"90,110"
+
+// Pilot victim POV sounds
+	
+	"rndwave"
+	{
+		"ducks"			"SFX_Weapons_Pilot_1P_Gunfire,0.3:0.0"
+		"ducks"			"SFX_Weapons_SingleShot_Pilot_1P_Gunfire,0.15:0.0"
+		"ducks"			"SFX_Weapons_Titan_1P_Gunfire,0.3:0.0"
+		"ducks"			"SFX_Weapons_SingleShot_Titan_1P_Gunfire,0.15:0.0"
+		
+		"maxrange"		"100"
+		"limit"			"1"	
+		"volume"			"2.8"
+		"wave"		"exo/bigpunch/Titan_BigPunch_Impact_2ch_v3_01.wav"
+		"wave"		"exo/bigpunch/Titan_BigPunch_Impact_2ch_v3_02.wav"
+		"wave"		"exo/bigpunch/Titan_BigPunch_Impact_2ch_v3_03.wav"
+		"wave"		"exo/bigpunch/Titan_BigPunch_Impact_2ch_v3_05.wav"
+	}
+
+	"rndwave"
+		{
+			"maxrange"	"100"
+			"volume"	"10"
+			"limit"		"2"
+			"pitch"		"80"
+			"wave"		"impacts/grunt_squish_01.wav"
+			"wave"		"impacts/grunt_squish_03.wav"
+			"wave"		"impacts/grunt_squish_04.wav"
+			"wave"		"impacts/grunt_squish_06.wav"
+		
+
+		}
+
+		
+	"rndwave"	
+	{
+		"maxrange"		"100"
+		"volume"				"1.0"
+		"pitch"					"80"
+		"limit"					"2"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_01.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_02.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_03.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_04.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_05.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_06.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_07.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_08.wav"
+	}
+	
+	"rndwave"
+	{
+		"maxrange"		"100"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"volume"			"5"
+		"pitch"				"150"
+		"limit"				"2"
+		
+		"wave" 				"player/player_melee_kick_impact_flesh_01.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_02.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_03.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_04.wav"
+	
+	}	
+
+// 3P sounds (attacker and bystander POV)
+	
+		"rndwave"
+		{
+		"minrange"	"101"
+		"limit"		"2"
+		"wave"		"impacts/grunt_squish_01.wav"
+		"wave"		"impacts/grunt_squish_03.wav"
+		"wave"		"impacts/grunt_squish_04.wav"
+		"wave"		"impacts/grunt_squish_06.wav"
+		
+
+		}
+
+}
+
+
+
+"titan_punch_human_impact"
+
+{
+	"mixgroup"		"SFX,SFX_3P"
+	"volumeScale"			"1.5"
+	"radius"			"2000"
+	"pitch"				"90,110"
+
+	"rndwave"
+		{
+			"maxrange"	"500"
+			"volume"	"5.0"
+			"limit"		"2"
+			"wave"		"impacts/grunt_squish_01.wav"
+			"wave"		"impacts/grunt_squish_03.wav"
+			"wave"		"impacts/grunt_squish_04.wav"
+			"wave"		"impacts/grunt_squish_06.wav"
+		
+
+		}
+	"rndwave"
+		{	
+			"maxrange"	"500"
+			"volume"				"1.8"
+			"pitch"					"120"
+			"limit"		"2"
+		"wave"		"exo/atlas/melee/melee_impact_v2_01.wav"
+		"wave"		"exo/atlas/melee/melee_impact_v2_02.wav"
+		"wave"		"exo/atlas/melee/melee_impact_v2_03.wav"
+		}
+		
+	"rndwave"	
+	{
+		"maxrange"				"500"
+		"volume"				"2.0"
+		"pitch"					"80"
+		"limit"		"2"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_01.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_02.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_03.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_04.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_05.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_06.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_07.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_08.wav"
+	}
+			
+//3P Elements			
+			
+			
+	"rndwave"
+		{
+			"minrange"	"501"
+			"volume"	"5.0"
+			"limit"		"2"
+			"wave"		"impacts/grunt_squish_01.wav"
+			"wave"		"impacts/grunt_squish_03.wav"
+			"wave"		"impacts/grunt_squish_04.wav"
+			"wave"		"impacts/grunt_squish_06.wav"
+		
+
+		}
+		
+	"rndwave"
+		{	
+			"minrange"	"501"
+			"volume"				"1.0"
+			"pitch"					"140"
+			"flags"					"spatialized"
+			"folddownDistance"		"50"
+			"limit"		"2"
+			"wave"		"exo/atlas/melee/melee_impact_v2_01.wav"
+			"wave"		"exo/atlas/melee/melee_impact_v2_02.wav"
+			"wave"		"exo/atlas/melee/melee_impact_v2_03.wav"
+		}
+		
+		"rndwave"	
+	{
+		"minrange"				"501"
+		"volume"				"2.0"
+		"pitch"					"80"
+		"flags"					"spatialized"
+		"folddownDistance"		"50"
+		"limit"		"2"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_01.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_02.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_03.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_04.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_05.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_06.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_07.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_08.wav"
+	}
+}
+
+"titan_punch_android_impact"
+
+{
+	"mixgroup"		"SFX,SFX_3P"
+	"volumeScale"			"1.5"
+	"radius"			"2000"
+	"pitch"				"90,110"
+
+	"rndwave"
+		
+		{
+		"maxrange"	"100"
+		"volume"	"4.0"
+		"delay"		"50"
+		"limit"		"2"
+		"wave"		"impacts/Spectre_Squish_2ch_v1_01.wav"
+		"wave"		"impacts/Spectre_Squish_2ch_v1_02.wav"
+		"wave"		"impacts/Spectre_Squish_2ch_v1_03.wav"
+		"wave"		"impacts/Spectre_Squish_2ch_v1_04.wav"
+		"wave"		"impacts/Spectre_Squish_2ch_v1_05.wav"
+		"wave"		"impacts/Spectre_Squish_2ch_v1_06.wav"
+		}
+	"rndwave"
+		{	
+			"maxrange"	"100"
+			"volume"				"1.8"
+			"pitch"					"120"
+			"limit"		"2"
+		"wave"		"exo/atlas/melee/melee_impact_v2_01.wav"
+		"wave"		"exo/atlas/melee/melee_impact_v2_02.wav"
+		"wave"		"exo/atlas/melee/melee_impact_v2_03.wav"
+		}
+
+			
+//3P Elements			
+			
+	"rndwave"
+		{	
+			"minrange"	"101"
+			"volume"				"1.5"
+			"pitch"					"140"
+			"flags"					"spatialized"
+			"folddownDistance"		"50"
+			"limit"		"2"
+			"wave"		"exo/atlas/melee/melee_impact_v2_01.wav"
+			"wave"		"exo/atlas/melee/melee_impact_v2_02.wav"
+			"wave"		"exo/atlas/melee/melee_impact_v2_03.wav"
+		}
+		
+		"rndwave"	
+	{
+		"delay"		"50"
+		"volume"	"4.0"
+		"minrange"	"101"
+
+		"minrange"	"101"
+		"flags"		"spatialized"
+		"folddownDistance"	"80"
+		"limit"		"2"
+		"wave"		"impacts/Spectre_Squish_2ch_v1_01.wav"
+		"wave"		"impacts/Spectre_Squish_2ch_v1_02.wav"
+		"wave"		"impacts/Spectre_Squish_2ch_v1_03.wav"
+		"wave"		"impacts/Spectre_Squish_2ch_v1_04.wav"
+		"wave"		"impacts/Spectre_Squish_2ch_v1_05.wav"
+		"wave"		"impacts/Spectre_Squish_2ch_v1_06.wav"
+		}
+}
+
+//////////////////////////////
+// SPECTRE SQUISHED          //
+////////////////////////////
+
+"titan_spectre_squish"
+
+{
+	"mixgroup"		"SFX,SFX_3P"
+	"volume"			"3.6"
+	"radius"			"2000"
+	"pitch"				"83,95"
+
+	"rndwave"
+		{
+
+
+		"maxrange"	"100"
+		"limit"		"2"
+		"wave"		"impacts/Spectre_Squish_2ch_v1_01.wav"
+		"wave"		"impacts/Spectre_Squish_2ch_v1_02.wav"
+		"wave"		"impacts/Spectre_Squish_2ch_v1_03.wav"
+		"wave"		"impacts/Spectre_Squish_2ch_v1_04.wav"
+		"wave"		"impacts/Spectre_Squish_2ch_v1_05.wav"
+		"wave"		"impacts/Spectre_Squish_2ch_v1_06.wav"
+		}
+
+		"rndwave"
+		{
+		"minrange"	"101"
+		"flags"		"spatialized"
+		"folddownDistance"	"80"
+		"limit"		"2"
+		"wave"		"impacts/Spectre_Squish_2ch_v1_01.wav"
+		"wave"		"impacts/Spectre_Squish_2ch_v1_02.wav"
+		"wave"		"impacts/Spectre_Squish_2ch_v1_03.wav"
+		"wave"		"impacts/Spectre_Squish_2ch_v1_04.wav"
+		"wave"		"impacts/Spectre_Squish_2ch_v1_05.wav"
+		"wave"		"impacts/Spectre_Squish_2ch_v1_06.wav"
+		}
+
+}
+
+//////////////////////////////
+// AI Grunt Movement //
+////////////////////////////
+"Grunt_Melee_pt_melee_push"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Grunts"
+	"volume"			"4"
+	"radius"			"1000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+	"limit"				"1"
+	"wave"				"ai/movement/Grunt_Melee_pt_melee_push_1ch_v2_01.wav"
+	}
+}
+
+"Grunt_Melee_pt_melee_kick"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Grunts"
+	"volume"			"4"
+	"radius"			"1000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+	"limit"				"1"
+	"wave"				"ai/movement/Grunt_Melee_pt_melee_kick_1ch_v2_01.wav"
+	}
+
+}
+"Grunt_Melee_pt_melee_elbowstrike"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Grunts"
+	"volume"			"4"
+	"radius"			"1000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+	"limit"				"1"
+	"wave"				"ai/movement/Grunt_Melee_pt_melee_elbowstrike_1ch_v2_01.wav"
+	}
+}
+
+//////////////////////////////
+// AI Grunt Movement //
+////////////////////////////
+
+
+"Grunt_Land"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Grunts"
+	"volume"			"1"
+	"radius"			"1000"
+	"pitch"				"100"
+	
+	"rndwave"
+	{
+	"limit"		"2"
+	"wave"				"ai\movement\Grunt_Land_01.wav"
+	"wave"				"ai\movement\Grunt_Land_02.wav"
+	"wave"				"ai\movement\Grunt_Land_03.wav"
+	"wave"				"ai\movement\Grunt_Land_04.wav"
+	"wave"				"ai\movement\Grunt_Land_05.wav"
+	}
+}
+
+"Grunt_Bodyroll"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Grunts"
+	"volume"			"1"
+	"radius"			"1000"
+	"pitch"				"100"
+	"rndwave"
+	{
+	"limit"		"2"
+	"wave"				"ai\movement\Grunt_Bodyroll_01.wav"
+	}
+}
+
+"Grunt_Rifle_Mvmt"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Grunts"
+	"volume"			"1"
+	"radius"			"1000"
+	"pitch"				"100"
+	"rndwave"
+	{
+	"limit"		"2"
+	"wave"				"ai\movement\Grunt_Rifle_Mvmt_01.wav"
+	"wave"				"ai\movement\Grunt_Rifle_Mvmt_02.wav"
+	"wave"				"ai\movement\Grunt_Rifle_Mvmt_03.wav"
+	}
+}
+
+
+
+//////////////////////////////
+// AI SPECTRES			   //
+////////////////////////////
+
+
+
+//////////////////////////////
+// SHIELD FOOTSOLDIER      //
+////////////////////////////
+
+
+"ShieldSoldier_Shield_Loop"
+{
+
+	"mixgroup"		"weapons,SFX,SFX_Gadgets,SFX_Gadgets_Cloak"
+	"radius"		"2000"
+	"volume"		"2.2"
+	"falloff"		"7"
+	"flags"			"loop"
+
+
+		"rndwave"
+	{	
+		"volume"			"4"
+		"pitch"				"190"
+		"limit"				"3"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"300"
+		"wave"		"exo/Shield_Wall/ShieldWall_Loop_2ch_v2_01.wav"
+	}
+	
+
+}
+
+
+"ShieldSoldier_Shield_End"
+{
+
+	"mixgroup"		"weapons,SFX,SFX_Gadgets,SFX_Gadgets_Cloak"
+	"radius"		"2000"
+	"volume"		"1"
+	"falloff"		"7"
+
+
+	"rndwave"
+	{	
+		"volume"			"7"
+		"limit"				"2"
+		"pitch"				"130,150"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"wave"		"exo/Shield_Wall/ShieldWall_Destroyed_2ch_v2_01.wav"
+	}
+
+
+}

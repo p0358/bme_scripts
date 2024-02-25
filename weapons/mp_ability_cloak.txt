@@ -1,0 +1,84 @@
+WeaponData
+{
+	// General
+	"printname"   									"#WPN_CLOAK"
+	"description" 									"#WPN_CLOAK_DESC"
+	"longdesc"										"#WPN_CLOAK_LONGDESC"
+	"weaponClass" 									"human"
+	"fire_mode"   									"offhand_instant"
+	"server_vscript"  								"weapons/mp_ability_cloak"
+	"client_vscript"  								"weapons/mp_ability_cloak"
+
+	"damage_type" 									"none"
+
+	// Ammo
+	"ammo_stockpile_max"							"200"
+	"ammo_clip_size"   								"200"
+	"ammo_default_total"							"200"
+
+	// Behavior
+	"fire_rate"   									"0.1"
+	"fire_duration"									"9.0"
+	"breaks_cloak"									"0"
+
+	"hud_icon"										"HUD/dpad_cloak"
+	// Crosshair
+
+
+	Mods
+	{
+		bc_super_cloak
+		{
+			"fire_rate"	"*2.0"
+			"fire_duration"	"*2.0"
+			"is_burn_mod"		"1"
+		}
+
+		bc_fast_cooldown_cloak1
+		{
+			"fire_rate"	"*1.5"
+			"is_burn_mod"		"1"
+		}
+
+		bc_fast_cooldown_cloak2
+		{
+			"fire_rate"	"*3.0"
+			"is_burn_mod"		"1"
+		}
+
+		bc_long_cloak1
+		{
+			"fire_duration"	"*1.5"
+			"is_burn_mod"		"1"
+		}
+
+		bc_long_cloak2
+		{
+			"fire_duration"	"*2.0"
+			"is_burn_mod"		"1"
+		}
+
+		pas_power_cell
+		{
+			"fire_rate"	"*1.5"
+		}
+
+		dev_mod_low_recharge
+		{
+			"fire_rate"   									"*20"
+		}
+	}
+
+	TextureData
+	{
+		"crosshair"
+		{
+		}
+		"crosshair_zoom"
+		{
+		}
+		"autoaim"
+		{
+		}
+	}
+}

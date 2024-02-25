@@ -1,0 +1,97 @@
+//////////////////
+// Team Deathmatch
+//////////////////
+
+
+
+"diag_tdm_mcor_bish_modeannounce_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"radius"		"0"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+
+	"rndwave"
+	{
+
+		"channels"
+		{
+			"1"		"L, 1.2"
+			"1"		"R, 1.2"
+		}
+
+	"wave"			"dialogue/tdm/diag_tdm_mcor_bish_modeannounce_01.wav"
+	"wave"			"dialogue/tdm/diag_tdm_mcor_bish_modeannounce_01_a.wav"
+	"wave"			"dialogue/tdm/diag_tdm_mcor_bish_modeannounce_01_b.wav"
+	}
+
+}
+"diag_tdm_mcor_bish_modeannounce_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"pitch"			"PITCH_NORM"
+	"radius"		"0"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"		"L, 1.2"
+			"1"		"R, 1.2"
+		}
+	"wave"			"dialogue/tdm/diag_tdm_mcor_bish_modeannounce_02.wav"
+	}
+
+}
+
+
+"diag_imc_blisk_tdm_modeannounce_01" {
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo"
+	"volume"		"1.6"
+	"pitch"			"PITCH_NORM"
+	"radius"		"0"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"		"L, 1.2"
+			"1"		"R, 1.2"
+		}
+
+	"wave"			"dialogue/tdm/diag_imc_blisk_tdm_modeannounce_01.wav"
+	"wave"			"dialogue/tdm/diag_imc_blisk_tdm_modeannounce_01_a.wav"
+	}
+
+}
+
+"diag_imc_blisk_tdm_modeannounce_02" {
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"pitch"			"PITCH_NORM"
+	"radius"		"0"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"		"L, 1.2"
+			"1"		"R, 1.2"
+		}
+	"wave"			"dialogue/tdm/diag_imc_blisk_tdm_modeannounce_02.wav"
+	}
+
+}

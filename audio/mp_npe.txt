@@ -1,0 +1,556 @@
+////////////////////
+// GLOBAL AMBIENCE /
+////////////////////
+
+"Amb_NPE_Cabin_Intro"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_NPE"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"2.0"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/NPE/Ambience/AMB_NPE_ShipRoom_Intro_6ch_v3_01_LP.wav"
+	}
+}
+
+"Amb_NPE_Cabin_Reveal"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_NPE"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"2.0"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/NPE/Ambience/AMB_NPE_ShipRoom_Reveal_6ch_v2_01_LP.wav"
+	}
+	
+}
+
+"Amb_NPE_INT_Holodeck"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_NPE"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"4.0"
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/NPE/Ambience/AMB_NPE_INT_Holodeck_6ch_v1_LP.wav"
+	}
+	
+}
+
+"Amb_NPE_INT_Industrial"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_NPE"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"0.4"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/NPE/Ambience/AMB_NPE_INT_Industrial_6ch_v1_LP.wav"
+	}
+	
+}
+
+
+///////////////////
+//		EMITTERS
+///////////////////
+
+
+"NPE_Emit_DigitalDoor_Presence"
+{
+	"mixgroup"			"SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_NPE"
+	"volume"			"2"
+	"radius"			"600"
+	"falloff"			"1"
+	"flags"				"loop"
+	
+	
+	"rndwave"
+	{
+		"volume"			"2"
+		"pitch"				"80,90"
+		
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+			"wave"				"Maps/NPE/Emitters/NPE_Scr_DigitalDoorPresence_LR_v1_LP.wav"
+	}
+}
+
+
+"NPE_Emit_DigitalPit"
+{
+	"mixgroup"			"SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_NPE"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"2000"
+	"falloff"			"4"
+	"flags"				"loop"
+	
+	
+	"rndwave"
+	{
+		"volume"			"7"
+		"pitch"				"100,120"
+		
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+			"wave"				"Maps/NPE/Emitters/Amb_NPE_INT_DigitalPit_2ch_v3_LP.wav"
+	}
+}
+
+
+"NPE_Emit_SuccessDeck"
+{
+	"mixgroup"			"SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_NPE"
+	"volume"			"8"
+	"pitch"				"100"
+	"radius"			"2000"
+	"falloff"			"1"
+	"flags"				"loop"
+	
+	
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"300"
+		
+			"wave"				"Maps/NPE/Emitters/AMB_NPE_INT_SuccessDeck_LR_v1_LP.wav"
+	}
+}
+
+
+"NPE_Emit_steam_medium"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_NPE"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"700"
+	"falloff"			"4"
+	"flags"				"mobile,loop"
+
+
+	"rndwave"
+	{
+		"volume"			"4"
+		"pitch"				"80,120"
+
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Medium_1ch_01_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Medium_1ch_02_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Medium_1ch_03_LP.wav"
+	}
+}
+
+
+"NPE_Emit_Fan_02"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_NPE"
+	"flags"			"loop"
+	"radius"		"700"
+	
+	
+	"rndwave"
+	{
+	"volume"		"4.0,4.5"
+	"pitch"			"80,120"
+	"flags"			"spatialized"
+	"panWidth"			"90"
+	"folddownDistance"	"80"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_GeneratorLoop_LR_v3_LP.wav"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_FanLoop_LR_v1_LP.wav"
+	}
+}
+
+
+"NPE_Emit_Fan_03" 
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_NPE"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"1000"
+	"flags"				"loop"
+	
+	
+	"rndwave"
+	{
+		"volume"		"3.0,3.5"
+		"pitch"			"80,120"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Fan_Antique_1ch_01.wav"
+	}
+	
+}
+///////////////////
+//		MUSIC
+///////////////////
+"Music_NPE_Cabin_Reveal" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic"
+	"volume"		"1"
+	"radius"		"0"
+	"flags"			"music"
+	
+	"wave"			"music\Campaign\AngelCity\TF_AngelCity_IMC_Intro_v4_140_110_BPMTEST.wav"
+}
+
+
+///////////////////
+//		SCRIPTED
+///////////////////
+
+"NPE_Scr_SimPod_DoorShut"
+{
+	"mixgroup"			"SFX,SFX_Scripted"
+	"radius"			"0"
+	"flags"				"noduck"
+		
+	"rndwave"
+	{
+			"delay"				"180"
+			"volume"			"6"	
+			"wave"				"campaign/NPE/NPE_Scr_SimPod_Doorshut_6ch_v2.wav"
+	}
+}
+
+
+"NPE_Scr_PodLightOn"
+{
+	"mixgroup"			"SFX,SFX_UI"
+	"volume"			"5.0"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"5"
+	"wave"		"campaign/NPE/NPE_Scr_PodLightOn_2ch_v1_01.wav"
+	}
+}
+
+"NPE_Player_VerticalLookSucceed"
+{
+	"mixgroup"			"SFX,SFX_UI"
+	"volume"			"3.0"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"			"spatialized"
+	"wave"		"campaign/NPE/NPE_Scr_PodLightSuccess_2ch_v1_01.wav"
+	}
+}
+
+"NPE_Scr_SimPod_PowerUp"
+{
+	"mixgroup"			"SFX,SFX_Scripted"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"1000"
+	
+	
+	"rndwave"
+	{
+			"volume"			"4"	
+			"wave"				"campaign/NPE/NPE_Scr_SimPod_PowerUp_6ch.wav"
+	}
+}
+
+"NPE_Scr_SimPod_End"
+{
+	"mixgroup"			"SFX,SFX_Scripted"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"1000"
+	
+	
+	"rndwave"
+	{
+			"volume"			"4"	
+			"wave"				"campaign/NPE/NPE_Scr_SimPodEnd_6ch.wav"
+	}
+}
+
+"NPE_Scr_DigitalDoor_Open"
+{
+	"mixgroup"			"SFX,SFX_Scripted"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"1000"
+	
+	
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+			"volume"			"4"	
+			"wave"				"campaign/NPE/NPE_Scr_DigitalDoorOpen_LR_v1.wav"
+	}
+}
+
+
+
+"NPE_Scr_SprintDoor_Start"
+{
+	"mixgroup"			"SFX,SFX_Scripted"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"2000"
+	
+	
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"10"
+			"volume"			"9"	
+			"wave"				"campaign/NPE/NPE_Scr_SlidingDoorStart_2ch_v1_01.wav"
+	}
+}
+
+"NPE_Scr_SprintDoor_Stop"
+{
+	"mixgroup"			"SFX,SFX_Scripted"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"2000"
+	
+	
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"10"
+			"volume"			"6"	
+			"wave"				"campaign/NPE/NPE_Scr_SlidingDoorStop_2ch_v1_01.wav"
+	}
+}
+
+"NPE_Scr_SprintDoor_Shut"
+{
+	"mixgroup"			"SFX,SFX_Scripted"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"2000"
+	
+	
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"10"
+			"volume"			"6"	
+			"wave"				"campaign/NPE/NPE_Scr_SlidingDoorShut_2ch_v1_01.wav"
+	}
+}
+
+
+"NPE_Scr_SprintDoor_Loop"
+{
+	"mixgroup"			"SFX,SFX_Scripted"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"2000"
+	"flags"				"loop"
+	
+	
+	"rndwave"
+	{
+		"volume"			"1.3"
+		"pitch"				"80,100"
+		
+
+			"wave"				"ambient/amb_refinery_turbine5.wav"
+	}
+	
+	"rndwave"
+	{
+		"volume"			"9"
+		"pitch"				"115"
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"10"
+
+			"wave"				"campaign/NPE/NPE_Scr_SlidingDoorLoop_2ch_v1_01_LP.wav"
+	}
+}
+
+"NPE_Scr_ScreenFlickerOff"
+{
+	"mixgroup"			"SFX,SFX_Scripted"
+	"volume"			"5"
+	"pitch"				"100"
+	"radius"			"0"
+	
+	
+	"rndwave"
+	{
+			"wave"				"campaign/NPE/NPE_Scr_ScreenFlickerOff_2ch_v2_01.wav"
+	}
+}
+
+"NPE_Scr_BlastDoorOpen"
+{
+	"mixgroup"			"SFX,SFX_Scripted"
+	"volume"			"1.8"
+	"pitch"				"100"
+	"radius"			"0"
+	"flags"				"noduck"
+	
+	
+	"rndwave"
+	{	
+			"wave"				"campaign/NPE/NPE_Scr_BlastDoorOpen_2ch_v4_01.wav"
+	}
+}
+
+
+"NPE_Scr_EngineSlow"
+{
+	"mixgroup"			"SFX,SFX_Scripted"
+	"volume"			"3"
+	"pitch"				"100"
+	"radius"			"0"
+	"flags"				"noduck"
+	
+	
+	"rndwave"
+	{
+			"wave"				"campaign/NPE/NPE_Scr_WarpExit_6ch_v1_01.wav"
+	}
+}
+
+
+"NPE_Missile_Alarm"
+{
+	"mixgroup"		"SFX,SFX_Scripted"
+	"volume"		"7.0"
+	"radius"		"10000"
+	"falloff"		"0"
+	"pitch"			"100"
+	
+	"wave"			"campaign/NPE/NPE_Scr_Missile_Warning_Buzz_1ch_01.wav"
+
+}
+
+
+
+///////////////////
+// NPE PLAYER FEEDBACK
+///////////////////
+"NPE_Player_Fail"
+{
+	"mixgroup"			"SFX,SFX_UI"
+	"volume"			"2.5"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+	"volume"	"1.5,2.0"
+	"pitch"		"90,110"
+	
+	"wave"		"ui/NPE_Player_Fail_2ch_v1_01.wav"
+	}
+}
+
+"NPE_Player_Succeed"
+{
+	"mixgroup"			"SFX,SFX_UI"
+	"volume"			"2.5"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+	"wave"		"ui/NPE_Player_Succeed_2ch_v3_01.wav"
+	}
+}
+
+
+"NPE_Module_Finish"
+{
+	"mixgroup"			"SFX,SFX_UI"
+	"volume"			"3.0"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+	"wave"		"campaign/NPE/NPE_Player_ModuleFinish_2ch_v1_01.wav"
+//	"wave"		"campaign/NPE/NPE_Player_ModuleFinish_2ch_v5_01.wav"
+	"wave"		"campaign/NPE/NPE_Player_ModuleFinish_2ch_v6_01.wav"
+	}
+}
+
+
+
+"Object_Dissolve"
+{
+	"mixgroup"			"SFX,SFX_UI"
+	"volume"			"2.5"
+	"radius"			"3000"
+	"pitch"				"100"
+	"ducks"				"SFX_Impacts_Physics,1.0"
+
+	"rndwave"
+	{
+	"volume"	"3.5"
+	"pitch"		"98,103"
+	"limit"		 "2"
+	"flags"				"spatialized"
+	"foldDownDistance"	"10"
+
+	"wave"		"campaign/NPE/NPE_Player_ModuleFinish_2ch_v6_01.wav"
+
+	}
+	
+	
+	"rndwave"
+	{
+	"volume"	"2.0"
+	"pitch"		"90,110"
+	"limit"		 "2"
+	"wave"				"vehicles/droppod/DropPod_Dissolve_1ch_v1_01.wav"
+	"wave"				"vehicles/droppod/DropPod_Dissolve_1ch_v1_02.wav"
+	"wave"				"vehicles/droppod/DropPod_Dissolve_1ch_v1_03.wav"
+	"wave"				"vehicles/droppod/DropPod_Dissolve_1ch_v1_04.wav"
+	}
+}
+
+"NPE_VisualImpair"
+{
+
+	"mixgroup"			"SFX,SFX_UI"
+	"volume"			"3"
+	"pitch"				"100"
+	"radius"			"0"
+
+		"rndwave"
+	{
+	"wave"				"weapons/ProximityMine/Wpn_ProximityMine_1p_VisualImpair_2ch_v2_01.wav"
+	"wave"				"weapons/ProximityMine/Wpn_ProximityMine_1p_VisualImpair_2ch_v2_02.wav"
+	"wave"				"weapons/ProximityMine/Wpn_ProximityMine_1p_VisualImpair_2ch_v2_03.wav"
+	}
+}
+

@@ -1,0 +1,2486 @@
+///////////////////////////////
+// GENERATOR SOUNDS 		 //
+//////////////////////////////
+
+"Coop_Generator_UnderAttack_Alarm"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Coop"
+	"volumeScale"	"3.0"
+	"falloff"		"0"
+	"pitch"			"100"
+	"flags"			"mobile,layered,loop"
+
+	"rndwave"
+	{
+		"volume"			"3"
+		"limit"				"2"
+		"flags"				"spatialized"
+		"foldDownDistance"	"500"
+
+	    "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+       "falloffEnd"    "3500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"			"CoOp/Generator/Coop_Generator_UnderAttack_Alarm_Close_2ch_v3_01.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"			"2.9"
+		"limit"				"2"
+		"delay"			  "95"
+	    "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "1500"
+        "falloffEnd"      "7000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"			"CoOp/Generator/Coop_Generator_UnderAttack_Alarm_Dist_1ch_v3_01.wav"
+	}
+}
+
+"Coop_Generator_Startup"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Coop"
+	"volumeScale"	"2.7"
+	"falloff"		"0"
+	"pitch"			"100"
+	"flags"			"mobile,layered,noduck"
+
+	"rndwave"
+	{
+		"volume"			"4"
+		"limit"				"2"
+		"flags"				"spatialized"
+		"foldDownDistance"	"1500"
+
+	    "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+       "falloffEnd"    "10000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"			"CoOp/Generator/Coop_Generator_Startup_Close_2ch_v1.wav"
+	}
+}
+
+"Coop_Generator_Ambient_Healthy"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Coop"
+	"volumeScale"	"2"
+	"falloff"		"0"
+	"pitch"			"100"
+	"flags"			"mobile,layered,loop"
+
+	"rndwave"
+	{
+		"volume"			"3"
+		"limit"				"2"
+		"flags"				"spatialized"
+		"foldDownDistance"	"800"
+
+	    "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+       "falloffEnd"    "1500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"			"Coop/Generator/Coop_Generator_AmbientLoop_RingsSpin_2ch_v1_LP.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"			"3"
+		"limit"				"2"
+		"flags"				"spatialized"
+		"foldDownDistance"	"800"
+
+	    "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+       "falloffEnd"    "3500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"			"Coop/Generator/Coop_Generator_AmbientLoop_Healthy_2ch_v2_LP.wav"
+	}
+}
+
+"Coop_Generator_Ambient_Damaged"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Coop"
+	"volumeScale"	"2.8"
+	"falloff"		"0"
+	"pitch"			"100"
+	"flags"			"mobile,layered,loop"
+
+	"rndwave"
+	{
+		"volume"			"3"
+		"limit"				"2"
+		"flags"				"spatialized"
+		"foldDownDistance"	"800"
+
+	    "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+       "falloffEnd"    "1500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"			"Coop/Generator/Coop_Generator_AmbientLoop_RingsSpin_2ch_v1_LP.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"			"3"
+		"limit"				"2"
+		"flags"				"spatialized"
+		"foldDownDistance"	"800"
+
+	    "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+       "falloffEnd"    "3500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"			"Coop/Generator/Coop_Generator_AmbientLoop_Damaged_2ch_v1_LP.wav"
+	}
+
+}
+
+"Coop_Generator_Ambient_Critical"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Coop"
+	"volumeScale"	"2.8"
+	"falloff"		"0"
+	"pitch"			"100"
+	"flags"			"mobile,layered,loop"
+
+	"rndwave"
+	{
+		"volume"			"3"
+		"limit"				"2"
+		"flags"				"spatialized"
+		"foldDownDistance"	"800"
+
+	    "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+       "falloffEnd"    "3500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"			"Coop/Generator/Coop_Generator_AmbientLoop_Critical_2ch_v2_LP.wav"
+	}
+}
+
+"Coop_Generator_Electrical_Arcs"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Coop"
+	"volumeScale"	"2.8"
+	"falloff"		"0"
+	"pitch"			"100"
+	"flags"			"layered,loop"
+
+	"rndwave"
+	{
+		"volume"			"4"
+		"limit"				"1"
+		"flags"				"spatialized"
+		"foldDownDistance"	"300"
+
+	    "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+       "falloffEnd"    "2000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+	"pitch"				"100"
+
+			"wave"				"Coop/Generator/Coop_Generator_DamageArcs_2ch_v1_LP.wav"
+	}
+
+}
+
+
+"Coop_Generator_ShieldDown"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Coop"
+	"volumeScale"	"2.6"
+	"falloff"		"0"
+	"pitch"			"95,100"
+	"flags"			"mobile,layered,noduck,nevercull"
+
+	"rndwave"
+	{
+		"volume"			"4"
+		"limit"				"2"
+		"flags"				"spatialized"
+		"foldDownDistance"	"2000"
+
+	    "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+       "falloffEnd"    "8000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"			"Coop/Generator/Coop_Generator_ShieldDown_2ch_v1.wav"
+	}
+}
+
+"Coop_Generator_ShieldRecharge_Start"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Coop"
+	"volumeScale"	"2.7"
+	"falloff"		"0"
+	"pitch"			"100"
+	"flags"			"mobile,layered,nevercull"
+
+	"rndwave"
+	{
+		"volume"			"4"
+		"limit"				"2"
+		"flags"				"spatialized"
+		"foldDownDistance"	"2000"
+
+	    "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+       "falloffEnd"    "8000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"			"Coop/Generator/Coop_Generator_ShieldRecharge_Start_2ch_v2.wav"
+	}
+
+	"rndwave"
+	{
+		"delay"				"700"
+		"volume"			"4"
+		"limit"				"2"
+		"flags"				"spatialized"
+		"foldDownDistance"	"2000"
+
+	    "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+       "falloffEnd"    "8000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"			"Coop/Generator/Coop_Generator_ShieldRecharge_Resume_2ch_v1.wav"
+	}
+
+}
+
+"Coop_Generator_ShieldRecharge_Resume"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Coop"
+	"volumeScale"	"2.7"
+	"falloff"		"0"
+	"pitch"			"100"
+	"flags"			"mobile,layered,nevercull"
+
+	"rndwave"
+	{
+		"volume"			"4"
+		"limit"				"2"
+		"flags"				"spatialized"
+		"foldDownDistance"	"2000"
+
+	    "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+       "falloffEnd"    "8000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"			"Coop/Generator/Coop_Generator_ShieldRecharge_Resume_2ch_v1.wav"
+	}
+}
+
+"Coop_Generator_ShieldRecharge_ResumeClick"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Coop"
+	"volumeScale"	"2.7"
+	"falloff"		"0"
+	"pitch"			"95,100"
+	"flags"			"mobile,layered,nevercull"
+
+	"rndwave"
+	{
+		"volume"			"4"
+		"limit"				"2"
+		"flags"				"spatialized"
+		"foldDownDistance"	"2000"
+
+	    "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+       "falloffEnd"    "8000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"			"Coop/Generator/Coop_Generator_ShieldRecharge_ResumeClick_2ch_v1.wav"
+	}
+}
+
+"Coop_Generator_ShieldRecharge_End"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Coop"
+	"volumeScale"	"2.7"
+	"falloff"		"0"
+	"pitch"			"95,100"
+	"flags"			"mobile,layered,nevercull"
+
+	"rndwave"
+	{
+		"volume"			"4"
+		"limit"				"2"
+		"flags"				"spatialized"
+		"foldDownDistance"	"1500"
+
+	    "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+       "falloffEnd"    "8000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"			"Coop/Generator/Coop_Generator_ShieldRecharge_End_2ch_v1.wav"
+	}
+}
+
+"Coop_Generator_Destroyed"
+{
+	"flags"				"layered,noduck,nevercull"
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Coop"
+	"volumescale"			"2.5"
+	"pitch"				"100"
+
+
+	"rndwave"
+   	{
+
+		"ducks"				"SFX,0.9:0,1000,0,0"
+
+	"limit"				"1"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"200000"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+
+	"wave"				"null.wav"
+
+	}
+
+
+	"rndwave"
+	{
+		"volume"			"2"
+		"flags"					"spatialized"
+		"folddowndistance"		"1500"
+        "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "5000"
+        "startCurve"      "5"
+        "falloffCurve"    "5"
+
+			"wave"		"Coop/Generator/Coop_Generator_Destroyed_Explo_Close_2ch_v1.wav"
+
+	}
+
+	"rndwave"
+	{
+		"delay"				"600"
+		"volume"			"2"
+		"flags"					"spatialized"
+		"folddowndistance"		"1500"
+        "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "2500"
+        "startCurve"      "5"
+        "falloffCurve"    "5"
+
+			"wave"		"Coop/Generator/Coop_Generator_Destroyed_Metal_Close_2ch_v1.wav"
+
+	}
+
+	"rndwave"
+
+	{
+
+		"volume"		"2"
+		"pitch"			"100"
+		"limit"			"1"
+
+
+		"flags"					"spatialized"
+		"folddowndistance"		"1500"
+        "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "20000"
+        "startCurve"      "5"
+        "falloffCurve"    "5"
+
+	"wave"		"Coop/Generator/Coop_Generator_Destroyed_Explo_Dist_2ch_v1.wav"
+
+	}
+
+	"rndwave"
+
+	{
+		"delay"				"600"
+		"volume"		"2"
+		"pitch"			"100"
+		"limit"			"1"
+
+
+		"flags"					"spatialized"
+		"folddowndistance"		"1500"
+        "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "20000"
+        "startCurve"      "5"
+        "falloffCurve"    "5"
+
+	"wave"		"Coop/Generator/Coop_Generator_Destroyed_Metal_Dist_2ch_v1.wav"
+
+	}
+
+	"rndwave"
+
+	{
+		"volume"		"2"
+		"pitch"			"50,60"
+		"limit"			"1"
+		"delay"			"160"
+
+		"flags"					"spatialized"
+		"folddowndistance"		"1500"
+        "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "20000"
+        "startCurve"      "5"
+        "falloffCurve"    "5"
+
+		"wave"		"explosions/Generic/Explo_Generic_DistWashLow_2ch_v1_01.wav"
+		"wave"		"explosions/Generic/Explo_Generic_DistWashLow_2ch_v1_02.wav"
+		"wave"		"explosions/Generic/Explo_Generic_DistWashLow_2ch_v1_03.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"		"5"
+		"pitch"			"90,115"
+		"limit"			"2"
+
+		"startDistance"     		"0"
+		"peakDistance"     			"0"
+		"startCurve"       			"0"
+		"falloffStart"      		"0"
+		"falloffEnd"        		"2000"
+		"falloffCurve"      		"0"
+		"clampVolume"       		"0"
+
+		"channels"
+		{
+			"1"		"LFE,1.0"
+		}
+		"wave"		"exo/Atlas/Movement/Atlas_Footstep_Generic_Bass_2ch_v4_01.wav"
+
+		}
+
+	"rndwave"
+	{
+		"volume"		"2"
+		"pitch"			"50"
+		"limit"			"1"
+		"delay"			"160"
+
+		"flags"					"spatialized"
+		"folddowndistance"		"5000"
+        "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "2000"
+        "falloffEnd"      "5000"
+        "startCurve"      "5"
+        "falloffCurve"    "5"
+
+		"wave"		"explosions/Generic/Explo_Generic_DistWashHigh_2ch_v1_01.wav"
+		"wave"		"explosions/Generic/Explo_Generic_DistWashHigh_2ch_v1_02.wav"
+		"wave"		"explosions/Generic/Explo_Generic_DistWashHigh_2ch_v1_03.wav"
+	}
+}
+
+"Coop_CloakDrone_Beam"
+{
+	"mixgroup"		"SFX,SFX_Ability,SFX_Coop"
+	"volumeScale"	"2.0"
+	"falloff"		"0"
+	"pitch"			"100"
+	"flags"			"mobile,layered,loop"
+
+	"rndwave"
+	{
+		"volume"			"6"
+		"limit"				"3"
+		"flags"				"spatialized"
+		"foldDownDistance"	"400"
+
+	    "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "4000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+			"wave"			"Coop/Drones/Coop_CloakDrone_Beam_2ch_v2_01_LP.wav"
+
+	}
+
+}
+
+
+"Coop_DroneTeleport_Out"
+{
+	"mixgroup"		"SFX,SFX_Ability,SFX_Coop"
+	"volumeScale"	"1.0"
+	"falloff"		"0"
+	"pitch"			"100"
+	"flags"			"layered"
+
+	"rndwave"
+	{
+		"volume"			"8"
+		"limit"				"2"
+		"flags"				"spatialized"
+		"foldDownDistance"	"400"
+
+	    "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "2000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+			"wave"			"Coop/Drones/Coop_DroneTeleport_Out_2ch_v1_01.wav"
+	}
+
+}
+
+"Coop_DroneTeleport_In"
+{
+	"mixgroup"		"SFX,SFX_Ability,SFX_Coop"
+	"volumeScale"	"1.0"
+	"falloff"		"0"
+	"pitch"			"100"
+	"flags"			"layered"
+
+	"rndwave"
+	{
+		"volume"			"8"
+		"limit"				"2"
+		"flags"				"spatialized"
+		"foldDownDistance"	"400"
+
+	    "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "2000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+			"wave"			"Coop/Drones/Coop_DroneTeleport_In_2ch_v1_01.wav"
+	}
+
+}
+
+
+"CloakDrone_Cloak_On"
+{
+
+	"mixgroup"		"weapons,SFX,SFX_Gadgets,SFX_Gadgets_Cloak,SFX_Coop"
+	"radius"		"2000"
+	"volume"		"1"
+	"falloff"		"7"
+
+
+	"rndwave"
+	{
+		"limit"			"2"
+		"wave"			"player\Cloak\Cloak_3P_Activate_1ch_v2_01.wav"
+	}
+
+}
+
+"CloakDrone_Cloak_Sustain_Loop"
+{
+
+	"mixgroup"		"weapons,SFX,SFX_Gadgets,SFX_Gadgets_Cloak,SFX_Coop"
+	"radius"		"2000"
+	"volume"		"1"
+	"falloff"		"7"
+	"flags"			"loop"
+
+
+	"rndwave"
+	{
+		"limit"			"4"
+		"wave"			"player\Cloak\Cloak_3P_Loop_1ch_v3_01.wav"
+	}
+}
+
+"CloakDrone_Explode" {
+
+	"mixgroup"		"SFX,SFX_Gadgets,SFX_Gadgets_Cloak,SFX_Coop"
+	"volume"		"5"
+	"pitch"			"140,150"
+	"radius"		"2000"
+	"falloff"		"0"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+	"limit"			"2"
+	"wave"			"campaign/angelcity/Explo_Vehicle_Generic_2ch_v1_01.wav"
+	"wave"			"campaign/angelcity/Explo_Vehicle_Generic_2ch_v1_02.wav"
+	"wave"			"campaign/angelcity/Explo_Vehicle_Generic_2ch_v1_03.wav"
+	"wave"			"campaign/angelcity/Explo_Vehicle_Generic_2ch_v1_04.wav"
+	}
+}
+
+"CoOp_Spectre_Overload_Beep"
+{
+	"mixgroup"		"weapon,SFX,SFX_Impacts,SFX_Impacts_1P_Hits_3P,SFX_Impacts_1P_Hits_3P_Explosions,SFX_Coop"
+	"volume"		"10"
+	"flags"			"layered"
+
+	"rndwave"
+
+	{
+
+	"startDistance"     		"0"
+ 	"peakDistance"     		"0"
+ 	"startCurve"       		"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"500"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"limit"			"2"
+
+	"pitch"			"88,110"
+	"flags"			"spatialized"
+	"folddownDistance"		"300"
+	"volume"		"5"
+
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Overload_Close_2ch_v1_01.wav"
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Overload_Close_2ch_v1_02.wav"
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Overload_Close_2ch_v1_03.wav"
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Overload_Close_2ch_v1_04.wav"
+
+	}
+
+	"rndwave"
+
+	{
+
+	"startDistance"     		"10"
+ 	"peakDistance"     		"10"
+ 	"startCurve"       		"0"
+ 	"falloffStart"      		"450"
+ 	"falloffEnd"        		"1400"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"limit"			"2"
+	"volume"		"6.5"
+	"pitch"			"88,100"
+
+	"flags"			"spatialized"
+	"folddownDistance"		"1200"
+
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Overload_MidDist_2ch_v1_02.wav"
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Overload_MidDist_2ch_v1_03.wav"
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Overload_MidDist_2ch_v1_04.wav"
+
+	}
+
+	"rndwave"
+
+	{
+
+	"startDistance"     		"10"
+ 	"peakDistance"     		"0"
+ 	"startCurve"       		"0"
+ 	"falloffStart"      		"1350"
+ 	"falloffEnd"        		"3000"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"limit"			"2"
+	"volume"		"6.5"
+	"pitch"			"83,100"
+
+	"flags"			"spatialized"
+	"folddownDistance"		"4000"
+
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Overload_Dist_2ch_v1_01.wav"
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Overload_Dist_2ch_v1_02.wav"
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Overload_Dist_2ch_v1_03.wav"
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Overload_Dist_2ch_v1_04.wav"
+
+	}
+}
+
+
+"Coop_Weapon_SentryGun_FirstShot_3P"
+{
+	"mixgroup"		"weapons,SFX,SFX_Weapons,SFX_Weapons_Pilot_1P,SFX_Weapons_Pilot_1P_Gunfire,SFX_Weapons_Pilot_1P_Gunfire_LMG"
+	"volumescale"		"1"
+	"flags"			"layered"
+
+///  3P ASSETS ////////////
+
+	"rndwave"
+	{
+	"volume"		"5"
+	"pitch"			"95,105"
+	"limit"			"1"
+	"delay"			"10"
+	"flags"			"spatialized"
+	"panwidth"		"45"
+	"folddownDistance"		"200"
+
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"1500"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_MechStart_2ch_v1_01.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_MechStart_2ch_v1_02.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_MechStart_2ch_v1_03.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_MechStart_2ch_v1_04.wav"
+
+	}
+}
+
+"Coop_Weapon_SentryGun_SecondShot_3P"
+{
+	"mixgroup"		"weapons,SFX,SFX_Weapons,SFX_Weapons_Pilot_1P,SFX_Weapons_Pilot_1P_Gunfire,SFX_Weapons_Pilot_1P_Gunfire_LMG"
+	"volumescale"		"1.2"
+	"flags"			"layered"
+
+///  3P ASSETS ////////////
+
+	"rndwave"
+	{
+	"volume"		"4"
+	"pitch"			"100,120"
+	"limit"			"1"
+	"delay"			"30"
+
+
+
+
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"1500"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"wave"			"null.wav"
+
+	}
+}
+
+
+"Coop_Weapon_SentryGun_Loop_3P"
+{
+	"mixgroup"		"weapons,SFX,SFX_Weapons,SFX_Weapons_Pilot_1P,SFX_Weapons_Pilot_1P_Gunfire,SFX_Weapons_Pilot_1P_Gunfire_LMG"
+	"volumescale"		"0.5"
+	"flags"			"layered,loop,mobile"
+
+
+/// 3P ASSETS //////////
+
+	"rndwave"
+	{
+	"volume"		"8"
+	"pitch"			"99,101"
+	"limit"			"2"
+	"delay"			"20"
+	"flags"			"spatialized"
+	"panwidth"		"45"
+	"folddownDistance"		"200"
+
+		"ducks"				"SFX_Weapons_AI,0.7a:0,1000,0,0"
+		"ducks"				"SFX_AMB,0.7a:0,1000,0,0"
+		"ducks"				"Music,0.5a:0,1000,0,0"
+		//"ducks"				"DIAL_AI,0.5a:0,1000,0,0"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"2200"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Loop_Close_2ch_v1_01.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Loop_Close_2ch_v1_02.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Loop_Close_2ch_v1_03.wav"
+
+	}
+
+	"rndwave"
+	{
+	"volume"		"9.5"
+	"pitch"			"97,102"
+	"limit"			"2"
+	"delay"			"40"
+	"flags"			"spatialized"
+	"panwidth"		"45"
+	"folddownDistance"		"200"
+
+		"ducks"				"SFX_Weapons_AI,0.7a:0,1000,0,0"
+		"ducks"				"SFX_AMB,0.7a:0,1000,0,0"
+		"ducks"				"Music,0.5a:0,1000,0,0"
+		//"ducks"				"DIAL_AI,0.5a:0,1000,0,0"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"2000"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Servo_Close_2ch_v1_01.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Servo_Close_2ch_v1_02.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Servo_Close_2ch_v1_03.wav"
+
+	}
+
+	"rndwave"
+	{
+	"volume"		"8"
+	"pitch"			"99,101"
+	"limit"			"2"
+	"delay"			"20"
+	"flags"			"spatialized"
+	"panwidth"		"45"
+	"folddownDistance"		"200"
+
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"3500"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Loop_MidDist_2ch_v1_01.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Loop_MidDist_2ch_v1_02.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Loop_MidDist_2ch_v1_03.wav"
+
+
+	}
+
+	"rndwave"
+	{
+	"volume"		"8"
+	"pitch"			"99,101"
+	"limit"			"2"
+	"delay"			"20"
+	"flags"			"spatialized"
+	"panwidth"		"45"
+	"folddownDistance"		"200"
+	"delay"			"10"
+
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"5000"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Loop_Distant_2ch_v1_01.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Loop_Distant_2ch_v1_02.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Loop_Distant_2ch_v1_03.wav"
+
+	}
+
+}
+
+"Coop_Weapon_SentryGun_LoopEnd_3P"
+{
+	"mixgroup"		"weapons,SFX,SFX_Weapons,SFX_Weapons_Pilot_1P,SFX_Weapons_Pilot_1P_Gunfire,SFX_Weapons_Pilot_1P_Gunfire_LMG"
+	"volumescale"		"1"
+	"flags"			"layered"
+
+///  3P ASSETS ////////////
+
+	"rndwave"
+	{
+	"volume"		"8"
+	"pitch"			"98,102"
+	"limit"			"2"
+	"delay"			"0"
+	"flags"			"spatialized"
+	"panwidth"		"45"
+	"folddownDistance"		"200"
+
+		"ducks"				"SFX_Weapons_AI,0.7a:0,1000,0,0"
+		"ducks"				"SFX_AMB,0.7a:0,1000,0,0"
+		"ducks"				"Music,0.5a:0,1000,0,0"
+		//"ducks"				"DIAL_AI,0.5a:0,1000,0,0"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"2200"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Tail_Close_2ch_v1_01.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Tail_Close_2ch_v1_02.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Tail_Close_2ch_v1_03.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Tail_Close_2ch_v1_04.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Tail_Close_2ch_v1_05.wav"
+
+	}
+
+	"rndwave"
+	{
+	"volume"		"3"
+	"pitch"			"97,104"
+	"limit"			"2"
+	"delay"			"0"
+	"flags"			"spatialized"
+	"panwidth"		"45"
+	"folddownDistance"		"100"
+
+		"ducks"				"SFX_Weapons_AI,0.7a:0,1000,0,0"
+		"ducks"				"SFX_AMB,0.7a:0,1000,0,0"
+		"ducks"				"Music,0.5a:0,1000,0,0"
+		//"ducks"				"DIAL_AI,0.5a:0,1000,0,0"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"1000"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_TailMech_2ch_v1_01.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_TailMech_2ch_v1_02.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_TailMech_2ch_v1_03.wav"
+
+	}
+
+	"rndwave"
+	{
+	"volume"		"8"
+	"pitch"			"98,102"
+	"limit"			"2"
+	"delay"			"0"
+	"flags"			"spatialized"
+	"panwidth"		"45"
+	"folddownDistance"		"200"
+
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"3500"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Tail_MidDist_2ch_v1_01.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Tail_MidDist_2ch_v1_02.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Tail_MidDist_2ch_v1_03.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Tail_MidDist_2ch_v1_04.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Tail_MidDist_2ch_v1_05.wav"
+
+
+	}
+
+	"rndwave"
+	{
+	"volume"		"6"
+	"pitch"			"97,101"
+	"limit"			"2"
+	"delay"			"0"
+	"flags"			"spatialized"
+	"panwidth"		"45"
+	"folddownDistance"		"0"
+
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"5000"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Tail_Distant_2ch_v1_01.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Tail_Distant_2ch_v1_02.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Tail_Distant_2ch_v1_03.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Tail_Distant_2ch_v1_04.wav"
+	"wave"			"Coop/SentryGun/Looping/Wpn_SentryGun_3p_Wpnfire_Tail_Distant_2ch_v1_05.wav"
+
+
+
+	}
+}
+
+"CoOp_SentryGun_Deploy"
+{
+
+
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_Turrets,SFX_Coop"
+	"volume"		"5.0"
+	"flags"			"layered"
+
+	"rndwave"
+	{
+		"startDistance"     		"0"
+		"peakDistance"     			"0"
+		"startCurve"       			"0"
+		"falloffStart"      		"30"
+		"falloffEnd"        		"1000"
+		"falloffCurve"      		"0"
+
+		"flags"				"spatialized"
+		"folddownDistance"	"200"
+		"wave"			"coop/SentryGun/Coop_SentryGun_Deploy_2ch_v1.wav"
+	}
+
+}
+
+"CoOp_SentryGun_Pivot_LP"
+{
+	"mixgroup"			"weapon,SFX,SFX_Weapons,SFX_Weapons_Turrets,SFX_Coop"
+	"volumescale"		"1.3"
+	"pitch"				"100,105"
+	"falloff"			"0"
+	"radius"			"2200"
+	"flags"				"mobile,loop"
+
+
+	"rndwave"
+	{
+		"delay"				"60"
+		"volume"			"4"
+		"limit"				"2"
+
+			"wave"				"coop/SentryGun/Coop_SentryGun_Pivot_1ch_v1_01_LP.wav"
+			"wave"				"coop/SentryGun/Coop_SentryGun_Pivot_1ch_v1_02_LP.wav"
+
+
+	}
+
+}
+
+"SentryGun_Servos_Clunk"
+{
+	"mixgroup"			"weapon,SFX,SFX_Weapons,SFX_Weapons_Turrets"
+	"volumescale"		"1.5"
+	"falloff"			"0"
+	"radius"			"2200"
+
+
+	"rndwave"
+	{
+
+		"flags"				"spatialized"
+		"folddownDistance"	"600"
+		"volume"			"3"
+		"pitch"				"105,112"
+		"limit"				"2"
+
+			"wave"				"scripted/MegaTurret/MegaTurret_Servos_Clunk_2ch_v1_01.wav"
+			"wave"				"scripted/MegaTurret/MegaTurret_Servos_Clunk_2ch_v1_02.wav"
+			"wave"				"scripted/MegaTurret/MegaTurret_Servos_Clunk_2ch_v1_03.wav"
+			"wave"				"scripted/MegaTurret/MegaTurret_Servos_Clunk_2ch_v1_04.wav"
+			"wave"				"scripted/MegaTurret/MegaTurret_Servos_Clunk_2ch_v1_05.wav"
+
+	}
+
+}
+
+"CoOp_SentryGun_PlacementHologramOn"
+{
+	"mixgroup"			"ui,SFX,SFX_UI,SFX_Coop"
+	"radius"			"0"
+	"volume"			"5.0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"		"coop/SentryGun/Coop_SentryGun_PlacementHologramOn_2ch_v1.wav"
+	}
+}
+
+"CoOp_SentryGun_DeploymentDeniedBeep"
+{
+	"mixgroup"			"ui,SFX,SFX_UI,SFX_Coop"
+	"radius"			"0"
+	"volume"			"5.0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"		"coop/SentryGun/Coop_SentryGun_DeploymentDeniedBeep_2ch_v1.wav"
+	}
+}
+
+"Coop_SentryGun_ScrapTurret"
+{
+	"mixgroup"			"titan,SFX,SFX_Vehicles,SFX_Vehicles_DropPods"
+	"volume"			"4.0"
+	"radius"			"2500"
+	"pitch"				"80,100"
+	"rndwave"
+	{
+	"limit"				"3"
+	"wave"				"vehicles/droppod/DropPod_Dissolve_1ch_v1_01.wav"
+	"wave"				"vehicles/droppod/DropPod_Dissolve_1ch_v1_02.wav"
+	"wave"				"vehicles/droppod/DropPod_Dissolve_1ch_v1_03.wav"
+	"wave"				"vehicles/droppod/DropPod_Dissolve_1ch_v1_04.wav"
+	}
+
+}
+
+"Coop_SentryGun_Explode"
+{
+	"mixgroup"		"weapon,SFX,SFX_Impacts,SFX_Impacts_1P_Hits_3P,SFX_Impacts_1P_Hits_3P_Explosions"
+	"pitchscale"		"1.3"
+	"volumescale"		"1.1"
+	"flags"			"layered"
+
+	"rndwave"
+
+	{
+		"volume"		"5"
+		"pitch"			"90,110"
+		"limit"			"1"
+		"flags"					"spatialized"
+		"folddowndistance"		"1500"
+
+        "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "2000"
+        "startCurve"      "5"
+        "falloffCurve"    "0"
+
+		"wave"		"explosions/Frag/Explo_Frag_Close_2ch_v1_01.wav"
+		"wave"		"explosions/Frag/Explo_Frag_Close_2ch_v1_02.wav"
+		"wave"		"explosions/Frag/Explo_Frag_Close_2ch_v1_03.wav"
+		"wave"		"explosions/Frag/Explo_Frag_Close_2ch_v1_04.wav"
+		"wave"		"explosions/Frag/Explo_Frag_Close_2ch_v1_05.wav"
+		"wave"		"explosions/Frag/Explo_Frag_Close_2ch_v1_06.wav"
+
+	}
+
+	"rndwave"
+
+	{
+	"delay"					"20"
+	"startDistance"     		"10"
+ 	"peakDistance"     		"10"
+ 	"startCurve"       		"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"900"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"limit"			"2"
+	"volume"		"1.4"
+	"pitch"			"84,100"
+	"flags"			"spatialized"
+	"folddownDistance"		"800"
+
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_Close_2ch_v1_01.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_Close_2ch_v1_02.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_Close_2ch_v1_03.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_Close_2ch_v1_04.wav"
+
+	}
+
+	"rndwave"
+
+	{
+
+	"startDistance"     		"10"
+ 	"peakDistance"     		"10"
+ 	"startCurve"       		"0"
+ 	"falloffStart"      		"800"
+ 	"falloffEnd"        		"1500"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"limit"			"2"
+	"volume"		"1.5"
+	"pitch"			"88,100"
+
+	"flags"			"spatialized"
+	"folddownDistance"		"1400"
+
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_MidDist_2ch_v1_01.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_MidDist_2ch_v1_02.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_MidDist_2ch_v1_03.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_MidDist_2ch_v1_04.wav"
+
+	}
+
+	"rndwave"
+
+	{
+
+	"startDistance"     		"10"
+ 	"peakDistance"     		"0"
+ 	"startCurve"       		"0"
+ 	"falloffStart"      		"1400"
+ 	"falloffEnd"        		"3000"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"limit"			"2"
+	"volume"		"1.5"
+	"pitch"			"83,100"
+
+	"flags"			"spatialized"
+	"folddownDistance"		"4000"
+
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_Dist_2ch_v1_01.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_Dist_2ch_v1_02.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_Dist_2ch_v1_03.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_Dist_2ch_v1_04.wav"
+
+	}
+
+
+	"rndwave"
+	{
+
+		"flags"				"spatialized"
+
+		"folddownDistance"	"800"
+
+		"limit"				"2"
+		"volume"			"3.7,4.2"
+		"pitch"				"70,130"
+		"delay"				"210"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"		"exo/damage/titan_armor_break_close_debris_01.wav"
+			"wave"		"exo/damage/titan_armor_break_close_debris_02.wav"
+			"wave"		"exo/damage/titan_armor_break_close_debris_03.wav"
+			"wave"		"exo/damage/titan_armor_break_close_debris_04.wav"
+			"wave"		"exo/damage/titan_armor_break_close_debris_05.wav"
+			"wave"		"exo/damage/titan_armor_break_close_debris_06.wav"
+	}
+
+}
+
+"Coop_Minimap_Ping"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"flags"				"noduck"
+	"radius"			"0"
+	"volume"			"1.5"
+	"pitch"				"98"
+
+	"rndwave"
+	{
+		"wave"		"coop/Minimap/Coop_Minimap_IncomingUnitsPing_2ch_v1.wav"
+	}
+}
+
+
+  //////////////
+ // AMMOBOX  //
+//////////////
+
+
+"Coop_AmmoBox_Open"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"flags"				"noduck"
+	"radius"			"0"
+	"volume"			"7.0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"		"coop/AmmoBox/Coop_AmmoBox_Open_2ch_v1_01.wav"
+	}
+}
+
+"Coop_AmmoBox_Close"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"flags"				"noduck"
+	"radius"			"0"
+	"volume"			"6.0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"		"coop/AmmoBox/Coop_AmmoBox_Close_2ch_v1_01.wav"
+	}
+}
+
+"Coop_AmmoBox_AmmoRefill"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"flags"				"noduck"
+	"radius"			"0"
+	"volume"			"6.0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"		"coop/AmmoBox/Coop_AmmoBox_AmmoRefill_2ch_v1_01.wav"
+		"wave"		"coop/AmmoBox/Coop_AmmoBox_AmmoRefill_2ch_v1_02.wav"
+		"wave"		"coop/AmmoBox/Coop_AmmoBox_AmmoRefill_2ch_v1_03.wav"
+		"wave"		"coop/AmmoBox/Coop_AmmoBox_AmmoRefill_2ch_v1_04.wav"
+	}
+}
+
+
+  ///////////////////////////////////
+ // Impacts vs. Harvester shield //
+//////////////////////////////////
+
+"HarvesterShield.Light.BulletImpact_1P_vs_3P"
+
+// e.g. R101 vs. Harvester shield, attacker perspective
+
+{
+	"mixgroup"		"SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates,SFX_Impacts_TitanDamageStates_1P_Hits_3P"
+	"radius"		"0"
+	"volumescale"		"1.55"
+	"ducks"			"SFX_Impacts_1P_Hits_3P_Bullets,0.3:0.0"
+
+	"rndwave"
+
+	{
+		"channels"
+		{
+			"1"		"L,1"
+			"2"		"R,1"
+		}
+		"limit"		"2"
+		"volume"	"1.4,1.7"
+		"pitch"		"90,120"
+		"delay"		"40"
+
+
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_17.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_18.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_19.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_20.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_21.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_22.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_23.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_24.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_25.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_26.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_27.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_28.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_29.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_30.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_31.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_32.wav"
+	}
+
+	"rndwave"
+
+	{
+
+		"limit"		"2"
+		"volume"	"0.8,1.1"
+		"pitch"		"97,102"
+
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_1p_vs_3p_v1_01.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_1p_vs_3p_v1_02.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_1p_vs_3p_v1_03.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_1p_vs_3p_v1_04.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_1p_vs_3p_v1_05.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_1p_vs_3p_v1_06.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_1p_vs_3p_v1_07.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_1p_vs_3p_v1_08.wav"
+
+
+	}
+
+	"rndwave"
+
+	{
+
+		"limit"		"2"
+		"volume"	"3.3,4.8"
+		"pitch"		"95,125"
+
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_02.wav"
+//		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_03.wav"
+//		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_04.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_05.wav"
+//		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_06.wav"
+//		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_07.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_08.wav"
+//		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_09.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_10.wav"
+//		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_11.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_12.wav"
+//		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_13.wav"
+//		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_14.wav"
+//		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_15.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_16.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_17.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_18.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_19.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_21.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_22.wav"
+
+
+	}
+
+}
+
+"HarvesterShield.Light.BulletImpact_3P_vs_3P"
+
+// e.g. R101 vs. Harvester shield, bystander perspective
+
+{
+	"mixgroup"		"SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates,SFX_Impacts_TitanDamageStates_3P_Hits_3P"
+	"radius"		"3000"
+	"volume"		"1"
+	"volumescale"	"3.6"
+	"ducks"			"SFX_Impacts_3P_Hits_3P_Bullets,0.3:0.0"
+
+	"rndwave"
+
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"50"
+
+		"limit"		"2"
+		"volume"	"1.2,1.5"
+		"pitch"		"82,125"
+		"delay"		"40"
+
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_17.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_18.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_19.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_20.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_21.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_22.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_23.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_24.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_25.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_26.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_27.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_28.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_29.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_30.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_31.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_32.wav"
+	}
+
+	"rndwave"
+
+	{
+
+		"limit"		"2"
+		"volume"	"0.8,1.1"
+		"pitch"		"97,102"
+
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_1p_vs_3p_v1_01.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_1p_vs_3p_v1_02.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_1p_vs_3p_v1_03.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_1p_vs_3p_v1_04.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_1p_vs_3p_v1_05.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_1p_vs_3p_v1_06.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_1p_vs_3p_v1_07.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_1p_vs_3p_v1_08.wav"
+
+
+	}
+
+	"rndwave"
+
+	{
+
+		"limit"		"2"
+		"volume"	"3.3,4.8"
+		"pitch"		"95,125"
+
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_02.wav"
+//		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_03.wav"
+//		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_04.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_05.wav"
+//		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_06.wav"
+//		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_07.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_08.wav"
+//		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_09.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_10.wav"
+//		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_11.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_12.wav"
+//		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_13.wav"
+//		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_14.wav"
+//		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_15.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_16.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_17.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_18.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_19.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_21.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_LightBallistic_Titan_Rico_1p_vs_3p_v1_22.wav"
+
+
+	}
+
+}
+
+"HarvesterShield.Heavy.BulletImpact_1P_vs_3P"
+
+// e.g. XO16 vs. Harvester shield, attacker perspective
+
+{
+	"mixgroup"		"SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates,SFX_Impacts_TitanDamageStates_1P_Hits_3P"
+	"radius"		"0"
+	"volumescale"		"1.4"
+	"ducks"			"SFX_Impacts_1P_Hits_3P_Bullets,0.3:0.0"
+
+	"rndwave"
+
+	{
+		"channels"
+		{
+			"1"		"L,1"
+			"2"		"R,1"
+		}
+		"limit"		"2"
+		"volume"	"1.8,2.1"
+		"pitch"		"82,125"
+		"delay"		"40"
+
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_17.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_18.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_19.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_20.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_21.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_22.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_23.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_24.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_25.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_26.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_27.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_28.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_29.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_30.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_31.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_32.wav"
+	}
+
+
+		"rndwave"
+
+	{
+
+		"limit"		"3"
+		"volume"	"1.0,1.3"
+
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_01.wav"
+//		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_02.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_03.wav"
+//		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_04.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_05.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_06.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_07.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_08.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_09.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_10.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_11.wav"
+//		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_12.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_13.wav"
+
+
+	}
+
+	"rndwave"
+
+	{
+
+		"limit"		"1"
+		"volume"	"0.8,1.1"
+		"pitch"		"100,120"
+
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_01.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_02.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_03.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_04.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_05.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_06.wav"
+//		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_07.wav"
+//		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_08.wav"
+//		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_09.wav"
+//		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_10.wav"
+//		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_12.wav"
+//		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_13.wav"
+//		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_14.wav"
+
+	}
+}
+
+"HarvesterShield.Heavy.BulletImpact_3P_vs_3P"
+
+// e.g. XO16 vs. Harvester shield, bystander perspective
+
+{
+	"mixgroup"		"SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates,SFX_Impacts_TitanDamageStates_3P_Hits_3P"
+	"radius"		"3000"
+	"volume"		"1"
+	"volumescale"	"1.5"
+	"ducks"			"SFX_Impacts_3P_Hits_3P_Bullets,0.3:0.0"
+
+	"rndwave"
+
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"50"
+
+		"limit"		"2"
+		"volume"	"2.5,2.8"
+		"pitch"		"82,125"
+		"delay"		"40"
+
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_17.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_18.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_19.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_20.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_21.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_22.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_23.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_24.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_25.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_26.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_27.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_28.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_29.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_30.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_31.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_32.wav"
+	}
+
+		"rndwave"
+
+	{
+
+		"limit"		"2"
+		"volume"	"1.5,1.8"
+
+		"flags"				"spatialized"
+		"folddownDistance"	"100"
+
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_01.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_02.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_03.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_04.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_05.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_06.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_07.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_08.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_09.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_10.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_11.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_12.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_13.wav"
+
+
+	}
+
+	"rndwave"
+
+	{
+
+		"limit"		"1"
+		"volume"	"1.2,1.5"
+		"pitch"		"100,120"
+
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_01.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_02.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_03.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_04.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_05.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_06.wav"
+//		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_07.wav"
+//		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_08.wav"
+//		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_09.wav"
+//		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_10.wav"
+//		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_12.wav"
+//		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_13.wav"
+//		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_14.wav"
+
+	}
+
+}
+
+"HarvesterShield.AmpedXO16.BulletImpact_1P_vs_3P"
+
+// Amped XO16 vs. Harvester shield, attacker perspective
+
+{
+	"mixgroup"		"SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates,SFX_Impacts_TitanDamageStates_1P_Hits_3P"
+	"radius"		"0"
+	"volumescale"		"1.5"
+	"ducks"			"SFX_Impacts_1P_Hits_3P_Bullets,0.3:0.0"
+
+	"rndwave"
+
+	{
+		"channels"
+		{
+			"1"		"L,1"
+			"2"		"R,1"
+		}
+		"limit"		"2"
+		"volume"	"2.0,2.3"
+		"pitch"		"82,125"
+		"delay"		"40"
+
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_17.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_18.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_19.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_20.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_21.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_22.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_23.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_24.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_25.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_26.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_27.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_28.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_29.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_30.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_31.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_32.wav"
+	}
+
+
+		"rndwave"
+
+	{
+
+		"limit"		"3"
+		"volume"	"1.0,1.3"
+
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_01.wav"
+//		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_02.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_03.wav"
+//		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_04.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_05.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_06.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_07.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_08.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_09.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_10.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_11.wav"
+//		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_12.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_13.wav"
+
+
+	}
+
+	"rndwave"
+
+	{
+
+		"limit"		"1"
+		"delay"		"35"
+		"volume"	"7.6,7.9"
+		"pitch"		"112,122"
+
+		"wave"		"impacts/Energy/Imp_Bullet_Energy_TitanShield_SpangCluster_1p_vs_3p_2ch_v1_01.wav"
+		"wave"		"impacts/Energy/Imp_Bullet_Energy_TitanShield_SpangCluster_1p_vs_3p_2ch_v1_02.wav"
+		"wave"		"impacts/Energy/Imp_Bullet_Energy_TitanShield_SpangCluster_1p_vs_3p_2ch_v1_03.wav"
+		"wave"		"impacts/Energy/Imp_Bullet_Energy_TitanShield_SpangCluster_1p_vs_3p_2ch_v1_04.wav"
+		"wave"		"impacts/Energy/Imp_Bullet_Energy_TitanShield_SpangCluster_1p_vs_3p_2ch_v1_05.wav"
+		"wave"		"impacts/Energy/Imp_Bullet_Energy_TitanShield_SpangCluster_1p_vs_3p_2ch_v1_06.wav"
+
+
+
+
+	}
+}
+
+"HarvesterShield.AmpedXO16.BulletImpact_3P_vs_3P"
+
+//  Amped XO16 vs. Harvester shield, attacker perspective
+
+{
+	"mixgroup"		"SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates,SFX_Impacts_TitanDamageStates_1P_Hits_3P"
+	"radius"		"3000"
+	"volumescale"		"1.5"
+	"ducks"			"SFX_Impacts_1P_Hits_3P_Bullets,0.3:0.0"
+
+	"rndwave"
+
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"50"
+
+		"limit"		"2"
+		"volume"	"2.0,2.3"
+		"pitch"		"82,125"
+		//"delay"		"40"
+
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_17.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_18.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_19.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_20.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_21.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_22.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_23.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_24.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_25.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_26.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_27.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_28.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_29.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_30.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_31.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_32.wav"
+	}
+
+
+		"rndwave"
+
+	{
+
+		"limit"		"3"
+		"volume"	"1.0,1.3"
+		"flags"				"spatialized"
+		"folddownDistance"	"50"
+
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_01.wav"
+//		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_02.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_03.wav"
+//		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_04.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_05.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_06.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_07.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_08.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_09.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_10.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_11.wav"
+//		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_12.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_1p_vs_3p_2ch_v2_13.wav"
+
+
+	}
+
+	"rndwave"
+
+	{
+
+		"limit"		"1"
+		"delay"		"35"
+		"volume"	"6.6,6.9"
+		"pitch"		"112,122"
+		"flags"				"spatialized"
+		"folddownDistance"	"50"
+
+		"wave"		"impacts/Energy/Imp_Bullet_Energy_TitanShield_SpangCluster_1p_vs_3p_2ch_v1_01.wav"
+		"wave"		"impacts/Energy/Imp_Bullet_Energy_TitanShield_SpangCluster_1p_vs_3p_2ch_v1_02.wav"
+		"wave"		"impacts/Energy/Imp_Bullet_Energy_TitanShield_SpangCluster_1p_vs_3p_2ch_v1_03.wav"
+		"wave"		"impacts/Energy/Imp_Bullet_Energy_TitanShield_SpangCluster_1p_vs_3p_2ch_v1_04.wav"
+		"wave"		"impacts/Energy/Imp_Bullet_Energy_TitanShield_SpangCluster_1p_vs_3p_2ch_v1_05.wav"
+		"wave"		"impacts/Energy/Imp_Bullet_Energy_TitanShield_SpangCluster_1p_vs_3p_2ch_v1_06.wav"
+
+
+
+
+	}
+}
+
+"HarvesterShield.Explosive.BulletImpact_1P_vs_3P"
+
+// e.g. 40mm vs. Harvester shield, attacker perspective
+
+{
+	"mixgroup"		"SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates,SFX_Impacts_TitanDamageStates_1P_Hits_3P"
+
+	"volumescale"		"0.9"
+	"ducks"			"SFX_Impacts_1P_Hits_3P_Explosions,0.0:0.0"
+	"flags"			"layered"
+
+	"rndwave"
+
+	{
+
+        "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "800"
+        "falloffEnd"      "12000"
+        "startCurve"      "0"
+        "falloffCurve"    "5"
+
+		"channels"
+		{
+			"1"		"L,1"
+			"2"		"R,1"
+		}
+		"limit"		"2"
+		"volume"	"3.3,3.6"
+		"pitch"		"82,125"
+		"delay"		"40"
+
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_17.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_18.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_19.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_20.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_21.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_22.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_23.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_24.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_25.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_26.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_27.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_28.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_29.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_30.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_31.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_32.wav"
+	}
+
+	"rndwave"
+
+	{
+
+	"flags"			"spatialized"
+	"folddownDistance"	"3000"
+	"limit"			"2"
+        "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "1000"
+        "falloffEnd"      "2000"
+
+        "falloffCurve"    "0"
+	"volume"		"1.8"
+	"pitch"			"92,105"
+
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Close_01.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Close_02.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Close_03.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Close_04.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Close_05.wav"
+
+	}
+
+	"rndwave"
+
+	{
+
+	"limit"			"2"
+	"volume"		"6"
+	"pitch"			"88,100"
+        "startDistance"   "1000"
+        "peakDistance"    "1200"
+        "falloffStart"    "2500"
+        "falloffEnd"      "5000"
+        "startCurve"      "9"
+        "falloffCurve"    "1"
+
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Mid_1ch_01.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Mid_1ch_02.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Mid_1ch_03.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Mid_1ch_04.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Mid_1ch_05.wav"
+
+	}
+	"rndwave"
+
+	{
+
+	"limit"			"2"
+	"volume"		"2.5"
+	"pitch"			"83,100"
+        "startDistance"   "3300"
+        "peakDistance"    "4000"
+        "falloffStart"    "12000"
+        "falloffEnd"      "20000"
+        "startCurve"      "9"
+        "falloffCurve"    "1"
+
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Distant_1ch_01.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Distant_1ch_02.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Distant_1ch_03.wav"
+
+	}
+}
+
+
+"HarvesterShield.Explosive.BulletImpact_3P_vs_3P"
+
+
+// e.g. 40mm vs. Harvester shield, bystander perspective
+
+{
+	"mixgroup"		"SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates,SFX_Impacts_TitanDamageStates_1P_Hits_3P"
+
+	"volumescale"		"0.7"
+	"ducks"			"SFX_Impacts_1P_Hits_3P_Explosions,0.0:0.0"
+	"flags"			"layered"
+
+	"rndwave"
+
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"50"
+
+        "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "200"
+        "falloffEnd"      "15000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+		"limit"		"2"
+		"volume"	"2.3,2.6"
+		"pitch"		"82,125"
+		"delay"		"40"
+
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_17.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_18.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_19.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_20.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_21.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_22.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_23.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_24.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_25.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_26.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_27.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_28.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_29.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_30.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_31.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_32.wav"
+	}
+
+	"rndwave"
+
+	{
+
+	"flags"			"spatialized"
+	"folddownDistance"	"3000"
+	"limit"			"2"
+        "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "1000"
+        "falloffEnd"      "2000"
+
+        "falloffCurve"    "0"
+	"volume"		"1.8"
+	"pitch"			"92,105"
+
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Close_01.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Close_02.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Close_03.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Close_04.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Close_05.wav"
+
+	}
+
+	"rndwave"
+
+	{
+
+	"limit"			"2"
+	"volume"		"6"
+	"pitch"			"88,100"
+        "startDistance"   "1000"
+        "peakDistance"    "1200"
+        "falloffStart"    "2500"
+        "falloffEnd"      "5000"
+        "startCurve"      "9"
+        "falloffCurve"    "1"
+
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Mid_1ch_01.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Mid_1ch_02.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Mid_1ch_03.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Mid_1ch_04.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Mid_1ch_05.wav"
+
+	}
+	"rndwave"
+
+	{
+
+	"limit"			"2"
+	"volume"		"2.5"
+	"pitch"			"83,100"
+        "startDistance"   "3300"
+        "peakDistance"    "4000"
+        "falloffStart"    "12000"
+        "falloffEnd"      "20000"
+        "startCurve"      "9"
+        "falloffCurve"    "1"
+
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Distant_1ch_01.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Distant_1ch_02.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Distant_1ch_03.wav"
+
+	}
+}
+
+"HarvesterShield.MeleeImpact_1P_vs_3P"
+
+// e.g. Titan punch vs. shield, attacker perspective
+
+{
+	"mixgroup"		"SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates,SFX_Impacts_TitanDamageStates_1P_Hits_3P"
+	"radius"		"0"
+	"volumescale"	"1.9"
+	"ducks"			"SFX_Impacts_1P_Hits_3P,0.85:0.0"
+
+
+	"rndwave"
+
+	{
+		"channels"
+		{
+			"1"		"L,1"
+			"2"		"R,1"
+		}
+		"limit"		"2"
+		"volume"	"5.5,5.8"
+		"pitch"		"82,125"
+		"delay"		"40"
+
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_17.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_18.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_19.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_20.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_21.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_22.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_23.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_24.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_25.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_26.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_27.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_28.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_29.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_30.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_31.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_32.wav"
+	}
+
+	"rndwave"
+	{
+
+	"pitch"		"95,105"
+	"channels"
+		{
+			"1"			"L,2.1"
+			"1"			"R,2.1"
+		}
+	"wave"		"exo/atlas/melee/melee_impact_v2_01.wav"
+	"wave"		"exo/atlas/melee/melee_impact_v2_02.wav"
+	"wave"		"exo/atlas/melee/melee_impact_v2_03.wav"
+	}
+
+}
+
+"HarvesterShield.MeleeImpact_3P_vs_3P"
+
+// e.g. Titan punch vs. shield, bystander perspective
+
+{
+	"mixgroup"		"SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates,SFX_Impacts_TitanDamageStates_3P_Hits_3P"
+	"radius"		"2000"
+	"volumescale"	"3.0"
+	"ducks"			"SFX_Impacts_3P_Hits_3P,0.85:0.0"
+
+
+	"rndwave"
+
+	{
+		"limit"		"2"
+		"volume"	"4.6,4.9"
+		"pitch"		"82,125"
+		"delay"		"40"
+		"flags"				"spatialized"
+		"folddownDistance"	"100"
+
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_17.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_18.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_19.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_20.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_21.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_22.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_23.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_24.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_25.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_26.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_27.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_28.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_29.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_30.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_31.wav"
+		"wave"		"impacts/Shield/Optimized/TitanShield_Explosive_BulletImpact_1P_vs_3P_ShieldComp_2ch_32.wav"
+	}
+
+	"rndwave"
+	{
+
+	"flags"				"spatialized"
+	"folddownDistance"	"100"
+
+	"volume"	"3.0"
+	"pitch"		"95,105"
+	"wave"		"exo/atlas/melee/melee_impact_v2_01.wav"
+	"wave"		"exo/atlas/melee/melee_impact_v2_02.wav"
+	"wave"		"exo/atlas/melee/melee_impact_v2_03.wav"
+	}
+
+}
+
+"HarvesterShield.Energy.BulletImpact_3P_vs_3P"
+
+// e.g. Arc cannon vs. Harvester shield, bystander perspective
+
+{
+	"mixgroup"		"SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates,SFX_Impacts_TitanDamageStates_3P_Hits_3P"
+	"radius"		"3000"
+	"volume"		"1"
+	"volumescale"	"2"
+
+
+	"rndwave"
+
+	{
+		"limit"		"2"
+		"volume"	"1.8,2.1"
+		"pitch"		"90,120"
+		"delay"		"40"
+
+		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_Atk_1p_vs_3p_1ch_v2_01.wav"
+		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_Atk_1p_vs_3p_1ch_v2_02.wav"
+		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_Atk_1p_vs_3p_1ch_v2_03.wav"
+		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_Atk_1p_vs_3p_1ch_v2_04.wav"
+		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_Atk_1p_vs_3p_1ch_v2_05.wav"
+		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_Atk_1p_vs_3p_1ch_v2_06.wav"
+		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_Atk_1p_vs_3p_1ch_v2_07.wav"
+		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_Atk_1p_vs_3p_1ch_v2_08.wav"
+	}
+
+		"rndwave"
+
+	{
+
+		"flags"				"spatialized"
+		"folddownDistance"	"100"
+
+		"limit"		"2"
+		"volume"	"1.3,1.6"
+		"pitch"		"95,125"
+		"delay"		"70"
+
+		"wave"		"impacts/Energy/Imp_Bullet_Energy_TitanShield_Arc_1p_vs_3p_2ch_v1_01.wav"
+		"wave"		"impacts/Energy/Imp_Bullet_Energy_TitanShield_Arc_1p_vs_3p_2ch_v1_02.wav"
+		"wave"		"impacts/Energy/Imp_Bullet_Energy_TitanShield_Arc_1p_vs_3p_2ch_v1_03.wav"
+		"wave"		"impacts/Energy/Imp_Bullet_Energy_TitanShield_Arc_1p_vs_3p_2ch_v1_04.wav"
+		"wave"		"impacts/Energy/Imp_Bullet_Energy_TitanShield_Arc_1p_vs_3p_2ch_v1_05.wav"
+		"wave"		"impacts/Energy/Imp_Bullet_Energy_TitanShield_Arc_1p_vs_3p_2ch_v1_06.wav"
+
+	}
+
+		"rndwave"
+
+	{
+
+		"limit"		"2"
+		"volume"	"1.9,2.3"
+		"pitch"		"98,125"
+		"delay"		"90"
+
+		"flags"				"spatialized"
+		"folddownDistance"	"100"
+
+		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_Scatter_1p_vs_3p_1ch_v2_01.wav"
+		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_Scatter_1p_vs_3p_1ch_v2_02.wav"
+		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_Scatter_1p_vs_3p_1ch_v2_03.wav"
+		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_Scatter_1p_vs_3p_1ch_v2_04.wav"
+		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_Scatter_1p_vs_3p_1ch_v2_05.wav"
+		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_Scatter_1p_vs_3p_1ch_v2_06.wav"
+		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_Scatter_1p_vs_3p_1ch_v2_07.wav"
+		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_Scatter_1p_vs_3p_1ch_v2_08.wav"
+//		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_Scatter_1p_vs_3p_1ch_v2_09.wav"
+//		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_Scatter_1p_vs_3p_1ch_v2_10.wav"
+//		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_Scatter_1p_vs_3p_1ch_v2_11.wav"
+//		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_Scatter_1p_vs_3p_1ch_v2_13.wav"
+//		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_Scatter_1p_vs_3p_1ch_v2_14.wav"
+//		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_Scatter_1p_vs_3p_1ch_v2_15.wav"
+	}
+
+	"rndwave"
+
+	{
+
+		"limit"		"2"
+		"volume"	"3.4,3.7"
+		"pitch"		"90,105"
+		"delay"		"60"
+
+		"flags"				"spatialized"
+		"folddownDistance"	"100"
+
+		"wave"		"impacts/Energy/Imp_Bullet_Energy_TitanShield_SpangCluster_1p_vs_3p_2ch_v1_01.wav"
+		"wave"		"impacts/Energy/Imp_Bullet_Energy_TitanShield_SpangCluster_1p_vs_3p_2ch_v1_02.wav"
+		"wave"		"impacts/Energy/Imp_Bullet_Energy_TitanShield_SpangCluster_1p_vs_3p_2ch_v1_03.wav"
+		"wave"		"impacts/Energy/Imp_Bullet_Energy_TitanShield_SpangCluster_1p_vs_3p_2ch_v1_04.wav"
+		"wave"		"impacts/Energy/Imp_Bullet_Energy_TitanShield_SpangCluster_1p_vs_3p_2ch_v1_05.wav"
+		"wave"		"impacts/Energy/Imp_Bullet_Energy_TitanShield_SpangCluster_1p_vs_3p_2ch_v1_06.wav"
+
+	}
+}
+
+//////////////////////////////
+/// Dropship Respawn Flyin ///
+//////////////////////////////
+
+"Coop_Scr_MilitiaIntro_DropshipFlyin_1P"
+{
+	"mixgroup"			"SFX,SFX_Scripted"
+	"volumescale"			"1"
+	"pitch"				"100"
+	"flags"				"mobile,layered"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"volume"			"2.5"
+		"delay"			"200"
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "200"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"CoOp/Dropship/Goblin_Respawn_FlyIn_6ch_v2_01.wav"
+
+	}
+
+}
+
+
+"Coop_Scr_MilitiaIntro_DropshipFlyin_3P"
+{
+	"mixgroup"			"SFX,SFX_Scripted"
+	"volumescale"			"1"
+	"pitch"				"100"
+	"flags"				"mobile,layered"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"volume"			"6.5"
+
+		"startDistance"   "100"
+        "peakDistance"    "200"
+        "falloffStart"    "2000"
+        "falloffEnd"      "20000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"CoOp/Dropship/Goblin_Respawn_FlyIn_2ch_v1_01.wav"
+	}
+
+}
+
+
+"Coop_Scr_MilitiaIntro_DropshipFlyin_JetWash"
+{
+	"mixgroup"			"SFX,SFX_Scripted"
+	"volumescale"			"1"
+	"pitch"				"125,150"
+	"flags"				"mobile,layered"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"0"
+		"volume"			"4.5"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "100"
+        "falloffEnd"      "5000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"CoOp/Dropship/Goblin_Respawn_FlyIn_JetWashBurst_2ch_v1_01.wav"
+			"wave"				"CoOp/Dropship/Goblin_Respawn_FlyIn_JetWashBurst_2ch_v1_02.wav"
+			"wave"				"CoOp/Dropship/Goblin_Respawn_FlyIn_JetWashBurst_2ch_v1_03.wav"
+			"wave"				"CoOp/Dropship/Goblin_Respawn_FlyIn_JetWashBurst_2ch_v1_04.wav"
+
+	}
+
+}

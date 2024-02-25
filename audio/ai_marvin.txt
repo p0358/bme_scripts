@@ -1,0 +1,762 @@
+// NEW MARVIN SOUNDS
+
+"marvin_footstep"
+{
+	"mixgroup"		"ambient,SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Marvins"
+	"volumescale"		"1.4"
+	"flags"			"layered"
+	"rndwave"
+		{
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1500"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+	
+		"limit"			"2"	
+		"volume"		"2.5,2.8"
+		"pitch" 		"89,110"
+					
+		"wave"		"ai/marvin/New/Mvmt_Marvin_3p_FS_Walk_Default_1ch_v1_01.wav"
+		"wave"		"ai/marvin/New/Mvmt_Marvin_3p_FS_Walk_Default_1ch_v1_02.wav"
+		"wave"		"ai/marvin/New/Mvmt_Marvin_3p_FS_Walk_Default_1ch_v1_03.wav"
+		"wave"		"ai/marvin/New/Mvmt_Marvin_3p_FS_Walk_Default_1ch_v1_04.wav"
+		"wave"		"ai/marvin/New/Mvmt_Marvin_3p_FS_Walk_Default_1ch_v1_05.wav"
+
+		}
+	"rndwave"
+		{
+		"delay"		"100"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "900"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+	
+		"limit"			"2"	
+		"volume"		"4.0,4.3"
+		"pitch" 		"95,105"
+		
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_01.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_02.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_03.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_04.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_05.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_06.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_07.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_08.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_09.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_10.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_11.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_12.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_13.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_14.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_15.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_16.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_17.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_18.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_19.wav"
+	}
+}
+
+"marvin_servo_head"
+{
+	"mixgroup"		"ambient,SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Marvins"
+	"volumescale"		"1.2"
+	"flags"			"layered"
+	"rndwave"
+		{
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "900"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+	
+		"limit"			"2"	
+		"volume"		"2.3,2.6"
+		"pitch" 		"89,96"
+		
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Headpivot_Short_1ch_v2_01.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Headpivot_Short_1ch_v2_02.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Headpivot_Short_1ch_v2_03.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Headpivot_Short_1ch_v2_04.wav"
+
+		}
+}
+
+"Marvin.Servo.HeadPivot.VeryShort"
+{
+	"mixgroup"		"ambient,SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Marvins"
+	"volumescale"		"1.1"
+	"flags"			"layered"
+	"rndwave"
+		{
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "900"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+	
+		"limit"			"2"	
+		"volume"		"2.3,2.6"
+		"pitch" 		"89,96"
+		
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Headpivot_VeryShort_1ch_v2_01.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Headpivot_VeryShort_1ch_v2_02.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Headpivot_VeryShort_1ch_v2_03.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Headpivot_VeryShort_1ch_v2_04.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Headpivot_VeryShort_1ch_v2_05.wav"
+
+		}
+}
+
+"Marvin.Servo.Light.Short"
+{
+	"mixgroup"		"ambient,SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Marvins"
+	"volumescale"		"1.6"
+	"flags"				"layered"
+	"rndwave"
+		{
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "900"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+	
+		"limit"			"2"	
+		"volume"		"3.4,3.7"
+		"pitch" 		"90,105"
+		
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_01.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_02.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_03.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_04.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_05.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_06.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_07.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_08.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_09.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_10.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_11.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_12.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_13.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_14.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_15.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_16.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_17.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_18.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_19.wav"
+		}
+}
+
+"Marvin.Servo.Heavy.Short"
+{
+	"mixgroup"		"ambient,SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Marvins"
+	"volumescale"		"1.4"
+	"flags"				"layered"
+	"rndwave"
+		{
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "900"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+	
+		"limit"			"2"	
+		"volume"		"4.0,4.3"
+		"pitch" 		"90,105"
+		
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_01.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_02.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_03.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_04.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_05.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_06.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_07.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_08.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_09.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_10.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_11.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_12.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_13.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_14.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_15.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_16.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_17.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_18.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_19.wav"
+
+		}
+}
+
+"Marvin.Servo.Walk"
+{
+	"mixgroup"		"ambient,SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Marvins"
+	"volumescale"		"1.0"
+	"flags"			"layered"
+
+	"rndwave"
+	{
+		"delay"		"100"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "900"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+	
+		"limit"			"2"	
+		"volume"		"3.3,3.6"
+		"pitch" 		"90,105"
+		
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_01.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_02.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_03.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_04.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_05.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_06.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_07.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_08.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_09.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_10.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_11.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_12.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_13.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_14.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_15.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_16.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_17.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_18.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Heavy_Short_1ch_v3_19.wav"
+	}
+}
+
+"Marvin_Extinguish_Fire_Pt1"
+{
+	"mixgroup"		"ambient,SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Marvins"
+	"volumescale"		"5"
+	"flags"			"layered"
+	"rndwave"
+		{
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1200"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+	
+		"limit"			"2"	
+		"volume"		"4.0,4.3"
+				
+		"wave"		"ai/marvin/New/Marvin_Extinguish_Fire_Pt1_2ch_v1_01.wav"
+
+		}
+}
+
+"Marvin_Extinguish_Fire_Pt2"
+{
+	"mixgroup"		"ambient,SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Marvins"
+	"volumescale"		"5"
+	"flags"			"layered"
+	"rndwave"
+		{
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1200"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+	
+		"limit"			"2"	
+		"volume"		"4.0,4.3"
+				
+		"wave"		"ai/marvin/New/Marvin_Extinguish_Fire_Pt2_2ch_v1_01.wav"
+
+		}
+}
+
+"Marvin_Extinguish_Fire_Pt3"
+{
+	"mixgroup"		"ambient,SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Marvins"
+	"volumescale"		"5"
+	"flags"			"layered"
+	"rndwave"
+		{
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1200"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+	
+		"limit"			"2"	
+		"volume"		"4.0,4.3"
+				
+		"wave"		"ai/marvin/New/Marvin_Extinguish_Fire_Pt3_2ch_v1_01.wav"
+
+		}
+}
+
+"Marvin_Extinguish_Fire_Pt4"
+{
+	"mixgroup"		"ambient,SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Marvins"
+	"volumescale"		"5"
+	"flags"			"layered"
+	"rndwave"
+		{
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1200"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+	
+		"limit"			"2"	
+		"volume"		"4.0,4.3"
+				
+		"wave"		"ai/marvin/New/Marvin_Extinguish_Fire_Pt4_2ch_v1_01.wav"
+
+		}
+}
+
+"Marvin_Extinguish_Fire_Pt5"
+{
+	"mixgroup"		"ambient,SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Marvins"
+	"volumescale"		"5"
+	"flags"			"layered"
+	"rndwave"
+		{
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1200"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+	
+		"limit"			"2"	
+		"volume"		"4.0,4.3"
+				
+		"wave"		"ai/marvin/New/Marvin_Extinguish_Fire_Pt5_2ch_v1_01.wav"
+
+		}
+}
+
+"marvin_shortservo_a"
+{
+	"mixgroup"		"ambient,SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Marvins"
+	"volumescale"		"1.0"
+	"flags"				"layered"
+	"rndwave"
+		{
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "900"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+	
+		"limit"			"2"	
+		"volume"		"2.8,3.1"
+		"pitch" 		"90,105"
+		
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_01.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_02.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_03.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_04.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_05.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_06.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_07.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_08.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_09.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_10.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_11.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_12.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_13.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_14.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_15.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_16.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_17.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_18.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_19.wav"
+		}
+}
+
+"marvin_shortservo_b"
+{
+	"mixgroup"		"ambient,SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Marvins"
+	"volumescale"		"1.0"
+	"flags"				"layered"
+	"rndwave"
+		{
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "900"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+	
+		"limit"			"2"	
+		"volume"		"2.8,3.1"
+		"pitch" 		"90,105"
+		
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_01.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_02.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_03.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_04.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_05.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_06.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_07.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_08.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_09.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_10.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_11.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_12.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_13.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_14.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_15.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_16.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_17.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_18.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_19.wav"
+		}
+}
+
+"marvin_shortservo_c"
+{
+	"mixgroup"		"ambient,SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Marvins"
+	"volumescale"		"1.0"
+	"flags"				"layered"
+	
+	"rndwave"
+		{
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "900"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+	
+		"limit"			"2"	
+		"volume"		"2.8,3.1"
+		"pitch" 		"90,105"
+		
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_01.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_02.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_03.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_04.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_05.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_06.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_07.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_08.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_09.wav"
+		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_10.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_11.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_12.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_13.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_14.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_15.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_16.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_17.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_18.wav"
+//		"wave"		"ai/marvin/New/MvmtServo_Marvin_3p_Light_Short_1ch_v1_19.wav"
+		}
+}
+
+
+// OLD MARVIN SOUNDS
+
+"marvin_fall"
+{
+	"mixgroup"		"ambient,SFX,SFX_3P,SFX_3P_Bodyfalls,SFX_3P_Bodyfalls_Marvins"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_TALKING"
+	"pitch" 		"95,125"
+	"rndwave"
+		{
+		"wave"		"exo/exo_melee_hit_1.wav"
+		"wave"		"exo/exo_melee_hit_2.wav"
+		"wave"		"exo/exo_melee_hit_3.wav"
+		}
+}
+
+"marvin_smalldink"
+{
+	"mixgroup"		"ambient,SFX,SFX_3P,SFX_3P_Foley,SFX_3P_Foley_Marvins"
+	"volume"		"0.675"
+	"soundlevel"	"SNDLVL_TALKING"
+	"pitch" 		"95,125"
+	"rndwave"
+		{
+		"wave"		"ai/marvin/marvin_smalldink1.wav"
+		"wave"		"ai/marvin/marvin_smalldink2.wav"
+		"wave"		"ai/marvin/marvin_smalldink3.wav"
+		"wave"		"ai/marvin/marvin_smalldink4.wav"
+		"wave"		"ai/marvin/marvin_smalldink5.wav"
+		"wave"		"ai/marvin/marvin_smalldink6.wav"
+		}
+}
+
+// TEMP weld sound
+"marvin_weld"
+{
+	"mixgroup"		"ambient,SFX,SFX_3P,SFX_3P_Foley,SFX_3P_Foley_Marvins"
+	"volume"		"1"
+	"flags"			"layered"
+
+	"rndwave"
+	{
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+		"limit"				"7"
+
+		"volume"			"4"
+
+			"wave"		"ai/marvin/Marvin_Weld_Short_1ch_v1_01.wav"
+			"wave"		"ai/marvin/Marvin_Weld_Short_1ch_v1_02.wav"
+			"wave"		"ai/marvin/Marvin_Weld_Short_1ch_v1_03.wav"
+			"wave"		"ai/marvin/Marvin_Weld_Short_1ch_v1_04.wav"
+			"wave"		"ai/marvin/Marvin_Weld_Short_1ch_v1_05.wav"
+			"wave"		"ai/marvin/Marvin_Weld_Short_1ch_v1_06.wav"
+	}
+}
+
+"marvin_weld_short"
+{
+	"mixgroup"		"ambient,SFX,SFX_3P,SFX_3P_Foley,SFX_3P_Foley_Marvins"
+	"volume"		"1"
+	"flags"			"layered"
+
+	"rndwave"
+	{
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+		"limit"				"7"
+
+		"volume"			"4"
+
+			"wave"		"ai/marvin/Marvin_Weld_Short_1ch_v1_01.wav"
+			"wave"		"ai/marvin/Marvin_Weld_Short_1ch_v1_02.wav"
+			"wave"		"ai/marvin/Marvin_Weld_Short_1ch_v1_03.wav"
+			"wave"		"ai/marvin/Marvin_Weld_Short_1ch_v1_04.wav"
+			"wave"		"ai/marvin/Marvin_Weld_Short_1ch_v1_05.wav"
+			"wave"		"ai/marvin/Marvin_Weld_Short_1ch_v1_06.wav"
+	}
+}
+
+"marvin_weld_Medium"
+{
+	"mixgroup"		"ambient,SFX,SFX_3P,SFX_3P_Foley,SFX_3P_Foley_Marvins"
+	"volume"		"1"
+	"flags"			"layered"
+
+	"rndwave"
+	{
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+		"limit"				"7"
+
+		"volume"			"4"
+
+			"wave"		"ai/marvin/Marvin_Weld_Medium_1ch_v1_01.wav"
+			"wave"		"ai/marvin/Marvin_Weld_Medium_1ch_v1_02.wav"
+			"wave"		"ai/marvin/Marvin_Weld_Medium_1ch_v1_03.wav"
+			"wave"		"ai/marvin/Marvin_Weld_Medium_1ch_v1_04.wav"
+			"wave"		"ai/marvin/Marvin_Weld_Medium_1ch_v1_05.wav"
+			"wave"		"ai/marvin/Marvin_Weld_Medium_1ch_v1_06.wav"
+			"wave"		"ai/marvin/Marvin_Weld_Medium_1ch_v1_07.wav"
+	}
+}
+
+"marvin_weld_long"
+{
+	"mixgroup"		"ambient,SFX,SFX_3P,SFX_3P_Foley,SFX_3P_Foley_Marvins"
+	"volume"		"1"
+	"flags"			"layered"
+
+	"rndwave"
+	{
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+		"limit"				"7"
+
+		"volume"			"4"
+
+			"wave"		"ai/marvin/Marvin_Weld_Long_1ch_v1_01.wav"
+			"wave"		"ai/marvin/Marvin_Weld_Long_1ch_v1_02.wav"
+			"wave"		"ai/marvin/Marvin_Weld_Long_1ch_v1_03.wav"
+	}
+}
+
+"marvin_fire_extinguisher_loop"
+{
+	"mixgroup"		"ambient,SFX,SFX_3P,SFX_3P_Foley,SFX_3P_Foley_Marvins"
+	"volume"			"1.0"
+	"radius"			"512"
+	"pitch"				"95,105"
+	"flags"				"loop"
+
+	"wave"		"exo/damage/titan_damage_state_steam_loop.wav"
+}
+
+
+// Marvin emotes
+
+"marvin_angry"
+{
+	"mixgroup"		"voice,SFX,SFX_3P,SFX_3P_Foley,SFX_3P_Foley_Marvins"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_TALKING"
+	"pitch" 		"95,105"
+
+	"wave"		"null.wav"
+}
+
+"marvin_happy"
+{
+	"mixgroup"		"voice,SFX,SFX_3P,SFX_3P_Foley,SFX_3P_Foley_Marvins"
+	"volume"		"0.4"
+	"soundlevel"	"SNDLVL_90dB"
+	"pitch" 		"95,105"
+
+	"wave"		"null.wav"
+}
+
+"marvin_pain"
+{
+	"mixgroup"		"voice,SFX,SFX_3P,SFX_3P_Foley,SFX_3P_Foley_Marvins"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_TALKING"
+	"pitch" 		"95,105"
+
+	"wave"		"null.wav"
+}
+
+"marvin_sad"
+{
+	"mixgroup"		"voice,SFX,SFX_3P,SFX_3P_Foley,SFX_3P_Foley_Marvins"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_TALKING"
+	"pitch" 		"95,105"
+
+	"wave"		"null.wav"
+}
+
+"marvin_thinking"
+{
+	"mixgroup"		"voice,SFX,SFX_3P,SFX_3P_Foley,SFX_3P_Foley_Marvins"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_TALKING"
+	"pitch" 		"95,105"
+
+	"wave"		"null.wav"
+}
+
+
+"marvin_dissolving_scream"
+{
+	"mixgroup"		"voice,SFX,SFX_3P,SFX_3P_Foley,SFX_3P_Foley_Marvins"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch" 		"95,105"
+
+	"rndwave"
+	{
+	"wave"		"null.wav"
+	}
+}
+
+"marvin_doorhack"
+{
+	"mixgroup"		"voice,SFX,SFX_3P,SFX_3P_Foley,SFX_3P_Foley_Marvins"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	//"pitch" 		"95,105"
+
+	"wave"		"null.wav"
+
+}
+
+"leech_marvin1"
+{
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot,SFX_Player_Pilot_Foley"
+	"volume"		"1.0"
+
+	"soundlevel"	"SNDLVL_GUNFIRE"
+
+	"wave"		"null.wav"
+
+}
+"leech_marvin2"
+
+{
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot,SFX_Player_Pilot_Foley"
+	"volume"		"1.0"
+
+	"soundlevel"	"SNDLVL_GUNFIRE"
+
+	"wave"		"null.wav"
+
+}
+
+"leech_marvin3"
+
+{
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot,SFX_Player_Pilot_Foley"
+	"volume"		"1.0"
+
+	"soundlevel"	"SNDLVL_GUNFIRE"
+
+	"wave"		"null.wav"
+
+}
+
+"leech_marvin_interrupt"
+
+{
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot,SFX_Player_Pilot_Foley"
+	"volume"		"1.0"
+
+	"soundlevel"	"SNDLVL_GUNFIRE"
+
+	"wave"		"null.wav"
+
+}

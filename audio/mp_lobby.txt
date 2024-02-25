@@ -1,0 +1,473 @@
+///////////////////
+//		MUSIC
+///////////////////
+
+
+"Music_Lobby_IMC" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic,MUSIC_Cinematic_Fracture"
+	"volume"		"1.1"
+	"radius"		"0"
+	"flags"			"music"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"
+		}
+	"wave"			"music\Lobby\TF_Master_Lobby_IMC1_STMIX_100_BPM.wav"
+	"wave"			"music\Lobby\TF_Master_Lobby_IMC2_STMIX_110_BPM.wav"
+	"wave"			"music\Lobby\TF_Master_Lobby_IMC3_STMIX_85_BPM.wav"
+	}
+}
+
+
+"Music_Lobby_Militia" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic,MUSIC_Cinematic_Fracture"
+	"volume"		"1.1"
+	"radius"		"0"
+	"flags"			"music"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"
+		}
+	"wave"			"music\Lobby\TF_Master_Lobby_MCOR1_STMIX_90_BPM.wav"
+	"wave"			"music\Lobby\TF_Master_Lobby_MCOR2_STMIX_84_BPM.wav"
+	"wave"			"music\Lobby\TF_Master_Lobby_MCOR3_STMIX_106_BPM.wav"
+	}
+}
+
+"Music_Lobby_IMC_1" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic,MUSIC_Cinematic_Fracture"
+	"volume"		"1.1"
+	"radius"		"0"
+	"flags"			"music"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"
+		}
+	"wave"			"music\Lobby\TF_Master_Lobby_IMC1_STMIX_100_BPM.wav"
+	}
+}
+
+"Music_Lobby_IMC_2" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic,MUSIC_Cinematic_Fracture"
+	"volume"		"1.1"
+	"radius"		"0"
+	"flags"			"music"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"
+		}
+	"wave"			"music\Lobby\TF_Master_Lobby_IMC2_STMIX_110_BPM.wav"
+	}
+}
+
+"Music_Lobby_IMC_3" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic,MUSIC_Cinematic_Fracture"
+	"volume"		"1.1"
+	"radius"		"0"
+	"flags"			"music"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"
+		}
+	"wave"			"music\Lobby\TF_Master_Lobby_IMC3_STMIX_85_BPM.wav"
+	}
+}
+
+"Music_Lobby_Militia_1" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic,MUSIC_Cinematic_Fracture"
+	"volume"		"1.1"
+	"radius"		"0"
+	"flags"			"music"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"
+		}
+	"wave"			"music\Lobby\TF_Master_Lobby_MCOR1_STMIX_90_BPM.wav"
+	}
+}
+
+
+"Music_Lobby_Militia_2" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic,MUSIC_Cinematic_Fracture"
+	"volume"		"1.1"
+	"radius"		"0"
+	"flags"			"music"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"
+		}
+	"wave"			"music\Lobby\TF_Master_Lobby_MCOR2_STMIX_84_BPM.wav"
+	}
+}
+
+
+"Music_Lobby_Militia_3" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic,MUSIC_Cinematic_Fracture"
+	"volume"		"1.1"
+	"radius"		"0"
+	"flags"			"music"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"
+		}
+	"wave"			"music\Lobby\TF_Master_Lobby_MCOR3_STMIX_106_BPM.wav"
+	}
+}
+
+"Music_Lobby_Militia_O2" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic,MUSIC_Cinematic_Fracture"
+	"volume"		"1.1"
+	"radius"		"0"
+	"flags"			"music"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"
+		}
+	"wave"			"music\Lobby\o2_lobby_mofomix.wav"
+	}
+}
+
+"Music_Lobby_IMC_O2" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic,MUSIC_Cinematic_Fracture"
+	"volume"		"1.1"
+	"radius"		"0"
+	"flags"			"music"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"
+		}
+	"wave"			"music\Lobby\o2_lobby_IMC_mofomix.wav"
+	}
+}
+
+"Music_Lobby_IMC_relic" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic,MUSIC_Cinematic_Fracture"
+	"volume"		"1.1"
+	"radius"		"0"
+	"flags"			"music"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"
+		}
+	"wave"			"music\Lobby\relic_lobby_IMC_mofomix.wav"
+	}
+}
+
+"Music_Lobby_IMC_corporate" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic,MUSIC_Cinematic_Fracture"
+	"volume"		"1.1"
+	"radius"		"0"
+	"flags"			"music"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"
+		}
+	"wave"			"music\Lobby\corporate_lobby_IMC_mofomix.wav"
+	}
+}
+
+"Music_Lobby_MCOR_boneyard" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic,MUSIC_Cinematic_Fracture"
+	"volume"		"1.1"
+	"radius"		"0"
+	"flags"			"music"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"
+		}
+	"wave"			"music\Action\Militia\TF_Master_LOW_MedTitanAction_MCOR2_STMIX_98_BPM.wav"
+	}
+}
+
+
+//////  CAMPAIGN ENDING MUSIC  /////////////////////////////
+
+"Music_CampaignEnd_MCOR" {
+
+	"mixgroup"		"MUSIC_ClassicMP,MUSIC_ClassicMP_Intro,MUSIC_ClassicMP_Intro_Militia"
+	"volume"		"1.3"
+	"radius"		"0"
+	"flags"			"music"
+		"ducks"				"Music,1a:0,4000,0,0"	
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}	
+	"wave"			"music\Campaign\Endings\Music_CampaignEnd_Militia_2ch_v1_01.wav"
+	}
+}
+
+"Music_CampaignEnd_IMC" {
+
+	"mixgroup"		"MUSIC_ClassicMP,MUSIC_ClassicMP_Intro,MUSIC_ClassicMP_Intro_Militia"
+	"volume"		"1.3"
+	"radius"		"0"
+	"flags"			"music"
+		"ducks"				"Music,1a:0,4000,0,0"	
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}	
+	"wave"			"music\Campaign\Endings\Music_CampaignEnd_IMC_2ch_v1_01.wav"
+	}
+}
+
+
+////////////////////////////////
+// LOBBY SFX /////////////////////
+///////////////////////////////
+
+"Lobby_Boneyard_MicBump1"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"volume"			"2"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"campaign\Lobby\Lobby_Boneyard_MicBump1_2ch_v1_01.wav"
+	}
+}
+
+"Lobby_Outpost_MicBump1"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"volume"			"2"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"campaign\Lobby\Lobby_Outpost_MicBump1_2ch_v1_01.wav"
+	}
+}
+
+"Lobby_Outpost_MicBump2"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"volume"			"2"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"campaign\Lobby\Lobby_Outpost_MicBump2_2ch_v1_01.wav"
+	}
+}
+
+"Lobby_GenericMilitia_MicBump_Small_1"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"volume"			"2"
+	"radius"			"0"
+	"pitch"				"100"
+	"flags"				"noduck"
+
+	"rndwave"
+	{
+		"wave"				"campaign\Lobby\Lobby_GenericMilitia_MicBump_Small_2ch_v1_01.wav"
+	}
+}
+
+"Lobby_GenericMilitia_MicBump_Small_2"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"volume"			"2"
+	"radius"			"0"
+	"pitch"				"100"
+	"flags"				"noduck"
+
+	"rndwave"
+	{
+		"wave"				"campaign\Lobby\Lobby_GenericMilitia_MicBump_Small_2ch_v1_02.wav"
+	}
+}
+
+"Lobby_GenericMilitia_MicBump_Small_3"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"volume"			"2"
+	"radius"			"0"
+	"pitch"				"100"
+	"flags"				"noduck"
+
+	"rndwave"
+	{
+		"wave"				"campaign\Lobby\Lobby_GenericMilitia_MicBump_Small_2ch_v1_03.wav"
+	}
+}
+
+"Lobby_GenericMilitia_MicBump_Med_1"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"volume"			"2"
+	"radius"			"0"
+	"pitch"				"100"
+	"flags"				"noduck"
+
+	"rndwave"
+	{
+		"wave"				"campaign\Lobby\Lobby_GenericMilitia_MicBump_Med_2ch_v1_01.wav"
+	}
+}
+
+"Lobby_GenericMilitia_MicBump_Med_2"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"volume"			"2"
+	"radius"			"0"
+	"pitch"				"100"
+	"flags"				"noduck"
+
+	"rndwave"
+	{
+		"wave"				"campaign\Lobby\Lobby_GenericMilitia_MicBump_Med_2ch_v1_02.wav"
+	}
+}
+
+"Lobby_GenericMilitia_MicBump_Big_1"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"volume"			"4"
+	"radius"			"0"
+	"pitch"				"100"
+	"flags"				"noduck"
+
+	"rndwave"
+	{
+		"wave"				"campaign\Lobby\Lobby_GenericMilitia_MicBump_Big_2ch_v1_01.wav"
+	}
+}
+
+"Lobby_GenericMilitia_MicBump_Big_2"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"volume"			"4"
+	"radius"			"0"
+	"pitch"				"100"
+	"flags"				"noduck"
+
+	"rndwave"
+	{
+		"wave"				"campaign\Lobby\Lobby_GenericMilitia_MicBump_Big_2ch_v1_02.wav"
+	}
+}
+
+
+"Lobby_GenericMilitia_FeedSwitch"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"volume"			"4"
+	"radius"			"0"
+	"pitch"				"100"
+	"flags"				"noduck"
+
+	"rndwave"
+	{
+		"wave"				"campaign\Lobby\Lobby_GenericMilitia_FeedSwitch_2ch_v1_01.wav"
+	}
+}

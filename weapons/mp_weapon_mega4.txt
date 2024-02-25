@@ -1,0 +1,163 @@
+WeaponData
+{
+	// General
+	"printname"   									"#WPN_MEGA_TURRET"
+	"description" 									"#WPN_MEGA_TURRET_DESC"
+	"weaponClass" 									"other"
+	"fire_mode"   									"auto"
+	"server_vscript"  								"weapons/mp_weapon_mega4"
+	"client_vscript"  								"weapons/mp_weapon_mega4"
+	"projectile_vscript"							"weapons/mp_weapon_mega4"
+	"projectile_vortex_vscript"						"weapons/mp_weapon_mega4"
+	"pickup_hold_prompt"  							"Hold [USE] [WEAPONNAME]"
+	"pickup_press_prompt" 							"[USE] [WEAPONNAME]"
+
+	// Menu Stats
+	"statsRecord"									"false"
+
+	// Models
+	"viewmodel"   									"models/weapons/empty_handed/atpov_emptyhand.mdl"
+	"playermodel" 									"models/weapons/empty_handed/atpov_emptyhand.mdl"
+	"projectilemodel" 								"models/weapons/bullets/projectile_rocket_large.mdl"
+	"anim_prefix" 									"python"
+
+	// Effects
+	"impact_effect_table" 							"exp_rocket_shoulder"
+	"projectile_trail_effect_0" 					"Rocket_Smoke_SMALL_Titan_2"
+	"projectile_trail_attachment" 					"exhaust"
+	"vortex_absorb_effect"							"wpn_vortex_projectile_rocket_FP"
+	"vortex_absorb_effect_third_person"				"wpn_vortex_projectile_rocket"
+	"vortex_absorb_sound"							"Vortex_Shield_AbsorbRocket"
+	"adjust_to_gun_barrel"							"0"
+	
+	// Damage - When Used by Players
+	"damage_type" 									"burn"
+	"damage_near_distance"							"2000"
+	"damage_far_distance" 							"2400"
+	"damage_near_value"   							"100"
+	"damage_far_value"								"100"
+	"damage_near_value_titanarmor"					"600"
+	"damage_far_value_titanarmor" 					"600"
+	"explosion_damage"								"100"
+	"explosion_damage_heavy_armor"					"600"
+
+	// Damage - When Used by NPCs
+	"npc_damage_near_distance"						"1000"
+	"npc_damage_far_distance" 						"1500"
+	"npc_damage_near_value"   						"100"
+	"npc_damage_far_value"							"100"
+	"npc_damage_near_value_titanarmor"				"600"
+	"npc_damage_far_value_titanarmor" 				"600"
+	"npc_explosion_damage"							"100"
+	"npc_explosion_damage_heavy_armor"				"600"
+
+	"explosion_inner_radius"						"100"
+	"explosionradius" 								"200"
+	"impulse_force"   								"1"
+
+	// Ammo
+	"ammo_stockpile_max"							"350"
+	"ammo_clip_size"   								"-1"
+	"ammo_default_total"							"350"
+
+	// Behavior
+	"fire_rate"   									"8"
+	"rest_time_between_bursts_min"					"2"
+	"rest_time_between_bursts_max"					"4"
+	"zoom_time_in"									"0.1"
+	"zoom_time_out"   								"0.1"
+	"zoom_fov"										"40"
+	"reload_time" 									"2.35"
+	"vortex_refire_behavior"  						"rocket"
+	"allow_empty_fire"								"0"
+	"reload_enabled"  								"1"
+	"allow_empty_click"   							"1"
+	"empty_reload_only"   							"0"
+	"trigger_snipercam"   							"0"
+	"allow_headshots" 								"0"
+
+	// Spread
+	"spread_stand_hip"  							"0"
+	"spread_stand_ads"   							"0"
+	"spread_npc"  									"1"
+
+
+	// View Kick
+	"viewkick_spring" 								"pistol"
+
+
+
+
+
+
+	// Bob
+	"bob_cycle_time"  								"0"
+	"bob_vert_dist"   								"0.125"
+	"bob_horz_dist"   								"0.25"
+	"bob_max_speed"   								"320.0"
+
+	// View Drift
+
+	// Rumble
+	"rumble"  										"6"
+
+	// Sway
+
+	// NPC
+	"proficiency_poor_spreadscale"					"6.0"
+	"proficiency_poor_bias"   						"0.9"
+	"proficiency_average_spreadscale" 				"4.0"
+	"proficiency_average_bias"						"0.5"
+	"proficiency_good_spreadscale"					"2.0"
+	"proficiency_good_bias"   						"0.5"
+	"proficiency_very_good_spreadscale"   			"1.5"
+	"proficiency_very_good_bias"  					"0.5"
+	"proficiency_perfect_spreadscale" 				"1.0"
+	"proficiency_perfect_bias"						"0.5"
+
+	"npc_min_range"   								"300"
+	"npc_max_range"   								"3000"
+	"npc_min_range_secondary" 						"0"
+	"npc_max_range_secondary" 						"2500"
+	"npc_min_burst"   								"12"
+	"npc_max_burst"   								"20"
+
+	// WeaponED Unhandled Key/Values and custom script Key/Values
+	"sway_turn_angle_factor"  						".3"
+	"sway_turn_origin_factor" 						"0.15"
+	"sway_turn_angle_factor_zoomed"   				"0.06"
+	"sway_turn_origin_factor_zoomed"  				"0.06"
+	"sway_move_angle_factor"  						"-.3"
+	"sway_move_origin_factor" 						"-.15"
+	"sway_move_angle_factor_zoomed"   				"-0.02"
+	"sway_move_origin_factor_zoomed"  				"-0.02"
+	"sway_gain"   									"15.0"
+
+	// Crosshair
+
+
+	TextureData
+	{
+		"crosshair"
+		{
+		}
+		"crosshair_zoom"
+		{
+		}
+		"autoaim"
+		{
+		}
+	}
+	Mods
+	{
+		O2Bridge
+		{
+			//just sound overrides in the nut file
+		}
+		O2Beach
+		{
+			//just sound overrides in the nut file
+		}
+	}
+}
+

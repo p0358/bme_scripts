@@ -1,0 +1,1444 @@
+
+"Dropship_Explodes" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"4"
+	"radius"		"10000"
+	"falloff"		"0"
+
+	"rndwave"
+	{
+	"pitch"			"75,90"
+	"maxrange"		"5000"
+	"flags"			"spatialized"
+	"wave"			"campaign/angelcity/Explo_Vehicle_Generic_2ch_v1_01.wav"
+	"wave"			"campaign/angelcity/Explo_Vehicle_Generic_2ch_v1_02.wav"
+	"wave"			"campaign/angelcity/Explo_Vehicle_Generic_2ch_v1_03.wav"
+	"wave"			"campaign/angelcity/Explo_Vehicle_Generic_2ch_v1_04.wav"
+	}
+
+	"rndwave"
+	{
+	"pitch"			"90,120"
+	"maxrange"		"10000"
+	"flags"			"spatialized"
+	"wave"			"explosions\Satchel\Explo_Satchel_Dist_2ch_v2_01.wav"
+	"wave"			"explosions\Satchel\Explo_Satchel_Dist_2ch_v2_02.wav"
+	"wave"			"explosions\Satchel\Explo_Satchel_Dist_2ch_v2_03.wav"
+	}
+}
+
+
+
+////////////
+// GOBLIN DROPSHIP
+////////////
+
+
+"Goblin_IMC_TroopDeploy_Flyin"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"radius"		"25000"
+	"volume"		"4"
+	"falloff"		"2"
+
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"folddownDistance"	"1000"
+		"wave"			"vehicles\SmallShip\Dropship_IMC_TroopDropoff_v1_01.wav"
+		"wave"			"vehicles\SmallShip\Dropship_IMC_TroopDropoff_v1_02.wav"
+		"wave"			"vehicles\SmallShip\Dropship_IMC_TroopDropoff_v1_03.wav"
+	}
+}
+
+"Goblin_Dropship_Explode"
+
+{
+	"mixgroup"		"SFX,SFX_AMB"
+	"volume"		"1.0"
+	"radius"		"5000"
+	"pitch"			"95,105"
+	"rndwave"
+	{
+		"wave"		"vehicles/goblin_dropship_explode.wav"
+
+
+	}
+}
+
+
+"Goblin_dropship_refuel_engine_approach" {
+
+	"mixgroup"		"scripted,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"volume"		"3"
+	"pitch"			"90,108"
+	"radius"		"10000"
+
+	"rndwave"
+	{
+	"wave"			"vehicles/Goblin/Goblin_RefuelApproachHover_a_LR_v1.wav"
+	"wave"			"vehicles/Goblin/Goblin_RefuelApproachHover_b_LR_v1.wav"
+	"wave"			"vehicles/Goblin/Goblin_RefuelApproachHover_c_LR_v1.wav"
+	}
+
+}
+
+"Goblin_dropship_refuel_engine_depart" {
+
+	"mixgroup"		"scripted,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"volume"		"3"
+	"pitch"			"90,108"
+	"radius"		"10000"
+
+//	"ducks"			"all,0.2"
+
+	"rndwave"
+	{
+	"wave"			"vehicles/Goblin/Goblin_RefuelRetreat_a_LR_v1.wav"
+	"wave"			"vehicles/Goblin/Goblin_RefuelRetreat_b_LR_v1.wav"
+	"wave"			"vehicles/Goblin/Goblin_RefuelRetreat_c_LR_v1.wav"
+	}
+
+}
+
+"Goblin_IMC_Evac_FlyIn" {
+
+	"mixgroup"		"scripted,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"volume"		"9"
+	"radius"		"100000"
+
+	"rndwave"
+	{
+	"flags"				"spatialized"
+	"panWidth"			"90"
+	"folddownDistance"	"1000"
+
+	"wave"			"vehicles/Goblin/Goblin_Evac_FlyIn_2ch_v2_01.wav"
+	"wave"			"vehicles/Goblin/Goblin_Evac_FlyIn_2ch_v2_02.wav"
+	"wave"			"vehicles/Goblin/Goblin_Evac_FlyIn_2ch_v2_03.wav"
+	}
+
+}
+
+
+"Goblin_IMC_Evac_Hover" {
+
+	"mixgroup"		"scripted,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"volume"		"9"
+	"radius"		"100000"
+	"flags"			"mobile"
+	"rndwave"
+	{
+
+	"maxrange"		"1000"
+	"wave"			"vehicles/Goblin/Goblin_Evac_HoverInt_6ch_v2_01.wav"
+	"wave"			"vehicles/Goblin/Goblin_Evac_HoverInt_6ch_v2_02.wav"
+	"wave"			"vehicles/Goblin/Goblin_Evac_HoverInt_6ch_v2_03.wav"
+	}
+
+	"rndwave"
+	{
+
+	"minrange"		"200"
+	"maxrange"		"50000"
+
+	"flags"				"spatialized"
+	"panWidth"			"90"
+	"folddownDistance"	"500"
+
+	"wave"			"vehicles/Goblin/Goblin_Evac_HoverExt_2ch_v1_01.wav"
+	"wave"			"vehicles/Goblin/Goblin_Evac_HoverExt_2ch_v1_02.wav"
+	"wave"			"vehicles/Goblin/Goblin_Evac_HoverExt_2ch_v1_03.wav"
+	}
+
+}
+
+"Goblin_IMC_Evac_FlyOut" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"volume"		"9"
+	"radius"		"100000"
+	"flags"			"mobile"
+
+	"rndwave"
+	{
+	"ducks"			"SFX_Scripted_Boneyard,1.0a:1000,5000"
+	"ducks"			"SFX_Weapons_AI,1.0a:1000,5000"
+	"ducks"			"SFX_Impacts_Explos,1.0a:1000,5000"
+	"ducks"			"SFX_AMB_Beds,1.0a:1000,5000"
+	"ducks"			"SFX_AMB_Emitters,1.0a:1000,5000"
+
+	"minrange"		"0"
+	"maxrange"		"500"
+
+	"wave"			"vehicles/Goblin/Goblin_Evac_WarpFlyOut_6ch_v2_01.wav"
+	"wave"			"vehicles/Goblin/Goblin_Evac_WarpFlyOut_6ch_v2_02.wav"
+	"wave"			"vehicles/Goblin/Goblin_Evac_WarpFlyOut_6ch_v2_03.wav"
+	}
+
+	"rndwave"
+	{
+
+	"minrange"		"250"
+	"maxrange"		"30000"
+
+	"flags"				"spatialized"
+	"panWidth"			"90"
+	"folddownDistance"	"1000"
+
+	"wave"			"vehicles/Goblin/Goblin_Evac_WarpFlyOut_2ch_v1_01.wav"
+	"wave"			"vehicles/Goblin/Goblin_Evac_WarpFlyOut_2ch_v1_02.wav"
+	"wave"			"vehicles/Goblin/Goblin_Evac_WarpFlyOut_2ch_v1_03.wav"
+	}
+}
+
+"Goblin_IMC_ClassicMP_FlyIn" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"volume"		"6.5"
+	"radius"		"5000"
+	"falloff"		"8"
+	"flags"			"mobile"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"vehicles/Goblin/Goblin_ClassicMPIntro_FlyIn_6ch_v1_01.wav"
+	}
+}
+
+"Goblin_IMC_ClassicMP_FlyAway" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"volume"		"2.5"
+	"radius"		"10000"
+	"falloff"		"8"
+
+	"rndwave"
+	{
+	"delay"			"11000"
+	"flags"				"spatialized"
+	"folddownDistance"	"400"
+	"wave"			"vehicles/Goblin/Goblin_ClassicMPIntro_FlyAway_2ch_v1_01.wav"
+	"wave"			"vehicles/Goblin/Goblin_ClassicMPIntro_FlyAway_2ch_v1_02.wav"
+	"wave"			"vehicles/Goblin/Goblin_ClassicMPIntro_FlyAway_2ch_v1_03.wav"
+	}
+}
+
+
+
+////////////
+// CROW DROPSHIP
+////////////
+
+"Crow_dropship_refuel_engine_approach" {
+
+	"mixgroup"		"scripted,SFX,SFX_Vehicles,SFX_Vehicles_Crows"
+	"volume"		"3"
+	"pitch"			"90,108"
+	"radius"		"20000"
+	"occlusionDuckScale"	"2"
+
+	"rndwave"
+	{
+	"wave"			"vehicles/SmallShip/SmallShip_RefuelApproachHover_M_01.wav"
+	"wave"			"vehicles/SmallShip/SmallShip_RefuelApproachHover_M_02.wav"
+	"wave"			"vehicles/SmallShip/SmallShip_RefuelApproachHover_M_03.wav"
+	}
+
+}
+
+"Crow_dropship_refuel_engine_depart" {
+
+	"mixgroup"		"scripted,SFX,SFX_Vehicles,SFX_Vehicles_Crows"
+	"volume"		"3"
+	"pitch"			"90,108"
+	"radius"		"20000"
+	"occlusionDuckScale"	"2"
+
+	"rndwave"
+	{
+	"wave"			"vehicles/SmallShip/SmallShip_RefuelRetreat_M_01.wav"
+	"wave"			"vehicles/SmallShip/SmallShip_RefuelRetreat_M_02.wav"
+	"wave"			"vehicles/SmallShip/SmallShip_RefuelRetreat_M_03.wav"
+	}
+
+}
+
+"Crow_dropship_refuel_engine_idleloop" {
+
+	"mixgroup"		"scripted,SFX,SFX_Vehicles,SFX_Vehicles_Crows"
+	"volume"		"0.85"
+	"radius"		"8000"
+
+	"wave"			"vehicles/SmallShip/SmallShip_RefuelHoverMod_M_01.wav"
+
+}
+
+
+
+"Crow_MCOR_Evac_FlyIn" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted"
+	"volume"		"4"
+	"radius"		"100000"
+	"falloff"		"8"
+
+	"rndwave"
+	{
+	"wave"			"vehicles\SmallShip\SmallShip_RefuelApproach_ST_03.wav"
+	}
+	"rndwave"
+	{
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_01.wav"
+	}
+}
+
+"Crow_MCOR_Evac_Hover" {
+
+	"mixgroup"		"scripted,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"volume"		"6"
+	"radius"		"100000"
+	"flags"			"mobile"
+
+	"rndwave"
+	{
+
+	"maxrange"		"1000"
+	"wave"			"vehicles/Crow/Crow_Evac_HoverInt_6ch_v2_01.wav"
+	}
+
+	"rndwave"
+	{
+
+	"minrange"		"200"
+	"maxrange"		"50000"
+
+	"flags"				"spatialized"
+	"panWidth"			"90"
+	"folddownDistance"	"500"
+
+	"wave"			"vehicles/Crow/Crow_Evac_HoverExt_2ch_v1_01.wav"
+	"wave"			"vehicles/Crow/Crow_Evac_HoverExt_2ch_v1_02.wav"
+	"wave"			"vehicles/Crow/Crow_Evac_HoverExt_2ch_v1_03.wav"
+	}
+
+}
+
+"Crow_MCOR_Evac_FlyOut" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"volume"		"6"
+	"radius"		"100000"
+	"flags"			"mobile"
+
+	"rndwave"
+	{
+	"ducks"			"SFX_Scripted_Boneyard,1.0a:1000,5000"
+	"ducks"			"SFX_Weapons_AI,1.0a:1000,5000"
+	"ducks"			"SFX_Impacts_Explos,1.0a:1000,5000"
+	"ducks"			"SFX_AMB_Beds,1.0a:1000,5000"
+	"ducks"			"SFX_AMB_Emitters,1.0a:1000,5000"
+
+	"minrange"		"0"
+	"maxrange"		"500"
+
+	"wave"			"vehicles/Crow/Crow_Evac_WarpFlyOut_6ch_v2_01.wav"
+	"wave"			"vehicles/Crow/Crow_Evac_WarpFlyOut_6ch_v2_02.wav"
+	"wave"			"vehicles/Crow/Crow_Evac_WarpFlyOut_6ch_v2_03.wav"
+	}
+
+	"rndwave"
+	{
+
+	"minrange"		"250"
+	"maxrange"		"30000"
+
+	"wave"			"vehicles/SmallShip/SmallShip_RefuelRetreat_M_01.wav"
+	"wave"			"vehicles/SmallShip/SmallShip_RefuelRetreat_M_02.wav"
+	"wave"			"vehicles/SmallShip/SmallShip_RefuelRetreat_M_03.wav"
+	}
+}
+
+
+"Dropship_TroopDeploy_Flyin"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"radius"		"25000"
+	"volume"		"2"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+		"wave"			"vehicles\Crow\Dropship_Militia_TroopDropoff_v1_01.wav"
+		"wave"			"vehicles\Crow\Dropship_Militia_TroopDropoff_v1_02.wav"
+		"wave"			"vehicles\Crow\Dropship_Militia_TroopDropoff_v1_03.wav"
+		"wave"			"vehicles\Crow\Dropship_Militia_TroopDropoff_v1_04.wav"
+	}
+}
+
+
+"Crow_MCOR_TroopDeploy_Flyin"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"radius"		"25000"
+	"volume"		"1"
+
+	"rndwave"
+	{
+
+		"wave"			"vehicles\SmallShip\Dropship_TroopDrop_M_01.wav"
+	}
+}
+
+
+"dropship_thruster_burst" {
+
+	"mixgroup"		"scripted,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"volume"		"0.80"
+	"radius"		"0"
+	"ducks"			"all,0.15"
+
+	"rndwave"
+	{
+	"wave"		"scripted/dropship_thruster_burst1.wav"
+	"wave"		"scripted/dropship_thruster_burst2.wav"
+	"wave"		"scripted/dropship_thruster_burst3.wav"
+	"wave"		"scripted/dropship_thruster_burst4.wav"
+	}
+}
+
+
+"Crow_MCOR_ClassicMP_FlyIn" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Vehicles,SFX_Vehicles_Crows"
+	"volume"		"2.5"
+	"radius"		"5000"
+	"falloff"		"8"
+	"flags"			"mobile"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"vehicles/Crow/Crow_ClassicMPIntro_FlyIn_6ch_v1_01.wav"
+	}
+}
+
+"Crow_MCOR_ClassicMP_FlyAway" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Vehicles,SFX_Vehicles_Crows"
+	"volume"		"2.5"
+	"radius"		"10000"
+	"falloff"		"8"
+
+
+
+	"rndwave"
+	{
+	"delay"			"11000"
+	"flags"				"spatialized"
+	"foldDownDistance"	"400"
+	"wave"			"vehicles/Crow/Crow_ClassicMPIntro_FlyAway_2ch_v1_01.wav"
+	"wave"			"vehicles/Crow/Crow_ClassicMPIntro_FlyAway_2ch_v1_02.wav"
+	"wave"			"vehicles/Crow/Crow_ClassicMPIntro_FlyAway_2ch_v1_03.wav"
+	}
+}
+
+
+
+////////////
+// Dropship
+////////////
+
+
+
+"dropship_zipline_impact" {
+
+	"mixgroup"		"scripted,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"volume"		"2"
+	"radius"		"2200"
+
+	"rndwave"
+	{
+	"limit"			"4"
+	"wave"			"player/zipline/dropship_zipline_impacts_v2_1.wav"
+	"wave"			"player/zipline/dropship_zipline_impacts_v2_2.wav"
+	"wave"			"player/zipline/dropship_zipline_impacts_v2_3.wav"
+	"wave"			"player/zipline/dropship_zipline_impacts_v2_4.wav"
+	"wave"			"player/zipline/dropship_zipline_impacts_v2_5.wav"
+	"wave"			"player/zipline/dropship_zipline_impacts_v2_6.wav"
+	}
+}
+// ******************************************************************************************
+// ***************
+// ***************		NOTE FROM MOHAMMAD: the more consistent you can make the timing of the warp sounds, the better they'll play with script
+// ***************
+// ******************************************************************************************
+
+"dropship_warpin" {
+
+	"mixgroup"		"scripted,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"volume"		"6"
+	"pitch"			"97,105"
+	"radius"		"50000"
+	"occlusionDuckScale"	"2"
+
+
+	"rndwave"
+	{
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_01.wav"
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_02.wav"
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_03.wav"
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_04.wav"
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_05.wav"
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_06.wav"
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_07.wav"
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_08.wav"
+	}
+}
+
+// ******************************************************************************************
+// ***************
+// ***************		NOTE FROM MOHAMMAD: the more consistent you can make the timing of the warp sounds, the better they'll play with script
+// ***************
+// ******************************************************************************************
+
+"dropship_warpout" {
+
+	"mixgroup"		"scripted,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"volume"		"6"
+	"pitch"			"97,105"
+	"radius"		"50000"
+	"occlusionDuckScale"	"2"
+
+	"rndwave"
+	{
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_01.wav"
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_02.wav"
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_03.wav"
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_04.wav"
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_05.wav"
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_06.wav"
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_07.wav"
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_08.wav"
+	}
+}
+
+
+"dropship_refuel_arm_in" {
+
+	"mixgroup"		"scripted,SFX,SFX_AMB"
+	"volume"		"0.85"
+	"radius"		"1750"
+
+
+	"wave"			"scripted/dropship_refuel_arm_in.wav"
+
+}
+"dropship_refuel_arm_out" {
+
+	"mixgroup"		"scripted,SFX,SFX_AMB"
+	"volume"		"0.85"
+	"radius"		"1750"
+
+	"wave"			"scripted/dropship_refuel_arm_out.wav"
+
+}
+"dropship_refuel_engine_approach" {
+
+	"mixgroup"		"scripted,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"volume"		"3"
+	"pitch"			"90,108"
+	"radius"		"10000"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+	{
+	"wave"			"vehicles/SmallShip/SmallShip_RefuelApproachHover_M_01.wav"
+	"wave"			"vehicles/SmallShip/SmallShip_RefuelApproachHover_M_02.wav"
+	"wave"			"vehicles/SmallShip/SmallShip_RefuelApproachHover_M_03.wav"
+	}
+
+}
+
+"dropship_refuel_engine_depart" {
+
+	"mixgroup"		"scripted,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"volume"		"3"
+	"pitch"			"90,108"
+	"radius"		"10000"
+	"occlusionDuckScale"	"1.5"
+
+//	"ducks"			"all,0.2"
+
+	"rndwave"
+	{
+	"wave"			"vehicles/SmallShip/SmallShip_RefuelRetreat_M_01.wav"
+	"wave"			"vehicles/SmallShip/SmallShip_RefuelRetreat_M_02.wav"
+	"wave"			"vehicles/SmallShip/SmallShip_RefuelRetreat_M_03.wav"
+	}
+
+}
+
+"dropship_refuel_engine_idleloop" {
+
+	"mixgroup"		"scripted,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"volume"		"0.85"
+	"radius"		"8000"
+
+	"wave"			"vehicles/SmallShip/SmallShip_RefuelHoverMod_M_01.wav"
+
+}
+"dropship_refuel_fuelloop" {
+
+	"mixgroup"		"scripted,SFX,SFX_AMB"
+	"volume"		"0.85"
+	"radius"		"1000"
+	"flags"			"loop"
+
+	"wave"			"scripted/dropship_refuel_fuelloop.wav"
+
+}
+
+"dropship_zipline_door_open" {
+
+	"mixgroup"		"scripted,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"volume"		"0.85"
+	"radius"		"1750"
+
+	"wave"			"scripted/dropship_zipline_door_open.wav"
+
+}
+"dropship_zipline_door_close" {
+
+	"mixgroup"		"scripted,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"volume"		"0.85"
+	"radius"		"1750"
+
+	"wave"			"scripted/dropship_zipline_door_close.wav"
+
+}
+"dropship_zipline_engine_sequence" {
+
+	"mixgroup"		"scripted,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"volume"		"0.85"
+	"radius"		"1750"
+
+	"wave"			"scripted/dropship_zipline_engine_sequence.wav"
+
+}
+"dropship_zipline_zipfire" {
+
+	"mixgroup"		"scripted,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"volume"		"0.85"
+	"radius"		"2250"
+
+	"rndwave"
+	{
+	"wave"			"scripted/dropship_zipline_zipfire1.wav"
+	"wave"			"scripted/dropship_zipline_zipfire2.wav"
+	"wave"			"scripted/dropship_zipline_zipfire3.wav"
+	"wave"			"scripted/dropship_zipline_zipfire4.wav"
+	}
+
+}
+
+
+////////////
+// LARGE SHIPS
+////////////
+
+
+"largeship_warpin" {
+
+	"mixgroup"		"scripted,SFX,SFX_Vehicles"
+	"volume"		"0.5,1"
+	"pitch"			"75,85"
+	"radius"		"45000"
+	"falloff"		"8"
+	"occlusionDuckScale"	"2"
+
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_01.wav"
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_02.wav"
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_03.wav"
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_04.wav"
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_05.wav"
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_06.wav"
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_07.wav"
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_08.wav"
+	}
+}
+
+
+
+//////////////////////////////
+// TITAN DROP POD - TITANFALL
+//////////////////////////////
+
+"titan_player_hotdrop"
+{
+	"mixgroup"			"titan,SFX,SFX_Vehicles,SFX_Vehicles_DropPods"
+	"volume"			"2"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"delay"			"600"
+	"wave"			"exo\Atlas\Titanfall\Titan_Titanfall_PodToLanding_6ch_v2_1.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Titanfall_PodToLanding_6ch_v2_2.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Titanfall_PodToLanding_6ch_v2_3.wav"
+	}
+
+}
+
+"titan_hot_drop_turbo_begin"
+
+{
+	"mixgroup"			"titan,SFX,SFX_Vehicles,SFX_Vehicles_DropPods"
+	"volume"			"4"
+	"radius"			"0"
+	"pitch"				"100"
+	"flags"				"noduck"
+
+	"rndwave"
+	{
+	"limit"			"1"
+		"ducks"				"SFX_Weapons_AI,0.7:0,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:0,1000,0,0"
+		"ducks"				"Music,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:0,1000,0,0"
+	"wave"			"exo\Atlas\Titanfall\Titan_Titanfall_Start_Short_6ch_v1_1.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Titanfall_Start_Short_6ch_v1_2.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Titanfall_Start_Short_6ch_v1_3.wav"
+	}
+
+}
+
+"titan_drop_pod_turbo_landing"
+
+{
+	"mixgroup"			"titan,SFX,SFX_Vehicles,SFX_Vehicles_DropPods"
+	"volume"			"6"
+	"radius"			"0"
+	"pitch"				"105"
+	"flags"				"noduck"
+
+
+	"rndwave"
+	{
+	"limit"			"1"
+		"ducks"				"SFX_Weapons_AI,0.7:0,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:0,1000,0,0"
+		"ducks"				"Music,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:0,1000,0,0"
+	"minrange" 	"0"
+	"maxrange"	"1500"
+	"wave"			"exo\Atlas\Titanfall\Titan_Titanfall_PodToLanding_6ch_v2_1.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Titanfall_PodToLanding_6ch_v2_2.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Titanfall_PodToLanding_6ch_v2_3.wav"
+	}
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"flags"				"spatialized"
+	"minrange" 	"1500"
+	"maxrange"	"3000"
+	"wave"			"exo\Atlas\Titanfall\Titan_Titanfall_PodToLanding_2ch_v2_1.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Titanfall_PodToLanding_2ch_v2_2.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Titanfall_PodToLanding_2ch_v2_3.wav"
+	}
+
+}
+
+"titan_hot_drop_turbo_begin_3P"
+
+{
+	"mixgroup"			"titan,SFX,SFX_Vehicles,SFX_Vehicles_DropPods"
+	"volume"			"3"
+	"pitch"				"100"
+	"radius"			"15000"
+	"flags"				"nevercull"
+
+	"rndwave"
+	{
+	"limit"			"2"
+	"flags"				"spatialized"
+	"wave"			"exo\Atlas\Titanfall\Titan_Titanfall_Start_Short_2ch_v1_1.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Titanfall_Start_Short_2ch_v1_2.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Titanfall_Start_Short_2ch_v1_3.wav"
+	}
+}
+
+"titan_drop_pod_turbo_landing_3P"
+
+{
+	"mixgroup"			"titan,SFX,SFX_Vehicles,SFX_Vehicles_DropPods"
+	"volume"			"6"
+	"pitch"				"105"
+	"radius"			"15000"
+	"flags"				"nevercull"
+
+
+	"rndwave"
+	{
+	"limit"			"2"
+	"flags"				"spatialized"
+	"wave"			"exo\Atlas\Titanfall\Titan_Titanfall_PodToLanding_2ch_v2_1.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Titanfall_PodToLanding_2ch_v2_2.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Titanfall_PodToLanding_2ch_v2_3.wav"
+	}
+
+}
+
+
+////////////////////////////
+// TITAN WARP FALL  WARPFALL
+////////////////////////////
+
+"Titan_1P_Warpfall_Hotdrop"
+{
+	"mixgroup"			"titan,SFX,SFX_Vehicles,SFX_Vehicles_DropPods"
+	"volume"			"6.5"
+	"radius"			"0"
+	"pitch"				"100"
+	"flags"				"nevercull"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7a:0,1000,0,0"
+		"ducks"				"SFX_AMB,0.7a:0,1000,0,0"
+		"ducks"				"Music,0.5a:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.5a:0,1000,0,0"
+	"delay"			"400"
+	"limit"			"1"
+	"wave"			"exo\Atlas\Titanfall\Titan_Warpfall_WarpToLanding_6ch_v2_1.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Warpfall_WarpToLanding_6ch_v2_2.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Warpfall_WarpToLanding_6ch_v2_3.wav"
+	}
+
+
+}
+
+"Titan_1P_Warpfall_CallIn"
+
+{
+	"mixgroup"			"titan,SFX,SFX_Vehicles,SFX_Vehicles_DropPods"
+	"volume"			"3"
+	"radius"			"0"
+	"pitch"				"100"
+	"flags"				"noduck,nevercull"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"minrange" 	"0"
+	"maxrange"	"3000"
+		"ducks"				"SFX_Weapons_AI,0.7:0,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:0,1000,0,0"
+		"ducks"				"Music,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:0,1000,0,0"
+	"wave"			"exo\Atlas\Titanfall\Titan_Warpfall_WarpButtonPress_6ch_v1_1.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Warpfall_WarpButtonPress_6ch_v1_2.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Warpfall_WarpButtonPress_6ch_v1_3.wav"
+	}
+}
+
+"Titan_3P_Warpfall_CallIn"
+
+{
+	"mixgroup"			"titan,SFX,SFX_Vehicles,SFX_Vehicles_DropPods"
+	"volume"			"3"
+	"radius"			"0"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+	"limit"			"2"
+	"flags"		"spatialized"
+	"minrange" 	"0"
+	"maxrange"	"3000"
+	"wave"			"exo\Atlas\Titanfall\Titan_Warpfall_WarpButtonPress_2ch_v1_1.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Warpfall_WarpButtonPress_2ch_v1_2.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Warpfall_WarpButtonPress_2ch_v1_3.wav"
+	}
+}
+
+"Titan_1P_Warpfall_Start"
+
+{
+	"mixgroup"			"titan,SFX,SFX_Vehicles,SFX_Vehicles_DropPods"
+	"volume"			"4"
+	"radius"			"0"
+	"pitch"				"90"
+	"flags"				"noduck,nevercull"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:0,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:0,1000,0,0"
+		"ducks"				"Music,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:0,1000,0,0"
+	"limit"			"1"
+	"delay"			"100"
+	"wave"			"exo\Atlas\Titanfall\Titan_Warpfall_WarpStart_2ch_v2_1.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Warpfall_WarpStart_2ch_v2_2.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Warpfall_WarpStart_2ch_v2_3.wav"
+	}
+
+}
+
+"Titan_1P_Warpfall_WarpToLanding"
+
+{
+	"mixgroup"			"titan,SFX,SFX_Vehicles,SFX_Vehicles_DropPods"
+	"volume"			"4"
+	"radius"			"0"
+	"pitch"				"110"
+	"flags"				"noduck,nevercull"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7a:0,1000,0,0"
+		"ducks"				"SFX_AMB,0.7a:0,1000,0,0"
+		"ducks"				"Music,0.5a:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.5a:0,1000,0,0"
+	"limit"			"1"
+	"minrange" 	"0"
+	"maxrange"	"1500"
+	"wave"			"exo\Atlas\Titanfall\Titan_Warpfall_WarpToLanding_6ch_v2_1.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Warpfall_WarpToLanding_6ch_v2_2.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Warpfall_WarpToLanding_6ch_v2_3.wav"
+	}
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"flags"				"spatialized"
+	"minrange" 	"1500"
+	"maxrange"	"3000"
+	"wave"			"exo\Atlas\Titanfall\Titan_Warpfall_WarpToLanding_2ch_v2_1.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Warpfall_WarpToLanding_2ch_v2_2.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Warpfall_WarpToLanding_2ch_v2_3.wav"
+	}
+
+}
+
+"Titan_3P_Warpfall_Start"
+
+{
+	"mixgroup"			"titan,SFX,SFX_Vehicles,SFX_Vehicles_DropPods"
+	"volume"			"3"
+	"pitch"				"100"
+	"radius"			"15000"
+	"flags"				"nevercull"
+
+	"rndwave"
+	{
+	"limit"			"2"
+	"delay"			"100"
+	"flags"				"spatialized"
+	"wave"			"exo\Atlas\Titanfall\Titan_Warpfall_WarpStart_2ch_v2_1.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Warpfall_WarpStart_2ch_v2_2.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Warpfall_WarpStart_2ch_v2_3.wav"
+
+	}
+}
+
+"Titan_3P_Warpfall_WarpToLanding"
+
+{
+	"mixgroup"			"titan,SFX,SFX_Vehicles,SFX_Vehicles_DropPods"
+	"volume"			"6"
+	"pitch"				"110"
+	"radius"			"15000"
+	"flags"				"nevercull"
+
+	"rndwave"
+	{
+	"limit"			"2"
+	"flags"				"spatialized"
+	"wave"			"exo\Atlas\Titanfall\Titan_Warpfall_WarpToLanding_2ch_v2_1.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Warpfall_WarpToLanding_2ch_v2_2.wav"
+	"wave"			"exo\Atlas\Titanfall\Titan_Warpfall_WarpToLanding_2ch_v2_3.wav"
+
+	}
+
+}
+
+
+
+////////////////////
+// TITAN BUBBLE SHIELD
+////////////////////
+
+
+"BubbleShield_Sustain_Loop"
+{
+
+	"mixgroup"		"weapons,SFX,SFX_Gadgets,SFX_Gadgets_Cloak"
+	"radius"		"2000"
+	"volume"		"2.2"
+	"falloff"		"7"
+	"flags"			"loop"
+
+
+	"rndwave"
+	{
+		"maxrange"		"250"
+		"wave"			"exo\Atlas\Titanfall\Titanfall_BubbleShield_Loop_6ch_v2_01.wav"
+	}
+
+	"rndwave"
+	{
+		"minrange"		"225"
+		"maxrange"		"2000"
+		"flags"			"spatialized"
+		"panwidth"		"45"
+		"folddowndistance"	"750"
+
+		"wave"			"exo\Atlas\Titanfall\Titanfall_BubbleShield_Loop_2ch_v2_01.wav"
+	}
+
+}
+
+
+"BubbleShield_End"
+{
+
+	"mixgroup"		"weapons,SFX,SFX_Gadgets,SFX_Gadgets_Cloak"
+	"radius"		"2000"
+	"volume"		"1"
+	"falloff"		"7"
+
+
+	"rndwave"
+	{
+
+		"maxrange"		"250"
+		"wave"			"exo\Atlas\Titanfall\Titanfall_BubbleShield_End_2ch_v1_01.wav"
+	}
+
+	"rndwave"
+	{
+		"minrange"		"225"
+		"maxrange"		"2000"
+		"flags"			"spatialized"
+		"panwidth"		"45"
+		"folddowndistance"	"750"
+
+		"wave"			"exo\Atlas\Titanfall\Titanfall_BubbleShield_End_2ch_v1_01.wav"
+	}
+
+
+}
+
+
+
+////////////////////
+// GRUNT DROP POD
+////////////////////
+
+"spectre_drop_pod"
+{
+	"mixgroup"			"titan,SFX,SFX_Vehicles,SFX_Vehicles_DropPods"
+	"volumescale"			"0.5"
+	"flags"				"layered,mobile,nevercull"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+	{
+	"volume"				"2.3"
+	"pitch"					"97,100"
+	"limit"					"2"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "20000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+	"wave"				"vehicles/DropPod/DropPod_Incoming_2ch_v1_01.wav"
+	"wave"				"vehicles/DropPod/DropPod_Incoming_2ch_v1_02.wav"
+	"wave"				"vehicles/DropPod/DropPod_Incoming_2ch_v1_03.wav"
+	"wave"				"vehicles/DropPod/DropPod_Incoming_2ch_v1_04.wav"
+
+	}
+
+	"rndwave"
+	{
+
+	"delay"				"4310"
+	"flags"				"spatialized"
+	"folddownDistance"	"0"
+
+	"volume"			"5.0"
+	"pitch"				"87,106"
+	"limit"					"2"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "3000"
+        "falloffEnd"      "5000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+	"wave"				"vehicles/DropPod/DropPod_EntryBoom_MedDist_2ch_v1_01.wav.wav"
+	"wave"				"vehicles/DropPod/DropPod_EntryBoom_MedDist_2ch_v1_02.wav.wav"
+	"wave"				"vehicles/DropPod/DropPod_EntryBoom_MedDist_2ch_v1_03.wav.wav"
+	"wave"				"vehicles/DropPod/DropPod_EntryBoom_MedDist_2ch_v1_04.wav.wav"
+
+	}
+
+	"rndwave"
+	{
+
+	"delay"				"4310"
+	"volume"			"5.3"
+	"pitch"				"95,102"
+	"limit"					"2"
+
+	"channels"
+	{
+			"1"			"LFE"
+	}
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "4500"
+        "falloffEnd"      "5000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+	"wave"				"vehicles/DropPod/DropPod_EntryBoom_LFE_1ch_v1.wav"
+
+	}
+
+	"rndwave"
+	{
+
+	"delay"				"4310"
+	"volume"			"4.5"
+	"pitch"				"87,107"
+	"limit"					"2"
+
+		"startDistance"   "4800"
+        "peakDistance"    "4900"
+        "falloffStart"    "8000"
+        "falloffEnd"      "9000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+	"wave"				"vehicles/DropPod/DropPod_EntryBoom_Dist_2ch_v1_01.wav"
+	"wave"				"vehicles/DropPod/DropPod_EntryBoom_Dist_2ch_v1_02.wav"
+	"wave"				"vehicles/DropPod/DropPod_EntryBoom_Dist_2ch_v1_03.wav"
+	"wave"				"vehicles/DropPod/DropPod_EntryBoom_Dist_2ch_v1_04.wav"
+
+	}
+
+	"rndwave"
+	{
+
+	"delay"				"4900"
+	"flags"				"spatialized"
+	"folddownDistance"	"0"
+
+	"volume"			"6.0"
+	"pitch"				"90,105"
+	"limit"					"2"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "1700"
+        "falloffEnd"      "2600"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+	"wave"				"vehicles/DropPod/DropPod_GroundImpact_Close_2ch_v1_01.wav"
+	"wave"				"vehicles/DropPod/DropPod_GroundImpact_Close_2ch_v1_02.wav"
+	"wave"				"vehicles/DropPod/DropPod_GroundImpact_Close_2ch_v1_03.wav"
+	"wave"				"vehicles/DropPod/DropPod_GroundImpact_Close_2ch_v1_04.wav"
+
+	}
+
+	"rndwave"
+	{
+
+	"delay"				"4900"
+
+	"volume"			"6.0"
+	"pitch"				"90,100"
+	"limit"					"2"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "1700"
+        "falloffEnd"      "2600"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+	"channels"
+	{
+		"1"			"LFE"
+
+	}
+
+	"wave"				"vehicles/DropPod/DropPod_GroundImpact_LFE_1ch_v1.wav"
+
+	}
+
+	"rndwave"
+	{
+
+	"delay"				"4900"
+	"flags"				"spatialized"
+	"folddownDistance"	"0"
+
+	"volume"			"4.5"
+	"pitch"				"90,105"
+	"limit"					"2"
+
+		"startDistance"   "1900"
+        "peakDistance"    "2000"
+        "falloffStart"    "6000"
+        "falloffEnd"      "9000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+	"wave"				"vehicles/DropPod/DropPod_GroundImpact_Dist_2ch_v1_01.wav"
+	"wave"				"vehicles/DropPod/DropPod_GroundImpact_Dist_2ch_v1_02.wav"
+	"wave"				"vehicles/DropPod/DropPod_GroundImpact_Dist_2ch_v1_03.wav"
+	"wave"				"vehicles/DropPod/DropPod_GroundImpact_Dist_2ch_v1_04.wav"
+
+	}
+
+	"rndwave"
+	{
+
+	"delay"				"4900"
+	"flags"				"spatialized"
+	"folddownDistance"	"50"
+
+	"volume"			"6.0"
+	"pitch"				"94,97"
+	"limit"				"2"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "20"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+	"wave"				"vehicles/DropPod/DropPod_PodMetalSizzle_2ch_v1_01.wav"
+	"wave"				"vehicles/DropPod/DropPod_PodMetalSizzle_2ch_v1_02.wav"
+	"wave"				"vehicles/DropPod/DropPod_PodMetalSizzle_2ch_v1_03.wav"
+	"wave"				"vehicles/DropPod/DropPod_PodMetalSizzle_2ch_v1_04.wav"
+
+	}
+}
+
+"droppod_door_open"
+{
+	"mixgroup"			"titan,SFX,SFX_Vehicles,SFX_Vehicles_DropPods"
+	"volume"			"1.0"
+	"radius"			"1000"
+	"pitch"				"90,110"
+	"rndwave"
+	{
+	"wave"				"vehicles/droppod_door_01.wav"
+	"wave"				"vehicles/droppod_door_02.wav"
+	}
+
+}
+
+"droppod_dissolve"
+{
+	"mixgroup"			"titan,SFX,SFX_Vehicles,SFX_Vehicles_DropPods"
+	"volume"			"3.0"
+	"radius"			"2500"
+	"pitch"				"80,100"
+	"rndwave"
+	{
+	"limit"				"3"
+	"wave"				"vehicles/droppod/DropPod_Dissolve_1ch_v1_01.wav"
+	"wave"				"vehicles/droppod/DropPod_Dissolve_1ch_v1_02.wav"
+	"wave"				"vehicles/droppod/DropPod_Dissolve_1ch_v1_03.wav"
+	"wave"				"vehicles/droppod/DropPod_Dissolve_1ch_v1_04.wav"
+	}
+
+}
+
+
+
+"titanfall_on_titan"
+
+{
+	"mixgroup"			"titan,SFX,SFX_Vehicles,SFX_Vehicles_DropPods"
+	"volume"			"6"
+	"volumeScale"		"0.8"
+	"radius"			"3000"
+	"pitch"				"105"
+	"flags"				"noduck"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"flags"				"spatialized"
+	"volume"		"6"
+	"ducks"				"SFX_Weapons_AI,0.7:0,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:0,1000,0,0"
+		"ducks"				"Music,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:0,1000,0,0"
+		"wave"		"exo/bigpunch/Titan_BigPunch_Impact_2ch_v3_01.wav"
+		"wave"		"exo/bigpunch/Titan_BigPunch_Impact_2ch_v3_02.wav"
+		"wave"		"exo/bigpunch/Titan_BigPunch_Impact_2ch_v3_03.wav"
+		"wave"		"exo/bigpunch/Titan_BigPunch_Impact_2ch_v3_05.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"			"7"
+		"limit"				"2"
+		"pitch"				"100"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"wave"		"exo/Shield_Wall/ShieldWall_Destroyed_2ch_v2_01.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"		"2"
+		"pitch"			"140"
+		"limit"			"1"
+		"delay"			"160"
+
+		"flags"					"spatialized"
+		"folddowndistance"		"1000"
+        "maxrange"				"4000"
+
+		"wave"		"explosions/Generic/Explo_Generic_DistWashHigh_2ch_v1_01.wav"
+		"wave"		"explosions/Generic/Explo_Generic_DistWashHigh_2ch_v1_02.wav"
+		"wave"		"explosions/Generic/Explo_Generic_DistWashHigh_2ch_v1_03.wav"
+	}
+
+	"rndwave"
+	{
+
+		"volume"	"6"
+		"limit"		"2"
+		"pitch"		"160"
+		"flags"		"spatialized"
+
+	"maxrange"				"4000"
+
+			"wave"		"exo\Nuclear_Core\Titan_NuclearCore_Explo_Mid_LR_v1_COMP.wav"
+			"wave"		"exo\Nuclear_Core\Titan_NuclearCore_Explo_Mid_LR_v2_COMP.wav"
+			"wave"		"exo\Nuclear_Core\Titan_NuclearCore_Explo_Mid_LR_v3_COMP.wav"
+
+	}
+
+	"rndwave"
+	{
+		"limit"		"1"
+		"volume"	"7"
+		"maxrange"	"1500"
+			"wave"		"exo/damage/titan_armor_break_punch_01.wav"
+			"wave"		"exo/damage/titan_armor_break_punch_02.wav"
+			"wave"		"exo/damage/titan_armor_break_punch_03.wav"
+			"wave"		"exo/damage/titan_armor_break_punch_04.wav"
+			"wave"		"exo/damage/titan_armor_break_punch_05.wav"
+			"wave"		"exo/damage/titan_armor_break_punch_06.wav"
+	}
+
+}
+
+"titanfall_on_human"
+
+{
+	"mixgroup"			"titan,SFX,SFX_Vehicles,SFX_Vehicles_DropPods"
+	"volumeScale"		"2.0"
+	"radius"			"2000"
+	"pitch"				"90"
+	"flags"				"noduck"
+
+
+	"rndwave"
+	{
+		"limit"			"1"
+		"flags"				"spatialized"
+		"volume"			"2.8"
+		"wave"		"exo/bigpunch/Titan_BigPunch_Impact_2ch_v3_01.wav"
+		"wave"		"exo/bigpunch/Titan_BigPunch_Impact_2ch_v3_02.wav"
+		"wave"		"exo/bigpunch/Titan_BigPunch_Impact_2ch_v3_03.wav"
+		"wave"		"exo/bigpunch/Titan_BigPunch_Impact_2ch_v3_05.wav"
+	}
+
+	"rndwave"
+		{
+			"maxrange"	"2000"
+			"volume"	"10"
+			"limit"		"2"
+			"pitch"		"80"
+			"wave"		"impacts/grunt_squish_01.wav"
+			"wave"		"impacts/grunt_squish_03.wav"
+			"wave"		"impacts/grunt_squish_04.wav"
+			"wave"		"impacts/grunt_squish_06.wav"
+
+
+		}
+
+
+	"rndwave"
+	{
+		"maxrange"				"1000"
+		"flags"					"spatialized"
+		"panWidth"				"90"
+		"volume"				"1.0"
+		"pitch"					"80"
+		"limit"					"2"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_01.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_02.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_03.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_04.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_05.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_06.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_07.wav"
+		"wave"				"player/melee/Mvmt_Human_1p_MeleeKick_2ch_v6_08.wav"
+	}
+
+	"rndwave"
+	{
+		"maxrange"			"1500"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"volume"			"5"
+		"pitch"				"150"
+		"limit"				"2"
+
+		"wave" 				"player/player_melee_kick_impact_flesh_01.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_02.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_03.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_04.wav"
+
+	}
+
+
+
+
+
+}

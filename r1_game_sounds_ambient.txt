@@ -1,0 +1,339 @@
+
+//////////////
+// MP Fracture
+//////////////
+
+"amb_fracture_birdlike_console_01"
+
+{
+
+	"volume"		"0.65"
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"	
+	"flags"		"mobile,loop"
+	"radius"		"500"
+	
+	"wave"			"ambient/amb_fracture_birdlike_console_01.wav"
+	
+}
+
+"amb_fracture_computer_console_01"
+
+{
+
+	"volume"		"0.65"
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"	
+	"flags"		"mobile,loop"
+	"radius"		"500"	
+	
+	"wave"			"ambient/amb_fracture_computer_console_01.wav"
+	
+}
+
+"amb_fracture_computer_console_02"
+
+{
+
+	"volume"		"0.65"
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"	
+	"flags"		"mobile,loop"
+	"radius"		"500"	
+	
+	"wave"			"ambient/amb_fracture_computer_console_02.wav"
+	
+}
+
+"amb_fracture_computer_console_03"
+
+{
+
+	"volume"		"0.65"
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"	
+	"flags"		"mobile,loop"
+	"radius"		"500"	
+	
+	"wave"			"ambient/amb_fracture_computer_console_03.wav"
+	
+}
+
+"amb_fracture_computer_console_04"
+
+{
+
+	"volume"		"0.65"
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"	
+	"flags"		"mobile,loop"
+	"radius"		"500"	
+	
+	"wave"			"ambient/amb_fracture_computer_console_04.wav"
+	
+}
+
+"amb_fracture_computer_console_05"
+
+{
+
+	"volume"		"0.65"
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"	
+	"flags"		"mobile,loop"
+	"radius"		"500"	
+	
+	"wave"			"ambient/amb_fracture_computer_console_05.wav"
+	
+}
+
+"amb_fracture_computer_console_06"
+
+{
+
+	"volume"		"0.65"
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"	
+	"flags"		"mobile,loop"
+	"radius"		"500"	
+	
+	"wave"			"ambient/amb_fracture_computer_console_06.wav"
+	
+}
+
+"amb_fracture_computer_console_07"
+
+{
+
+	"volume"		"0.65"
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"	
+	"flags"		"mobile,loop"
+	"radius"		"500"	
+	
+	"wave"			"ambient/amb_fracture_computer_console_07.wav"
+	
+}
+
+"amb_fracture_computer_console_08"
+
+{
+
+	"volume"		"0.65"
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"	
+	"flags"		"mobile,loop"
+	"radius"		"500"	
+	
+	"wave"			"ambient/amb_fracture_computer_console_08.wav"
+	
+}
+
+"amb_fracture_computer_console_09"
+
+{
+
+	"volume"		"0.65"
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"	
+	"flags"		"mobile,loop"
+	"radius"		"500"	
+	
+	"wave"			"ambient/amb_fracture_computer_console_09.wav"
+	
+}
+
+"amb_fracture_computer_data_chatter_01"
+
+{
+
+	"volume"		"0.65"
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"	
+	"flags"		"mobile,loop"
+	"radius"		"500"	
+	
+	"wave"			"ambient/amb_fracture_computer_data_chatter_01.wav"
+	
+}
+
+"amb_fracture_future_ac_fan_01"
+
+{
+
+	"volume"		"0.65"
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"	
+	"flags"		"mobile,loop"
+	"radius"		"1250"	
+	
+	"wave"			"ambient/amb_fracture_future_ac_fan_01.wav"
+	
+}
+
+"amb_fracture_power_supply_01"
+
+{
+
+	"volume"		"0.65"
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"	
+	"flags"		"mobile,loop"
+	"radius"		"700"	
+	"pitch"			"80,120"
+	
+	"wave"			"ambient/amb_fracture_power_supply_01.wav"
+	
+}
+
+"amb_fracture_screen_01"
+
+{
+
+	"volume"		"0.65"
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"	
+	"flags"		"mobile,loop"
+	"radius"		"500"	
+	
+	"wave"			"ambient/amb_fracture_screen_01.wav"
+	
+}
+
+"amb_fracture_screen_console_01"
+
+{
+
+	"volume"		"0.65"
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"	
+	"flags"		"mobile,loop"
+	"radius"		"500"	
+	
+	"wave"			"ambient/amb_fracture_screen_console_01.wav"
+	
+}
+
+"amb_fracture_static_console_01"
+
+{
+
+	"volume"		"0.65"
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"	
+	"flags"		"mobile,loop"
+	"radius"		"500"	
+	
+	"wave"			"ambient/amb_fracture_static_console_01.wav"
+	
+}
+
+"amb_fracture_static_console_02"
+
+{
+
+	"volume"		"0.65"
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"	
+	"flags"		"mobile,loop"
+	"radius"		"500"
+		
+	"wave"			"ambient/amb_fracture_static_console_02.wav"
+	
+}
+
+"amb_fracture_warning_beeps"
+
+{
+
+	"volume"		"0.65"
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"	
+	"flags"		"mobile,loop"
+	"radius"		"500"
+		
+	"wave"			"ambient/amb_fracture_warning_beeps.wav"
+	
+}
+
+"amb_fracture_waterfall_bottom1"
+
+{
+
+	"volume"		"0.75"
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"	
+	"flags"		"mobile,loop"
+	"radius"		"1250"
+	
+	"wave"			"ambient/amb_fracture_waterfall_bottom1.wav"
+	
+}
+
+"amb_fracture_waterfall_bottom2"
+
+{
+
+	"volume"		"0.75"
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"	
+	"flags"		"mobile,loop"
+	"radius"		"1250"	
+	
+	"wave"			"ambient/amb_fracture_waterfall_bottom2.wav"
+	
+}
+
+"amb_fracture_waterfall_top1"
+
+{
+
+	"volume"		"0.95"
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"	
+	"flags"		"mobile,loop"
+	"radius"		"1250"	
+	
+	"wave"			"ambient/amb_fracture_waterfall_top1.wav"
+	
+}
+
+"amb_fracture_waterfall_top2"
+
+{
+
+	"volume"		"0.95"
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"	
+	"flags"		"mobile,loop"
+	"radius"		"1250"	
+	
+	"wave"			"ambient/amb_fracture_waterfall_top2.wav"
+	
+}
+
+
+//////////////
+// MP OUTPOST 207
+//////////////
+
+"amb_outpost_cannon_servo"
+
+{
+
+	"volume"		"0.65"
+	"mixgroup"		"ambient,SFX,SFX_AMB"	
+	"flags"		"mobile,loop"
+	"radius"		"6000"	
+	
+	"wave"			"ambient/amb_outpost_cannon_servo_01.wav"
+	"wave"			"ambient/amb_outpost_cannon_servo_02.wav"
+	
+}
+
+
+
+"amb_outpost_cannon_prefire"
+
+{
+
+	"volume"		"1.0"	
+	"mixgroup"		"ambient,SFX,SFX_AMB"	
+	"flags"		"mobile"
+	"radius"		"6000"	
+	
+	"wave"			"ambient/amb_outpost_cannon_prefire.wav"
+	
+}
+
+"amb_outpost_cannon_fire"
+
+{
+
+	"volume"		"1.0"	
+	"mixgroup"		"ambient,SFX,SFX_AMB"	
+	"flags"		"mobile"
+	"radius"		"6000"	
+	
+	"wave"			"ambient/amb_outpost_cannon_fire.wav"
+	
+}
+

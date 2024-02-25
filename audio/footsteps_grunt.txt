@@ -1,0 +1,3779 @@
+
+
+"Grunt.Crouch.Default_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.4,0.45"
+	"pitch"			"95,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"
+
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/footfell/walk_default_01.wav"
+		"wave"		"player/movement/footfell/walk_default_02.wav"
+		"wave"		"player/movement/footfell/walk_default_03.wav"
+		"wave"		"player/movement/footfell/walk_default_04.wav"
+		"wave"		"player/movement/footfell/walk_default_05.wav"
+		"wave"		"player/movement/footfell/walk_default_06.wav"
+//		"wave"		"player/movement/footfell/walk_default_07.wav"
+//		"wave"		"player/movement/footfell/walk_default_08.wav"
+//		"wave"		"player/movement/footfell/walk_default_09.wav"
+//		"wave"		"player/movement/footfell/walk_default_10.wav"
+//		"wave"		"player/movement/footfell/walk_default_11.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.8"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Jog.Default_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"falloff"		"0"
+	"volume"		"0.4,0.45"
+	"pitch"			"93,105"
+	"flags"			"noduck,layered"
+	
+
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		"wave"		"player/movement/footfell/walk_default_01.wav"
+		"wave"		"player/movement/footfell/walk_default_02.wav"
+		"wave"		"player/movement/footfell/walk_default_03.wav"
+		"wave"		"player/movement/footfell/walk_default_04.wav"
+		"wave"		"player/movement/footfell/walk_default_05.wav"
+		"wave"		"player/movement/footfell/walk_default_06.wav"
+		"wave"		"player/movement/footfell/walk_default_07.wav"
+		"wave"		"player/movement/footfell/walk_default_08.wav"
+		"wave"		"player/movement/footfell/walk_default_09.wav"
+		"wave"		"player/movement/footfell/walk_default_10.wav"
+		"wave"		"player/movement/footfell/walk_default_11.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Sprint.Default_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.5,0.55"
+	"pitch"			"93,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"
+	
+
+		"rndwave"
+	{	
+		"volume"			"1.5"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/footfell/run_default_01.wav"
+		"wave"		"player/movement/footfell/run_default_02.wav"
+		"wave"		"player/movement/footfell/run_default_03.wav"
+		"wave"		"player/movement/footfell/run_default_04.wav"
+		"wave"		"player/movement/footfell/run_default_05.wav"
+		"wave"		"player/movement/footfell/run_default_06.wav"
+//		"wave"		"player/movement/footfell/run_default_07.wav"
+//		"wave"		"player/movement/footfell/run_default_08.wav"
+//		"wave"		"player/movement/footfell/run_default_09.wav"
+//		"wave"		"player/movement/footfell/run_default_10.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"130,140"
+		
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		
+		"wave"		"player/movement/gear/run_gear_01.wav"
+		"wave"		"player/movement/gear/run_gear_02.wav"
+		"wave"		"player/movement/gear/run_gear_03.wav"
+		"wave"		"player/movement/gear/run_gear_04.wav"
+		"wave"		"player/movement/gear/run_gear_05.wav"
+		"wave"		"player/movement/gear/run_gear_06.wav"
+//		"wave"		"player/movement/gear/run_gear_07.wav"
+//		"wave"		"player/movement/gear/run_gear_08.wav"
+//		"wave"		"player/movement/gear/run_gear_09.wav"
+//		"wave"		"player/movement/gear/run_gear_10.wav"
+		
+	}
+}
+
+
+"Grunt.Land.Default_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"2.0"
+	"pitch"			"93,105"
+	"falloff"		"1"
+	"flags"			"noduck,layered"
+	
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"90,110"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/footfell/jumpland_default_01.wav"
+		"wave"			"player/movement/footfell/jumpland_default_02.wav"
+		"wave"			"player/movement/footfell/jumpland_default_03.wav"
+	}
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_01.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_02.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_03.wav"
+	}
+}
+
+
+"Grunt.Crouch.Dirt_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.4,0.45"
+	"pitch"			"95,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"
+
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/footfell/walk_Gravel_01.wav"
+		"wave"		"player/movement/footfell/walk_Gravel_02.wav"
+		"wave"		"player/movement/footfell/walk_Gravel_03.wav"
+		"wave"		"player/movement/footfell/walk_Gravel_04.wav"
+		"wave"		"player/movement/footfell/walk_Gravel_05.wav"
+		"wave"		"player/movement/footfell/walk_Gravel_06.wav"
+//		"wave"		"player/movement/footfell/walk_Gravel_07.wav"
+//		"wave"		"player/movement/footfell/walk_Gravel_08.wav"
+//		"wave"		"player/movement/footfell/walk_Gravel_09.wav"
+//		"wave"		"player/movement/footfell/walk_Gravel_10.wav"
+//		"wave"		"player/movement/footfell/walk_Gravel_11.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.8"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Jog.Dirt_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"falloff"		"0"
+	"volume"		"0.4,0.45"
+	"pitch"			"93,105"
+	"flags"			"noduck,layered"
+	
+
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		"wave"		"player/movement/footfell/walk_Gravel_01.wav"
+		"wave"		"player/movement/footfell/walk_Gravel_02.wav"
+		"wave"		"player/movement/footfell/walk_Gravel_03.wav"
+		"wave"		"player/movement/footfell/walk_Gravel_04.wav"
+		"wave"		"player/movement/footfell/walk_Gravel_05.wav"
+		"wave"		"player/movement/footfell/walk_Gravel_06.wav"
+//		"wave"		"player/movement/footfell/walk_Gravel_07.wav"
+//		"wave"		"player/movement/footfell/walk_Gravel_08.wav"
+//		"wave"		"player/movement/footfell/walk_Gravel_09.wav"
+//		"wave"		"player/movement/footfell/walk_Gravel_10.wav"
+//		"wave"		"player/movement/footfell/walk_Gravel_11.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Sprint.Dirt_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.5,0.55"
+	"pitch"			"93,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"
+	
+
+		"rndwave"
+	{	
+		"volume"			"1.5"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		//		"wave"		"player/movement/footfell/run_Gravel_01.wav"
+		"wave"		"player/movement/footfell/run_Gravel_02.wav"
+		"wave"		"player/movement/footfell/run_Gravel_03.wav"
+		"wave"		"player/movement/footfell/run_Gravel_04.wav"
+//		"wave"		"player/movement/footfell/run_Gravel_05.wav"
+//		"wave"		"player/movement/footfell/run_Gravel_06.wav"
+		"wave"		"player/movement/footfell/run_Gravel_07.wav"
+//		"wave"		"player/movement/footfell/run_Gravel_08.wav"
+//		"wave"		"player/movement/footfell/run_Gravel_09.wav"
+		"wave"		"player/movement/footfell/run_Gravel_10.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"130,140"
+		
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+
+"Grunt.Land.Dirt_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"2.0"
+	"pitch"			"93,105"
+	"falloff"		"1"
+	"flags"			"noduck,layered"
+	
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"90,110"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/footfell/jumpland_Gravel_01.wav"
+		"wave"			"player/movement/footfell/jumpland_Gravel_02.wav"
+		"wave"			"player/movement/footfell/jumpland_Gravel_03.wav"
+	}
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_01.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_02.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_03.wav"
+	}
+}
+
+
+"Grunt.Crouch.Mud_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.4,0.45"
+	"pitch"			"95,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"
+
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/footfell/walk_Mud_01.wav"
+		"wave"		"player/movement/footfell/walk_Mud_02.wav"
+		"wave"		"player/movement/footfell/walk_Mud_03.wav"
+		"wave"		"player/movement/footfell/walk_Mud_04.wav"
+		"wave"		"player/movement/footfell/walk_Mud_05.wav"
+		"wave"		"player/movement/footfell/walk_Mud_06.wav"
+//		"wave"		"player/movement/footfell/walk_Mud_07.wav"
+//		"wave"		"player/movement/footfell/walk_Mud_08.wav"
+//		"wave"		"player/movement/footfell/walk_Mud_09.wav"
+//		"wave"		"player/movement/footfell/walk_Mud_10.wav"
+//		"wave"		"player/movement/footfell/walk_Mud_11.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.8"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Jog.Mud_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"falloff"		"0"
+	"volume"		"0.4,0.45"
+	"pitch"			"93,105"
+	"flags"			"noduck,layered"
+	
+
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		"wave"		"player/movement/footfell/walk_Mud_01.wav"
+		"wave"		"player/movement/footfell/walk_Mud_02.wav"
+		"wave"		"player/movement/footfell/walk_Mud_03.wav"
+		"wave"		"player/movement/footfell/walk_Mud_04.wav"
+		"wave"		"player/movement/footfell/walk_Mud_05.wav"
+		"wave"		"player/movement/footfell/walk_Mud_06.wav"
+//		"wave"		"player/movement/footfell/walk_Mud_07.wav"
+//		"wave"		"player/movement/footfell/walk_Mud_08.wav"
+//		"wave"		"player/movement/footfell/walk_Mud_09.wav"
+//		"wave"		"player/movement/footfell/walk_Mud_10.wav"
+//		"wave"		"player/movement/footfell/walk_Mud_11.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Sprint.Mud_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.5,0.55"
+	"pitch"			"93,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"
+	
+
+		"rndwave"
+	{	
+		"volume"			"1.5"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/footfell/run_Mud_01.wav"
+		"wave"		"player/movement/footfell/run_Mud_02.wav"
+		"wave"		"player/movement/footfell/run_Mud_03.wav"
+		"wave"		"player/movement/footfell/run_Mud_04.wav"
+		"wave"		"player/movement/footfell/run_Mud_05.wav"
+//		"wave"		"player/movement/footfell/run_Mud_06.wav"
+//		"wave"		"player/movement/footfell/run_Mud_07.wav"
+//		"wave"		"player/movement/footfell/run_Mud_08.wav"
+//		"wave"		"player/movement/footfell/run_Mud_09.wav"
+//		"wave"		"player/movement/footfell/run_Mud_10.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"130,140"
+		
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+
+"Grunt.Land.Mud_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"2.0"
+	"pitch"			"93,105"
+	"falloff"		"1"
+	"flags"			"noduck,layered"
+	
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"90,110"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/footfell/jumpland_Mud_01.wav"
+		"wave"			"player/movement/footfell/jumpland_Mud_02.wav"
+		"wave"			"player/movement/footfell/jumpland_Mud_03.wav"
+	}
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_01.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_02.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_03.wav"
+	}
+}
+
+
+
+
+"Grunt.Crouch.Grass_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.4,0.45"
+	"pitch"			"95,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"
+
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/footfell/walk_Grass_01.wav"
+		"wave"		"player/movement/footfell/walk_Grass_02.wav"
+		"wave"		"player/movement/footfell/walk_Grass_03.wav"
+		"wave"		"player/movement/footfell/walk_Grass_04.wav"
+		"wave"		"player/movement/footfell/walk_Grass_05.wav"
+//		"wave"		"player/movement/footfell/walk_Grass_06.wav"
+//		"wave"		"player/movement/footfell/walk_Grass_07.wav"
+//		"wave"		"player/movement/footfell/walk_Grass_08.wav"
+//		"wave"		"player/movement/footfell/walk_Grass_09.wav"
+//		"wave"		"player/movement/footfell/walk_Grass_10.wav"
+//		"wave"		"player/movement/footfell/walk_Grass_11.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.8"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Jog.Grass_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"falloff"		"0"
+	"volume"		"0.4,0.45"
+	"pitch"			"93,105"
+	"flags"			"noduck,layered"
+	
+
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/footfell/walk_Grass_01.wav"
+		"wave"		"player/movement/footfell/walk_Grass_02.wav"
+		"wave"		"player/movement/footfell/walk_Grass_03.wav"
+		"wave"		"player/movement/footfell/walk_Grass_04.wav"
+		"wave"		"player/movement/footfell/walk_Grass_05.wav"
+//		"wave"		"player/movement/footfell/walk_Grass_06.wav"
+//		"wave"		"player/movement/footfell/walk_Grass_07.wav"
+//		"wave"		"player/movement/footfell/walk_Grass_08.wav"
+//		"wave"		"player/movement/footfell/walk_Grass_09.wav"
+//		"wave"		"player/movement/footfell/walk_Grass_10.wav"
+//		"wave"		"player/movement/footfell/walk_Grass_11.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Sprint.Grass_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.5,0.55"
+	"pitch"			"93,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"	
+
+		"rndwave"
+	{	
+		"volume"			"1.5"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		//		"wave"		"player/movement/footfell/run_Grass_01.wav"
+		"wave"		"player/movement/footfell/run_Grass_02.wav"
+		"wave"		"player/movement/footfell/run_Grass_03.wav"
+		"wave"		"player/movement/footfell/run_Grass_04.wav"
+		"wave"		"player/movement/footfell/run_Grass_05.wav"
+//		"wave"		"player/movement/footfell/run_Grass_06.wav"
+		"wave"		"player/movement/footfell/run_Grass_07.wav"
+//		"wave"		"player/movement/footfell/run_Grass_08.wav"
+//		"wave"		"player/movement/footfell/run_Grass_09.wav"
+		"wave"		"player/movement/footfell/run_Grass_10.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"130,140"
+		
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+
+
+"Grunt.Land.Grass_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"2.0"
+	"pitch"			"93,105"
+	"falloff"		"1"
+	"flags"			"noduck,layered"	
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"90,110"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/footfell/jumpland_Grass_01.wav"
+		"wave"			"player/movement/footfell/jumpland_Grass_02.wav"
+		"wave"			"player/movement/footfell/jumpland_Grass_03.wav"
+	}
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_01.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_02.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_03.wav"
+	}
+}
+
+
+"Grunt.Crouch.Metalgrate_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.4,0.45"
+	"pitch"			"95,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		//		"wave"		"player/movement/footfell/walk_Metalgrate_01.wav"
+//		"wave"		"player/movement/footfell/walk_Metalgrate_02.wav"
+//		"wave"		"player/movement/footfell/walk_Metalgrate_03.wav"
+//		"wave"		"player/movement/footfell/walk_Metalgrate_04.wav"
+//		"wave"		"player/movement/footfell/walk_Metalgrate_05.wav"
+//		"wave"		"player/movement/footfell/walk_Metalgrate_06.wav"
+		"wave"		"player/movement/footfell/walk_Metalgrate_07.wav"
+		"wave"		"player/movement/footfell/walk_Metalgrate_08.wav"
+		"wave"		"player/movement/footfell/walk_Metalgrate_09.wav"
+		"wave"		"player/movement/footfell/walk_Metalgrate_10.wav"
+		"wave"		"player/movement/footfell/walk_Metalgrate_11.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.8"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Jog.Metalgrate_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"falloff"		"0"
+	"volume"		"0.4,0.45"
+	"pitch"			"93,105"
+	"flags"			"noduck,layered"	
+
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		//		"wave"		"player/movement/footfell/walk_Metalgrate_01.wav"
+//		"wave"		"player/movement/footfell/walk_Metalgrate_02.wav"
+//		"wave"		"player/movement/footfell/walk_Metalgrate_03.wav"
+//		"wave"		"player/movement/footfell/walk_Metalgrate_04.wav"
+//		"wave"		"player/movement/footfell/walk_Metalgrate_05.wav"
+//		"wave"		"player/movement/footfell/walk_Metalgrate_06.wav"
+		"wave"		"player/movement/footfell/walk_Metalgrate_07.wav"
+		"wave"		"player/movement/footfell/walk_Metalgrate_08.wav"
+		"wave"		"player/movement/footfell/walk_Metalgrate_09.wav"
+		"wave"		"player/movement/footfell/walk_Metalgrate_10.wav"
+		"wave"		"player/movement/footfell/walk_Metalgrate_11.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Sprint.Metalgrate_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.5,0.55"
+	"pitch"			"93,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"	
+
+		"rndwave"
+	{	
+		"volume"			"1.5"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/footfell/run_Metalgrate_01.wav"
+		"wave"		"player/movement/footfell/run_Metalgrate_02.wav"
+		"wave"		"player/movement/footfell/run_Metalgrate_03.wav"
+		"wave"		"player/movement/footfell/run_Metalgrate_04.wav"
+		"wave"		"player/movement/footfell/run_Metalgrate_05.wav"
+//		"wave"		"player/movement/footfell/run_Metalgrate_06.wav"
+//		"wave"		"player/movement/footfell/run_Metalgrate_07.wav"
+//		"wave"		"player/movement/footfell/run_Metalgrate_08.wav"
+//		"wave"		"player/movement/footfell/run_Metalgrate_09.wav"
+//		"wave"		"player/movement/footfell/run_Metalgrate_10.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"130,140"
+		
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Land.Metalgrate_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"2.0"
+	"pitch"			"93,105"
+	"falloff"		"1"
+	"flags"			"noduck,layered"	
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"90,110"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/footfell/jumpland_Metalgrate_01.wav"
+		"wave"			"player/movement/footfell/jumpland_Metalgrate_02.wav"
+		"wave"			"player/movement/footfell/jumpland_Metalgrate_03.wav"
+	}
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_01.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_02.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_03.wav"
+	}
+}
+
+
+
+
+"Grunt.Crouch.Tile_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.4,0.45"
+	"pitch"			"95,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/footfell/walk_Tile_01.wav"
+//		"wave"		"player/movement/footfell/walk_Tile_02.wav"
+		"wave"		"player/movement/footfell/walk_Tile_03.wav"
+//		"wave"		"player/movement/footfell/walk_Tile_04.wav"
+		"wave"		"player/movement/footfell/walk_Tile_05.wav"
+		"wave"		"player/movement/footfell/walk_Tile_06.wav"
+		"wave"		"player/movement/footfell/walk_Tile_07.wav"
+//		"wave"		"player/movement/footfell/walk_Tile_08.wav"
+//		"wave"		"player/movement/footfell/walk_Tile_09.wav"
+//		"wave"		"player/movement/footfell/walk_Tile_10.wav"
+//		"wave"		"player/movement/footfell/walk_Tile_11.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.8"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Jog.Tile_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"falloff"		"0"
+	"volume"		"0.4,0.45"
+	"pitch"			"93,105"
+	"flags"			"noduck,layered"	
+
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		"wave"		"player/movement/footfell/walk_Tile_01.wav"
+//		"wave"		"player/movement/footfell/walk_Tile_02.wav"
+		"wave"		"player/movement/footfell/walk_Tile_03.wav"
+//		"wave"		"player/movement/footfell/walk_Tile_04.wav"
+		"wave"		"player/movement/footfell/walk_Tile_05.wav"
+		"wave"		"player/movement/footfell/walk_Tile_06.wav"
+		"wave"		"player/movement/footfell/walk_Tile_07.wav"
+//		"wave"		"player/movement/footfell/walk_Tile_08.wav"
+//		"wave"		"player/movement/footfell/walk_Tile_09.wav"
+//		"wave"		"player/movement/footfell/walk_Tile_10.wav"
+//		"wave"		"player/movement/footfell/walk_Tile_11.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Sprint.Tile_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.5,0.55"
+	"pitch"			"93,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"	
+
+		"rndwave"
+	{	
+		"volume"			"1.5"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/footfell/run_Tile_01.wav"
+		"wave"		"player/movement/footfell/run_Tile_02.wav"
+		"wave"		"player/movement/footfell/run_Tile_03.wav"
+//		"wave"		"player/movement/footfell/run_Tile_04.wav"
+		"wave"		"player/movement/footfell/run_Tile_05.wav"
+//		"wave"		"player/movement/footfell/run_Tile_06.wav"
+//		"wave"		"player/movement/footfell/run_Tile_07.wav"
+		"wave"		"player/movement/footfell/run_Tile_08.wav"
+//		"wave"		"player/movement/footfell/run_Tile_09.wav"
+//		"wave"		"player/movement/footfell/run_Tile_10.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"130,140"
+		
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+
+"Grunt.Land.Tile_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"2.0"
+	"pitch"			"93,105"
+	"falloff"		"1"
+	"flags"			"noduck,layered"	
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"90,110"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/footfell/jumpland_Tile_01.wav"
+		"wave"			"player/movement/footfell/jumpland_Tile_02.wav"
+		"wave"			"player/movement/footfell/jumpland_Tile_03.wav"
+	}
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_01.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_02.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_03.wav"
+	}
+}
+
+
+"Grunt.Crouch.Water_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.4,0.45"
+	"pitch"			"95,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		//		"wave"		"player/movement/footfell/walk_water_01.wav"
+//		"wave"		"player/movement/footfell/walk_water_02.wav"
+		"wave"		"player/movement/footfell/walk_water_03.wav"
+//		"wave"		"player/movement/footfell/walk_water_04.wav"
+		"wave"		"player/movement/footfell/walk_water_05.wav"
+//		"wave"		"player/movement/footfell/walk_water_06.wav"
+		"wave"		"player/movement/footfell/walk_water_07.wav"
+		"wave"		"player/movement/footfell/walk_water_08.wav"
+//		"wave"		"player/movement/footfell/walk_water_09.wav"
+		"wave"		"player/movement/footfell/walk_water_10.wav"
+//		"wave"		"player/movement/footfell/walk_water_11.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.8"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Jog.Water_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"falloff"		"0"
+	"volume"		"0.4,0.45"
+	"pitch"			"93,105"
+	"flags"			"noduck,layered"	
+
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		//		"wave"		"player/movement/footfell/walk_water_01.wav"
+//		"wave"		"player/movement/footfell/walk_water_02.wav"
+		"wave"		"player/movement/footfell/walk_water_03.wav"
+//		"wave"		"player/movement/footfell/walk_water_04.wav"
+		"wave"		"player/movement/footfell/walk_water_05.wav"
+//		"wave"		"player/movement/footfell/walk_water_06.wav"
+		"wave"		"player/movement/footfell/walk_water_07.wav"
+		"wave"		"player/movement/footfell/walk_water_08.wav"
+//		"wave"		"player/movement/footfell/walk_water_09.wav"
+		"wave"		"player/movement/footfell/walk_water_10.wav"
+//		"wave"		"player/movement/footfell/walk_water_11.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Sprint.Water_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.5,0.55"
+	"pitch"			"93,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"	
+
+		"rndwave"
+	{	
+		"volume"			"1.5"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/footfell/run_water_01.wav"
+		"wave"		"player/movement/footfell/run_water_02.wav"
+		"wave"		"player/movement/footfell/run_water_03.wav"
+		"wave"		"player/movement/footfell/run_water_04.wav"
+		"wave"		"player/movement/footfell/run_water_05.wav"
+//		"wave"		"player/movement/footfell/run_water_06.wav"
+//		"wave"		"player/movement/footfell/run_water_07.wav"
+//		"wave"		"player/movement/footfell/run_water_08.wav"
+//		"wave"		"player/movement/footfell/run_water_09.wav"
+//		"wave"		"player/movement/footfell/run_water_10.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"130,140"
+		
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+
+"Grunt.Land.Water_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"2.0"
+	"pitch"			"93,105"
+	"falloff"		"1"
+	"flags"			"noduck,layered"	
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"90,110"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/footfell/jumpland_Water_01.wav"
+		"wave"			"player/movement/footfell/jumpland_Water_02.wav"
+		"wave"			"player/movement/footfell/jumpland_Water_03.wav"
+	}
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_01.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_02.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_03.wav"
+	}
+}
+
+
+
+"Grunt.Crouch.DeepWater_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.4,0.45"
+	"pitch"			"95,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"
+	
+	"rndwave"
+	{	
+		"volume"			"0.5"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "700"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+		
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_01.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_02.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_03.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_04.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_05.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_06.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_07.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_08.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_09.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_10.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.8"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Jog.DeepWater_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"falloff"		"0"
+	"volume"		"0.4,0.45"
+	"pitch"			"93,105"
+	"flags"			"noduck,layered"	
+
+	"rndwave"
+	{	
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+		
+		"volume"	"0.8,1.2"
+		"pitch"		"75,80"
+		
+		
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Walk_DeepWater_2ch_v2_01.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Walk_DeepWater_2ch_v2_02.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Walk_DeepWater_2ch_v2_03.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Walk_DeepWater_2ch_v2_04.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Walk_DeepWater_2ch_v2_05.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Walk_DeepWater_2ch_v2_06.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Walk_DeepWater_2ch_v2_07.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Walk_DeepWater_2ch_v2_08.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Walk_DeepWater_2ch_v2_09.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Walk_DeepWater_2ch_v2_10.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Walk_DeepWater_2ch_v2_11.wav"
+		
+	}
+	
+	"rndwave"
+	{	
+		"volume"			"0.2"
+		"pitch"				"90,100"
+		"limit"				"2"
+		"delay"				"200"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+		
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_01.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_02.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_03.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_04.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_05.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_06.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_07.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_08.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_09.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_10.wav"
+		
+	}
+	
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Sprint.DeepWater_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.5,0.55"
+	"pitch"			"93,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"	
+
+		"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+		
+		//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Run_DeepWater_2ch_v2_01.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Run_DeepWater_2ch_v2_02.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Run_DeepWater_2ch_v2_03.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Run_DeepWater_2ch_v2_04.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Run_DeepWater_2ch_v2_05.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Run_DeepWater_2ch_v2_06.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Run_DeepWater_2ch_v2_07.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Run_DeepWater_2ch_v2_08.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Run_DeepWater_2ch_v2_09.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Run_DeepWater_2ch_v2_10.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Run_DeepWater_2ch_v2_11.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Run_DeepWater_2ch_v2_12.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Run_DeepWater_2ch_v2_13.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Run_DeepWater_2ch_v2_14.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_Run_DeepWater_2ch_v2_15.wav"
+		
+	}
+	
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"80,90"
+		"limit"				"2"
+		"delay"				"200"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+		
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_01.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_02.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_03.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_04.wav"
+		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_05.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_06.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_07.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_08.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_09.wav"
+//		"wave"		"player/movement/footfell/Mvmt_Human_1p_FS_CrouchWalk_DeepWater_2ch_v1_10.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"130,140"
+		
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+
+
+"Grunt.Land.DeepWater_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"2.0"
+	"pitch"			"93,105"
+	"falloff"		"1"
+	"flags"			"noduck,layered"	
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"90,110"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/footfell/jumpland_Water_01.wav"
+		"wave"			"player/movement/footfell/jumpland_Water_02.wav"
+		"wave"			"player/movement/footfell/jumpland_Water_03.wav"
+	}
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_01.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_02.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_03.wav"
+	}
+}
+
+
+
+"Grunt.Crouch.Solidglass_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.4,0.45"
+	"pitch"			"95,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/footfell/walk_SolidGlass_01.wav"
+//		"wave"		"player/movement/footfell/walk_SolidGlass_02.wav"
+		"wave"		"player/movement/footfell/walk_SolidGlass_03.wav"
+		"wave"		"player/movement/footfell/walk_SolidGlass_04.wav"
+		"wave"		"player/movement/footfell/walk_SolidGlass_05.wav"
+		"wave"		"player/movement/footfell/walk_SolidGlass_06.wav"
+//		"wave"		"player/movement/footfell/walk_SolidGlass_07.wav"
+//		"wave"		"player/movement/footfell/walk_SolidGlass_08.wav"
+//		"wave"		"player/movement/footfell/walk_SolidGlass_09.wav"
+//		"wave"		"player/movement/footfell/walk_SolidGlass_10.wav"
+//		"wave"		"player/movement/footfell/walk_SolidGlass_11.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.8"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Jog.Solidglass_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"falloff"		"0"
+	"volume"		"0.4,0.45"
+	"pitch"			"93,105"
+	"flags"			"noduck,layered"	
+
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		"wave"		"player/movement/footfell/walk_SolidGlass_01.wav"
+//		"wave"		"player/movement/footfell/walk_SolidGlass_02.wav"
+		"wave"		"player/movement/footfell/walk_SolidGlass_03.wav"
+		"wave"		"player/movement/footfell/walk_SolidGlass_04.wav"
+		"wave"		"player/movement/footfell/walk_SolidGlass_05.wav"
+		"wave"		"player/movement/footfell/walk_SolidGlass_06.wav"
+//		"wave"		"player/movement/footfell/walk_SolidGlass_07.wav"
+//		"wave"		"player/movement/footfell/walk_SolidGlass_08.wav"
+//		"wave"		"player/movement/footfell/walk_SolidGlass_09.wav"
+//		"wave"		"player/movement/footfell/walk_SolidGlass_10.wav"
+//		"wave"		"player/movement/footfell/walk_SolidGlass_11.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Sprint.Solidglass_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.5,0.55"
+	"pitch"			"93,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"	
+
+		"rndwave"
+	{	
+		"volume"			"1.5"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/footfell/run_SolidGlass_01.wav"
+		"wave"		"player/movement/footfell/run_SolidGlass_02.wav"
+		"wave"		"player/movement/footfell/run_SolidGlass_03.wav"
+		"wave"		"player/movement/footfell/run_SolidGlass_04.wav"
+		"wave"		"player/movement/footfell/run_SolidGlass_05.wav"
+//		"wave"		"player/movement/footfell/run_SolidGlass_06.wav"
+//		"wave"		"player/movement/footfell/run_SolidGlass_07.wav"
+//		"wave"		"player/movement/footfell/run_SolidGlass_08.wav"
+//		"wave"		"player/movement/footfell/run_SolidGlass_09.wav"
+//		"wave"		"player/movement/footfell/run_SolidGlass_10.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"130,140"
+		
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Land.Solidglass_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"2.0"
+	"pitch"			"93,105"
+	"falloff"		"1"
+	"flags"			"noduck,layered"	
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"90,110"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/footfell/jumpland_Solidglass_01.wav"
+		"wave"			"player/movement/footfell/jumpland_Solidglass_02.wav"
+		"wave"			"player/movement/footfell/jumpland_Solidglass_03.wav"
+	}
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_01.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_02.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_03.wav"
+	}
+}
+
+
+
+"Grunt.Crouch.Concrete_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.4,0.45"
+	"pitch"			"95,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/footfell/walk_Concrete_01.wav"
+		"wave"		"player/movement/footfell/walk_Concrete_02.wav"
+		"wave"		"player/movement/footfell/walk_Concrete_03.wav"
+		"wave"		"player/movement/footfell/walk_Concrete_04.wav"
+		"wave"		"player/movement/footfell/walk_Concrete_05.wav"
+		"wave"		"player/movement/footfell/walk_Concrete_06.wav"
+//		"wave"		"player/movement/footfell/walk_Concrete_07.wav"
+//		"wave"		"player/movement/footfell/walk_Concrete_08.wav"
+//		"wave"		"player/movement/footfell/walk_Concrete_09.wav"
+//		"wave"		"player/movement/footfell/walk_Concrete_10.wav"
+//		"wave"		"player/movement/footfell/walk_Concrete_11.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.8"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Jog.Concrete_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"falloff"		"0"
+	"volume"		"0.4,0.45"
+	"pitch"			"93,105"
+	"flags"			"noduck,layered"	
+
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		"wave"		"player/movement/footfell/walk_Concrete_01.wav"
+		"wave"		"player/movement/footfell/walk_Concrete_02.wav"
+		"wave"		"player/movement/footfell/walk_Concrete_03.wav"
+		"wave"		"player/movement/footfell/walk_Concrete_04.wav"
+		"wave"		"player/movement/footfell/walk_Concrete_05.wav"
+		"wave"		"player/movement/footfell/walk_Concrete_06.wav"
+//		"wave"		"player/movement/footfell/walk_Concrete_07.wav"
+//		"wave"		"player/movement/footfell/walk_Concrete_08.wav"
+//		"wave"		"player/movement/footfell/walk_Concrete_09.wav"
+//		"wave"		"player/movement/footfell/walk_Concrete_10.wav"
+//		"wave"		"player/movement/footfell/walk_Concrete_11.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Sprint.Concrete_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.5,0.55"
+	"pitch"			"93,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"	
+
+		"rndwave"
+	{	
+		"volume"			"1.5"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/footfell/run_Concrete_01.wav"
+		"wave"		"player/movement/footfell/run_Concrete_02.wav"
+		"wave"		"player/movement/footfell/run_Concrete_03.wav"
+		"wave"		"player/movement/footfell/run_Concrete_04.wav"
+		"wave"		"player/movement/footfell/run_Concrete_05.wav"
+		"wave"		"player/movement/footfell/run_Concrete_06.wav"
+		"wave"		"player/movement/footfell/run_Concrete_07.wav"
+		"wave"		"player/movement/footfell/run_Concrete_08.wav"
+		"wave"		"player/movement/footfell/run_Concrete_09.wav"
+		"wave"		"player/movement/footfell/run_Concrete_10.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"130,140"
+		
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+
+
+"Grunt.Land.Concrete_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"2.0"
+	"pitch"			"93,105"
+	"falloff"		"1"
+	"flags"			"noduck,layered"	
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"90,110"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/footfell/jumpland_Concrete_01.wav"
+		"wave"			"player/movement/footfell/jumpland_Concrete_02.wav"
+		"wave"			"player/movement/footfell/jumpland_Concrete_03.wav"
+	}
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_01.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_02.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_03.wav"
+	}
+}
+
+
+
+
+"Grunt.Crouch.Sand_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.4,0.45"
+	"pitch"			"95,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/footfell/walk_Sand_01.wav"
+		"wave"		"player/movement/footfell/walk_Sand_02.wav"
+		"wave"		"player/movement/footfell/walk_Sand_03.wav"
+		"wave"		"player/movement/footfell/walk_Sand_04.wav"
+		"wave"		"player/movement/footfell/walk_Sand_05.wav"
+		"wave"		"player/movement/footfell/walk_Sand_06.wav"
+//		"wave"		"player/movement/footfell/walk_Sand_07.wav"
+//		"wave"		"player/movement/footfell/walk_Sand_08.wav"
+//		"wave"		"player/movement/footfell/walk_Sand_09.wav"
+//		"wave"		"player/movement/footfell/walk_Sand_10.wav"
+//		"wave"		"player/movement/footfell/walk_Sand_11.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.8"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Jog.Sand_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"falloff"		"0"
+	"volume"		"0.4,0.45"
+	"pitch"			"93,105"
+	"flags"			"noduck,layered"	
+
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		"wave"		"player/movement/footfell/walk_Sand_01.wav"
+		"wave"		"player/movement/footfell/walk_Sand_02.wav"
+		"wave"		"player/movement/footfell/walk_Sand_03.wav"
+		"wave"		"player/movement/footfell/walk_Sand_04.wav"
+		"wave"		"player/movement/footfell/walk_Sand_05.wav"
+		"wave"		"player/movement/footfell/walk_Sand_06.wav"
+//		"wave"		"player/movement/footfell/walk_Sand_07.wav"
+//		"wave"		"player/movement/footfell/walk_Sand_08.wav"
+//		"wave"		"player/movement/footfell/walk_Sand_09.wav"
+//		"wave"		"player/movement/footfell/walk_Sand_10.wav"
+//		"wave"		"player/movement/footfell/walk_Sand_11.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Sprint.Sand_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.5,0.55"
+	"pitch"			"93,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"	
+
+		"rndwave"
+	{	
+		"volume"			"1.5"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/footfell/run_Sand_01.wav"
+		"wave"		"player/movement/footfell/run_Sand_02.wav"
+		"wave"		"player/movement/footfell/run_Sand_03.wav"
+		"wave"		"player/movement/footfell/run_Sand_04.wav"
+		"wave"		"player/movement/footfell/run_Sand_05.wav"
+//		"wave"		"player/movement/footfell/run_Sand_06.wav"
+//		"wave"		"player/movement/footfell/run_Sand_07.wav"
+//		"wave"		"player/movement/footfell/run_Sand_08.wav"
+//		"wave"		"player/movement/footfell/run_Sand_09.wav"
+//		"wave"		"player/movement/footfell/run_Sand_10.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"130,140"
+		
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+
+
+"Grunt.Land.Sand_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"2.0"
+	"pitch"			"93,105"
+	"falloff"		"1"
+	"flags"			"noduck,layered"	
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"90,110"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/footfell/jumpland_Sand_01.wav"
+		"wave"			"player/movement/footfell/jumpland_Sand_02.wav"
+		"wave"			"player/movement/footfell/jumpland_Sand_03.wav"
+	}
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_01.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_02.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_03.wav"
+	}
+}
+
+
+
+"Grunt.Crouch.Wood_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.4,0.45"
+	"pitch"			"95,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		//		"wave"		"player/movement/footfell/walk_Wood_01.wav"
+//		"wave"		"player/movement/footfell/walk_Wood_02.wav"
+//		"wave"		"player/movement/footfell/walk_Wood_03.wav"
+		"wave"		"player/movement/footfell/walk_Wood_04.wav"
+//		"wave"		"player/movement/footfell/walk_Wood_05.wav"
+//		"wave"		"player/movement/footfell/walk_Wood_06.wav"
+		"wave"		"player/movement/footfell/walk_Wood_07.wav"
+		"wave"		"player/movement/footfell/walk_Wood_08.wav"
+		"wave"		"player/movement/footfell/walk_Wood_09.wav"
+		"wave"		"player/movement/footfell/walk_Wood_10.wav"
+//		"wave"		"player/movement/footfell/walk_Wood_11.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.8"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Jog.Wood_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"falloff"		"0"
+	"volume"		"0.4,0.45"
+	"pitch"			"93,105"
+	"flags"			"noduck,layered"	
+
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		//		"wave"		"player/movement/footfell/walk_Wood_01.wav"
+//		"wave"		"player/movement/footfell/walk_Wood_02.wav"
+//		"wave"		"player/movement/footfell/walk_Wood_03.wav"
+		"wave"		"player/movement/footfell/walk_Wood_04.wav"
+//		"wave"		"player/movement/footfell/walk_Wood_05.wav"
+//		"wave"		"player/movement/footfell/walk_Wood_06.wav"
+		"wave"		"player/movement/footfell/walk_Wood_07.wav"
+		"wave"		"player/movement/footfell/walk_Wood_08.wav"
+		"wave"		"player/movement/footfell/walk_Wood_09.wav"
+		"wave"		"player/movement/footfell/walk_Wood_10.wav"
+//		"wave"		"player/movement/footfell/walk_Wood_11.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Sprint.Wood_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.5,0.55"
+	"pitch"			"93,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"	
+
+		"rndwave"
+	{	
+		"volume"			"1.5"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		//		"wave"		"player/movement/footfell/run_Wood_01.wav"
+		"wave"		"player/movement/footfell/run_Wood_02.wav"
+		"wave"		"player/movement/footfell/run_Wood_03.wav"
+		"wave"		"player/movement/footfell/run_Wood_04.wav"
+    "wave"		"player/movement/footfell/run_Wood_05.wav"
+//		"wave"		"player/movement/footfell/run_Wood_06.wav"
+//		"wave"		"player/movement/footfell/run_Wood_07.wav"
+//		"wave"		"player/movement/footfell/run_Wood_08.wav"
+		"wave"		"player/movement/footfell/run_Wood_09.wav"
+//		"wave"		"player/movement/footfell/run_Wood_10.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"130,140"
+		
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+
+
+"Grunt.Land.Wood_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"2.0"
+	"pitch"			"93,105"
+	"falloff"		"1"
+	"flags"			"noduck,layered"	
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"90,110"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/footfell/jumpland_Wood_01.wav"
+		"wave"			"player/movement/footfell/jumpland_Wood_02.wav"
+		"wave"			"player/movement/footfell/jumpland_Wood_03.wav"
+	}
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_01.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_02.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_03.wav"
+	}
+}
+
+
+
+"Grunt.Crouch.Solidmetal_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.4,0.45"
+	"pitch"			"95,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		//		"wave"		"player/movement/footfell/walk_Solidmetal_01.wav"
+//		"wave"		"player/movement/footfell/walk_Solidmetal_02.wav"
+//		"wave"		"player/movement/footfell/walk_Solidmetal_03.wav"
+//		"wave"		"player/movement/footfell/walk_Solidmetal_04.wav"
+//		"wave"		"player/movement/footfell/walk_Solidmetal_05.wav"
+		"wave"		"player/movement/footfell/walk_Solidmetal_06.wav"
+		"wave"		"player/movement/footfell/walk_Solidmetal_07.wav"
+		"wave"		"player/movement/footfell/walk_Solidmetal_08.wav"
+		"wave"		"player/movement/footfell/walk_Solidmetal_09.wav"
+		"wave"		"player/movement/footfell/walk_Solidmetal_10.wav"
+//		"wave"		"player/movement/footfell/walk_Solidmetal_11.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.8"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Jog.Solidmetal_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"falloff"		"0"
+	"volume"		"0.4,0.45"
+	"pitch"			"93,105"
+	"flags"			"noduck,layered"	
+
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		//		"wave"		"player/movement/footfell/walk_Solidmetal_01.wav"
+//		"wave"		"player/movement/footfell/walk_Solidmetal_02.wav"
+//		"wave"		"player/movement/footfell/walk_Solidmetal_03.wav"
+//		"wave"		"player/movement/footfell/walk_Solidmetal_04.wav"
+//		"wave"		"player/movement/footfell/walk_Solidmetal_05.wav"
+		"wave"		"player/movement/footfell/walk_Solidmetal_06.wav"
+		"wave"		"player/movement/footfell/walk_Solidmetal_07.wav"
+		"wave"		"player/movement/footfell/walk_Solidmetal_08.wav"
+		"wave"		"player/movement/footfell/walk_Solidmetal_09.wav"
+		"wave"		"player/movement/footfell/walk_Solidmetal_10.wav"
+//		"wave"		"player/movement/footfell/walk_Solidmetal_11.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Sprint.Solidmetal_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.5,0.55"
+	"pitch"			"93,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"	
+
+		"rndwave"
+	{	
+		"volume"			"1.5"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/footfell/run_Solidmetal_01.wav"
+		"wave"		"player/movement/footfell/run_Solidmetal_02.wav"
+		"wave"		"player/movement/footfell/run_Solidmetal_03.wav"
+		"wave"		"player/movement/footfell/run_Solidmetal_04.wav"
+		"wave"		"player/movement/footfell/run_Solidmetal_05.wav"
+//		"wave"		"player/movement/footfell/run_Solidmetal_06.wav"
+//		"wave"		"player/movement/footfell/run_Solidmetal_07.wav"
+//		"wave"		"player/movement/footfell/run_Solidmetal_08.wav"
+//		"wave"		"player/movement/footfell/run_Solidmetal_09.wav"
+//		"wave"		"player/movement/footfell/run_Solidmetal_10.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"130,140"
+		
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+
+"Grunt.Land.Solidmetal_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"2.0"
+	"pitch"			"93,105"
+	"falloff"		"1"
+	"flags"			"noduck,layered"	
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"90,110"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/footfell/jumpland_Solidmetal_01.wav"
+		"wave"			"player/movement/footfell/jumpland_Solidmetal_02.wav"
+		"wave"			"player/movement/footfell/jumpland_Solidmetal_03.wav"
+	}
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_01.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_02.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_03.wav"
+	}
+}
+
+
+
+"Grunt.Crouch.Metalvent_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.4,0.45"
+	"pitch"			"95,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/footfell/walk_Metalvent_01.wav"
+		"wave"		"player/movement/footfell/walk_Metalvent_02.wav"
+		"wave"		"player/movement/footfell/walk_Metalvent_03.wav"
+		"wave"		"player/movement/footfell/walk_Metalvent_04.wav"
+		"wave"		"player/movement/footfell/walk_Metalvent_05.wav"
+//		"wave"		"player/movement/footfell/walk_Metalvent_06.wav"
+//		"wave"		"player/movement/footfell/walk_Metalvent_07.wav"
+//		"wave"		"player/movement/footfell/walk_Metalvent_08.wav"
+//		"wave"		"player/movement/footfell/walk_Metalvent_09.wav"
+//		"wave"		"player/movement/footfell/walk_Metalvent_10.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.8"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Jog.Metalvent_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"falloff"		"0"
+	"volume"		"0.4,0.45"
+	"pitch"			"93,105"
+	"flags"			"noduck,layered"	
+
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		"wave"		"player/movement/footfell/walk_Metalvent_01.wav"
+		"wave"		"player/movement/footfell/walk_Metalvent_02.wav"
+		"wave"		"player/movement/footfell/walk_Metalvent_03.wav"
+		"wave"		"player/movement/footfell/walk_Metalvent_04.wav"
+		"wave"		"player/movement/footfell/walk_Metalvent_05.wav"
+//		"wave"		"player/movement/footfell/walk_Metalvent_06.wav"
+//		"wave"		"player/movement/footfell/walk_Metalvent_07.wav"
+//		"wave"		"player/movement/footfell/walk_Metalvent_08.wav"
+//		"wave"		"player/movement/footfell/walk_Metalvent_09.wav"
+//		"wave"		"player/movement/footfell/walk_Metalvent_10.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"0.6"
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+"Grunt.Sprint.Metalvent_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"0.5,0.55"
+	"pitch"			"93,105"
+	"falloff"		"0"
+	"flags"			"noduck,layered"	
+
+		"rndwave"
+	{	
+		"volume"			"1.5"
+		"pitch"				"95,105"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"		"player/movement/footfell/run_Metalvent_01.wav"
+		"wave"		"player/movement/footfell/run_Metalvent_02.wav"
+		"wave"		"player/movement/footfell/run_Metalvent_03.wav"
+		"wave"		"player/movement/footfell/run_Metalvent_04.wav"
+//		"wave"		"player/movement/footfell/run_Metalvent_05.wav"
+//		"wave"		"player/movement/footfell/run_Metalvent_06.wav"
+//		"wave"		"player/movement/footfell/run_Metalvent_07.wav"
+//		"wave"		"player/movement/footfell/run_Metalvent_08.wav"
+//		"wave"		"player/movement/footfell/run_Metalvent_09.wav"
+//		"wave"		"player/movement/footfell/run_Metalvent_10.wav"
+		
+	}
+	
+	
+	"rndwave"
+	{	
+		"volume"			"1.0"
+		"pitch"				"130,140"
+		
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		
+		
+		"wave"		"player/movement/gear/walk_gear_01.wav"
+		"wave"		"player/movement/gear/walk_gear_02.wav"
+		"wave"		"player/movement/gear/walk_gear_03.wav"
+		"wave"		"player/movement/gear/walk_gear_04.wav"
+		"wave"		"player/movement/gear/walk_gear_05.wav"
+		"wave"		"player/movement/gear/walk_gear_06.wav"
+//		"wave"		"player/movement/gear/walk_gear_07.wav"
+//		"wave"		"player/movement/gear/walk_gear_08.wav"
+//		"wave"		"player/movement/gear/walk_gear_09.wav"
+//		"wave"		"player/movement/gear/walk_gear_10.wav"
+//		"wave"		"player/movement/gear/walk_gear_11.wav"
+		
+	}
+}
+
+
+"Grunt.Land.Metalvent_3P"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Footsteps,SFX_3P_Footsteps_Grunts"
+	"volume"		"2.0"
+	"pitch"			"93,105"
+	"falloff"		"1"
+	"flags"			"noduck,layered"	
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"90,110"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/footfell/jumpland_Metalvent_01.wav"
+		"wave"			"player/movement/footfell/jumpland_Metalvent_02.wav"
+		"wave"			"player/movement/footfell/jumpland_Metalvent_03.wav"
+	}
+	"rndwave"
+	{
+		"volume"			"2"	
+		"pitch"				"130,140"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"80"
+		"limit"				"2"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "1"
+		
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_01.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_02.wav"
+		"wave"			"player/movement/gear/Mvmt_Human_1P_FS_Jumpland_Gear_2ch_v1_03.wav"
+	}
+}
+
+

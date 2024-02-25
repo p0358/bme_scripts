@@ -1,0 +1,2273 @@
+/////////////////////////////////////////////
+// Character animations for dropship flyin //
+////////////////////////////////////////////
+
+
+"Player_Militia_FlyinB_ClothGear_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinB_ClothGear_01.wav"
+}
+
+"Player_Militia_FlyinB_ClothGear_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinB_ClothGear_02.wav"
+}
+
+"Player_Militia_FlyinB_ClothGear_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinB_ClothGear_03.wav"
+}
+
+"Player_Militia_FlyinB_ClothGear_04"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinB_ClothGear_04.wav"
+}
+
+"Player_Militia_FlyinB_ClothGear_05"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinB_ClothGear_05.wav"
+}
+
+"Player_Militia_FlyinB_Footstep_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinB_Footstep_01.wav"
+}
+
+"Player_Militia_FlyinB_Footstep_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinB_Footstep_02.wav"
+}
+
+"Player_Militia_FlyinB_Footstep_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinB_Footstep_03.wav"
+}
+
+"Player_Militia_FlyinB_Footstep_04"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinB_Footstep_04.wav"
+}
+
+"Player_Militia_FlyinB_Footstep_05"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinB_Footstep_05.wav"
+}
+
+"Player_Militia_FlyinB_Footstep_06"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinB_Footstep_06.wav"
+}
+
+"Player_Militia_FlyinB_Footstep_07"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinB_Footstep_07.wav"
+}
+
+"Player_Militia_FlyinB_Footstep_08"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinB_Footstep_08.wav"
+}
+
+"Player_Militia_FlyinB_Footstep_09"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinB_Footstep_09.wav"
+}
+
+"Player_Militia_FlyinB_Footstep_10"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinB_Footstep_10.wav"
+}
+
+"Player_Militia_FlyinB_Footstep_11"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinB_Footstep_11.wav"
+}
+
+"Player_Militia_FlyinB_Footstep_12"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinB_Footstep_12.wav"
+}
+
+"Player_Militia_FlyinB_HandPat_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinB_HandPat_01.wav"
+}
+
+"Player_Militia_FlyinB_HandPat_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinB_HandPat_02.wav"
+}
+
+"Player_Militia_FlyinB_WeaponFidget_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinB_WeaponFidget_01.wav"
+}
+
+"Player_Militia_FlyinB_WeaponFidget_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinB_WeaponFidget_02.wav"
+}
+
+"Player_Militia_FlyinB_WeaponFidget_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinB_WeaponFidget_03.wav"
+}
+
+"Player_Militia_FlyinC_ClothGear_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinC_ClothGear_01.wav"
+}
+
+"Player_Militia_FlyinC_ClothGear_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinC_ClothGear_02.wav"
+}
+
+"Player_Militia_FlyinC_ClothGear_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinC_ClothGear_03.wav"
+}
+
+"Player_Militia_FlyinC_ClothGear_04"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinC_ClothGear_04.wav"
+}
+
+"Player_Militia_FlyinC_ClothGear_05"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinC_ClothGear_05.wav"
+}
+
+"Player_Militia_FlyinC_Footstep_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinC_Footstep_01.wav"
+}
+
+"Player_Militia_FlyinC_Footstep_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinC_Footstep_02.wav"
+}
+
+"Player_Militia_FlyinC_Footstep_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinC_Footstep_03.wav"
+}
+
+"Player_Militia_FlyinC_Footstep_04"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinC_Footstep_04.wav"
+}
+
+"Player_Militia_FlyinC_Footstep_05"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinC_Footstep_05.wav"
+}
+
+"Player_Militia_FlyinC_Footstep_06"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinC_Footstep_06.wav"
+}
+
+"Player_Militia_FlyinC_Footstep_07"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinC_Footstep_07.wav"
+}
+
+"Player_Militia_FlyinC_Footstep_08"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinC_Footstep_08.wav"
+}
+
+"Player_Militia_FlyinC_Footstep_09"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinC_Footstep_09.wav"
+}
+
+"Player_Militia_FlyinC_Footstep_10"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinC_Footstep_10.wav"
+}
+
+"Player_Militia_FlyinC_Footstep_11"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\Player_Militia_FlyinC_Footstep_11.wav"
+}
+
+"PlayerA_Militia_FlyinA_Countdown_ClothGear_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinA_Countdown_ClothGear_01.wav"
+}
+
+"PlayerA_Militia_FlyinA_Countdown_ClothGear_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinA_Countdown_ClothGear_02.wav"
+}
+
+"PlayerA_Militia_FlyinA_Countdown_ClothGear_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinA_Countdown_ClothGear_03.wav"
+}
+
+"PlayerA_Militia_FlyinA_Countdown_Footstep_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinA_Countdown_Footstep_01.wav"
+}
+
+"PlayerA_Militia_FlyinA_Countdown_Footstep_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinA_Countdown_Footstep_02.wav"
+}
+
+"PlayerA_Militia_FlyinA_Countdown_Footstep_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinA_Countdown_Footstep_03.wav"
+}
+
+"PlayerA_Militia_FlyinA_Countdown_GrabBar"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinA_Countdown_GrabBar.wav"
+}
+
+"PlayerA_Militia_FlyinA_Countdown_WeaponFidget_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinA_Countdown_WeaponFidget_01.wav"
+}
+
+"PlayerA_Militia_FlyinA_Countdown_WeaponFidget_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinA_Countdown_WeaponFidget_02.wav"
+}
+
+"PlayerA_Militia_FlyinA_Countdown_WeaponFidget_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinA_Countdown_WeaponFidget_03.wav"
+}
+
+"PlayerA_Militia_FlyinA_Idle_ClothGear_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinA_Idle_ClothGear_01.wav"
+}
+
+"PlayerA_Militia_FlyinA_Idle_ClothGear_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinA_Idle_ClothGear_02.wav"
+}
+
+"PlayerA_Militia_FlyinA_Idle_ClothGear_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinA_Idle_ClothGear_03.wav"
+}
+
+"PlayerA_Militia_FlyinA_Idle_ClothGear_04"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinA_Idle_ClothGear_04.wav"
+}
+
+"PlayerA_Militia_FlyinA_Idle_ClothGear_05"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinA_Idle_ClothGear_05.wav"
+}
+
+"PlayerA_Militia_FlyinA_Idle_ClothGear_06"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinA_Idle_ClothGear_06.wav"
+}
+
+"PlayerA_Militia_FlyinA_Idle_ClothGear_07"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinA_Idle_ClothGear_07.wav"
+}
+
+"PlayerA_Militia_FlyinA_Idle_HandPat_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinA_Idle_HandPat_01.wav"
+}
+
+"PlayerA_Militia_FlyinA_Idle_HandPat_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinA_Idle_HandPat_02.wav"
+}
+
+"PlayerA_Militia_FlyinA_Idle_HandPat_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinA_Idle_HandPat_03.wav"
+}
+
+"PlayerA_Militia_FlyinA_Idle_HandPat_04"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinA_Idle_HandPat_04.wav"
+}
+
+"PlayerA_Militia_FlyinA_Idle_HandPat_05"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinA_Idle_HandPat_05.wav"
+}
+
+"PlayerA_Militia_FlyinA_Idle_WeaponFidget_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinA_Idle_WeaponFidget_01.wav"
+}
+
+"PlayerA_Militia_FlyinA_Idle_WeaponFidget_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinA_Idle_WeaponFidget_02.wav"
+}
+
+"PlayerA_Militia_FlyinB_Exit_ClothGear_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinB_Exit_ClothGear_01.wav"
+}
+
+"PlayerA_Militia_FlyinB_Exit_ClothGear_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinB_Exit_ClothGear_02.wav"
+}
+
+"PlayerA_Militia_FlyinB_Exit_ClothGear_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinB_Exit_ClothGear_03.wav"
+}
+
+"PlayerA_Militia_FlyinB_Exit_ClothGear_04"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinB_Exit_ClothGear_04.wav"
+}
+
+"PlayerA_Militia_FlyinB_Exit_ClothGear_05"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinB_Exit_ClothGear_05.wav"
+}
+
+"PlayerA_Militia_FlyinB_Exit_Footstep_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinB_Exit_Footstep_01.wav"
+}
+
+"PlayerA_Militia_FlyinB_Exit_Footstep_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinB_Exit_Footstep_02.wav"
+}
+
+"PlayerA_Militia_FlyinB_Exit_Footstep_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinB_Exit_Footstep_03.wav"
+}
+
+"PlayerA_Militia_FlyinB_Exit_Footstep_04"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinB_Exit_Footstep_04.wav"
+}
+
+"PlayerA_Militia_FlyinB_Exit_Footstep_05"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinB_Exit_Footstep_05.wav"
+}
+
+"PlayerA_Militia_FlyinB_Exit_Footstep_06"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinB_Exit_Footstep_06.wav"
+}
+
+"PlayerA_Militia_FlyinB_Exit_WeaponFidget_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinB_Exit_WeaponFidget_01.wav"
+}
+
+"PlayerA_Militia_FlyinB_Exit_WeaponFidget_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinB_Exit_WeaponFidget_02.wav"
+}
+
+"PlayerA_Militia_FlyinB_Exit_WeaponFidget_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinB_Exit_WeaponFidget_03.wav"
+}
+
+"PlayerA_Militia_FlyinB_Exit_WeaponFidget_04"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinB_Exit_WeaponFidget_04.wav"
+}
+
+"PlayerA_Militia_FlyinB_Exit_WeaponFidget_05"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinB_Exit_WeaponFidget_05.wav"
+}
+
+"PlayerA_Militia_FlyinB_Exit_WeaponFidget_06"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinB_Exit_WeaponFidget_06.wav"
+}
+
+"PlayerA_Militia_FlyinB_Exit_WeaponFidget_07"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerA_Militia_FlyinB_Exit_WeaponFidget_07.wav"
+}
+
+"PlayerB_Militia_FlyinA_Countdown_ClothGear_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Countdown_ClothGear_01.wav"
+}
+
+"PlayerB_Militia_FlyinA_Countdown_ClothGear_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Countdown_ClothGear_02.wav"
+}
+
+"PlayerB_Militia_FlyinA_Countdown_ClothGear_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Countdown_ClothGear_03.wav"
+}
+
+"PlayerB_Militia_FlyinA_Countdown_Footstep_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Countdown_Footstep_01.wav"
+}
+
+"PlayerB_Militia_FlyinA_Countdown_Footstep_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Countdown_Footstep_02.wav"
+}
+
+"PlayerB_Militia_FlyinA_Countdown_Footstep_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Countdown_Footstep_03.wav"
+}
+
+"PlayerB_Militia_FlyinA_Countdown_Footstep_04"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Countdown_Footstep_04.wav"
+}
+
+"PlayerB_Militia_FlyinA_Countdown_Footstep_05"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Countdown_Footstep_05.wav"
+}
+
+"PlayerB_Militia_FlyinA_Countdown_WeaponFidget_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Countdown_WeaponFidget_01.wav"
+}
+
+"PlayerB_Militia_FlyinA_Countdown_WeaponFidget_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Countdown_WeaponFidget_02.wav"
+}
+
+"PlayerB_Militia_FlyinA_Countdown_WeaponFidget_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Countdown_WeaponFidget_03.wav"
+}
+
+"PlayerB_Militia_FlyinA_Countdown_WeaponFidget_04"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Countdown_WeaponFidget_04.wav"
+}
+
+"PlayerB_Militia_FlyinA_Countdown_WeaponFidget_05"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Countdown_WeaponFidget_05.wav"
+}
+
+"PlayerB_Militia_FlyinA_Idle_ClothGear_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Idle_ClothGear_01.wav"
+}
+
+"PlayerB_Militia_FlyinA_Idle_ClothGear_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Idle_ClothGear_02.wav"
+}
+
+"PlayerB_Militia_FlyinA_Idle_ClothGear_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Idle_ClothGear_03.wav"
+}
+
+"PlayerB_Militia_FlyinA_Idle_ClothGear_04"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Idle_ClothGear_04.wav"
+}
+
+"PlayerB_Militia_FlyinA_Idle_ClothGear_05"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Idle_ClothGear_05.wav"
+}
+
+"PlayerB_Militia_FlyinA_Idle_ClothGear_06"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Idle_ClothGear_06.wav"
+}
+
+"PlayerB_Militia_FlyinA_Idle_ClothGear_07"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Idle_ClothGear_07.wav"
+}
+
+"PlayerB_Militia_FlyinA_Idle_ClothGear_08"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Idle_ClothGear_08.wav"
+}
+
+"PlayerB_Militia_FlyinA_Idle_Footstep_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Idle_Footstep_01.wav"
+}
+
+"PlayerB_Militia_FlyinA_Idle_Footstep_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Idle_Footstep_02.wav"
+}
+
+"PlayerB_Militia_FlyinA_Idle_WeaponFidget_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Idle_WeaponFidget_01.wav"
+}
+
+"PlayerB_Militia_FlyinA_Idle_WeaponFidget_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Idle_WeaponFidget_02.wav"
+}
+
+"PlayerB_Militia_FlyinA_Idle_WeaponFidget_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Idle_WeaponFidget_03.wav"
+}
+
+"PlayerB_Militia_FlyinA_Idle_WeaponFidget_04"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Idle_WeaponFidget_04.wav"
+}
+
+"PlayerB_Militia_FlyinA_Idle_WeaponFidget_05"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerB_Militia_FlyinA_Idle_WeaponFidget_05.wav"
+}
+
+"PlayerC_Militia_FlyinA_Countdown_ClothGear_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Countdown_ClothGear_01.wav"
+}
+
+"PlayerC_Militia_FlyinA_Countdown_ClothGear_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Countdown_ClothGear_02.wav"
+}
+
+"PlayerC_Militia_FlyinA_Countdown_ClothGear_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Countdown_ClothGear_03.wav"
+}
+
+"PlayerC_Militia_FlyinA_Countdown_ClothGear_04"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Countdown_ClothGear_04.wav"
+}
+
+"PlayerC_Militia_FlyinA_Countdown_ClothGear_05"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Countdown_ClothGear_05.wav"
+}
+
+"PlayerC_Militia_FlyinA_Countdown_Footsteps_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Countdown_Footsteps_01.wav"
+}
+
+"PlayerC_Militia_FlyinA_Countdown_Footsteps_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Countdown_Footsteps_02.wav"
+}
+
+"PlayerC_Militia_FlyinA_Countdown_GrabBar"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Countdown_GrabBar.wav"
+}
+
+"PlayerC_Militia_FlyinA_Countdown_HandPat_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Countdown_HandPat_01.wav"
+}
+
+"PlayerC_Militia_FlyinA_Countdown_HandPat_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Countdown_HandPat_02.wav"
+}
+
+"PlayerC_Militia_FlyinA_Countdown_HandPat_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Countdown_HandPat_03.wav"
+}
+
+"PlayerC_Militia_FlyinA_Countdown_WeaponFidget_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Countdown_WeaponFidget_01.wav"
+}
+
+"PlayerC_Militia_FlyinA_Countdown_WeaponFidget_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Countdown_WeaponFidget_02.wav"
+}
+
+"PlayerC_Militia_FlyinA_Countdown_WeaponFidget_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Countdown_WeaponFidget_03.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_ClothGear_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_ClothGear_01.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_ClothGear_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_ClothGear_02.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_ClothGear_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_ClothGear_03.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_ClothGear_04"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_ClothGear_04.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_ClothGear_05"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_ClothGear_05.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_ClothGear_06"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_ClothGear_06.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_ClothGear_07"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_ClothGear_07.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_ClothGear_08"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_ClothGear_08.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_ClothGear_09"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_ClothGear_09.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_ClothGear_10"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_ClothGear_10.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_ClothGear_11"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_ClothGear_11.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_ClothGear_12"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_ClothGear_12.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_ClothGear_13"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_ClothGear_13.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_ClothGear_14"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_ClothGear_14.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_ClothGear_15"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_ClothGear_15.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_Footstep_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_Footstep_01.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_Footstep_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_Footstep_02.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_Footstep_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_Footstep_03.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_Footstep_04"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_Footstep_04.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_Footstep_05"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_Footstep_05.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_Footstep_06"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_Footstep_06.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_WeaponFidget_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_WeaponFidget_01.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_WeaponFidget_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_WeaponFidget_02.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_WeaponFidget_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_WeaponFidget_03.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_WeaponFidget_04"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_WeaponFidget_04.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_WeaponFidget_05"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_WeaponFidget_05.wav"
+}
+
+"PlayerC_Militia_FlyinA_Idle_WeaponFidget_06"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_WeaponFidget_06.wav"
+}
+
+
+"PlayerC_Militia_FlyinA_Idle_WeaponFidget_07"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_WeaponFidget_07.wav"
+}
+
+
+"PlayerC_Militia_FlyinA_Idle_WeaponFidget_08"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_WeaponFidget_08.wav"
+}
+
+
+"PlayerC_Militia_FlyinA_Idle_WeaponFidget_09"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerC_Militia_FlyinA_Idle_WeaponFidget_09.wav"
+}
+
+
+"PlayerD_Militia_FlyinA_Countdown_ClothGear_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Countdown_ClothGear_01.wav"
+}
+
+
+"PlayerD_Militia_FlyinA_Countdown_ClothGear_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Countdown_ClothGear_02.wav"
+}
+
+
+"PlayerD_Militia_FlyinA_Countdown_ClothGear_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Countdown_ClothGear_03.wav"
+}
+
+"PlayerD_Militia_FlyinA_Countdown_Footstep_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Countdown_Footstep_01.wav"
+}
+
+
+"PlayerD_Militia_FlyinA_Countdown_Footstep_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Countdown_Footstep_02.wav"
+}
+
+
+"PlayerD_Militia_FlyinA_Countdown_GrabBar"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Countdown_GrabBar.wav"
+}
+
+
+"PlayerD_Militia_FlyinA_Countdown_WeaponFidget_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Countdown_WeaponFidget_01.wav"
+}
+
+
+"PlayerD_Militia_FlyinA_Idle_ClothGear_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Idle_ClothGear_01.wav"
+}
+
+
+"PlayerD_Militia_FlyinA_Idle_ClothGear_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Idle_ClothGear_02.wav"
+}
+
+
+"PlayerD_Militia_FlyinA_Idle_ClothGear_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Idle_ClothGear_03.wav"
+}
+
+
+"PlayerD_Militia_FlyinA_Idle_ClothGear_04"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Idle_ClothGear_04.wav"
+}
+
+
+"PlayerD_Militia_FlyinA_Idle_ClothGear_05"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Idle_ClothGear_05.wav"
+}
+
+
+"PlayerD_Militia_FlyinA_Idle_ClothGear_06"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"1.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Idle_ClothGear_06.wav"
+}
+
+
+"PlayerD_Militia_FlyinA_Idle_Footstep_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Idle_Footstep_01.wav"
+}
+
+
+"PlayerD_Militia_FlyinA_Idle_Footstep_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Idle_Footstep_02.wav"
+}
+
+
+"PlayerD_Militia_FlyinA_Idle_Footstep_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Idle_Footstep_03.wav"
+}
+
+
+"PlayerD_Militia_FlyinA_Idle_Footstep_04"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Idle_Footstep_04.wav"
+}
+
+
+"PlayerD_Militia_FlyinA_Idle_HandPat_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Idle_HandPat_01.wav"
+}
+
+
+"PlayerD_Militia_FlyinA_Idle_HandPat_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Idle_HandPat_02.wav"
+}
+
+"PlayerD_Militia_FlyinA_Idle_HandPat_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Idle_HandPat_03.wav"
+}
+
+"PlayerD_Militia_FlyinA_Idle_WeaponFidget_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Idle_WeaponFidget_01.wav"
+}
+
+"PlayerD_Militia_FlyinA_Idle_WeaponFidget_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Idle_WeaponFidget_02.wav"
+}
+
+"PlayerD_Militia_FlyinA_Idle_WeaponFidget_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Idle_WeaponFidget_03.wav"
+}
+
+"PlayerD_Militia_FlyinA_Idle_WeaponFidget_04"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Idle_WeaponFidget_04.wav"
+}
+
+"PlayerD_Militia_FlyinA_Idle_WeaponFidget_05"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Idle_WeaponFidget_05.wav"
+}
+
+"PlayerD_Militia_FlyinA_Idle_WeaponFidget_06"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Idle_WeaponFidget_06.wav"
+}
+
+"PlayerD_Militia_FlyinA_Idle_WeaponFidget_07"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Idle_WeaponFidget_07.wav"
+}
+
+"PlayerD_Militia_FlyinA_Idle_WeaponFidget_08"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinA_Idle_WeaponFidget_08.wav"
+}
+
+"PlayerD_Militia_FlyinB_Exit_ClothGear_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinB_Exit_ClothGear_01.wav"
+}
+
+"PlayerD_Militia_FlyinB_Exit_ClothGear_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinB_Exit_ClothGear_02.wav"
+}
+
+"PlayerD_Militia_FlyinB_Exit_ClothGear_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinB_Exit_ClothGear_03.wav"
+}
+
+"PlayerD_Militia_FlyinB_Exit_ClothGear_04"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinB_Exit_ClothGear_04.wav"
+}
+
+"PlayerD_Militia_FlyinB_Exit_ClothGear_05"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinB_Exit_ClothGear_05.wav"
+}
+
+"PlayerD_Militia_FlyinB_Exit_ClothGear_06"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinB_Exit_ClothGear_06.wav"
+}
+
+"PlayerD_Militia_FlyinB_Exit_ClothGear_07"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinB_Exit_ClothGear_07.wav"
+}
+
+"PlayerD_Militia_FlyinB_Exit_Footstep_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinB_Exit_Footstep_01.wav"
+}
+
+"PlayerD_Militia_FlyinB_Exit_Footstep_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinB_Exit_Footstep_02.wav"
+}
+
+"PlayerD_Militia_FlyinB_Exit_Footstep_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinB_Exit_Footstep_03.wav"
+}
+
+"PlayerD_Militia_FlyinB_Exit_Footstep_04"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinB_Exit_Footstep_04.wav"
+}
+
+"PlayerD_Militia_FlyinB_Exit_Footstep_05"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinB_Exit_Footstep_05.wav"
+}
+
+"PlayerD_Militia_FlyinB_Exit_Footstep_06"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinB_Exit_Footstep_06.wav"
+}
+
+"PlayerD_Militia_FlyinB_Exit_Footstep_07"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinB_Exit_Footstep_07.wav"
+}
+
+"PlayerD_Militia_FlyinB_Exit_Footstep_08"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinB_Exit_Footstep_08.wav"
+}
+
+"PlayerD_Militia_FlyinB_Exit_HandPat_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinB_Exit_HandPat_01.wav"
+}
+
+"PlayerD_Militia_FlyinB_Exit_WeaponFidget_01"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinB_Exit_WeaponFidget_01.wav"
+}
+
+"PlayerD_Militia_FlyinB_Exit_WeaponFidget_02"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinB_Exit_WeaponFidget_02.wav"
+}
+
+"PlayerD_Militia_FlyinB_Exit_WeaponFidget_03"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinB_Exit_WeaponFidget_03.wav"
+}
+
+"PlayerD_Militia_FlyinB_Exit_WeaponFidget_04"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinB_Exit_WeaponFidget_04.wav"
+
+}
+
+"PlayerD_Militia_FlyinB_Exit_WeaponFidget_05"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Pilots"
+	"volume"			"4.5"
+	"radius"			"600"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"player\flyin\PlayerD_Militia_FlyinB_Exit_WeaponFidget_05.wav"
+
+}
+
+////////////////
+// CLASSIC MP STUFF
+////////////////
+
+"ClassicMP_Jump_Countdown_MCOR"
+{
+	"mixgroup"		"vo,DIAL"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"ducks"			"SFX_Scripted,0.5:0,1000,0,0"
+	"radius"		"0"
+
+	"wave"			"dialogue/cinematics/fracture/diag_mcor_macallan_cmp_frac_prewarp_01_b.wav"
+}
+
+"ClassicMP_Jump_Countdown_IMC"
+{
+	"mixgroup"		"vo,DIAL"
+	"volume"		"1.8"
+	"flags"			"drymix"
+	"ducks"			"SFX_Scripted,0.5:0,1000,0,0"
+	"radius"		"0"
+
+	"wave"			"dialogue/Cinematics/o2/diag_matchIntro_o2106_07_01_imc_flt04.wav"
+}
+
+"ClassicMP_WarpJump" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted"
+	"volume"		"4.0"
+	"radius"		"0"
+	"ducks"			"megathumper,1"
+	"wave"			"campaign/fracture/militia/Fracture_Scr_IntroDropshipWarpJumpToEnd_6ch_v3.wav"
+}

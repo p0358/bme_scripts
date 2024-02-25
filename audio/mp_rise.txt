@@ -1,0 +1,100 @@
+////////////////////
+// GLOBAL AMBIENCE /
+////////////////////
+
+"Amb_Rise_EXT_Global"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Rise"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"2.0"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Rise/Ambience/AMB_Rise_EXT_Global_6ch_v1_LP_COMP.wav"
+	}
+}
+
+"Amb_Rise_INT_SmallRoom"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Rise"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"2.5"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Rise/Ambience/AMB_Rise_INT_SmallRoom_6ch_v1_LP.wav"
+	}
+}
+
+"Amb_Rise_INT_ClosedRoom"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Rise"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"3.5"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Rise/Ambience/AMB_Rise_INT_ClosedRoom_6ch_v1_LP.wav"
+	}
+}
+
+
+///////////////////
+//		MUSIC
+///////////////////
+
+
+
+"Amb_Rise_Emitter_Fan"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Rise"
+	"flags"			"loop"
+	"radius"		"1000"
+	
+	
+	"rndwave"
+	{
+	"volume"		"2.0,2.5"
+	"pitch"			"80,120"
+	"limit"				"3"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_GeneratorLoop_LR_v3_LP.wav"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_FanLoop_LR_v1_LP.wav"
+	}
+}
+
+
+
+
+
+
+"amb_Rise_emitter_steam_medium"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Rise"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"700"
+	"falloff"			"2"
+	"flags"				"mobile,loop"
+
+
+	"rndwave"
+	{
+		"volume"			"4"
+		"pitch"				"80,100"
+		"limit"				"3"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Medium_1ch_01_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Medium_1ch_02_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Medium_1ch_03_LP.wav"
+	}
+}

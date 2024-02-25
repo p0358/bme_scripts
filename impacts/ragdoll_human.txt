@@ -1,0 +1,41 @@
+ImpactTable
+{
+	FX
+	{
+		"C" "impact_alienflesh"
+		"D" "impact_alienflesh"
+		"E" "impact_alienflesh"
+		"F" "impact_alienflesh"
+		"G" "impact_alienflesh"
+		"H" "impact_alienflesh"
+		"J" "impact_alienflesh"
+		"K" "impact_alienflesh"
+		"L" "impact_alienflesh"
+		"M" "impact_alienflesh"
+		"N" "impact_alienflesh"
+		"O" "impact_alienflesh"
+		"P" "impact_alienflesh"
+		"R" "impact_alienflesh"
+		"S" "impact_alienflesh"
+		"T" "impact_alienflesh"
+		"U" "impact_alienflesh"
+		"V" "impact_alienflesh"
+		"W" "impact_alienflesh"
+		"Y" "impact_alienflesh"
+		"0" "impact_alienflesh"
+		"1" "impact_alienflesh"
+		"2" "impact_alienflesh"
+		"3" "impact_alienflesh"
+		"4" "impact_alienflesh"
+		"5" "impact_alienflesh"
+		"6" "impact_alienflesh"
+		"7" "impact_alienflesh"
+		"8" "impact_alienflesh"
+		"9" "impact_alienflesh"
+		"splash" "impact_alienflesh"
+		"slime_splash" "impact_alienflesh"
+		"critical_hit" "impact_alienflesh"
+	}
+}
+
+//impact_alienflesh

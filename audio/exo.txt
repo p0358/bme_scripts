@@ -1,0 +1,6286 @@
+//////////////////////////
+// EXO STARTUP SOUNDS
+//////////////////////////
+
+
+"titan_embark"
+{
+	"flags"			"drymix,omni"
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"1.0"
+	"radius"			"1000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+	"wave"		"null.wav"
+	}
+}
+
+"titan_disembark"
+{
+	"flags"			"drymix,omni"
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"3.0"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+	"wave"		"null.wav"
+	}
+}
+
+"titan_embark_hatch_close"
+{
+	"flags"			"drymix,omni"
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"1.0"
+	"radius"			"300"
+	"pitch"				"95,105"
+
+	"rndwave"
+	{
+	"wave"		"null.wav"
+	}
+}
+
+"titan_disembark_hatch_open"
+{
+	"flags"			"drymix,omni"
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"1.2"
+	"radius"			"1000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+	"wave"		"null.wav"
+	}
+}
+
+"atlas_hatch_open"
+{
+	"flags"			"drymix,omni"
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.0"
+	"radius"			"1500"
+	"pitch"				"90"
+
+	"rndwave"
+	{
+	"wave"		"exo/disembark_hatch_open_08.wav"
+	}
+}
+
+"titan_exterior_hatch_close"
+{
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"1.0"
+	"radius"			"300"
+	"pitch"				"95,105"
+
+	"rndwave"
+	{
+	"wave"		"null.wav"
+	}
+}
+
+"titan_exterior_hatch_open"
+{
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"1.0"
+	"radius"			"300"
+	"pitch"				"95,105"
+
+	"rndwave"
+	{
+	"wave"		"null.wav"
+	}
+}
+
+
+"titan_electronics_bootup"
+{
+	"flags"			"drymix,omni"
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"volume"		"1.0"
+	"radius"		"300"
+	"pitch" 		"100"
+
+	"rndwave"
+	{
+	"wave"		"null.wav"
+	}
+
+}
+
+"titan_cockpit_screen_on"
+{
+	"flags"			"drymix,omni"
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"volume"		"1.0"
+	"radius"		"0"
+	"pitch" 		"100"
+
+	"rndwave"
+	{
+		"wave"		"null.wav"
+	}
+
+}
+
+
+"titan_electronics_shutdown"
+{
+	"flags"			"drymix,omni"
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"volume"		"1.0"
+	"radius"		"300"
+	"pitch" 		"100"
+
+	"rndwave"
+	{
+	"wave"		"null.wav"
+	}
+
+}
+
+
+
+
+"titan_engine_startup"
+{
+	"flags"			"drymix,omni"
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"volume"		"0.25"
+	"radius"		"500"
+	"pitch" 		"100"
+
+	"wave"		"null.wav"
+}
+
+
+"titan_engine_loop"
+{
+
+	"flags"			"drymix,omni,loop"
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"volume"		"0.25"
+	"radius"		"500"
+	"pitch" 		"100"
+
+	"wave"		"null.wav"
+}
+
+"titan_engine_power_down"
+{
+
+	"flags"			"drymix,omni"
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"volume"		"0.25"
+	"radius"		"500"
+	"pitch" 		"100"
+
+	"wave"		"null.wav"
+}
+
+
+//////////////////////////
+ // ATLAS Embark sounds //
+////////////////////////
+
+
+"Atlas_Disembark_Kneeling_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"0"
+	"pitch"				"100"
+	"ducks"				"all,0.3"
+
+	"rndwave"
+	{
+	"wave"		"exo/titan_disembark_01.wav"
+	"wave"		"exo/titan_disembark_02.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"100"
+		"volume"			"1.0"
+		"wave"		"exo/disembark_hatch_open_08.wav"
+	}
+
+}
+
+"Atlas_Disembark_Kneeling_3P"
+{
+
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"2500"
+	"pitch"				"100"
+	"ducks"				"all,0.3"
+
+	"rndwave"
+	{
+	"maxrange"		"800"
+	"flags"				"spatialized"
+	"folddownDistance"	"20"
+	"wave"		"exo/titan_disembark_01.wav"
+	"wave"		"exo/titan_disembark_02.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+		"maxrange"			"1700"
+		"volume"			"1.0"
+		"wave"		"exo/disembark_hatch_open_08.wav"
+	}
+}
+
+"Atlas_Disembark_Standing_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.0"
+	"radius"			"0"
+	"pitch"				"100"
+	"ducks"				"all,0.3"
+
+	"rndwave"
+	{
+		"wave"		"exo/titan_disembark_01.wav"
+		"wave"		"exo/titan_disembark_02.wav"
+	}
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"100"
+		"volume"			"1.0"
+		"wave"		"exo/disembark_hatch_open_08.wav"
+	}
+
+}
+
+"Atlas_Disembark_Standing_3P"
+{
+
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"3000"
+	"pitch"				"100"
+	"ducks"				"all,0.3"
+
+	"rndwave"
+	{
+	"maxrange"		"800"
+	"flags"				"spatialized"
+	"folddownDistance"	"20"
+	"wave"		"exo/titan_disembark_01.wav"
+	"wave"		"exo/titan_disembark_02.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+		"maxrange"			"1700"
+		"volume"			"1.0"
+		"wave"		"exo/disembark_hatch_open_08.wav"
+	}
+}
+
+
+"Atlas_Embark_Standing_Airgrab_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/embark/mount_airgrab_front_1st.wav"
+	}
+
+		"rndwave"
+	{
+			"delay"		"800"
+			"volume"	"0.7"
+			"wave"		"exo/titan_engine_ignition.wav"
+
+	}
+}
+
+"Atlas_Embark_Standing_Airgrab_3P"
+{
+
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/embark/mount_airgrab_front_3rd.wav"
+	}
+}
+
+"Atlas_Embark_Standing_Front_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/embark/at_mount_stand_front_1st_v4.wav"
+	}
+
+	"rndwave"
+	{
+			"delay"		"500"
+			"volume"	"0.7"
+			"wave"		"exo/titan_engine_ignition.wav"
+
+	}
+}
+
+"Atlas_Embark_Standing_Front_3P"
+{
+
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/embark/at_mount_stand_front_3rd.wav"
+	}
+}
+
+"Atlas_Embark_Standing_Behind_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/embark/at_mount_stand_behind_1st_v4.wav"
+	}
+
+		"rndwave"
+	{
+			"delay"		"1000"
+			"volume"	"0.7"
+			"wave"		"exo/titan_engine_ignition.wav"
+
+	}
+}
+
+"Atlas_Embark_Standing_Behind_3P"
+{
+
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"		"exo/embark/at_mount_stand_behind_3rd_v3.wav"
+	}
+}
+
+"Atlas_Embark_Standing_AboveLeft_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+
+			"wave"		"exo/embark/at_mount_above_L_1st.wav"
+	}
+
+	"rndwave"
+	{
+			"delay"		"700"
+			"volume"	"0.7"
+			"wave"		"exo/titan_engine_ignition.wav"
+
+	}
+}
+
+"Atlas_Embark_Standing_AboveLeft_3P"
+{
+
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/embark/at_mount_above_L_3rd.wav"
+	}
+}
+
+"Atlas_Embark_Standing_AboveRight_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/embark/at_mount_above_R_1st.wav"
+	}
+
+	"rndwave"
+	{
+			"delay"		"700"
+			"volume"	"0.7"
+			"wave"		"exo/titan_engine_ignition.wav"
+
+	}
+}
+
+"Atlas_Embark_Standing_AboveRight_3P"
+{
+
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/embark/at_mount_above_R_3rd.wav"
+	}
+}
+
+"Atlas_Embark_Kneeling_Front_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/embark/at_mount_kneel_front_1st_v9.wav"
+	}
+
+	"rndwave"
+	{
+			"delay"		"700"
+			"volume"	"0.7"
+			"wave"		"exo/titan_engine_ignition.wav"
+
+	}
+}
+
+"Atlas_Embark_Kneeling_Front_3P"
+{
+
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"6"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"		"exo/embark/at_mount_kneel_front_3rd_v3.wav"
+	}
+}
+
+"Atlas_Embark_Kneeling_Behind_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/embark/mount_grab_behind_1st_v5.wav"
+	}
+
+	"rndwave"
+	{
+			"delay"		"1000"
+			"volume"	"0.7"
+			"wave"		"exo/titan_engine_ignition.wav"
+
+	}
+}
+
+"Atlas_Embark_Kneeling_Behind_3P"
+{
+
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"		"exo/embark/mount_grab_behind_3rd_v3.wav"
+	}
+}
+
+"Atlas_Embark_Kneeling_Left_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/embark/at_mount_grableft_1st_v4.wav"
+	}
+
+	"rndwave"
+	{
+			"delay"		"700"
+			"volume"	"0.7"
+			"wave"		"exo/titan_engine_ignition.wav"
+
+	}
+}
+
+"Atlas_Embark_Kneeling_Left_3P"
+{
+
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"		"exo/embark/at_mount_grableft_3rd_v3.wav"
+	}
+}
+
+"Atlas_Embark_Kneeling_Right_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/embark/at_mount_kneel_right_1st_v4.wav"
+	}
+
+	"rndwave"
+	{
+			"delay"		"700"
+			"volume"	"0.7"
+			"wave"		"exo/titan_engine_ignition.wav"
+
+	}
+}
+
+"Atlas_Embark_Kneeling_Right_3P"
+{
+
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"		"exo/embark/at_mount_kneel_right_3rd_v3.wav"
+	}
+}
+
+"Atlas_Embark_Kneeling_AboveLeft_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/embark/at_mount_above_L_1st.wav"
+	}
+
+	"rndwave"
+	{
+			"delay"		"700"
+			"volume"	"0.7"
+			"wave"		"exo/titan_engine_ignition.wav"
+
+	}
+}
+
+"Atlas_Embark_Kneeling_AboveLeft_3P"
+{
+
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/embark/at_mount_above_L_3rd.wav"
+	}
+}
+
+"Atlas_Embark_Kneeling_AboveRight_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/embark/at_mount_above_R_1st.wav"
+	}
+
+	"rndwave"
+	{
+			"delay"		"700"
+			"volume"	"0.7"
+			"wave"		"exo/titan_engine_ignition.wav"
+
+	}
+}
+
+"Atlas_Embark_Kneeling_AboveRight_3P"
+{
+
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/embark/at_mount_above_R_3rd.wav"
+	}
+}
+
+
+  ////////////////////////
+ // OGRE Embark sounds //
+////////////////////////
+
+"Ogre_Stand_2_Embark_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"3.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+			"wave"		"exo/Ogre/Embark/Ogre_Stand_2_Embark_Servos_3P_2ch_v1.wav"
+	}
+}
+
+"Ogre_Disembark_Kneeling_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"3.5"
+	"radius"			"0"
+	"pitch"				"100"
+	"ducks"				"all,0.3"
+
+	"rndwave"
+	{
+			"wave"		"exo/Ogre/Embark/Ogre_Dismbark_Kneeling_1p_6ch_v1.wav"
+	}
+
+}
+
+"Ogre_Disembark_Kneeling_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"3.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+			"wave"		"exo/Ogre/Embark/Ogre_Dismbark_Kneeling_3p_2ch_v1.wav"
+	}
+}
+
+"Ogre_Disembark_Standing_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"3.5"
+	"radius"			"0"
+	"pitch"				"100"
+	"ducks"				"all,0.3"
+
+	"rndwave"
+	{
+			"wave"		"exo/Ogre/Embark/Ogre_Dismbark_Standing_1p_6ch_v1.wav"
+	}
+
+}
+
+"Ogre_Disembark_Standing_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"3.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+			"wave"		"exo/Ogre/Embark/Ogre_Dismbark_Standing_3p_2ch_v1.wav"
+	}
+
+}
+
+
+"Ogre_Embark_Standing_Airgrab_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"4.0"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/Ogre/Embark/Ogre_Embark_Upright_Airgrab_1p_6ch_v1.wav"
+	}
+}
+
+"Ogre_Embark_Standing_Airgrab_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"3.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+		"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Ogre/Embark/Ogre_Embark_Upright_Airgrab_3p_2ch_v1.wav"
+	}
+}
+
+"Ogre_Embark_Standing_Front_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"4.0"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/Ogre/Embark/Ogre_Embark_Upright_Front_1p_6ch_v1.wav"
+	}
+}
+
+"Ogre_Embark_Standing_Front_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"3.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Ogre/Embark/Ogre_Embark_Upright_Front_3p_2ch_v1.wav"
+	}
+}
+
+"Ogre_Embark_Standing_Behind_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"4.0"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/Ogre/Embark/Ogre_Embark_Upright_Behind_1p_6ch_v1.wav"
+	}
+}
+
+"Ogre_Embark_Standing_Behind_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"3.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Ogre/Embark/Ogre_Embark_Upright_Behind_3p_2ch_v1.wav"
+	}
+}
+
+"Ogre_Embark_Standing_AboveLeft_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"4.0"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/Ogre/Embark/Ogre_Embark_Upright_AboveLeft_1p_6ch_v1.wav"
+	}
+}
+
+"Ogre_Embark_Standing_AboveLeft_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"3.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Ogre/Embark/Ogre_Embark_Upright_AboveLeft_3p_2ch_v1.wav"
+	}
+}
+
+"Ogre_Embark_Standing_AboveRight_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"4.0"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/Ogre/Embark/Ogre_Embark_Upright_AboveRight_1p_6ch_v1.wav"
+	}
+}
+
+"Ogre_Embark_Standing_AboveRight_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"3.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Ogre/Embark/Ogre_Embark_Upright_AboveRight_3p_2ch_v1.wav"
+	}
+}
+
+"Ogre_Embark_Kneeling_Front_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"4.0"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/Ogre/Embark/Ogre_Embark_Kneeling_Front_1p_6ch_v1.wav"
+	}
+}
+
+"Ogre_Embark_Kneeling_Front_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"3.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Ogre/Embark/Ogre_Embark_Kneeling_Front_3p_2ch_v1.wav"
+	}
+}
+
+"Ogre_Embark_Kneeling_Behind_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"4.0"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/Ogre/Embark/Ogre_Embark_Kneeling_Behind_1p_6ch_v1.wav"
+	}
+}
+
+"Ogre_Embark_Kneeling_Behind_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"3.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Ogre/Embark/Ogre_Embark_Kneeling_Behind_3p_2ch_v1.wav"
+	}
+}
+
+"Ogre_Embark_Kneeling_Left_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"4.0"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/Ogre/Embark/Ogre_Embark_Kneeling_Left_1p_6ch_v1.wav"
+	}
+}
+
+"Ogre_Embark_Kneeling_Left_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"3.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Ogre/Embark/Ogre_Embark_Kneeling_Left_3p_2ch_v1.wav"
+	}
+}
+
+"Ogre_Embark_Kneeling_Right_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"4.0"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/Ogre/Embark/Ogre_Embark_Kneeling_Right_1p_6ch_v1.wav"
+	}
+}
+
+"Ogre_Embark_Kneeling_Right_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"3.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Ogre/Embark/Ogre_Embark_Kneeling_Right_3p_2ch_v1.wav"
+	}
+}
+
+"Ogre_Embark_Kneeling_AboveLeft_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"4.0"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/Ogre/Embark/Ogre_Embark_Kneeling_AboveLeft_1p_6ch_v1.wav"
+	}
+}
+
+"Ogre_Embark_Kneeling_AboveLeft_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"3.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Ogre/Embark/Ogre_Embark_Kneeling_AboveLeft_3p_2ch_v1.wav"
+	}
+}
+
+"Ogre_Embark_Kneeling_AboveRight_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"4.0"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/Ogre/Embark/Ogre_Embark_Kneeling_AboveRight_1p_6ch_v1.wav"
+	}
+}
+
+"Ogre_Embark_Kneeling_AboveRight_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"3.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Ogre/Embark/Ogre_Embark_Kneeling_AboveRight_3p_2ch_v1.wav"
+	}
+}
+
+///////////////////
+// OGRE STAND FROM TITANFALL
+///////////////////
+
+"Ogre_Titanfall_Land"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"4.0"
+	"radius"		"3000"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"exo/Ogre/Embark/Ogre_Titanfall_LandAndHatchOpen_2ch_v1.wav"
+	}
+}
+
+"Ogre_Titanfall_Stand"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"2.8"
+	"radius"		"3000"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"exo/Ogre/Embark/Ogre_Titanfall_Stand_2ch_v1.wav"
+	}
+}
+
+
+  //////////////////////////
+ // Stryder Embark sounds //
+//////////////////////////
+
+
+"Stryder_Stand_2_Embark_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2"
+	"radius"			"3000"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+			"wave"		"exo/Stryder/Stryder_Stand_2_Embark_Servos_3P_2ch_v1.wav"
+	}
+}
+
+"Stryder_Disembark_Kneeling_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.0"
+	"radius"			"0"
+	"pitch"				"100"
+	"ducks"				"all,0.3"
+
+	"rndwave"
+	{
+			"wave"		"exo/Stryder/Stryder_Disembark_Crouch_Servos_1P_6ch_v1.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"			"2"
+			"wave"		"exo/Stryder/Stryder_Disembark_Crouch_Pilot_1P_2ch_v1.wav"
+	}
+}
+
+"Stryder_Disembark_Kneeling_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"3"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+			"wave"		"exo/Stryder/Stryder_Disembark_Crouch_Servos_3P_2ch_v1.wav"
+	}
+}
+
+"Stryder_Disembark_Standing_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.0"
+	"radius"			"0"
+	"pitch"				"100"
+	"ducks"				"all,0.3"
+
+	"rndwave"
+	{
+			"wave"		"exo/Stryder/Stryder_Disembark_Stand_Servos_1P_6ch_v1.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"			"2"
+			"wave"		"exo/Stryder/Stryder_Disembark_Stand_Pilot_1P_2ch_v1.wav"
+	}
+}
+
+"Stryder_Disembark_Standing_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"3"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+			"wave"		"exo/Stryder/Stryder_Disembark_Stand_Servos_3P_2ch_v1.wav"
+	}
+
+}
+
+
+"Stryder_Embark_Standing_Airgrab_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/Stryder/Stryder_Embark_Stand_Front_Servos_1P_6ch_v2.wav"
+	}
+	"rndwave"
+	{
+		"volume"			"2"
+			"wave"		"exo/Stryder/Stryder_Embark_Stand_Front_Pilot_1P_2ch_v1.wav"
+	}
+
+}
+
+"Stryder_Embark_Standing_Airgrab_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Stryder/Stryder_Embark_Stand_Front_Servos_3P_2ch_v1.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Stryder/Stryder_Embark_Stand_Front_Pilot_3P_2ch_v1.wav"
+	}
+}
+
+
+"Stryder_Embark_Standing_Front_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/Stryder/Stryder_Embark_Stand_Front_Servos_1P_6ch_v2.wav"
+	}
+	"rndwave"
+	{
+		"volume"			"2"
+			"wave"		"exo/Stryder/Stryder_Embark_Stand_Front_Pilot_1P_2ch_v1.wav"
+	}
+
+}
+
+"Stryder_Embark_Standing_Front_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Stryder/Stryder_Embark_Stand_Front_Servos_3P_2ch_v1.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Stryder/Stryder_Embark_Stand_Front_Pilot_3P_2ch_v1.wav"
+	}
+}
+
+"Stryder_Embark_Standing_Behind_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/Stryder/Stryder_Embark_Stand_Back_Servos_1P_6ch_v2.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"			"2"
+			"wave"		"exo/Stryder/Stryder_Embark_Stand_Back_Pilot_1P_2ch_v1.wav"
+	}
+
+}
+
+"Stryder_Embark_Standing_Behind_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Stryder/Stryder_Embark_Stand_Back_Servos_3P_2ch_v1.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Stryder/Stryder_Embark_Stand_Back_Pilot_3P_2ch_v1.wav"
+	}
+}
+
+"Stryder_Embark_Standing_AboveLeft_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/Stryder/Stryder_Embark_Stand_Above_Left_Servos_1P_6ch_v2.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"			"2"
+			"wave"		"exo/Stryder/Stryder_Embark_Stand_Above_Left_Pilot_1P_2ch_v1.wav"
+	}
+}
+
+"Stryder_Embark_Standing_AboveLeft_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Stryder/Stryder_Embark_Stand_Above_Left_Servos_3P_2ch_v1.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Stryder/Stryder_Embark_Stand_Above_Left_Pilot_3P_2ch_v1.wav"
+	}
+}
+
+"Stryder_Embark_Standing_AboveRight_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/Stryder/Stryder_Embark_Stand_Above_Right_Servos_1P_6ch_v2.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"			"2"
+			"wave"		"exo/Stryder/Stryder_Embark_Stand_Above_Right_Pilot_1P_2ch_v1.wav"
+	}
+}
+
+"Stryder_Embark_Standing_AboveRight_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Stryder/Stryder_Embark_Stand_Above_Right_Servos_3P_2ch_v1.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Stryder/Stryder_Embark_Stand_Above_Right_Pilot_3P_2ch_v1.wav"
+	}
+}
+
+"Stryder_Embark_Kneeling_Front_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/Stryder/Stryder_Embark_Front_Servos_1P_6ch_v2.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"			"2"
+			"wave"		"exo/Stryder/Stryder_Embark_Front_Pilot_1P_2ch_v1.wav"
+	}
+}
+
+"Stryder_Embark_Kneeling_Front_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Stryder/Stryder_Embark_Front_Servos_3P_2ch_v1.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Stryder/Stryder_Embark_Front_Pilot_3P_2ch_v1.wav"
+	}
+}
+
+"Stryder_Embark_Kneeling_Behind_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/Stryder/Stryder_Embark_Back_Servos_1P_6ch_v2.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"			"2"
+			"wave"		"exo/Stryder/Stryder_Embark_Back_Pilot_1P_2ch_v1.wav"
+	}
+}
+
+"Stryder_Embark_Kneeling_Behind_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Stryder/Stryder_Embark_Back_Servos_3P_2ch_v1.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Stryder/Stryder_Embark_Back_Pilot_3P_2ch_v1.wav"
+	}
+}
+
+"Stryder_Embark_Kneeling_Left_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/Stryder/Stryder_Embark_Left_Servos_1P_6ch_v2.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"			"2"
+			"wave"		"exo/Stryder/Stryder_Embark_Left_Pilot_1P_2ch_v1.wav"
+	}
+}
+
+"Stryder_Embark_Kneeling_Left_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Stryder/Stryder_Embark_Left_Servos_3P_2ch_v1.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Stryder/Stryder_Embark_Left_Pilot_3P_2ch_v1.wav"
+	}
+}
+
+"Stryder_Embark_Kneeling_Right_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/Stryder/Stryder_Embark_Right_Servos_1P_6ch_v2.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"			"2"
+			"wave"		"exo/Stryder/Stryder_Embark_Right_Pilot_1P_2ch_v1.wav"
+	}
+}
+
+"Stryder_Embark_Kneeling_Right_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Stryder/Stryder_Embark_Right_Servos_3P_2ch_v1.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Stryder/Stryder_Embark_Right_Pilot_3P_2ch_v1.wav"
+	}
+}
+
+"Stryder_Embark_Kneeling_AboveLeft_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/Stryder/Stryder_Embark_Above_Left_Servos_1P_6ch_v2.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"			"2"
+			"wave"		"exo/Stryder/Stryder_Embark_Above_Left_Pilot_1P_2ch_v1.wav"
+	}
+}
+
+"Stryder_Embark_Kneeling_AboveLeft_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Stryder/Stryder_Embark_Above_Left_Servos_3P_2ch_v1.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Stryder/Stryder_Embark_Above_Left_Pilot_3P_2ch_v1.wav"
+	}
+}
+
+"Stryder_Embark_Kneeling_AboveRight_1P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"2000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"				"SFX_Weapons_AI,0.7:500,1000,0,0"
+		"ducks"				"SFX_Weapons_Pilot_1P,0.5:500,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:500,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:500,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+			"wave"		"exo/Stryder/Stryder_Embark_Above_Right_Servos_1P_6ch_v2.wav"
+	}
+
+	"rndwave"
+	{
+	"volume"			"2"
+			"wave"		"exo/Stryder/Stryder_Embark_Above_Right_Pilot_1P_2ch_v1.wav"
+	}
+}
+
+"Stryder_Embark_Kneeling_AboveRight_3P"
+{
+	"flags"				"drymix,omni,nocrossfade"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"radius"			"3000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Stryder/Stryder_Embark_Above_Right_Servos_3P_2ch_v1.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"350"
+		"wave"		"exo/Stryder/Stryder_Embark_Above_Right_Pilot_3P_2ch_v1.wav"
+	}
+}
+
+
+//////////////////////////
+// EXO Movement Sounds
+//////////////////////////
+
+
+"Titan_CrouchDown_1P"
+{
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"8.0"
+	"radius"			"1000"
+	"pitch"				"80,90"
+
+	"rndwave"
+	{
+		"limit"		"1"
+		"wave"		"exo/stance_change/Mvmt_Titan_1p_CrouchDown_2ch_v1_01.wav"
+		"wave"		"exo/stance_change/Mvmt_Titan_1p_CrouchDown_2ch_v1_02.wav"
+		"wave"		"exo/stance_change/Mvmt_Titan_1p_CrouchDown_2ch_v1_03.wav"
+		"wave"		"exo/stance_change/Mvmt_Titan_1p_CrouchDown_2ch_v1_04.wav"
+	}
+}
+
+"Titan_CrouchStand_1P"
+{
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"8.0"
+	"radius"			"1000"
+	"pitch"				"80,90"
+
+	"rndwave"
+	{
+		"limit"		"1"
+		"wave"		"exo/stance_change/Mvmt_Titan_1p_CrouchStand_2ch_v1_01.wav"
+		"wave"		"exo/stance_change/Mvmt_Titan_1p_CrouchStand_2ch_v1_02.wav"
+		"wave"		"exo/stance_change/Mvmt_Titan_1p_CrouchStand_2ch_v1_03.wav"
+		"wave"		"exo/stance_change/Mvmt_Titan_1p_CrouchStand_2ch_v1_04.wav"
+	}
+}
+
+"Titan_CrouchDown_3P"
+{
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.0"
+	"radius"			"1000"
+	"pitch"				"90,100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"100"
+		"limit"		"1"
+		"wave"		"exo/stance_change/Mvmt_Titan_1p_CrouchDown_2ch_v1_01.wav"
+		"wave"		"exo/stance_change/Mvmt_Titan_1p_CrouchDown_2ch_v1_02.wav"
+		"wave"		"exo/stance_change/Mvmt_Titan_1p_CrouchDown_2ch_v1_03.wav"
+		"wave"		"exo/stance_change/Mvmt_Titan_1p_CrouchDown_2ch_v1_04.wav"
+	}
+}
+
+"Titan_CrouchStand_3P"
+{
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.0"
+	"radius"			"1000"
+	"pitch"				"90,100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"100"
+		"limit"		"1"
+		"wave"		"exo/stance_change/Mvmt_Titan_1p_CrouchStand_2ch_v1_01.wav"
+		"wave"		"exo/stance_change/Mvmt_Titan_1p_CrouchStand_2ch_v1_02.wav"
+		"wave"		"exo/stance_change/Mvmt_Titan_1p_CrouchStand_2ch_v1_03.wav"
+		"wave"		"exo/stance_change/Mvmt_Titan_1p_CrouchStand_2ch_v1_04.wav"
+	}
+}
+
+
+
+"Exo_footstep"
+{
+	"soundentry_version"    "2"
+	"mixgroup"		"SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Footsteps"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_130dB"
+	"pitch"			"70,90"
+    "rndwave"
+    {
+		"maxrange"          "1250"
+		"wave"			"exo/exo_footstep_4a.wav"
+		"wave"			"exo/exo_footstep_4b.wav"
+		"wave"			"exo/exo_footstep_4c.wav"
+		"wave"			"exo/exo_footstep_4d.wav"
+		"wave"			"exo/exo_footstep_4e.wav"
+		"wave"			"exo/exo_footstep_4f.wav"
+		"wave"			"exo/exo_footstep_4g.wav"
+	}
+    "rndwave"
+    {
+		"minrange"			"1250"
+		"maxrange"          "2500"
+		"wave"			"exo/exo_footstep_4a_med.wav"
+		"wave"			"exo/exo_footstep_4b_med.wav"
+		"wave"			"exo/exo_footstep_4c_med.wav"
+		"wave"			"exo/exo_footstep_4d_med.wav"
+		"wave"			"exo/exo_footstep_4e_med.wav"
+		"wave"			"exo/exo_footstep_4f_med.wav"
+		"wave"			"exo/exo_footstep_4g_med.wav"
+	}
+	"rndwave"
+	{
+		"minrange"			"2500"
+		"wave"			"exo/exo_footstep_4a_far.wav"
+		"wave"			"exo/exo_footstep_4b_far.wav"
+		"wave"			"exo/exo_footstep_4c_far.wav"
+		"wave"			"exo/exo_footstep_4d_far.wav"
+		"wave"			"exo/exo_footstep_4e_far.wav"
+		"wave"			"exo/exo_footstep_4f_far.wav"
+		"wave"			"exo/exo_footstep_4g_far.wav"
+	}
+}
+"Exo_footstep_small"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.2"
+	"soundlevel"	"SNDLVL_40dB"
+	"pitch" 		"70,80"
+	"rndwave"
+		{
+		"wave"		"exo/exo_footstep_3a.wav"
+		"wave"		"exo/exo_footstep_3b.wav"
+		"wave"		"exo/exo_footstep_3c.wav"
+		"wave"		"exo/exo_footstep_3d.wav"
+		}
+
+}
+
+//Stomp to be added on top of footsteps BLAM!
+"Exo_stomp"
+{
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Footsteps"
+	"volumescale"		"1.2"
+	"radius"		"3000"
+	"pitch"			"70,85"
+	"falloff"		"7"
+
+	"rndwave"
+	{
+		"volume"		"2.5"
+		"pitch"			"90"
+		"limit"			"2"
+		"maxrange"		"200"
+		"wave"		"exo/Atlas/Movement/Atlas_Footstep_Generic_Core_2ch_v4_01.wav"
+		"wave"		"exo/Atlas/Movement/Atlas_Footstep_Generic_Core_2ch_v4_02.wav"
+		"wave"		"exo/Atlas/Movement/Atlas_Footstep_Generic_Core_2ch_v4_03.wav"
+		"wave"		"exo/Atlas/Movement/Atlas_Footstep_Generic_Core_2ch_v4_04.wav"
+		}
+
+	"rndwave"
+	{
+		"volume"		"0.5,0.8"
+		"pitch"			"120,140"
+		"limit"			"2"
+		"maxrange"		"200"
+		"wave"		"exo/Atlas/Movement/Atlas_RattleInt_ST_01.wav"
+		"wave"		"exo/Atlas/Movement/Atlas_RattleInt_ST_02.wav"
+		"wave"		"exo/Atlas/Movement/Atlas_RattleInt_ST_03.wav"
+		"wave"		"exo/Atlas/Movement/Atlas_RattleInt_ST_04.wav"
+//		"wave"		"exo/Atlas/Movement/Atlas_RattleInt_ST_05.wav"
+//		"wave"		"exo/Atlas/Movement/Atlas_RattleInt_ST_06.wav"
+//		"wave"		"exo/Atlas/Movement/Atlas_RattleInt_ST_07.wav"
+		}
+
+
+
+
+	"rndwave"
+	{
+		"volume"		"1"
+		"pitch"			"98,103"
+		"limit"			"2"
+		"maxrange"		"200"
+
+		"wave"		"exo/Atlas/Movement/Atlas_Land_2ch_v1_01.wav"
+
+		}
+
+	"rndwave"
+	{
+		"volume"		"2"
+		"pitch"			"100"
+		"limit"			"4"
+		"maxrange"		"200"
+		"wave"		"exo/Atlas/Movement/Atlas_Footstep_Generic_Bass_2ch_v4_01.wav"
+
+
+		}
+}
+
+
+"Player.Dodge"
+{
+	"mixgroup"	"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Dash"
+	"volumescale"	"2"
+	"flags"		"layered,mobile"
+
+	"rndwave"
+	{
+		"volume"	"2.0"
+		"pitch"		"98,103"
+
+		"startDistance"   "0"
+		"peakDistance"    "0"
+		"falloffStart"    "199"
+        "falloffEnd"      "200"
+		"startCurve"      "0"
+		"falloffCurve"    "0"
+		"limit"			  "2"
+
+		"channels"
+		{
+			"1"				"LS"
+			"2"				"RS"
+		}
+
+		"wave"		"exo/atlas/dash/Atlas_Dash_1P_Close_Comp_2ch_01.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_1P_Close_Comp_2ch_02.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_1P_Close_Comp_2ch_03.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_1P_Close_Comp_2ch_04.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_1P_Close_Comp_2ch_05.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_1P_Close_Comp_2ch_06.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_1P_Close_Comp_2ch_07.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_1P_Close_Comp_2ch_08.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_1P_Close_Comp_2ch_09.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_1P_Close_Comp_2ch_10.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"	"6.0"
+		"pitch"		"98,103"
+
+		"startDistance"   "0"
+		"peakDistance"    "0"
+		"falloffStart"    "199"
+        "falloffEnd"      "200"
+		"startCurve"      "0"
+		"falloffCurve"    "0"
+		"limit"			  "2"
+
+		"wave"		"exo/atlas/dash/Atlas_Dash_1P_Slide_Comp_2ch_01.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_1P_Slide_Comp_2ch_02.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_1P_Slide_Comp_2ch_03.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_1P_Slide_Comp_2ch_04.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_1P_Slide_Comp_2ch_05.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_1P_Slide_Comp_2ch_06.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_1P_Slide_Comp_2ch_07.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_1P_Slide_Comp_2ch_08.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_1P_Slide_Comp_2ch_09.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_1P_Slide_Comp_2ch_10.wav"
+
+	}
+
+// 3p layers
+
+	"rndwave"
+	{
+		"volume"	"2.0"
+		"pitch"		"98,103"
+
+		"startDistance"   "200"
+		"peakDistance"    "200"
+		"falloffStart"    "200"
+        "falloffEnd"      "3000"
+		"startCurve"      "0"
+		"falloffCurve"    "0"
+		"limit"			  "2"
+
+		"flags"					"spatialized"
+		"folddownDistance"		"200"
+
+		"wave"		"exo/atlas/dash/Atlas_Dash_3P_Close_Comp_2ch_01.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_3P_Close_Comp_2ch_02.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_3P_Close_Comp_2ch_03.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_3P_Close_Comp_2ch_04.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_3P_Close_Comp_2ch_05.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_3P_Close_Comp_2ch_06.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_3P_Close_Comp_2ch_07.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_3P_Close_Comp_2ch_08.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_3P_Close_Comp_2ch_09.wav"
+		"wave"		"exo/atlas/dash/Atlas_Dash_3P_Close_Comp_2ch_10.wav"
+
+
+
+	}
+
+	"rndwave"
+	{
+		"volume"	"0.8"
+		"pitch"		"90,105"
+
+		"startDistance"   "200"
+		"peakDistance"    "200"
+		"falloffStart"    "200"
+        "falloffEnd"      "4000"
+		"startCurve"      "0"
+		"falloffCurve"    "0"
+		"limit"			  "3"
+
+		"flags"					"spatialized"
+		"folddownDistance"		"200"
+
+		"wave"		"exo/atlas/dash/titan_dash_med_v4_03.wav"
+		"wave"		"exo/atlas/dash/titan_dash_med_v4_04.wav"
+		"wave"		"exo/atlas/dash/titan_dash_med_v5_01.wav"
+		"wave"		"exo/atlas/dash/titan_dash_med_v5_02.wav"
+		"wave"		"exo/atlas/dash/titan_dash_med_v5_03.wav"
+		"wave"		"exo/atlas/dash/titan_dash_med_v5_04.wav"
+		"wave"		"exo/atlas/dash/titan_dash_med_v5_05.wav"
+
+
+
+	}
+
+}
+
+
+"Player.DodgeFail"
+{
+	"mixgroup"	"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Dash"
+	"volume"	".75"
+	"soundlevel"  "SNDLVL_90dB"
+
+	"wave"	"player/doublejump_fail.wav"
+}
+
+
+"Exo_hip"
+{
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"0.95"
+	"radius"		  "1800"
+	"pitch"				"65,80"
+	"wave"				"exo/exo_footstep_hip.wav"
+}
+
+"Exo_elbow"
+{
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"0.95"
+	"radius"		  "1800"
+	"pitch"				"45,50"
+	"rndwave"
+	{
+	"limit"			  "2"
+	"wave"		"exo/exo_elbow1.wav"
+	"wave"		"exo/exo_elbow2.wav"
+	"wave"		"exo/exo_elbow3.wav"
+	"wave"		"exo/exo_elbow4.wav"
+	}
+}
+
+"Exo_knee"
+{
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"0.95"
+	"radius"		  "1800"
+	"pitch"				"45,50"
+	"rndwave"
+	{
+	"limit"			  "2"
+	"wave"		"exo/exo_knee1.wav"
+	"wave"		"exo/exo_knee2.wav"
+	"wave"		"exo/exo_knee3.wav"
+	"wave"		"exo/exo_knee4.wav"
+	}
+}
+
+"Exo_servo"
+{
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"0.95"
+	"radius"		  "1800"
+	"pitch"				"65,80"
+	"rndwave"
+	{
+	"limit"			  "2"
+	"wave"		"exo/exo_servo1.wav"
+	"wave"		"exo/exo_servo2.wav"
+	"wave"		"exo/exo_servo3.wav"
+	"wave"		"exo/exo_servo4.wav"
+	"wave"		"exo/exo_servo5.wav"
+	"wave"		"exo/exo_servo6.wav"
+	"wave"		"exo/exo_servo7.wav"
+	}
+}
+
+
+////////////////////
+//TITAN MELEE
+////////////////////
+
+
+"titan_melee_swing_slow"
+{
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_NORM"
+	"pitch"				"90,110"
+
+	"rndwave"
+	{
+	"wave"		"exo/melee_swing_01.wav"
+	"wave"		"exo/melee_swing_02.wav"
+	"wave"		"exo/melee_swing_03.wav"
+	"wave"		"exo/melee_swing_04.wav"
+
+	}
+}
+
+
+// Atlas melee swing
+"atlas_melee_swing_fast"
+{
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"1.8,2.0"
+	"pitch"				"95"
+	"flags"				"layered"
+
+	"rndwave"
+   	{
+		"ducks"				"SFX_Weapons_AI,0.5:0,1000,0,0"
+		"ducks"				"SFX_AMB,0.5:0,1000,0,0"
+		"ducks"				"Music,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:0,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+	"limit"				"1"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"20"
+ 	"falloffEnd"        		"30"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+
+	"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+
+		"startDistance"   "0"
+		"peakDistance"    "0"
+        "falloffStart"    "800"
+        "falloffEnd"      "3000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+		"limit"			  "2"
+		"flags"			"spatialized"
+
+		"wave"		"exo/atlas/melee/titan_melee_swing_v6_01.wav"
+		"wave"		"exo/atlas/melee/titan_melee_swing_v6_02.wav"
+		"wave"		"exo/atlas/melee/titan_melee_swing_v6_03.wav"
+		"wave"		"exo/atlas/melee/titan_melee_swing_v6_04.wav"
+		"wave"		"exo/atlas/melee/titan_melee_swing_v6_05.wav"
+		"wave"		"exo/atlas/melee/titan_melee_swing_v6_06.wav"
+		"wave"		"exo/atlas/melee/titan_melee_swing_v6_07.wav"
+	}
+
+}
+
+// Atlas melee swing (Big Punch)
+"Atlas_Melee_BigPunch_swing_fast"
+{
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"1.8,2.0"
+	"pitch"				"95"
+	"flags"				"layered"
+
+	"rndwave"
+   	{
+		"ducks"				"SFX_Weapons_AI,0.5:0,1000,0,0"
+		"ducks"				"SFX_AMB,0.5:0,1000,0,0"
+		"ducks"				"Music,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:0,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+	"limit"				"1"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"20"
+ 	"falloffEnd"        		"30"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+
+	"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+		"startDistance"   "0"
+		"peakDistance"    "0"
+        "falloffStart"    "800"
+        "falloffEnd"      "3000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+		"limit"			  "2"
+		"flags"			"spatialized"
+
+		"wave"		"exo/atlas/melee/titan_melee_swing_v6_01.wav"
+		"wave"		"exo/atlas/melee/titan_melee_swing_v6_02.wav"
+		"wave"		"exo/atlas/melee/titan_melee_swing_v6_03.wav"
+		"wave"		"exo/atlas/melee/titan_melee_swing_v6_04.wav"
+		"wave"		"exo/atlas/melee/titan_melee_swing_v6_05.wav"
+		"wave"		"exo/atlas/melee/titan_melee_swing_v6_06.wav"
+		"wave"		"exo/atlas/melee/titan_melee_swing_v6_07.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"	"1.2"
+		"pitch"		"90,105"
+		"delay"		"240"
+		"startDistance"   "0"
+		"peakDistance"    "0"
+        "falloffStart"    "800"
+        "falloffEnd"      "1500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+		"limit"			  "2"
+		"flags"			"spatialized"
+
+
+		"wave"		"exo/atlas/dash/titan_dash_close_v4_01.wav"
+		"wave"		"exo/atlas/dash/titan_dash_close_v4_02.wav"
+		"wave"		"exo/atlas/dash/titan_dash_close_v4_03.wav"
+		"wave"		"exo/atlas/dash/titan_dash_close_v4_04.wav"
+
+	}
+
+	"rndwave"
+	{
+		"volume"	"0.8"
+		"pitch"		"90,105"
+		"delay"		"240"
+		"startDistance"   "0"
+		"peakDistance"    "0"
+        "falloffStart"    "800"
+        "falloffEnd"      "1500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+		"limit"			  "2"
+		"flags"			"spatialized"
+
+		"wave"		"exo/atlas/dash/titan_dash_med_v4_03.wav"
+		"wave"		"exo/atlas/dash/titan_dash_med_v4_04.wav"
+		"wave"		"exo/atlas/dash/titan_dash_med_v5_01.wav"
+		"wave"		"exo/atlas/dash/titan_dash_med_v5_02.wav"
+		"wave"		"exo/atlas/dash/titan_dash_med_v5_03.wav"
+		"wave"		"exo/atlas/dash/titan_dash_med_v5_04.wav"
+		"wave"		"exo/atlas/dash/titan_dash_med_v5_05.wav"
+
+
+
+	}
+
+}
+
+// OLD Atlas melee swing
+"titan_melee_swing_fast"
+{
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"1.8,2.0"
+	"radius"			"3000"
+	"pitch"				"95"
+
+	"rndwave"
+	{
+	"wave"		"exo/atlas/melee/titan_melee_swing_v6_01.wav"
+	"wave"		"exo/atlas/melee/titan_melee_swing_v6_02.wav"
+	"wave"		"exo/atlas/melee/titan_melee_swing_v6_03.wav"
+	"wave"		"exo/atlas/melee/titan_melee_swing_v6_04.wav"
+	"wave"		"exo/atlas/melee/titan_melee_swing_v6_05.wav"
+	"wave"		"exo/atlas/melee/titan_melee_swing_v6_06.wav"
+	"wave"		"exo/atlas/melee/titan_melee_swing_v6_07.wav"
+	}
+}
+
+"titan_melee_hit_execution"
+{
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"1.0"
+	"radius"		"2000"
+	"pitch"				"90,110"
+
+	"rndwave"
+	{
+	"wave"		"exo/titan_melee_hit_01.wav"
+	"wave"		"exo/titan_melee_hit_02.wav"
+	"wave"		"exo/titan_melee_hit_03.wav"
+	"wave"		"exo/titan_melee_hit_04.wav"
+	"wave"		"exo/titan_melee_hit_05.wav"
+	"wave"		"exo/titan_melee_hit_06.wav"
+	"wave"		"exo/titan_melee_hit_07.wav"
+	}
+}
+
+"titan_melee_bigPunch_hit"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_1P_Hits_3P"
+	"volumeScale"		"1.0"
+	"pitch"				"80,90"
+	"flags"				"layered"
+
+	"rndwave"
+   	{
+		"ducks"				"SFX_Weapons_AI,0.7:0,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:0,1000,0,0"
+		"ducks"				"Music,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.7:0,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+	"limit"				"1"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"500"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+
+	"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"			"3.0"
+		"flags"					"spatialized"
+		"folddownDistance"		"350"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"2000"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+	"limit"			  "2"
+
+		"wave"		"exo/bigpunch/Titan_BigPunch_Impact_2ch_v3_01.wav"
+		"wave"		"exo/bigpunch/Titan_BigPunch_Impact_2ch_v3_02.wav"
+		"wave"		"exo/bigpunch/Titan_BigPunch_Impact_2ch_v3_03.wav"
+		"wave"		"exo/bigpunch/Titan_BigPunch_Impact_2ch_v3_05.wav"
+	}
+
+
+	"rndwave"
+	{
+		"volume"		"8"
+		"pitch"			"200"
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"2000"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+	"limit"			  "2"
+		"wave"		"exo/Atlas/Movement/Atlas_Footstep_Generic_Bass_2ch_v4_01.wav"
+
+
+		}
+}
+
+
+"titan_melee_bigPunch_hit_3P"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_1P_Hits_3P"
+	"volumeScale"		"1.0"
+	"pitch"				"80,90"
+	"flags"				"layered"
+
+	"rndwave"
+   	{
+		"ducks"				"SFX_Weapons_AI,0.7:0,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:0,1000,0,0"
+		"ducks"				"Music,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.7:0,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+	"limit"				"1"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"500"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+
+	"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"			"3.0"
+		"flags"					"spatialized"
+		"folddownDistance"		"10"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"2000"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+	"limit"			  "2"
+		"wave"		"exo/bigpunch/Titan_BigPunch_Impact_2ch_v3_01.wav"
+		"wave"		"exo/bigpunch/Titan_BigPunch_Impact_2ch_v3_02.wav"
+		"wave"		"exo/bigpunch/Titan_BigPunch_Impact_2ch_v3_03.wav"
+		"wave"		"exo/bigpunch/Titan_BigPunch_Impact_2ch_v3_05.wav"
+	}
+
+
+	"rndwave"
+	{
+		"volume"		"8"
+		"pitch"			"200"
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"2000"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+		"wave"		"exo/Atlas/Movement/Atlas_Footstep_Generic_Bass_2ch_v4_01.wav"
+
+
+		}
+}
+
+"titan_melee_hit"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_1P_Hits_3P"
+	"volume"			"10.0"
+	"pitch"				"95,110"
+	"flags"				"layered"
+
+	"rndwave"
+   	{
+		"ducks"				"SFX_Weapons_AI,0.7:0,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:0,1000,0,0"
+		"ducks"				"Music,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.7:0,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+	"limit"				"1"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"600"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"					"spatialized"
+		"folddownDistance"		"350"
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"2000"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+	"limit"			  "2"
+		"wave"		"exo/atlas/melee/melee_impact_v2_01.wav"
+		"wave"		"exo/atlas/melee/melee_impact_v2_02.wav"
+		"wave"		"exo/atlas/melee/melee_impact_v2_03.wav"
+	}
+}
+
+
+"titan_melee_hit_3P"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_1P_Hits_3P"
+	"volume"			"8.0"
+	"pitch"				"95,110"
+	"flags"				"layered"
+
+	"rndwave"
+   	{
+		"ducks"				"SFX_Weapons_AI,0.7:0,1000,0,0"
+		"ducks"				"SFX_AMB,0.7:0,1000,0,0"
+		"ducks"				"Music,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.7:0,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+	"limit"				"1"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"600"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"					"spatialized"
+		"folddownDistance"		"10"
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"2000"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+	"limit"			  "2"
+		"wave"		"exo/atlas/melee/melee_impact_v2_01.wav"
+		"wave"		"exo/atlas/melee/melee_impact_v2_02.wav"
+		"wave"		"exo/atlas/melee/melee_impact_v2_03.wav"
+	}
+}
+
+"titan_melee_hit_3P_vs_1P"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_1P_Hits_3P"
+	"volume"			"5.0"
+	"radius"			"0"
+	"pitch"				"95,100"
+
+	"rndwave"
+	{
+	"wave"		"exo/atlas/melee/melee_impact_v2_01.wav"
+	"wave"		"exo/atlas/melee/melee_impact_v2_02.wav"
+	"wave"		"exo/atlas/melee/melee_impact_v2_03.wav"
+	}
+
+	"rndwave"
+	{
+
+	"delay"			"100"
+	"volume"		"4.3"
+	"pitch"			"65,80"
+	"limit"			"1"
+	"minrange"     		"0"
+	"maxrange"      	"1000"
+		"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_01.wav"
+		"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_02.wav"
+		"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_03.wav"
+		"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_04.wav"
+		"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_05.wav"
+		"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_06.wav"
+		"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_07.wav"
+		"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_08.wav"
+		"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_09.wav"
+		"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_10.wav"
+		"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_11.wav"
+
+
+	}
+
+}
+
+
+"titan_melee_bigPunch_hit_3P_vs_1P"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_1P_Hits_3P"
+	"volume"			"5.0"
+	"radius"			"0"
+	"pitch"				"95,100"
+
+	"rndwave"
+	{
+		"wave"		"exo/bigpunch/Titan_BigPunch_Impact_2ch_v3_01.wav"
+		"wave"		"exo/bigpunch/Titan_BigPunch_Impact_2ch_v3_02.wav"
+		"wave"		"exo/bigpunch/Titan_BigPunch_Impact_2ch_v3_03.wav"
+		"wave"		"exo/bigpunch/Titan_BigPunch_Impact_2ch_v3_05.wav"
+	}
+
+	"rndwave"
+	{
+
+	"delay"			"100"
+	"volume"		"4.3"
+	"pitch"			"65,80"
+	"limit"			"1"
+	"minrange"     		"0"
+	"maxrange"      	"1000"
+		"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_01.wav"
+		"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_02.wav"
+		"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_03.wav"
+		"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_04.wav"
+		"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_05.wav"
+		"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_06.wav"
+		"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_07.wav"
+		"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_08.wav"
+		"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_09.wav"
+		"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_10.wav"
+		"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_11.wav"
+
+
+	}
+
+}
+
+
+
+"titan_melee_vs_melee"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_1P_Hits_3P"
+	"volume"			"1.0"
+	"radius"		  	"2000"
+	"pitch"				"90,110"
+
+	"rndwave"
+	{
+	"wave"		"exo/titan_melee_vs_melee_01.wav"
+	"wave"		"exo/titan_melee_vs_melee_02.wav"
+	"wave"		"exo/titan_melee_vs_melee_03.wav"
+	"wave"		"exo/titan_melee_vs_melee_04.wav"
+	"wave"		"exo/titan_melee_vs_melee_05.wav"
+
+	}
+}
+
+
+"titan_melee_miss"
+{
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"0.7"
+	"radius"			"2000"
+	"pitch"				"90,110"
+
+	"rndwave"
+	{
+	"wave"		"exo/melee_miss_01.wav"
+	"wave"		"exo/melee_miss_02.wav"
+	"wave"		"exo/melee_miss_03.wav"
+	"wave"		"exo/melee_miss_04.wav"
+	"wave"		"exo/melee_miss_05.wav"
+	"wave"		"exo/melee_miss_06.wav"
+	}
+}
+
+"titan_sync_melee_punch"
+{
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"1.0"
+	"radius"			"2000"
+	"pitch"				"90,110"
+
+	"rndwave"
+	{
+	"wave"		"exo/titan_sync_melee_punch_01.wav"
+	"wave"		"exo/titan_sync_melee_punch_02.wav"
+	"wave"		"exo/titan_sync_melee_punch_03.wav"
+
+	}
+}
+
+// Atlas finishing moves
+"Atlas_1p_Sync_Melee"
+{
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.4"
+	"radius"			"0"
+	"pitch"				"100"
+		"ducks"				"all,0.8:0,1000,0,0"
+
+	"rndwave"
+	{
+	"limit"			"1"
+		"wave"		"exo/Atlas/Melee_PilotExtract/Atlas_Melee_PilotExtractThrow_01_6ch.wav"
+		"wave"		"exo/Atlas/Melee_PilotExtract/Atlas_Melee_PilotExtractThrow_02_6ch.wav"
+		"wave"		"exo/Atlas/Melee_PilotExtract/Atlas_Melee_PilotExtractThrow_03_6ch.wav"
+
+	}
+
+}
+
+"Titan_Sync_Melee_Grab_1p_Victim" //Not used right now
+{
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"1.0"
+	"radius"			"0"
+	"pitch"				"100"
+//	"ducks"				"all,0.4"
+
+	"rndwave"
+	{
+
+		"wave"		"null.wav"
+
+	}
+}
+
+
+"Titan_Victim_Wall_Splat"
+{
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.0"
+	"radius"			"6000"
+	"pitch"				"88,100"
+
+	"rndwave"
+	{
+		"wave"		"impacts/Bodyfalls/Pilot/Melee_Extract/Player_Titan_WallSplat_1ch_01.wav"
+		"wave"		"impacts/Bodyfalls/Pilot/Melee_Extract/Player_Titan_WallSplat_1ch_02.wav"
+		"wave"		"impacts/Bodyfalls/Pilot/Melee_Extract/Player_Titan_WallSplat_1ch_03.wav"
+		"wave"		"impacts/Bodyfalls/Pilot/Melee_Extract/Player_Titan_WallSplat_1ch_04.wav"
+		"wave"		"impacts/Bodyfalls/Pilot/Melee_Extract/Player_Titan_WallSplat_1ch_05.wav"
+
+	}
+}
+
+
+"Atlas_3p_Sync_Melee"
+{
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"3.0"
+	"pitch"				"100"
+	"flags"				"layered"
+
+	"rndwave"
+   	{
+		"ducks"				"all,0.8a:0,1000,0,0"
+
+	"limit"				"1"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"500"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+
+	"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+
+	"flags"					"spatialized"
+	"folddownDistance"		"350"
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"3000"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+	"wave"		"exo/Atlas/Melee_PilotExtract/Atlas_Melee_PilotExtractThrow_01_2ch.wav"
+	"wave"		"exo/Atlas/Melee_PilotExtract/Atlas_Melee_PilotExtractThrow_02_2ch.wav"
+	"wave"		"exo/Atlas/Melee_PilotExtract/Atlas_Melee_PilotExtractThrow_03_2ch.wav"
+
+	}
+}
+
+// Generic execution melee for executing an autotitan (as any class Titan)
+
+"Titan_1p_Sync_Melee_vs_AutoTitan"
+{
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.8"
+	"radius"			"0"
+	"pitch"				"97"
+		"ducks"				"all,0.8:0,1000,0,0"
+
+	"rndwave"
+	{
+	"limit"			"1"
+		"wave"		"exo/Atlas/Melee_AutoTitan_ChestPunch/Autotitan_Melee_ChestPunch_01_6ch_v2.wav"
+		"wave"		"exo/Atlas/Melee_AutoTitan_ChestPunch/Autotitan_Melee_ChestPunch_02_6ch_v2.wav"
+		"wave"		"exo/Atlas/Melee_AutoTitan_ChestPunch/Autotitan_Melee_ChestPunch_03_6ch_v2.wav"
+
+	}
+
+}
+
+"Titan_3p_Sync_Melee_vs_AutoTitan"
+{
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"3.2"
+	"pitch"				"100"
+	"flags"				"layered"
+
+	"rndwave"
+   	{
+		"ducks"				"all,0.8a:0,1000,0,0"
+
+	"limit"				"1"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"500"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+
+	"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+
+	"flags"					"spatialized"
+	"folddownDistance"		"350"
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"3000"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+		"wave"		"exo/Atlas/Melee_AutoTitan_ChestPunch/Autotitan_Melee_ChestPunch_01_2ch.wav"
+		"wave"		"exo/Atlas/Melee_AutoTitan_ChestPunch/Autotitan_Melee_ChestPunch_02_2ch.wav"
+		"wave"		"exo/Atlas/Melee_AutoTitan_ChestPunch/Autotitan_Melee_ChestPunch_03_2ch.wav"
+
+	}
+}
+
+
+// Ogre melee swing
+
+"Ogre_Melee_Swing_Fast"
+{
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"pitch"				"98,102"
+	"flags"				"layered"
+
+	"rndwave"
+   	{
+		"ducks"				"SFX_Weapons_AI,0.5:0,1000,0,0"
+		"ducks"				"SFX_AMB,0.5:0,1000,0,0"
+		"ducks"				"Music,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:0,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+	"limit"				"1"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"20"
+ 	"falloffEnd"        		"30"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+
+	"wave"					"null.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"					"spatialized"
+		"folddownDistance"		"350"
+		"startDistance"   "0"
+		"peakDistance"    "0"
+		"falloffStart"    "300"
+		"falloffEnd"      "3000"
+		"startCurve"      "0"
+		"falloffCurve"    "0"
+		"limit"			  "2"
+		"wave"					"exo/ogre/melee/ogre_melee_swing_2ch_v1_01.wav"
+		"wave"					"exo/ogre/melee/ogre_melee_swing_2ch_v1_02.wav"
+		"wave"					"exo/ogre/melee/ogre_melee_swing_2ch_v1_03.wav"
+
+	}
+
+}
+
+// Ogre melee swing (Big Punch)
+
+"Ogre_Melee_BigPunch_Swing_Fast"
+{
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.5"
+	"pitch"				"98,102"
+	"flags"				"layered"
+
+	"rndwave"
+   	{
+		"ducks"				"SFX_Weapons_AI,0.5:0,1000,0,0"
+		"ducks"				"SFX_AMB,0.5:0,1000,0,0"
+		"ducks"				"Music,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:0,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+	"limit"				"1"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"20"
+ 	"falloffEnd"        		"30"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+
+	"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"					"spatialized"
+		"folddownDistance"		"350"
+		"startDistance"   "0"
+		"peakDistance"    "0"
+		"falloffStart"    "300"
+		"falloffEnd"      "3000"
+		"startCurve"      "0"
+		"falloffCurve"    "0"
+		"limit"			  "2"
+		"wave"					"exo/ogre/melee/ogre_melee_swing_2ch_v1_01.wav"
+		"wave"					"exo/ogre/melee/ogre_melee_swing_2ch_v1_02.wav"
+		"wave"					"exo/ogre/melee/ogre_melee_swing_2ch_v1_03.wav"
+
+	}
+
+	"rndwave"
+	{
+
+		"flags"					"spatialized"
+		"folddownDistance"		"350"
+		"volume"		"4.5"
+		"pitch"			"90,115"
+		"delay"			"300"
+		"startDistance"   "199"
+		"peakDistance"    "199"
+		"falloffStart"    "200"
+        "falloffEnd"      "3000"
+		"startCurve"      "0"
+		"falloffCurve"    "0"
+		"limit"			  "2"
+		"wave"		"exo/Ogre/Dash/Mvmt_Ogre_1p_Dash_Generic_2ch_v5_01.wav"
+		"wave"		"exo/Ogre/Dash/Mvmt_Ogre_1p_Dash_Generic_2ch_v5_02.wav"
+		"wave"		"exo/Ogre/Dash/Mvmt_Ogre_1p_Dash_Generic_2ch_v5_03.wav"
+
+	}
+}
+
+
+// Ogre finishing moves
+
+"Ogre_1p_Sync_Melee"
+{
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.4"
+	"radius"			"0"
+	"pitch"				"100"
+		"ducks"				"all,0.8:0,1000,0,0"
+
+	"rndwave"
+	{
+	"limit"			"1"
+		"wave"		"exo/Ogre/Melee/Ogre_Melee_ArmsRip_6ch_v1_01.wav"
+
+	}
+
+}
+
+"Ogre_3p_Sync_Melee"
+{
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.1"
+	"flags"				"layered"
+
+	"rndwave"
+   	{
+		"ducks"				"all,0.8a:0,1000,0,0"
+
+	"limit"				"1"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"500"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+
+	"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+			"flags"				"spatialized"
+			"folddownDistance"	"350"
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"3000"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+			"wave"		"exo/Ogre/Melee/Ogre_Melee_ArmsRip_2ch_v1_01.wav"
+
+	}
+
+}
+
+// Stryder melee swing
+
+"Stryder_Melee_Swing_Fast"
+{
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2"
+	"flags"				"layered"
+	"pitch"				"95"
+
+	"rndwave"
+   	{
+		"ducks"				"SFX_Weapons_AI,0.5:0,1000,0,0"
+		"ducks"				"SFX_AMB,0.5:0,1000,0,0"
+		"ducks"				"Music,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:0,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+	"limit"				"1"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"20"
+ 	"falloffEnd"        		"30"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+
+	"wave"					"null.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"					"spatialized"
+		"folddownDistance"		"350"
+		"startDistance"   "0"
+		"peakDistance"    "0"
+		"falloffStart"    "300"
+		"falloffEnd"      "3000"
+		"startCurve"      "0"
+		"falloffCurve"    "0"
+		"limit"			  "2"
+		"wave"		"exo/Stryder/Stryder_1P_Melee_Punch_2ch_v2_01.wav"
+		"wave"		"exo/Stryder/Stryder_1P_Melee_Punch_2ch_v2_02.wav"
+		"wave"		"exo/Stryder/Stryder_1P_Melee_Punch_2ch_v2_03.wav"
+
+	}
+
+}
+
+// Stryder melee swing (Big Punch)
+"Stryder_Melee_BigPunch_Swing_Fast"
+{
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2"
+	"pitch"				"95"
+	"flags"				"layered"
+
+	"rndwave"
+   	{
+		"ducks"				"SFX_Weapons_AI,0.5:0,1000,0,0"
+		"ducks"				"SFX_AMB,0.5:0,1000,0,0"
+		"ducks"				"Music,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:0,1000,0,0"
+		"ducks"				"SFX_Impacts_Explos,0.5:500,1000,0,0"
+	"limit"				"1"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"20"
+ 	"falloffEnd"        		"30"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+
+	"wave"					"null.wav"
+	}
+
+	"rndwave"
+	{
+		"startDistance"   "0"
+		"peakDistance"    "0"
+        "falloffStart"    "800"
+        "falloffEnd"      "3000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+		"limit"			  "2"
+		"flags"			"spatialized"
+
+		"wave"		"exo/Stryder/Stryder_1P_Melee_Punch_2ch_v2_01.wav"
+		"wave"		"exo/Stryder/Stryder_1P_Melee_Punch_2ch_v2_02.wav"
+		"wave"		"exo/Stryder/Stryder_1P_Melee_Punch_2ch_v2_03.wav"
+
+	}
+
+	"rndwave"
+	{
+		"volume"	"1.2"
+		"pitch"		"90,105"
+		"delay"		"240"
+		"startDistance"   "0"
+		"peakDistance"    "0"
+        "falloffStart"    "800"
+        "falloffEnd"      "1500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+		"limit"			  "2"
+		"flags"			"spatialized"
+
+		"wave"		"exo/Stryder/Stryder_Dash_2ch_v1_01.wav"
+		"wave"		"exo/Stryder/Stryder_Dash_2ch_v1_02.wav"
+		"wave"		"exo/Stryder/Stryder_Dash_2ch_v1_03.wav"
+		"wave"		"exo/Stryder/Stryder_Dash_2ch_v1_04.wav"
+	}
+
+}
+
+// Stryder finishing moves
+
+"Stryder_1p_Sync_Melee"
+{
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.8"
+	"radius"			"0"
+	"pitch"				"100"
+		"ducks"				"all,0.8:0,1000,0,0"
+
+	"rndwave"
+	{
+	"limit"			"1"
+		"wave"		"exo/Stryder/Stryder_SyncMelee_1P_6ch_v1_01.wav"
+		"wave"		"exo/Stryder/Stryder_SyncMelee_1P_6ch_v1_02.wav"
+		"wave"		"exo/Stryder/Stryder_SyncMelee_1P_6ch_v1_03.wav"
+
+	}
+
+}
+
+"Stryder_3p_Sync_Melee"
+{
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Movement"
+	"volume"			"2.6"
+	"flags"				"layered"
+
+	"rndwave"
+   	{
+		"ducks"				"all,0.8a:0,1000,0,0"
+
+	"limit"				"1"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"500"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+
+	"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+			"flags"				"spatialized"
+			"folddownDistance"	"350"
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"3000"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+		"wave"		"exo/Stryder/Stryder_SyncMelee_3P_2ch_v1_01.wav"
+		"wave"		"exo/Stryder/Stryder_SyncMelee_3P_2ch_v1_02.wav"
+		"wave"		"exo/Stryder/Stryder_SyncMelee_3P_2ch_v1_03.wav"
+
+	}
+
+}
+
+
+
+////////////////////
+//TITAN OFFHAND ABILITIES
+////////////////////
+
+
+////////////////////
+//SHIELD WALL
+////////////////////
+
+"ShieldWall_Deploy"
+{
+	"mixgroup"			"SFX,SFX_Ability,SFX_Ability_ShieldWall"
+	"volume"			"1.0"
+	"radius"			"4000"
+	"pitch"				"100"
+
+
+
+	"rndwave"
+	{
+		"volume"			"5"
+		"pitch"				"107"
+		"limit"				"2"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+
+
+		"wave"		"exo/Shield_Wall/ShieldWall_Deploy_2ch_v2_01.wav"
+	}
+
+
+}
+
+"ShieldWall_Loop"
+{
+	"mixgroup"			"SFX,SFX_Ability,SFX_Ability_ShieldWall"
+	"volume"			"1.0"
+	"radius"			"4000"
+	"pitch"				"100"
+	"flags"				"loop"
+
+
+
+	"rndwave"
+	{
+		"volume"			"4"
+		"pitch"				"100"
+		"limit"				"4"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"300"
+		"wave"		"exo/Shield_Wall/ShieldWall_Loop_2ch_v2_01.wav"
+	}
+
+
+}
+
+"ShieldWall_End"
+{
+	"mixgroup"			"SFX,SFX_Ability,SFX_Ability_ShieldWall"
+	"volume"			"1.0"
+	"radius"			"4000"
+	"pitch"				"100"
+
+
+
+	"rndwave"
+	{
+		"volume"			"5"
+		"pitch"				"100"
+		"limit"				"2"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"wave"		"exo/Shield_Wall/ShieldWall_End_2ch_v2_01.wav"
+	}
+}
+
+
+"ShieldWall_Destroyed"
+{
+	"mixgroup"			"SFX,SFX_Ability,SFX_Ability_ShieldWall"
+	"radius"			"4000"
+
+
+
+	"rndwave"
+	{
+		"volume"			"7"
+		"limit"				"2"
+		"pitch"				"80,110"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"wave"		"exo/Shield_Wall/ShieldWall_Destroyed_2ch_v2_01.wav"
+	}
+}
+
+////////////////////
+//ELECTRIC SMOKE
+////////////////////
+"Titan_Offhand_ElectricSmoke_Deploy"
+{
+	"mixgroup"			"SFX,SFX_Ability,SFX_Ability_ElectricSmoke"
+	"volume"			"1.0"
+	"radius"			"4000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"volume"			"5.0"
+		"pitch"				"95,105"
+		"limit"				"2"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"800"
+		"maxrange"			"2000"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Deploy_2ch_01.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Deploy_2ch_02.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Deploy_2ch_03.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"			"5.0"
+		"pitch"				"95,105"
+		"limit"				"2"
+		"minrange"			"1800"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Deploy_Medium_1ch_01.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Deploy_Medium_1ch_02.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Deploy_Medium_1ch_03.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"			"5.0"
+		"pitch"				"95,105"
+		"limit"				"2"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"700"
+		"maxrange"			"1500"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Smoke_Close_2ch_01.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Smoke_Close_2ch_02.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Smoke_Close_2ch_03.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"			"3.0"
+		"pitch"				"95,105"
+		"limit"				"2"
+		"minrange"			"1300"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Smoke_Medium_1ch_01.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Smoke_Medium_1ch_02.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Smoke_Medium_1ch_03.wav"
+	}
+
+		"rndwave"
+	{
+		"volume"			"7.0"
+		"pitch"				"95,105"
+		"limit"				"2"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"300"
+		"maxrange"			"1500"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Electric_Close_2ch_01.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Electric_Close_2ch_02.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Electric_Close_2ch_03.wav"
+	}
+
+		"rndwave"
+	{
+		"volume"			"5.0"
+		"pitch"				"95,105"
+		"limit"				"2"
+		"minrange"			"1300"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Electric_Medium_1ch_01.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Electric_Medium_1ch_02.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Electric_Medium_1ch_03.wav"
+	}
+
+}
+
+"Titan_Offhand_ElectricSmoke_Deploy_Amped"
+{
+	"mixgroup"			"SFX,SFX_Ability,SFX_Ability_ElectricSmoke"
+	"volume"			"1.0"
+	"radius"			"4000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"volume"			"5.0"
+		"pitch"				"99,100"
+		"limit"				"2"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+		"maxrange"			"2000"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Amped_Deploy_Close_2ch_01.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Amped_Deploy_Close_2ch_02.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Amped_Deploy_Close_2ch_03.wav"
+
+	}
+
+	"rndwave"
+	{
+		"volume"			"5.0"
+		"pitch"				"99,100"
+		"limit"				"2"
+		"minrange"			"1800"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Amped_Deploy_Medium_1ch_01.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Amped_Deploy_Medium_1ch_02.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Amped_Deploy_Medium_1ch_03.wav"
+
+	}
+
+	"rndwave"
+	{
+		"volume"			"5.0"
+		"pitch"				"90,95"
+		"limit"				"2"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"600"
+		"maxrange"			"1500"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Amped_Smoke_Close_2ch_01.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Amped_Smoke_Close_2ch_02.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Amped_Smoke_Close_2ch_03.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"			"3.0"
+		"pitch"				"90,95"
+		"limit"				"2"
+		"minrange"			"0"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Amped_Smoke_Medium_1ch_01.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Amped_Smoke_Medium_1ch_02.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Amped_Smoke_Medium_1ch_03.wav"
+
+	}
+
+		"rndwave"
+	{
+		"volume"			"7.0"
+		"pitch"				"90,105"
+		"limit"				"2"
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"maxrange"			"1500"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Amped_Electric_Close_2ch_01.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Amped_Electric_Close_2ch_02.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Amped_Electric_Close_2ch_03.wav"
+	}
+
+		"rndwave"
+	{
+		"volume"			"5.0"
+		"pitch"				"90,103"
+		"limit"				"2"
+		"minrange"			"1300"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Amped_Electric_Medium_1ch_01.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Amped_Electric_Medium_1ch_02.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Amped_Electric_Medium_1ch_03.wav"
+	}
+
+}
+
+
+"Titan_Offhand_ElectricSmoke_Loop"
+{
+	"mixgroup"			"SFX,SFX_Ability,SFX_Ability_ElectricSmoke"
+	"volume"			"1.0"
+	"radius"			"2500"
+	"pitch"				"100"
+	"flags"				"loop"
+
+	"rndwave"
+	{
+		"limit"		"1"
+		"wave"		"null.wav"
+
+	}
+}
+
+"Titan_Offhand_ElectricSmoke_Disperse"
+{
+	"mixgroup"			"SFX,SFX_Ability,SFX_Ability_ElectricSmoke"
+	"volume"			"1.0"
+	"radius"			"2500"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"		"1"
+		"wave"		"null.wav"
+
+	}
+}
+
+"Titan_Offhand_ElectricSmoke_Human_Damage_1P"
+{
+	"mixgroup"			"SFX,SFX_Ability,SFX_Ability_ElectricSmoke"
+	"volume"			"10.0"
+	"volumeScale"		"0.8"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"		"2"
+		"volume"	"6.0"
+		"pitch"		"150"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Human_Damage_2ch_01.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Human_Damage_2ch_02.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Human_Damage_2ch_03.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Human_Damage_2ch_04.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Human_Damage_2ch_05.wav"
+
+	}
+	"rndwave"
+	{
+		"volume"			"0.0"
+		"pitch"				"190"
+		"limit"				"2"
+
+		"wave" 				"player/player_melee_kick_impact_flesh_01.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_02.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_03.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_04.wav"
+
+	}
+	"rndwave"
+	{
+
+	"channels"
+		{
+		}
+		"volume"	"4.5"
+		"delay"		"150"
+		"pitch"		"130,140"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_Spectre_Killshot_Sizzle_1p_vs_3p_1ch_v1_01.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_Spectre_Killshot_Sizzle_1p_vs_3p_1ch_v1_02.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_Spectre_Killshot_Sizzle_1p_vs_3p_1ch_v1_03.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_Spectre_Killshot_Sizzle_1p_vs_3p_1ch_v1_04.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_Spectre_Killshot_Sizzle_1p_vs_3p_1ch_v1_05.wav"
+	}
+}
+
+"Titan_Offhand_ElectricSmoke_Human_Damage_3P"
+{
+	"mixgroup"			"SFX,SFX_Ability,SFX_Ability_ElectricSmoke"
+	"volumeScale"		"1.5"
+	"radius"			"4000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"10"
+
+		"limit"		"2"
+		"volume"	"6.0"
+		"pitch"		"140,150"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Human_Damage_2ch_01.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Human_Damage_2ch_02.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Human_Damage_2ch_03.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Human_Damage_2ch_04.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Human_Damage_2ch_05.wav"
+
+	}
+	"rndwave"
+	{
+		"channels"
+		{
+		}
+		"volume"	"4.5"
+		"delay"		"150"
+		"pitch"		"130,140"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_Spectre_Killshot_Sizzle_1p_vs_3p_1ch_v1_01.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_Spectre_Killshot_Sizzle_1p_vs_3p_1ch_v1_02.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_Spectre_Killshot_Sizzle_1p_vs_3p_1ch_v1_03.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_Spectre_Killshot_Sizzle_1p_vs_3p_1ch_v1_04.wav"
+		"wave"		"impacts/LightBallistic/Imp_Bullet_Spectre_Killshot_Sizzle_1p_vs_3p_1ch_v1_05.wav"
+	}
+}
+
+"Titan_Offhand_ElectricSmoke_Titan_Damage_1P"
+{
+	"mixgroup"			"SFX,SFX_Ability,SFX_Ability_ElectricSmoke"
+	"volume"			"3.0"
+	"radius"			"0"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"limit"		"2"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Titan_Damage_2ch_v2_01.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Titan_Damage_2ch_v2_02.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Titan_Damage_2ch_v2_03.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Titan_Damage_2ch_v2_04.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Titan_Damage_2ch_v2_05.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Titan_Damage_2ch_v2_06.wav"
+
+
+	}
+}
+"Titan_Offhand_ElectricSmoke_Titan_Damage_3P"
+{
+	"mixgroup"			"SFX,SFX_Ability,SFX_Ability_ElectricSmoke"
+	"volume"			"4.0"
+	"radius"			"2000"
+	"pitch"				"100"
+
+		"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"1000"
+		"limit"		"2"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Titan_Damage_2ch_v2_01.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Titan_Damage_2ch_v2_02.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Titan_Damage_2ch_v2_03.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Titan_Damage_2ch_v2_04.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Titan_Damage_2ch_v2_05.wav"
+		"wave"		"weapons/Titan_Electric_Smoke/ElectricSmoke_Titan_Damage_2ch_v2_06.wav"
+
+
+	}
+}
+
+////////////////////
+//Exo Damage Sounds and Events
+////////////////////
+
+
+"titan_targeting_beeps"
+{
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_NORM"
+	"pitch"				"100"
+
+	"wave"		"exo/Titan_Cockpit_Targeting_Beeps.wav"
+
+}
+
+
+"titan_bullet_hit"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_3P_Hits_1P,SFX_Impacts_3P_Hits_1P_Bullets"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_NORM"
+	"pitch"				"90,110"
+
+	"rndwave"
+	{
+	"wave"		"exo/Titan_Light_Bullet_Hit_01.wav"
+	"wave"		"exo/Titan_Light_Bullet_Hit_02.wav"
+	"wave"		"exo/Titan_Light_Bullet_Hit_03.wav"
+	"wave"		"exo/Titan_Light_Bullet_Hit_04.wav"
+	"wave"		"exo/Titan_Light_Bullet_Hit_05.wav"
+	"wave"		"exo/Titan_Light_Bullet_Hit_06.wav"
+	"wave"		"exo/Titan_Light_Bullet_Hit_07.wav"
+	}
+}
+
+"titan_impact_damage"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_3P_Hits_1P,SFX_Impacts_3P_Hits_1P_Explosions"
+	"volume"			".875,1.0"
+	"soundlevel"		"SNDLVL_130dB"
+	"pitch"				"80,120"
+
+	"rndwave"
+	{
+	"wave"		"exo/damage_impact_01.wav"
+	"wave"		"exo/damage_impact_02.wav"
+	"wave"		"exo/damage_impact_03.wav"
+	"wave"		"exo/damage_impact_04.wav"
+	"wave"		"exo/damage_impact_05.wav"
+	"wave"		"exo/damage_impact_06.wav"
+	"wave"		"exo/damage_impact_07.wav"
+	"wave"		"exo/damage_impact_08.wav"
+
+	}
+}
+
+
+"interior_cockpit_shake"
+{
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"volume"			"0.1"
+	"radius"			"200"
+	"pitch"				"80,120"
+
+	"rndwave"
+	{
+	"wave"		"exo/cockpit_interior_hit_01.wav"
+	"wave"		"exo/cockpit_interior_hit_02.wav"
+	"wave"		"exo/cockpit_interior_hit_03.wav"
+	"wave"		"exo/cockpit_interior_hit_04.wav"
+	"wave"		"exo/cockpit_interior_hit_05.wav"
+	"wave"		"exo/cockpit_interior_hit_06.wav"
+	"wave"		"exo/cockpit_interior_hit_07.wav"
+	"wave"		"exo/cockpit_interior_hit_08.wav"
+
+	}
+}
+
+"titan_heavy_damage"
+{
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"volume"			"0.1"
+	"radius"				"200"
+	"pitch"				"90,110"
+
+	"rndwave"
+	{
+	"wave"		"exo/Titan_Cockpit_Damage_Heavy_01.wav"
+	"wave"		"exo/Titan_Cockpit_Damage_Heavy_02.wav"
+	"wave"		"exo/Titan_Cockpit_Damage_Heavy_03.wav"
+	"wave"		"exo/Titan_Cockpit_Damage_Heavy_04.wav"
+	"wave"		"exo/Titan_Cockpit_Damage_Heavy_05.wav"
+	"wave"		"exo/Titan_Cockpit_Damage_Heavy_06.wav"
+	}
+}
+
+
+"titan_cockpit_electrical_damage"
+{
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"volume"			"1.5"
+	"radius"			"0"
+	"pitch"				"90,110"
+
+	"rndwave"
+	{
+	"limit"		"1"
+	"volume"			"3"
+	"wave"		"impacts\ArcCannon\Imp_Arc_Titan_Hit_3p_vs_1p_1ch_v1_01.wav"
+	"wave"		"impacts\ArcCannon\Imp_Arc_Titan_Hit_3p_vs_1p_1ch_v1_02.wav"
+	"wave"		"impacts\ArcCannon\Imp_Arc_Titan_Hit_3p_vs_1p_1ch_v1_03.wav"
+	"wave"		"impacts\ArcCannon\Imp_Arc_Titan_Hit_3p_vs_1p_1ch_v1_04.wav"
+	"wave"		"impacts\ArcCannon\Imp_Arc_Titan_Hit_3p_vs_1p_1ch_v1_05.wav"
+	}
+
+	"rndwave"
+	{
+	"limit"		"1"
+	"volume"			"1.5"
+	"wave"		"impacts\ArcCannon\Imp_Arc_Titan_Sizzle_3p_vs_1p_6ch_v1_01.wav"
+	"wave"		"impacts\ArcCannon\Imp_Arc_Titan_Sizzle_3p_vs_1p_6ch_v1_02.wav"
+	"wave"		"impacts\ArcCannon\Imp_Arc_Titan_Sizzle_3p_vs_1p_6ch_v1_03.wav"
+	"wave"		"impacts\ArcCannon\Imp_Arc_Titan_Sizzle_3p_vs_1p_6ch_v1_04.wav"
+	"wave"		"impacts\ArcCannon\Imp_Arc_Titan_Sizzle_3p_vs_1p_6ch_v1_05.wav"
+	}
+
+	"rndwave"
+	{
+	"limit"		"1"
+	"volume"			"1.5"
+	"wave"		"impacts\ArcCannon\Imp_Arc_Titan_Spark_3p_vs_1p_6ch_v1_01.wav"
+	"wave"		"impacts\ArcCannon\Imp_Arc_Titan_Spark_3p_vs_1p_6ch_v1_02.wav"
+	"wave"		"impacts\ArcCannon\Imp_Arc_Titan_Spark_3p_vs_1p_6ch_v1_03.wav"
+	"wave"		"impacts\ArcCannon\Imp_Arc_Titan_Spark_3p_vs_1p_6ch_v1_04.wav"
+	"wave"		"impacts\ArcCannon\Imp_Arc_Titan_Spark_3p_vs_1p_6ch_v1_05.wav"
+
+	}
+
+	"rndwave"
+	{
+	"limit"		"1"
+	"volume"		"2"
+	"pitch"			"80,90"
+	"limit"			"1"
+	"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_01.wav"
+	"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_02.wav"
+	"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_03.wav"
+	"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_04.wav"
+	"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_05.wav"
+	"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_06.wav"
+	"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_07.wav"
+	"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_08.wav"
+	"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_09.wav"
+	"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_10.wav"
+	"wave"		"impacts/TitanChassisRattle/Atlas/Imp_Bullet_Explosive_Titan_Shudder_3p_vs_1p_6ch_v1_11.wav"
+
+
+	}
+}
+
+"titan_damage_crit"
+{
+
+	"mixgroup"		"titan,SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates,SFX_Impacts_TitanDamageStates_1P_Hits_3P"
+	"volume"		"1"
+	"radius"		"0"
+	"ducks"			"all,0.15"
+
+	"rndwave"
+	{
+
+	"limit"			"2"
+	"volume"		"2.4,2.7"
+	"pitch"			"68,82"
+
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_1p_vs_3p_2ch_v1_01.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_1p_vs_3p_2ch_v1_02.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_1p_vs_3p_2ch_v1_03.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_1p_vs_3p_2ch_v1_04.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_1p_vs_3p_2ch_v1_05.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_1p_vs_3p_2ch_v1_06.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_1p_vs_3p_2ch_v1_07.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_1p_vs_3p_2ch_v1_08.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_1p_vs_3p_2ch_v1_09.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_1p_vs_3p_2ch_v1_10.wav"
+	}
+
+
+}
+
+"titan_damage_crit_3p_vs_1p"
+{
+
+	"mixgroup"		"titan,SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates,SFX_Impacts_TitanDamageStates_3P_Hits_1P"
+	"volume"		"1"
+	"radius"		"0"
+	"ducks"			"all,0.2"
+	//"flags"			"noduck"
+
+	"rndwave"
+	{
+
+	"limit"			"1"
+
+	"volume"		"2.0,2.3"
+	"pitch"			"68,82"
+
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_3p_vs_1p_6ch_v1_01.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_3p_vs_1p_6ch_v1_02.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_3p_vs_1p_6ch_v1_03.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_3p_vs_1p_6ch_v1_04.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_3p_vs_1p_6ch_v1_05.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_3p_vs_1p_6ch_v1_06.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_3p_vs_1p_6ch_v1_07.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_3p_vs_1p_6ch_v1_08.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_3p_vs_1p_6ch_v1_09.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_3p_vs_1p_6ch_v1_10.wav"
+
+	}
+
+
+}
+
+"titan_missle_lock_tone" {
+
+	"flags"			"drymix,omni,loop"
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"volume"		"0.7"
+	"radius"		"750"
+
+	"wave"			"exo/missle_lock_tone.wav"
+
+}
+
+"titan_cockpit_missile_close_warning"
+{
+
+	"flags"			"drymix,omni"
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"volume"		"1.5"
+	"radius"		"0"
+
+	"wave"			"exo/titan_cockpit_missile_close_1ch_v1_01.wav"
+
+}
+
+
+//need to discover if this is used.....
+
+
+
+//----------------
+//TITAN DAMAGE STATES
+//----------------
+
+"titan_brain_damage_1P"
+
+// VICTIM TITAN'S POV - brain being shot by rodeoing pilot
+
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts"
+	"radius"			"800"
+
+	"rndwave"
+	{
+
+	"limit"		"2"
+
+	"volume"	"3.0"
+	"pitch"		"95,105"
+
+	"ducks"				"SFX_Impacts_TitanDamageStates_3P_Hits_1P,1.0:0,7000"
+
+	"wave"		"exo/damage/titan_damage_spark_01.wav"
+	"wave"		"exo/damage/titan_damage_spark_02.wav"
+	"wave"		"exo/damage/titan_damage_spark_03.wav"
+	"wave"		"exo/damage/titan_damage_spark_04.wav"
+	"wave"		"exo/damage/titan_damage_spark_05.wav"
+	"wave"		"exo/damage/titan_damage_spark_06.wav"
+	"wave"		"exo/damage/titan_damage_spark_07.wav"
+	"wave"		"exo/damage/titan_damage_spark_08.wav"
+	}
+
+	"rndwave"
+
+	{
+
+		"limit"		"3"
+		"pitch"		"115,125"
+
+				"channels"
+		{
+			"1"		"LS,4.0"
+			"1"		"RS,4.0"
+		}
+
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_3p_vs_1p_1ch_v3_01.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_3p_vs_1p_1ch_v3_02.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_3p_vs_1p_1ch_v3_03.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_3p_vs_1p_1ch_v3_04.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_3p_vs_1p_1ch_v3_05.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_3p_vs_1p_1ch_v3_06.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_3p_vs_1p_1ch_v3_07.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_3p_vs_1p_1ch_v3_08.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_3p_vs_1p_1ch_v3_09.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_3p_vs_1p_1ch_v3_10.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_3p_vs_1p_1ch_v3_11.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_3p_vs_1p_1ch_v3_12.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_3p_vs_1p_1ch_v3_13.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_3p_vs_1p_1ch_v3_14.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_3p_vs_1p_1ch_v3_15.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_3p_vs_1p_1ch_v3_16.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_3p_vs_1p_1ch_v3_17.wav"
+
+	}
+
+	"rndwave"
+
+	{
+
+		"limit"		"3"
+		"volume"	"0.9,1.1"
+		"pitch"		"100,115"
+					"channels"
+		{
+			"1"		"L,1.3"
+			"1"		"R,1.3"
+		}
+
+
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_INTCrunch_3p_vs_1p_1ch_v1_01.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_INTCrunch_3p_vs_1p_1ch_v1_02.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_INTCrunch_3p_vs_1p_1ch_v1_03.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_INTCrunch_3p_vs_1p_1ch_v1_04.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_INTCrunch_3p_vs_1p_1ch_v1_05.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_INTCrunch_3p_vs_1p_1ch_v1_06.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_INTCrunch_3p_vs_1p_1ch_v1_07.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_INTCrunch_3p_vs_1p_1ch_v1_08.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_INTCrunch_3p_vs_1p_1ch_v1_09.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_INTCrunch_3p_vs_1p_1ch_v1_10.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_INTCrunch_3p_vs_1p_1ch_v1_12.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_INTCrunch_3p_vs_1p_1ch_v1_13.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_INTCrunch_3p_vs_1p_1ch_v1_14.wav"
+
+
+	}
+
+	"rndwave"
+	{
+
+	"limit"			"1"
+
+	"volume"		"1.0,1.3"
+	"pitch"			"68,82"
+
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_3p_vs_1p_6ch_v1_01.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_3p_vs_1p_6ch_v1_02.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_3p_vs_1p_6ch_v1_03.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_3p_vs_1p_6ch_v1_04.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_3p_vs_1p_6ch_v1_05.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_3p_vs_1p_6ch_v1_06.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_3p_vs_1p_6ch_v1_07.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_3p_vs_1p_6ch_v1_08.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_3p_vs_1p_6ch_v1_09.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_3p_vs_1p_6ch_v1_10.wav"
+
+	}
+
+}
+
+"titan_brain_damage_3P"
+
+// ATTACKING PILOT'S POV - brain being shot by rodeoing pilot
+
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_1P_Hits_3P"
+	"volumescale"		"0.65"
+	"radius"			"800"
+
+	"ducks"				"SFX_Impacts_TitanDamageStates_1P_Hits_3P,0.55:0,500"
+	"ducks"				"SFX_Impacts_1P_Hits_3P_Bullets,1.0"
+	"ducks"			"SFX_Weapons_Pilot_1P_Gunfire,0.3:0.0"
+	"ducks"			"SFX_Weapons_SingleShot_Pilot_1P_Gunfire,0.15:0.0"
+
+	"rndwave"
+
+	{
+
+		"limit"		"3"
+
+		"volume"	"7.5,7.9"
+		"pitch"		"150,155"
+		"delay"		"10"
+
+		"wave"		"impacts/lightballistic/Imp_Bullet_LightBallistic_Spectre_1p_vs_3p_2ch_v3_01.wav"
+		"wave"		"impacts/lightballistic/Imp_Bullet_LightBallistic_Spectre_1p_vs_3p_2ch_v3_02.wav"
+		"wave"		"impacts/lightballistic/Imp_Bullet_LightBallistic_Spectre_1p_vs_3p_2ch_v3_03.wav"
+		"wave"		"impacts/lightballistic/Imp_Bullet_LightBallistic_Spectre_1p_vs_3p_2ch_v3_04.wav"
+		"wave"		"impacts/lightballistic/Imp_Bullet_LightBallistic_Spectre_1p_vs_3p_2ch_v3_05.wav"
+		"wave"		"impacts/lightballistic/Imp_Bullet_LightBallistic_Spectre_1p_vs_3p_2ch_v3_06.wav"
+		"wave"		"impacts/lightballistic/Imp_Bullet_LightBallistic_Spectre_1p_vs_3p_2ch_v3_07.wav"
+		"wave"		"impacts/lightballistic/Imp_Bullet_LightBallistic_Spectre_1p_vs_3p_2ch_v3_08.wav"
+
+		"wave"		"impacts/lightballistic/Imp_Bullet_LightBallistic_Spectre_1p_vs_3p_2ch_v3_10.wav"
+
+	}
+
+	"rndwave"
+
+	{
+
+		"limit"		"1"
+		"volume"	"8.0,8.4"
+		"pitch"		"120,130"
+
+		"channels"
+		{
+			"1"		"L"
+			"1"		"R"
+		}
+
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_01.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_02.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_03.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_04.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_05.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_06.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_07.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_08.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_09.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_10.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_12.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_13.wav"
+		"wave"		"impacts/HeavyBallistic/Imp_Bullet_HeavyBallistic_Titan_Crunch_1p_vs_3p_1ch_v1_14.wav"
+
+	}
+}
+
+"titan_armor_damage"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates"
+	"volume"			".6"
+	"radius"			"3000"
+	"pitch"				"90,110"
+
+
+	"rndwave"
+	{
+		"limit"		"1"
+		"maxrange"	"1000"
+			"wave"		"exo/damage/titan_armor_break_close_debris_01.wav"
+			"wave"		"exo/damage/titan_armor_break_close_debris_02.wav"
+			"wave"		"exo/damage/titan_armor_break_close_debris_03.wav"
+			"wave"		"exo/damage/titan_armor_break_close_debris_04.wav"
+			"wave"		"exo/damage/titan_armor_break_close_debris_05.wav"
+			"wave"		"exo/damage/titan_armor_break_close_debris_06.wav"
+	}
+	"rndwave"
+	{
+		"limit"		"1"
+		"maxrange"	"1500"
+			"wave"		"exo/damage/titan_armor_break_punch_01.wav"
+			"wave"		"exo/damage/titan_armor_break_punch_02.wav"
+			"wave"		"exo/damage/titan_armor_break_punch_03.wav"
+			"wave"		"exo/damage/titan_armor_break_punch_04.wav"
+			"wave"		"exo/damage/titan_armor_break_punch_05.wav"
+			"wave"		"exo/damage/titan_armor_break_punch_06.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"		"1"
+		"minrange"	"1400"
+		"maxrange"	"3000"
+			"wave"		"exo/damage/titan_armor_break_3P_01.wav"
+			"wave"		"exo/damage/titan_armor_break_3P_02.wav"
+			"wave"		"exo/damage/titan_armor_break_3P_03.wav"
+			"wave"		"exo/damage/titan_armor_break_3P_04.wav"
+			"wave"		"exo/damage/titan_armor_break_3P_05.wav"
+	}
+
+}
+
+"titan_armor_pieces_heavy"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_Physics"
+	"volume"			"0.2,0.3"
+	"radius"			"500"
+	"pitch"				"80,120"
+
+	"rndwave"
+	{
+	"limit"		"1"
+
+	"wave"		"impacts/physics/metal_impact_heavy_01.wav"
+	"wave"		"impacts/physics/metal_impact_heavy_02.wav"
+	"wave"		"impacts/physics/metal_impact_heavy_03.wav"
+	"wave"		"impacts/physics/metal_impact_heavy_04.wav"
+	"wave"		"impacts/physics/metal_impact_heavy_05.wav"
+	}
+}
+
+"titan_armor_pieces_light"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_Physics"
+	"volume"			"0.3,0.4"
+	"radius"			"500"
+	"pitch"				"80,120"
+
+	"rndwave"
+	{
+	"limit"		"1"
+
+	"wave"		"impacts/physics/metal_impact_light_01.wav"
+	"wave"		"impacts/physics/metal_impact_light_02.wav"
+	"wave"		"impacts/physics/metal_impact_light_03.wav"
+	"wave"		"impacts/physics/metal_impact_light_04.wav"
+	"wave"		"impacts/physics/metal_impact_light_05.wav"
+	"wave"		"impacts/physics/metal_impact_light_06.wav"
+	}
+}
+
+
+"titan_damage_spark"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates"
+	"volume"			"1.0"
+	"radius"			"800"
+	"pitch"				"95,105"
+
+	"rndwave"
+	{
+	"limit"		"1"
+	"wave"		"exo/damage/titan_damage_spark_01.wav"
+	"wave"		"exo/damage/titan_damage_spark_02.wav"
+	"wave"		"exo/damage/titan_damage_spark_03.wav"
+	"wave"		"exo/damage/titan_damage_spark_04.wav"
+	"wave"		"exo/damage/titan_damage_spark_05.wav"
+	"wave"		"exo/damage/titan_damage_spark_06.wav"
+	"wave"		"exo/damage/titan_damage_spark_07.wav"
+	"wave"		"exo/damage/titan_damage_spark_08.wav"
+	}
+}
+
+"titan_damage_steam_start"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates"
+	"volume"			"1.0"
+	"radius"			"1000"
+	"pitch"				"95,105"
+
+	"rndwave"
+	{
+	"limit"		"1"
+	"wave"		"exo/damage/titan_damage_state_steam_break.wav"
+	}
+}
+
+"titan_damage_smoke_start"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates"
+	"volume"			"1.0"
+	"radius"			"1000"
+	"pitch"				"95,105"
+
+	"rndwave"
+	{
+	"limit"		"1"
+	"wave"		"exo/damage/titan_damage_state_smoke_break.wav"
+	}
+}
+
+"titan_damage_small_fire_start"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates"
+	"volume"			"1.0"
+	"radius"			"1000"
+	"pitch"				"95,105"
+
+	"rndwave"
+	{
+	"limit"		"1"
+	"wave"		"exo/damage/titan_damage_state_fire_break.wav"
+	}
+}
+
+"titan_damage_large_fire_start"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates"
+	"volume"			"1.0"
+	"radius"			"1000"
+	"pitch"				"95,105"
+
+	"rndwave"
+	{
+	"limit"		"1"
+	"wave"		"exo/damage/titan_damage_state_large_fire_break.wav"
+	}
+}
+
+"titan_damage_steam_loop"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates"
+	"volume"			"1.0"
+	"radius"			"1"
+	"pitch"				"95,105"
+
+	"wave"		"null.wav"
+
+}
+
+"titan_damage_smoke_loop"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates"
+	"volume"			"1.0"
+	"radius"			"1"
+	"pitch"				"95,105"
+
+	"wave"		"null.wav"
+
+
+}
+
+"titan_damage_small_fire_loop"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates"
+	"volume"			"1.0"
+	"radius"			"1"
+	"pitch"				"95,105"
+
+	"wave"		"null.wav"
+
+
+}
+
+"titan_damage_large_fire_loop"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates"
+	"volume"			"1.0"
+	"radius"			"1"
+	"pitch"				"95,105"
+
+	"wave"		"null.wav"
+
+
+}
+
+"titan_energyshield_damage"
+
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates"
+	"volume"			"4.5"
+	"radius"			"2000"
+	"falloff"			"1"
+	"pitch"				"95,105"
+
+	"rndwave"
+	{
+
+	"limit"			"2"
+	"flags"				"spatialized"
+	"foldDownDistance"	"200"
+	"volume"		"4.5,5"
+	"pitch"			"68,82"
+
+//	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_1p_vs_3p_2ch_v1_01.wav"
+//	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_1p_vs_3p_2ch_v1_02.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_1p_vs_3p_2ch_v1_03.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_1p_vs_3p_2ch_v1_04.wav"
+//	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_1p_vs_3p_2ch_v1_05.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_1p_vs_3p_2ch_v1_06.wav"
+//	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_1p_vs_3p_2ch_v1_07.wav"
+//	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_1p_vs_3p_2ch_v1_08.wav"
+//	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_1p_vs_3p_2ch_v1_09.wav"
+	"wave"		"impacts/CriticalHit/Imp_CriticalHit_Titan_1p_vs_3p_2ch_v1_10.wav"
+	}
+
+	"rndwave"
+	{
+	"limit"		"1.0"
+	"volume"		"4.5,5"
+	"wave"		"exo/damage/titan_damage_spark_01.wav"
+	"wave"		"exo/damage/titan_damage_spark_02.wav"
+	"wave"		"exo/damage/titan_damage_spark_03.wav"
+	"wave"		"exo/damage/titan_damage_spark_04.wav"
+	"wave"		"exo/damage/titan_damage_spark_05.wav"
+	"wave"		"exo/damage/titan_damage_spark_06.wav"
+	"wave"		"exo/damage/titan_damage_spark_07.wav"
+	}
+}
+
+"titan_energyshield_down"
+
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates"
+	"volume"			"9.0"
+	"radius"			"3000"
+	"falloff"			"5"
+	"pitch"				"95,105"
+
+	"rndwave"
+	{
+	"maxrange"		"300"
+	"pitch"				"95,105"
+	"wave"		"exo/energy_shield/titan_energyshield_power_down_6ch_v2_01.wav"
+	}
+
+	"rndwave"
+	{
+	"flags"             "spatialized"
+	"folddownDistance"  "10"
+	"panwidth"			"45"
+	"pitch"				"90,110"
+
+	"minrange"		"300"
+	"wave"		"exo/energy_shield/titan_energyshield_power_down_2ch_v1_01.wav"
+	}
+}
+
+"titan_energyshield_up"
+
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates"
+	"volume"			"4.5"
+	"radius"			"3000"
+	"pitch"				"95"
+
+	"rndwave"
+	{
+	"maxrange"		"300"
+	"wave"		"exo/energy_shield/titan_energyshield_power_up_6ch_v1_01.wav"
+	}
+
+	"rndwave"
+	{
+	"flags"             "spatialized"
+	"folddownDistance"  "10"
+	"panwidth"			"90"
+
+	"minrange"		"300"
+	"wave"		"exo/energy_shield/titan_energyshield_power_up_2ch_v1_01.wav"
+	}
+
+
+}
+
+
+"titan_energyshield_overcharge_start"
+
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates"
+	"volume"			"2.0"
+	"radius"			"500"
+
+	"rndwave"
+	{
+
+	"wave"		"exo/energy_shield/Titan_EnergyShield_Overcharge_Start_6ch_v1_01.wav"
+	}
+}
+
+"titan_blue_arc_damage"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates"
+	"volume"			"1.0"
+	"radius"			"1500"
+	"pitch"				"95,105"
+
+	"rndwave"
+	{
+	"limit"		"1"
+	"wave"		"exo/damage/titan_damage_arc_01.wav"
+	"wave"		"exo/damage/titan_damage_arc_02.wav"
+	"wave"		"exo/damage/titan_damage_arc_03.wav"
+	}
+}
+
+// Blue electricity cloud from Arc cannon
+
+"Titan_Blue_Electricity_Cloud"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates"
+	"volume"			"5.0"
+	"radius"			"2500"
+	"pitch"				"90,100"
+
+	"rndwave"
+	{
+	"limit"		"1"
+	"flags"					"spatialized"
+	"folddownDistance"		"500"
+	"wave"		"impacts/Energy/Titan_Electrical_Damage_BlueArcs_2ch_v1_01.wav"
+	"wave"		"impacts/Energy/Titan_Electrical_Damage_BlueArcs_2ch_v1_02.wav"
+	"wave"		"impacts/Energy/Titan_Electrical_Damage_BlueArcs_2ch_v1_03.wav"
+
+	}
+}
+
+
+"titan_damaged_servo"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_NORM"
+	"pitch"				"80,120"
+
+	"rndwave"
+	{
+	"limit"		"1"
+	"wave"		"exo/damage_servo_01.wav"
+	"wave"		"exo/damage_servo_02.wav"
+	"wave"		"exo/damage_servo_03.wav"
+	"wave"		"exo/damage_servo_04.wav"
+	"wave"		"exo/damage_servo_05.wav"
+	"wave"		"exo/damage_servo_06.wav"
+	"wave"		"exo/damage_servo_07.wav"
+	}
+}
+
+
+"titan_bolt_loose"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates"
+	"volume"			"1.5"
+	"radius"			"1500"
+	"pitch"				"80,120"
+
+	"rndwave"
+	{
+	"limit"		"1"
+	"wave"		"exo/bolt_loose_01.wav"
+	"wave"		"exo/bolt_loose_02.wav"
+	"wave"		"exo/bolt_loose_03.wav"
+	"wave"		"exo/bolt_loose_04.wav"
+	}
+}
+
+
+
+"titan_eject_beeps"
+{
+	"flags"			"drymix,omni"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_NORM"
+	"pitch"				"100"
+
+	"wave"		"exo/Titan_Cockpit_Eject_Beep_01.wav"
+
+}
+
+
+"titan_damage_beep"
+{
+	"flags"			"drymix,omni"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_NORM"
+	"pitch"				"100"
+
+	"wave"			"exo/Titan_Cockpit_Damage_Beep_01.wav"
+}
+
+
+"titan_eject_screech"
+{
+	"flags"				"drymix,omni"
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_TitanDamageStates"
+	"volume"			"0.0"
+	"soundlevel"		"SNDLVL_130dB"
+	"pitch"				"100"
+
+	"wave"		"exo/Titan_Cockpit_Ejection_Screech.wav"
+
+}
+
+"titan_death_explode"
+{
+	"flags"				"layered"
+	"mixgroup"			"titan,SFX,SFX_Impacts"
+	"volumescale"			"1.7"
+	"pitch"				"90,115"
+
+	"rndwave"
+   	{
+		"ducks"				"SFX_Weapons_AI,0.7a:0,2000,0,0"
+		"ducks"				"SFX_AMB,0.7a:0,2000,0,0"
+		"ducks"				"Music,0.5a:0,2000,0,0"
+		//"ducks"				"DIAL_AI,0.5a:0,2000,0,0"
+	"limit"				"1"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"20"
+ 	"falloffEnd"        		"3000"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+
+	"wave"				"null.wav"
+
+	}
+
+	"rndwave"
+	{
+		"volume"			"2"
+		"flags"					"spatialized"
+		"folddowndistance"		"1500"
+        "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "5000"
+        "startCurve"      "5"
+        "falloffCurve"    "5"
+
+			"wave"		"exo\Atlas\Explo\Titan_Atlas_DeathExplo_2ch_1.wav"
+			"wave"		"exo\Atlas\Explo\Titan_Atlas_DeathExplo_2ch_2.wav"
+			"wave"		"exo\Atlas\Explo\Titan_Atlas_DeathExplo_2ch_3.wav"
+	}
+
+	"rndwave"
+
+	{
+		"volume"		"2"
+		"pitch"			"50,60"
+		"limit"			"1"
+		"delay"			"160"
+
+		"flags"					"spatialized"
+		"folddowndistance"		"1500"
+        "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "8000"
+        "startCurve"      "5"
+        "falloffCurve"    "5"
+
+		"wave"		"explosions/Generic/Explo_Generic_DistWashLow_2ch_v1_01.wav"
+		"wave"		"explosions/Generic/Explo_Generic_DistWashLow_2ch_v1_02.wav"
+		"wave"		"explosions/Generic/Explo_Generic_DistWashLow_2ch_v1_03.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"		"5"
+		"pitch"			"90,115"
+		"limit"			"2"
+
+		"startDistance"     		"0"
+		"peakDistance"     			"0"
+		"startCurve"       			"0"
+		"falloffStart"      		"0"
+		"falloffEnd"        		"2000"
+		"falloffCurve"      		"0"
+		"clampVolume"       		"0"
+
+		"channels"
+		{
+			"1"		"LFE,1.0"
+		}
+		"wave"		"exo/Atlas/Movement/Atlas_Footstep_Generic_Bass_2ch_v4_01.wav"
+
+		}
+
+	"rndwave"
+	{
+		"volume"		"2"
+		"pitch"			"50"
+		"limit"			"1"
+		"delay"			"160"
+
+		"flags"					"spatialized"
+		"folddowndistance"		"5000"
+        "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "2000"
+        "falloffEnd"      "5000"
+        "startCurve"      "5"
+        "falloffCurve"    "5"
+
+		"wave"		"explosions/Generic/Explo_Generic_DistWashHigh_2ch_v1_01.wav"
+		"wave"		"explosions/Generic/Explo_Generic_DistWashHigh_2ch_v1_02.wav"
+		"wave"		"explosions/Generic/Explo_Generic_DistWashHigh_2ch_v1_03.wav"
+	}
+}
+
+"titan_nuclear_death_alarm"
+{
+	"flags"				"drymix,omni"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan"
+	"volume"			"3"
+	"pitch"				"100"
+	"radius"			"0"
+
+	"rndwave"
+	{
+	"wave"		"exo/Atlas/Eject/Atlas_Eject_PilotFoleyAndAlarm_NuclearCore_v2.wav"
+	}
+
+}
+
+"titan_nuclear_death_charge"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts"
+	"volumescale"			"2.5"
+	"pitch"				"100"
+	"flags"				"layered"
+
+
+	"rndwave"
+	{
+		"volume"	"2"
+		"pitch"		"95,105"
+		"flags"		"spatialized"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"2000"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+			"wave"		"exo\Nuclear_Core\Titan_NuclearCore_Build_Close_LR_v3.wav"
+
+	}
+
+	"rndwave"
+	{
+
+		"volume"	"3"
+		"pitch"		"95,105"
+		"flags"		"spatialized"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"5000"
+ 	"falloffCurve"      		"6"
+ 	"clampVolume"       		"0"
+
+			"wave"		"exo\Nuclear_Core\Titan_NuclearCore_Build_Dist_LR_v1.wav"
+
+	}
+
+}
+
+"titan_nuclear_death_explode"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts"
+	"volumescale"			"3.4"
+	"pitch"				"100"
+	"flags"				"layered"
+
+
+	"rndwave"
+	{
+		"volume"	"2"
+		"limit"		"2"
+		"pitch"		"130"
+		"flags"		"spatialized"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"2500"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+			"wave"		"exo\Nuclear_Core\Titan_NuclearCore_Explo_Close_LR_v1_Blast.wav"
+			"wave"		"exo\Nuclear_Core\Titan_NuclearCore_Explo_Close_LR_v2_Blast.wav"
+			"wave"		"exo\Nuclear_Core\Titan_NuclearCore_Explo_Close_LR_v3_Blast.wav"
+
+	}
+
+	"rndwave"
+	{
+		"volume"	"2"
+		"limit"		"2"
+		"pitch"		"95,105"
+		"flags"		"spatialized"
+		"delay"		"200"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"2500"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+			"wave"		"exo\Nuclear_Core\Titan_NuclearCore_Explo_Close_LR_v1_COMP.wav"
+			"wave"		"exo\Nuclear_Core\Titan_NuclearCore_Explo_Close_LR_v2_COMP.wav"
+			"wave"		"exo\Nuclear_Core\Titan_NuclearCore_Explo_Close_LR_v3_COMP.wav"
+
+	}
+
+	"rndwave"
+	{
+
+		"volume"	"2"
+		"limit"		"2"
+		"pitch"		"95,105"
+		"flags"		"spatialized"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"6000"
+ 	"falloffCurve"      		"6"
+ 	"clampVolume"       		"0"
+
+			"wave"		"exo\Nuclear_Core\Titan_NuclearCore_Explo_Mid_LR_v1_COMP.wav"
+			"wave"		"exo\Nuclear_Core\Titan_NuclearCore_Explo_Mid_LR_v2_COMP.wav"
+			"wave"		"exo\Nuclear_Core\Titan_NuclearCore_Explo_Mid_LR_v3_COMP.wav"
+
+	}
+
+	"rndwave"
+	{
+
+		"volume"	"2"
+		"limit"		"2"
+		"pitch"		"95,105"
+		"flags"		"spatialized"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"8000"
+ 	"falloffCurve"      		"6"
+ 	"clampVolume"       		"0"
+
+			"wave"		"exo\Nuclear_Core\Titan_NuclearCore_Explo_Dist_LR_v1_COMP.wav"
+			"wave"		"exo\Nuclear_Core\Titan_NuclearCore_Explo_Dist_LR_v2_COMP.wav"
+			"wave"		"exo\Nuclear_Core\Titan_NuclearCore_Explo_Dist_LR_v3_COMP.wav"
+
+	}
+
+}
+
+"titan_eject"
+{
+	"flags"			"drymix,omni"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_130dB"
+	"pitch"				"99,101"
+
+	"wave"		"exo/eject.wav"
+
+}
+
+// 1P Eject
+
+"titan_alarm"
+{
+	"flags"				"drymix,omni"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan"
+	"volume"			"1.5"
+	"pitch"				"100"
+	"radius"			"0"
+
+	"rndwave"
+	{
+	"wave"		"exo/Atlas/Eject/Atlas_Eject_PilotFoleyAndAlarm_v2.wav"
+	}
+
+}
+
+"titan_eject_boost"
+{
+	"flags"				"drymix,omni"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan"
+	"volume"			"2.5"
+	"pitch"				"100"
+	"radius"			"0"
+	"ducks"				"all,0.6:0,1000,0,0"
+
+	 "rndwave"
+	{
+	"wave"		"exo/Atlas/Eject/Atlas_Eject_Propulsion_01.wav"
+	"wave"		"exo/Atlas/Eject/Atlas_Eject_Propulsion_02.wav"
+	"wave"		"exo/Atlas/Eject/Atlas_Eject_Propulsion_03.wav"
+	}
+
+}
+
+// 3P Eject
+
+"Titan_Eject_Servos_3P"
+{
+	"flags"				"drymix,omni"
+	"mixgroup"			"titan,SFX,SFX_Impacts"
+	"volume"			"5"
+	"radius"			"6000"
+	"pitch"				"90,115"
+	"ducks"				"all,0.45a:0,1000,0,0"
+
+
+	"rndwave"
+	{
+		"minrange"	"0"
+		"maxrange"	"5000"
+		"pitch"		"95,105"
+		"flags"		"spatialized"
+		"folddownDistance"		"300"
+
+			"wave"		"exo/Atlas/Eject/Atlas_Eject_Servos_3p_2ch_v1_01.wav"
+			"wave"		"exo/Atlas/Eject/Atlas_Eject_Servos_3p_2ch_v1_02.wav"
+			"wave"		"exo/Atlas/Eject/Atlas_Eject_Servos_3p_2ch_v1_03.wav"
+
+	}
+
+}
+
+"Titan_Eject_PilotLaunch_3P"
+{
+	"flags"				"drymix,omni"
+	"mixgroup"			"titan,SFX,SFX_Impacts"
+	"volume"			"5"
+	"radius"			"6000"
+	"pitch"				"90,115"
+
+	"rndwave"
+	{
+		"minrange"	"0"
+		"maxrange"	"5000"
+		"pitch"		"95,105"
+		"flags"		"spatialized"
+		"folddownDistance"		"300"
+
+			"wave"		"exo/Atlas/Eject/Atlas_Eject_PilotLaunch_3p_2ch_v1_01.wav"
+			"wave"		"exo/Atlas/Eject/Atlas_Eject_PilotLaunch_3p_2ch_v1_02.wav"
+			"wave"		"exo/Atlas/Eject/Atlas_Eject_PilotLaunch_3p_2ch_v1_03.wav"
+
+
+	}
+
+}
+
+"titan_alarm_loop"
+{
+	"flags"				"drymix,omni,loop"
+	"mixgroup"			"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_150dB"
+	"pitch"				"99,101"
+
+	"wave"		"exo/missile_launch_alarm_looping.wav"
+
+}
+
+"titan_zoomin" {
+
+
+	"flags"				"drymix,omni"
+	"mixgroup"			"titan,SFX,SFX_Weapons,SFX_Weapons_Titan_1P,SFX_Weapons_Titan_1P_Handling"
+	"volume"			"2.9"
+	"radius"			"0"
+	"pitch"				"98,100"
+
+	 "rndwave"
+	{
+		"wave"				"weapons/Zoom/Wpn_TitanGeneric_1P_ADS_ZoomIn_2ch_v3_01.wav"
+	}
+
+
+
+}
+
+"titan_zoomout" {
+
+
+
+	"flags"				"drymix,omni"
+	"mixgroup"			"titan,SFX,SFX_Weapons,SFX_Weapons_Titan_1P,SFX_Weapons_Titan_1P_Handling"
+	"volume"			"2.4"
+	"radius"			"0"
+	"pitch"				"97,98"
+
+	"rndwave"
+	{
+		"wave"				"weapons/Zoom/Wpn_TitanGeneric_1P_ADS_ZoomOut_2ch_v4_01.wav"
+	}
+
+
+}
+
+
+////////////////////
+//TITAN OPERATING SYSTEM
+////////////////////
+
+// CALL IN TITAN
+
+"titan_callin" {
+
+	"mixgroup"		"SFX,SFX_UI"
+	"volume"		"0.85"
+	"radius"		"0"
+	"flags"			"drymix"
+
+	"wave"			"ui/titan_call_in.wav"
+
+}
+
+// EJECT BUTTON DPAD UP
+
+"titan_eject_dpad" {
+
+	"mixgroup"		"SFX,SFX_UI"
+	"volume"		"0.85"
+	"radius"		"0"
+	"flags"			"drymix"
+
+	"wave"			"ui/eject_button.wav"
+
+}
+
+// EJECT X BUTTON 3x
+
+"titan_eject_xbutton" {
+
+	"mixgroup"		"SFX,SFX_UI"
+	"volume"		"0.35"
+	"radius"		"0"
+	"flags"			"drymix"
+
+	"wave"			"ui/X_button.wav"
+
+}
+
+
+
+////////////////////
+//AI ATLAS MELEE
+////////////////////
+"at_melee_backhand_L"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"5.0"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"wave"			"exo/atlas/melee/at_melee_backhand_L_2ch_v2_01.wav"
+	}
+}
+
+
+"at_melee_bash_R"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"5.0"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"wave"			"exo/atlas/melee/at_melee_bash_R_2ch_v2_01.wav"
+	}
+}
+
+"at_melee_charge_F"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"5.0"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"wave"			"exo/atlas/melee/at_melee_charge_F_2ch_v2_01.wav"
+	}
+}
+
+"at_melee_stomp_B"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"5.0"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"wave"			"exo/atlas/melee/at_melee_stomp_B_2ch_v2_01.wav"
+	}
+}
+
+"at_melee_stomp_F"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"5.0"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"wave"			"exo/atlas/melee/at_melee_stomp_F_2ch_v2_01.wav"
+	}
+}
+
+"at_melee_stomp_L"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"5.0"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"wave"			"exo/atlas/melee/at_melee_stomp_L_2ch_v2_01.wav"
+	}
+}
+
+"at_melee_stomp_R"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"5.0"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"wave"			"exo/atlas/melee/at_melee_stomp_R_2ch_v2_01.wav"
+	}
+}
+
+"at_melee_walk_punch"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"5.0"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"wave"			"exo/atlas/melee/at_melee_walk_punch2_2ch_v2_01.wav"
+	}
+}
+
+"at_melee_backhand"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"5.0"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"wave"			"exo/atlas/melee/at_melee_backhand_2ch_v2_01.wav"
+	}
+}
+
+"at_melee_backhand_low"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"5.0"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"wave"			"exo/atlas/melee/at_melee_backhand_low_2ch_v2_01.wav"
+	}
+}
+
+  ///////////////////
+ // AI OGRE MELEE //
+///////////////////
+
+"og_melee_backhand_L"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"6.5"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"500"
+		"wave"			"exo/Ogre/Melee/Ogre_melee_backhand_L_2ch_v2.wav"
+	}
+
+	"rndwave"
+	{
+		"minrange"	"0"
+		"maxrange"	"500"
+		"channels"
+		{
+			"1"			"LFE,2.5"
+		}
+		"wave"			"exo/Ogre/Melee/Ogre_melee_backhand_L_LFE_1ch_v2.wav"
+	}
+
+
+}
+
+
+"og_melee_bash_R"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"6.5"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"500"
+		"wave"			"exo/Ogre/Melee/Ogre_melee_bash_R_2ch_v2.wav"
+	}
+
+	"rndwave"
+	{
+		"minrange"	"0"
+		"maxrange"	"500"
+		"channels"
+		{
+			"1"			"LFE,2.5"
+		}
+		"wave"			"exo/Ogre/Melee/Ogre_melee_bash_R_LFE_1ch_v2.wav"
+	}
+}
+
+"og_melee_charge_F"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"6.5"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"500"
+		"wave"			"exo/Ogre/Melee/Ogre_melee_charge_F_2ch_v2.wav"
+	}
+
+	"rndwave"
+	{
+		"minrange"	"0"
+		"maxrange"	"500"
+		"channels"
+		{
+			"1"			"LFE,2.5"
+		}
+		"wave"			"exo/Ogre/Melee/Ogre_melee_charge_F_LFE_1ch_v2.wav"
+	}
+
+}
+
+"og_melee_stomp_B"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"6.5"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"500"
+		"wave"			"exo/Ogre/Melee/Ogre_melee_stomp_B_2ch_v2.wav"
+	}
+
+	"rndwave"
+	{
+		"minrange"	"0"
+		"maxrange"	"500"
+		"channels"
+		{
+			"1"			"LFE,2.5"
+		}
+		"wave"			"exo/Ogre/Melee/Ogre_melee_stomp_B_LFE_1ch_v2.wav"
+	}
+}
+
+"og_melee_stomp_F"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"6.5"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"500"
+		"wave"			"exo/Ogre/Melee/Ogre_melee_stomp_F_2ch_v1.wav"
+	}
+}
+
+"og_melee_stomp_L"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"6.5"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"500"
+		"wave"			"exo/Ogre/Melee/Ogre_melee_stomp_L_2ch_v1.wav"
+	}
+}
+
+"og_melee_stomp_R"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"6.5"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"500"
+		"wave"			"exo/Ogre/Melee/Ogre_melee_stomp_R_2ch_v2.wav"
+	}
+
+	"rndwave"
+	{
+		"minrange"	"0"
+		"maxrange"	"500"
+		"channels"
+		{
+			"1"			"LFE,2.5"
+		}
+		"wave"			"exo/Ogre/Melee/Ogre_melee_stomp_R_LFE_1ch_v2.wav"
+	}
+}
+
+"og_melee_walk_punch"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"6.5"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"500"
+		"wave"			"exo/Ogre/Melee/Ogre_melee_walk_punch2_2ch_v2.wav"
+	}
+
+	"rndwave"
+	{
+		"minrange"	"0"
+		"maxrange"	"500"
+		"channels"
+		{
+			"1"			"LFE,2.5"
+		}
+		"wave"			"exo/Ogre/Melee/Ogre_melee_walk_punch2_LFE_1ch_v2.wav"
+	}
+}
+
+"og_melee_backhand"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"6.5"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"500"
+		"wave"			"exo/Ogre/Melee/Ogre_melee_backhand_2ch_v2.wav"
+	}
+
+	"rndwave"
+	{
+		"minrange"	"0"
+		"maxrange"	"500"
+		"channels"
+		{
+			"1"			"LFE,2.5"
+		}
+		"wave"			"exo/Ogre/Melee/Ogre_melee_backhand_LFE_1ch_v2.wav"
+	}
+}
+
+"og_melee_backhand_low"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"6.5"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"500"
+		"wave"			"exo/Ogre/Melee/Ogre_melee_backhand_low_2ch_v2.wav"
+	}
+
+	"rndwave"
+	{
+		"minrange"	"0"
+		"maxrange"	"500"
+		"channels"
+		{
+			"1"			"LFE,2.5"
+		}
+		"wave"			"exo/Ogre/Melee/Ogre_melee_backhand_low_LFE_1ch_v2.wav"
+	}
+}
+
+
+  //////////////////////
+ // AI STRYDER MELEE //
+//////////////////////
+
+"st_melee_backhand_L"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"6.5"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"500"
+		"wave"			"exo/Stryder/Stryder_Melee_Backhand_L_2ch_v1_01.wav"
+	}
+
+	"rndwave"
+	{
+		"minrange"	"0"
+		"maxrange"	"500"
+		"channels"
+		{
+			"1"			"LFE,2.5"
+		}
+		"wave"			"exo/Ogre/Melee/Ogre_melee_backhand_L_LFE_1ch_v2.wav"
+	}
+
+
+}
+
+
+"st_melee_bash_R"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"6.5"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"500"
+		"wave"			"exo/Stryder/Stryder_Melee_Bash_R_2ch_v1_01.wav"
+	}
+
+	"rndwave"
+	{
+		"minrange"	"0"
+		"maxrange"	"500"
+		"channels"
+		{
+			"1"			"LFE,2.5"
+		}
+		"wave"			"exo/Ogre/Melee/Ogre_melee_bash_R_LFE_1ch_v2.wav"
+	}
+}
+
+"st_melee_charge_F"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"6.5"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"500"
+		"wave"			"exo/Stryder/Stryder_Melee_Charge_F_2ch_v1_01.wav"
+	}
+
+	"rndwave"
+	{
+		"minrange"	"0"
+		"maxrange"	"500"
+		"channels"
+		{
+			"1"			"LFE,2.5"
+		}
+		"wave"			"exo/Ogre/Melee/Ogre_melee_charge_F_LFE_1ch_v2.wav"
+	}
+
+}
+
+"st_melee_stomp_B"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"6.5"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"500"
+		"wave"			"exo/Stryder/Stryder_Melee_Stomp_B_2ch_v1_01.wav"
+	}
+
+	"rndwave"
+	{
+		"minrange"	"0"
+		"maxrange"	"500"
+		"channels"
+		{
+			"1"			"LFE,2.5"
+		}
+		"wave"			"exo/Ogre/Melee/Ogre_melee_stomp_B_LFE_1ch_v2.wav"
+	}
+}
+
+"st_melee_stomp_F"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"6.5"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"500"
+		"wave"			"exo/Stryder/Stryder_Melee_Stomp_F_2ch_v1_01.wav"
+	}
+}
+
+"st_melee_stomp_L"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"6.5"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"500"
+		"wave"			"exo/Stryder/Stryder_Melee_Stomp_L_2ch_v1_01.wav"
+	}
+}
+
+"st_melee_stomp_R"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"6.5"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"500"
+		"wave"			"exo/Stryder/Stryder_Melee_Stomp_R_2ch_v1_01.wav"
+	}
+
+	"rndwave"
+	{
+		"minrange"	"0"
+		"maxrange"	"500"
+		"channels"
+		{
+			"1"			"LFE,2.5"
+		}
+		"wave"			"exo/Ogre/Melee/Ogre_melee_stomp_R_LFE_1ch_v2.wav"
+	}
+}
+
+"st_melee_walk_punch"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"6.5"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"500"
+		"wave"			"exo/Stryder/Stryder_Melee_Walk_Punch2_2ch_v1_01.wav"
+	}
+
+	"rndwave"
+	{
+		"minrange"	"0"
+		"maxrange"	"500"
+		"channels"
+		{
+			"1"			"LFE,2.5"
+		}
+		"wave"			"exo/Ogre/Melee/Ogre_melee_walk_punch2_LFE_1ch_v2.wav"
+	}
+}
+
+"st_melee_backhand"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"6.5"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"500"
+		"wave"			"exo/Stryder/Stryder_Melee_Backhand_L_2ch_v1_01.wav"
+	}
+
+	"rndwave"
+	{
+		"minrange"	"0"
+		"maxrange"	"500"
+		"channels"
+		{
+			"1"			"LFE,2.5"
+		}
+		"wave"			"exo/Ogre/Melee/Ogre_melee_backhand_LFE_1ch_v2.wav"
+	}
+}
+
+"st_melee_backhand_low"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"6.5"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"5"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"500"
+		"wave"			"exo/Stryder/Stryder_Melee_Backhand_Low_2ch_v1_01.wav"
+	}
+
+	"rndwave"
+	{
+		"minrange"	"0"
+		"maxrange"	"500"
+		"channels"
+		{
+			"1"			"LFE,2.5"
+		}
+		"wave"			"exo/Ogre/Melee/Ogre_melee_backhand_low_LFE_1ch_v2.wav"
+	}
+}
+
+////////////////////
+//TITAN STANDING TO KNEE ANIMS
+////////////////////
+
+"titan_stand2knee"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"radius"		"3750"
+	"rndwave"
+	{
+		"wave"			"exo/titan_stand2knee.wav"
+	}
+}
+
+"titan_stand2knee_180"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"radius"		"3750"
+	"rndwave"
+	{
+		"wave"			"exo/titan_stand2knee_180.wav"
+	}
+}
+
+"titan_stand2knee_L90"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"radius"		"3750"
+	"rndwave"
+	{
+		"wave"			"exo/titan_stand2knee_L90.wav"
+	}
+}
+
+
+"titan_stand2knee_R90"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"radius"		"3750"
+	"rndwave"
+	{
+		"wave"			"exo/titan_stand2knee_R90.wav"
+	}
+}
+
+
+"titan_at_knee2stand_empty"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"1.5"
+	"radius"		"3000"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"exo/titan_at_knee2stand_empty.wav"
+	}
+}
+
+"titan_at_knee2stand_empty_alt"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"1.0"
+	"radius"		"3000"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"exo/titan_at_knee2stand_empty_alt.wav"
+	}
+}
+
+
+///////////////////
+// STRYDER STAND FROM TITANFALL
+///////////////////
+
+"Stryder_Titanfall_Stand"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"3.0"
+	"radius"		"3000"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"exo/Stryder/Stryder_Titanfall_Stand_fr0_2ch_v1_01.wav"
+	}
+}
+
+"Stryder_Titanfall_Land"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volume"		"4.0"
+	"radius"		"3000"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"exo/Stryder/Stryder_Titanfall_Land_fr302_2ch_v1_01.wav"
+	}
+}
+
+
+////////////////////
+//TITAN STANDING DEATHS
+////////////////////
+
+"titan_death_damaged_1"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Bodyfalls,SFX_3P_Bodyfalls_Titans"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"radius"		"3750"
+	"rndwave"
+	{
+		"wave"			"exo/titan_death_damaged_1.wav"
+	}
+}
+
+
+"titan_death_fallforward_1"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Bodyfalls,SFX_3P_Bodyfalls_Titans"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"radius"		"3750"
+	"rndwave"
+	{
+		"wave"			"exo/titan_death_fallforward_1.wav"
+	}
+}
+
+
+"titan_death_knockback_1"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Bodyfalls,SFX_3P_Bodyfalls_Titans"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"radius"		"3750"
+	"rndwave"
+	{
+		"wave"			"exo/titan_death_knockback_1.wav"
+	}
+}
+
+"titan_death_slowfall_back_1"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Bodyfalls,SFX_3P_Bodyfalls_Titans"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"radius"		"3750"
+	"rndwave"
+	{
+		"wave"			"exo/titan_death_slowfall_back_1.wav"
+	}
+}
+
+
+"titan_death_stumbleback_1"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Bodyfalls,SFX_3P_Bodyfalls_Titans"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"radius"		"3750"
+	"rndwave"
+	{
+		"wave"			"exo/titan_death_stumbleback_1.wav"
+	}
+}
+
+
+"titan_death_twist_1"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Bodyfalls,SFX_3P_Bodyfalls_Titans"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"radius"		"3750"
+	"rndwave"
+	{
+		"wave"			"exo/titan_death_twist_1.wav"
+	}
+}
+
+
+"titan_death_twist_L1"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Bodyfalls,SFX_3P_Bodyfalls_Titans"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"radius"		"3750"
+	"rndwave"
+	{
+		"wave"			"exo/titan_death_twist_L1.wav"
+	}
+}
+
+"titan_death_twitch_1"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Bodyfalls,SFX_3P_Bodyfalls_Titans"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"radius"		"3750"
+	"rndwave"
+	{
+		"wave"			"exo/titan_death_twitch_1.wav"
+	}
+}
+
+
+////////////////////
+//TITAN UI
+////////////////////
+
+
+"titan_rocket_ready"
+{
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"volume"		"4"
+	"pitch"			"75"
+	"radius"		"0"
+	"ducks"			"all,0.3"
+
+	"rndwave"
+	{
+		"wave"			"weapons/Titan_Shoulder_Rocket/Wpn_ShoulderRocket_Ready_2ch_v2_01.wav"
+	}
+}
+
+
+"titan_shield_ready"
+{
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"volume"		"4"
+	"radius"		"0"
+	"ducks"			"all,0.3"
+
+	"rndwave"
+	{
+		"wave"			"exo/UI/UI_VortexShield_Ready_2ch_v1_01.wav"
+	}
+}
+
+////////////////////
+//TITAN CORE ABILITY
+////////////////////
+
+
+"Titan_CoreAbility_Activate"
+{
+
+	"mixgroup"		"weapons,SFX,SFX_Gadgets,SFX_Gadgets_Cloak"
+	"radius"		"2000"
+	"volume"		"5"
+	"falloff"		"7"
+
+	"rndwave"
+	{
+		"maxrange"		"100"
+
+		"wave"			"exo\CoreAbility\Titan_CoreAbility_Activate_6ch_v1_01.wav"
+	}
+
+	"rndwave"
+	{
+		"minrange"		"100"
+		"maxrange"		"2000"
+
+		"wave"			"exo\CoreAbility\Titan_CoreAbility_Activate_2ch_v1_01.wav"
+	}
+
+}
+
+"Titan_CoreAbility_Sustain"
+{
+
+	"mixgroup"		"weapons,SFX,SFX_Gadgets,SFX_Gadgets_Cloak"
+	"radius"		"2000"
+	"volume"		"5"
+	"pitch"			"106"
+	"falloff"		"7"
+
+
+	"rndwave"
+	{
+
+		"maxrange"		"100"
+
+		"wave"			"exo\CoreAbility\Titan_CoreAbility_SustainToEnd_6ch_v1_01.wav"
+	}
+
+	"rndwave"
+	{
+		"minrange"		"100"
+		"maxrange"		"2000"
+
+		"wave"			"exo\CoreAbility\Titan_CoreAbility_SustainToEnd_2ch_v1_01.wav"
+	}
+
+}
+
+"Titan_CoreAbility_Sustain_Long"
+{
+
+	"mixgroup"		"weapons,SFX,SFX_Gadgets,SFX_Gadgets_Cloak"
+	"radius"		"2000"
+	"volume"		"5"
+	"pitch"			"106"
+	"falloff"		"7"
+
+
+	"rndwave"
+	{
+
+		"maxrange"		"100"
+
+		"wave"			"exo\CoreAbility\Titan_CoreAbility_SustainToEnd_Long_6ch_v1_01.wav"
+	}
+
+	"rndwave"
+	{
+		"minrange"		"100"
+		"maxrange"		"2000"
+
+		"wave"			"exo\CoreAbility\Titan_CoreAbility_SustainToEnd_Long_2ch_v1_01.wav"
+	}
+
+}
+
+  /////////////////////////////////////////
+ // EMP Titan Ambient Electricity Loop  //
+/////////////////////////////////////////
+
+"EMP_Titan_Electrical_Field"
+{
+	"mixgroup"			"SFX,SFX_Ability,SFX_Ability_ShieldWall"
+	"volume"			"1.5"
+	"pitch"				"100"
+	"flags"				"layered,loop"
+
+
+
+	"rndwave"
+	{
+		"startDistance"   "0"
+		"peakDistance"    "0"
+		"falloffStart"    "0"
+        "falloffEnd"      "2500"
+		"startCurve"      "0"
+		"falloffCurve"    "0"
+		"limit"			  "2"
+
+		"volume"			"4"
+		"pitch"				"120"
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"500"
+
+		"wave"			"exo/EMP_Titan/EMP_Titan_Aura_Close_2ch_v1_01_LP.wav"
+	}
+
+	"rndwave"
+	{
+
+		"startDistance"   "0"
+		"peakDistance"    "0"
+		"falloffStart"    "500"
+        "falloffEnd"      "3500"
+		"startCurve"      "0"
+		"falloffCurve"    "0"
+		"limit"			  "2"
+
+		"volume"			"7"
+		"pitch"				"100"
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"500"
+
+		"wave"		"exo/EMP_Titan/EMP_Titan_Aura_Med_2ch_v1_01_LP.wav"
+
+	}
+}
+
+  /////////////////////////////////////////
+ // Mortar Titan Movement			    //
+/////////////////////////////////////////
+
+
+"at_mortar_knee2stand"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volumeScale"	"2.0"
+	"pitch"			"PITCH_NORM"
+	"radius"		"3750"
+	"rndwave"
+	{
+
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"400"
+		"volume"			"6"
+
+		"wave"			"exo/Mortar_Titan/at_mortar_knee2stand_2ch_v1_01.wav"
+	}
+}
+
+"at_mortar_stand2knee"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volumeScale"	"2.0"
+	"pitch"			"PITCH_NORM"
+	"radius"		"3750"
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"400"
+		"volume"			"6"
+
+		"wave"			"exo/Mortar_Titan/at_mortar_stand2knee_2ch_v1_01.wav"
+	}
+}
+
+"at_mortar_knee_reload"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Titans"
+	"volumeScale"	"1.0"
+	"pitch"			"PITCH_NORM"
+	"radius"		"3750"
+	"rndwave"
+	{
+
+		"flags"				"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"200"
+		"volume"			"6"
+
+		"wave"			"exo/Mortar_Titan/at_mortar_knee_reload_2ch_v1_01.wav"
+	}
+}

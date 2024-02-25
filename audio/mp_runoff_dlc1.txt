@@ -1,0 +1,356 @@
+////////////////////
+// GLOBAL AMBIENCE /
+////////////////////
+
+"Amb_Runoff_EXT_Global"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Runoff"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"1.7"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"maps/runoff/ambience/AMB_Runoff_EXT_Global_6ch_v1_LP_COMP.wav"
+	}
+	
+}
+
+"Amb_Runoff_INT_Building"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Runoff"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"0.9"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"maps/runoff/ambience/AMB_Runoff_INT_Global_6ch_v1_LP_COMP.wav"
+	}
+	
+}
+
+"Amb_Runoff_INT_Tunnel"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Runoff"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"0.9"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"maps/runoff/ambience/AMB_Runoff_TUNNEL_Global_6ch_v1_LP_COMP.wav"
+	}
+	
+}
+
+
+///////////////////
+//		EMITTERS
+///////////////////
+
+"Runoff_Emit_Fan"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Wargames"
+	"flags"			"loop"
+	"radius"		"700"
+	
+	
+	"rndwave"
+	{
+	"volume"		"4.0,4.5"
+	"pitch"			"80,120"
+	"flags"			"spatialized"
+	"panWidth"			"90"
+	"folddownDistance"	"80"
+	"limit"				"3"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_GeneratorLoop_LR_v3_LP.wav"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_FanLoop_LR_v1_LP.wav"
+	}
+}
+
+"Runoff_Emit_MiniGenerator"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Runoff"
+	"flags"			"loop"
+	"radius"		"400"
+	"falloff"		"1"
+	
+	
+	"rndwave"
+	{
+	"volume"		"2.0,2.5"
+	"pitch"			"125,140"
+	
+	"limit"				"3"
+	
+//	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_GeneratorLoop_LR_v1_LP.wav"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_GeneratorLoop_LR_v2_LP.wav"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_GeneratorLoop_LR_v3_LP.wav"
+
+	}
+}
+
+
+"Runoff_Emit_Pipe"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Runoff"
+	"flags"			"loop"
+	"radius"		"1500"
+	"volumeScale"	"2.5"
+	"falloff"		"1"
+	"pitch"			"95,105"
+		
+	"rndwave"
+	{
+		"limit"			"2"
+		"volume"		"7"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_Pipe_1ch_v1_01.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_Pipe_1ch_v1_02.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_Pipe_1ch_v1_03.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_Pipe_1ch_v1_04.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_Pipe_1ch_v1_05.wav"
+
+	}
+}
+
+
+"Runoff_Emit_Giantpump"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Runoff"
+	"flags"			"loop"
+	"radius"		"1000"
+	"volume"		"4"
+	"pitch"			"100"
+		
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"folddownDistance"		"200"
+		"limit"			"2"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_GiantPump_2ch_v1_01.wav"
+
+	}
+}
+
+
+"Runoff_Emit_SludgeWater_v1"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Runoff"
+	"flags"			"loop"
+	"radius"		"500"
+	"volume"		"1"
+	"pitch"			"95,110"
+	
+	
+	"rndwave"
+	{
+		"limit"			"3"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_01.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_02.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_03.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_04.wav"
+	}
+	
+}
+
+"Runoff_Emit_SludgeWater_v2"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Runoff"
+	"flags"			"loop"
+	"radius"		"500"
+	"volume"		"1"
+	"pitch"			"95,110"
+	
+	
+	"rndwave"
+	{
+		"limit"			"3"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_05.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_06.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_07.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_08.wav"
+
+	}
+}
+
+///////////////////
+//SCRIPTED EVENTS
+///////////////////
+
+
+"Runoff_Emit_HeatedWater"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Runoff"
+	"flags"			"loop"
+	"radius"		"700"
+	"falloff"		"1"
+	
+	
+	"rndwave"
+	{
+	"volume"		"9.0"
+	"pitch"			"95,110"
+
+	
+	"limit"				"3"
+	
+	"wave"			"maps/runoff/emitters/Runoff_Emit_HeatedWater_1ch_v3_01_LP.wav"
+	"wave"			"maps/runoff/emitters/Runoff_Emit_HeatedWater_1ch_v3_02_LP.wav"
+	"wave"			"maps/runoff/emitters/Runoff_Emit_HeatedWater_1ch_v3_03_LP.wav"
+	"wave"			"maps/runoff/emitters/Runoff_Emit_HeatedWater_1ch_v3_04_LP.wav"
+	}
+}
+
+"Runoff_Emit_MetalWaterTube_Loop"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Runoff"
+	"flags"			"loop"
+	"radius"		"600"
+	
+	
+	"rndwave"
+	{
+	"volume"		"7.0"
+	"pitch"			"100"
+	"flags"			"spatialized"
+	"foldDowndistance"	"100"
+	
+	"limit"				"2"
+	
+	"wave"			"maps/runoff/emitters/Runoff_Emit_TubeWater_Loop_2ch_v2_01_LP.wav"
+	}
+}
+
+"Runoff_Emit_SmallWaterTube_Loop"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Runoff"
+	"flags"			"loop"
+	"radius"		"600"
+	
+	
+	"rndwave"
+	{
+	"volume"		"4.0"
+	"pitch"			"138"
+	"flags"			"spatialized"
+	"foldDowndistance"	"100"
+	
+	"limit"				"2"
+	
+	"wave"			"maps/runoff/emitters/Runoff_Emit_TubeWater_Loop_2ch_v2_01_LP.wav"
+	}
+}
+
+
+
+"Runoff_Emit_WaterTube_Start"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Runoff"
+	"radius"		"1500"
+	
+	
+	"rndwave"
+	{
+	"volume"		"3.0"
+	"pitch"			"99,100"
+	"flags"			"spatialized"
+	"foldDowndistance"	"50"
+	
+	"limit"				"2"
+	
+	"wave"			"maps/runoff/emitters/Runoff_Emit_TubeWater_Start_2ch_v1_01.wav"
+	}
+}
+
+
+"Runoff_Emit_WaterTube_Loop"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Runoff"
+	"flags"			"loop"
+	"radius"		"1500"
+	
+	
+	"rndwave"
+	{
+	"volume"		"4.0"
+	"pitch"			"120"
+	"flags"			"spatialized"
+	"foldDowndistance"	"50"
+	
+	"limit"				"2"
+	
+	"wave"			"maps/runoff/emitters/Runoff_Emit_TubeWater_Loop_2ch_v2_01_LP.wav"
+	}
+}
+
+
+
+"Runoff_Emit_WaterTube_Stop"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Runoff"
+	"radius"		"1500"
+	
+	
+	"rndwave"
+	{
+	"volume"		"3.0"
+	"pitch"			"97,105"
+	"flags"			"spatialized"
+	"foldDowndistance"	"50"
+	"limit"			"2"
+	
+	"wave"			"maps/runoff/emitters/Runoff_Emit_TubeWater_Stop_2ch_v2_01.wav"
+	}
+}
+
+"Runoff_hardpoint_electricity"
+{
+	"mixgroup"			"SFX,SFX_Scripted"
+	"volume"			"2"
+	"pitch"				"100"
+	"flags"				"layered,mobile"
+	"occlusionDuckScale"	"3"	
+
+
+	"rndwave"
+	{
+		"volume"			"1.5,2"
+		"pitch"				"70,130"
+		"limit"				"3"
+
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1600"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_Electricity_1ch_v1_01.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_Electricity_1ch_v1_02.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_Electricity_1ch_v1_03.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_Electricity_1ch_v1_04.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_Electricity_1ch_v1_05.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_Electricity_1ch_v1_06.wav"
+	}
+
+}

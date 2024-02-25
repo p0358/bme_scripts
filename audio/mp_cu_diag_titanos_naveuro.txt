@@ -1,0 +1,1324 @@
+//Titan OS Voice Pack:  Euro Nav GPS (non-British)
+
+
+
+"diag_gs_titanNavEuro_def_amped40mm_grp"
+{
+
+	"mixgroup"		"titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_amped40mm_01_02.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_ampedArc_grp"
+{
+
+	"mixgroup"		"titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_ampedArc_01_02.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_ampedQuad_grp"
+{
+
+	"mixgroup"		"titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_ampedQuad_01_02.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_ampedMiniCluster_grp"
+{
+
+	"mixgroup"		"titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_ampedMiniCluster_01_02.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_ampedRailgun_grp"
+{
+
+	"mixgroup"		"titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_ampedRailgun_01_02.wav"
+}
+
+
+
+"diag_gs_titanNavEuro_def_ampedTriple_grp"
+{
+
+	"mixgroup"		"titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+// _01_02 = Damage   _01_03 = Magnetic
+//	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_ampedTriple_01_02.wav"
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_ampedTriple_01_03.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_ampedXO16_grp"
+{
+
+	"mixgroup"		"titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_ampedXO16_01_02.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_ampedClusterMissile_grp"
+{
+
+	"mixgroup"		"titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_ampedClusterMissile_01_02.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_ampedMissileSys_grp"
+{
+
+	"mixgroup"		"titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_ampedMissileSys_01_02.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_ampedSlaved_grp"
+{
+
+	"mixgroup"		"titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_ampedSlaved_01_02.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_ampedSalvo_grp"
+{
+
+	"mixgroup"		"titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_ampedSalvo_01_02.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_ampedVortexShield_grp"
+{
+
+	"mixgroup"		"titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_ampedVortexShield_01_02.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_ampedElecSmoke_grp"
+{
+
+	"mixgroup"		"titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_ampedElecSmoke_01_02.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_ampedShieldWall_grp"
+{
+
+	"mixgroup"		"titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_ampedShieldWall_01_02.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_ampedMelee_grp"
+{
+
+	"mixgroup"		"titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_ampedMelee_01_02.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_ampedDash_grp"
+{
+
+	"mixgroup"		"titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_ampedDash_01_02.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_killEnemyRodeo_grp"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+		"rndwave"
+	{
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_killEnemyRodeo_01_01.wav"
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_killEnemyRodeo_02_01.wav"
+	}
+}
+
+
+"diag_gs_titanNavEuro_def_manualEjectNotice_grp"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+		"rndwave"
+	{
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_manualEjectNotice_01_01.wav"
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_manualEjectNotice_02_01.wav"
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_manualEjectNotice_03_01.wav"
+	}
+}
+
+
+"diag_gs_titanNavEuro_def_autoEjectNotice_grp"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+		"rndwave"
+	{
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_autoEjectNotice_04_01.wav"
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_autoEjectNotice_05_01.wav"
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_autoEjectNotice_06_01.wav"
+	}
+}
+
+
+
+"diag_gs_titanNavEuro_def_autoEjectJoke_grp"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"rndwave"
+	{
+//	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_autoEjectNotice_07_01.wav"
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_autoEjectNotice_07_02.wav"
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_autoEjectNotice_08_01.wav"
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_autoEjectNotice_09_01.wav"
+	}
+}
+
+
+
+"diag_gs_titanNavEuro_def_arcChainWarning_10_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_arcChainWarning_10_01.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_elimTarget_11_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_elimTarget_11_01.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_elimTarget_11_02"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_elimTarget_11_02.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_ejectedEnemy_12_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_ejectedEnemy_12_01.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_ejectedFriendly_13_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_ejectedFriendly_13_01.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_elimEnemyPilot_14_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_elimEnemyPilot_14_01.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_elimEnemyTitan_15_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_elimEnemyTitan_15_01.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_elimFriendlyTitan_16_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_elimFriendlyTitan_16_01.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_assistedByFriendlyTitan_17_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_assistedByFriendlyTitan_17_01.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_assistedByFriendlyPilot_18_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_assistedByFriendlyPilot_18_01.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_warningEnemyPilot_19_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_warningEnemyPilot_19_01.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_warningEnemyPilotMulti_20_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_warningEnemyPilotMulti_20_01.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_friendlyRodeoOnEnemyTitan_21_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_friendlyRodeoOnEnemyTitan_21_01.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_doomEjectRec_21_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_doomEjectRec_21_01.wav"
+}
+
+
+
+//Original Set of Content
+
+///////////////////////////
+// TITAN OS - Default Voice
+///////////////////////////
+
+
+
+///////////////////////////
+// TITAN OS - Default Voice
+///////////////////////////
+
+
+
+"diag_gs_titanNavEuro_def_allyrodeoattach_1"
+{
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"rndwave"
+	{
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_allyrodeoattach_01_1.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_allyrodeoattach_01_2.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_allyrodeoattach_01_3.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_allyrodeoattach_01_4.wav"
+	}
+}
+
+"diag_gs_titanNavEuro_def_allyrodeodetach_1"
+{
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"rndwave"
+	{
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_allyrodeodetach_01_1.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_allyrodeodetach_01_2.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_allyrodeodetach_01_3.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_allyrodeodetach_01_4.wav"
+	}
+}
+
+
+
+"diag_gs_titanNavEuro_def_autoengagegrunt_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_autoengagegrunt_01.wav"
+}
+
+"diag_gs_titanNavEuro_def_autoengagegrunt_02"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_autoengagegrunt_02.wav"
+}
+
+"diag_gs_titanNavEuro_def_autoengagepilot_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_autoengagepilot_01.wav"
+}
+
+"diag_gs_titanNavEuro_def_autoengagepilot_02"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_autoengagepilot_02.wav"
+}
+
+"diag_gs_titanNavEuro_def_autoengagetitan_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_autoengagetitan_01.wav"
+}
+
+"diag_gs_titanNavEuro_def_autoengagetitan_02"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_autoengagetitan_02.wav"
+}
+
+"diag_gs_titanNavEuro_def_autoengagetitans_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_autoengagetitans_01.wav"
+}
+
+"diag_gs_titanNavEuro_def_autoengagetitans_02"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_autoengagetitans_02.wav"
+}
+
+
+
+"diag_gs_titanNavEuro_def_misslelocked_1"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_misslelocked_1.wav"
+}
+
+"diag_gs_titanNavEuro_def_misslelocked_2"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_misslelocked_2.wav"
+}
+
+
+
+"diag_gs_titanNavEuro_def_rodeowarning_1"
+{
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+	"ducks"			"SFX_Impacts_3P_Hits_1P,0.7"
+
+	"flags"			"drymix,nevercull"
+
+	"rndwave"
+	{
+//		 		NOTE:	Disabled All ambiguous warnings that 
+//						do not explicitly mention "hostile pilot"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_rodeowarning_1_2.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_rodeowarning_1_3.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_rodeowarning_1_6.wav"
+	}
+}
+
+"diag_gs_titanNavEuro_def_rodeowarning_2"
+{
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+	"ducks"			"SFX_Impacts_3P_Hits_1P,0.7"
+	"flags"			"drymix,nevercull"
+
+	"rndwave"
+	{
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_rodeowarning_2_1.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_rodeowarning_2_4.wav"
+	}
+}
+
+
+
+//---------------------
+// FROM EXO SCRIPT
+//---------------------
+
+
+//GUARD MODE ENGAGED
+
+
+//TITAN WARNING
+"diag_gs_titanNavEuro_warning"
+{
+	"flags"			"drymix,nevercull,omni"
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+	"rndwave"
+	{
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_warning.wav"
+	}
+}
+
+
+//TITAN CAUTION
+"diag_gs_titanNavEuro_caution"
+{
+	"flags"			"drymix,nevercull,omni"
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+	"rndwave"
+	{
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_caution.wav"
+	}
+}
+
+//MULTIPLE TITANS ENGAGING
+"diag_gs_titanNavEuro_multititanengage"
+{
+	"flags"			"drymix,nevercull,omni"
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+	"rndwave"
+	{
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_multititanengage_1.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_multititanengage_2.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_multititanengage_3.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_multititanengage_4.wav"
+	}
+}
+
+//MULTIPLE ENEMY TITANS WITH NEARBY FRIENDLY TITANS
+"diag_gs_titanNavEuro_multititanengage_2"
+{
+	"flags"			"drymix,nevercull,omni"
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+	"rndwave"
+	{
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_multititanengage_1.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_multititanengage_3.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_multititanengage_4.wav"
+	}
+}
+
+"diag_gs_titanNavEuro_outnumbered2to1_1"
+{
+	"flags"			"drymix,nevercull,omni"
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+	"rndwave"
+	{
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_outnumbered2to1_1.wav"
+	}
+}
+
+"diag_gs_titanNavEuro_outnumbered3to1_1"
+{
+	"flags"			"drymix,nevercull,omni"
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"pitch"			"PITCH_NORM"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+	"rndwave"
+	{
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_outnumbered3to1_1.wav"
+	}
+}
+
+"diag_gs_titanNavEuro_outnumbered4to1_1"
+{
+	"flags"			"drymix,nevercull,omni"
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"pitch"			"PITCH_NORM"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+	"rndwave"
+	{
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_outnumbered4to1_1.wav"
+	}
+}
+
+
+
+
+"diag_gs_titanNavEuro_multititandisengage"
+{
+	"flags"			"drymix,nevercull,omni"
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"pitch"			"PITCH_NORM"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+	"rndwave"
+	{
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_multititandisengage_1.wav"
+	}
+}
+
+//EMBARKING A TITAN
+"diag_gs_titanNavEuro_embark"
+{
+	"flags"			"drymix,nevercull,omni"
+	"mixgroup"		"titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"pitch"			"PITCH_NORM"
+	"radius"		"0"
+ 	"ducks"			"all,0.32:200,1000,0,0"
+	"rndwave"
+	{
+//		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_embark_1.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_embark_2.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_embark_3.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_embark_4.wav"
+//		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_embark_5.wav"
+//		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_embark_7.wav"
+	}
+}
+
+//DISEMBARKING A TITAN
+"diag_gs_titanNavEuro_disembark"
+{
+	"flags"			"drymix,nevercull,omni"
+	"mixgroup"		"titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"pitch"			"PITCH_NORM"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+	"rndwave"
+	{
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_disembark_1.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_disembark_2.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_disembark_3.wav"
+//		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_disembark_6.wav"
+	}
+}
+
+//GUARD MODE
+"diag_gs_titanNavEuro_guard"
+{
+	"flags"			"drymix,nevercull,omni"
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"pitch"			"PITCH_NORM"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+	"rndwave"
+	{
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_disembark_4.wav"
+
+	}
+}
+
+//FOLLOW MODE
+"diag_gs_titanNavEuro_follow"
+{
+	"flags"			"drymix,nevercull,omni"
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"pitch"			"PITCH_NORM"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+	"rndwave"
+	{
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_disembark_5.wav"
+
+	}
+}
+
+//TITAN BRIEF CRITICAL DAMAGE
+"diag_gs_titanNavEuro_briefcriticaldamage"
+{
+	"flags"			"drymix,nevercull,omni"
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"pitch"			"PITCH_NORM"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+	"rndwave"
+	{
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_briefcriticaldamage_1.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_briefcriticaldamage_2.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_briefcriticaldamage_3.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_briefcriticaldamage_4.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_briefcriticaldamage_5.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_briefcriticaldamage_6.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_briefcriticaldamage_7.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_briefcriticaldamage_8.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_briefcriticaldamage_9.wav"
+
+	}
+}
+
+//TITAN DOOM STATE
+"diag_gs_titanNavEuro_doomstate"
+{
+	"flags"			"drymix,nevercull,omni"
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"pitch"			"PITCH_NORM"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+	"rndwave"
+	{
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_doomstate_1.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_doomstate_2.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_doomstate_4.wav"
+	}
+}
+
+
+//TITAN HALF DOOM STATE
+"diag_gs_titanNavEuro_halfdoomstate"
+{
+	"flags"			"drymix,nevercull,omni"
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"pitch"			"PITCH_NORM"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+	"rndwave"
+	{
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_halfdoomstate_1.wav"
+		"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_halfdoomstate_2.wav"
+	}
+}
+
+//TITAN RELOAD WARNING
+
+
+"titanNavEuro_eject_spoken"
+{
+
+	"flags"				"omni,nevercull"
+	"mixgroup"			"titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default"
+	"volume"			"1.5"
+	"radius"			"1500"
+	"ducks"				"all,0.4"
+
+
+	"rndwave"
+	{
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_halfdoomstate_1.wav"
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_halfdoomstate_2.wav"
+	}
+
+}
+
+
+//Added additional systems notifications:
+
+
+"diag_gs_titanNavEuro_def_hostileTitanInbound_01_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_hostileTitanInbound_01_01.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_hostileTitanInbound_01_02"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_hostileTitanInbound_01_02.wav"
+}
+
+
+
+"diag_gs_titanNavEuro_def_dmgCoreOnline_01_02"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_dmgCoreOnline_01_02.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_dmgCoreActivated_01_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_dmgCoreActivated_01_01.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_dmgCoreActivated_01_04"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_dmgCoreActivated_01_04.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_dmgCoreExpiring_01_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_dmgCoreExpiring_01_01.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_dmgCoreOffline_01_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_dmgCoreOffline_01_01.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_dmgCoreOffline_01_02"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_dmgCoreOffline_01_02.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_shieldCoreOnline_01_02"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_shieldCoreOnline_01_02.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_shieldCoreActivated_01_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_shieldCoreActivated_01_01.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_shieldCoreActivated_01_04"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_shieldCoreActivated_01_04.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_shieldCoreExpiring_01_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_shieldCoreExpiring_01_01.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_shieldCoreOffline_01_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_shieldCoreOffline_01_01.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_shieldCoreOffline_01_02"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_shieldCoreOffline_01_02.wav"
+}
+
+
+
+"diag_gs_titanNavEuro_def_dashCoreOnline_01_02"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_dashCoreOnline_01_02.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_dashCoreActivated_01_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_dashCoreActivated_01_01.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_dashCoreActivated_01_04"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_dashCoreActivated_01_04.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_dashCoreExpiring_01_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_dashCoreExpiring_01_01.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_dashCoreOffline_01_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_dashCoreOffline_01_01.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_dashCoreOffline_01_02"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_dashCoreOffline_01_02.wav"
+}
+
+
+"diag_gs_titanNavEuro_def_shieldsLow_01_01"
+{
+
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"1.3"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+
+	"flags"			"drymix,nevercull"
+
+	"wave"			"dialogue_cu/titanos_navEuro/diag_gs_titanNavEuro_def_shieldsLow_01_01.wav"
+}
+
+"diag_gs_titanNavEuro_bbalarm"
+{
+	"flags"			"drymix,nevercull,omni"
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default,DIAL_BitchinBetty_NavEuro"
+	"volume"		"4.0"
+	"pitch"			"PITCH_NORM"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+	"rndwave"
+	{
+		"wave"			"vo/autotitan/diag_gs_titan_bbalarm_2ch_v1_01.wav"
+	}
+}

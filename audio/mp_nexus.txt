@@ -1,0 +1,56 @@
+////////////////////
+// GLOBAL AMBIENCE /
+////////////////////
+
+"Amb_Nexus_EXT_Global"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Nexus"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"1.7"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Nexus/Ambience/AMB_Nexus_EXT_Global_6ch_v2_LP_COMP.wav"
+	}
+	
+}
+
+"Amb_Nexus_INT_SmallRoom"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Nexus"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"1.5"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Nexus/Ambience/AMB_Nexus_INT_SmallRoom_6ch_v1_LP.wav"
+	}
+}
+
+"Amb_Nexus_INT_ClosedRoom"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Nexus"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"4.0"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Nexus/Ambience/AMB_Nexus_INT_ClosedRoom_6ch_v1_LP.wav"
+	}
+}
+
+
+
+///////////////////
+//		MUSIC
+///////////////////
+

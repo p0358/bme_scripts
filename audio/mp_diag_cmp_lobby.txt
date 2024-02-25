@@ -1,0 +1,4141 @@
+// Cinematic MP Lobby Dialogue
+
+
+"diag_Lobby_AC901_01_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AC901_01_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_Lobby_AC901_02_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AC901_02_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_Lobby_AC901_03_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AC901_03_01_mcor_macal.wav"
+	}
+}
+
+
+
+"diag_Lobby_AC901_05_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AC901_05_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_Lobby_AC901_06_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AC901_06_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_Lobby_AC901_07_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AC901_07_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_Lobby_AC901_08_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AC901_08_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_Lobby_AC901_09_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AC901_09_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_Lobby_AC902_01_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AC902_01_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_AC902_02_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AC902_02_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_AC902_03_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AC902_03_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_AC902_04_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AC902_04_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_AC902_05_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AC902_05_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_AC902_06_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AC902_06_01_imc_graves.wav"
+	}
+}
+
+
+
+"diag_Lobby_AC902_08_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AC902_08_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_AC902_09_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AC902_09_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_CY901_01_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CY901_01_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_CY901_02_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CY901_02_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_CY901_03_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CY901_03_01_mcor_bish.wav"
+	}
+}
+
+
+
+"diag_Lobby_CY901_05_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CY901_05_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_Lobby_CY901_06_01_mcor_civi1"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CY901_06_01_mcor_civi1.wav"
+	}
+}
+
+
+"diag_Lobby_CY901_07_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CY901_07_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_Lobby_CY901_08_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CY901_08_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_Lobby_CY901_09_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CY901_09_01_mcor_sarah.wav"
+	}
+}
+
+
+
+"diag_Lobby_CY901_11_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CY901_11_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_Lobby_CY902_01_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CY902_01_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_CY902_02_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CY902_02_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_CY902_03_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CY902_03_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_CY902_04_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CY902_04_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_Lobby_CY902_05_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CY902_05_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_Lobby_CY902_06_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CY902_06_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_Lobby_CY902_07_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CY902_07_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_Lobby_CY902_08_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CY902_08_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_CY902_09_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CY902_09_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_CY902_10_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CY902_10_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_FR901_01_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_FR901_01_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_FR901_02_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_FR901_02_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_FR901_03_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_FR901_03_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_FR901_04_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_FR901_04_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_FR901_05_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_FR901_05_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_FR901_06_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_FR901_06_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_FR901_07_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_FR901_07_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_Lobby_FR901_08_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_FR901_08_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_Lobby_FR901_09_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_FR901_09_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_Lobby_FR901_10_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_FR901_10_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_FR901_11_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_FR901_11_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_FR902_01_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_FR902_01_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_FR902_02_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_FR902_02_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_FR902_03_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_FR902_03_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_FR902_04_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_FR902_04_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_FR902_05_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_FR902_05_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_FR902_06_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_FR902_06_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_Lobby_FR902_07_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_FR902_07_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_Lobby_FR902_08_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_FR902_08_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_Lobby_FR902_09_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_FR902_09_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_FR902_10_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_FR902_10_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_RC901_01_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_RC901_01_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_RC901_02_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_RC901_02_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_RC901_03_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_RC901_03_01_mcor_bish.wav"
+	}
+}
+
+
+
+
+"diag_Lobby_RC901_06_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_RC901_06_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_Lobby_RC902_04_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_RC902_04_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_RC902_05_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_RC902_05_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_Lobby_RC902_06_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_RC902_06_01_imc_blisk.wav"
+	}
+}
+
+
+
+"diag_Lobby_OP900_01_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP900_01_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_Lobby_OP900_02_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP900_02_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_Lobby_OP900_03_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP900_03_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_Lobby_OP900_04_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP900_04_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_Lobby_OP900_05_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP900_05_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_Lobby_OP900_06_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP900_06_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_Lobby_OP900_07_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP900_07_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_Lobby_OP900_08_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP900_08_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_OP900_09_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP900_09_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_Lobby_OP900_10_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP900_10_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_Lobby_OP900_11_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP900_11_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_Lobby_OP900_12_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP900_12_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_Lobby_OP900_13_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP900_13_01_mcor_sarah.wav"
+	}
+}
+
+
+
+
+
+"diag_Lobby_OP900_15_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP900_15_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_OP900_16_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP900_16_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_OP900_17_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP900_17_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_OP901_01_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2.0"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP901_01_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_Lobby_OP901_03_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2.0"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP901_03_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_Lobby_OP901_06_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2.0"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP901_06_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_OP901_07_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2.0"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP901_07_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_Lobby_OP901_08_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2.0"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP901_08_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_OP901_09_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2.0"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP901_09_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_OP901_10_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2.0"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP901_10_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_OP901_11_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2.0"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP901_11_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_Lobby_OP901_12_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2.0"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP901_12_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_BY900_01_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_BY900_01_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_Lobby_BY900_02_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_BY900_02_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_Lobby_BY900_03_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_BY900_03_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_Lobby_BY900_04_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_BY900_04_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_Lobby_BY900_05_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"0.6"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_BY900_05_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_Lobby_BY900_06_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_BY900_06_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_Lobby_BY900_07_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_BY900_07_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_Lobby_BY900_08_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_BY900_08_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_Lobby_BY900_09_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_BY900_09_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_Lobby_BY900_10_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_BY900_10_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_Lobby_BY900_11_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_BY900_11_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_Lobby_BY900_12_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_BY900_12_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_Lobby_BY900_13_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_BY900_13_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_Lobby_BY901_01_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_BY901_01_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_BY901_02_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_BY901_02_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_BY901_03_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_BY901_03_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_BY901_04_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_BY901_04_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_BY901_05_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_BY901_05_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_BY901_06_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_BY901_06_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_BY901_07_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_BY901_07_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_BY901_08_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_BY901_08_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_BY901_09_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_BY901_09_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_BY901_10_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_BY901_10_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_BY901_11_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_BY901_11_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_AB901_03_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AB901_03_01_mcor_macal.wav"
+	}
+}
+
+
+
+"diag_Lobby_AB901_07_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AB901_07_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_AB901_08_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AB901_08_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_AB901_09_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AB901_09_01_mcor_sarah.wav"
+	}
+}
+
+
+
+"diag_Lobby_AB901_11_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AB901_11_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_Lobby_AB902_01_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AB902_01_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_AB902_02_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AB902_02_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_AB902_03_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AB902_03_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_AB902_04_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AB902_04_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_AB902_05_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AB902_05_01_imc_blisk.wav"
+	}
+}
+
+
+
+"diag_Lobby_AB902_09_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AB902_09_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_AB902_10_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AB902_10_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_AB902_11_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AB902_11_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_O2800_01_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_O2800_01_01_mcor_macal.wav"
+	}
+}
+
+"diag_Lobby_O2800_01b_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_O2800_01b_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_Lobby_O2800_04a_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_O2800_04a_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_Lobby_O2800_04b_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_O2800_04b_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_Lobby_O2800_09_01a_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_O2800_09_01a_mcor_macal.wav"
+	}
+}
+
+"diag_Lobby_O2800_13_01a_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_O2800_13_01a_mcor_macal.wav"
+	}
+}
+
+"diag_Lobby_O2800_14a_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_O2800_14a_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_Lobby_O2800_10_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_O2800_10_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_Lobby_O2800_11_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_O2800_11_01_mcor_macal.wav"
+	}
+}
+
+
+
+"diag_Lobby_O2801_01_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_O2801_01_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_O2801_02_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_O2801_02_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_O2801_03_01_imc_hammond"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_O2801_03_01_imc_hammond.wav"
+	}
+}
+
+
+"diag_Lobby_O2801_04_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_O2801_04_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_O2801_05_01_imc_hammond"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_O2801_05_01_imc_hammond.wav"
+	}
+}
+
+
+"diag_Lobby_O2801_06_01_imc_hammond"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_O2801_06_01_imc_hammond.wav"
+	}
+}
+
+
+"diag_Lobby_O2801_07_01_imc_hammond"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_O2801_07_01_imc_hammond.wav"
+	}
+}
+
+
+"diag_Lobby_O2801_08_01_imc_hammond"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_O2801_08_01_imc_hammond.wav"
+	}
+}
+
+
+
+"diag_Lobby_CR800_01_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CR800_01_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_CR800_02_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CR800_02_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_CR800_03_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CR800_03_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_Lobby_CR800_04_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CR800_04_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_Lobby_CR800_05_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CR800_05_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_Lobby_CR800_06_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CR800_06_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_Lobby_CR800_07_01_mcor_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CR800_07_01_mcor_graves.wav"
+	}
+}
+
+
+"diag_Lobby_CR800_08_01_mcor_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CR800_08_01_mcor_graves.wav"
+	}
+}
+
+
+"diag_Lobby_CR800_09_01_mcor_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CR800_09_01_mcor_graves.wav"
+	}
+}
+
+
+"diag_Lobby_CR800_10_01_mcor_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CR800_10_01_mcor_graves.wav"
+	}
+}
+
+
+"diag_Lobby_CR800_11_01_mcor_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CR800_11_01_mcor_graves.wav"
+	}
+}
+
+
+"diag_Lobby_CR801_01_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CR801_01_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_Lobby_CR801_02_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CR801_02_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_Lobby_CR801_03_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CR801_03_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_Lobby_CR801_04_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CR801_04_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_Lobby_CR801_05_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CR801_05_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_Lobby_CR801_06_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CR801_06_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_Lobby_CR801_07_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CR801_07_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_Lobby_CR801_08_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CR801_08_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_Lobby_CR801_09_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CR801_09_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_Lobby_CR801_10_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CR801_10_01_imc_blisk.wav"
+	}
+}
+
+
+//New Lobby Pickups
+
+"diag_Lobby_AB901_01a_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AB901_01a_01_mcor_macal.wav"
+	}
+}
+
+"diag_Lobby_AB901_01b_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AB901_01b_01_mcor_macal.wav"
+	}
+}
+
+"diag_Lobby_AB901_02a_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AB901_02a_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_Lobby_AB901_08a_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AB901_08a_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_AB901_08b_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AB901_08b_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_AB902_06a_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AB902_06a_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_Lobby_AB902_07a_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AB902_07a_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_Lobby_AB902_08a_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_AB902_08a_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_Lobby_OP901_01a_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2.0"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP901_01a_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_Lobby_OP901_01b_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2.0"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP901_01b_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_Lobby_OP901_01c_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2.0"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP901_01c_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_Lobby_OP901_13a_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2.0"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_OP901_13a_01_imc_graves.wav"
+	}
+}
+
+
+
+
+
+"diag_Lobby_RC901_04a_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_RC901_04a_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_Lobby_RC901_04b_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_RC901_04b_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_Lobby_RC901_10_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_RC901_10_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_RC901_11_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_RC901_11_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_RC902_01a_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_RC902_01a_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_RC902_07a_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_RC902_07a_01_imc_graves.wav"
+	}
+}
+
+
+"diag_Lobby_RC902_09a_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_RC902_09a_01_imc_graves.wav"
+	}
+}
+
+
+//more pickups
+
+"diag_Lobby_CY901_04a_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_Militia"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_CY901_04a_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_Lobby_O2801_09a_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Lobby,DIAL_Lobby_IMC"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.3:30.0,100.0,0,0"
+	"ducks"			"music,0.3:500,2500,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Lobby/diag_Lobby_O2801_09a_01_imc_graves.wav"
+	}
+}
+
+
+

@@ -1,0 +1,1303 @@
+////////////////////////
+//////  BURN CARDS  /////
+/////////////////////////
+
+
+"BurnCard_Conscription_TurnSoldier"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"radius"			"1200"
+	"volume"			"3.2"
+	"pitch"				"98,103"
+
+	"rndwave"
+	{
+		"limit"		"1"
+		"wave"		"player\BurnCards\BurnCard_Conscription_TurnSoldier_2ch_v1_01.wav"
+	}
+}
+
+"BurnCard_GrenadeRefill_Refill"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"radius"			"0"
+	"volume"			"3.0"
+	"pitch"				"98,103"
+
+	"rndwave"
+	{
+		"wave"		"player\BurnCards\BurnCard_GrenadeRefill_Refill_2ch_v1_01.wav"
+	}
+}
+
+"BurnCard_SatUplink_Ping"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"radius"			"0"
+	"volume"			"5.0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"		"player\BurnCards\BurnCard_SatUplink_Ping_2ch_v1_01.wav"
+	}
+}
+
+//Temp, for prototyping scavenger. Remove when done
+"TEMP_Scavenger_Titan_Ore_Ping"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"radius"			"2000"
+	"volume"			"5.0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"		"player\BurnCards\BurnCard_SatUplink_Ping_2ch_v1_01.wav"
+	}
+}
+
+"BurnCard_SpiderSense_CloseWarn"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"radius"			"0"
+	"volume"			"7.0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"		"player\BurnCards\BurnCard_SpiderSense_CloseWarn_2ch_v1_01.wav"
+	}
+}
+
+"BurnCard_SpiderSense_DistantWarn"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"radius"			"0"
+	"volume"			"5"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"		"player\BurnCards\BurnCard_SpiderSense_DistantWarn_2ch_v1_01.wav"
+	}
+}
+
+"BurnCard_WiFiVirus_TurnSpectre"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"radius"			"1200"
+	"volume"			"4.0"
+	"pitch"				"98,103"
+
+	"rndwave"
+	{
+		"wave"		"player\BurnCards\BurnCard_WiFiVirus_TurnSpectre_2ch_v1_01.wav"
+		"wave"		"player\BurnCards\BurnCard_WiFiVirus_TurnSpectre_2ch_v1_02.wav"
+		"wave"		"player\BurnCards\BurnCard_WiFiVirus_TurnSpectre_2ch_v1_03.wav"
+		"wave"		"player\BurnCards\BurnCard_WiFiVirus_TurnSpectre_2ch_v1_04.wav"
+		"wave"		"player\BurnCards\BurnCard_WiFiVirus_TurnSpectre_2ch_v1_05.wav"
+		"wave"		"player\BurnCards\BurnCard_WiFiVirus_TurnSpectre_2ch_v1_06.wav"
+		"wave"		"player\BurnCards\BurnCard_WiFiVirus_TurnSpectre_2ch_v1_07.wav"
+		"wave"		"player\BurnCards\BurnCard_WiFiVirus_TurnSpectre_2ch_v1_08.wav"
+	}
+}
+
+"BurnCard_Sell"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"4.0"
+	"pitch"			"100"
+	"wave"			"ui/BlackMarket/UI_BlackMarket_CardSell_2ch_01.wav"
+}
+
+
+///////////////////
+// CAPTURE THE FLAG
+///////////////////
+
+"UI_CTF_1P_FlagGrab"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"radius"			"0"
+	"volume"			"6.0"
+	"pitch"				"100"
+	"flags"				"nevercull,noduck"
+
+	"rndwave"
+	{
+		"wave"		"ui/UI_CTF_1P_FlagGrab_2ch_v1_01.wav"
+	}
+}
+
+"UI_CTF_1P_FlagDrop"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"radius"			"0"
+	"volume"			"5.0"
+	"pitch"				"100"
+	"flags"				"nevercull,noduck"
+
+	"rndwave"
+	{
+		"wave"		"ui/UI_CTF_1P_FlagDrop_2ch_v1_01.wav"
+	}
+}
+
+"UI_CTF_1P_Score"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"radius"			"0"
+	"volume"			"4.0"
+	"pitch"				"100"
+	"flags"				"nevercull,noduck"
+
+	"rndwave"
+	{
+		"wave"		"ui/UI_CTF_1P_Score_2ch_v1_01.wav"
+	}
+}
+
+"UI_CTF_Team_FlagUpdate"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"radius"			"0"
+	"volume"			"4.0"
+	"pitch"				"100"
+	"flags"				"nevercull,noduck"
+
+	"rndwave"
+	{
+//		"wave"		"ui/UI_CTF_Team_FlagUpdate_2ch_v1_01.wav"
+		"wave"		"ui/UI_CTF_Team_FlagUpdate_2ch_v2_01.wav"
+	}
+}
+
+"UI_CTF_Team_Score"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"radius"			"0"
+	"volume"			"4.0"
+	"pitch"				"100"
+	"flags"				"nevercull,noduck"
+
+	"rndwave"
+	{
+//		"wave"		"ui/UI_CTF_Team_Score_2ch_v1_01.wav"
+		"wave"		"ui/UI_CTF_Team_Score_2ch_v2_01.wav"
+
+	}
+}
+
+
+
+"UI_CTF_Enemy_FlagUpdate"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"radius"			"0"
+	"volume"			"5.0"
+	"pitch"				"100"
+	"flags"				"nevercull,noduck"
+
+	"rndwave"
+	{
+		"wave"		"ui/UI_CTF_Enemy_FlagUpdate_2ch_v1_01.wav"
+//		"wave"		"ui/UI_CTF_Enemy_FlagUpdate_2ch_v2_01.wav"
+
+	}
+}
+
+
+"UI_CTF_Enemy_Score"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"radius"			"0"
+	"volume"			"5.0"
+	"pitch"				"100"
+	"flags"				"nevercull,noduck"
+
+	"rndwave"
+	{
+		"wave"		"ui/UI_CTF_Enemy_Score_2ch_v1_01.wav"
+//		"wave"		"ui/UI_CTF_Enemy_Score_2ch_v2_01.wav"
+
+	}
+}
+
+
+///////////////////
+// Legacy HL2 alias
+///////////////////
+
+"NPC_RocketTurret.LockingBeep"
+{
+	"flags"			"drymix"
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"volume"			"0.3"
+	"soundlevel"		"SNDLVL_STATIC"
+	"pitch"				"100"
+	"wave"				"ui/menu_focus.wav"
+}
+
+
+"WallHealth.LoopingContinueCharge"
+{
+	"channel"	"CHAN_STATIC"
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"volume"	"0.7"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"scripted/zipline_looping.wav"
+}
+
+
+// Currently game plays top two when pressing A
+
+//Up/down movement
+"PlayerUI.LoadoutSelect"
+{
+	"flags"			"drymix"
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"volume"			"0.3"
+	"soundlevel"		"SNDLVL_STATIC"
+	"pitch"				"100"
+	"wave"				"ui/loadout_click.wav"
+}
+
+//L/R movement
+"PlayerUI.SlotChange"
+{
+	"flags"			"drymix"
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"radius"			"0"
+	"volume"			"0.4"
+	"pitch"				"100"
+	"rndwave"
+	{
+		"channels"
+			{
+				"1"		"C,1"
+			}
+		"wave"				"ui/loadout_slotchange.wav"
+	}
+
+}
+
+"PlayerUI.MenuMove"
+{
+	"flags"			"drymix"
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"volume"			"0.3"
+	"soundlevel"		"SNDLVL_STATIC"
+	"pitch"				"100"
+	"wave"				"ui/menu_focus.wav"
+}
+
+"PlayerUI.ButtonClick"
+{
+	"flags"			"drymix"
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"volume"			"0.3"
+	"soundlevel"		"SNDLVL_STATIC"
+	"pitch"				"100"
+	"wave"				"ui/buttonclick.wav"
+}
+
+"Pilot_SpecialAbility_Replenished"
+{
+	"mixgroup"		"titan,SFX,SFX_Player,SFX_Player_Titan,SFX_Player_Titan_Cockpit"
+	"volume"		"2.1"
+	"pitch"			"100"
+	"radius"		"0"
+	"rndwave"
+	{
+		"wave"			"player/Pilot_SpecialAbility_Replenished_2ch_v2.wav"
+	}
+}
+
+// VDU UI sounds
+
+"VDU.computer_type" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+	"rndwave"
+	{
+	"wave"				"@scripted/computer_type.wav"
+	"wave"				"@scripted/computer_type-001.wav"
+	"wave"				"@scripted/computer_type-002.wav"
+	"wave"				"@scripted/computer_type-003.wav"
+	"wave"				"@scripted/computer_type-004.wav"
+	"wave"				"@scripted/computer_type-005.wav"
+	"wave"				"@scripted/computer_type-006.wav"
+	"wave"				"@scripted/computer_type-007.wav"
+	"wave"				"@scripted/computer_type-008.wav"
+	"wave"				"@scripted/computer_type-009.wav"
+	"wave"				"@scripted/computer_type-010.wav"
+	"wave"				"@scripted/computer_type-011.wav"
+	"wave"				"@scripted/computer_type-012.wav"
+	"wave"				"@scripted/computer_type-013.wav"
+	}
+
+}
+
+"VDU.computer_type0" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+	"wave"				"@scripted/computer_type.wav"
+}
+
+"VDU.computer_type1" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+	"wave"				"@scripted/computer_type-001.wav"
+}
+
+"VDU.computer_type2" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+	"wave"				"@scripted/computer_type-002.wav"
+}
+
+"VDU.computer_type3" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+	"wave"				"@scripted/computer_type-003.wav"
+}
+
+"VDU.computer_type4" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+	"wave"				"@scripted/computer_type-004.wav"
+}
+
+"VDU.computer_type5" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+	"wave"				"@scripted/computer_type-005.wav"
+}
+
+"VDU.computer_type6" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+	"wave"				"@scripted/computer_type-006.wav"
+}
+
+"VDU.computer_type7" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+	"wave"				"@scripted/computer_type-007.wav"
+}
+
+"VDU.computer_type8" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+	"wave"				"@scripted/computer_type-008.wav"
+}
+
+"VDU.computer_type9" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+	"wave"				"@scripted/computer_type-009.wav"
+}
+
+"VDU.computer_type10" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+	"wave"				"@scripted/computer_type-010.wav"
+}
+
+"VDU.computer_type11" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+	"wave"				"@scripted/computer_type-011.wav"
+}
+
+"VDU.computer_type12" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+	"wave"				"@scripted/computer_type-012.wav"
+}
+
+"VDU.computer_type13" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+	"wave"				"@scripted/computer_type-013.wav"
+}
+
+"VDU.computer_typeenter" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+	"rndwave"
+	{
+	"wave"				"@scripted/computer_type_enterkey.wav"
+	"wave"				"@scripted/computer_type_enterkey-001.wav"
+	"wave"				"@scripted/computer_type_enterkey-002.wav"
+	"wave"				"@scripted/computer_type_enterkey-003.wav"
+	"wave"				"@scripted/computer_type_enterkey-004.wav"
+	"wave"				"@scripted/computer_type_enterkey-005.wav"
+	"wave"				"@scripted/computer_type_enterkey-006.wav"
+	"wave"				"@scripted/computer_type_enterkey-007.wav"
+	"wave"				"@scripted/computer_type_enterkey-008.wav"
+	"wave"				"@scripted/computer_type_enterkey-009.wav"
+	"wave"				"@scripted/computer_type_enterkey-010.wav"
+	"wave"				"@scripted/computer_type_enterkey-011.wav"
+	}
+
+}
+
+"VDU.computer_typeenter0" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+
+	"wave"				"@scripted/computer_type_enterkey.wav"
+
+}
+
+"VDU.computer_typeenter1" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+
+	"wave"				"@scripted/computer_type_enterkey-001.wav"
+
+}
+
+"VDU.computer_typeenter2" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+
+	"wave"				"@scripted/computer_type_enterkey-002.wav"
+
+}
+
+"VDU.computer_typeenter3" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+
+	"wave"				"@scripted/computer_type_enterkey-003.wav"
+
+}
+
+"VDU.computer_typeenter4" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+
+	"wave"				"@scripted/computer_type_enterkey-004.wav"
+
+}
+
+"VDU.computer_typeenter5" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+
+	"wave"				"@scripted/computer_type_enterkey-005.wav"
+
+}
+
+"VDU.computer_typeenter6" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+
+	"wave"				"@scripted/computer_type_enterkey-006.wav"
+
+}
+
+"VDU.computer_typeenter7" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+
+	"wave"				"@scripted/computer_type_enterkey-007.wav"
+
+}
+
+"VDU.computer_typeenter8" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+
+	"wave"				"@scripted/computer_type_enterkey-008.wav"
+
+}
+
+"VDU.computer_typeenter9" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+
+	"wave"				"@scripted/computer_type_enterkey-009.wav"
+
+}
+
+"VDU.computer_typeenter10" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+
+	"wave"				"@scripted/computer_type_enterkey-010.wav"
+
+}
+
+"VDU.computer_typeenter11" {
+
+	"mixgroup"			"scripted,SFX,SFX_Scripted"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"				"87,112"
+
+	"wave"				"@scripted/computer_type_enterkey-011.wav"
+
+}
+
+//Not sure when this gets fired.  plays click for now
+//should play when A is selected, instead of the two top entries being played
+"PlayerUI.Select"
+{
+	"flags"			"drymix"
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"volume"			"0.3"
+	"soundlevel"		"SNDLVL_STATIC"
+	"pitch"				"100"
+	"wave"				"ui/loadout_locked.wav"
+}
+
+// Should play when X=done is pressed
+"PlayerUI.Locked"
+{
+	"flags"			"drymix"
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"volume"			"0.3"
+	"soundlevel"		"SNDLVL_STATIC"
+	"pitch"				"100"
+	"wave"				"ui/loadout_select.wav"
+}
+
+// Screen flicker in loadout screen
+
+"PlayerUI.monitor_flicker"
+
+{
+	"flags"			"drymix"
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"volume"		"0.67"
+	"soundlevel"	"SNDLVL_25dB"
+	"pitch"			"100"
+	"rndwave"
+	{
+	"wave"			"ui/monitor_flicker1.wav"
+	"wave"			"ui/monitor_flicker2.wav"
+	"wave"			"ui/monitor_flicker3.wav"
+	}
+
+}
+
+
+"PlayerUI.monitor_steady"
+
+{
+	"flags"			"drymix"
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"volume"		"0.67"
+	"soundlevel"	"SNDLVL_15dB"
+	"pitch"			"100"
+	"wave"			"ui/monitor_steady.wav"
+
+}
+
+"Operator.Drone_looping"
+
+{
+	"mixgroup"		"ambient,SFX,SFX_AMB"
+	"volume"		"0.5"
+	"soundlevel"	"SNDLVL_45dB"
+	"pitch"			"100"
+	"wave"			"vehicles/drone_looping.wav"
+
+}
+
+"Operator.Ability_use"
+
+{
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"volume"		"0.5"
+	"soundlevel"	"SNDLVL_45dB"
+	"pitch"			"100"
+	"wave"			"ui/operator_ability_use.wav"
+
+}
+
+
+"Operator.Ability_ready"
+
+{
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"volume"		"0.5"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"			"100"
+	"wave"			"ui/operator_ability_ready.wav"
+
+}
+
+
+"Operator.Ability_offline"
+
+{
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"volume"		"0.5"
+	"soundlevel"	"SNDLVL_45dB"
+	"pitch"			"100"
+	"wave"			"ui/operator_ability_offline.wav"
+
+}
+
+
+"Operator.Collect_points"
+
+{
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"volume"		"0.5"
+	"soundlevel"	"SNDLVL_45dB"
+	"pitch"			"100"
+	"wave"			"ui/operator_collect_points.wav"
+
+}
+
+
+"Operator.Ability_change"
+{
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"volume"			"0.3"
+	"soundlevel"		"SNDLVL_STATIC"
+	"pitch"				"100"
+	"wave"				"ui/loadout_slotchange.wav"
+}
+
+
+// MP Player gets points HUD readout
+"PlayerUI.SplashTextDisplay"
+{
+	"flags"				"drymix"
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"volume"			"0.15"
+	"radius"			"500"
+	"pitch"				"100"
+	"wave"				"ui/splash_text.wav"
+}
+
+
+// use "Weapon_SmartAmmo.TargetLocked" in r1_game_soudns_weapons.txt instead
+"PlayerUI.SmartPistolLockingOn"
+{
+	"mixgroup"			"ui,SFX,SFX_UI"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"				"100"
+	"wave"				"ui/target_acquire.wav"
+}
+
+"XP.LevelUp"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"volume"		"0.9"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"			"100"
+	"wave"			"player/player_levelup.wav"
+}
+
+"mp_unlock"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"volume"		"0.9"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"			"100"
+	"wave"			"ui/unlock.wav"
+}
+
+"mp_mission_complete_star"
+{
+	"flags"			"omni,drymix,noduck"
+	"mixgroup"		"voice"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"radius"		"0"
+
+	"wave"			"ui/unlock.wav"
+}
+
+
+"MainMenu_Music"
+{
+	"flags"			"drymix,loop,music"
+	"mixgroup"		"music"
+	"volume"		"1.0"
+	"radius"		"0"
+	"pitch"			"100"
+	"wave"			"music/Lobby/TF_IMC_LobbyIdea2_98_BPM.wav"
+}
+
+"MainMenu_MusicCredits"
+{
+	"flags"			"drymix,loop,music"
+	"mixgroup"		"music"
+	"volume"		"1.0"
+	"radius"		"0"
+	"pitch"			"100"
+
+	"wave"			"music/Lobby/TF_Master_Lobby_IMC2_STMIX_110_BPM.wav"
+}
+
+"EOGSummary.MenuOpened"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"wave"			"ui/unlock.wav"
+}
+
+"EOGSummary.XPBreakdownPopup"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"wave"			"ui/X_button.wav"
+}
+
+"EOGSummary.XPBreakdownNumbersTick"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"0.8"
+	"pitch"			"100"
+	"wave"			"ui/buttonclick.wav"
+}
+
+"EOGSummary.XPTotalPopup"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"wave"			"player/DataKnife/DataKnife_Hack_Console_Pt4_6ch_v1_01.wav"
+}
+
+"EOGSummary.XPTotalNumberTick"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"3.2"
+	"pitch"			"100"
+	"wave"			"player/DataKnife/DataKnife_Hack_Spectre_Beep_1ch_v1_LP.wav"
+}
+
+"EOGSummary.LevelUp"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"1.5"
+	"pitch"			"100"
+	"wave"			"player/player_levelup.wav"
+}
+
+"EOGSummary.XPBarFill"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"4.0"
+	"pitch"			"100"
+	"wave"			"ui/target_acquire.wav"
+}
+
+"Challenge.Completed"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"2.0"
+	"pitch"			"100"
+	"wave"			"ui/unlock.wav"
+}
+
+"Challenge.Updated"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"2.0"
+	"pitch"			"100"
+	"wave"			"ui/X_button.wav"
+}
+
+"Challenge.New"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"2.0"
+	"pitch"			"100"
+	"wave"			"ui/X_button.wav"
+}
+
+///////////////
+// SuperBar Sounds
+///////////////
+"SuperBar.ReachLevel1"
+{
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"channel"		"CHAN_AUTO"
+	"flags"			"drymix,omni"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"			"200"
+	"wave"			"ui/operator_collect_points.wav"
+}
+
+"SuperBar.ReachLevel2"
+{
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"channel"		"CHAN_AUTO"
+	"flags"			"drymix,omni"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"			"250"
+	"wave"			"ui/operator_collect_points.wav"
+}
+
+"SuperBar.ReachLevel3"
+{
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"channel"		"CHAN_AUTO"
+	"flags"			"drymix,omni"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"			"300"
+	"wave"			"ui/operator_collect_points.wav"
+}
+
+
+"SuperBar.ActivateLevel1"
+{
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"channel"			"CHAN_AUTO"
+	"flags"			"drymix,omni"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"				"100"
+	"wave"				"ui/splash_text.wav"
+}
+
+"SuperBar.ActivateLevel2"
+{
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"channel"			"CHAN_AUTO"
+	"flags"			"drymix,omni"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"				"100"
+	"wave"				"ui/splash_text.wav"
+}
+
+"SuperBar.ActivateLevel3"
+{
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"channel"			"CHAN_AUTO"
+	"flags"			"drymix,omni"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"				"100"
+	"wave"				"ui/splash_text.wav"
+}
+
+"RespawnSelect.Activated"
+{
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"channel"			"CHAN_AUTO"
+	"flags"			"drymix,omni"
+	"volume"			"1.0"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_AtkSplat_1p_vs_3p_1ch_v2_01.wav"
+		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_AtkSplat_1p_vs_3p_1ch_v2_02.wav"
+		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_AtkSplat_1p_vs_3p_1ch_v2_03.wav"
+		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_AtkSplat_1p_vs_3p_1ch_v2_04.wav"
+		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_AtkSplat_1p_vs_3p_1ch_v2_05.wav"
+		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_AtkSplat_1p_vs_3p_1ch_v2_06.wav"
+		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_AtkSplat_1p_vs_3p_1ch_v2_07.wav"
+		"wave"		"impacts/Shield/Imp_Bullet_Generic_TitanShield_AtkSplat_1p_vs_3p_1ch_v2_08.wav"
+	}
+
+}
+
+"BlackMarket_Purchase_Success"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"6.0"
+	"pitch"			"100"
+	"wave"			"ui/BlackMarket/UI_BlackMarket_Purchase_Success_2ch_01.wav"
+}
+
+
+"BlackMarket_Purchase_Fail"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"5.0"
+	"pitch"			"100"
+	"wave"			"ui/BlackMarket/UI_BlackMarket_Purchase_Fail_2ch_01.wav"
+}
+
+
+"BlackMarket_CardPack_Open"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"8.0"
+	"pitch"			"100"
+	"wave"			"ui/BlackMarket/UI_BlackMarket_CardPack_Open_2ch_03.wav"
+}
+
+"Shop.CoinNumbersTick"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"3.2"
+	"pitch"			"100"
+	"wave"			"player/DataKnife/DataKnife_Hack_Spectre_Beep_1ch_v1_LP.wav"
+}
+
+"Shop.CoinBonusPopup"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"wave"			"ui/operator_collect_points.wav"
+}
+
+
+"PlayerJoinedLobby"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"1.6"
+	"pitch"			"100"
+
+	"rndwave"
+	{
+		"limit"			"2"
+
+		"wave"			"ui/Lobby/UI_Lobby_PlayerJoin_2ch_v1_07.wav"
+	}
+
+}
+
+////////////////////////
+//////  League  /////
+/////////////////////////
+
+
+
+"UI_League_PointBar_Loop"
+{
+	"flags"			"drymix,loop"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"3.0"
+	"pitch"			"100"
+	"wave"			"ui/League/UI_Lobby_League_LeaguePointBar_Loop_2ch_v1_01.wav"
+}
+
+"UI_League_PointBar_Stop"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"4.0"
+	"pitch"			"100"
+	"wave"			"ui/League/UI_Lobby_League_LeaguePointBar_Stop_2ch_v1_01.wav"
+}
+
+"UI_League_PointBar_Slide"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"3.0"
+	"pitch"			"100"
+	"wave"			"ui/League/UI_Lobby_League_LeaguePointBar_Slide_2ch_v1_01.wav"
+}
+
+"UI_League_GraphBar_Raise_P1"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"2.5"
+	"pitch"			"102"
+	"wave"			"ui/League/UI_Lobby_League_GraphBarRaise_2ch_v1_01.wav"
+}
+
+"UI_League_GraphBar_Raise_P2"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"2.5"
+	"pitch"			"104"
+	"wave"			"ui/League/UI_Lobby_League_GraphBarRaise_2ch_v1_01.wav"
+}
+
+"UI_League_GraphBar_Raise_P3"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"2.5"
+	"pitch"			"106"
+	"wave"			"ui/League/UI_Lobby_League_GraphBarRaise_2ch_v1_01.wav"
+}
+
+"UI_League_GraphBar_Raise_P4"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"2.5"
+	"pitch"			"108"
+	"wave"			"ui/League/UI_Lobby_League_GraphBarRaise_2ch_v1_01.wav"
+}
+
+"UI_League_GraphBar_Raise_P5"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"2.5"
+	"pitch"			"110"
+	"wave"			"ui/League/UI_Lobby_League_GraphBarRaise_2ch_v1_01.wav"
+}
+
+"UI_League_GraphBar_Raise_P6"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"2.5"
+	"pitch"			"112"
+	"wave"			"ui/League/UI_Lobby_League_GraphBarRaise_2ch_v1_01.wav"
+}
+
+"UI_League_GraphBar_Raise_P7"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"2.5"
+	"pitch"			"114"
+	"wave"			"ui/League/UI_Lobby_League_GraphBarRaise_2ch_v1_01.wav"
+}
+
+"UI_League_GraphBar_Raise_P8"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"2.5"
+	"pitch"			"116"
+	"wave"			"ui/League/UI_Lobby_League_GraphBarRaise_2ch_v1_01.wav"
+}
+
+"UI_League_GraphBar_Raise_P9"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"2.5"
+	"pitch"			"118"
+	"wave"			"ui/League/UI_Lobby_League_GraphBarRaise_2ch_v1_01.wav"
+}
+
+"UI_League_GraphBar_Raise_P10"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"2.5"
+	"pitch"			"120"
+	"wave"			"ui/League/UI_Lobby_League_GraphBarRaise_2ch_v1_01.wav"
+}
+
+"UI_League_GraphBar_Raise_P11"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"2.5"
+	"pitch"			"122"
+	"wave"			"ui/League/UI_Lobby_League_GraphBarRaise_2ch_v1_01.wav"
+}
+
+"UI_League_CalculatorSlideIn"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"3.0"
+	"pitch"			"100"
+	"wave"			"ui/League/UI_Lobby_League_CalculatorSlideIn_2ch_v1_01.wav"
+}
+
+"UI_League_ScreenFlash"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"2.0"
+	"pitch"			"100"
+	"wave"			"ui/Lobby/UI_Lobby_PlayerJoin_2ch_v3_01.wav"
+}
+
+"UI_League_PromoTour_Succeed"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"2.0"
+	"pitch"			"100"
+	"wave"			"ui/Lobby/UI_Lobby_PlayerJoin_2ch_v4_01.wav"
+}
+
+"UI_League_PromoTour_Fail"
+{
+	"flags"			"drymix"
+	"mixgroup"		"ui,SFX,SFX_UI"
+	"radius"		"0"
+	"volume"		"2.0"
+	"pitch"			"100"
+	"wave"			"ui/Lobby/UI_Lobby_PlayerJoin_2ch_v5_01.wav"
+}

@@ -1,0 +1,168 @@
+WeaponData
+{
+	// General
+	"printname"										"R-101 SMG"
+	"description"									"Full Auto SMG"
+	"longdesc"										""
+	"weaponClass"									"human"
+	"fire_mode"										"auto"
+	"server_vscript"									"weapons/mp_weapon_hemlok"
+	"client_vscript"									"weapons/mp_weapon_hemlok"
+	"pickup_hold_prompt"								""
+	"pickup_press_prompt"							""
+
+	// Models
+	"viewmodel"										"models/weapons/rspn101_carbine/ptpov_rspn101_carbine.mdl"
+	"playermodel"									"models/weapons/m1a1_hemlok/w_hemlok.mdl"
+	"projectilemodel"								""
+	"anim_prefix"									"SMG2"
+
+	// Effects
+	"tracer_effect"									""
+	"impact_effect_table"							""
+	"projectile_trail_effect_0"						""
+	"projectile_trail_attachment"					""
+
+	// Damage - When Used by Players
+	"damage_type"									""
+	"damage_near_distance"							"800"
+	"damage_far_distance"							"1200"
+	"damage_near_value"								"8"
+	"damage_far_value"								"8"
+	"damage_near_value_titanarmor"					""
+	"damage_far_value_titanarmor"					""
+	"explosion_damage"								"95"
+	"explosion_damage_heavy_armor"					""
+
+	// Damage - When Used by NPCs
+	"npc_damage_near_distance"						"800"
+	"npc_damage_far_distance"						"1200"
+	"npc_damage_near_value"							"8"
+	"npc_damage_far_value"							"8"
+	"npc_damage_near_value_titanarmor"				""
+	"npc_damage_far_value_titanarmor"				""
+	"npc_explosion_damage"							""
+	"npc_explosion_damage_heavy_armor"				""
+
+	"explosion_inner_radius"							""
+	"explosionradius"								"250"
+	"impulse_force"									""
+
+	// Ammo
+	"ammo_stockpile_max"							""
+	"ammo_clip_size"								"30"
+	"ammo_default_total"							"3000"
+
+	// Behavior
+	"fire_rate"										"17"
+	"burst_fire_count"								""
+	"burst_fire_delay"								""
+	"rest_time_between_bursts_min"					"0.2"
+	"rest_time_between_bursts_max"					"0.3"
+	"zoom_time_in"									"0.2"
+	"zoom_time_out"									"0.2"
+	"zoom_fov"										"35"
+	"reload_time"									"2"
+	"reloadempty_time"								""
+	"holster_time"									""
+	"deploy_time"									""
+	"lower_time"										""
+	"raise_time"										""
+	"charge_cooldown_time"							""
+	"charge_cooldown_delay"							""
+	"allow_empty_fire"					"0"
+	"reload_enabled"					"1"
+
+	// Spread
+	"spread_stand_hip"									"2"
+	"spread_stand_ads"								".25"
+	"spread_npc"										"5"
+
+	"spread_kick_on_fire"							""
+	"spread_max_kick"								""
+	"spread_decay_rate"								""
+	"spread_decay_delay"								""
+
+	// View Kick
+	"viewkick_spring"								"pistol"
+
+	"viewkick_pitch_base"							""
+	"viewkick_pitch_random"							""
+	"viewkick_pitch_softScale"						""
+	"viewkick_pitch_hardScale"						""
+
+	"viewkick_yaw_base"								""
+	"viewkick_yaw_random"							""
+	"viewkick_yaw_softScale"							""
+	"viewkick_yaw_hardScale"							""
+
+	"viewkick_roll_base"								""
+	"viewkick_roll_randomMin"						""
+	"viewkick_roll_randomMax"						""
+	"viewkick_roll_softScale"						""
+	"viewkick_roll_hardScale"						""
+
+	"viewkick_hipfire_weaponFraction"				""
+	"viewkick_hipfire_weaponFraction_vmScale"		""
+	"viewkick_ads_weaponFraction"					""
+	"viewkick_ads_weaponFraction_vmScale"			""
+
+	// Bob
+	"bob_cycle_time"									"0"
+	"bob_vert_dist"									"0.125"
+	"bob_horz_dist"									"0.25"
+	"bob_max_speed"									"320.0"
+	"bob_tilt_angle"									""
+
+	// Sway
+	"sway_turn_angle_factor"							".8"
+	"sway_turn_origin_factor"						"0.25"
+	"sway_turn_angle_factor_zoomed"					"1.5"
+	"sway_turn_origin_factor_zoomed"					"0.2"
+	"sway_move_angle_factor"							"-1"
+	"sway_move_origin_factor"						"-.3"
+	"sway_move_angle_factor_zoomed"					"0"
+	"sway_move_origin_factor_zoomed"					"0.03"
+	"sway_gain"										"15.0"
+
+	// Rumble
+	"rumble"											"6"
+
+	// NPC
+	"proficiency_poor_spreadscale"					"7.0"
+	"proficiency_poor_bias"							"0.75"
+	"proficiency_average_spreadscale"				"5.0"
+	"proficiency_average_bias"						"0.9"
+	"proficiency_good_spreadscale"					"3.33333"
+	"proficiency_good_bias"							"0.9"
+	"proficiency_very_good_spreadscale"				"1.66667"
+	"proficiency_very_good_bias"						"0.9"
+	"proficiency_perfect_spreadscale"				"1.0"
+	"proficiency_perfect_bias"						"1.0"
+
+	"npc_min_range"									"0"
+	"npc_max_range"									"8000"
+	"npc_min_range_secondary"						"0"
+	"npc_max_range_secondary"						"2500"
+	"npc_min_burst"									"2"
+	"npc_max_burst"									"5"
+
+
+	TextureData
+	{
+		"crosshair"
+		{
+			"file"									"vgui/hud/crosshair_arrow_up_2"
+			"x"										"0"
+			"y"										"0"
+			"width"									"64"
+			"height"									"64"
+		}
+		"crosshair_zoom"
+		{
+		}
+		"autoaim"
+		{
+		}
+	}
+}

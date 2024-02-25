@@ -1,0 +1,1059 @@
+/////////////
+// MCOR Sarah
+/////////////
+
+"diag_mcor_sarah_firsttitan_01" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_01.wav"
+	//"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_01_a.wav"	
+	//"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_01_b.wav"
+	}
+	
+	
+}
+
+"diag_mcor_sarah_firsttitan_02" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_02.wav"
+	//"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_02_a.wav"	
+	//"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_02_b.wav"
+	}
+	
+	
+}
+
+"diag_mcor_sarah_firsttitan_03" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_03.wav"
+	//"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_03_a.wav"	
+	//"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_03_b.wav"
+	//"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_03_c.wav"
+	}
+
+	
+}
+	
+
+"diag_mcor_sarah_firsttitan_04" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_04_a.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_04_c.wav"
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_04.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_04_e.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_04_d.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_04_b.wav"
+	}
+
+}
+	
+"diag_mcor_sarah_firsttitan_eta_01" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_eta_01.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_eta_01_a.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_eta_01_b.wav"
+	}
+	
+	
+}
+
+"diag_mcor_sarah_firsttitan_eta_02" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_eta_02.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_eta_02_a.wav"
+	}
+	
+	
+}
+
+"diag_mcor_sarah_firsttitan_eta_03" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_eta_03.wav"
+	
+}
+"diag_mcor_sarah_firsttitan_eta_04" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_eta_04.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_eta_04_a.wav"
+	}
+	
+	
+}
+
+"diag_mcor_sarah_firsttitan_eta_05" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_eta_05.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_firsttitan_eta_05_a.wav"
+	}
+	
+	
+}
+
+
+"diag_mcor_sarah_replacementtitan_01" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacementtitan_01.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacementtitan_01_a.wav"
+	}
+	
+	
+}
+
+"diag_mcor_sarah_replacementtitan_02" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacementtitan_02.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacementtitan_02_a.wav"
+	}
+	
+	
+}
+
+"diag_mcor_sarah_replacementtitan_03" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacementtitan_03.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacementtitan_03_a.wav"
+	}
+	
+	
+}
+
+"diag_mcor_sarah_replacementtitan_04" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacementtitan_04.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacementtitan_04_a.wav"
+	}
+	
+	
+}
+
+"diag_mcor_sarah_replacementtitan_05" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacementtitan_05.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacementtitan_05_a.wav"
+	}
+	
+	
+}
+
+"diag_mcor_sarah_replacementtitan_06" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacementtitan_06.wav"
+	
+}
+"diag_mcor_sarah_replacementtitan_07" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacementtitan_07.wav"
+	
+}
+"diag_mcor_sarah_replacementtitan_08" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacementtitan_08.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacementtitan_08_a.wav"	
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacementtitan_08_b.wav"
+	}
+	
+	
+}
+
+"diag_mcor_sarah_replacementtitan_09" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacementtitan_09.wav"
+	
+}
+
+"diag_mcor_sarah_replacement_eta_01" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacement_eta_01.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacement_eta_01_a.wav"
+	}
+	
+	
+}
+
+"diag_mcor_sarah_replacement_eta_02" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacement_eta_02.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacement_eta_02_a.wav"
+	}
+	
+	
+}
+
+"diag_mcor_sarah_replacement_eta_03" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacement_eta_03.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacement_eta_03_a.wav"
+	}
+	
+	
+}
+
+"diag_mcor_sarah_replacement_eta_04" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacement_eta_04.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacement_eta_04_a.wav"
+	}
+	
+	
+}
+
+"diag_mcor_sarah_replacement_eta_05" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacement_eta_05.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacement_eta_05_a.wav"
+	}
+	
+	
+}
+
+"diag_mcor_sarah_replacement_inbound_01" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacement_inbound_01.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacement_inbound_01_a.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacement_inbound_01_b.wav"
+	}
+	
+	
+}
+
+"diag_mcor_sarah_replacement_inbound_02" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacement_inbound_02.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacement_inbound_02_a.wav"
+	}
+	
+	
+}
+
+"diag_mcor_sarah_replacement_inbound_03" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacement_inbound_03.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacement_inbound_03_a.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacement_inbound_03_b.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacement_inbound_03_c.wav"
+	}
+	
+	
+}
+
+"diag_mcor_sarah_replacement_inbound_04" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacement_inbound_04.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_replacement_inbound_04_a.wav"
+	}
+	
+	
+}
+
+
+
+"diag_mcor_sarah_titandestroyed_01" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_titandestroyed_01.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_titandestroyed_01_a.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_titandestroyed_01_b.wav"
+	}
+	
+	
+}
+
+"diag_mcor_sarah_titandestroyed_02" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	"rndwave"
+	{	
+	"wave"			"dialogue/titanstates/diag_mcor_sarah_titandestroyed_02.wav"
+//	"wave"			"dialogue/titanstates/diag_mcor_sarah_titandestroyed_02_a.wav"
+	}
+	
+	
+}
+
+
+///////////////
+// IMC Spyglass
+///////////////
+
+
+"diag_imc_spyglass_replacement_inbound_01" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+
+	"wave"			"dialogue/titanstates/diag_imc_spyglass_replacement_inbound_01.wav"
+	
+}
+"diag_imc_spyglass_replacement_inbound_02" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+
+	"wave"			"dialogue/titanstates/diag_imc_spyglass_replacement_inbound_02.wav"
+	
+}
+"diag_imc_spyglass_firsttitan_01" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+
+	"wave"			"dialogue/titanstates/diag_imc_spyglass_firsttitan_01.wav"
+	
+}
+"diag_imc_spyglass_firsttitan_02" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+
+	"wave"			"dialogue/titanstates/diag_imc_spyglass_firsttitan_02.wav"
+	
+}
+"diag_imc_spyglass_firsttitan_eta_01" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+
+	"wave"			"dialogue/titanstates/diag_imc_spyglass_firsttitan_eta_01.wav"
+	
+}
+"diag_imc_spyglass_firsttitan_eta_02" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+
+	"wave"			"dialogue/titanstates/diag_imc_spyglass_firsttitan_eta_02.wav"
+	
+}
+"diag_imc_spyglass_firsttitan_eta_03" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+
+	"wave"			"dialogue/titanstates/diag_imc_spyglass_firsttitan_eta_03.wav"
+	
+}
+"diag_imc_spyglass_firsttitan_eta_04" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+
+	"wave"			"dialogue/titanstates/diag_imc_spyglass_firsttitan_eta_04.wav"
+	
+}
+"diag_imc_spyglass_firsttitan_eta_05" {
+
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"radius"		"0"
+	"flags"			"drymix,noduck,omni"
+	"volume"		"1.2"
+ 	"ducks"			"all,0.51:200,1000,0,0"
+
+	"wave"			"dialogue/titanstates/diag_imc_spyglass_firsttitan_eta_05.wav"
+	
+}
+
+
+"diag_imc_spyglass_firsttitan_eta_short_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/titanstates/diag_imc_spyglass_firsttitan_eta_short_01.wav"
+	}
+}
+
+
+"diag_imc_spyglass_firsttitan_eta_short_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/titanstates/diag_imc_spyglass_firsttitan_eta_short_02.wav"
+	}
+}
+
+
+"diag_imc_spyglass_firsttitan_eta_medium_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/titanstates/diag_imc_spyglass_firsttitan_eta_medium_01.wav"
+	}
+}
+
+
+"diag_imc_spyglass_firsttitan_eta_medium_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/titanstates/diag_imc_spyglass_firsttitan_eta_medium_02.wav"
+	}
+}
+
+
+"diag_imc_spyglass_firsttitan_eta_long_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/titanstates/diag_imc_spyglass_firsttitan_eta_long_01.wav"
+	}
+}
+
+
+"diag_imc_spyglass_firsttitan_eta_long_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/titanstates/diag_imc_spyglass_firsttitan_eta_long_02.wav"
+	}
+}
+
+
+"diag_imc_spyglass_firsttitan_eta_long_03"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/titanstates/diag_imc_spyglass_firsttitan_eta_long_03.wav"
+	}
+}
+
+
+"diag_imc_spyglass_gs_firsttitanready_21"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/titanstates/diag_imc_spyglass_gs_firsttitanready_21.wav"
+	}
+}
+
+
+"diag_imc_spyglass_gs_firsttitanready_22"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/titanstates/diag_imc_spyglass_gs_firsttitanready_22.wav"
+	}
+}
+
+
+"diag_imc_spyglass_gs_firsttitaninbound_21"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/titanstates/diag_imc_spyglass_gs_firsttitaninbound_21.wav"
+	}
+}
+
+
+"diag_imc_spyglass_gs_firsttitaninbound_22"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/titanstates/diag_imc_spyglass_gs_firsttitaninbound_22.wav"
+	}
+}
+
+
+"diag_imc_spyglass_gs_titaneta_21"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/titanstates/diag_imc_spyglass_gs_titaneta_21.wav"
+	}
+}
+
+
+"diag_imc_spyglass_gs_titaneta_22"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/titanstates/diag_imc_spyglass_gs_titaneta_22.wav"
+	}
+}
+
+
+"diag_imc_spyglass_gs_titaneta_23"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/titanstates/diag_imc_spyglass_gs_titaneta_23.wav"
+	}
+}
+
+
+"diag_imc_spyglass_gs_titaneta_24"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/titanstates/diag_imc_spyglass_gs_titaneta_24.wav"
+	}
+}
+
+
+"diag_imc_spyglass_gs_titaneta_25"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/titanstates/diag_imc_spyglass_gs_titaneta_25.wav"
+	}
+}
+
+
+"diag_imc_spyglass_gs_titaneta_26"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/titanstates/diag_imc_spyglass_gs_titaneta_26.wav"
+	}
+}
+
+
+"diag_imc_spyglass_gs_titaneta_27"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/titanstates/diag_imc_spyglass_gs_titaneta_27.wav"
+	}
+}
+
+
+"diag_imc_spyglass_gs_replacetitanready_21"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/titanstates/diag_imc_spyglass_gs_replacetitanready_21.wav"
+	}
+}
+
+
+"diag_imc_spyglass_gs_replacetitanready_22"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/titanstates/diag_imc_spyglass_gs_replacetitanready_22.wav"
+	}
+}
+
+
+"diag_imc_spyglass_gs_replacetitaninbound_21"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/titanstates/diag_imc_spyglass_gs_replacetitaninbound_21.wav"
+	}
+}
+
+
+"diag_imc_spyglass_gs_replacetitaninbound_22"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_TitanETA"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+ 	"ducks"			"all,0.51:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/titanstates/diag_imc_spyglass_gs_replacetitaninbound_22.wav"
+	}
+}
+
+
+
+

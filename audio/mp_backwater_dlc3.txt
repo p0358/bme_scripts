@@ -1,0 +1,125 @@
+////////////////////
+// GLOBAL AMBIENCE /
+////////////////////
+
+
+"Amb_Backwater_EXT_Global"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Backwater"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"3.0"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"maps/Backwater/Ambience/AMB_Backwater_EXT_Global_6ch_v5_01_LP.wav"
+	}
+
+}
+
+
+"Amb_Backwater_INT_Global"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Backwater"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"2"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"maps/Backwater/Ambience/AMB_Backwater_INT_Global_6ch_v3_01_LP.wav"
+	}
+
+}
+
+
+///////////////////
+//		EMITTERS
+///////////////////
+
+
+"amb_emit_backwater_ricefall"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Backwater"
+	"flags"			"loop"
+	"radius"		"600"
+	"volume"		"5"
+	"pitch"			"95,105"
+
+
+	"rndwave"
+	{
+		"volume"		"5"
+		"limit"				"3"
+		"wave"			"Maps/Backwater/Emitters/AMB_Emit_Backwater_RiceFall_1ch_v2_01_LP.wav"
+		"wave"			"Maps/Backwater/Emitters/AMB_Emit_Backwater_RiceFall_1ch_v2_02_LP.wav"
+		"wave"			"Maps/Backwater/Emitters/AMB_Emit_Backwater_RiceFall_1ch_v2_03_LP.wav"
+
+	}
+
+}
+
+
+"amb_emit_backwater_windmill"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Backwater"
+	"flags"			"loop"
+	"radius"		"800"
+	"volume"		"6"
+	"pitch"			"100"
+
+
+	"rndwave"
+	{
+		"volume"		"6"
+		"limit"				"2"
+		"wave"			"Maps/Backwater/Emitters/AMB_Emit_Backwater_windmill_1ch_v3_01_LP.wav"
+	}
+
+}
+
+
+"amb_emit_backwater_aquarium"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Backwater"
+	"flags"			"loop"
+	"radius"		"600"
+	"volume"		"2"
+	"pitch"			"100"
+
+
+	"rndwave"
+	{
+		"volume"		"4"
+		"limit"				"2"
+		"wave"			"Maps/Backwater/Emitters/AMB_Emit_Backwater_aquarium_1ch_v2_01_LP.wav"
+	}
+
+}
+
+"amb_emit_backwater_steam_tiny"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Backwater"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"600"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"volume"			"5"
+		"pitch"				"80,120"
+		"limit"				"3"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Tiny_1ch_01_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Tiny_1ch_02_LP.wav"
+	}
+}

@@ -1,0 +1,722 @@
+"VGUI_Screens"
+{
+	// This name here can be referenced from within a
+	// vgui_screen entity to select this vgui panel
+	"vgui_test_screen"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	480
+		"pixelshigh"	240
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_test_screen.res"
+	}
+
+	"vgui_titan_health"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	160
+		"pixelshigh"	104
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_titan_health.res"
+	}
+
+	"vgui_titan_vdu"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	512
+		"pixelshigh"	512
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_titan_vdu.res"
+	}
+
+	"vgui_titan_threat"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	512
+		"pixelshigh"	544
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_titan_threat.res"
+	}
+
+	"vgui_fullscreen_pilot"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	852
+		"pixelshigh"	480
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_fullscreen_pilot.res"
+	}
+
+	"vgui_fullscreen_titan"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	852
+		"pixelshigh"	480
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_fullscreen_titan.res"
+	}
+
+	"vgui_fullscreen_global"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	852
+		"pixelshigh"	480
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_fullscreen_global.res"
+	}
+
+	"vgui_titan_emp"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	852
+		"pixelshigh"	480
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_titan_emp.res"
+	}
+
+	"vgui_damage_3d"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	512
+		"pixelshigh"	512
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_damage_3d.res"
+	}
+
+	"vgui_titan_ammo"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	142
+		"pixelshigh"	142
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_titan_ammo.res"
+	}
+
+	"vgui_dashmeter"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	92
+		"pixelshigh"	66
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_dashmeter.res"
+	}
+
+	"vgui_superbar"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	430
+		"pixelshigh"	90
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_superbar.res"
+	}
+
+	"vgui_titan_topcenter"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	430
+		"pixelshigh"	90
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_titan_topcenter.res"
+	}
+
+	"vgui_titan_center"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	430
+		"pixelshigh"	190
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_titan_center.res"
+	}
+
+	"vgui_titan_lowercenter"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	430
+		"pixelshigh"	176
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_titan_lowercenter.res"
+	}
+
+	"vgui_titan_overcharge"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	430
+		"pixelshigh"	190
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_titan_overcharge.res"
+	}
+
+	"vgui_sniper"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	768
+		"pixelshigh"	768
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_sniper.res"
+	}
+
+	"vgui_dpad"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	400
+		"pixelshigh"	400
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_dpad.res"
+	}
+
+	"vgui_icon"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	100
+		"pixelshigh"	100
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_icon.res"
+	}
+
+	"vgui_binding"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	20
+		"pixelshigh"	20
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_binding.res"
+	}
+
+	"vgui_enemy_tracker"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	300
+		"pixelshigh"	300
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_enemy_tracker.res"
+	}
+
+	"vgui_jump_quest"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	300
+		"pixelshigh"	200
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_jump_quest.res"
+	}
+
+	"vgui_titan_bottom"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	430
+		"pixelshigh"	190
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_titan_bottom.res"
+	}
+
+	"vgui_xpbar"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	430
+		"pixelshigh"	90
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_xpbar.res"
+	}
+
+// 	"teleport_countdown_screen_r1"
+// 	{
+// 		// Defined in c_info_teleporter_countdown.cpp
+// 		"type"			"teleport_countdown_screen"
+//
+// 		// These describe the dimensions of the screen *in pixels*
+// 		"pixelswide"	480
+// 		"pixelshigh"	240
+//
+// 		// This is the name of the .res file to load up and apply to the vgui panel
+// 		"resfile"		"scripts/screens/teleport_countdown_screen.res"
+// 	}
+
+	"slideshow_display_screen_r1"
+	{
+		"type"		"slideshow_display_screen"
+		"pixelswide"	256
+		"pixelshigh"	128
+		"acceptsinput"  0
+		"resfile"	"scripts/screens/slideshow_display_screen.res"
+	}
+
+	"movie_display_screen"
+	{
+		"type"		"movie_display_screen"
+		"pixelswide"	256
+		"pixelshigh"	128
+		"acceptsinput"  0
+		"resfile"	"scripts/screens/movie_display_screen.res"
+	}
+
+	"control_panel_generic_screen"
+	{
+		"type"			"vgui_screen_panel"
+		"pixelswide"	162
+		"pixelshigh"	122
+		"resfile"		"scripts/screens/vgui_control_panel_generic.res"
+	}
+
+	"control_panel_heavy_turret"
+	{
+		"type"			"vgui_screen_panel"
+		"pixelswide"	162
+		"pixelshigh"	122
+		"resfile"		"scripts/screens/vgui_control_panel_heavy_turret.res"
+	}
+
+	"vgui_loadout_menu_root"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	1000
+		"pixelshigh"	1200
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_loadout_menu.res"
+	}
+
+	"vgui_loadout_menu_chassis"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	1000
+		"pixelshigh"	1200
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_loadout_menu.res"
+	}
+
+	"vgui_loadout_menu_weapons"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	1000
+		"pixelshigh"	1200
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_loadout_menu.res"
+	}
+
+	"vgui_loadout_menu_weaponupgrades"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	1000
+		"pixelshigh"	1200
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_loadout_menu.res"
+	}
+
+	"vgui_loadout_menu_offhand1"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	1000
+		"pixelshigh"	1200
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_loadout_menu.res"
+	}
+
+	"vgui_loadout_menu_offhand2"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	1000
+		"pixelshigh"	1200
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_loadout_menu.res"
+	}
+
+	"vgui_loadout_menu_titan_stats"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	1000
+		"pixelshigh"	1200
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_loadout_stats.res"
+	}
+
+	"vgui_loadout_menu_weapon_stats"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	1000
+		"pixelshigh"	1200
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_loadout_stats.res"
+	}
+
+	"vgui_loadout_menu_weaponupgrades_stats"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	1000
+		"pixelshigh"	1200
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_loadout_stats.res"
+	}
+
+	"vgui_loadout_menu_offhand1_stats"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	1000
+		"pixelshigh"	1200
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_loadout_stats.res"
+	}
+
+	"vgui_loadout_menu_offhand2_stats"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	1000
+		"pixelshigh"	1200
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_loadout_stats.res"
+	}
+
+	"vgui_pilot_launcher_screen"
+	{
+		"type"			"vgui_screen_panel"
+
+		// dimensions of the screen *in pixels*
+		// native 156 x 111, scale up x4
+		"pixelswide"	624
+		"pixelshigh"	444
+
+		// name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_pilot_launcher.res"
+	}
+
+	"vgui_enemy_announce"
+	{
+		"type"			"vgui_screen_panel"
+
+		"pixelswide"	472
+		"pixelshigh"	60
+
+		// name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_enemy_announce.res"
+	}
+
+	"vgui_burn_card"
+	{
+		"type"			"vgui_screen_panel"
+
+		// dimensions of the screen *in pixels*
+		// native 156 x 111, scale up x4
+		//"pixelswide"	224
+		//"pixelshigh"	329
+		"pixelswide"	227
+		"pixelshigh"	329
+
+		// name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_burn_card.res"
+	}
+
+	"vgui_burn_card_header"
+	{
+		"type"			"vgui_screen_panel"
+
+		// dimensions of the screen *in pixels*
+		// native 156 x 111, scale up x4
+		//"pixelswide"	224
+		//"pixelshigh"	329
+		"pixelswide"	227
+		"pixelshigh"	353
+
+		// name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_burn_card_header.res"
+	}
+
+	"vgui_burn_card_slot"
+	{
+		"type"			"vgui_screen_panel"
+
+		// dimensions of the screen *in pixels*
+		// native 156 x 111, scale up x4
+		//"pixelswide"	224
+		//"pixelshigh"	329
+		"pixelswide"	227
+		"pixelshigh"	329
+
+		// name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_burn_card_slot.res"
+	}
+
+	"vgui_burn_card_mid"
+	{
+		"type"			"vgui_screen_panel"
+
+		// dimensions of the screen *in pixels*
+		// native 156 x 111, scale up x4
+		//"pixelswide"	224
+		//"pixelshigh"	329
+		"pixelswide"	110
+		"pixelshigh"	110
+
+		// name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_burn_card_mid.res"
+	}
+
+	"vgui_burn_card_room"
+	{
+		"type"			"vgui_screen_panel"
+
+		"pixelswide"	853
+		"pixelshigh"	480
+
+		// name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/vgui_burn_card_room.res"
+	}
+	
+	"Coop_TeamScoreEventNotification"
+	{
+		// The type indicates which type of panel to create
+		// Coders will add new types as time goes by.
+		// "vgui_screen_panel" is a generic panel type which can
+		// read in .res files that have been built by VGUI's build mode dialog.
+		"type"			"vgui_screen_panel"
+
+		// These describe the dimensions of the screen *in pixels*
+		"pixelswide"	200
+		"pixelshigh"	16
+
+		// This is the name of the .res file to load up and apply to the vgui panel
+		"resfile"		"scripts/screens/Coop_TeamScoreEventNotification.res"
+	}
+}

@@ -1,0 +1,8512 @@
+
+//MCOR Grunt3 BattleChatter
+
+"diag_mcor_grunt3_gs_fanoutcall_01" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fanoutcall_01.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fanoutcall_02" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fanoutcall_02.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fanoutcall_03" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fanoutcall_03.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fanoutcall_04" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fanoutcall_04.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fanoutcall_05" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fanoutcall_05.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fanoutresponse_01" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fanoutresponse_01.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fanoutresponse_02" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fanoutresponse_02.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fanoutresponse_03" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fanoutresponse_03.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fanoutresponse_04" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fanoutresponse_04.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fanoutresponse_05" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fanoutresponse_05.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fanoutcheckin_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fanoutcheckin_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fanoutcheckin_01_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fanoutcheckin_01_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturinghp_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturinghp_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturinghp_01_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturinghp_01_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturinghp_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturinghp_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturinghp_02_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturinghp_02_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturinghp_03_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturinghp_03_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturinghp_03_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturinghp_03_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturinghp_04_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturinghp_04_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturinghp_04_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturinghp_04_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturinghpgen_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturinghpgen_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturinghpgen_01_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturinghpgen_01_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturinghpgen_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturinghpgen_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturinghpgen_02_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturinghpgen_02_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturedhp_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturedhp_01.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturedhp_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturedhp_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturedhp_03_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturedhp_03_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturedhp_03_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturedhp_03_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturedhp_03_4a" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturedhp_03_4a.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturedhp_03_4b" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturedhp_03_4b.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturedhp_03_4c" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturedhp_03_4c.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturedhp_04_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturedhp_04_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturedhp_04_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturedhp_04_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturedhp_04_4a" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturedhp_04_4a.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturedhp_04_4b" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturedhp_04_4b.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturedhp_04_4c" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturedhp_04_4c.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturedhp_05_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturedhp_05_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_hp_capturedhp_06_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/hardpoints/diag_mcor_grunt3_hp_capturedhp_06_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_rumorplayer_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_rumorplayer_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_rumorplayer_01_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_rumorplayer_01_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_rumorplayer_01_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_rumorplayer_01_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_rumorplayer_01_4" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_rumorplayer_01_4.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_rumorplayer_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_rumorplayer_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_rumorplayer_02_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_rumorplayer_02_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_rumorplayer_02_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_rumorplayer_02_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_rumorplayer_02_4" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_rumorplayer_02_4.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_addressplayer_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_addressplayer_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_addressplayer_01_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_addressplayer_01_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_addressplayer_01_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_addressplayer_01_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_addressplayer_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_addressplayer_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_addressplayer_02_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_addressplayer_02_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_addressplayer_03_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_addressplayer_03_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_addressplayer_03_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_addressplayer_03_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_skitallydrag_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_skitallydrag_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_skitallydrag_01_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_skitallydrag_01_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allyejectfail_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allyejectfail_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allyejectfail_01_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allyejectfail_01_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allyejectfail_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allyejectfail_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allyejectfail_02_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allyejectfail_02_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allyejectfail_02_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allyejectfail_02_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allyejectfail_03_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allyejectfail_03_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allyejectfail_03_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allyejectfail_03_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allyejectfail_03_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allyejectfail_03_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allyejectfail_04_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allyejectfail_04_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allyejectfail_04_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allyejectfail_04_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_enemytitandown_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_enemytitandown_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_enemytitandown_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_enemytitandown_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_enemytitandown_02_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_enemytitandown_02_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_enemytitandown_03_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_enemytitandown_03_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_enemytitandown_03_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_enemytitandown_03_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_enemytitandown_04_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_enemytitandown_04_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_enemytitandown_04_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_enemytitandown_04_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allygrundown_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allygrundown_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allygrundown_01_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allygrundown_01_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allygrundown_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allygrundown_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allygrundown_02_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allygrundown_02_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allygrundown_03_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allygrundown_03_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allygrundown_03_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allygrundown_03_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allygrundown_04_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allygrundown_04_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allygrundown_04_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allygrundown_04_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allygrundown_05_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allygrundown_05_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allygrundown_06_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allygrundown_06_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allygrundown_06_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allygrundown_06_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allytitandown_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allytitandown_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allytitandown_01_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allytitandown_01_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allytitandown_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allytitandown_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allytitandown_02_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allytitandown_02_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allytitandown_03_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allytitandown_03_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allytitandown_04_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allytitandown_04_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allytitandown_04_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allytitandown_04_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemycloakedpilot_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemycloakedpilot_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemycloakedpilot_01_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemycloakedpilot_01_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemycloakedpilot_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemycloakedpilot_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemycloakedpilot_02_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemycloakedpilot_02_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemycloakedpilot_03_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemycloakedpilot_03_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemycloakedpilot_03_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemycloakedpilot_03_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemycloakedpilot_04_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemycloakedpilot_04_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemycloakedpilot_04_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemycloakedpilot_04_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemycloakedpilot_05_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemycloakedpilot_05_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemycloakedpilot_05_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemycloakedpilot_05_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemycloakedpilot_06_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemycloakedpilot_06_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemycloakedpilot_06_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemycloakedpilot_06_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemygrunt_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemygrunt_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemygrunt_01_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemygrunt_01_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemygrunt_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemygrunt_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemygrunt_02_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemygrunt_02_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemygrunt_03_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemygrunt_03_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemygrunt_03_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemygrunt_03_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemygrunt_04_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemygrunt_04_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemygrunt_04_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemygrunt_04_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemygrunt_05_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemygrunt_05_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemygrunt_05_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemygrunt_05_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemygrunt_06_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemygrunt_06_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemygrunt_06_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemygrunt_06_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_01_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_01_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_02_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_02_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_03_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_03_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_03_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_03_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_04_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_04_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_04_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_04_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_05_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_05_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_05_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_05_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_06_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_06_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_06_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_06_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_07_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_07_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_07_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_07_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_07_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_07_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_07_4" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_07_4.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_08_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_08_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_08_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_08_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_08_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_08_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_08_4" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_08_4.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_09_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_09_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_09_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_09_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_09_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_09_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_09_4" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_09_4.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_10_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_10_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_10_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_10_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_10_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_10_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_10_4" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_10_4.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_11_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_11_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_11_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_11_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_12_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_12_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_hotspotcheck_12_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_hotspotcheck_12_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemygrunt_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemygrunt_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemygrunt_01_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemygrunt_01_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemygrunt_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemygrunt_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemygrunt_02_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemygrunt_02_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemygrunt_03_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemygrunt_03_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemygrunt_03_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemygrunt_03_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemygrunt_04_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemygrunt_04_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemygrunt_04_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemygrunt_04_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemygrunt_05_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemygrunt_05_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemygrunt_05_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemygrunt_05_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemygrunt_06_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemygrunt_06_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemygrunt_06_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemygrunt_06_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemygrunt_07_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemygrunt_07_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemygrunt_07_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemygrunt_07_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemyspectre_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemyspectre_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemyspectre_01_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemyspectre_01_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemyspectre_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemyspectre_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemyspectre_02_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemyspectre_02_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemyspectre_03_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemyspectre_03_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemyspectre_03_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemyspectre_03_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemyspectre_04_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemyspectre_04_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemyspectre_04_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemyspectre_04_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemyspectre_05_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemyspectre_05_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemyspectre_05_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemyspectre_05_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movefrontline_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movefrontline_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movefrontline_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movefrontline_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movefrontline_03_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movefrontline_03_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movefrontline_03_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movefrontline_03_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movefrontline_04_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movefrontline_04_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movefrontline_04_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movefrontline_04_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movefrontline_05_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movefrontline_05_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movefrontline_06_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movefrontline_06_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movefrontline_06_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movefrontline_06_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movefrontline_06_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movefrontline_06_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movefrontline_06_4" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movefrontline_06_4.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movefrontline_07_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movefrontline_07_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movefrontline_07_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movefrontline_07_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movefrontline_07_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movefrontline_07_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movefrontline_07_4" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movefrontline_07_4.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movefrontline_08_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movefrontline_08_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movefrontline_08_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movefrontline_08_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movefrontline_08_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movefrontline_08_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movefrontline_08_4" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movefrontline_08_4.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movesquadlead_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movesquadlead_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movesquadlead_01_2a" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movesquadlead_01_2a.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movesquadlead_01_2b" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movesquadlead_01_2b.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movesquadlead_01_3c" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movesquadlead_01_3c.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movesquadlead_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movesquadlead_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movesquadlead_02_2a" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movesquadlead_02_2a.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movesquadlead_02_2b" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movesquadlead_02_2b.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movesquadlead_02_3c" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movesquadlead_02_3c.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movesquadlead_03_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movesquadlead_03_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movesquadlead_03_2a" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movesquadlead_03_2a.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movesquadlead_03_2b" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movesquadlead_03_2b.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_movesquadlead_03_3c" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_movesquadlead_03_3c.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_skitthanks_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_skitthanks_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_skitthanks_01_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_skitthanks_01_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_skitthanks_01_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_skitthanks_01_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_skitthanks_01_4" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_skitthanks_01_4.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_skitthanks_01_5" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_skitthanks_01_5.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_death_01" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"3000"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_death_01.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_death_01_a.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_death_01_b.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_death_01_c.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_death_01_d.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_death_01_e.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_death_01_f.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_death_01_g.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_death_01_h.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_death_01_i.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_death_01_j.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_death_01_k.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_death_01_l.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_death_01_m.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_death_01_n.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_death_01_o.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_death_01_p.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_death_01_q.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_death_01_r.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_deathpool_01.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_deathpool_02.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_deathpool_03.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_deathpool_04.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_deathpool_05.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_deathpool_06.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_deathpool_07.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_deathpool_08.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_deathpool_09.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt1_gs_deathpool_10.wav"
+	"wave"			"dialogue/gamestates/diag_mcor_grunt2_gs_deathpool_11.wav"
+
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemyspectre_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemyspectre_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemyspectre_01_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemyspectre_01_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemyspectre_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemyspectre_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemyspectre_02_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemyspectre_02_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemyspectre_03_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemyspectre_03_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemyspectre_03_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemyspectre_03_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemyspectre_04_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemyspectre_04_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engageenemyspectre_04_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engageenemyspectre_04_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engagepilotenemy_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engagepilotenemy_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engagepilotenemy_01_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engagepilotenemy_01_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engagepilotenemy_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engagepilotenemy_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engagepilotenemy_02_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engagepilotenemy_02_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engagepilotenemy_03_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engagepilotenemy_03_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engagepilotenemy_03_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engagepilotenemy_03_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engagepilotenemy_04_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engagepilotenemy_04_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engagepilotenemy_04_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engagepilotenemy_04_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engagepilotenemy_05_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engagepilotenemy_05_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engagepilotenemy_05_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engagepilotenemy_05_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engagepilotenemy_06_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engagepilotenemy_06_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engagepilotenemy_06_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engagepilotenemy_06_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engagepilotenemy_07_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engagepilotenemy_07_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engagepilotenemy_07_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engagepilotenemy_07_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engagepilotenemy_08_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engagepilotenemy_08_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engagepilotenemy_08_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engagepilotenemy_08_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engagepilotenemy_09_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engagepilotenemy_09_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engagepilotenemy_09_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engagepilotenemy_09_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engagepilotenemy_10_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engagepilotenemy_10_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_engagepilotenemy_10_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_engagepilotenemy_10_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_gruntkillstitan_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_gruntkillstitan_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_gruntkillstitan_01_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_gruntkillstitan_01_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_gruntkillstitan_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_gruntkillstitan_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_gruntkillstitan_03_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_gruntkillstitan_03_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_gruntkillstitan_03_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_gruntkillstitan_03_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_gruntkillstitan_03_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_gruntkillstitan_03_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_gruntkillstitan_03_4" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_gruntkillstitan_03_4.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_gruntkillstitan_04_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_gruntkillstitan_04_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_gruntkillstitan_04_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_gruntkillstitan_04_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemypilot_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemypilot_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemypilot_01_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemypilot_01_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemypilot_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemypilot_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemypilot_02_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemypilot_02_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemypilot_03_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemypilot_03_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemypilot_03_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemypilot_03_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemypilot_04_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemypilot_04_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemypilot_04_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemypilot_04_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemypilot_05_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemypilot_05_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemypilot_05_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemypilot_05_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemypilot_06_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemypilot_06_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemypilot_06_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemypilot_06_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemypilot_07_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemypilot_07_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemypilot_07_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemypilot_07_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemypilot_08_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemypilot_08_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemypilot_08_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemypilot_08_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemypilot_09_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemypilot_09_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemypilot_09_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemypilot_09_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemypilot_10_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemypilot_10_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_killenemypilot_10_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_killenemypilot_10_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_magswitchcall_01" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_magswitchcall_01.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_magswitchcall_02" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_magswitchcall_02.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_magswitchresponse_01" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_magswitchresponse_01.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_magswitchresponse_02" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_magswitchresponse_02.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_magswitchresponse_03" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_magswitchresponse_03.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_magswitchresponse_04" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_magswitchresponse_04.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_reloadcall_01" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_reloadcall_01.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_reloadcall_02" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_reloadcall_02.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_reloadcall_03" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_reloadcall_03.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_reloadcall_04" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_reloadcall_04.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_reloadcall_05" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_reloadcall_05.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_reloadcall_06" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_reloadcall_06.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_reloadcall_07" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_reloadcall_07.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_reloadresponse_01" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_reloadresponse_01.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_reloadresponse_02" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_reloadresponse_02.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_reloadresponse_03" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_reloadresponse_03.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_reloadresponse_04" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_reloadresponse_04.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_reloadresponse_05" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_reloadresponse_05.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_reloadresponse_06" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_reloadresponse_06.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_reloadresponse_07" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_reloadresponse_07.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_rodeocheer_01" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_rodeocheer_01.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_rodeocheer_02" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_rodeocheer_02.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemygrunt_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemygrunt_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemygrunt_01_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemygrunt_01_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemygrunt_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemygrunt_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemygrunt_02_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemygrunt_02_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemygrunt_03_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemygrunt_03_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemygrunt_03_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemygrunt_03_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemygrunt_04_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemygrunt_04_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemygrunt_04_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemygrunt_04_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemygrunt_05_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemygrunt_05_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemygrunt_05_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemygrunt_05_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemygrunt_06_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemygrunt_06_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemygrunt_06_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemygrunt_06_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilot_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilot_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilot_01_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilot_01_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilot_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilot_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilot_02_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilot_02_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilot_03_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilot_03_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilot_03_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilot_03_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilot_04_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilot_04_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilot_04_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilot_04_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilot_05_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilot_05_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilot_05_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilot_05_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilot_06_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilot_06_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilot_06_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilot_06_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilot_07_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilot_07_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilot_07_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilot_07_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilot_08_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilot_08_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilot_08_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilot_08_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilot_09_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilot_09_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilot_09_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilot_09_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilot_10_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilot_10_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilot_10_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilot_10_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilot_11_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilot_11_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilot_11_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilot_11_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemyspectre_06_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemyspectre_06_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemyspectre_06_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemyspectre_06_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemyspectre_07_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemyspectre_07_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemyspectre_07_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemyspectre_07_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemyspectre_08_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemyspectre_08_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemyspectre_08_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemyspectre_08_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemyspectre_09_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemyspectre_09_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemyspectre_09_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemyspectre_09_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemyspectre_10_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemyspectre_10_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemyspectre_10_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemyspectre_10_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_titancheer_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_titancheer_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_titancheer_01_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_titancheer_01_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_titancheer_01_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_titancheer_01_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_titancheer_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_titancheer_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_titancheer_02_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_titancheer_02_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_titancheer_03_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_titancheer_03_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_titancheer_03_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_titancheer_03_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_titancheer_04_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_titancheer_04_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_titancheer_04_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_titancheer_04_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_1_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_1_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_1_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_1_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_2_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_2_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_2_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_2_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_3_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_3_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_3_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_3_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_4_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_4_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_4_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_4_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_4_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_4_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_4_4" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_4_4.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_4_5" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_4_5.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_5_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_5_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_5_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_5_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_6_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_6_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_6_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_6_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_6_4" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_6_4.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_6_5" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_6_5.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_7_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_7_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_8_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_8_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_8_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_8_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_8_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_8_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_8_4" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_8_4.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_9_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_9_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_9_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_9_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_10_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_10_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_10_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_10_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_11_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_11_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_11_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_11_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_11_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_11_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_11_4" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_11_4.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_11_5" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_11_5.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_11_6" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_11_6.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_12_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_12_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotfartitan_12_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotfartitan_12_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_enemytitanspotcall_01" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_enemytitanspotcall_01.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_enemytitanspotcall_02" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_enemytitanspotcall_02.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_enemytitanspotcall_03" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_enemytitanspotcall_03.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_enemytitanspotcall_04" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_enemytitanspotcall_04.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_enemytitanspotcall_05" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_enemytitanspotcall_05.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_enemytitanspotcall_11" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_enemytitanspotcall_11.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_enemytitanspotcall_12" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_enemytitanspotcall_12.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_enemytitanspotcall_13" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_enemytitanspotcall_13.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_enemytitanspotcall_14" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_enemytitanspotcall_14.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_enemytitanspotcall_15" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_enemytitanspotcall_15.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilotcall_01" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilotcall_01.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilotcall_02" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilotcall_02.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilotcall_03" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilotcall_03.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilotcall_04" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilotcall_04.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilotcall_05" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilotcall_05.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemytitancall_01" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemytitancall_01.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemytitancall_02" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemytitancall_02.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemytitancall_03" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemytitancall_03.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemytitancall_04" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemytitancall_04.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemytitancall_05" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemytitancall_05.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilotrespond_01" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilotrespond_01.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilotrespond_02" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilotrespond_02.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilotrespond_03" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilotrespond_03.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilotrespond_04" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilotrespond_04.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotenemypilotrespond_05" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotenemypilotrespond_05.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitan_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitan_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitan_02_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitan_02_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitan_03_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitan_03_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitan_03_3" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitan_03_3.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitan_04" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitan_04.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitan_05" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitan_05.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitanbuildingcall_01" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitanbuildingcall_01.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitanbuildingcall_02" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitanbuildingcall_02.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitanbuildingcall_03" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitanbuildingcall_03.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitanbuildingcall_04" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitanbuildingcall_04.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitanbuildingresponse_01" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitanbuildingresponse_01.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitanbuildingresponse_02" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitanbuildingresponse_02.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitanbuildingresponse_03" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitanbuildingresponse_03.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitanbuildingresponse_04" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitanbuildingresponse_04.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitanbuildingresponse_05" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitanbuildingresponse_05.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitanbuildingresponse_06" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitanbuildingresponse_06.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitancall_01" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitancall_01.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitancall_02" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitancall_02.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitancall_03" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitancall_03.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitancall_04" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitancall_04.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitancall_05" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitancall_05.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitancall_06" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitancall_06.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitancall_07" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitancall_07.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitangroupcall_01" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitangroupcall_01.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitangroupcall_02" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitangroupcall_02.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitangroupcall_03" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitangroupcall_03.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitangroupcall_04" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitangroupcall_04.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitangroupresponse_01" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitangroupresponse_01.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitangroupresponse_02" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitangroupresponse_02.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitangroupresponse_03" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitangroupresponse_03.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitangroupresponse_04" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitangroupresponse_04.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitanresponse_01" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitanresponse_01.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitanresponse_02" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitanresponse_02.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitanresponse_03" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitanresponse_03.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitanresponse_04" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitanresponse_04.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitanresponse_05" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitanresponse_05.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitanresponse_06" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitanresponse_06.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitanresponse_07" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitanresponse_07.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_fleeplayertitanresponse_08" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_fleeplayertitanresponse_08.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_smallshiprefuel_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_smallshiprefuel_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_smallshiprefuel_01_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_smallshiprefuel_01_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_smallshiprefuel_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_smallshiprefuel_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_smallshiprefuel_02_2" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_smallshiprefuel_02_2.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_squaddeplete_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_squaddeplete_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_squaddeplete_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_squaddeplete_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_grenadecall_01" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_grenadecall_01.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_grenadecall_02" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_grenadecall_02.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_grenadecall_03" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_grenadecall_03.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_grenadecall_04" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_grenadecall_04.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_grenaderesponse_01" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_grenaderesponse_01.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_grenaderesponse_02" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_grenaderesponse_02.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_grenaderesponse_03" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_grenaderesponse_03.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_grenaderesponse_04" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_grenaderesponse_04.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotclosetitancall_01" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotclosetitancall_01.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotclosetitancall_02" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotclosetitancall_02.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotclosetitancall_03" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotclosetitancall_03.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotclosetitancall_04" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotclosetitancall_04.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotclosetitancall_05" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotclosetitancall_05.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotclosetitancall_06" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotclosetitancall_06.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotclosetitancall_07" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotclosetitancall_07.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotclosetitanresponse_01" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotclosetitanresponse_01.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotclosetitanresponse_02" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotclosetitanresponse_02.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotclosetitanresponse_03" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotclosetitanresponse_03.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotclosetitanresponse_04" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotclosetitanresponse_04.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotclosetitanresponse_05" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotclosetitanresponse_05.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotclosetitanresponse_06" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotclosetitanresponse_06.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotclosetitanresponse_07" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotclosetitanresponse_07.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_spotclosetitanresponse_08" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_spotclosetitanresponse_08.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_titansquish_01" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_titansquish_01.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allypilotdown_01_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allypilotdown_01_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allypilotdown_02_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allypilotdown_02_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allypilotdown_03_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allypilotdown_03_1.wav"
+	}
+
+}
+
+
+"diag_mcor_grunt3_gs_allypilotdown_04_1" 
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"DIAL,DIAL_AI,DIAL_AI_Battle,DIAL_AI_Battle_Militia"
+	"radius"		"5400"
+	"falloff"		"0"
+	"volume"		"1.5"
+	"ducks"			"all,0.2a"
+	
+	"rndwave"
+	{	
+	"wave"			"dialogue/Grunts/bchatter_mcor_g3/diag_mcor_grunt3_gs_allypilotdown_04_1.wav"
+	}
+
+}
+
+

@@ -1,0 +1,53 @@
+
+
+/////////////
+//MP Fracture
+/////////////
+
+
+"ss_amb_fracture_turret_building"
+{
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"
+	"flags"			"omni"
+	"radius"		"0"
+	"volume"		"0.4"
+	
+	"wave"			"@ambient/amb_asylum_interior_muted.wav"
+	
+	
+}
+
+"ss_amb_fracture_sideways_house"
+{
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"
+	"flags"			"omni"
+	"radius"		"0"
+	"volume"		"0.3"
+	
+	"wave"			"@ambient/amb_asylum_shack.wav"
+		
+}
+
+"ss_amb_fracture_armory"
+{
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"	
+	"flags"			"omni"
+	"radius"		"0"
+	"volume"		"0.4"	
+	
+	"wave"			"@ambient/amb_asylum_interior_hangar.wav"
+	
+}
+
+"ss_amb_fracture_rotunda"
+{
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Fracture"	
+	"flags"			"omni"
+	"volume"		"0.2"
+	"radius"		"0"
+	
+	"wave"			"@ambient/amb_workerbase_tarmac.wav"	
+	
+}
+
+

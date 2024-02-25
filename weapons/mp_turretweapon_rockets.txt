@@ -1,0 +1,180 @@
+WeaponData
+{
+	// General
+	"printname"   									"#WPN_ROCKET_TURRET"
+	"description" 									"#WPN_ROCKET_TURRET_DESC"
+	"longdesc"										"#WPN_ROCKET_TURRET_DESC"
+	"weaponClass" 									"other"
+	"fire_mode"   									"semi-auto"
+	"server_vscript"  								"weapons/mp_titanweapon_rocket_launcher"
+	"client_vscript"  								"weapons/mp_titanweapon_rocket_launcher"
+	"pickup_hold_prompt"  							"Hold [USE] [WEAPONNAME]"
+	"pickup_press_prompt" 							"[USE] [WEAPONNAME]"
+
+	// Menu Stats
+	"stat_damage" 									"80"
+	"stat_range"  									"90"
+	"stat_accuracy"   								"30"
+	"stat_rof"										"60"
+
+	// Models
+	"viewmodel"   									"models/weapons/xotbr16/atpov_xotbr16.mdl"
+	"playermodel" 									"models/weapons/xotbr16/w_xotbr16.mdl"
+	"projectilemodel" 								"models/weapons/bullets/projectile_rocket_large.mdl"
+	"anim_prefix" 									"python"
+
+	// Effects
+	"impact_effect_table" 							"exp_rocket_dropship_turret"
+	"projectile_trail_effect_0" 						"Rocket_Smoke_Small"
+	"projectile_trail_attachment" 					"exhaust"
+	"vortex_absorb_effect"							"wpn_vortex_projectile_rocket_FP"
+	"vortex_absorb_effect_third_person"				"wpn_vortex_projectile_rocket"
+	"vortex_absorb_sound"							"Vortex_Shield_AbsorbRocket"
+	"adjust_to_gun_barrel"							"1"
+
+	// Damage - When Used by Players
+	"damage_type" 									"burn"
+	"damage_near_distance"							"800"
+	"damage_far_distance" 							"1200"
+	"damage_near_value"   							"0"
+	"damage_far_value"								"0"
+	"explosion_damage"								"40"
+	"explosion_damage_heavy_armor"					"600"
+
+	// Damage - When Used by NPCs
+	"npc_damage_near_distance"						"800"
+	"npc_damage_far_distance" 						"1200"
+	"npc_damage_near_value"   						"0"
+	"npc_damage_far_value"							"0"
+	"npc_explosion_damage"							"40"
+	"npc_explosion_damage_heavy_armor"				"600"
+
+	"explosionradius" 								"150"
+	"impulse_force"   								"4000"
+
+	// Ammo
+	"ammo_stockpile_max"							"800"
+	"ammo_clip_size"   								"800"
+	"ammo_default_total"							"800"
+
+	// Behavior
+	"fire_rate"   									"1"
+	"zoom_time_in"									"0.1"
+	"zoom_time_out"   								"0.1"
+	"zoom_fov"										"50"
+	"reload_time" 									"3"
+	"reloadempty_time"								"4"
+	"holster_time"									"0.8"
+	"deploy_time" 									"1"
+	"lower_time"  									".2"
+	"raise_time"  									".2"
+	"vortex_refire_behavior"  						"rocket"
+	"allow_empty_fire"								"0"
+	"reload_enabled"  								"1"
+	"allow_empty_click"   							"1"
+	"empty_reload_only"   							"0"
+	"trigger_snipercam"   							"1"
+	"allow_headshots" 								"0"
+
+	// Spread
+	"spread_stand_hip"  								"10"
+	"spread_stand_ads"   							"10"
+	"spread_npc"  									"4"
+
+
+	// View Kick
+	"viewkick_spring" 								"titan_launcher"
+
+	"viewkick_pitch_base" 							"-3.5"
+	"viewkick_pitch_random"   						"1.0"
+	"viewkick_pitch_softScale"						"1.0"
+	"viewkick_pitch_hardScale"						"2.5"
+
+	"viewkick_yaw_base"   							"-0.25"
+	"viewkick_yaw_random" 							"0.5"
+	"viewkick_yaw_softScale"  						"0.3"
+	"viewkick_yaw_hardScale"  						"2.0"
+
+	"viewkick_roll_base"  							"0.0"
+	"viewkick_roll_randomMin" 						"0.6"
+	"viewkick_roll_randomMax" 						"0.8"
+	"viewkick_roll_softScale" 						"0.2"
+	"viewkick_roll_hardScale" 						"1.0"
+
+	"viewkick_hipfire_weaponFraction" 				"0.4"
+	"viewkick_hipfire_weaponFraction_vmScale" 		"0.5"
+	"viewkick_ads_weaponFraction" 					"0.4"
+	"viewkick_ads_weaponFraction_vmScale" 			"0.5"
+
+
+	// Bob
+
+	// View Drift
+
+	// Rumble
+	"rumble"  										"6"
+
+	// Sway
+
+	// NPC
+	"proficiency_poor_spreadscale"					"7.0"
+	"proficiency_poor_bias"   						"0.75"
+	"proficiency_average_spreadscale" 				"5.0"
+	"proficiency_average_bias"						"0.9"
+	"proficiency_good_spreadscale"					"3.33333"
+	"proficiency_good_bias"   						"0.9"
+	"proficiency_very_good_spreadscale"   			"1.66667"
+	"proficiency_very_good_bias"  					"0.9"
+	"proficiency_perfect_spreadscale" 				"1.0"
+	"proficiency_perfect_bias"						"1.0"
+
+	"npc_min_range"   								"0"
+	"npc_max_range"   								"8000"
+	"npc_min_range_secondary" 						"0"
+	"npc_max_range_secondary" 						"2500"
+	"npc_min_burst"   								"1"
+	"npc_max_burst"   								"1"
+
+	// WeaponED Unhandled Key/Values and custom script Key/Values
+	"sway_turn_angle_factor"  						"-0.5"
+	"sway_turn_origin_factor" 						"0"
+	"sway_turn_angle_factor_zoomed"   				"0"
+	"sway_turn_origin_factor_zoomed"  				"0.05"
+	"sway_move_angle_factor"  						"0.5"
+	"sway_move_origin_factor" 						"0.5"
+	"sway_move_angle_factor_zoomed"   				"0"
+	"sway_move_origin_factor_zoomed"  				"0.03"
+	"sway_gain"   									"15.0"
+
+	// Crosshair
+	"red_crosshair_range" 							"2000"
+
+	Mods
+	{
+	}
+
+
+
+	TextureData
+	{
+		"crosshair"
+		{
+			"file"									"vgui/hud/crosshairs/titan_rocket_launcher"
+			"x"   									"0"
+			"y"   									"0"
+			"width"   								"96"
+			"height"  								"96"
+		}
+		"crosshair_zoom"
+		{
+			"file"									"vgui/hud/crosshairs/titan_rocket_launcher"
+			"x"   									"0"
+			"y"   									"0"
+			"width"   								"96"
+			"height"  								"96"
+		}
+		"autoaim"
+		{
+		}
+	}
+}

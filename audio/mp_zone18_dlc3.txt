@@ -1,0 +1,425 @@
+////////////////////
+// GLOBAL AMBIENCE /
+////////////////////
+
+"Amb_Zone18_EXT_Global"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Emitters_Zone18"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"0.8"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Zone18/Ambience/AMB_Zone18_EXT_Global_6ch_v1_LP.wav"
+	}
+	
+}
+
+"Amb_Zone18_INT_Room"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Emitters_Zone18"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"1.4"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Zone18/Ambience/AMB_Zone18_INT_Room_6ch_v1_LP.wav"
+	}
+	
+}
+
+"Amb_Zone18_INT_OpenRoom"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Emitters_Zone18"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"1.0"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Zone18/Ambience/AMB_Zone18_INT_OpenRoom_6ch_v1_LP.wav"
+	}
+	
+}
+
+
+
+
+
+///////////////////
+//		EMITTERS
+///////////////////
+
+
+
+"Zone18_Emit_SpectreHologram"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Zone18"
+	"flags"			"omni,loop"
+	"radius"		"1500"
+	"volume"		"4.0"
+
+
+	"rndwave"
+	{
+
+	"flags"				"spatialized"
+	"panWidth"			"90"
+	"folddownDistance"	"200"
+
+	"wave"			"Maps/Airbase/Emitters/Amb_Emit_Airbase_HoloMap_2ch_v2_01_LP.wav"
+
+	}
+
+}
+
+"Zone18_Emit_RobotCylinder"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Zone18"
+	"volume"			"2"
+	"pitch"				"98,102"
+	"radius"			"700"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddowndistance"	"200"
+		"volume"			"5"
+		"limit"				"5"
+
+			"wave"				"Maps/Zone18/Emitters/AMB_Emit_Zone18_RobotCylinder_2ch_v1_01_LP.wav"
+			"wave"				"Maps/Zone18/Emitters/AMB_Emit_Zone18_RobotCylinder_2ch_v1_02_LP.wav"
+			"wave"				"Maps/Zone18/Emitters/AMB_Emit_Zone18_RobotCylinder_2ch_v1_03_LP.wav"
+			"wave"				"Maps/Zone18/Emitters/AMB_Emit_Zone18_RobotCylinder_2ch_v1_04_LP.wav"
+
+	}
+}
+
+"Zone18_Emit_Steam_LargeFan"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Zone18"
+	"volume"			"5.5"
+	"pitch"				"100"
+	"radius"			"700"
+	"flags"				"mobile,loop"
+
+
+	"rndwave"
+	{
+		"volume"			"2"
+		"pitch"				"65,80"
+		"limit"				"3"
+
+
+			"wave"				"Maps/Zone18/Emitters/AMB_Emit_Zone18_BigSteamVent_1ch_v1_01_LP.wav"
+			"wave"				"Maps/Zone18/Emitters/AMB_Emit_Zone18_BigSteamVent_1ch_v1_02_LP.wav"
+			"wave"				"Maps/Zone18/Emitters/AMB_Emit_Zone18_BigSteamVent_1ch_v1_03_LP.wav"
+			
+	}
+}
+
+"Zone18_Emit_Steam_Smokestack"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Zone18"
+	"pitch"				"100"
+	"radius"			"700"
+	"flags"				"mobile,loop"
+
+
+	"rndwave"
+	{
+		"volume"			"1.0"
+		"pitch"				"90,100"
+		"limit"				"3"
+
+
+			"wave"				"Maps/Zone18/Emitters/AMB_Emit_Zone18_BigSteamVent_1ch_v1_01_LP.wav"
+			"wave"				"Maps/Zone18/Emitters/AMB_Emit_Zone18_BigSteamVent_1ch_v1_02_LP.wav"
+			"wave"				"Maps/Zone18/Emitters/AMB_Emit_Zone18_BigSteamVent_1ch_v1_03_LP.wav"
+			
+	}
+}
+
+"Zone18_Emit_Steam_Medium"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Zone18"
+	"volume"			"3"
+	"pitch"				"100"
+	"radius"			"700"
+	"flags"				"mobile,loop"
+
+
+	"rndwave"
+	{
+		"volume"			"2"
+		"pitch"				"80,120"
+		"limit"				"3"
+
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Medium_1ch_01_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Medium_1ch_02_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Medium_1ch_03_LP.wav"
+	}
+}
+
+"Zone18_Emit_Steam_Heavy"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Zone18"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"700"
+	"flags"				"mobile,loop"
+
+
+	"rndwave"
+	{
+		"volume"			"1.5"
+		"pitch"				"80,120"
+		"limit"				"3"
+
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Large_1ch_01_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Large_1ch_02_LP.wav"
+	}
+}
+
+
+"Zone18_Emit_Console"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Zone18"
+	"volume"			"2"
+	"pitch"				"110"
+	"radius"			"800"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"volume"			"3.0"
+		"limit"				"4"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Console1_LR_v1_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Console1_LR_v2_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Console1_LR_v3_LP.wav"
+	}
+}
+
+
+"Zone18_Emit_Sparks"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Zone18"
+	"flags"			"mobile,loop"
+	"radius"		"400"
+	"volume"		"2.0"
+	"falloff"		"0"
+	
+	
+	"rndwave"
+	{
+	"limit"			"2"
+	"pitch"			"115,120"
+	"wave"			"Maps/Haven/Ambient/Haven_Emitter_ElectricalGrind_1ch_v4_01.wav"
+	"wave"			"Maps/Haven/Ambient/Haven_Emitter_ElectricalGrind_1ch_v4_02.wav"
+
+	}
+}
+
+
+"Zone18_Emit_Fan"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Zone18"
+	"flags"			"loop"
+	"radius"		"700"
+	
+	
+	"rndwave"
+	{
+	"volume"		"4.0,4.5"
+	"pitch"			"80,120"
+	"flags"			"spatialized"
+	"panWidth"			"45"
+	"folddownDistance"	"80"
+	"limit"				"3"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_GeneratorLoop_LR_v3_LP.wav"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_FanLoop_LR_v1_LP.wav"
+	}
+}
+
+
+
+"Zone18_Scr_RadarTower_Spin"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Zone18"
+		
+	"volume"		"4.0"
+	"falloff"		"0"
+	"pitch"			"80"
+	"flags"			"loop,mobile,layered,nevercull"
+	
+		"rndwave"
+	{
+	
+		"flags"			"spatialized"
+		"folddownDistance"	"800"
+		"startDistance"		"0"
+		"startCurve"		"0"
+		"peakDistance"		"0"
+		"falloffStart"		"1000"
+		"falloffEnd"		"4700"
+		"falloffCurve"		"1"
+		"limit"			"1"
+
+		"wave"			"Maps/Zone18/Scripted/AMB_Scr_Zone18_RadarTower_Spin_2ch_v1_LP.wav"
+	
+	}
+}
+
+"Zone18_Scr_RadarTower_StartClunk"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Zone18"
+		
+	"volume"		"4.4,4.7"
+	"falloff"		"0"
+	"pitch"			"90,100"
+	"flags"			"layered,nevercull"
+	
+
+		"rndwave"
+	{
+	
+		"flags"			"spatialized"
+		"folddownDistance"	"800"
+		"startDistance"		"0"
+		"startCurve"		"0"
+		"peakDistance"		"0"
+		"falloffStart"		"1200"
+		"falloffEnd"		"3500"
+		"falloffCurve"		"0"
+		"limit"			"1"
+
+		"wave"			"Maps/Zone18/Scripted/AMB_Scr_Zone18_RadarTower_StartClunk_2ch_v1_01.wav"
+		"wave"			"Maps/Zone18/Scripted/AMB_Scr_Zone18_RadarTower_StartClunk_2ch_v1_02.wav"
+		"wave"			"Maps/Zone18/Scripted/AMB_Scr_Zone18_RadarTower_StartClunk_2ch_v1_03.wav"
+		
+	
+	}
+}
+
+"Zone18_Scr_RadarTower_StopClunk"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Zone18"
+		
+	"volume"		"3.7,4.0"
+	"falloff"		"0"
+	"pitch"			"78,85"
+	"flags"			"layered,nevercull"
+	
+
+		"rndwave"
+	{
+	
+		"flags"			"spatialized"
+		"folddownDistance"	"800"
+		"startDistance"		"0"
+		"startCurve"		"0"
+		"peakDistance"		"0"
+		"falloffStart"		"1200"
+		"falloffEnd"		"3500"
+		"falloffCurve"		"0"
+		"limit"			"1"
+
+		"wave"			"Maps/Zone18/Scripted/AMB_Scr_Zone18_RadarTower_StopClunk_2ch_v1_01.wav"
+		"wave"			"Maps/Zone18/Scripted/AMB_Scr_Zone18_RadarTower_StopClunk_2ch_v1_02.wav"
+		"wave"			"Maps/Zone18/Scripted/AMB_Scr_Zone18_RadarTower_StopClunk_2ch_v1_03.wav"
+		"wave"			"Maps/Zone18/Scripted/AMB_Scr_Zone18_RadarTower_StopClunk_2ch_v1_04.wav"
+		
+		
+	
+	}
+}
+
+"Zone18_Scr_RadarTower_Servo"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Zone18"
+		
+	"volume"		"4.4,4.7"
+	"falloff"		"0"
+	"pitch"			"30,40"
+	"flags"			"layered,nevercull"
+	
+
+		"rndwave"
+	{
+	
+		"flags"			"spatialized"
+		"folddownDistance"	"800"
+		"startDistance"		"0"
+		"startCurve"		"0"
+		"peakDistance"		"0"
+		"falloffStart"		"1200"
+		"falloffEnd"		"3500"
+		"falloffCurve"		"0"
+		"limit"			"1"
+
+		
+		"wave"			"Maps/Zone18/Scripted/AMB_Scr_Zone18_RadarTower_Servo_2ch_v1_02.wav"
+		"wave"			"Maps/Zone18/Scripted/AMB_Scr_Zone18_RadarTower_Servo_2ch_v1_03.wav"
+		"wave"			"Maps/Zone18/Scripted/AMB_Scr_Zone18_RadarTower_Servo_2ch_v1_04.wav"
+		"wave"			"Maps/Zone18/Scripted/AMB_Scr_Zone18_RadarTower_Servo_2ch_v1_05.wav"
+		"wave"			"Maps/Zone18/Scripted/AMB_Scr_Zone18_RadarTower_Servo_2ch_v1_06.wav"
+		"wave"			"Maps/Zone18/Scripted/AMB_Scr_Zone18_RadarTower_Servo_2ch_v1_07.wav"
+
+		
+	
+	}
+}
+
+"Zone18_Scr_RadarTower_ServoLong"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Zone18"
+		
+	"volume"		"2.9,3.2"
+	"falloff"		"0"
+	"pitch"			"77,88"
+	"flags"			"layered,nevercull"
+	
+
+		"rndwave"
+	{
+	
+		"flags"			"spatialized"
+		"folddownDistance"	"800"
+		"startDistance"		"0"
+		"startCurve"		"0"
+		"peakDistance"		"0"
+		"falloffStart"		"1200"
+		"falloffEnd"		"3500"
+		"falloffCurve"		"0"
+		"limit"			"1"
+
+		"wave"			"Maps/Zone18/Scripted/AMB_Scr_Zone18_RadarTower_ServoLong_2ch_v1_01.wav"
+		"wave"			"Maps/Zone18/Scripted/AMB_Scr_Zone18_RadarTower_ServoLong_2ch_v1_02.wav"
+
+
+		
+	
+	}
+}

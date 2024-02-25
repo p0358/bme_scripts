@@ -1,0 +1,163 @@
+// "Gamematerial" "effect_name"
+
+// "B" bloodyflesh
+// "X" plastic box, wade, ladder, woodladdder,
+// "I" player_control_clip
+
+ImpactTable
+{
+	FX
+	{
+		"C" "P_impact_dpod_dirt" //Concrete, rock, porcelain, boulder, gravel, asphalt, brick, concrete_block, plaster
+		"D" "P_impact_dpod_dirt" //Dirt, slipperyslime, snow, carpet, cardboard, floatingstandable, ceiling_tile, papercup
+		"E" "P_impact_dpod_dirt" // metal_titan
+	
+		"F" "P_impact_dpod_dirt" //flesh
+		"G" "P_impact_dpod_dirt" //metalgrate, chainlink, chain
+		"H" "P_impact_dpod_dirt" //alienflesh
+	
+		"J" "P_impact_dpod_dirt" //grass
+		"K" "P_impact_dpod_mud" //Mud
+		"L" "P_impact_dpod_dirt" //plastic_barrel, plastic_box, item, rubber, rubbertire, jeeptire, slidingrubbertire, brakingrubbertire, slidingrubbertire_front, slidingrubbertire_rear
+		"M" "P_impact_dpod_dirt" //Default, metal, metal_box, solidmetal, armorflesh, metal_bouncy, slippery_metal, shellcasing_small, shellcasing_large, metal_barrel, floating_metal_barrel, weapon
+		"N" "P_impact_dpod_dirt" 
+		"O" "P_impact_dpod_dirt" //Foliage
+		"P" "P_impact_dpod_dirt" //Computer
+	
+		"R" "P_impact_dpod_dirt" //metalpanel, grenade, canister
+		"S" "P_impact_dpod_water" //water, slime
+		"T" "P_impact_dpod_dirt" //tile
+		"U" "P_impact_dpod_dirt" //glass_breakble
+	
+		"V" "P_impact_dpod_dirt" //Metal Vent
+		"W" "P_impact_dpod_dirt" //Wood, Wood_lowdensity, Wood_Box, Wood_Crate, Wood_Plank, Wood_Solid, Wood_Furniture, Wood_Panel watermelon
+	
+		"Y" "P_impact_dpod_dirt" //glass, brokenglass, glassbottle, pottery
+		"Z" "P_impact_dpod_sand"  //sand
+	
+		"0" "P_impact_dpod_dirt"
+		"1" "P_impact_dpod_dirt"
+		"2" "P_impact_dpod_dirt"
+		"3" "P_impact_dpod_dirt"
+		"4" "P_impact_dpod_dirt"
+		"5" "P_impact_dpod_dirt"
+		"6" "P_impact_dpod_dirt"
+		"7" "P_impact_dpod_dirt"
+		"8" "P_impact_dpod_dirt"
+		"9" "P_impact_dpod_water" //puddle
+		
+		"splash" "P_impact_dpod_water"
+		"slime_splash" "P_impact_dpod_water"
+	
+		"airburst" ""
+		"critical_hit" "P_impact_dpod_dirt"
+	}
+
+	Sound
+	{
+		"C" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"D" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"E" "Default.Explo_SatchelCharge_3P_vs_3P"
+	
+		"F" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"G" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"H" "Default.Explo_SatchelCharge_3P_vs_3P"
+	
+		"J" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"K" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"L" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"M" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"N" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"O" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"P" "Default.Explo_SatchelCharge_3P_vs_3P"
+	
+		"R" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"S" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"T" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"U" "Default.Explo_SatchelCharge_3P_vs_3P"
+	
+		"V" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"W" "Default.Explo_SatchelCharge_3P_vs_3P"
+	
+		"Y" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"Z" "Default.Explo_SatchelCharge_3P_vs_3P"
+	
+		//"splash" "Water.BulletImpact"
+		//"slime_splash" "Water.BulletImpact"
+		
+		"airburst" "Default.Explo_SatchelCharge_3P_vs_3P"
+	}
+
+	Sound_attacker
+	{
+		"C" "Default.Explo_SatchelCharge_1P_vs_3P"
+		"D" "Default.Explo_SatchelCharge_1P_vs_3P"
+		"E" "Default.Explo_SatchelCharge_1P_vs_3P"
+	
+		"F" "Default.Explo_SatchelCharge_1P_vs_3P"
+		"G" "Default.Explo_SatchelCharge_1P_vs_3P"
+		"H" "Default.Explo_SatchelCharge_1P_vs_3P"
+	
+		"J" "Default.Explo_SatchelCharge_1P_vs_3P"
+		"K" "Default.Explo_SatchelCharge_1P_vs_3P"  // mud?
+		"L" "Default.Explo_SatchelCharge_1P_vs_3P"
+		"M" "Default.Explo_SatchelCharge_1P_vs_3P"
+		"N" "Default.Explo_SatchelCharge_1P_vs_3P"	// sand?
+		"O" "Default.Explo_SatchelCharge_1P_vs_3P"
+		"P" "Default.Explo_SatchelCharge_1P_vs_3P"
+	
+		"R" "Default.Explo_SatchelCharge_1P_vs_3P"
+		"S" "Default.Explo_SatchelCharge_1P_vs_3P"
+		"T" "Default.Explo_SatchelCharge_1P_vs_3P"
+		"U" "Default.Explo_SatchelCharge_1P_vs_3P"
+	
+		"V" "Default.Explo_SatchelCharge_1P_vs_3P"
+		"W" "Default.Explo_SatchelCharge_1P_vs_3P"
+	
+		"Y" "Default.Explo_SatchelCharge_1P_vs_3P"
+		"Z" "Default.Explo_SatchelCharge_1P_vs_3P"	
+		
+		//"splash" "Water.BulletImpact"
+		//"slime_splash" "Water.BulletImpact"
+		
+		"airburst" "Default.40mm_Impact_1P_vs_3P"
+	}
+	
+	Sound_victim
+	{
+		"C" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"D" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"E" "Default.Explo_SatchelCharge_3P_vs_3P"
+	
+		"F" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"G" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"H" "Default.Explo_SatchelCharge_3P_vs_3P"
+	
+		"J" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"K" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"L" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"M" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"N" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"O" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"P" "Default.Explo_SatchelCharge_3P_vs_3P"
+	
+		"R" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"S" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"T" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"U" "Default.Explo_SatchelCharge_3P_vs_3P"
+	
+		"V" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"W" "Default.Explo_SatchelCharge_3P_vs_3P"
+	
+		"Y" "Default.Explo_SatchelCharge_3P_vs_3P"
+		"Z" "Default.Explo_SatchelCharge_3P_vs_3P"
+	
+		//"splash" "Water.BulletImpact"
+		//"slime_splash" "Water.BulletImpact"
+		
+		"airburst" "Default.Explo_SatchelCharge_3P_vs_3P"
+	}
+
+	
+}
+

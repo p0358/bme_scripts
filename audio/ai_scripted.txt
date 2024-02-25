@@ -1,0 +1,2231 @@
+//////////////////////////////
+// AI SKITS                //
+////////////////////////////
+
+
+"ai_skit_pt_brawl_Soldier1_comp"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/ai_skit_pt_brawl_Soldier1_comp.wav"
+}
+
+"ai_skit_pt_brawl_Soldier2_comp"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/ai_skit_pt_brawl_Soldier2_comp.wav"
+}
+
+"ai_skit_pt_brawl_Soldier3_comp"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"	
+
+	"wave"				"ai/skits/ai_skit_pt_brawl_Soldier3_comp.wav"
+}
+
+"ai_skit_spectre_kill_Soldier_comp"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.8"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/ai_skit_spectre_kill_Soldier_comp.wav"
+}
+
+"ai_skit_spectre_kill_Spectre_comp"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.8"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/ai_skit_spectre_kill_Spectre_comp.wav"
+}
+
+"ai_skit_spectre_speedkill_Soldier1_comp"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"10.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/ai_skit_spectre_speedkill_Soldier1_comp.wav"
+}
+
+"ai_skit_spectre_speedkill_Soldier2_comp"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"10.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/ai_skit_spectre_speedkill_Soldier2_comp.wav"
+}
+
+"ai_skit_spectre_speedkill_Spectre_comp"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"10.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/ai_skit_spectre_speedkill_Spectre_comp.wav"
+}
+
+  //////////////////////////////
+ // Corporate Spectre Skits  //
+//////////////////////////////
+
+
+// Spectre Blind Fire
+
+"ai_skit_sp_blindfire_idle_Grunt_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreBlindfire_Idle_Grunt_Pt1_1ch_v1_LP.wav"
+}
+
+"ai_skit_sp_blindfire_idle_diag_Grunt_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreBlindfire_Idle_diag_Grunt_Pt1_1ch_v1_LP.wav"
+}
+
+"ai_skit_sp_blindfire_Grunt_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreBlindfire_Grunt_Pt1_1ch_v1.wav"
+}
+
+
+"ai_skit_sp_blindfire_Grunt_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreBlindfire_Grunt_Pt2_1ch_v1.wav"
+}
+
+"ai_skit_sp_blindfire_Grunt_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreBlindfire_Grunt_Pt3_1ch_v1.wav"
+}
+
+"ai_skit_sp_blindfire_Grunt_Pt4"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreBlindfire_Grunt_Pt4_1ch_v1.wav"
+}
+
+"ai_skit_sp_blindfire_Grunt_Pt5"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreBlindfire_Grunt_Pt5_1ch_v1.wav"
+}
+
+"ai_skit_sp_blindfire_diag_Grunt_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreBlindfire_diag_Grunt_Pt1_1ch_v1.wav"
+}
+
+"ai_skit_sp_blindfire_diag_Grunt_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreBlindfire_diag_Grunt_Pt2_1ch_v1.wav"
+}
+
+"ai_skit_sp_blindfire_diag_Grunt_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreBlindfire_diag_Grunt_Pt3_1ch_v1.wav"
+}
+
+// Spectre Chest Punch
+
+"ai_skit_sp_spectre_chestpunch_idle_Grunt_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreChestPunch_Idle_Grunt_Pt1_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_chestpunch_idle_diag_Grunt_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	
+	"rndwave"
+	{
+	"wave"				"ai/skits/AI_Skit_SpectreChestPunch_diag_Idle_Grunt_Pt1_1ch_v1_01.wav"
+	"wave"				"ai/skits/AI_Skit_SpectreChestPunch_diag_Idle_Grunt_Pt1_1ch_v1_02.wav"
+	"wave"				"ai/skits/AI_Skit_SpectreChestPunch_diag_Idle_Grunt_Pt1_1ch_v1_03.wav"
+	"wave"				"ai/skits/AI_Skit_SpectreChestPunch_diag_Idle_Grunt_Pt1_1ch_v1_04.wav"
+	"wave"				"ai/skits/AI_Skit_SpectreChestPunch_diag_Idle_Grunt_Pt1_1ch_v1_05.wav"
+	"wave"				"ai/skits/AI_Skit_SpectreChestPunch_diag_Idle_Grunt_Pt1_1ch_v1_06.wav"
+	"wave"				"ai/skits/AI_Skit_SpectreChestPunch_diag_Idle_Grunt_Pt1_1ch_v1_07.wav"
+
+	}
+}
+
+"ai_skit_sp_spectre_chestpunch_Grunt_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreChestPunch_Grunt_Pt1_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_chestpunch_Grunt_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreChestPunch_Grunt_Pt2_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_chestpunch_diag_Grunt_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreChestPunch_diag_Grunt_Pt1_1ch_v1_01.wav"
+}
+
+"ai_skit_sp_spectre_chestpunch_Spectre_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreChestPunch_Spectre_Pt1_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_chestpunch_Spectre_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"10.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreChestPunch_Spectre_Pt2_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_chestpunch_Spectre_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreChestPunch_Spectre_Pt3_1ch_v1.wav"
+}
+
+
+
+// Spectre Crawl
+
+"ai_skit_sp_spectre_crawl_Grunt_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreCrawl_Grunt_Pt1_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_crawl_Grunt_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreCrawl_Grunt_Pt2_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_crawl_Grunt_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"10.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreCrawl_Grunt_Pt3_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_crawl_Grunt_Pt4"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"10.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreCrawl_Grunt_Pt4_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_crawl_Grunt_Pt5"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"10.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreCrawl_Grunt_Pt5_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_crawl_Grunt_Pt6"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"10.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreCrawl_Grunt_Pt6_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_crawl_Grunt_Pt7"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreCrawl_Grunt_Pt7_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_crawl_diag_Grunt_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreCrawl_diag_Grunt_Pt1_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_crawl_diag_Grunt_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreCrawl_diag_Grunt_Pt2_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_crawl_diag_Grunt_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreCrawl_diag_Grunt_Pt3_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_crawl_diag_Grunt_Pt4"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreCrawl_diag_Grunt_Pt4_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_crawl_diag_Grunt_Pt5"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreCrawl_diag_Grunt_Pt5_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_crawl_diag_Grunt_Pt6"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreCrawl_diag_Grunt_Pt6_1ch_v1.wav"
+}
+
+
+// Spectre Zombie Drag
+
+"ai_skit_sp_spectre_zombiedrag_Spectre_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreZombieDrag_Spectre_Pt1_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_zombiedrag_Spectre_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"10.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+	"rndwave" {
+	"delay"				"15"
+	"wave"				"ai/skits/AI_Skit_SpectreZombieDrag_Spectre_Pt2_1ch_v1.wav"
+	}
+}
+
+"ai_skit_sp_spectre_zombiedrag_Grunt_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreZombieDrag_Grunt_Pt1_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_zombiedrag_Grunt_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreZombieDrag_Grunt_Pt2_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_zombiedrag_Grunt_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreZombieDrag_Grunt_Pt3_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_zombiedrag_Grunt_Pt4"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreZombieDrag_Grunt_Pt4_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_zombiedrag_Grunt_Pt5"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreZombieDrag_Grunt_Pt5_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_zombiedrag_Grunt_Pt6"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreZombieDrag_Grunt_Pt6_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_zombiedrag_Grunt_Pt7"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreZombieDrag_Grunt_Pt7_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_zombiedrag_diag_Grunt_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreZombieDrag_diag_Grunt_Pt1_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_zombiedrag_diag_Grunt_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreZombieDrag_diag_Grunt_Pt2_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_zombiedrag_diag_Grunt_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreZombieDrag_diag_Grunt_Pt3_1ch_v1.wav"
+}
+
+
+
+// Spectre curbstomp
+
+"ai_skit_sp_curbstomp_Grunt_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreCurbstomp_Grunt_Pt1_1ch_v1.wav"
+}
+
+"ai_skit_sp_curbstomp_Grunt_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreCurbstomp_Grunt_Pt2_1ch_v1.wav"
+}
+
+"ai_skit_sp_curbstomp_Grunt_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreCurbstomp_Grunt_Pt3_1ch_v1.wav"
+}
+
+"ai_skit_sp_curbstomp_Grunt_Pt4"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreCurbstomp_Grunt_Pt4_1ch_v1.wav"
+}
+
+"ai_skit_sp_curbstomp_diag_Grunt_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreCurbstomp_diag_Grunt_Pt1_1ch_v1.wav"
+}
+
+"ai_skit_sp_curbstomp_diag_Grunt_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreCurbstomp_diag_Grunt_Pt2_1ch_v1.wav"
+}
+
+"ai_skit_sp_curbstomp_Spectre_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreCurbstomp_Spectre_Pt1_1ch_v1.wav"
+}
+
+"ai_skit_sp_curbstomp_Spectre_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"10.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreCurbstomp_Spectre_Pt2_1ch_v1.wav"
+}
+
+"ai_skit_sp_curbstomp_Spectre_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreCurbstomp_Spectre_Pt3_1ch_v1.wav"
+}
+
+// Spectre window toss
+
+"ai_skit_sp_spectre_windowtoss_Headbutt"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"10.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"rndwave" {
+			"flags"				"spatialized"
+			"folddownDistance"	"200"
+			"wave"				"ai/skits/AI_Skit_SpectreWindowToss_Imp_Headbutt_2ch_v1.wav"
+	}
+	
+	"rndwave"
+	{
+		"limit"		"1"
+		"volume"	"3.5"
+		"pitch"		"85"
+		"wave" 				"player/player_melee_kick_impact_flesh_01.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_02.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_03.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_04.wav"
+
+	}
+}
+
+"ai_skit_sp_spectre_windowtoss_diag_Grunt_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreWindowToss_diag_Grunt_Pt1_1ch_v1.wav"
+}
+
+// Spectre table slam (bodyslam)
+
+"ai_skit_sp_tablesmash_skit_Spectre_Throw"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"95,100"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_SpectreTableSlam_SpectreThrow_1ch_v1.wav"
+			"wave"				"ai/skits/AI_Skit_SpectreTableSlam_SpectreThrow_1ch_v1_02.wav"
+			"wave"				"ai/skits/AI_Skit_SpectreTableSlam_SpectreThrow_1ch_v1_03.wav"
+			"wave"				"ai/skits/AI_Skit_SpectreTableSlam_SpectreThrow_1ch_v1_04.wav"
+			"wave"				"ai/skits/AI_Skit_SpectreTableSlam_SpectreThrow_1ch_v1_05.wav"
+	}
+}
+
+"ai_skit_sp_tablesmash_skit_Bodyfall"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"5.0"
+	"radius"			"1200"
+	"pitch"				"90,100"
+	"flags"				"mobile"
+
+	"rndwave"
+	{
+		"limit"		"1"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Hard_1ch_v2_01.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Hard_1ch_v2_02.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Hard_1ch_v2_03.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Hard_1ch_v2_04.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Hard_1ch_v2_05.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Hard_1ch_v2_06.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Hard_1ch_v2_07.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Hard_1ch_v2_08.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Hard_1ch_v2_09.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Hard_1ch_v2_10.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Human_Hard_1ch_v2_11.wav"
+	
+	}
+	
+	"rndwave"
+	{
+		"limit"		"1"
+		"volume"	"6.5"
+		"pitch"		"85"
+		"wave" 				"player/player_melee_kick_impact_flesh_01.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_02.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_03.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_04.wav"
+
+	}
+
+		"rndwave"
+		{
+		"limit"		"1"
+		"volume"	"10.0"
+		"pitch"		"100"
+		"delay"		"60"
+		
+		"flags"		"spatialized"
+		"folddownDistance"		"200"
+		"wave" 				"ai/skits/AI_Skit_SpectreTableSlam_Imp_BodyCrunch_2ch_v1.wav"
+		}
+
+}
+
+"ai_skit_sp_tablesmash_diag_Grunt_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_Bodyslam_diag_Grunt_Pt1_1ch_v1.wav"
+}
+
+
+// Spectre railing smash
+
+"ai_skit_sp_spectre_railing_smash_Impact1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"10.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_SpectreRailingSmash_Impact1_1ch_v1.wav"
+	}
+	
+	"rndwave"
+	{
+		"limit"		"1"
+		"volume"	"4.0"
+		"pitch"		"85"
+		"wave" 				"player/player_melee_kick_impact_flesh_01.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_02.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_03.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_04.wav"
+
+	}
+}
+
+"ai_skit_sp_spectre_railing_smash_Impact2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"10.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_SpectreRailingSmash_Impact2_1ch_v1.wav"
+	}
+	
+		"rndwave"
+	{
+		"limit"		"1"
+		"volume"	"6.0"
+		"pitch"		"85"
+		"wave" 				"player/player_melee_kick_impact_flesh_01.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_02.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_03.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_04.wav"
+
+	}
+}
+
+"ai_skit_sp_spectre_railing_smash_Impact3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"10.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_SpectreRailingSmash_Impact3_1ch_v1.wav"
+	}
+	
+		"rndwave"
+	{
+		"limit"		"1"
+		"volume"	"9.0"
+		"pitch"		"85"
+		"wave" 				"player/player_melee_kick_impact_flesh_01.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_02.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_03.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_04.wav"
+
+	}
+}
+
+"ai_skit_sp_spectre_railing_smash_Spectre_LastSmash"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"pitch"				"89,93"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_SpectreTableSlam_SpectreThrow_1ch_v1.wav"
+			"wave"				"ai/skits/AI_Skit_SpectreTableSlam_SpectreThrow_1ch_v1_02.wav"
+			"wave"				"ai/skits/AI_Skit_SpectreTableSlam_SpectreThrow_1ch_v1_03.wav"
+			"wave"				"ai/skits/AI_Skit_SpectreTableSlam_SpectreThrow_1ch_v1_04.wav"
+			"wave"				"ai/skits/AI_Skit_SpectreTableSlam_SpectreThrow_1ch_v1_05.wav"
+	}
+}
+
+"ai_skit_sp_spectre_railing_smash_diag_Grunt_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_RailingSmash_diag_Victim_Pt1_1ch_v1.wav"
+}
+
+"ai_skit_sp_spectre_railing_smash_diag_Grunt_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_RailingSmash_diag_Victim_Pt2_1ch_v1.wav"
+}
+
+"ai_skit_sp_barslam_skit_BodyImpact"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"10.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave"
+	{		
+		"flags"				"spatialized"
+		"folddownDistance"	"200"
+		"wave"				"ai/skits/AI_Skit_SpectreBarFight_BodyImpact_2ch_v1_01.wav"
+	}
+	
+	"rndwave"
+	{
+		"limit"		"1"
+		"volume"	"9.0"
+		"pitch"		"85"
+		"wave" 				"player/player_melee_kick_impact_flesh_01.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_02.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_03.wav"
+		"wave" 				"player/player_melee_kick_impact_flesh_04.wav"
+
+	}
+}
+
+"ai_skit_sp_barslam_skit_BodyGrab"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_SpectreBarFight_BodyGrab_1ch_v1_01.wav"
+	}
+}
+
+"ai_skit_sp_barslam_skit_BodySlide"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"10.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_SpectreBarFight_BodySlide_1ch_v1_01.wav"
+	}
+}
+
+"ai_skit_sp_barslam_skit_diag_Grunt_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"10.0"
+	"pitch"				"97,100"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_SpectreBarFight_diag_1ch_v1_01.wav"
+}
+
+"ai_skit_pt_dying_wallslide_zinger_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_WallSlide_Pt1_1ch_v1_01.wav"
+	}
+}
+
+"ai_skit_pt_dying_wallslide_zinger_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_WallSlide_Pt2_1ch_v1_01.wav"
+	}
+}
+
+"ai_skit_pt_dying_wallslide_zinger_diag_Grunt_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_WallSlide_diag_Grunt_Pt1_1ch_v1.wav"
+}
+
+"ai_skit_pt_dying_wallslide_zinger_diag_Grunt_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_WallSlide_diag_Grunt_Pt2_1ch_v1.wav"
+}
+
+"ai_skit_pt_dying_wallslide_zinger_diag_Grunt_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_WallSlide_diag_Grunt_Pt3_1ch_v1.wav"
+}
+
+"ai_skit_pt_fight_knockback_Winner_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_FightKnockBack_Winner_Pt1_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_fight_knockback_Winner_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"10.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_FightKnockBack_Winner_Pt2_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_fight_knockback_Loser_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_FightKnockBack_Loser_Pt1_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_fight_knockback_Loser_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_FightKnockBack_Loser_Pt2_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_fight_knockback_Loser_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_FightKnockBack_Loser_Pt3_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_dying_knockback_diag_Winner_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_FightKnockBack_diag_Winner_Pt1_1ch_v1.wav"
+}
+
+"ai_skit_pt_dying_knockback_diag_Winner_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_FightKnockBack_diag_Winner_Pt2_1ch_v1.wav"
+}
+
+"ai_skit_pt_dying_knockback_diag_Winner_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_FightKnockBack_diag_Winner_Pt3_1ch_v1.wav"
+}
+
+"ai_skit_pt_dying_knockback_diag_Loser_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_FightKnockBack_diag_Loser_Pt1_1ch_v1.wav"
+}
+
+"ai_skit_pt_dying_knockback_diag_Loser_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_FightKnockBack_diag_Loser_Pt2_1ch_v1.wav"
+}
+
+"ai_skit_pt_dying_knockback_diag_Loser_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_FightKnockBack_diag_Loser_Pt3_1ch_v1.wav"
+}
+
+"ai_skit_pt_loot_corpse_skit_Looter_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_LootCorpse_Looter_Pt1_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_loot_corpse_skit_Looter_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_LootCorpse_Looter_Pt2_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_loot_corpse_skit_Looter_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_LootCorpse_Looter_Pt3_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_fight_flip_Winner_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_MeleeFlip_Winner_Pt1_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_fight_flip_Winner_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+			"flags"				"spatialized"
+			"folddownDistance"	"150"
+			"wave"				"ai/skits/AI_Skit_MeleeFlip_Winner_Pt2_2ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_fight_flip_Winner_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_MeleeFlip_Winner_Pt3_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_fight_flip_Winner_Pt4"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_MeleeFlip_Winner_Pt4_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_fight_flip_Loser_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"8.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_MeleeFlip_Loser_Pt1_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_fight_flip_diag_Winner_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_MeleeFlip_diag_Winner_Pt1_1ch_v1.wav"
+}
+
+"ai_skit_pt_fight_flip_diag_Winner_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_MeleeFlip_diag_Winner_Pt2_1ch_v1.wav"
+}
+
+"ai_skit_pt_fight_flip_diag_Winner_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_MeleeFlip_diag_Winner_Pt3_1ch_v1.wav"
+}
+
+"ai_skit_pt_fight_flip_diag_Winner_Pt4"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_MeleeFlip_diag_Winner_Pt4_1ch_v1.wav"
+}
+
+"ai_skit_pt_fight_flip_diag_Loser_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_MeleeFlip_diag_Loser_Pt1_1ch_v1.wav"
+}
+
+"ai_skit_pt_fight_flip_diag_Loser_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_MeleeFlip_diag_Loser_Pt2_1ch_v1.wav"
+}
+
+"ai_skit_pt_fight_flip_diag_Loser_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_MeleeFlip_diag_Loser_Pt3_1ch_v1.wav"
+}
+
+"ai_skit_pt_fight_knockback_zinger_Winner_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_FightKnockBack_Winner_Pt1_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_fight_knockback_zinger_Winner_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_FightKnockBack_Winner_Pt2_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_fight_knockback_zinger_Loser_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_FightKnockBack_Loser_Pt1_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_fight_knockback_zinger_Loser_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_FightKnockBack_Loser_Pt2_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_fight_knockback_zinger_Loser_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_FightKnockBack_Loser_Pt3_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_fight_knockback_zinger_diag_Winner_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_FightKnockBack_diag_Winner_Pt1_1ch_v1.wav"
+}
+
+"ai_skit_pt_fight_knockback_zinger_diag_Winner_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_FightKnockBack_diag_Winner_Pt2_1ch_v1.wav"
+}
+
+"ai_skit_pt_fight_knockback_zinger_diag_Winner_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_FightKnockBack_diag_Winner_Pt3_1ch_v1.wav"
+}
+
+"ai_skit_pt_fight_knockback_zinger_diag_Loser_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_FightKnockBack_diag_Loser_Pt1_1ch_v1.wav"
+}
+
+"ai_skit_pt_fight_knockback_zinger_diag_Loser_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_FightKnockBack_diag_Loser_Pt2_1ch_v1.wav"
+}
+
+"ai_skit_pt_fight_knockback_zinger_diag_Loser_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_FightKnockBack_diag_Loser_Pt3_1ch_v1.wav"
+}
+
+"ai_skit_pt_prisoner_kill_zinger_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_PrisonerKill_Pt1_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_prisoner_kill_zinger_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_PrisonerKill_Pt2_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_prisoner_kill_zinger_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_PrisonerKill_Pt3_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_prisoner_kill_zinger_Pt4"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_PrisonerKill_Pt4_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_prisoner_kill_zinger_Pt5"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_PrisonerKill_Pt5_1ch_v1.wav"
+	}
+}
+
+
+"ai_skit_pt_wounded_carry_zinger_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_WoundedCarry_Pt1_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_wounded_carry_zinger_Victim_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_WoundedCarry_Pt2_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_wounded_carry_zinger_Victim_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_WoundedCarry_Pt3_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_wounded_carry_zinger_Victim_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_WoundedCarry_Pt4_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_wounded_carry_zinger_diag_Carrier_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_WoundedCarry_diag_Carrier_Pt1_1ch_v1.wav"
+}
+
+"ai_skit_pt_wounded_carry_zinger_diag_Carrier_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_WoundedCarry_diag_Carrier_Pt2_1ch_v1.wav"
+}
+
+"ai_skit_pt_wounded_carry_zinger_diag_Carrier_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_WoundedCarry_diag_Carrier_Pt3_1ch_v1.wav"
+}
+
+"ai_skit_pt_wounded_carry_zinger_diag_Carrier_Pt4"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_WoundedCarry_diag_Carrier_Pt4_1ch_v1.wav"
+}
+
+"ai_skit_pt_wounded_drag_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_WoundedDrag_Pt1_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_wounded_drag_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_WoundedDrag_Pt2_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_wounded_drag_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_WoundedDrag_Pt3_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_wounded_drag_Pt4"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_WoundedDrag_Pt4_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_wounded_drag_Pt5"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_WoundedDrag_Pt5_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_wounded_drag_Pt6"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_WoundedDrag_Pt6_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_wounded_drag_Pt7"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_WoundedDrag_Pt7_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_wounded_drag_Pt8"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"7.0"
+	"radius"			"1200"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_WoundedDrag_Pt8_1ch_v1.wav"
+	}
+}
+
+"ai_skit_pt_wounded_drag_diag_Victim_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_WoundedDrag_diag_Victim_Pt1_1ch_v1.wav"
+}
+
+"ai_skit_pt_wounded_drag_diag_Victim_Pt2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_WoundedDrag_diag_Victim_Pt2_1ch_v1.wav"
+}
+
+"ai_skit_pt_wounded_drag_diag_Victim_Pt3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_WoundedDrag_diag_Victim_Pt3_1ch_v1.wav"
+}
+
+"ai_skit_pt_wounded_drag_diag_Victim_Pt4"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_WoundedDrag_diag_Victim_Pt4_1ch_v1.wav"
+}
+
+"ai_skit_pt_wounded_drag_diag_Victim_Pt5"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_WoundedDrag_diag_Victim_Pt5_1ch_v1.wav"
+}
+
+"ai_skit_pt_wounded_drag_diag_Victim_Pt6"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_WoundedDrag_diag_Victim_Pt6_1ch_v1.wav"
+}
+
+"ai_skit_pt_wounded_drag_diag_Victim_Pt7"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_WoundedDrag_diag_Victim_Pt7_1ch_v1.wav"
+}
+
+"ai_skit_pt_wounded_drag_diag_Victim_Pt8"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_WoundedDrag_diag_Victim_Pt8_1ch_v1.wav"
+}
+
+"ai_skit_pt_wounded_drag_diag_Victim_Pt9"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"ai/skits/AI_Skit_WoundedDrag_diag_Victim_Pt9_1ch_v1.wav"
+}
+
+"ai_skit_sp_colony_intro_ambush_kill_Pt1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"6.0"
+	"radius"			"1200"
+	"pitch"				"95,100"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"flags"				"spatialized"
+			"folddownDistance"	"100"
+			"wave"				"ai/skits/AI_Skit_SpectreEviscerateGrunt_Gore_2ch_v1_01.wav"
+
+	}
+}
+
+"ai_skit_sp_colony_intro_ambush_kill_Servo"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"9.0"
+	"radius"			"1200"
+	"pitch"				"89,93"
+	"flags"				"mobile"
+
+	"rndwave" {
+
+			"wave"				"ai/skits/AI_Skit_SpectreTableSlam_SpectreThrow_1ch_v1.wav"
+			"wave"				"ai/skits/AI_Skit_SpectreTableSlam_SpectreThrow_1ch_v1_02.wav"
+			"wave"				"ai/skits/AI_Skit_SpectreTableSlam_SpectreThrow_1ch_v1_03.wav"
+			"wave"				"ai/skits/AI_Skit_SpectreTableSlam_SpectreThrow_1ch_v1_04.wav"
+			"wave"				"ai/skits/AI_Skit_SpectreTableSlam_SpectreThrow_1ch_v1_05.wav"
+	}
+}
+
+///////////////////////////////////////////////
+// Global skits - outdated aliases, unused  //
+/////////////////////////////////////////////
+
+"ai_skit_pt_fight_flip_Soldier1_comp"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"2"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"null.wav"
+}
+
+"ai_skit_pt_fight_flip_Soldier2_comp"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"2"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"null.wav"
+}
+
+"ai_skit_pt_loot_corpse_Soldier1_comp"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"2"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"null.wav"
+}
+
+"ai_skit_pt_loot_corpse_Soldier2_comp"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"2"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"null.wav"
+}
+
+"ai_skit_pt_loot_corpse_Corpse_comp"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"2"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"null.wav"
+}
+
+"ai_skit_pt_marvin_CPR_Marvin_comp"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"2"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"null.wav"
+}
+
+"ai_skit_pt_marvin_CPR_Corpse_comp"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"2"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"null.wav"
+}
+
+"ai_skit_pt_marvin_CPRkill_Marvin_comp"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"2"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"null.wav"
+}
+
+"ai_skit_pt_marvin_CPRkill_Soldier_comp"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"2"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"null.wav"
+}
+
+"ai_skit_pt_marvin_dragbody_Marvin_comp"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"2"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"null.wav"
+}
+
+"ai_skit_pt_marvin_dragbody_Corpse_comp"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"2"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"null.wav"
+}
+
+"ai_skit_pt_shotgun_wallslam_Shooter_comp"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"2"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"null.wav"
+}
+
+"ai_skit_pt_shotgun_wallslam_Victim_comp"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"2"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"null.wav"
+}
+
+"ai_skit_pt_spectre_salvage_SalvagingSpectre_comp"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"2"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"null.wav"
+}
+
+"ai_skit_pt_spectre_salvage_ProneSpectre_comp"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"			"2"
+	"radius"			"1200"
+	"pitch"				"100"
+	"flags"				"mobile"
+
+	"wave"				"null.wav"
+}
+
+//////////////////////////////
+// AI HARDPOINT ANIMATIONS //
+////////////////////////////
+
+
+// FOR E3
+
+"pt_console_backin_L"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Grunts"
+	"volume"			"3"
+	"radius"			"1200"
+	"pitch"				"100"
+
+	"wave"				"ai/scripted/grunt_hp_pt_console_backin_L.wav"
+}
+
+"pt_console_backin_R"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Grunts"
+	"volume"			"3"
+	"radius"			"1200"
+	"pitch"				"100"
+
+	"wave"				"ai/scripted/grunt_hp_pt_console_backin_R.wav"
+}
+
+"pt_console_death_slideleft"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Grunts"
+	"volume"			"3"
+	"radius"			"1200"
+	"pitch"				"100"
+
+	"wave"				"ai/scripted/grunt_hp_pt_console_death_slideleft.wav"
+}
+
+"pt_console_death_slideright"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Grunts"
+	"volume"			"3"
+	"radius"			"1200"
+	"pitch"				"100"
+
+	"wave"				"ai/scripted/grunt_hp_pt_console_death_slideright.wav"
+}
+
+"pt_console_idle"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Grunts"
+	"volume"			"3"
+	"radius"			"1200"
+	"pitch"				"100"
+
+	"wave"				"ai/scripted/grunt_hp_pt_console_idle.wav"
+}
+
+"pt_console_react_L"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Grunts"
+	"volume"			"3"
+	"radius"			"1200"
+	"pitch"				"100"
+
+	"wave"				"ai/scripted/grunt_hp_pt_console_react_L.wav"
+}
+
+"pt_console_react_L_alt"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Grunts"
+	"volume"			"3"
+	"radius"			"1300"
+	"pitch"				"100"
+
+	"wave"				"ai/scripted/grunt_hp_pt_console_react_L_alt.wav"
+}
+
+"pt_console_react_R"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Grunts"
+	"volume"			"3"
+	"radius"			"1200"
+	"pitch"				"100"
+
+	"wave"				"ai/scripted/grunt_hp_pt_console_react_R.wav"
+}
+
+"pt_console_react_R_alt"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Grunts"
+	"volume"			"3"
+	"radius"			"1300"
+	"pitch"				"100"
+
+	"wave"				"ai/scripted/grunt_hp_pt_console_react_R_alt.wav"
+	
+}
+
+// NOT FOR E3
+//
+//"pt_console_death_fallforward"
+//{
+//	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Grunts"
+//	"volume"			"1"
+//	"radius"			"1000"
+//	"pitch"				"100"
+//
+//	"wave"				"null.wav"
+//}
+
+//"pt_console_runin_L"
+//{
+//	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Grunts"
+//	"volume"			"1"
+//	"radius"			"1000"
+//	"pitch"				"100"
+//
+//	"wave"				"null.wav"
+//	
+//}
+
+//"pt_console_runin_R"
+//{
+//	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Grunts"
+//	"volume"			"1"
+//	"radius"			"1000"
+//	"pitch"				"100"
+//
+//	"wave"				"null.wav"
+//	
+//}
+
+//"pt_console_runout_L"
+//{
+//	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Grunts"
+//	"volume"			"1"
+//	"radius"			"1000"
+//	"pitch"				"100"
+//
+//	"wave"				"null.wav"
+//	
+//}
+
+//"pt_console_runout_R"
+//{
+//	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Grunts"
+//	"volume"			"1"
+//	"radius"			"1000"
+//	"pitch"				"100"
+//
+//	"wave"				"null.wav"
+//	
+//}

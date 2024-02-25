@@ -1,0 +1,1039 @@
+////////////////////
+// GLOBAL AMBIENCE /
+////////////////////
+
+"Amb_Airbase_EXT_Global"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Airbase"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"1.3"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Airbase/Ambience/AMB_Airbase_EXT_Global_6ch_v4_LP.wav"
+	}
+
+}
+
+"Amb_Airbase_INT_HalfOpen"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Airbase"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"1.2"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Airbase/Ambience/AMB_Airbase_INT_HalfOpen_6ch_v2_LP_COMP.wav"
+	}
+
+}
+
+"Amb_Airbase_INT_LargeRoom"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Airbase"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"1.5"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Airbase/Ambience/AMB_Airbase_INT_LargeRoom_6ch_v2_LP_COMP.wav"
+	}
+
+}
+
+"Amb_Airbase_INT_SmallRoom"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Airbase"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"1.5"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Airbase/Ambience/AMB_Airbase_INT_SmallRoom_6ch_v2_LP_COMP.wav"
+	}
+
+}
+
+
+///////////////////
+//		MUSIC
+///////////////////
+
+
+"Music_airbase_IMC_Opening" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic"
+	"volume"		"2.5"
+	"radius"		"0"
+	"flags"			"noduck,music"
+
+	"rndwave"
+   	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"
+		}
+	"wave"			"music\Campaign\Airbase\TF_Master_AB_Intro_IMC_STMIX_94_BPM.wav"
+	}
+}
+
+"Music_airbase_MCOR_Opening" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic"
+	"volume"		"3"
+	"radius"		"0"
+	"flags"			"noduck,music"
+
+	"rndwave"
+   	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"
+		}
+	"wave"			"music\Campaign\Airbase\TF_Master_AB_Intro_MCOR_NEW_STMIX_90_BPM.wav"
+	}
+}
+
+"diag_mcor_mac_airbase_temp_02" {
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"radius"		"3000"
+	"volume"		"3"
+	"flags"			"drymix,noduck,music"
+
+	"wave"			"null.wav"
+}
+
+"diag_mcor_mac_airbase_temp_03" {
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"radius"		"3000"
+	"volume"		"3"
+	"flags"			"drymix,noduck,music"
+
+	"wave"			"null.wav"
+}
+
+"diag_mcor_mac_airbase_temp_04" {
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"radius"		"3000"
+	"volume"		"3"
+	"flags"			"drymix,noduck,music"
+
+	"wave"			"null.wav"
+}
+
+"diag_mcor_mac_airbase_temp_05" {
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"radius"		"3000"
+	"volume"		"3"
+	"flags"			"drymix,noduck,music"
+
+	"wave"			"null.wav"
+}
+
+
+
+
+///////////////////
+// SCRIPTED EVENTS
+///////////////////
+
+"Airbase_Scr_MilitaIntro_DropshipFlyinAmb" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted"
+	"volume"		"1.3"
+	"radius"		"5000"
+	"falloff"		"8"
+	"flags"			"noduck,mobile"
+
+	"rndwave"
+	{
+	"wave"			"campaign/airbase/Airbase_Scr_MilitiaIntro_Dropship_6ch_v1.wav"
+	}
+}
+
+"Airbase_Scr_SarahIntro_Foley_part1"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Airbase"
+	"volume"			"3.0"
+	"pitch"				"100"
+	"radius"			"1000"
+
+
+	"rndwave"
+	{
+
+				"wave"				"campaign/Airbase/Airbase_Scr_MCOR_SarahIntroFoley_pt1_fr17_1ch_01.wav"
+	}
+
+}
+
+"Airbase_Scr_SarahIntro_Foley_part2"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Airbase"
+	"volume"			"4.0"
+	"pitch"				"100"
+	"radius"			"1000"
+
+
+	"rndwave"
+	{
+
+				"wave"				"campaign/Airbase/Airbase_Scr_MCOR_SarahIntroFoley_pt2_fr344_1ch_01.wav"
+	}
+
+}
+
+"Airbase_Scr_BishIntro_Foley_part1"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Airbase"
+	"volume"			"3.0"
+	"pitch"				"100"
+	"radius"			"1000"
+
+
+	"rndwave"
+	{
+
+				"wave"				"campaign/Airbase/Airbase_Scr_MCOR_BishIntroFoley_pt1_fr452_1ch_01.wav"
+	}
+
+}
+
+"Airbase_Scr_IMC_pt_airbase_weapon_toss_background"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Airbase"
+	"volume"			"2.5"
+	"radius"			"1000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+	"volume"	"1.0"
+	"pitch"		"100"
+
+	"wave"		"campaign/airbase/Airbase_Scr_pt_airbase_weapon_toss_background.wav"
+	}
+}
+
+"Airbase_Scr_IMC_pt_airbase_weapon_toss_left"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Airbase"
+	"volume"			"2.5"
+	"radius"			"1000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+	"volume"	"1.0"
+	"pitch"		"100"
+
+	"wave"		"campaign/airbase/Airbase_Scr_pt_airbase_weapon_toss_left.wav"
+	}
+}
+
+"Airbase_Scr_IMC_pt_airbase_weapon_toss_right"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Airbase"
+	"volume"			"2.5"
+	"radius"			"1000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+	"volume"	"1.0"
+	"pitch"		"100"
+
+	"wave"		"campaign/airbase/Airbase_Scr_pt_airbase_weapon_toss_right.wav"
+	}
+}
+
+
+
+
+"Holo_Graves_Disappear"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Airbase"
+	"volume"			"2.5"
+	"radius"			"1000"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+	"volume"	"0.6"
+	"pitch"		"100"
+	"flags"				"spatialized"
+	"foldDownDistance"	"10"
+
+	"wave"		"ui/NPE_Player_Fail_2ch_v1_01.wav"
+
+	}
+
+	"rndwave"
+	{
+	"volume"	"2.0"
+	"pitch"		"100"
+	"flags"				"spatialized"
+	"foldDownDistance"	"10"
+
+	"wave"		"campaign/NPE/NPE_Player_ModuleFinish_2ch_v6_01.wav"
+
+	}
+}
+
+
+
+
+"Airbase_Scr_TitanCaptain_Alavi"
+{
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Airbase"
+	"volume"		"4"
+	"radius"		"2500"
+	"flags"			"nevercull"
+
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+	"folddownDistance"	"100"
+	"wave"			"campaign/Airbase/Airbase_Scr_TitanCaptain_Alavi_2ch_01.wav"
+	}
+}
+
+
+"Airbase_Scr_TitanCaptain_Gates"
+{
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Airbase"
+	"volume"		"4"
+	"radius"		"2500"
+	"flags"			"nevercull"
+
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+	"folddownDistance"	"100"
+	"wave"			"campaign/Airbase/Airbase_Scr_TitanCaptain_Gates_2ch_01.wav"
+	}
+}
+
+
+"Airbase_Scr_MilitaIntro_DropshipFlyaway" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted"
+	"volume"		"2.5"
+	"radius"		"25000"
+	"falloff"		"8"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+	"wave"			"campaign/airbase/Airbase_Scr_MilitiaIntro_DropshipFlyaway_2ch_v1.wav"
+	}
+}
+
+"airbase_scr_imc_smallship_takeoff"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Airbase"
+	"volumeScale"		"1.0"
+	"pitch"				"80,120"
+	"flags"				"layered"
+
+
+	"rndwave"
+	{
+		"limit"			"2"
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+
+		"volume"			"6"
+		"pitch"				"70,130"
+
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "80000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"campaign/airbase/Airbase_Scr_IMCWin_SmallShipTakeoff_LR_v1.wav"
+			"wave"				"campaign/airbase/Airbase_Scr_IMCWin_SmallShipTakeoff_LR_v2.wav"
+			"wave"				"campaign/airbase/Airbase_Scr_IMCWin_SmallShipTakeoff_LR_v3.wav"
+			"wave"				"campaign/airbase/Airbase_Scr_IMCWin_SmallShipTakeoff_LR_v4.wav"
+			"wave"				"campaign/airbase/Airbase_Scr_IMCWin_SmallShipTakeoff_LR_v5.wav"
+	}
+}
+
+"airbase_scr_imc_smallship_thruster"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Airbase"
+	"volumeScale"		"1.0"
+	"pitch"				"100"
+	"flags"				"layered"
+
+
+	"rndwave"
+	{
+
+		"volume"			"6"
+		"pitch"				"70,130"
+		"limit"			"3"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "70000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"scripted/dropship_thruster_burst1.wav"
+			"wave"				"scripted/dropship_thruster_burst2.wav"
+			"wave"				"scripted/dropship_thruster_burst3.wav"
+			"wave"				"scripted/dropship_thruster_burst4.wav"
+	}
+}
+
+"airbase_scr_imc_largeship_takeoff"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Airbase"
+	"volumeScale"		"1.0"
+	"pitch"				"80,120"
+	"flags"				"layered"
+
+
+	"rndwave"
+	{
+		"limit"			"2"
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+
+		"volume"			"6"
+		"pitch"				"80,120"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "80000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"campaign/airbase/Airbase_Scr_IMCWin_LargeShipTakeoff_LR_v1.wav"
+			"wave"				"campaign/airbase/Airbase_Scr_IMCWin_LargeShipTakeoff_LR_v2.wav"
+			"wave"				"campaign/airbase/Airbase_Scr_IMCWin_LargeShipTakeoff_LR_v3.wav"
+			"wave"				"campaign/airbase/Airbase_Scr_IMCWin_LargeShipTakeoff_LR_v4.wav"
+			"wave"				"campaign/airbase/Airbase_Scr_IMCWin_LargeShipTakeoff_LR_v5.wav"
+	}
+}
+
+"airbase_scr_imc_megacarrier_takeoff"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Airbase"
+	"volumeScale"		"1.7"
+	"pitch"				"100"
+	"flags"				"layered,nevercull"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+
+		"volume"			"6"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "100000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"campaign/airbase/Airbase_Scr_IMCWin_MegacarrierTakeoff_LR_v2.wav"
+	}
+}
+
+"airbase_scr_dogwhistle_idle"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"flags"				"layered,loop,nevercull"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"limit"				"1"
+		"volume"			"7"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "3000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"campaign/boneyard/Boneyard_Scr_Dogwhistle_Idle_Mech_Close_2ch_v1_01.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Dogwhistle_Idle_Mech_Close_2ch_v1_02.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Dogwhistle_Idle_Mech_Close_2ch_v1_03.wav"
+	}
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"folddownDistance"	"200"
+		"panWidth"			"90"
+		"limit"				"1"
+		"volume"			"6"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "6000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"campaign/boneyard/Boneyard_Scr_Dogwhistle_Idle_Mech_MedDist_2ch_v1_01.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Dogwhistle_Idle_Mech_MedDist_2ch_v1_02.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Dogwhistle_Idle_Mech_MedDist_2ch_v1_03.wav"
+	}
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"folddownDistance"	"500"
+		"panWidth"			"90"
+		"limit"				"1"
+		"volume"			"5"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "15000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"campaign/boneyard/Boneyard_Scr_Dogwhistle_Idle_Mech_Dist_2ch_v1_01.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Dogwhistle_Idle_Mech_Dist_2ch_v1_02.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Dogwhistle_Idle_Mech_Dist_2ch_v1_03.wav"
+	}
+
+}
+
+
+"airbase_scr_dogwhistle_pulse"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Airbase"
+	"volume"			"2"
+	"pitch"				"100"
+	"flags"				"layered"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"limit"				"1"
+		"volume"			"5"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "25000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"campaign/boneyard/Boneyard_Scr_Tower_MinorPulseFire_2ch_v1_01.wav"
+	}
+
+}
+
+
+
+"airbase_scr_dogwhistle_overload"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Airbase"
+	"volumeScale"		"1.6"
+	"pitch"				"100"
+	"flags"				"layered,nevercull"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"delay"				"1000"
+
+		"volume"			"7"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1000000"
+        "startCurve"      "5"
+        "falloffCurve"    "0"
+			"wave"				"campaign/airbase/Airbase_Scr_Dogwhistle_Overload_2ch_v1_01.wav"
+	}
+}
+
+"airbase_scr_dogwhistle_shotdown"
+
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Airbase"
+	"volumeScale"		"1.4"
+	"pitch"				"100"
+	"flags"				"layered,nevercull"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+
+		"volume"			"6"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "30000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"campaign/airbase/Airbase_Scr_Dogwhistle_Shotdown_2ch_v1_01.wav"
+	}
+}
+
+
+"Leviathon_Ship_Crush"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Corporate"
+	"volume"			"2"
+	"pitch"				"100"
+	"flags"				"layered"
+
+
+	"rndwave"
+	{
+
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"800"
+
+		"limit"				"2"
+		"volume"			"0.7,1.2"
+		"pitch"				"70,130"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "2000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Close_Debris_2ch_v1_01.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Close_Debris_2ch_v1_02.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Close_Debris_2ch_v1_03.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Close_Debris_2ch_v1_04.wav"
+	}
+
+	"rndwave"
+	{
+
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"800"
+
+		"limit"				"6"
+		"volume"			"3.5,5"
+		"pitch"				"70,130"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "4000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Close_Kaboom_2ch_v1_01.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Close_Kaboom_2ch_v1_02.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Close_Kaboom_2ch_v1_03.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Close_Kaboom_2ch_v1_04.wav"
+	}
+
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"volume"			"1.5,2"
+		"pitch"				"70,130"
+
+		"startDistance"   "1800"
+        "peakDistance"    "0"
+        "falloffStart"    "1000"
+        "falloffEnd"      "3500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_MidDist_Debris_1ch_v1_01.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_MidDist_Debris_1ch_v1_02.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_MidDist_Debris_1ch_v1_03.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_MidDist_Debris_1ch_v1_04.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"2"
+		"volume"			"0.7,1.0"
+		"pitch"				"70,130"
+
+		"startDistance"   "3500"
+        "peakDistance"    "0"
+        "falloffStart"    "3500"
+        "falloffEnd"      "6000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_MidDist_Kaboom_1ch_v1_01.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_MidDist_Kaboom_1ch_v1_02.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_MidDist_Kaboom_1ch_v1_03.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_MidDist_Kaboom_1ch_v1_04.wav"
+	}
+
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"volume"			"2.3,3"
+		"pitch"				"70,130"
+
+		"startDistance"   "3400"
+        "peakDistance"    "0"
+        "falloffStart"    "3400"
+        "falloffEnd"      "10000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Metal_1ch_v1_01.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Metal_1ch_v1_02.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Metal_1ch_v1_03.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Metal_1ch_v1_04.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Metal_1ch_v1_05.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"2"
+		"volume"			"0.7,1.2"
+		"pitch"				"70,130"
+
+		"startDistance"   "4500"
+        "peakDistance"    "0"
+        "falloffStart"    "4500"
+        "falloffEnd"      "15000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Kaboom_1ch_v1_01.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Kaboom_1ch_v1_02.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Kaboom_1ch_v1_03.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Kaboom_1ch_v1_04.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Kaboom_1ch_v1_05.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Kaboom_1ch_v1_06.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Kaboom_1ch_v1_07.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Kaboom_1ch_v1_08.wav"
+	}
+
+}
+
+
+
+"Airbase_Scr_Sarah_VDU_Necksnap"
+{
+
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"radius"		"0"
+	"flags"			"nevercull"
+
+	"rndwave"
+	{
+		"limit"				"2"
+
+		"volume"		"4.0"
+
+		"channels"
+		{
+			"1"				"L,1.0"
+			"2"				"R,1.0"
+		}
+		"wave"			"campaign/Airbase/Airbase_Scr_VDU_Militia_SarahNeckSnap_2ch_v1_01.wav"
+
+
+	}
+}
+
+"Airbase_Scr_Sarah_VDU_Necksnap_Bodyfall"
+{
+
+	"mixgroup"		"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"radius"		"0"
+	"flags"			"nevercull"
+
+	"rndwave"
+	{
+		"limit"				"2"
+
+		"volume"		"4.0"
+
+		"channels"
+		{
+			"1"				"L, 1.0"
+			"1"				"R, 1.0"
+		}
+		"wave"			"campaign/Airbase/Airbase_Scr_VDU_Militia_SarahNeckSnap_BodyFall_1ch_v1_01.wav"
+
+
+	}
+}
+
+
+"VDU_Sarah_UnderFire_EastTower_01"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	".9"
+	"pitch"		"80"
+	"radius"	"0"
+	"ducks"		"SFX,0.7:1.0,1.0,0,0"
+	"ducks"		"music,0.5:1.0,1.0,0,0"
+	"ducks"		"DIAL_AI,0.5:1.0,1.0,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.0"
+			"1"	"R, 1.0"
+		}
+	"wave"	"campaign/airbase/Airbase_Scr_VDU_SarahUnderFire_EastTower_1ch_01.wav"
+	}
+}
+
+"VDU_Sarah_UnderFire_EastTower_02"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	".9"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.7:1.0,1.0,0,0"
+	"ducks"		"music,0.5:1.0,1.0,0,0"
+	"ducks"		"DIAL_AI,0.5:1.0,1.0,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.0"
+			"1"	"R, 1.0"
+		}
+	"wave"	"campaign/airbase/Airbase_Scr_VDU_SarahUnderFire_EastTower_1ch_02.wav"
+	}
+}
+"VDU_Sarah_UnderFire_EastTower_03"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.7:1.0,1.0,0,0"
+	"ducks"		"music,0.5:1.0,1.0,0,0"
+	"ducks"		"DIAL_AI,0.5:1.0,1.0,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.0"
+			"1"	"R, 1.0"
+		}
+	"wave"	"campaign/airbase/Airbase_Scr_VDU_SarahUnderFire_EastTower_1ch_03.wav"
+	}
+}
+
+"VDU_Sarah_UnderFire_NorthTower_01"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.7:1.0,1.0,0,0"
+	"ducks"		"music,0.5:1.0,1.0,0,0"
+	"ducks"		"DIAL_AI,0.5:1.0,1.0,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.0"
+			"1"	"R, 1.0"
+		}
+	"wave"	"campaign/airbase/Airbase_Scr_VDU_SarahUnderFire_NorthTower_1ch_01.wav"
+	}
+}
+////////////////////
+// AMBIENT EMITTERS /
+////////////////////
+
+
+"Amb_Airbase_Emit_HoloMap"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Airbase"
+	"flags"			"omni,loop"
+	"radius"		"1500"
+	"volume"		"3.0"
+
+
+	"rndwave"
+	{
+
+	"flags"				"spatialized"
+	"panWidth"			"90"
+	"folddownDistance"	"200"
+
+	"wave"			"Maps/Airbase/Emitters/Amb_Emit_Airbase_HoloMap_2ch_v2_01_LP.wav"
+
+	}
+
+}
+
+"Amb_Airbase_Emit_console"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Airbase"
+	"volume"			"2"
+	"pitch"				"80,120"
+	"radius"			"800"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"volume"		"5.0,5.5"
+		"pitch"			"80,120"
+		"limit"			"3"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Console1_LR_v1_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Console1_LR_v2_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Console1_LR_v3_LP.wav"
+	}
+}
+
+"Amb_Airbase_Emit_Fan"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Airbase"
+	"flags"			"loop"
+	"radius"		"700"
+
+
+	"rndwave"
+	{
+	"volume"		"6.5,7.0"
+	"pitch"			"95,120"
+	"flags"			"spatialized"
+	"panWidth"			"90"
+	"folddownDistance"	"60"
+	"limit"			"4"
+	
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_GeneratorLoop_LR_v3_LP.wav"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_FanLoop_LR_v1_LP.wav"
+	}
+}
+
+"Amb_Airbase_Emit_Generator"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Airbase"
+	"flags"			"loop"
+	"radius"		"700"
+
+
+	"rndwave"
+	{
+	"volume"		"4.0,4.5"
+	"pitch"			"80,120"
+	"flags"			"spatialized"
+	"panWidth"			"90"
+	"folddownDistance"	"20"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_GeneratorLoop_LR_v1_LP.wav"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_GeneratorLoop_LR_v2_LP.wav"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_GeneratorLoop_LR_v3_LP.wav"
+	}
+}
+
+"Amb_Airbase_Emit_Turbine"
+{
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Airbase"
+	"volume"		"7.5"
+	"radius"		"3000"
+	"falloff"		"1"
+	"pitch"			"88,105"
+	"flags"			"mobile,loop"
+
+	"rndwave"
+
+
+	{
+	"wave"			"Maps/Fracture/Emitters/Fracture_Turbine_1ch_LP_01.wav"
+
+	}
+
+}

@@ -1,0 +1,2478 @@
+//Airbase Cinematic Mode Dialogue
+
+//Dropship Intro:
+
+"diag_matchIntro_AB101_01_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.6"
+
+	"radius"		"800"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"wave"			"dialogue/Cinematics/Airbase/diag_matchIntro_AB101_01_01_mcor_sarah.wav"
+}
+//AliasRemovedByBatchProcess
+
+
+"diag_matchIntro_AB101_05_01_mcor_flt01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.6"
+
+	"radius"		"800"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"wave"			"dialogue/Cinematics/Airbase/diag_matchIntro_AB101_05_01_mcor_flt01.wav"
+}
+
+
+"diag_matchIntro_AB101_05_02_mcor_flt01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.6"
+
+	"radius"		"800"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"wave"			"dialogue/Cinematics/Airbase/diag_matchIntro_AB101_05_02_mcor_flt01.wav"
+}
+
+
+"diag_matchIntro_AB101_06_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.6"
+
+	"radius"		"800"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"wave"			"dialogue/Cinematics/Airbase/diag_matchIntro_AB101_06_01_mcor_bish.wav"
+}
+
+
+"diag_matchIntro_AB101_06_02_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.6"
+
+	"radius"		"800"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"wave"			"dialogue/Cinematics/Airbase/diag_matchIntro_AB101_06_02_mcor_bish.wav"
+}
+
+
+"diag_matchIntro_AB101_07_02_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.6"
+
+	"radius"		"800"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"wave"			"dialogue/Cinematics/Airbase/diag_matchIntro_AB101_07_02_mcor_bish.wav"
+}
+
+
+//Match Progress Cinematic Dialogue
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+
+"diag_matchProg30_AB112_01_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_matchProg30_AB112_01_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_matchProg30_AB112_02_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_matchProg30_AB112_02_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_matchProg30_AB113_01_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_matchProg30_AB113_01_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_matchProg30_AB113_02_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_matchProg30_AB113_02_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_matchProg60_AB114_01_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_matchProg60_AB114_01_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_matchProg60_AB115_01_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_matchProg60_AB115_01_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_matchProg60_AB115_01_02_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_matchProg60_AB115_01_02_imc_spygl.wav"
+	}
+}
+
+
+"diag_matchProg60_AB115_02_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_matchProg60_AB115_02_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_matchProg60_AB115_02_02_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_matchProg60_AB115_02_02_imc_blisk.wav"
+	}
+}
+
+
+"diag_matchProg75_AB116_01_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_matchProg75_AB116_01_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_matchProg75_AB116_01_02_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_matchProg75_AB116_01_02_mcor_bish.wav"
+	}
+}
+
+
+"diag_matchProg75_AB116_02_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_matchProg75_AB116_02_01_mcor_sarah.wav"
+	}
+}
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+//AliasRemovedByBatchProcess
+
+
+"diag_milNpcTitan_AB123_01_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_milNpcTitan_AB123_01_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_imcNpcTitan_AB124_01_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_imcNpcTitan_AB124_01_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_replacement_eta_AB125_01_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_replacement_eta_AB125_01_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_replacement_eta_AB126_01_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_replacement_eta_AB126_01_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_replacement_eta_AB127_01_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_replacement_eta_AB127_01_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_replacement_eta_AB128_01_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_replacement_eta_AB128_01_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_titanReady_AB129_01_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_titanReady_AB129_01_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_titanReady_AB130_01_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_titanReady_AB130_01_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_titanFall_AB131_01_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_titanFall_AB131_01_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_titanFall_AB132_01_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_titanFall_AB132_01_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_titanReady_AB133_01_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_titanReady_AB133_01_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_titanReady_AB134_01_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_titanReady_AB134_01_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_titanDestro_AB135_01_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_titanDestro_AB135_01_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_titanDestro_AB136_01_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_titanDestro_AB136_01_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_titanDestro_AB137_01_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_titanDestro_AB137_01_01_mcor_barker.wav"
+	}
+}
+
+//AliasRemovedByBatchProcess
+
+
+
+"diag_airbasePa_AB122_01_01_imc_bgpa"
+{
+	"flags"			"drymix,layered"
+//	"radius"		"10000"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial,DIAL_AMB,DIAL_AMB_AirbasePA"
+	"volume"		"1.3"
+//	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"startDistance"   "0"
+		"peakDistance"    "0"
+		"falloffStart"    "400"
+		"falloffEnd"      "800"
+		"falloffCurve"    "5"
+		"clampVolume" 		"1.3"
+		"wave"	"dialogue/Cinematics/Airbase/diag_airbasePa_AB122_01_01_imc_bgpa.wav"
+
+	}
+}
+
+
+
+//AliasRemovedByBatchProcess
+
+
+"diag_matchIntro_AB139_02_01_imc_graves"
+{
+	"flags"			"drymix,layered"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.6"
+
+//	"ducks"			"SFX,0.2:200,1000,0,0"
+//	"ducks"			"music,0.5:1.0,1.0,0,0"
+//	"ducks"			"DIAL_AI,0.2:1.0,1.0,0,0"
+
+	"rndwave"
+	{
+		"startDistance"   "0"
+		"peakDistance"    "0"
+		"falloffStart"    "400"
+		"falloffEnd"      "800"
+		"falloffCurve"    "5"
+		"clampVolume" 		"1.3"
+		"wave"	"dialogue/Cinematics/Airbase/diag_matchIntro_AB139_02_01_imc_graves.wav"
+
+	}
+}
+
+
+"diag_matchIntro_AB139_03_01_imc_graves"
+{
+	"flags"			"drymix,layered"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.6"
+
+//	"ducks"			"SFX,0.2:200,1000,0,0"
+//	"ducks"			"music,0.5:1.0,1.0,0,0"
+//	"ducks"			"DIAL_AI,0.2:1.0,1.0,0,0"
+
+	"rndwave"
+	{
+		"startDistance"   "0"
+		"peakDistance"    "0"
+		"falloffStart"    "400"
+		"falloffEnd"      "800"
+		"falloffCurve"    "5"
+		"clampVolume" 		"1.3"
+		"wave"	"dialogue/Cinematics/Airbase/diag_matchIntro_AB139_03_01_imc_graves.wav"
+
+	}
+}
+
+
+"diag_matchIntro_AB139_04_01_imc_graves"
+{
+	"flags"			"drymix,layered"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.6"
+
+//	"ducks"			"SFX,0.2:200,1000,0,0"
+//	"ducks"			"music,0.5:1.0,1.0,0,0"
+//	"ducks"			"DIAL_AI,0.2:1.0,1.0,0,0"
+
+	"rndwave"
+	{
+		"startDistance"   "0"
+		"peakDistance"    "0"
+		"falloffStart"    "400"
+		"falloffEnd"      "800"
+		"falloffCurve"    "5"
+		"clampVolume" 		"1.3"
+		"wave"	"dialogue/Cinematics/Airbase/diag_matchIntro_AB139_04_01_imc_graves.wav"
+
+	}
+}
+
+
+"diag_matchIntro_AB139_05_01_imc_graves"
+{
+	"flags"			"drymix,layered"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.6"
+
+//	"ducks"			"SFX,0.2:200,1000,0,0"
+//	"ducks"			"music,0.5:1.0,1.0,0,0"
+//	"ducks"			"DIAL_AI,0.2:1.0,1.0,0,0"
+
+	"rndwave"
+	{
+		"startDistance"   "0"
+		"peakDistance"    "0"
+		"falloffStart"    "400"
+		"falloffEnd"      "800"
+		"falloffCurve"    "5"
+		"clampVolume" 		"1.3"
+		"wave"	"dialogue/Cinematics/Airbase/diag_matchIntro_AB139_05_01_imc_graves.wav"
+
+	}
+}
+
+
+"diag_matchIntro_AB139_06_01_imc_graves"
+{
+	"flags"			"drymix,layered"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.6"
+
+//	"ducks"			"SFX,0.2:200,1000,0,0"
+//	"ducks"			"music,0.5:1.0,1.0,0,0"
+//	"ducks"			"DIAL_AI,0.2:1.0,1.0,0,0"
+
+	"rndwave"
+	{
+		"startDistance"   "0"
+		"peakDistance"    "0"
+		"falloffStart"    "400"
+		"falloffEnd"      "800"
+		"falloffCurve"    "5"
+		"clampVolume" 		"1.3"
+		"wave"	"dialogue/Cinematics/Airbase/diag_matchIntro_AB139_06_01_imc_graves.wav"
+
+	}
+}
+
+
+"diag_modeAnnc_AB111_02_01_imc_grunt1"
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"2500"
+	"ducks"			"SFX,0.3a:1.0,1.0,0,0"
+	"ducks"			"music,0.3a:1.0,1.0,0,0"
+	"ducks"			"DIAL_AI,0.3a:1.0,1.0,0,0"
+
+	"wave"			"dialogue/Cinematics/Airbase/diag_modeAnnc_AB111_02_01_imc_grunt1.wav"
+}
+
+
+"diag_modeAnnc_AB110_02_01_mcor_grunt1"
+{
+
+	"flags"			"drymix"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"2500"
+	"ducks"			"SFX,0.3a:1.0,1.0,0,0"
+	"ducks"			"music,0.3a:1.0,1.0,0,0"
+	"ducks"			"DIAL_AI,0.3a:1.0,1.0,0,0"
+
+	"wave"			"dialogue/Cinematics/Airbase/diag_modeAnnc_AB110_02_01_mcor_grunt1.wav"
+}
+
+//This isn’t gonna be easy! Titan Pilots, keep the IMC forces focused on this area while I take out the towers!
+"diag_matchIntro_AB101_01a_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"3.0"
+	"radius"		"800"
+
+//	"ducks"			"SFX,0.8:200,1000,0,0"
+//	"ducks"			"music,0.5:200,1000,0,0"
+//	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+//	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"wave"	"dialogue/Cinematics/Airbase/diag_matchIntro_AB101_01a_01_mcor_sarah.wav"
+}
+
+//this is your stop
+"diag_matchIntro_AB101_02_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"2.75"
+
+	"radius"		"800"
+
+//	"ducks"			"SFX,0.8:200,1000,0,0"
+//	"ducks"			"music,0.5:200,1000,0,0"
+//	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+//	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"wave"			"dialogue/Cinematics/Airbase/diag_matchIntro_AB101_02_01_mcor_bish.wav"
+}
+
+//good luck
+"diag_matchIntro_AB101_03a_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"2.0"
+	"radius"		"800"
+
+//	"ducks"			"SFX,0.8:200,1000,0,0"
+//	"ducks"			"music,0.5:200,1000,0,0"
+//	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+//	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"wave"	"dialogue/Cinematics/Airbase/diag_matchIntro_AB101_03a_01_mcor_bish.wav"
+}
+
+//Sarah, I've got you linked up on comms, we'll keep them busy over here.
+"diag_matchIntro_AB101_04_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"2.5"
+
+	"radius"		"800"
+
+//	"ducks"			"SFX,0.8:200,1000,0,0"
+//	"ducks"			"music,0.5:200,1000,0,0"
+//	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+//	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"wave"			"dialogue/Cinematics/Airbase/diag_matchIntro_AB101_04_01_mcor_bish.wav"
+}
+
+//unload go go
+"diag_matchIntro_AB101_07_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"3.0"
+
+	"radius"		"800"
+
+//	"ducks"			"SFX,0.8:200,1000,0,0"
+//	"ducks"			"music,0.5:200,1000,0,0"
+//	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+//	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"wave"			"dialogue/Cinematics/Airbase/diag_matchIntro_AB101_07_01_mcor_bish.wav"
+}
+
+"diag_modeAnnc_AB110_01a_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_modeAnnc_AB110_01a_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_modeAnnc_AB111_01a_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_modeAnnc_AB111_01a_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_story15_AB140_01_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.5"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story15_AB140_01_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_story15_AB140_02_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story15_AB140_02_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_story15_AB141_01_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story15_AB141_01_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_story15_AB141_02_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story15_AB141_02_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_story40_AB142_01_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story40_AB142_01_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_story40_AB142_02_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story40_AB142_02_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_story40_AB143_01_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story40_AB143_01_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_story40_AB143_02_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story40_AB143_02_01_imc_graves.wav"
+	}
+}
+
+
+"diag_story60_AB144_01_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story60_AB144_01_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_story60_AB144_02_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story60_AB144_02_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_story60_AB144_03_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story60_AB144_03_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_story60_AB144_04_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story60_AB144_04_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_story60_AB144_05_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story60_AB144_05_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_story60_AB145_01_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story60_AB145_01_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_story60_AB145_02_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story60_AB145_02_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_story60_AB145_03_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story60_AB145_03_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_story60_AB145_04_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story60_AB145_04_01_imc_graves.wav"
+	}
+}
+
+
+"diag_story60_AB145_05_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story60_AB145_05_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_story80_AB146_01_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story80_AB146_01_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_story80_AB146_02_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.5"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story80_AB146_02_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_story80_AB146_03_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.6"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story80_AB146_03_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_story80_AB146_04_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story80_AB146_04_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_story80_AB146_05_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story80_AB146_05_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_story80_AB147_01_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story80_AB147_01_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_story80_AB147_02_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story80_AB147_02_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_story80_AB147_03_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story80_AB147_03_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_story80_AB147_04_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story80_AB147_04_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_story80_AB147_05_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story80_AB147_05_01_imc_graves.wav"
+	}
+}
+
+
+"diag_milLoseAnnc_AB148_01_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_milLoseAnnc_AB148_01_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_milLoseAnnc_AB148_02_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_milLoseAnnc_AB148_02_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_imcWinAnnc_AB149_01_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_imcWinAnnc_AB149_01_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_imcWinAnnc_AB149_02_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_imcWinAnnc_AB149_02_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_milWinAnnc_AB150_01_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_milWinAnnc_AB150_01_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_milWinAnnc_AB150_02_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_milWinAnnc_AB150_02_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_imcLoseAnnc_AB151_01_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_imcLoseAnnc_AB151_01_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_epMid_AB152_01_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_epMid_AB152_01_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_epMid_AB152_02_01_mcor_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_epMid_AB152_02_01_mcor_macal.wav"
+	}
+}
+
+
+"diag_epMid_AB153_01_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_epMid_AB153_01_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_epMid_AB153_02_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_epMid_AB153_02_01_imc_graves.wav"
+	}
+}
+
+
+"diag_epPost_AB154_01_01_both_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_epPost_AB154_01_01_both_macal.wav"
+	}
+}
+
+
+"diag_epPost_AB154_02_01_both_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_epPost_AB154_02_01_both_graves.wav"
+	}
+}
+
+
+"diag_epPost_AB154_03_01_both_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_epPost_AB154_03_01_both_macal.wav"
+	}
+}
+
+
+"diag_epPost_AB154_04_01_both_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_epPost_AB154_04_01_both_graves.wav"
+	}
+}
+
+
+"diag_matchIntro_AB139_01a_01_imc_graves"
+{
+	"flags"			"drymix,layered"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.6"
+
+//	"ducks"			"SFX,0.8:200,1000,0,0"
+//	"ducks"			"music,0.5:200,1000,0,0"
+//	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+//	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"startDistance"   "0"
+		"peakDistance"    "0"
+		"falloffStart"    "400"
+		"falloffEnd"      "800"
+		"falloffCurve"    "5"
+		"clampVolume" 		"1.3"
+		"wave"	"dialogue/Cinematics/Airbase/diag_matchIntro_AB139_01a_01_imc_graves.wav"
+
+	}
+}
+
+
+"diag_story15_AB140_02a_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story15_AB140_02a_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_story40_AB142_01a_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story40_AB142_01a_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_story40_AB142_01b_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story40_AB142_01b_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_story80_AB147_02a_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story80_AB147_02a_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_story80_AB147_05a_01_imc_spygl"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_story80_AB147_05a_01_imc_spygl.wav"
+	}
+}
+
+
+"diag_milWinAnnc_AB150_01a_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_milWinAnnc_AB150_01a_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_milWinAnnc_AB150_01b_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_milWinAnnc_AB150_01b_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_eppost_ab156_01_01_both_macal"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_eppost_ab156_01_01_both_macal.wav"
+	}
+}
+
+
+"diag_titanSupport_AB201a_01_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_titanSupport_AB201a_01_01_mcor_barker.wav"
+	}
+}
+
+
+"diag_titanSupport_AB201a_02_01_mcor_barker"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.8:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Airbase/diag_titanSupport_AB201a_02_01_mcor_barker.wav"
+	}
+}

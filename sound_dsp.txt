@@ -1,0 +1,62 @@
+// 4 band equalizer for occluded sources
+// frequencyCenter		20 		- 20000
+// bandwidth			0.1 	- 2.0
+// gain					0.126	- 7.94
+
+"occlusion"
+{
+	"fadetime"				"300"
+	"duck"					"0.5"
+	"defaultDSPscale"		"1.0"
+
+	"1"
+	{
+		"frequencyCenter"		"100"
+		"bandwidth"				"1.0"
+		"gain"					"0.5"
+	}
+	"2"
+	{
+		"frequencyCenter"		"800"
+		"bandwidth"				"1.0"
+		"gain"					"1.0"
+	}
+	"3"
+	{
+		"frequencyCenter"		"2000"
+		"bandwidth"				"1.0"
+		"gain"					"0.5"
+	}
+	"4"
+	{
+		"frequencyCenter"		"10000"
+		"bandwidth"				"1.0"
+		"gain"					"0.15"
+	}
+}
+
+"reverb"
+{
+	"fadetime"				"3000"
+
+	"largeRoom"
+	{
+		"wetfrac"				"0.3"
+		"density"				"100"
+		"roomsize"				"100"
+	}
+
+	"mediumRoom"
+	{
+		"wetfrac"				"0.5"
+		"density"				"100"
+		"roomsize"				"60"
+	}
+
+	"smallRoom"
+	{
+		"wetfrac"				"0.7"
+		"density"				"100"
+		"roomsize"				"30"
+	}
+}

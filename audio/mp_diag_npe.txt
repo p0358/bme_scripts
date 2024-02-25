@@ -1,0 +1,7090 @@
+// NPE New Player Experience Tutorial Dialogue
+
+
+"diag_tut_calibration_NP101_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_calibration_NP101_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_calibration_NP102_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_calibration_NP102_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_calibration_NP103_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_calibration_NP103_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_calibration_NP104_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_calibration_NP104_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_calibration_NP105_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.2:30.0,100.0,0,0"	
+	"ducks"			"music,0.2:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.2:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.2:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_calibration_NP105_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_calibration_NP106_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.2:30.0,100.0,0,0"	
+	"ducks"			"music,0.2:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.2:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.2:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_calibration_NP106_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_calibration_NP107_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.2:30.0,100.0,0,0"	
+	"ducks"			"music,0.2:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.2:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.2:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_calibration_NP107_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_calibration_NP108_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.2:30.0,100.0,0,0"	
+	"ducks"			"music,0.2:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.2:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.2:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_calibration_NP108_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP109_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP109_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP110_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP110_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP111_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP111_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP112_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP112_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP113_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP113_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP114_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP114_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP115_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP115_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP116_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP116_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP117_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP117_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP118_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP118_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP119_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP119_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP120_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP120_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP121_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP121_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP122_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP122_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP123_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP123_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP124_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP124_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP125_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP125_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP126_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP126_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP127_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP127_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP128_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP128_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP129_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP129_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP130_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP130_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP131_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP131_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP132_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP132_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP133_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP133_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP134_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP134_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP135_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP135_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP136_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP136_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_cloaking_NP137_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_cloaking_NP137_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_cloaking_NP138_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_cloaking_NP138_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_cloaking_NP140_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_cloaking_NP140_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_cloaking_NP141_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_cloaking_NP141_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP142_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP142_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP143_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP143_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP144_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP144_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP145_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP145_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP146_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP146_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP147_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP147_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP148_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP148_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP149_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP149_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP150_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP150_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP151_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP151_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP152_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP152_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP153_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP153_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP154_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP154_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP155_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP155_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP156_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP156_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP157_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP157_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP158_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP158_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP159_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP159_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP160_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP160_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP161_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP161_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP162_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP162_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP163_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP163_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP164_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP164_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP165_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP165_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP166_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP166_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP167_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP167_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP168_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP168_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_combat_NP169_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_combat_NP169_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_combat_NP170_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_combat_NP170_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_combat_NP171_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_combat_NP171_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_combat_NP172_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_combat_NP172_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_combat_NP173_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_combat_NP173_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_combat_NP174_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_combat_NP174_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_combat_NP175_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_combat_NP175_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_combat_NP176_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_combat_NP176_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_combat_NP177_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_combat_NP177_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_titanIntro_NP178_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_titanIntro_NP178_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_titanIntro_NP179_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_titanIntro_NP179_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_titanIntro_NP180_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_titanIntro_NP180_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_titanIntro_NP181_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_titanIntro_NP181_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_titanIntro_NP182_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_titanIntro_NP182_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_titanIntro_NP183_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_titanIntro_NP183_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP184_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP184_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_movement_NP185_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP185_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_cloaking_NP186_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_cloaking_NP186_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_cloaking_NP187_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_cloaking_NP187_01_01_neut_tutai.wav"
+	}
+}
+
+
+
+"diag_tut_stationArrival_NP189_01_01_neut_tutcaptain"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_stationArrival_NP189_01_01_neut_tutcaptain.wav"
+	}
+}
+
+"diag_tut_stationArrival_NP190_01_01_neut_tutcaptain"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_stationArrival_NP190_01_01_neut_tutcaptain.wav"
+	}
+}
+
+
+"diag_tut_stationArrival_NP191_01_01_neut_tutcaptain"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_stationArrival_NP191_01_01_neut_tutcaptain.wav"
+	}
+}
+
+
+"diag_tut_stationArrival_NP192_01_01_neut_tutcaptain"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_stationArrival_NP192_01_01_neut_tutcaptain.wav"
+	}
+}
+
+
+"diag_tut_stationArrival_NP193_01_01_neut_tutcaptain"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_stationArrival_NP193_01_01_neut_tutcaptain.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP201_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP201_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP202_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP202_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP203_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP203_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP204_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP204_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP205_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP205_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP206_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP206_01_01_neut_tutai.wav"
+	}
+}
+
+
+
+"diag_tut_npeLevel_NP208_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP208_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP209_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP209_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP210_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP210_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP211_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP211_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP212_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP212_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP213_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP213_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP214_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP214_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP215_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP215_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP216_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP216_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP217_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP217_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP218_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP218_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP219_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP219_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP220_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP220_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP221_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP221_01_01_neut_tutai.wav"
+	}
+}
+
+
+
+"diag_tut_npeLevel_NP223_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP223_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP224_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP224_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP225_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP225_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP226_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP226_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP227_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP227_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP228_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP228_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP229_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP229_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP230_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP230_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP231_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP231_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP231_02_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP231_02_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP231_03_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP231_03_01_neut_tutai.wav"
+	}
+}
+
+
+
+"diag_tut_npeLevel_NP232_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP232_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP233_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP233_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP234_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP234_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP235_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP235_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP236_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP236_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP237_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP237_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP238_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP238_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_npeLevel_NP239_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP239_01_01_neut_tutai.wav"
+	}
+}
+
+
+
+"diag_tut_npeLevel_NP242_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP242_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP243_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP243_01_01_neut_tutai.wav"
+	}
+}
+
+
+
+//NPE Pickups!
+
+
+"diag_tut_npeLevel_NP248_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP248_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP249_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP249_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP250_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP250_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP251_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP251_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP252_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP252_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP253_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.2:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.2:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP253_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP254_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.2:30.0,100.0,0,0"	
+	"ducks"			"music,0.2:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.2:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.2:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP254_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP255_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.2:30.0,100.0,0,0"	
+	"ducks"			"music,0.2:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.2:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.2:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP255_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP256_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP256_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP257_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP257_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP258_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.2:30.0,100.0,0,0"	
+	"ducks"			"music,0.2:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.2:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.2:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP258_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP259_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.2:30.0,100.0,0,0"	
+	"ducks"			"music,0.2:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.2:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.2:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP259_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP260_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.2:30.0,100.0,0,0"	
+	"ducks"			"music,0.2:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.2:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.2:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP260_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP261_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.2:30.0,100.0,0,0"	
+	"ducks"			"music,0.2:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.2:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.2:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP261_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP262_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.2:30.0,100.0,0,0"	
+	"ducks"			"music,0.2:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.2:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.2:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP262_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP263_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP263_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP264_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP264_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP265_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP265_01_01_neut_tutai.wav"
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP265_01_01_neut_tutai_b.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP266_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP266_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP267_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP267_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP268_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP268_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP269_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP269_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP270_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP270_01_01_neut_tutai.wav"
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP270_01_01_neut_tutai_a.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP271_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP271_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP272_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP272_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP273_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP273_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP274_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.2:30.0,100.0,0,0"	
+	"ducks"			"music,0.2:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.2:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.2:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP274_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP275_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.2:30.0,100.0,0,0"	
+	"ducks"			"music,0.2:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.2:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.2:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP275_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP276_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP276_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP277_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.2:30.0,100.0,0,0"	
+	"ducks"			"music,0.2:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.2:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.2:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP277_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP278_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP278_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP279_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP279_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP280_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP280_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP281_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP281_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP282_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP282_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP283_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP283_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP284_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP284_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP285_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP285_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP286_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP286_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP287_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP287_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP288_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP288_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP289_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP289_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP290_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP290_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP291_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP291_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP292_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP292_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP293_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP293_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP294_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP294_01_01_neut_tutai.wav"
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP294_01_01_neut_tutai_a.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP295_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP295_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP296_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP296_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP297_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP297_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP298_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP298_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP299_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP299_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP300_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP300_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP301_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP301_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP302_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP302_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP303_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP303_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP304_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP304_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP305_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP305_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP306_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP306_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP307_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP307_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP308_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP308_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP309_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP309_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP310_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP310_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP311_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP311_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP312_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP312_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP313_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP313_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP314_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP314_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP315_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP315_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP316_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP316_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP317_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP317_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP318_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP318_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP319_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP319_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP320_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP320_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP321_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP321_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP322_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP322_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP323_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP323_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP324_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP324_01_01_neut_tutai.wav"
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP324_01_01_neut_tutai_b.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP325_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP325_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP326_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP326_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP327_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP327_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP328_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP328_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP329_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP329_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP330_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP330_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP331_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP331_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP332_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP332_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP333_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP333_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP334_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP334_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP335_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP335_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP336_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP336_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP337_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP337_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP338_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP338_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP339_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP339_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP340_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP340_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP341_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP341_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP342_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP342_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP343_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP343_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP344_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP344_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP345_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP345_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP346_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP346_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP347_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP347_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP348_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP348_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP349_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP349_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP350_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP350_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP351_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP351_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP352_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP352_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP353_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP353_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP354_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP354_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP355_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP355_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP356_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP356_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP357_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP357_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP358_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP358_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP359_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP359_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP360_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP360_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP361_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP361_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP362_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP362_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP363_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP363_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP364_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP364_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP365_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP365_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP366_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP366_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP367_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP367_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP368_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP368_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP369_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP369_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP370_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP370_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP371_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP371_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP372_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP372_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP373_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP373_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP374_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP374_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP375_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP375_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP376_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP376_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP377_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP377_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP378_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP378_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP379_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP379_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP380_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP380_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP381_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP381_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP382_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP382_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP383_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP383_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP384_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP384_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP385_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP385_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP386_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP386_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP144_02_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP144_02_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_weapons_NP144_01_01_neut_tutai_l"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_weapons_NP144_01_01_neut_tutai_l.wav"
+	}
+}
+
+
+"diag_tut_combat_NP172_01_01_neut_tutai_a"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_combat_NP172_01_01_neut_tutai_a.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP229_01_01_neut_tutai_salvorockets"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP229_01_01_neut_tutai_salvorockets.wav"
+	}
+}
+
+
+"diag_npeLevelmsg_pickup_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"500"
+	
+	"ducks"			"SFX,0.1:30.0,100.0,0,0"	
+	"ducks"			"music,0.1:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.1:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.1:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+	"wave"	"dialogue/NP/diag_npeLevelmsg_pickup_01.wav"
+	}
+}
+
+
+"diag_npeLevelmsg_pickup_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"500"
+	
+	"ducks"			"SFX,0.1:30.0,100.0,0,0"	
+	"ducks"			"music,0.1:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.1:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.1:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+	"wave"	"dialogue/NP/diag_npeLevelmsg_pickup_02.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP387_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP387_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP388_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP388_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP389_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP389_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP390_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP390_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP391_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP391_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_npeLevel_NP392_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_npeLevel_NP392_01_01_neut_tutai.wav"
+	}
+}
+
+
+"diag_tut_calibration_NP108z_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.2:30.0,100.0,0,0"	
+	"ducks"			"music,0.2:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.2:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.2:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_calibration_NP108z_01_01_neut_tutai.wav"
+	}
+}
+
+"diag_tut_movement_NP125a_01_01_neut_tutai"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.7:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/NP/diag_tut_movement_NP125a_01_01_neut_tutai.wav"
+	}
+}

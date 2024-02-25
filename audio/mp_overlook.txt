@@ -1,0 +1,184 @@
+////////////////////
+// GLOBAL AMBIENCE /
+////////////////////
+
+
+"Amb_Overlook_EXT_Global"  {
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Overlook"
+	"flags"			"omni, loop"
+	"radius"		"0"
+	"volume"		"0.5"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Overlook/Ambience/AMB_Overlook_EXT_Global_6ch_v1_LP_COMP.wav"
+	}
+}
+
+"Amb_Overlook_INT_SmallRoom"  {
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Overlook"
+	"flags"			"omni, loop"
+	"radius"		"0"
+	"volume"		"1.3"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Overlook/Ambience/AMB_Overlook_INT_SmallRoom_6ch_v1_LP_COMP.wav"
+	}
+}
+
+"Amb_Overlook_INT_ClosedRoom"  {
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Overlook"
+	"flags"			"omni, loop"
+	"radius"		"0"
+	"volume"		"1.5"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Overlook/Ambience/AMB_Overlook_INT_ClosedRoom_6ch_v1_LP_COMP.wav"
+	}
+}
+
+
+
+////////////////////
+// AMBIENT EMMITERS/
+////////////////////
+
+
+
+"Amb_Overlook_Emitter_Generator"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Overlook"
+	"flags"			"loop"
+	"radius"		"700"
+	
+	
+	"rndwave"
+	{
+	"volume"		"1.0,1.5"
+	"pitch"			"80,120"
+	"limit"				"3"
+	
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_GeneratorLoop_LR_v1_LP.wav"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_GeneratorLoop_LR_v2_LP.wav"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_GeneratorLoop_LR_v3_LP.wav"
+	}
+}
+
+
+
+"Amb_Overlook_Emitter_Fan"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Overlook"
+	"flags"			"loop"
+	"radius"		"1000"
+	
+	
+	"rndwave"
+	{
+	"volume"		"2.0,2.5"
+	"pitch"			"80,120"
+	"limit"				"5"
+	
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_GeneratorLoop_LR_v3_LP.wav"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_FanLoop_LR_v1_LP.wav"
+	}
+}
+
+"amb_Overlook_emitter_steam_small"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Overlook"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"1000"
+	"flags"				"mobile,loop"
+
+
+	"rndwave"
+	{
+		"volume"			"5"
+		"pitch"				"80,120"
+		"limit"				"3"
+
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Small_1ch_01_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Small_1ch_02_LP.wav"
+	}
+}
+
+"amb_Overlook_emitter_steam_medium"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Overlook"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"1000"
+	"falloff"			"4"
+	"flags"				"mobile,loop"
+
+
+	"rndwave"
+	{
+		"volume"			"2"
+		"pitch"				"80,120"
+		"limit"				"3"
+
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Medium_1ch_01_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Medium_1ch_02_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Medium_1ch_03_LP.wav"
+	}
+}
+
+"Amb_Overlook_Emit_HoloMap"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Overlook"
+	"flags"			"omni,loop"
+	"radius"		"700"
+	"volume"		"2.0"
+
+
+	"rndwave"
+	{
+	"pitch"				"80,120"
+	"flags"				"spatialized"
+	"panWidth"			"90"
+	"folddownDistance"	"200"
+	"limit"				"3"
+
+	"wave"			"Maps/Airbase/Emitters/Amb_Emit_Airbase_HoloMap_2ch_v2_01_LP.wav"
+
+	}
+
+}
+
+"Amb_Overlook_Emit_console"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Overlook"
+	"volume"			"2"
+	"pitch"				"80,120"
+	"radius"			"700"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"volume"		"3.0,3.5"
+		"pitch"			"80,120"
+		"limit"				"3"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Console1_LR_v1_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Console1_LR_v2_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Console1_LR_v3_LP.wav"
+	}
+}
+

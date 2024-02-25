@@ -1,0 +1,5 @@
+soundscapes_manifest
+{
+	"file"		"scripts/soundscapes_tempcontent.txt"
+	"file"		"scripts/r1_soundscapes.txt"
+}

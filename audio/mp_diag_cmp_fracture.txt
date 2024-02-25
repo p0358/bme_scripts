@@ -1,0 +1,503 @@
+
+//Fracture Cinematic Mode Dialogue
+
+
+//	This txt file does not contain all dialogue from Fracture;
+//	most of it is in mp_cinematics.txt
+//	Eventually we'll try to move all of into here
+
+//	I'm adding new pickups into this txt file for easier editing
+
+
+
+
+
+
+
+"diag_epPost_FR103_01_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Fracture/diag_epPost_FR103_01_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_epPost_FR103_02_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Fracture/diag_epPost_FR103_02_01_imc_graves.wav"
+	}
+}
+
+
+"diag_epPost_FR103_03_01_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Fracture/diag_epPost_FR103_03_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_epPost_FR103_04_01_imc_graves"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Fracture/diag_epPost_FR103_04_01_imc_graves.wav"
+	}
+}
+
+
+
+
+
+"diag_epPost_FR104_01_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Fracture/diag_epPost_FR104_01_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_epPost_FR104_02_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Fracture/diag_epPost_FR104_02_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_epPost_FR104_03_01_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/Cinematics/Fracture/diag_epPost_FR104_03_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_mcor_dspilot_evacAllAboard_101_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.4"
+
+	"radius"		"5000"
+
+//	"ducks"			"SFX,0.8:200,1000,0,0"
+//	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"wave"			"dialogue/cinematics/fracture/diag_mcor_dspilot_evacAllAboard_101_01.wav"
+}
+
+
+"diag_mcor_dspilot_evacAllAboard_101_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.4"
+
+	"radius"		"5000"
+
+//	"ducks"			"SFX,0.8:200,1000,0,0"
+//	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"wave"			"dialogue/cinematics/fracture/diag_mcor_dspilot_evacAllAboard_101_02.wav"
+}
+
+
+"diag_mcor_dspilot_evacAllAboard_101_03"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.4"
+
+	"radius"		"5000"
+
+//	"ducks"			"SFX,0.8:200,1000,0,0"
+//	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"wave"			"dialogue/cinematics/fracture/diag_mcor_dspilot_evacAllAboard_101_03.wav"
+}
+
+
+"diag_imc_dspilot_evacAllAboard_101_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.4"
+
+	"radius"		"5000"
+
+//	"ducks"			"SFX,0.8:200,1000,0,0"
+//	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"wave"			"dialogue/cinematics/fracture/diag_imc_dspilot_evacAllAboard_101_01.wav"
+}
+
+
+"diag_imc_dspilot_evacAllAboard_101_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.4"
+
+	"radius"		"5000"
+
+//	"ducks"			"SFX,0.8:200,1000,0,0"
+//	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"wave"			"dialogue/cinematics/fracture/diag_imc_dspilot_evacAllAboard_101_02.wav"
+}
+
+
+"diag_imc_dspilot_evacAllAboard_101_03"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.4"
+
+	"radius"		"5000"
+
+//	"ducks"			"SFX,0.8:200,1000,0,0"
+//	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"wave"			"dialogue/cinematics/fracture/diag_imc_dspilot_evacAllAboard_101_03.wav"
+}
+
+
+"diag_mcor_dspilot_evacDepartTimeReached_101_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.4"
+	"radius"		"2000"
+
+//	"ducks"			"SFX,0.8:200,1000,0,0"
+//	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/cinematics/fracture/diag_mcor_dspilot_evacDepartTimeReached_101_01.wav"
+	}
+}
+
+
+"diag_mcor_dspilot_evacDepartTimeReached_101_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.4"
+	"radius"		"2000"
+
+//	"ducks"			"SFX,0.8:200,1000,0,0"
+//	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/cinematics/fracture/diag_mcor_dspilot_evacDepartTimeReached_101_02.wav"
+	}
+}
+
+
+"diag_mcor_dspilot_evacDepartTimeReached_101_03"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.4"
+	"radius"		"2000"
+
+//	"ducks"			"SFX,0.8:200,1000,0,0"
+//	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/cinematics/fracture/diag_mcor_dspilot_evacDepartTimeReached_101_03.wav"
+	}
+}
+
+
+"diag_imc_dspilot_evacDepartTimeReached_101_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.4"
+	"radius"		"2000"
+
+//	"ducks"			"SFX,0.8:200,1000,0,0"
+//	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/cinematics/fracture/diag_imc_dspilot_evacDepartTimeReached_101_01.wav"
+	}
+}
+
+
+"diag_imc_dspilot_evacDepartTimeReached_101_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.4"
+	"radius"		"2000"
+
+//	"ducks"			"SFX,0.8:200,1000,0,0"
+//	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/cinematics/fracture/diag_imc_dspilot_evacDepartTimeReached_101_02.wav"
+	}
+}
+
+
+"diag_imc_dspilot_evacDepartTimeReached_101_03"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.4"
+	"radius"		"2000"
+
+//	"ducks"			"SFX,0.8:200,1000,0,0"
+//	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/cinematics/fracture/diag_imc_dspilot_evacDepartTimeReached_101_03.wav"
+	}
+}
+
+
+
+
+
+"diag_epPost_FR104_04_01_mcor_sarah"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/cinematics/fracture/diag_epPost_FR104_04_01_mcor_sarah.wav"
+	}
+}
+
+
+"diag_hp_frac_mcor_bish_redeyerefuel_04a"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"		"1.2"
+	"radius"		"0"
+
+	"ducks"			"SFX,0.8:200,1000,0,0"
+	"ducks"			"music,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/cinematics/fracture/diag_hp_frac_mcor_bish_redeyerefuel_04a.wav"
+	}
+}

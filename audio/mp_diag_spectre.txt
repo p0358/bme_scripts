@@ -1,0 +1,1868 @@
+  ///////////////////////////
+ // SPECTRE TEMP CHATTER  //
+///////////////////////////
+
+//////////////////////////
+// IMC Spectre Chatter //
+////////////////////////
+
+"diag_imc_spectre_hp_capturedhp_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_IMC_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"rndwave"
+	{	
+	"limit"			"3"
+	"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+
+	}
+	
+}
+
+"diag_imc_spectre_gs_spotclosetitancall_01" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_IMC_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"rndwave"
+	{	
+	"limit"			"3"
+	
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_imc_spectre_gs_spotclosetitanresponse_01" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_IMC_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_imc_spectre_gs_spotfartitan_1_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_IMC_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_imc_spectre_gs_engagepilotenemy_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_IMC_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_imc_spectre_gs_spotenemypilot_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_IMC_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_imc_spectre_gs_spotenemypilotcall" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_IMC_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_imc_spectre_gs_spotenemypilotrespond" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_IMC_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_imc_spectre_gs_gruntkillstitan_02_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_IMC_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_imc_spectre_gs_squaddeplete_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_IMC_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_imc_spectre_gs_allygrundown_05_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_IMC_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_imc_spectre_gs_killenemypilot_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_IMC_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_imc_spectre_gs_hotspot_window_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_IMC_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_imc_spectre_gs_hotspot_window2nd_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_IMC_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_imc_spectre_gs_hotspot_door_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_IMC_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_imc_spectre_gs_hotspot_balcony_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_IMC_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_imc_spectre_gs_hotspot_corner_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_IMC_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_imc_spectre_gs_deployedRack_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_IMC_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_imc_spectre_gs_spectreDeath_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_IMC_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_imc_spectre_gs_selfDestruct_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_IMC_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+//////////////////////////
+// Militia Spectre Chatter //
+////////////////////////
+
+"diag_militia_spectre_hp_capturedhp_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_Militia_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_militia_spectre_gs_spotclosetitancall_01" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_Militia_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_militia_spectre_gs_spotclosetitanresponse_01" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_Militia_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_militia_spectre_gs_spotfartitan_1_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_Militia_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_militia_spectre_gs_engagepilotenemy_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_Militia_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_militia_spectre_gs_spotenemypilot_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_Militia_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_militia_spectre_gs_spotenemypilotcall" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_Militia_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_militia_spectre_gs_spotenemypilotrespond" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_Militia_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_militia_spectre_gs_gruntkillstitan_02_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_Militia_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_militia_spectre_gs_squaddeplete_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_Militia_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_militia_spectre_gs_allygrundown_05_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_Militia_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_militia_spectre_gs_killenemypilot_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_Militia_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_militia_spectre_gs_hotspot_window_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_Militia_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_militia_spectre_gs_hotspot_window2nd_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_Militia_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_militia_spectre_gs_hotspot_door_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_Militia_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_militia_spectre_gs_hotspot_balcony_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_Militia_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_militia_spectre_gs_hotspot_corner_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_Militia_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_militia_spectre_gs_deployedRack_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_Militia_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_militia_spectre_gs_spectreDeath_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_Militia_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+
+	}
+	
+}
+
+"diag_militia_spectre_gs_selfDestruct_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_Militia_Spectre"
+	"radius"		"2200"				"volume"		"2.6"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_10.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_11.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_12.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_13.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_14.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_15.wav"
+	"wave"			"ai/Spectre/Dialogue/Spectre_Reso_Test3_16.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+	
+
+	}
+	
+}
+
+"diag_spectre_gs_LeechStart_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_Militia_Spectre"
+	"radius"		"2200"				"volume"		"2.0"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+	
+	}
+	
+}
+
+"diag_spectre_gs_LeechEnd_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_Militia_Spectre"
+	"radius"		"2200"				"volume"		"2.0"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+		
+	}
+}
+
+"diag_spectre_gs_LeechAborted_01_1" {
+	
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_Militia_Spectre"
+	"radius"		"2200"				"volume"		"2.0"		"ducks"		"all,0.2"
+	
+	
+	"pitch"			"92,100"
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+	"folddownDistance"	"200"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_04.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_05.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_06.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_07.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_08.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_09.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_Short_2ch_v1_10.wav"
+		
+	}
+	
+}
+
+"diag_spectre_gs_GrenadeOut_01_1" 
+{
+	"mixgroup"		"vo,DIAL,DIAL_AI,DIAL_AI_HighCombat,DIAL_AI_HighCombat_Militia_Spectre"
+	"radius"		"2500"				
+	"volume"		"4.34"
+	"ducks"		"all,0.2"
+		
+	"pitch"			"98,102"
+
+	"rndwave"
+	{	
+	"limit"			"3"
+		"flags"				"spatialized"
+		"folddownDistance"	"200"
+
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_GrenadeOut_2ch_v1_01.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_GrenadeOut_2ch_v1_02.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_GrenadeOut_2ch_v1_03.wav"
+	"wave"			"ai/Spectre/Dialogue/Diag_Spectre_GrenadeOut_2ch_v1_04.wav"
+	}
+}
+
+

@@ -1,0 +1,1711 @@
+////////////////////
+// GLOBAL AMBIENCE /
+////////////////////
+
+
+"amb_corporate_EXT_global"  {
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Corporate"
+	"flags"			"omni, loop"
+	"radius"		"0"
+	"volume"		"1.5"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Corporate/Ambience/AMB_Corporate_EXT_Global_6ch_v1_LP.wav"
+	}
+
+}
+
+"amb_corporate_INT_RoomLarge"  {
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Corporate"
+	"flags"			"omni, loop"
+	"radius"		"0"
+	"volume"		"1.3"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Corporate/Ambience/AMB_Corporate_INT_Roomtone_Large_6ch_v1_LP.wav"
+	}
+
+}
+
+"amb_corporate_INT_SkyBridge"  {
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Corporate"
+	"flags"			"omni, loop"
+	"radius"		"0"
+	"volume"		"2.0"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Corporate/Ambience/AMB_Corporate_INT_Roomtone_SkyBridge_6ch_v1_LP.wav"
+	}
+
+}
+
+
+"amb_corporate_INT_HalfOpen"  {
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Corporate"
+	"flags"			"omni, loop"
+	"radius"		"0"
+	"volume"		"3.0"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Corporate/Ambience/AMB_Corporate_INT_HalfOpen_6ch_v1_LP.wav"
+	}
+
+}
+
+"amb_corporate_INT_ClosedRoom"  {
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Corporate"
+	"flags"			"omni, loop"
+	"radius"		"0"
+	"volume"		"3.0"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Corporate/Ambience/AMB_Corporate_INT_ClosedRoom_6ch_v1_LP.wav"
+	}
+
+}
+
+"large_fire_loop"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts"
+	"volume"			"1.0"
+	"radius"			"1000"
+	"pitch"				"95,105"
+	"flags"				"loop"
+
+	"wave"		"exo/damage/titan_damage_state_large_fire_loop.wav"
+}
+
+
+"small_fire_loop"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts"
+	"volume"			"1.0"
+	"radius"			"1000"
+	"pitch"				"95,105"
+	"flags"				"loop"
+
+	"wave"		"exo/damage/titan_damage_state_small_fire_loop.wav"
+}
+
+
+////////////////////
+// AMBIENT EMITTERS/
+////////////////////
+
+"amb_corporate_emitter_SpectreConveyor"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Corporate"
+//	"flags"				"mobile"
+	"flags"           "layered,nevercull"
+	"volume"			"1.0"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"volume"		"1.0"
+		"limit"			"5"
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "2000"
+        "startCurve"      "0"
+        "falloffCurve"    "5"
+
+		"wave"			"Maps/Corporate/Emitters/AMB_Emit_Corporate_SpectreConveyor_Close_1ch_01.wav"
+		"wave"			"Maps/Corporate/Emitters/AMB_Emit_Corporate_SpectreConveyor_Close_1ch_02.wav"
+		"wave"			"Maps/Corporate/Emitters/AMB_Emit_Corporate_SpectreConveyor_Close_1ch_03.wav"
+		"wave"			"Maps/Corporate/Emitters/AMB_Emit_Corporate_SpectreConveyor_Close_1ch_04.wav"
+		"wave"			"Maps/Corporate/Emitters/AMB_Emit_Corporate_SpectreConveyor_Close_1ch_05.wav"
+	}
+}
+
+"amb_corporate_emitter_GreenLaserRoom"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Corporate"
+	"flags"				"mobile,loop"
+	"volume"			"1.0"
+	"radius"			"1500"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+
+		"wave"		"Maps/Corporate/Emitters/AMB_Emit_Corporate_GreenLaserRoom_1ch_01.wav"
+	}
+}
+
+"amb_corporate_emitter_SplashFountain"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Corporate"
+	"flags"				"mobile,loop"
+	"volume"			"1.0"
+	"radius"			"1500"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"wave"				"Maps/Corporate/Emitters/AMB_Emit_Corporate_SplashFountain_2ch_01.wav"
+	}
+}
+
+"amb_corporate_emitter_TitanFountain"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Corporate"
+	"flags"				"mobile,loop,drymix"
+	"volume"			"3.0"
+	"radius"			"1500"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"wave"				"Maps/Corporate/Emitters/AMB_Emit_Corporate_TitanFountain_2ch_01.wav"
+	}
+}
+
+"amb_corporate_emitter_TrickleFountain"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Corporate"
+	"flags"				"mobile,loop"
+	"volume"			"3.0"
+	"radius"			"1500"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"wave"				"Maps/Corporate/Emitters/AMB_Emit_Corporate_TrickleFountain_2ch_01.wav"
+	}
+}
+
+"amb_corporate_fire_small"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Corporate"
+	"volume"			"2"
+	"pitch"				"100"
+	"flags"				"mobile,loop,layered"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"2"
+		"limit"				"2"
+
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v1_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v2_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v3_LP_Crackle.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1200"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"2"
+		"limit"				"2"
+
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v1_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v2_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v3_LP_Flame.wav"
+	}
+
+}
+
+"amb_corporate_fire_medium"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Corporate"
+	"volume"			"2"
+	"pitch"				"100"
+	"flags"				"mobile,loop,layered"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "600"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"2"
+		"limit"				"2"
+
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v1_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v2_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v3_LP_Crackle.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1400"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"2"
+		"limit"				"2"
+
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v1_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v2_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v3_LP_Flame.wav"
+	}
+
+}
+
+"amb_corporate_fire_large"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Corporate"
+	"volume"			"2"
+	"pitch"				"100"
+	"flags"				"mobile,loop,layered"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "600"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"2"
+		"limit"				"2"
+
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Big_LR_v1_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Big_LR_v2_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Big_LR_v3_LP_Crackle.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1400"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"2"
+		"limit"				"2"
+
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Big_LR_v1_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Big_LR_v2_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Big_LR_v3_LP_Flame.wav"
+	}
+
+}
+
+
+////////////////////
+// MUSIC /
+////////////////////
+
+"Music_corporate_Militia_Opening" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic,MUSIC_Cinematic_Corporate"
+	"volume"		"2.5"
+	"radius"		"0"
+	"flags"			"music"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}	
+	"wave"			"music\Campaign\Corporate\TF_Master_CO_Intro_MCOR_STMIX_160_BPM.wav"
+	}
+}
+
+"Music_corporate_IMC_Opening" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic,MUSIC_Cinematic_Corporate"
+	"volume"		"2"
+	"radius"		"0"
+	"flags"			"music"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}	
+	"wave"			"music\Campaign\Corporate\TF_Master_CO_Intro_IMC_STMIX_95_BPM.wav"
+	}
+}
+
+"Music_corporate_MCOR_Ending" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic"
+	"volume"		"2.0"
+	"radius"		"0"
+	"flags"			"music"
+	"rndwave"
+	{
+	"wave"			"music\Lobby\TF_LOBBY_Militia1_STMIX_90_BPM_v3_NEW_VLN.wav"
+	//"wave"			"music\Campaign\Corporate\TF_MCOR_Ending_mofomix_117_BPM.wav"
+	}
+}
+
+"Music_corporate_IMC_Ending" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic"
+	"volume"		"1.75"
+	"radius"		"0"
+	"flags"			"music"
+	"rndwave"
+	{
+	"wave"			"music\Campaign\Corporate\TF_IMC_Ending_mofomix_98_BPM.wav"
+	}
+}
+
+
+////////////////////
+// INTRO - MILITIA
+////////////////////
+
+"Corporate_Scr_GravesIntro_Foley_Part1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Corporate"
+	"volume"		"5"
+	"radius"		"1000"
+	"falloff"		"0"
+	"pitch" 		"100"
+	"flags"			"mobile"
+
+	"rndwave"
+	{
+		"wave"		"campaign/corporate/Corporate_Scr_MCOR_GravesIntroFoley_pt1_fr542_1ch_01.wav"
+	}
+}
+
+"corporate_atlas_dropship_rodeo_part1"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Corporate"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"15000"
+	"flags"				"nevercull"
+
+
+	"rndwave"
+	{
+
+		"flags"				"spatialized"
+		"folddownDistance"	"400"
+		"minrange"			"0"
+		"volume"			"4.0"
+
+			"wave"				"campaign/corporate/Scr_Corporate_Atlas_Dropship_Rodeo_part1_fr336_2ch_v1.wav"
+	}
+}
+
+"corporate_atlas_dropship_rodeo_part2"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Corporate"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"10000"
+	"flags"				"nevercull"
+
+
+	"rndwave"
+	{
+
+		"flags"				"spatialized"
+		"folddownDistance"	"400"
+		"minrange"			"0"
+		"volume"			"4.0"
+
+			"wave"				"campaign/corporate/Scr_Corporate_Atlas_Dropship_Rodeo_part2_fr404_2ch_v1.wav"
+	}
+}
+
+"corporate_atlas_dropship_rodeo_part3"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Corporate"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"10000"
+	"flags"				"nevercull"
+
+
+	"rndwave"
+	{
+
+		"flags"				"spatialized"
+		"folddownDistance"	"400"
+		"minrange"			"0"
+		"volume"			"4.0"
+
+			"wave"				"campaign/corporate/Scr_Corporate_Atlas_Dropship_Rodeo_part3_fr420_2ch_v1.wav"
+	}
+}
+
+"corporate_atlas_dropship_rodeo_part4"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Corporate"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"10000"
+	"flags"				"nevercull"
+
+
+	"rndwave"
+	{
+
+		"flags"				"spatialized"
+		"folddownDistance"	"400"
+		"minrange"			"0"
+		"volume"			"4.0"
+
+			"wave"				"campaign/corporate/Scr_Corporate_Atlas_Dropship_Rodeo_part4_fr473_2ch_v1.wav"
+	}
+}
+
+"corporate_atlas_dropship_rodeo_part5"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Corporate"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"10000"
+	"flags"				"nevercull"
+
+
+	"rndwave"
+	{
+
+		"flags"				"spatialized"
+		"folddownDistance"	"400"
+		"minrange"			"0"
+		"volume"			"4.0"
+
+			"wave"				"campaign/corporate/Scr_Corporate_Atlas_Dropship_Rodeo_part5_fr630_2ch_v1.wav"
+	}
+}
+
+
+
+"Corporate_MilitiaDropship_AttackedByTitan_FliesIn"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"		"6"
+	"radius"		"10000"
+	"falloff"		"5"
+	"pitch" 		"95,105"
+	"flags"				"nevercull"
+
+	"rndwave"
+	{
+
+	"wave"	"campaign/corporate/Scr_Corporate_Dropship_AttackedByTitan_1ch_v1.wav"
+	}
+}
+
+"Corporate_MilitiaDropship_AttackedByTitan_Explodes"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"		"7"
+	"radius"		"10000"
+	"falloff"		"5"
+	"pitch" 		"95,105"
+	"flags"				"nevercull"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+	"folddownDistance"	"400"
+
+	"wave"	"campaign/corporate/Scr_Corporate_Dropship_AttackedByTitanExplo_2ch_v1.wav"
+	}
+}
+
+"Corporate_Militia_PlayerDropship_IntroFlyIn"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"		"2.3"
+	"radius"		"5000"
+	"pitch" 		"95,105"
+	"flags"				"mobile"
+
+	"rndwave"
+	{
+
+	"wave"	"campaign/corporate/Scr_Corporate_Intro_DropshipFlyin_6ch_v1.wav"
+	}
+}
+
+"Corporate_Militia_PlayerDropship_IntroDoorClose"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"		"3"
+	"radius"		"5000"
+	"pitch" 		"95,105"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+	"folddownDistance"	"400"
+
+	"wave"	"campaign/corporate/Scr_Corporate_Intro_DropshipDoorClose_2ch_v1.wav"
+	}
+}
+
+"corporate_dropshiprodeo_dropshipengine"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts"
+	"volume"		"3"
+	"radius"			"5000"
+	"pitch" 		"95,105"
+	"wave"	"scripted\dropship_refuel_engine_approach.wav"
+}
+
+"corporate_dropshiprodeo_titanleap"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts"
+	"volume"		"3"
+	"radius"			"5000"
+	"pitch" 		"95,105"
+	"wave"	"exo\Atlas\Dash\titan_dash_med_v5_04.wav"
+}
+
+"corporate_dropshiprodeo_titanland"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts"
+	"volume"		"3"
+	"radius"			"5000"
+	"pitch" 		"95,105"
+	"wave"	"exo\Atlas\Melee\titan_melee_v2_01.wav"
+}
+
+"corporate_dropshiprodeo_cockpitpunch"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts"
+	"volume"		"3"
+	"radius"			"5000"
+	"pitch" 		"95,105"
+	"wave"	"exo\Atlas\Melee\melee_impact_v2_01.wav"
+}
+
+"corporate_dropshiprodeo_pilotrip"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts"
+	"volume"		"3"
+	"radius"			"5000"
+	"pitch" 		"95,105"
+	"wave"	"impacts\BodyFalls\Pilot\Melee_Extract\Player_Titan_WallSplat_1ch_01.wav"
+}
+
+"corporate_dropshiprodeo_pilotscream"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts"
+	"volume"		"2"
+	"radius"			"10000"
+	"pitch" 		"95,105"
+	"wave"	"ai\AI_death2.wav"
+}
+
+////////////////////
+// INTRO - IMC
+////////////////////
+
+
+"Corporate_IMC_PlayerDropship_IntroFlyIn"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Skits"
+	"volume"		"4.5"
+	"radius"		"5000"
+	"pitch" 		"95,105"
+	"flags"				"mobile"
+
+	"rndwave"
+	{
+
+	"wave"			"campaign/corporate/Corporate_Scr_IMCIntro_DropshipInterior_6ch_v1.wav"
+	}
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+	"wave"			"campaign/corporate/Corporate_Scr_IMCIntro_DropshipExterior_2ch_v1.wav"
+	}
+}
+
+"Corporate_Spyglass_WalkToHatchAndOpen"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Outpost207"
+	"volume"			"10.0"
+	"pitch"				"100"
+	"radius"			"500"
+
+
+	"rndwave"
+	{
+
+				"wave"				"campaign/Corporate/Corporate_Scr_Spyglass_Intro_WalkToHatchAndOpen_1ch_v1.wav"
+	}
+
+}
+
+"corporate_titan_spectre_swarm_part1"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Corporate"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"9000"
+	"flags"				"nevercull"
+
+
+	"rndwave"
+	{
+
+		"flags"				"spatialized"
+		"folddownDistance"	"400"
+		"minrange"			"0"
+		"volume"			"4.0"
+
+			"wave"				"campaign/corporate/Scr_Corporate_at_titan_spectre_swarm_part1_fr0_2ch_v1.wav"
+	}
+
+}
+
+"corporate_titan_spectre_swarm_part2"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Corporate"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"9000"
+	"flags"				"nevercull"
+
+
+	"rndwave"
+	{
+
+		"flags"				"spatialized"
+		"folddownDistance"	"400"
+		"minrange"			"0"
+		"volume"			"3.0"
+
+			"wave"				"campaign/corporate/Scr_Corporate_at_titan_spectre_swarm_part2_fr74_2ch_v1.wav"
+	}
+
+}
+
+"corporate_titan_spectre_swarm_part3"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Corporate"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"9000"
+	"flags"				"nevercull"
+
+
+	"rndwave"
+	{
+
+		"flags"				"spatialized"
+		"folddownDistance"	"400"
+		"minrange"			"0"
+		"volume"			"3.0"
+
+			"wave"				"campaign/corporate/Scr_Corporate_at_titan_spectre_swarm_part3_fr107_2ch_v1.wav"
+	}
+
+}
+
+"corporate_titan_spectre_swarm_part4"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Corporate"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"9000"
+	"flags"				"nevercull"
+
+
+	"rndwave"
+	{
+
+		"flags"				"spatialized"
+		"folddownDistance"	"400"
+		"minrange"			"0"
+		"volume"			"7.7"
+
+			"wave"				"campaign/corporate/Scr_Corporate_at_titan_spectre_swarm_part4_fr223_2ch_v1.wav"
+	}
+
+}
+
+"corporate_titan_spectre_swarm_part5"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Corporate"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"9000"
+	"flags"				"nevercull"
+
+
+	"rndwave"
+	{
+
+		"flags"				"spatialized"
+		"folddownDistance"	"400"
+		"minrange"			"0"
+		"volume"			"7.7"
+
+			"wave"				"campaign/corporate/Scr_Corporate_at_titan_spectre_swarm_part5_fr323_2ch_v1.wav"
+	}
+
+}
+
+"corporate_titan_spectre_swarm_part6"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Corporate"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"9000"
+	"flags"				"nevercull"
+
+
+	"rndwave"
+	{
+
+		"flags"				"spatialized"
+		"folddownDistance"	"400"
+		"minrange"			"0"
+		"volume"			"7.7"
+
+			"wave"				"campaign/corporate/Scr_Corporate_at_titan_spectre_swarm_part6_fr374_2ch_v1.wav"
+	}
+
+}
+
+////////////////////
+// SPECTRES
+////////////////////
+
+
+
+"corporate_spectrerack_activate"
+{
+	"mixgroup"			"weapon,SFX,SFX_Weapons,SFX_Weapons_Turrets"
+	"volume"			"5"
+	"pitch"				"100"
+	"falloff"			"2"
+	"radius"			"1900"
+	"flags"				"mobile"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"folddownDistance"	"400"
+		"minrange"			"0"
+		"maxrange"			"1900"
+		"limit"				"3"
+		"volume"			"4.2"
+
+			"wave"				"campaign/corporate/Corporate_Scr_MedBayRack_Offload_Spectre_2ch_v1_01.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_MedBayRack_Offload_Spectre_2ch_v1_02.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_MedBayRack_Offload_Spectre_2ch_v1_03.wav"
+	}
+
+}
+
+"corporate_spectrerack_reset"
+{
+	"mixgroup"			"weapon,SFX,SFX_Weapons,SFX_Weapons_Turrets"
+	"falloff"			"0"
+	"radius"			"1700"
+
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"foldDownDistance"	"1200"
+		"minrange"			"0"
+		"maxrange"			"1700"
+		"limit"				"3"
+		"volume"			"5.6"
+
+			"wave"				"campaign/corporate/Corporate_Scr_Spectre_3DPrinting_2ch_v1_01.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Spectre_3DPrinting_2ch_v1_02.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Spectre_3DPrinting_2ch_v1_03.wav"
+
+	}
+
+		"rndwave"
+	{
+		"minrange"			"0"
+		"maxrange"			"1700"
+		"limit"				"3"
+		"volume"			"10.0"
+		"delay"				"3500"
+
+			"wave"				"player/dataknife/DataKnife_Hack_Spectre_ArmorRattle_01.wav"
+			"wave"				"player/dataknife/DataKnife_Hack_Spectre_ArmorRattle_02.wav"
+			"wave"				"player/dataknife/DataKnife_Hack_Spectre_ArmorRattle_03.wav"
+			"wave"				"player/dataknife/DataKnife_Hack_Spectre_ArmorRattle_04.wav"
+			"wave"				"player/dataknife/DataKnife_Hack_Spectre_ArmorRattle_05.wav"
+			"wave"				"player/dataknife/DataKnife_Hack_Spectre_ArmorRattle_06.wav"
+
+
+	}
+
+}
+
+"corporate_spectre_neutralized"
+{
+	"mixgroup"		"voice,SFX,SFX_3P,SFX_3P_Foley,SFX_3P_Foley_Marvins"
+	"volume"		"0"
+	"radius"			"3000"
+	"pitch" 		"95,105"
+	"rndwave"
+	{
+		"minrange"	"0"
+		"maxrange"	"800"
+
+		"wave"	"null.wav"
+
+	}
+}
+
+"corporate_spectre_overload_beep"
+{
+	"mixgroup"		"weapon,SFX,SFX_Impacts,SFX_Impacts_1P_Hits_3P,SFX_Impacts_1P_Hits_3P_Explosions"
+	"volume"		"1.8"
+	"flags"			"layered"
+
+	"rndwave"
+
+	{
+
+	"startDistance"     		"10"
+ 	"peakDistance"     		"10"
+ 	"startCurve"       		"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"500"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"limit"			"2"
+
+	"pitch"			"88,110"
+	"flags"			"spatialized"
+	"folddownDistance"		"300"
+
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Overload_Close_2ch_v1_01.wav"
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Overload_Close_2ch_v1_02.wav"
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Overload_Close_2ch_v1_03.wav"
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Overload_Close_2ch_v1_04.wav"
+
+	}
+
+	"rndwave"
+
+	{
+
+	"startDistance"     		"10"
+ 	"peakDistance"     		"10"
+ 	"startCurve"       		"0"
+ 	"falloffStart"      		"450"
+ 	"falloffEnd"        		"1400"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"limit"			"2"
+	"volume"		"2.0"
+	"pitch"			"88,100"
+
+	"flags"			"spatialized"
+	"folddownDistance"		"1200"
+
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Overload_MidDist_2ch_v1_04.wav"
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Overload_MidDist_2ch_v1_02.wav"
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Overload_MidDist_2ch_v1_03.wav"
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Overload_MidDist_2ch_v1_04.wav"
+
+	}
+
+	"rndwave"
+
+	{
+
+	"startDistance"     		"10"
+ 	"peakDistance"     		"0"
+ 	"startCurve"       		"0"
+ 	"falloffStart"      		"1350"
+ 	"falloffEnd"        		"3000"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"limit"			"2"
+	"volume"		"1.5"
+	"pitch"			"83,100"
+
+	"flags"			"spatialized"
+	"folddownDistance"		"4000"
+
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Overload_Dist_2ch_v1_01.wav"
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Overload_Dist_2ch_v1_02.wav"
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Overload_Dist_2ch_v1_03.wav"
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Overload_Dist_2ch_v1_04.wav"
+
+	}
+}
+
+"corporate_spectre_death_explode"
+{
+	"mixgroup"		"weapon,SFX,SFX_Impacts,SFX_Impacts_1P_Hits_3P,SFX_Impacts_1P_Hits_3P_Explosions"
+	"volume"		"1.8"
+	"flags"			"layered"
+
+	"rndwave"
+	
+	{
+		"volume"		"4"
+		"pitch"			"90,110"		
+		"limit"			"1"
+		"flags"					"spatialized"
+		"folddowndistance"		"1500"
+	
+        "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "2000"
+        "startCurve"      "5"
+        "falloffCurve"    "0"
+		
+		"wave"		"explosions/Frag/Explo_Frag_Close_2ch_v1_01.wav"
+		"wave"		"explosions/Frag/Explo_Frag_Close_2ch_v1_02.wav"
+		"wave"		"explosions/Frag/Explo_Frag_Close_2ch_v1_03.wav"	
+		"wave"		"explosions/Frag/Explo_Frag_Close_2ch_v1_04.wav"
+		"wave"		"explosions/Frag/Explo_Frag_Close_2ch_v1_05.wav"
+		"wave"		"explosions/Frag/Explo_Frag_Close_2ch_v1_06.wav"		
+		
+	}
+
+	"rndwave"
+
+	{
+
+	"startDistance"     		"10"
+ 	"peakDistance"     		"10"
+ 	"startCurve"       		"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"1000"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"limit"			"2"
+	"volume"		"1.0"
+	"pitch"			"90,100"
+
+
+
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Debris_01.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Debris_02.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Debris_03.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Debris_04.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Debris_05.wav"
+
+	}
+
+	"rndwave"
+
+	{
+
+	"startDistance"     		"10"
+ 	"peakDistance"     		"10"
+ 	"startCurve"       		"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"900"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"limit"			"2"
+	"volume"		"1.4"
+	"pitch"			"88,110"
+	"flags"			"spatialized"
+	"folddownDistance"		"800"
+
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_Close_2ch_v1_01.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_Close_2ch_v1_02.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_Close_2ch_v1_03.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_Close_2ch_v1_04.wav"
+
+	}
+
+	"rndwave"
+
+	{
+
+	"startDistance"     		"10"
+ 	"peakDistance"     		"10"
+ 	"startCurve"       		"0"
+ 	"falloffStart"      		"800"
+ 	"falloffEnd"        		"1500"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"limit"			"2"
+	"volume"		"1.5"
+	"pitch"			"88,100"
+
+	"flags"			"spatialized"
+	"folddownDistance"		"1400"
+
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_MidDist_2ch_v1_01.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_MidDist_2ch_v1_02.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_MidDist_2ch_v1_03.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_MidDist_2ch_v1_04.wav"
+
+	}
+
+	"rndwave"
+
+	{
+
+	"startDistance"     		"10"
+ 	"peakDistance"     		"0"
+ 	"startCurve"       		"0"
+ 	"falloffStart"      		"1400"
+ 	"falloffEnd"        		"3000"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"limit"			"2"
+	"volume"		"1.5"
+	"pitch"			"83,100"
+
+	"flags"			"spatialized"
+	"folddownDistance"		"4000"
+
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_Dist_2ch_v1_01.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_Dist_2ch_v1_02.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_Dist_2ch_v1_03.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_Dist_2ch_v1_04.wav"
+
+	}
+}
+
+"corporate_spectre_death_explode_small"
+{
+	"mixgroup"		"weapon,SFX,SFX_Impacts,SFX_Impacts_1P_Hits_3P,SFX_Impacts_1P_Hits_3P_Explosions"
+	"volume"		"1.8"
+	"flags"			"layered"
+
+		"rndwave"
+	
+	{
+		"volume"		"4"
+		"pitch"			"90,110"		
+		"limit"			"1"
+		"flags"					"spatialized"
+		"folddowndistance"		"1500"
+	
+        "startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "2000"
+        "startCurve"      "5"
+        "falloffCurve"    "0"
+		
+		"wave"		"explosions/Frag/Explo_Frag_Close_2ch_v1_01.wav"
+		"wave"		"explosions/Frag/Explo_Frag_Close_2ch_v1_02.wav"
+		"wave"		"explosions/Frag/Explo_Frag_Close_2ch_v1_03.wav"	
+		"wave"		"explosions/Frag/Explo_Frag_Close_2ch_v1_04.wav"
+		"wave"		"explosions/Frag/Explo_Frag_Close_2ch_v1_05.wav"
+		"wave"		"explosions/Frag/Explo_Frag_Close_2ch_v1_06.wav"		
+		
+	}
+
+	"rndwave"
+
+	{
+
+	"startDistance"     		"10"
+ 	"peakDistance"     		"10"
+ 	"startCurve"       		"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"1000"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"limit"			"2"
+	"volume"		"1"
+	"pitch"			"90,100"
+
+
+
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Debris_01.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Debris_02.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Debris_03.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Debris_04.wav"
+		"wave"		"weapons/Satchel_Charge/Explo_SatchelCharge_Debris_05.wav"
+
+	}
+
+	"rndwave"
+
+	{
+
+	"startDistance"     		"10"
+ 	"peakDistance"     		"10"
+ 	"startCurve"       		"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"900"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"limit"			"2"
+	"volume"		"1.4"
+	"pitch"			"88,110"
+	"flags"			"spatialized"
+	"folddownDistance"		"800"
+
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_Close_2ch_v1_01.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_Close_2ch_v1_02.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_Close_2ch_v1_03.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_Close_2ch_v1_04.wav"
+
+	}
+
+	"rndwave"
+
+	{
+
+	"startDistance"     		"10"
+ 	"peakDistance"     		"10"
+ 	"startCurve"       		"0"
+ 	"falloffStart"      		"800"
+ 	"falloffEnd"        		"1500"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"limit"			"2"
+	"volume"		"1.5"
+	"pitch"			"88,100"
+
+	"flags"			"spatialized"
+	"folddownDistance"		"1400"
+
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_MidDist_2ch_v1_01.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_MidDist_2ch_v1_02.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_MidDist_2ch_v1_03.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_MidDist_2ch_v1_04.wav"
+
+	}
+
+	"rndwave"
+
+	{
+
+	"startDistance"     		"10"
+ 	"peakDistance"     		"0"
+ 	"startCurve"       		"0"
+ 	"falloffStart"      		"1400"
+ 	"falloffEnd"        		"3000"
+ 	"falloffCurve"      		"5"
+ 	"clampVolume"       		"0"
+
+	"limit"			"2"
+	"volume"		"1.5"
+	"pitch"			"83,100"
+
+	"flags"			"spatialized"
+	"folddownDistance"		"4000"
+
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_Dist_2ch_v1_01.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_Dist_2ch_v1_02.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_Dist_2ch_v1_03.wav"
+		"wave"		"campaign/corporate/Explo_Spectre_Suiciding_Dist_2ch_v1_04.wav"
+
+	}
+}
+
+"corporate_spectre_initialize_beep"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Spectres"
+	"volume"		"5.2"
+	"flags"			"layered"
+
+	"rndwave"
+
+	{
+
+	"startDistance"     		"0"
+ 	"peakDistance"     		"0"
+ 	"startCurve"       		"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"900"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+
+	"limit"			"2"
+
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Initialize_Beep_1ch_v1_01.wav"
+
+	}
+
+		"rndwave"
+
+	{
+
+	"pitch"						"60"
+	"startDistance"     		"0"
+ 	"peakDistance"     		"0"
+ 	"startCurve"       		"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"900"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+
+	"limit"			"2"
+
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Initialize_Beep_1ch_v1_01.wav"
+
+	}
+}
+
+"Imp_SpectreFist_vs_Dropship"
+{
+	"mixgroup"			"titan,SFX,SFX_Impacts,SFX_Impacts_3P_Hits_3P"
+	"volume"			"6.0"
+	"radius"			"1500"
+	"pitch"				"80,110"
+
+	"rndwave"
+	{
+	"limit"		"3"
+	"wave"		"campaign/corporate/Corporate_Scr_Imp_SpectreFist_vs_Dropship_1ch_v1_01.wav"
+	"wave"		"campaign/corporate/Corporate_Scr_Imp_SpectreFist_vs_Dropship_1ch_v1_02.wav"
+	"wave"		"campaign/corporate/Corporate_Scr_Imp_SpectreFist_vs_Dropship_1ch_v1_03.wav"
+	"wave"		"campaign/corporate/Corporate_Scr_Imp_SpectreFist_vs_Dropship_1ch_v1_04.wav"
+	"wave"		"campaign/corporate/Corporate_Scr_Imp_SpectreFist_vs_Dropship_1ch_v1_05.wav"
+	"wave"		"campaign/corporate/Corporate_Scr_Imp_SpectreFist_vs_Dropship_1ch_v1_06.wav"
+	"wave"		"campaign/corporate/Corporate_Scr_Imp_SpectreFist_vs_Dropship_1ch_v1_07.wav"
+
+	}
+}
+
+"Imp_SpectreHand_Grabs_MetalWall"
+{
+	"mixgroup"			"SFX,SFX_Impacts,SFX_Impacts_3P_Hits_3P"
+	"volume"			"7.0"
+	"radius"			"1500"
+	"pitch"				"85,88"
+
+	"rndwave"
+	{
+		"limit"		"3"
+//		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Swarm_HandRung_1ch_v1_01.wav"
+		"wave"		"player/movement/footfell/run_solidmetal_01.wav"
+		"wave"		"player/movement/footfell/run_solidmetal_02.wav"
+		"wave"		"player/movement/footfell/run_solidmetal_03.wav"
+		"wave"		"player/movement/footfell/run_solidmetal_04.wav"
+		"wave"		"player/movement/footfell/run_solidmetal_05.wav"
+		"wave"		"player/movement/footfell/run_solidmetal_06.wav"
+		"wave"		"player/movement/footfell/run_solidmetal_07.wav"
+		"wave"		"player/movement/footfell/run_solidmetal_08.wav"
+		"wave"		"player/movement/footfell/run_solidmetal_09.wav"
+		"wave"		"player/movement/footfell/run_solidmetal_10.wav"
+
+	}
+}
+
+"Imp_SpectreHand_Grabs_GlassWall"
+{
+	"mixgroup"			"SFX,SFX_Impacts,SFX_Impacts_3P_Hits_3P"
+	"volume"			"7.0"
+	"radius"			"1500"
+	"pitch"				"90,95"
+
+	"rndwave"
+	{
+		"limit"		"3"
+		"wave"		"player/movement/footfell/run_solidglass_01.wav"
+		"wave"		"player/movement/footfell/run_solidglass_02.wav"
+		"wave"		"player/movement/footfell/run_solidglass_03.wav"
+		"wave"		"player/movement/footfell/run_solidglass_04.wav"
+		"wave"		"player/movement/footfell/run_solidglass_05.wav"
+		"wave"		"player/movement/footfell/run_solidglass_06.wav"
+		"wave"		"player/movement/footfell/run_solidglass_07.wav"
+		"wave"		"player/movement/footfell/run_solidglass_08.wav"
+		"wave"		"player/movement/footfell/run_solidglass_09.wav"
+		"wave"		"player/movement/footfell/run_solidglass_10.wav"
+
+	}
+}
+
+"Imp_SpectreBody_vs_GlassWall"
+{
+	"mixgroup"			"SFX,SFX_Impacts,SFX_Impacts_3P_Hits_3P"
+	"volume"			"10.0"
+	"radius"			"1500"
+
+	"rndwave"
+	{
+		"pitch"		"82,85"
+		"limit"		"3"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Spectre_Hard_1ch_v1_01.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Spectre_Hard_1ch_v1_02.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Spectre_Hard_1ch_v1_03.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Spectre_Hard_1ch_v1_04.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Spectre_Hard_1ch_v1_05.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Spectre_Hard_1ch_v1_06.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Spectre_Hard_1ch_v1_07.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Spectre_Hard_1ch_v1_08.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Spectre_Hard_1ch_v1_09.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Spectre_Hard_1ch_v1_10.wav"
+		"wave"		"impacts/physics/Phys_Imp_Bodyfall_Spectre_Hard_1ch_v1_11.wav"
+	}
+	"rndwave"
+	{
+		"limit"		"3"
+		"pitch"			"85,89"
+		"wave"		"player/movement/footfell/run_solidglass_01.wav"
+		"wave"		"player/movement/footfell/run_solidglass_02.wav"
+		"wave"		"player/movement/footfell/run_solidglass_03.wav"
+		"wave"		"player/movement/footfell/run_solidglass_04.wav"
+		"wave"		"player/movement/footfell/run_solidglass_05.wav"
+		"wave"		"player/movement/footfell/run_solidglass_06.wav"
+		"wave"		"player/movement/footfell/run_solidglass_07.wav"
+		"wave"		"player/movement/footfell/run_solidglass_08.wav"
+		"wave"		"player/movement/footfell/run_solidglass_09.wav"
+		"wave"		"player/movement/footfell/run_solidglass_10.wav"
+
+	}
+}
+
+"corporate_building_explosion"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Corporate"
+	"volumescale"		"2.4"
+	"pitch"				"100"
+	"flags"				"layered"
+
+
+	"rndwave"
+	{
+
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"800"
+
+		"limit"				"2"
+		"volume"			"0.7,1.2"
+		"pitch"				"70,130"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "2000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Close_Debris_2ch_v1_01.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Close_Debris_2ch_v1_02.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Close_Debris_2ch_v1_03.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Close_Debris_2ch_v1_04.wav"
+	}
+
+	"rndwave"
+	{
+
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"800"
+
+		"limit"				"6"
+		"volume"			"3.5,5"
+		"pitch"				"70,130"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "4000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Close_Kaboom_2ch_v1_01.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Close_Kaboom_2ch_v1_02.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Close_Kaboom_2ch_v1_03.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Close_Kaboom_2ch_v1_04.wav"
+	}
+
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"volume"			"1.5,2"
+		"pitch"				"70,130"
+
+		"startDistance"   "1800"
+        "peakDistance"    "0"
+        "falloffStart"    "1000"
+        "falloffEnd"      "3500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_MidDist_Debris_1ch_v1_01.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_MidDist_Debris_1ch_v1_02.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_MidDist_Debris_1ch_v1_03.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_MidDist_Debris_1ch_v1_04.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"2"
+		"volume"			"0.7,1.0"
+		"pitch"				"70,130"
+
+		"startDistance"   "3500"
+        "peakDistance"    "0"
+        "falloffStart"    "3500"
+        "falloffEnd"      "6000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_MidDist_Kaboom_1ch_v1_01.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_MidDist_Kaboom_1ch_v1_02.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_MidDist_Kaboom_1ch_v1_03.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_MidDist_Kaboom_1ch_v1_04.wav"
+	}
+
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"volume"			"2.3,3"
+		"pitch"				"70,130"
+
+		"startDistance"   "3400"
+        "peakDistance"    "0"
+        "falloffStart"    "3400"
+        "falloffEnd"      "10000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Metal_1ch_v1_01.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Metal_1ch_v1_02.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Metal_1ch_v1_03.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Metal_1ch_v1_04.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Metal_1ch_v1_05.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"2"
+		"volume"			"0.7,1.2"
+		"pitch"				"70,130"
+
+		"startDistance"   "4500"
+        "peakDistance"    "0"
+        "falloffStart"    "4500"
+        "falloffEnd"      "15000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Kaboom_1ch_v1_01.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Kaboom_1ch_v1_02.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Kaboom_1ch_v1_03.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Kaboom_1ch_v1_04.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Kaboom_1ch_v1_05.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Kaboom_1ch_v1_06.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Kaboom_1ch_v1_07.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_Explo_Dist_Kaboom_1ch_v1_08.wav"
+	}
+
+}
+
+
+"corporate_glass_break"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Corporate"
+	"volume"			"2"
+	"pitch"				"100"
+	"flags"				"layered"
+
+
+	"rndwave"
+	{
+
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"800"
+
+		"limit"				"3"
+		"volume"			"1.0,1.5"
+		"pitch"				"70,130"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "2000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+
+			"wave"				"campaign/corporate/Corporate_Scr_GlassBreak_Close_2ch_v1_01.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_GlassBreak_Close_2ch_v1_02.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_GlassBreak_Close_2ch_v1_03.wav"
+	}
+
+	"rndwave"
+	{
+
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"800"
+
+		"limit"				"3"
+		"volume"			"1.0,1.5"
+		"pitch"				"70,130"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "4000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+
+			"wave"				"campaign/corporate/Corporate_Scr_GlassBreak_MidDist_2ch_v1_01.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_GlassBreak_MidDist_2ch_v1_02.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_GlassBreak_MidDist_2ch_v1_03.wav"
+	}
+}
+
+"Corporate_Scr_Ending_Fleet_Militia_POV"  
+{
+
+	"mixgroup"		"ENDING"
+	"flags"			"omni,nevercull"
+	"radius"		"0"
+	"volume"		"0.45"
+
+	"rndwave" 
+	{
+		"wave"			"campaign/corporate/Corporate_Scr_Ending_Fleet_Militia_POV_6ch.wav"
+	}
+		
+}
+
+"Corporate_Scr_Ending_Fleet_IMC_POV"  
+{
+
+	"mixgroup"		"ENDING"
+	"flags"			"omni,nevercull"
+	"radius"		"0"
+	"volume"		"0.45"
+
+	"rndwave"
+	{
+
+		"wave"			"campaign/corporate/Corporate_Scr_Ending_Fleet_IMC_POV_6ch.wav"
+	}
+}
+
+

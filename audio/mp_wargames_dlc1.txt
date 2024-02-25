@@ -1,0 +1,407 @@
+////////////////////
+// GLOBAL AMBIENCE /
+////////////////////
+
+"Amb_Wargames_EXT_Global"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Wargames"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"1.2"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Wargames/Ambience/AMB_Wargames_EXT_Global_6ch_v1_LP.wav"
+	}
+	
+}
+
+"Amb_Wargames_INT_Building"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Wargames"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"0.5"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+//	"wave"			"Maps/Wargames/Ambience/AMB_Wargames_Int_Building_6ch_v1_01_LP.wav"
+	"wave"			"Maps/Wargames/Ambience/AMB_Wargames_Int_Building_6ch_v1_02_LP.wav"
+	}
+	
+}
+
+
+"Amb_Wargames_Pod_Ambience"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Wargames"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"0.8"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Wargames/Ambience/AMB_Wargames_Int_PodAmbience_6ch_v1_01_LP.wav"
+	}
+}
+
+
+///////////////////
+//		EMITTERS
+///////////////////
+
+
+
+"Wargames_Emit_IMC_Intro_HighPass"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Wargames"
+	"flags"			"loop,layered"
+	
+	
+	"rndwave"
+	{
+	"pitch"			"100"
+	"limit"				"1"
+	"volume"			"5"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "255"
+        "falloffEnd"      "256"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+	
+	
+	"wave"			"Maps/Wargames/Emitters/Wargames_Emit_IMC_Intro_HighPass_2ch_v5_01_LP.wav"
+	}
+	
+}
+
+
+"Wargames_Emit_IMC_Intro_LowPass"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Wargames"
+	"flags"			"loop,layered"
+	
+	
+	"rndwave"
+	{
+	"pitch"			"100"
+	"limit"				"1"
+	"volume"			"9"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "255"
+        "falloffEnd"      "256"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+	
+	
+	"wave"			"Maps/Wargames/Emitters/Wargames_Emit_IMC_Intro_LowPass_2ch_v5_01_LP.wav"
+	}
+}
+
+
+
+"Wargames_Emit_MCOR_Intro_HighPass"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Wargames"
+	"flags"			"loop,layered"
+	
+	
+	"rndwave"
+	{
+	"pitch"			"100"
+	"limit"				"1"
+	"volume"			"5"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "255"
+        "falloffEnd"      "256"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+	
+	
+	"wave"			"Maps/Wargames/Emitters/Wargames_Emit_MCOR_Intro_HighPass_2ch_v4_01_LP.wav"
+	}
+}
+
+
+"Wargames_Emit_MCOR_Intro_LowPass"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Wargames"
+	"flags"			"loop,layered"
+	
+	
+	"rndwave"
+	{
+	"pitch"			"100"
+	"limit"				"1"
+	"volume"			"7"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "255"
+        "falloffEnd"      "256"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+	
+	
+	"wave"			"Maps/Wargames/Emitters/Wargames_Emit_MCOR_Intro_LowPass_2ch_v4_01_LP.wav"
+	}
+}
+
+"Wargames_Emit_DigitalDistortion_v1"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Wargames"
+	"flags"			"loop"
+	"radius"		"1000"
+	
+	
+	"rndwave"
+	{
+	"volume"		"3.0"
+	"pitch"			"82"
+	"maxrange"		"1000"
+	
+	"limit"				"3"
+	
+	"wave"			"Maps/Wargames/Emitters/AMB_Emit_DigitalDistortion_1ch_v1_01_LP.wav"
+//	"wave"			"Maps/Wargames/Emitters/AMB_Emit_DigitalDistortion_1ch_v1_02_LP.wav"
+	"wave"			"Maps/Wargames/Emitters/AMB_Emit_DigitalDistortion_1ch_v1_03_LP.wav"
+//	"wave"			"Maps/Wargames/Emitters/AMB_Emit_DigitalDistortion_1ch_v1_04_LP.wav"
+	"wave"			"Maps/Wargames/Emitters/AMB_Emit_DigitalDistortion_1ch_v1_05_LP.wav"
+	"wave"			"Maps/Wargames/Emitters/AMB_Emit_DigitalDistortion_1ch_v1_06_LP.wav"
+	"wave"			"Maps/Wargames/Emitters/AMB_Emit_DigitalDistortion_1ch_v1_07_LP.wav"
+	}
+}
+
+
+"Wargames_Emit_DigitalDistortion_v2"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Wargames"
+	"flags"			"loop"
+	"radius"		"1500"
+	
+	
+	"rndwave"
+	{
+	"volume"		"9.0"
+	"pitch"			"98,103"
+	"maxrange"		"1500"
+	
+	"limit"				"3"
+	
+	"wave"			"Maps/Wargames/Emitters/AMB_Emit_DigitalDistortion_1ch_v1_02_LP.wav"
+	}
+}
+
+
+"Wargames_Emit_DigitalDistortion_v3"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Wargames"
+	"flags"			"loop"
+	"radius"		"1500"
+	
+	
+	"rndwave"
+	{
+	"volume"		"9.0"
+	"pitch"			"98,103"
+	"maxrange"		"1500"
+	
+	"limit"				"3"
+	
+	"wave"			"Maps/Wargames/Emitters/AMB_Emit_DigitalDistortion_1ch_v1_03_LP.wav"
+	}
+}
+
+
+
+"Wargames_Emit_DigitalDistortion_v4"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Wargames"
+	"flags"			"loop"
+	"radius"		"1500"
+	
+	
+	"rndwave"
+	{
+	"volume"		"9.0"
+	"pitch"			"98,103"
+	"maxrange"		"1000"
+	
+	"limit"			"4"
+	
+	"wave"			"Maps/Wargames/Emitters/AMB_Emit_DigitalDistortion_1ch_v1_04_LP.wav"
+	}
+}
+
+
+"Wargames_Emit_DigitalFloor"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Wargames"
+	"flags"			"loop"
+	"radius"		"650"
+	"falloff"		"4"
+	
+	
+	"rndwave"
+	{
+	"volume"		"5.5,6.0"
+	"pitch"			"85,115"
+	
+	"limit"				"3"
+	
+	"wave"			"Maps/Wargames/Emitters/AMB_Emit_Digital_Floor_1ch_01.wav"
+	"wave"			"Maps/Wargames/Emitters/AMB_Emit_Digital_Floor_1ch_02.wav"
+	"wave"			"Maps/Wargames/Emitters/AMB_Emit_Digital_Floor_1ch_03.wav"
+
+	}
+}
+
+"Wargames_Emit_DigitalWall"
+{
+	"mixgroup"			"SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Wargames"
+	"volume"			"2"
+	"radius"			"800"
+	"falloff"			"1"
+	"flags"				"loop"
+	
+	
+	"rndwave"
+	{
+		"volume"			"6.5,7.0"
+		"pitch"				"75,85"
+		
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"5"
+		"limit"				"3"
+			"wave"				"Maps/NPE/Emitters/NPE_Scr_DigitalDoorPresence_LR_v1_LP.wav"
+	}
+}
+
+
+"Wargames_Emit_DigitalPit"
+{
+	"mixgroup"			"SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Wargames"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"2000"
+	"falloff"			"1"
+	"flags"				"loop"
+	
+	
+	"rndwave"
+	{
+		"volume"			"7"
+		"pitch"				"150,155"
+		"limit"				"3"
+		
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"100"
+			"wave"				"Maps/NPE/Emitters/Amb_NPE_INT_DigitalPit_2ch_v3_LP.wav"
+	}
+}
+
+
+"Wargames_Emit_SuccessDeck"
+{
+	"mixgroup"			"SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Wargames"
+	"volume"			"3"
+	"pitch"				"100"
+	"radius"			"600"
+	"falloff"			"4"
+	"flags"				"loop"
+	
+	
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"300"
+		"limit"				"3"
+		
+			"wave"				"Maps/NPE/Emitters/AMB_NPE_INT_SuccessDeck_LR_v1_LP.wav"
+	}
+}
+
+
+"Wargames_Emit_Fan_02"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Wargames"
+	"flags"			"loop"
+	"radius"		"700"
+	
+	
+	"rndwave"
+	{
+	"volume"		"4.0,4.5"
+	"pitch"			"80,120"
+	"flags"			"spatialized"
+	"panWidth"			"90"
+	"folddownDistance"	"80"
+	"limit"				"3"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_GeneratorLoop_LR_v3_LP.wav"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_FanLoop_LR_v1_LP.wav"
+	}
+}
+
+///////////////////
+//SCRIPTED EVENTS
+///////////////////
+
+"Wargames_Materialize"
+{
+
+	"mixgroup"			"SFX,SFX_UI"
+	"volumeScale"		"1.0"
+	"radius"			"1000"
+	"flags"				"noduck"
+
+	"rndwave"
+		{
+		"volume"			"3.5"
+		"pitch"				"100"
+		"limit"				"2"
+
+
+		"wave"				"maps/wargames/scripted/Wargames_Materialize_2ch_v3_01.wav"
+		}
+}
+
+"Wargames_MCOR_TitanActivate"
+{
+	"mixgroup"		"SFX,SFX_Scripted"
+	"volume"		"8.0"
+	"radius"		"1000"
+	"falloff"		"5"
+	"pitch"			"100"
+	
+	
+	"rndwave"
+	{
+	"limit"				"1"
+	"wave"				"maps/wargames/scripted/Wargames_MCOR_TitanActivate_1ch_01.wav"
+	}
+}

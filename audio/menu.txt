@@ -1,0 +1,1672 @@
+
+"Menu.Back"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			".55"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"ui/Menu/UI_Menu_Back_LR_v2.wav"
+	}
+}
+
+"Menu.Accept"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			".45"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"ui/Menu/UI_Menu_Select_LR_v2.wav"
+	}
+}
+
+"Menu.Invalid"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			".75"
+	"radius"			"0"
+	"pitch"				"100"
+	"wave"				"ui/menu_invalid.wav"
+}
+
+"Menu.Focus"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"0.1"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"ui/Menu/UI_Menu_Highlight_LR_v1.wav"
+	}
+}
+
+"Menu.Click"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"0.25"
+	"radius"			"0"
+	"pitch"				"100"
+		"wave"				"ui/Menu/UI_Menu_Highlight_LR_v1.wav"
+}
+
+"Menu.Deny"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"1.0"
+	"radius"			"0"
+	"pitch"				"100"
+	"rndwave"
+	{
+		"limit"				"2"
+		"wave"				"ui/UI_Menu_Deny_2ch_v2_01.wav"
+	}
+}
+
+"Menu.Mute.Deny"
+{
+	"radius"		"0"
+	"mixgroup"		"ui,SFX_UI,SFX_UI_Menu"
+	"volume"		"1.0"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"pitch"			"80"
+	"volume"		"0.3"
+	"wave"			"weapons/dryfires/Wpn_TitanGun_Dryfire_2ch_v2_01.wav"
+	}
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"pitch"			"125"
+	"volume"		"0.7"
+	"wave"			"exo/Titan_Cockpit_Damage_Beep_01.wav"
+	}
+}
+"Menu_Match_Countdown"
+{
+
+	"mixgroup"		"ui,SFX_UI,SFX_UI_Menu"
+	"volume"		"0.20"
+	"radius"		"0"
+	"pitch"			"100"
+
+	"rndwave"
+	{
+		"limit"			"1"
+		"wave"			"ui/loadout_click.wav"
+	}
+}
+
+"Menu_Timer_Tick"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"0.6"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"ui/Menu/UI_TimerCountdown_LR_v3.wav"
+	}
+}
+
+"Menu_Timer_LobbyCountdown_Tick"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"0.4"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"ui/Menu/UI_TimerCountdown_LR_v3.wav"
+	}
+}
+
+///////////// BURN CARD MENU ///////////////////
+
+"Menu_BurnCard_InspectOneCard"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"1"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"ui/Menu/UI_BurnCard_InspectOneCard_LR_v2.wav"
+	}
+}
+
+"Menu_BurnCard_InspectMultipleCards"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"1"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"ui/Menu/UI_BurnCard_InspectThreeCards_LR_v2.wav"
+	}
+}
+
+"Menu_BurnCard_MoveLeft"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"1"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/Menu/UI_BurnCard_MoveLeft_LR_v2.wav"
+	}
+}
+
+"Menu_BurnCard_MoveRight"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"1"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/Menu/UI_BurnCard_MoveRight_LR_v2.wav"
+	}
+}
+
+"Menu_BurnCard_SortToBottom"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"1"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"ui/Menu/UI_BurnCard_SortBottom_LR_v1.wav"
+	}
+}
+
+"Menu_BurnCard_SortToTop"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"1"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"ui/Menu/UI_BurnCard_SortTop_LR_v1.wav"
+	}
+}
+
+//////////// GAME SUMMARY SOUNDS //////////////////
+
+"Menu_GameSummary_ChallengeBarLoop"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"0.6"
+	"radius"			"0"
+	"pitch"				"140"
+	"flags"				"loop"
+
+	"rndwave"
+	{
+		"wave"				"ui/GameSummary/UI_GameSummary_LevelBarUp_LR_v3_LOOP.wav"
+	}
+}
+
+"Menu_GameSummary_LevelBarLoop"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"0.6"
+	"radius"			"0"
+	"pitch"				"100"
+	"flags"				"loop"
+
+	"rndwave"
+	{
+		"wave"				"ui/GameSummary/UI_GameSummary_LevelBarUp_LR_v3_LOOP.wav"
+	}
+}
+
+
+"Menu_GameSummary_LevelBar"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"1"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"ui/GameSummary/UI_GameSummary_LevelBarUp_LR_v1.wav"
+	}
+}
+
+
+"Menu_GameSummary_XPBarLoop"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"1"
+	"radius"			"0"
+	"pitch"				"100"
+	"flags"				"loop"
+
+	"rndwave"
+	{
+		"wave"				"ui/GameSummary/UI_GameSummary_XPNumbersUp_LR_v3_LOOP.wav"
+	}
+}
+
+"Menu_GameSummary_XPBar"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"0.15"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"ui/GameSummary/UI_GameSummary_XPNumbersUp_LR_v3.wav"
+	}
+}
+
+"Menu_GameSummary_ScreenSlideIn"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"1"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"ui/GameSummary/UI_GameSummary_SlideIn_LR_v3.wav"
+	}
+}
+
+"Menu_GameSummary_ChallengesBoxesSlam"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"0.6"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/GameSummary/UI_Reward_LevelUpPopup_LR_v1_split_3.wav"
+	}
+}
+
+"Menu_GameSummary_XPBonusesSlideIn"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"0.7"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"ui/GameSummary/UI_GameSummary_XPSlideIn_LR_v2.wav"
+	}
+}
+
+"Menu_GameSummary_Unlocks"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"0.8"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"ui/InGame/UI_Reward_LevelUpPopup_LR_v3_COMP.wav"
+	}
+}
+
+"Menu_GameSummary_LevelUp"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"1.2"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"ui/InGame/UI_Reward_LevelUpPopup_LR_v2_COMP.wav"
+	}
+}
+
+"Menu_GameSummary_ChallengeCompleted"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"1.6"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/InGame/UI_Reward_LevelUpPopup_LR_v4_COMP.wav"
+	}
+}
+
+"Menu_CampaignSummary_TitanUnlocked"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"2.0"
+	"radius"			"0"
+	"pitch"				"102"
+
+	"rndwave"
+	{
+		"limit"				"1"
+
+		"wave"				"ui/GameSummary/UI_Reward_TitanUnlocked_LR_v1.wav"
+	}
+}
+
+//////////// IN GAME UI SOUNDS //////////////////
+
+"Menu_TitanAIMode_Follow"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"6"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"ui/TitanModes/UI_Titan_GuardModeButton_2ch_v1_01.wav"
+	}
+}
+
+"Menu_TitanAIMode_Guard"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"6"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"ui/TitanModes/UI_Titan_GuardModeButton_2ch_v1_01.wav"
+	}
+}
+
+"Boundary_Warning_Loop"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"6"
+	"radius"			"0"
+	"pitch"				"100"
+	"flags"				"loop"
+
+	"rndwave"
+	{
+		"wave"				"ui/Boundary/UI_BoundaryWarning_LR_v4_LOOP.wav"
+	}
+}
+
+"UI_InGame_LevelUp"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"4.0"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+
+		"ducks"				"SFX,0.7:0,1000,0,0"
+		"ducks"				"Music,0.7:0,1000,0,0"
+		"ducks"				"DIAL_Scripted_Dial_GruntSkits,0.7:0,1000,0,0"
+		"ducks"				"DIAL_TitanETA,0.7:0,1000,0,0"
+		"ducks"				"DIAL_LevelCommentary,0.7:0,1000,0,0"
+		"ducks"				"DIAL_BitchinBetty,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AMB,0.7:0,1000,0,0"
+
+		"wave"				"ui/InGame/UI_Reward_LevelUpPopup_LR_v9_Pt1_COMP.wav"
+	}
+
+		"rndwave"
+	{
+		"limit"				"1"
+		"delay"				"1060"
+		"wave"				"ui/InGame/UI_Reward_LevelUpPopup_LR_v9_Pt2_COMP.wav"
+	}
+}
+
+"UI_InGame_ChallengeProgress"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"3"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"ui/InGame/UI_Reward_LevelUpPopup_LR_v8_COMP.wav"
+	}
+}
+
+"UI_InGame_ChallengeCompleted"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"3.0"
+	"radius"			"0"
+	"pitch"				"102"
+
+	"rndwave"
+	{
+		"ducks"				"SFX,0.7:0,1000,0,0"
+		"ducks"				"Music,0.7:0,1000,0,0"
+		"ducks"				"DIAL_Scripted_Dial_GruntSkits,0.7:0,1000,0,0"
+		"ducks"				"DIAL_TitanETA,0.7:0,1000,0,0"
+		"ducks"				"DIAL_LevelCommentary,0.7:0,1000,0,0"
+		"ducks"				"DIAL_BitchinBetty,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AMB,0.7:0,1000,0,0"
+
+		"limit"				"1"
+
+		"wave"				"ui/InGame/UI_Reward_ChallengeCompleted_LR_Pt1_v1_COMP.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"1"
+
+		"wave"				"ui/InGame/UI_Reward_ChallengeCompleted_LR_Pt2_v1_COMP.wav"
+	}
+}
+
+"UI_InGame_SwitchingSides"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"2.8"
+	"radius"			"0"
+	"pitch"				"102"
+
+	"rndwave"
+	{
+			"wave"				"ui/InGame/UI_InGame_SwitchingSides_LR_v1_COMP.wav"
+	}
+}
+
+"UI_InGame_BurnCardEarned"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"3"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"ui/InGame/UI_Reward_BurnCardEarnedPopup_LR_v4b.wav"
+	}
+}
+
+"VDU_On"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"3"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"ui/InGame/UI_VDUOn_LR_Comp_v1.wav"
+	}
+}
+
+"VDU_Off"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"3"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"ui/InGame/UI_VDUOff_LR_Comp_v3.wav"
+	}
+}
+
+"UI_InGame_ActivateBurnCard"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"3.0"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/InGame/UI_InGame_BurnCardActivate_2ch_v2_01.wav"
+	}
+}
+
+"UI_InGame_BurnCardFlyin"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"3"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"wave"				"ui/InGame/UI_InGame_BurnCardFlyin_2ch_v1_01.wav"
+	}
+}
+
+"UI_InGame_MarkedForDeath_PlayerMarked"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"4.5"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+
+		"ducks"				"SFX,0.7:0,1000,0,0"
+		"ducks"				"Music,0.7:0,1000,0,0"
+		"ducks"				"DIAL_Scripted_Dial_GruntSkits,0.7:0,1000,0,0"
+		"ducks"				"DIAL_TitanETA,0.7:0,1000,0,0"
+		"ducks"				"DIAL_LevelCommentary,0.7:0,1000,0,0"
+		"ducks"				"DIAL_BitchinBetty,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AMB,0.7:0,1000,0,0"
+
+		"wave"				"null_2sec.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/InGame/UI_InGame_MarkedForDeath_PlayerMarked_2ch_Pt1_v1.wav"
+	}
+		"rndwave"
+	{
+		"limit"				"1"
+		"delay"				"0"
+		"wave"				"ui/InGame/UI_InGame_MarkedForDeath_PlayerMarked_2ch_Pt2_v1.wav"
+	}
+}
+
+"UI_InGame_MarkedForDeath_PlayerUnmarked"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"4.5"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+
+		"ducks"				"SFX,0.5:0,1000,0,0"
+		"ducks"				"Music,0.5:0,1000,0,0"
+		"ducks"				"DIAL_Scripted_Dial_GruntSkits,0.5:0,1000,0,0"
+		"ducks"				"DIAL_TitanETA,0.5:0,1000,0,0"
+		"ducks"				"DIAL_LevelCommentary,0.5:0,1000,0,0"
+		"ducks"				"DIAL_BitchinBetty,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AMB,0.5:0,1000,0,0"
+
+		"wave"				"ui/InGame/UI_InGame_MarkedForDeath_PlayerUnmarked_2ch_Pt1_v1.wav"
+	}
+
+		"rndwave"
+	{
+		"limit"				"1"
+		"delay"				"20"
+		"wave"				"ui/InGame/UI_InGame_MarkedForDeath_PlayerUnmarked_2ch_Pt2_v1.wav"
+	}
+}
+
+"UI_InGame_MarkedForDeath_MarkKilled"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"4.0"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+
+	"ducks"			"SFX_Weapons_Pilot_1P_Gunfire,0.3:0.0"
+	"ducks"			"SFX_Weapons_SingleShot_Pilot_1P_Gunfire,0.15:0.0"
+	"ducks"			"SFX_Weapons_Titan_1P_Gunfire,0.3:0.0"
+	"ducks"			"SFX_Weapons_SingleShot_Titan_1P_Gunfire,0.15:0.0"
+
+		"wave"				"null.wav"
+	}
+
+		"rndwave"
+	{
+		"limit"				"1"
+		"delay"				"1000"
+		"wave"				"null.wav"
+	}
+}
+
+"UI_InGame_MarkedForDeath_CountdownToMarked"
+{
+	"flags"			"drymix,nevercull,omni"
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default"
+	"volume"		"0.2"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+	"rndwave"
+	{
+		"limit"		"2"
+		"wave"				"ui/InGame/UI_InGame_MarkedForDeath_CountdownToMarked_2ch_v1.wav"
+	}
+}
+
+"UI_InGame_MarkedForDeath_CountdownToYouAreMarked"
+{
+	"flags"			"drymix,nevercull,omni"
+	"mixgroup"		"DIAL_AI,titan,DIAL,DIAL_BitchinBetty,DIAL_BitchinBetty_Default"
+	"volume"		"0.2"
+	"radius"		"0"
+ 	"ducks"			"all,0.41:200,1000,0,0"
+	"rndwave"
+	{
+		"limit"		"2"
+		"wave"				"ui/InGame/UI_InGame_MarkedForDeath_CountdownToYouAreMarked_2ch_v1.wav"
+	}
+}
+
+"UI_InGame_CoOp_WaveIncoming"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"3"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+
+		"ducks"				"SFX,0.7:0,1000,0,0"
+		"ducks"				"Music,0.7:0,1000,0,0"
+		"ducks"				"DIAL_Scripted_Dial_GruntSkits,0.7:0,1000,0,0"
+		"ducks"				"DIAL_TitanETA,0.7:0,1000,0,0"
+		"ducks"				"DIAL_LevelCommentary,0.7:0,1000,0,0"
+		"ducks"				"DIAL_BitchinBetty,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AMB,0.7:0,1000,0,0"
+
+		"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/InGame/UI_InGame_CoOp_WaveIncoming_2ch_v1.wav"
+	}
+
+}
+
+
+"UI_InGame_CoOp_ThreatIncoming_Title"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"1.5"
+	"radius"			"0"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/InGame/UI_InGame_CoOp_ThreatIncoming_Title_2ch_v1.wav"
+	}
+
+}
+
+"UI_InGame_CoOp_ThreatIncoming_SlideIn"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"1.5"
+	"radius"			"0"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"limit"				"2"
+		"wave"				"ui/InGame/UI_InGame_CoOp_ThreatIncoming_SlideIn_2ch_v1_01.wav"
+		"wave"				"ui/InGame/UI_InGame_CoOp_ThreatIncoming_SlideIn_2ch_v1_02.wav"
+		"wave"				"ui/InGame/UI_InGame_CoOp_ThreatIncoming_SlideIn_2ch_v1_03.wav"
+	}
+
+}
+
+"UI_InGame_CoOp_ThreatIncoming_SlideOut"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"2"
+	"radius"			"0"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"limit"				"2"
+		"wave"				"ui/InGame/UI_InGame_CoOp_ThreatIncoming_SlideOut_2ch_v1_01.wav"
+		"wave"				"ui/InGame/UI_InGame_CoOp_ThreatIncoming_SlideOut_2ch_v1_02.wav"
+		"wave"				"ui/InGame/UI_InGame_CoOp_ThreatIncoming_SlideOut_2ch_v1_03.wav"
+		"wave"				"ui/InGame/UI_InGame_CoOp_ThreatIncoming_SlideOut_2ch_v1_04.wav"
+	}
+
+}
+
+
+"UI_InGame_CoOp_WaveSurvived"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"4.2"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+
+		"ducks"				"SFX,0.7:0,1000,0,0"
+		"ducks"				"Music,0.7:0,1000,0,0"
+		"ducks"				"DIAL_Scripted_Dial_GruntSkits,0.7:0,1000,0,0"
+		"ducks"				"DIAL_TitanETA,0.7:0,1000,0,0"
+		"ducks"				"DIAL_LevelCommentary,0.7:0,1000,0,0"
+		"ducks"				"DIAL_BitchinBetty,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AMB,0.7:0,1000,0,0"
+
+		"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/InGame/UI_InGame_CoOp_WaveSurvived_2ch_v1.wav"
+	}
+
+}
+
+
+"UI_InGame_CoOp_PointSlider"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"2"
+	"radius"			"0"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"limit"				"2"
+		"wave"				"ui/InGame/UI_InGame_CoOp_PointSlider_2ch_v1_01.wav"
+	}
+
+}
+
+
+"UI_InGame_CoOp_Victory"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"4.5"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+
+		"ducks"				"SFX,0.5:0,1000,0,0"
+		"ducks"				"Music,0.5:0,1000,0,0"
+		"ducks"				"DIAL_Scripted_Dial_GruntSkits,0.5:0,1000,0,0"
+		"ducks"				"DIAL_TitanETA,0.5:0,1000,0,0"
+		"ducks"				"DIAL_LevelCommentary,0.5:0,1000,0,0"
+		"ducks"				"DIAL_BitchinBetty,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AMB,0.5:0,1000,0,0"
+
+		"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/InGame/UI_InGame_CoOp_Victory_2ch_v1_01.wav"
+	}
+
+}
+
+"UI_InGame_Coop_Defeat"
+// Game lost - no retries left
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"3"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+
+		"ducks"				"SFX,0.7:0,1000,0,0"
+		"ducks"				"Music,0.7:0,1000,0,0"
+		"ducks"				"DIAL_Scripted_Dial_GruntSkits,0.7:0,1000,0,0"
+		"ducks"				"DIAL_TitanETA,0.7:0,1000,0,0"
+		"ducks"				"DIAL_LevelCommentary,0.7:0,1000,0,0"
+		"ducks"				"DIAL_BitchinBetty,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AMB,0.7:0,1000,0,0"
+
+		"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/InGame/UI_InGame_CoOp_Defeat_2ch_v1.wav"
+	}
+
+}
+
+
+"UI_InGame_StarEarned_Slider"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"4.5"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+
+		"ducks"				"SFX,0.5:0,1000,0,0"
+		"ducks"				"Music,0.5:0,1000,0,0"
+		"ducks"				"DIAL_Scripted_Dial_GruntSkits,0.5:0,1000,0,0"
+		"ducks"				"DIAL_TitanETA,0.5:0,1000,0,0"
+		"ducks"				"DIAL_LevelCommentary,0.5:0,1000,0,0"
+		"ducks"				"DIAL_BitchinBetty,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AMB,0.5:0,1000,0,0"
+
+		"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/InGame/UI_InGame_StarEarned_First_2ch_v1_01.wav"
+	}
+
+}
+
+
+"UI_InGame_StarEarned_First"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"3.1"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+
+		"ducks"				"SFX,0.5:0,1000,0,0"
+		"ducks"				"Music,0.5:0,1000,0,0"
+		"ducks"				"DIAL_Scripted_Dial_GruntSkits,0.5:0,1000,0,0"
+		"ducks"				"DIAL_TitanETA,0.5:0,1000,0,0"
+		"ducks"				"DIAL_LevelCommentary,0.5:0,1000,0,0"
+		"ducks"				"DIAL_BitchinBetty,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AMB,0.5:0,1000,0,0"
+
+		"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/InGame/UI_InGame_StarEarned_First_2ch_v1_01.wav"
+	}
+
+}
+
+"UI_InGame_StarEarned_Second"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"3.1"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+
+		"ducks"				"SFX,0.5:0,1000,0,0"
+		"ducks"				"Music,0.5:0,1000,0,0"
+		"ducks"				"DIAL_Scripted_Dial_GruntSkits,0.5:0,1000,0,0"
+		"ducks"				"DIAL_TitanETA,0.5:0,1000,0,0"
+		"ducks"				"DIAL_LevelCommentary,0.5:0,1000,0,0"
+		"ducks"				"DIAL_BitchinBetty,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AMB,0.5:0,1000,0,0"
+
+		"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/InGame/UI_InGame_StarEarned_Second_2ch_v1_01.wav"
+	}
+
+}
+
+
+"UI_InGame_StarEarned_Third"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"3.1"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+
+		"ducks"				"SFX,0.5:0,1000,0,0"
+		"ducks"				"Music,0.5:0,1000,0,0"
+		"ducks"				"DIAL_Scripted_Dial_GruntSkits,0.5:0,1000,0,0"
+		"ducks"				"DIAL_TitanETA,0.5:0,1000,0,0"
+		"ducks"				"DIAL_LevelCommentary,0.5:0,1000,0,0"
+		"ducks"				"DIAL_BitchinBetty,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AMB,0.5:0,1000,0,0"
+
+		"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/InGame/UI_InGame_StarEarned_Third_2ch_v1_01.wav"
+	}
+
+}
+
+"UI_InGame_StarEarned_Empty"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"3.1"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+
+		"ducks"				"SFX,0.5:0,1000,0,0"
+		"ducks"				"Music,0.5:0,1000,0,0"
+		"ducks"				"DIAL_Scripted_Dial_GruntSkits,0.5:0,1000,0,0"
+		"ducks"				"DIAL_TitanETA,0.5:0,1000,0,0"
+		"ducks"				"DIAL_LevelCommentary,0.5:0,1000,0,0"
+		"ducks"				"DIAL_BitchinBetty,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AMB,0.5:0,1000,0,0"
+
+		"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/InGame/UI_InGame_StarEarned_Empty_2ch_v1_01.wav"
+	}
+
+}
+
+
+
+"UI_Lobby_StarEarned_First"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"2.9"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"delay"				"150"
+
+		"ducks"				"SFX,0.5:0,1000,0,0"
+		"ducks"				"Music,0.5:0,1000,0,0"
+		"ducks"				"DIAL_Scripted_Dial_GruntSkits,0.5:0,1000,0,0"
+		"ducks"				"DIAL_TitanETA,0.5:0,1000,0,0"
+		"ducks"				"DIAL_LevelCommentary,0.5:0,1000,0,0"
+		"ducks"				"DIAL_BitchinBetty,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AMB,0.5:0,1000,0,0"
+
+		"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"delay"				"530"
+		"wave"				"ui/InGame/UI_InGame_StarEarned_First_2ch_v1_01.wav"
+	}
+
+}
+
+"UI_Lobby_StarEarned_Second"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"2.9"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+
+		"ducks"				"SFX,0.5:0,1000,0,0"
+		"ducks"				"Music,0.5:0,1000,0,0"
+		"ducks"				"DIAL_Scripted_Dial_GruntSkits,0.5:0,1000,0,0"
+		"ducks"				"DIAL_TitanETA,0.5:0,1000,0,0"
+		"ducks"				"DIAL_LevelCommentary,0.5:0,1000,0,0"
+		"ducks"				"DIAL_BitchinBetty,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AMB,0.5:0,1000,0,0"
+
+		"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"delay"				"530"
+		"wave"				"ui/InGame/UI_InGame_StarEarned_Second_2ch_v1_01.wav"
+	}
+
+}
+
+
+"UI_Lobby_StarEarned_Third"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"2.9"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+
+		"ducks"				"SFX,0.5:0,1000,0,0"
+		"ducks"				"Music,0.5:0,1000,0,0"
+		"ducks"				"DIAL_Scripted_Dial_GruntSkits,0.5:0,1000,0,0"
+		"ducks"				"DIAL_TitanETA,0.5:0,1000,0,0"
+		"ducks"				"DIAL_LevelCommentary,0.5:0,1000,0,0"
+		"ducks"				"DIAL_BitchinBetty,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AMB,0.5:0,1000,0,0"
+
+		"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"delay"				"550"
+		"wave"				"ui/InGame/UI_InGame_StarEarned_Third_2ch_v1_01.wav"
+	}
+
+}
+
+"UI_Lobby_StarEarned_Empty"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"2.9"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+
+		"ducks"				"SFX,0.5:0,1000,0,0"
+		"ducks"				"Music,0.5:0,1000,0,0"
+		"ducks"				"DIAL_Scripted_Dial_GruntSkits,0.5:0,1000,0,0"
+		"ducks"				"DIAL_TitanETA,0.5:0,1000,0,0"
+		"ducks"				"DIAL_LevelCommentary,0.5:0,1000,0,0"
+		"ducks"				"DIAL_BitchinBetty,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.5:0,1000,0,0"
+		"ducks"				"DIAL_AMB,0.5:0,1000,0,0"
+
+		"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/InGame/UI_InGame_StarEarned_Empty_2ch_v1_01.wav"
+	}
+
+}
+
+"UI_InGame_CoOp_SentryGunAvailable"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"3.0"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+
+		"ducks"				"SFX,0.7:0,1000,0,0"
+		"ducks"				"Music,0.7:0,1000,0,0"
+		"ducks"				"DIAL_Scripted_Dial_GruntSkits,0.7:0,1000,0,0"
+		"ducks"				"DIAL_TitanETA,0.7:0,1000,0,0"
+		"ducks"				"DIAL_LevelCommentary,0.7:0,1000,0,0"
+		"ducks"				"DIAL_BitchinBetty,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AMB,0.7:0,1000,0,0"
+
+		"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/InGame/UI_InGame_CoOp_SentryGunAvailable_2ch_v1.wav"
+	}
+
+}
+
+"UI_InGame_CoOp_HarvesterDefenseFailed"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"4.5"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+
+		"ducks"				"SFX,0.7:0,1000,0,0"
+		"ducks"				"Music,0.7:0,1000,0,0"
+		"ducks"				"DIAL_Scripted_Dial_GruntSkits,0.7:0,1000,0,0"
+		"ducks"				"DIAL_TitanETA,0.7:0,1000,0,0"
+		"ducks"				"DIAL_LevelCommentary,0.7:0,1000,0,0"
+		"ducks"				"DIAL_BitchinBetty,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AMB,0.7:0,1000,0,0"
+
+		"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/InGame/UI_InGame_CoOp_HarvesterDefenseFailed_2ch_v1.wav"
+	}
+
+}
+
+"UI_InGame_CoOp_TryAgain"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"4.5"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+
+		"ducks"				"SFX,0.7:0,1000,0,0"
+		"ducks"				"Music,0.7:0,1000,0,0"
+		"ducks"				"DIAL_Scripted_Dial_GruntSkits,0.7:0,1000,0,0"
+		"ducks"				"DIAL_TitanETA,0.7:0,1000,0,0"
+		"ducks"				"DIAL_LevelCommentary,0.7:0,1000,0,0"
+		"ducks"				"DIAL_BitchinBetty,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AMB,0.7:0,1000,0,0"
+
+		"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/InGame/UI_InGame_CoOp_TryAgain_2ch_v1.wav"
+	}
+
+}
+
+
+"UI_InGame_TransitionToKillReplay"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"3.5"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+
+		"ducks"				"SFX,0.7:0,1000,0,0"
+		"ducks"				"DIAL_Scripted_Dial_GruntSkits,0.7:0,1000,0,0"
+		"ducks"				"DIAL_TitanETA,0.7:0,1000,0,0"
+		"ducks"				"DIAL_LevelCommentary,0.7:0,1000,0,0"
+		"ducks"				"DIAL_BitchinBetty,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AMB,0.7:0,1000,0,0"
+
+		"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/InGame/UI_InGame_TransitionToKillReplay_2ch_v1.wav"
+	}
+
+}
+
+"UI_Pilot_Regenerate"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"3"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"ducks"			"music,1.0:500,5000,0,0"
+
+		"wave"				"ui/Regen/Pilot_Regenerate_6ch_v1_01.wav"
+	}
+}
+
+
+// Aliases for controlling fades of dialogue, SFX, and music.
+
+"FADE_OUT_ALL_BUT_MUSIC"
+{
+	"volume"			"1"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"ducks"				"SFX,1.0a"
+	"ducks"				"DIAL_LevelCommentary,1.0a"
+	"ducks"				"DIAL_VDU,1.0a"
+	"ducks"				"DIAL_Commentary,1.0a"
+	"ducks"				"DIAL_BitchinBetty,1.0a"
+	"ducks"				"DIAL_AI,1.0a"
+	"ducks"				"DIAL_AMB,1.0a"
+
+	"wave"				"Silence_30sec.wav"
+}
+
+"FADE_OUT_ALL"
+{
+	"volume"			"1"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"ducks"				"SFX,1.0a"
+	"ducks"				"DIAL,1.0a"
+	"ducks"				"MUSIC,1.0a"
+
+	"wave"				"Silence_30sec.wav"
+}
+
+//////////////////////
+// RANK CHIP
+//////////////////////
+
+"UI_InGame_League_PromotionalTourMatch"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"2.0"
+	"radius"			"0"
+	"pitch"				"100"
+
+	"rndwave"
+	{
+		"limit"				"1"
+
+		"ducks"				"SFX,0.7:0,1000,0,0"
+		"ducks"				"Music,0.7:0,1000,0,0"
+		"ducks"				"DIAL_Scripted_Dial_GruntSkits,0.7:0,1000,0,0"
+		"ducks"				"DIAL_TitanETA,0.7:0,1000,0,0"
+		"ducks"				"DIAL_LevelCommentary,0.7:0,1000,0,0"
+		"ducks"				"DIAL_BitchinBetty,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AI,0.7:0,1000,0,0"
+		"ducks"				"DIAL_AMB,0.7:0,1000,0,0"
+
+		"wave"				"null.wav"
+	}
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/RankChip/UI_InGame_RankChip_Activate_2ch_v1_01.wav"
+	}
+
+}
+
+"UI_InGame_League_AboveGoal"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"2.5"
+	"radius"			"0"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/RankChip/UI_InGame_RankChip_BattlemarkEarned_2ch_v1_01.wav"
+	}
+
+}
+
+
+
+"UI_InGame_League_BelowGoal"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"2.5"
+	"radius"			"0"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/RankChip/UI_InGame_RankChip_BattlemarkLost_2ch_v1_01.wav"
+	}
+
+}
+
+"UI_Lobby_RankChip_Enable"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"1.2"
+	"radius"			"0"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/RankChip/UI_Lobby_RankChip_Activate_2ch_v2_01.wav"
+	}
+
+}
+
+"UI_Lobby_RankChip_Disable"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"1.2"
+	"radius"			"0"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/RankChip/UI_Lobby_RankChip_Deactivate_2ch_v2_01.wav"
+	}
+
+}
+
+
+"UI_RankedSummary_ScreenStart"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"1.8"
+	"radius"			"0"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/RankChip/UI_RankSummary_ScreenStart_2ch_v1_01.wav"
+	}
+
+}
+
+
+"UI_RankedSummary_CircleFill"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"2.5"
+	"radius"			"0"
+	"pitch"				"100"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/RankChip/UI_RankSummary_CircleFill_2ch_v1_01_LP.wav"
+	}
+
+}
+
+"UI_RankedSummary_CircleTick_Reached"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"2.5"
+	"radius"			"0"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/RankChip/UI_RankSummary_TickReached_2ch_v1_01.wav"
+	}
+
+}
+
+"UI_RankedSummary_BattleMark_Blinking"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"2.5"
+	"radius"			"0"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/RankChip/UI_RankSummary_MarkBlinking_2ch_v1_01.wav"
+	}
+
+}
+
+"UI_RankedSummary_BattleMark_Locked"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"2.2"
+	"radius"			"0"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/RankChip/UI_RankSummary_MarkLocked_2ch_v1_01.wav"
+	}
+
+}
+
+"UI_RankedSummary_CursorMove"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"2.5"
+	"radius"			"0"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/RankChip/UI_RankSummary_CursorMove_2ch_v1_01.wav"
+	}
+
+}
+
+"UI_RankedSummary_Promotion"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"2.5"
+	"radius"			"0"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/RankChip/UI_RankSummary_Promotion_2ch_v1_01.wav"
+	}
+
+}
+
+"UI_RankedSummary_Demotion"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"2.5"
+	"radius"			"0"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/RankChip/UI_RankSummary_Demotion_2ch_v1_01.wav"
+	}
+
+}
+
+"UI_RankedSummary_BattleMark_Break"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"2.2"
+	"radius"			"0"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/RankChip/UI_RankSummary_MarkBreak_2ch_v1_01.wav"
+	}
+
+}
+
+"UI_RankedSummary_BattleMark_Lost"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"2.2"
+	"radius"			"0"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/RankChip/UI_RankSummary_MarkLost_2ch_v1_01.wav"
+	}
+
+}
+
+"UI_RankedSummary_CircleFadeout"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"2.5"
+	"radius"			"0"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/RankChip/UI_RankSummary_CircleFadeout_2ch_v1_01.wav"
+	}
+
+}
+
+
+"UI_RankedSummary_GraphSliderSweetener"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"2.5"
+	"radius"			"0"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/RankChip/UI_RankSummary_GraphSliderSweetener_2ch_v1_01.wav"
+	}
+
+}
+
+"UI_RankedSummary_GraphSliderIndividual"
+{
+	"mixgroup"			"ui,SFX_UI,SFX_UI_Menu"
+	"volume"			"2.5"
+	"radius"			"0"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"limit"				"1"
+		"wave"				"ui/RankChip/UI_RankSummary_GraphSlider_2ch_v1_01.wav"
+	}
+
+}

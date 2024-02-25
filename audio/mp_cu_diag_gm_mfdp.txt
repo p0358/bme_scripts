@@ -1,0 +1,784 @@
+"diag_gm_mfdp_modeAnnc_mcor_Bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.6:200,1000,0,0"	
+	"ducks"			"music,0.6:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfdp/diag_gm_mfdp_modeAnnc_01_01_mcor_Bish.wav"
+
+	
+	}
+}
+
+
+"diag_gm_mfdp_modeAnnc_imc_Blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.6:200,1000,0,0"	
+	"ducks"			"music,0.6:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfdp/diag_gm_mfdp_modeAnnc_02_01_imc_Blisk.wav"
+
+	
+	}
+}
+
+
+"diag_gm_mfdp_teamAliveTwoImNotMark_imc_Blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.6:200,1000,0,0"	
+	"ducks"			"music,0.6:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfdp/diag_gm_mfdp_teamAliveTwoImNotMark_03_01_imc_Blisk.wav"
+
+	
+	}
+}
+
+
+"diag_gm_mfdp_teamAliveTwoImMark_imc_Blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.6:200,1000,0,0"	
+	"ducks"			"music,0.6:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfdp/diag_gm_mfdp_teamAliveTwoImMark_04_01_imc_Blisk.wav"
+
+	
+	}
+}
+
+
+"diag_gm_mfdp_pilotsAliveMarksOnly_imc_Blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.6:200,1000,0,0"	
+	"ducks"			"music,0.6:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfdp/diag_gm_mfdp_pilotsAliveMarksOnly_05_01_imc_Blisk.wav"
+
+	
+	}
+}
+
+
+"diag_gm_mfdp_enemyMarkIsAlone_imc_Blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.6:200,1000,0,0"	
+	"ducks"			"music,0.6:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfdp/diag_gm_mfdp_enemyMarkIsAlone_06_01_imc_Blisk.wav"
+
+	
+	}
+}
+
+
+"diag_gm_mfdp_enemyAliveTwo_imc_Blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.6:200,1000,0,0"	
+	"ducks"			"music,0.6:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfdp/diag_gm_mfdp_enemyAliveTwo_07_01_imc_Blisk.wav"
+
+	
+	}
+}
+
+
+"diag_gm_mfdp_teamAliveTwoImNotMark_mcor_Bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.6:200,1000,0,0"	
+	"ducks"			"music,0.6:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfdp/diag_gm_mfdp_teamAliveTwoImNotMark_08_01_mcor_Bish.wav"
+
+	
+	}
+}
+
+
+"diag_gm_mfdp_teamAliveTwoImMark_mcor_Bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.6:200,1000,0,0"	
+	"ducks"			"music,0.6:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfdp/diag_gm_mfdp_teamAliveTwoImMark_09_01_mcor_Bish.wav"
+
+	
+	}
+}
+
+
+"diag_gm_mfdp_pilotsAliveMarksOnly_mcor_Bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.6:200,1000,0,0"	
+	"ducks"			"music,0.6:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfdp/diag_gm_mfdp_pilotsAliveMarksOnly_10_01_mcor_Bish.wav"
+
+	
+	}
+}
+
+
+"diag_gm_mfdp_enemyMarkIsAlone_mcor_Bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.6:200,1000,0,0"	
+	"ducks"			"music,0.6:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfdp/diag_gm_mfdp_enemyMarkIsAlone_11_01_mcor_Bish.wav"
+
+	
+	}
+}
+
+
+"diag_gm_mfdp_enemyAliveTwo_mcor_Bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.6:200,1000,0,0"	
+	"ducks"			"music,0.6:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfdp/diag_gm_mfdp_enemyAliveTwo_12_01_mcor_Bish.wav"
+
+	
+	}
+}
+
+
+//Below are new aliases cloned out and repurposed from regular MFD
+//Some wavs are commented out due to kill replay occurring too quickly.
+
+
+"diag_gm_mfdp_youKilledMarkedShort_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_04_01_mcor_bish.wav"
+	
+	}
+}
+
+
+"diag_gm_mfdp_playerKilledMarkShort_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_48_01_mcor_bish.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_49_01_mcor_bish.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_50_01_mcor_bish.wav"
+//	"wave"	"dialogue_cu/mfd/diag_gm_marked_51_01_mcor_bish.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_52_01_mcor_bish.wav"
+	}
+}
+
+
+
+"diag_gm_mfdp_playerKilledManyShort_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_53_01_mcor_bish.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_54_01_mcor_bish.wav"		//borderline 2.5
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_55_01_mcor_bish.wav"		// 2.15
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_56_01_mcor_bish.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_57_01_mcor_bish.wav"		//borderline 2.57
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_58_01_mcor_bish.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_59_01_mcor_bish.wav"		//borderline 2.46
+	}
+}
+
+
+"diag_gm_mfdp_youKilledMarkedShort_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_04_01_imc_blisk.wav"
+	
+	}
+}
+
+
+"diag_gm_mfdp_playerKilledMarkShort_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_48_01_imc_blisk.wav"		// 2.185
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_49_01_imc_blisk.wav"		// 2.137
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_50_01_imc_blisk.wav"
+//	"wave"	"dialogue_cu/mfd/diag_gm_marked_51_01_imc_blisk.wav"		//too long 2.75
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_52_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_gm_mfdp_playerKilledManyShort_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_53_01_imc_blisk.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_54_01_imc_blisk.wav"		//2.15
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_55_01_imc_blisk.wav"
+//	"wave"	"dialogue_cu/mfd/diag_gm_marked_56_01_imc_blisk.wav"		//too long 2.78
+//	"wave"	"dialogue_cu/mfd/diag_gm_marked_57_01_imc_blisk.wav"		//too long 3.4
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_58_01_imc_blisk.wav"
+//	"wave"	"dialogue_cu/mfd/diag_gm_marked_59_01_imc_blisk.wav"		//too long 2.77
+	}
+}
+
+
+//SAFETY: CANNOT EXCEED 2.9s:
+
+
+"diag_gm_mfdp_markedTeammateKilledShort_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_05_01_mcor_bish.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_06_01_mcor_bish.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_07_01_mcor_bish.wav"
+	
+	}
+}
+
+
+"diag_gm_mfdp_notifyKilledFriendlyShort_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_34_01_mcor_bish.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_35_01_mcor_bish.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_36_01_mcor_bish.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_37_01_mcor_bish.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_38_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_gm_mfdp_markedEnemyKilledShort_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_08_01_mcor_bish.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_09_01_mcor_bish.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_10_01_mcor_bish.wav"
+	
+	}
+}
+
+
+"diag_gm_mfdp_notifyKilledEnemyShort_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_29_01_mcor_bish.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_30_01_mcor_bish.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_31_01_mcor_bish.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_32_01_mcor_bish.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_33_01_mcor_bish.wav"		//borderline 2.9 seconds
+	}
+}
+
+
+"diag_gm_mfdp_playerOutlastedMarkShort_mcor_bish"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_45_01_mcor_bish.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_46_01_mcor_bish.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_47_01_mcor_bish.wav"
+	}
+}
+
+
+"diag_gm_mfdp_markedTeammateKilledShort_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_05_01_imc_blisk.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_06_01_imc_blisk.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_07_01_imc_blisk.wav"
+	
+	}
+}
+
+"diag_gm_mfdp_notifyKilledFriendlyShort_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_34_01_imc_blisk.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_35_01_imc_blisk.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_36_01_imc_blisk.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_37_01_imc_blisk.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_38_01_imc_blisk.wav"
+	}
+}
+
+
+"diag_gm_mfdp_markedEnemyKilledShort_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_08_01_imc_blisk.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_09_01_imc_blisk.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_10_01_imc_blisk.wav"
+	
+	}
+}
+
+
+"diag_gm_mfdp_notifyKilledEnemyShort_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_29_01_imc_blisk.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_30_01_imc_blisk.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_31_01_imc_blisk.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_32_01_imc_blisk.wav"
+//	"wave"	"dialogue_cu/mfd/diag_gm_marked_33_01_imc_blisk.wav"		//too long 3.0 seconds
+	}
+}
+
+
+"diag_gm_mfdp_playerOutlastedMarkShort_imc_blisk"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_MFDP"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:200,1000,0,0"	
+	"ducks"			"music,0.5:200,1000,0,0"	
+	"ducks"			"DIAL_AI,0.5:200,1000,0,0"
+	"ducks"			"DIAL_AMB,0.4:200,1000,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_45_01_imc_blisk.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_46_01_imc_blisk.wav"
+	"wave"	"dialogue_cu/mfd/diag_gm_marked_47_01_imc_blisk.wav"		//borderline 2.9s
+	}
+}
+

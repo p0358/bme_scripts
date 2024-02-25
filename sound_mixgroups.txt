@@ -1,0 +1,454 @@
+"all"
+{
+	"volume"			"0.16"
+	"pitch"				"1.0"
+	"radius"			"1.0"
+}
+
+
+//////////////
+//MIX GROUPS
+//////////////
+
+"SFX"
+{
+"volume"			"0.54"
+}
+	"SFX_Weapons"{"volume"			"1"}
+		"SFX_Weapons_AI"{}
+			"SFX_Weapons_AI_Gunfire"			{"volume"			"0.9"
+												"radius"			"1.7"}
+			"SFX_Weapons_AI_Environment"{}
+			"SFX_Weapons_AI_Reloads"{}
+			"SFX_Weapons_AI_Handling"{}
+		"SFX_Weapons_Pilot_1P"					{"volume"			"1.1" "radius"			"1.5"}
+			"SFX_Weapons_Pilot_1P_Gunfire"{"radius"			"1.2"}
+				"SFX_Weapons_Pilot_1P_Gunfire_Sniper"{"volume"			"1.5"}
+				"SFX_Weapons_Pilot_1P_Gunfire_DMR"{"volume"			"1.4"}
+				"SFX_Weapons_Pilot_1P_Gunfire_R101"{"radius"			"1.1"}
+				"SFX_Weapons_Pilot_1P_Gunfire_Hemlok"{"volume"			"1.5" "radius"			"1.25"}
+				"SFX_Weapons_Pilot_1P_Gunfire_G2A4"{"volume"			"1.0" "radius"			".9"}
+				"SFX_Weapons_Pilot_1P_Gunfire_LMG"{"volume"			"0.9"}
+				"SFX_Weapons_Pilot_1P_Gunfire_Sidewinder"{"volume"			"1.5"}
+				"SFX_Weapons_Pilot_1P_Gunfire_MGL"{"volume"			"1.8"  "radius"			".75"}
+				"SFX_Weapons_Pilot_1P_Gunfire_Archer"{}
+				"SFX_Weapons_Pilot_1P_Gunfire_ChargeRifle"{"volume"			"1.4"}
+				"SFX_Weapons_Pilot_1P_Gunfire_SmartPistol"{"volume"			"1.5"}
+				"SFX_Weapons_Pilot_1P_Gunfire_R97"{"volume"			"1.3" "radius"			"1.1"}
+				"SFX_Weapons_Pilot_1P_Gunfire_Shotgun"{"volume"			"1.7"}
+				"SFX_Weapons_Pilot_1P_Gunfire_Car"{"volume"			"1.2" "radius"			"1"}
+				"SFX_Weapons_Pilot_1P_Gunfire_Wingman"{"volume"			"2.1"}
+				"SFX_Weapons_Pilot_1P_Gunfire_P2011"{"volume"			"1.2"}
+				"SFX_Weapons_Pilot_1P_Gunfire_RE45"{"volume"			"1.2"}
+				"SFX_Weapons_Pilot_1P_Gunfire_ArcGrenade"{}
+				"SFX_Weapons_Pilot_1P_Gunfire_FragGrenade"{}
+				"SFX_Weapons_Pilot_1P_Gunfire_SatchelCharge"{"volume"			"1.2"}
+				"SFX_Weapons_Pilot_1P_Gunfire_ProximityMine"{}
+			"SFX_Weapons_Pilot_1P_GunfireSuppressed"{"volume"			"1.65"}
+				"SFX_Weapons_Pilot_1P_GunfireSuppressed_SmartPistol"{}
+				"SFX_Weapons_Pilot_1P_GunfireSuppressed_R97"{}
+				"SFX_Weapons_Pilot_1P_GunfireSuppressed_Car"{}
+				"SFX_Weapons_Pilot_1P_GunfireSuppressed_R101"{}
+				"SFX_Weapons_Pilot_1P_GunfireSuppressed_DMR"{"volume"			"1.2"}
+				"SFX_Weapons_Pilot_1P_GunfireSuppressed_SG"{}
+				"SFX_Weapons_Pilot_1P_GunfireSuppressed_G2A4"{}
+				"SFX_Weapons_Pilot_1P_GunfireSuppressed_Car"{"volume"			"0.9"}
+				"SFX_Weapons_Pilot_1P_GunfireSuppressed_Hem"{"volume"			"1.3"}
+				"SFX_Weapons_Pilot_1P_GunfireSuppressed_Sniper"{}
+			"SFX_Weapons_Pilot_1P_Environment"{}
+			"SFX_Weapons_SingleShot_Pilot_1P_Gunfire"{}
+			"SFX_Weapons_SingleShotSuppressed_Pilot_1P_Gunfire"{}
+			"SFX_Weapons_SingleShot_Pilot_1P_Environment"{}
+			"SFX_Weapons_Pilot_1P_Reloads"{"volume"			"1.2"}
+				"SFX_Weapons_Pilot_1P_Reloads_Sniper"{}
+				"SFX_Weapons_Pilot_1P_Reloads_DMR"{}
+				"SFX_Weapons_Pilot_1P_Reloads_R101"{}
+				"SFX_Weapons_Pilot_1P_Reloads_Hemlok"{}
+				"SFX_Weapons_Pilot_1P_Reloads_G2A4"{}
+				"SFX_Weapons_Pilot_1P_Reloads_LMG"{}
+				"SFX_Weapons_Pilot_1P_Reloads_Sidewinder"{}
+				"SFX_Weapons_Pilot_1P_Reloads_MGL"{}
+				"SFX_Weapons_Pilot_1P_Reloads_Archer"{}
+				"SFX_Weapons_Pilot_1P_Reloads_ChargeRifle"{}
+				"SFX_Weapons_Pilot_1P_Reloads_SmartPistol"{}
+				"SFX_Weapons_Pilot_1P_Reloads_R97"{}
+				"SFX_Weapons_Pilot_1P_Reloads_Shotgun"{}
+				"SFX_Weapons_Pilot_1P_Reloads_Car"{}
+				"SFX_Weapons_Pilot_1P_Reloads_Wingman"{}
+				"SFX_Weapons_Pilot_1P_Reloads_P2011"{}
+				"SFX_Weapons_Pilot_1P_Reloads_RE45"{}
+			"SFX_Weapons_Pilot_1P_Handling"{}
+			"SFX_Weapons_Pilot_1P_Shells"{}
+		"SFX_Weapons_Titan_1P"{"radius"			"1.5"}
+			"SFX_Weapons_Titan_1P_Gunfire"{"volume"			"1.1"}
+				"SFX_Weapons_Titan_1P_Gunfire_40MM"{"volume"			"1.5"}
+				"SFX_Weapons_Titan_1P_Gunfire_ArcCannon"{"volume"			"1.2"}
+				"SFX_Weapons_Titan_1P_Gunfire_XO16"{"volume"			"0.75" "radius"			"1.25"}
+				"SFX_Weapons_Titan_1P_Gunfire_RocketLauncher"{}
+				"SFX_Weapons_Titan_1P_Gunfire_TripleThreat"{}
+				"SFX_Weapons_Titan_1P_Gunfire_TitanSniper"{"volume"			"1.1"}
+				"SFX_Weapons_Titan_1P_Gunfire_ShoulderHoming"{}
+				"SFX_Weapons_Titan_1P_Gunfire_ShoulderPaint"{"volume"			"1.1"}
+				"SFX_Weapons_Titan_1P_Gunfire_ShoulderDumb"{}
+				"SFX_Weapons_Titan_1P_Gunfire_ShoulderSalvo"{}
+			"SFX_Weapons_Titan_1P_Environment"{}
+			"SFX_Weapons_SingleShot_Titan_1P_Gunfire"{}
+			"SFX_Weapons_SingleShot_Titan_1P_Environment"{}
+			"SFX_Weapons_Titan_1P_Reloads"{"volume"			"0.9"}
+				"SFX_Weapons_Titan_1P_Reloads_40MM"{}
+				"SFX_Weapons_Titan_1P_Reloads_XO16"{}
+				"SFX_Weapons_Titan_1P_Reloads_RocketLauncher"{}
+				"SFX_Weapons_Titan_1P_Reloads_TripleThreat"{}
+				"SFX_Weapons_Titan_1P_Reloads_TitanSniper"{}
+			"SFX_Weapons_Titan_1P_Handling"{}
+		"SFX_Weapons_Pilot_3P"{}
+			"SFX_Weapons_Pilot_3P_Gunfire"{}
+			"SFX_Weapons_Pilot_3P_Environment"{}
+			"SFX_Weapons_Pilot_3P_Reloads"{}
+			"SFX_Weapons_Pilot_3P_Handling"{}
+		"SFX_Weapons_Titan_3P"{}
+			"SFX_Weapons_Titan_3P_Gunfire"{}
+			"SFX_Weapons_Titan_3P_Environment"{}
+			"SFX_Weapons_Titan_3P_Reloads"{}
+			"SFX_Weapons_Titan_3P_Handling"{}
+		"SFX_Weapons_Turrets"{}
+			"SFX_Weapons_Turrets_Gunfire"{}
+			"SFX_Weapons_Turrets_Environment"{}
+			"SFX_Weapons_Turrets_Other"{}
+		"SFX_Weapons_Ships"{}
+			"SFX_Weapons_Ships_Gunfire"{}
+			"SFX_Weapons_Ships_Environment"{}
+			"SFX_Weapons_Ships_Other"{}
+	"SFX_Player"{"volume"			"1.3"}
+		"SFX_Player_Pilot"{}
+			"SFX_Player_Pilot_Footsteps"			{"volume"			"1"}
+			"SFX_Player_Pilot_Foley"{}
+			"SFX_Player_Pilot_Jumpjet"{}
+			"SFX_Player_Pilot_Vocals"{}
+		"SFX_Player_Titan"{}
+			"SFX_Player_Titan_Footsteps"			{"volume"			"1.8"
+									 "radius"			"1"}
+			"SFX_Player_Titan_Movement"{"volume"			"1.8" "radius"			"1.5"}
+			"SFX_Player_Titan_Foley"{}
+			"SFX_Player_Titan_Cockpit"{}
+			"SFX_Player_Titan_Dash"{}
+	"SFX_Scripted"{}
+		"SFX_Scripted_Skits"{}
+		"SFX_Scripted_Story"{}
+		"SFX_Scripted_MP"{}
+		"SFX_Scripted_Airbase"{}
+		"SFX_Scripted_Fracture"{}
+		"SFX_Scripted_Boneyard"{}
+		"SFX_Scripted_Colony"{}
+		"SFX_Scripted_Corporate"{}
+		"SFX_Scripted_Lagoon"{}
+		"SFX_Scripted_Nexus"{}
+		"SFX_Scripted_NPE"{}
+		"SFX_Scripted_AngelCity"{}
+		"SFX_Scripted_Outpost207"{}
+			"SFX_Scripted_Outpost207_Railgun" {}
+		"SFX_Scripted_Overlook"{}
+		"SFX_Scripted_O2"{}
+		"SFX_Scripted_Corporate"{}
+		"SFX_Scripted_Relic"{}
+		"SFX_Scripted_Rise"{}
+		"SFX_Scripted_SmugglersCove"{}
+		"SFX_Scripted_TrainingGround"{}
+		"SFX_Scripted_Switchback"{}
+		"SFX_Scripted_DigSite"{}
+		"SFX_Scripted_Haven"{}
+	"SFX_3P"{}
+		"SFX_3P_Movement"{}
+			"SFX_3P_Movement_Spectres"{}
+			"SFX_3P_Movement_Marvins"{}
+			"SFX_3P_Movement_Grunts"{}
+			"SFX_3P_Movement_Pilots"{}
+			"SFX_3P_Movement_Titans"{}
+		"SFX_3P_Foley"{}
+			"SFX_3P_Foley_Spectres"{}
+			"SFX_3P_Foley_Marvins"{}
+			"SFX_3P_Foley_Grunts"{}
+			"SFX_3P_Foley_Pilots"{}
+			"SFX_3P_Foley_Titans"{}
+		"SFX_3P_Bodyfalls"{}
+			"SFX_3P_Bodyfalls_Spectres"			{"volume"			"1.5"}
+			"SFX_3P_Bodyfalls_Marvins"{}
+			"SFX_3P_Bodyfalls_Grunts"{}
+			"SFX_3P_Bodyfalls_Pilots"{}
+			"SFX_3P_Bodyfalls_Titans"{}
+		"SFX_3P_Footsteps"{}
+			"SFX_3P_Footsteps_Spectres"			{"volume"			"1.4"}
+			"SFX_3P_Footsteps_Marvins"{}
+			"SFX_3P_Footsteps_Grunts"			{"volume"			".75"}
+			"SFX_3P_Footsteps_Pilots"			{"volume"			"2.5"
+									"radius"			"0.75"}
+			"SFX_3P_Footsteps_Titans"			{"volume"			"3.1"
+									"pitch"				"1.0"
+									"radius"			"1.6"}
+
+	"SFX_AMB"							{"volume"			"1.8"}
+		"SFX_AMB_Beds"{"volume"			"1.3"}
+			"SFX_AMB_Beds_Fracture"{}
+			"SFX_AMB_Beds_AngelCity"{}
+			"SFX_AMB_Beds_Boneyard"{}
+			"SFX_AMB_Beds_Outpost207"{}
+			"SFX_AMB_Beds_Corporate"{}
+			"SFX_AMB_Beds_Colony"{}
+			"SFX_AMB_Beds_O2"{}
+			"SFX_AMB_Beds_Nexus"{}
+			"SFX_AMB_Beds_TrainingGround"{}
+			"SFX_AMB_Beds_Airbase"{}
+			"SFX_AMB_Beds_Lagoon"{}
+			"SFX_AMB_Beds_Relic"{}
+			"SFX_AMB_Beds_Rise"{}
+			"SFX_AMB_Beds_Overlook"{}
+			"SFX_AMB_Beds_SmugglersCove"{}
+			"SFX_AMB_Beds_NPE"{}
+			"SFX_AMB_Beds_Wargames"{}
+			"SFX_AMB_Beds_Swampland"{}
+			"SFX_AMB_Beds_Runoff"{}
+			"SFX_AMB_Beds_Switchback"{}
+			"SFX_AMB_Beds_DigSite"{}
+			"SFX_AMB_Beds_Haven"{}
+			"SFX_AMB_Beds_Sandtrap"{}
+			"SFX_AMB_Beds_Zone18"{}
+			"SFX_AMB_Beds_Backwater"{}
+		"SFX_AMB_Emitters"{}
+			"SFX_AMB_Emitters_Fracture"{}
+			"SFX_AMB_Emitters_AngelCity"{}
+			"SFX_AMB_Emitters_Boneyard"{}
+			"SFX_AMB_Emitters_Outpost207"{}
+			"SFX_AMB_Emitters_Corporate"{}
+			"SFX_AMB_Emitters_Colony"{}
+			"SFX_AMB_Emitters_O2"{}
+			"SFX_AMB_Emitters_Nexus"{}
+			"SFX_AMB_Emitters_Airbase"{}
+			"SFX_AMB_Emitters_TrainingGround"{}
+			"SFX_AMB_Emitters_Lagoon"{}
+			"SFX_AMB_Emitters_Relic"{}
+			"SFX_AMB_Emitters_Rise"{}
+			"SFX_AMB_Emitters_Overlook"{}
+			"SFX_AMB_Emitters_SmugglersCove"{}
+			"SFX_AMB_Emitters_NPE"{}
+			"SFX_AMB_Emitters_Wargames"{}
+			"SFX_AMB_Emitters_Swampland"{}
+			"SFX_AMB_Emitters_Runoff"{}
+			"SFX_AMB_Emitters_Switchback"{}
+			"SFX_AMB_Emitters_DigSite"{}
+			"SFX_AMB_Emitters_Haven"{}
+			"SFX_AMB_Emitters_Sandtrap"{}
+			"SFX_AMB_Emitters_Zone18"{}
+			"SFX_AMB_Emitters_Backwater"{}
+
+	"SFX_Impacts"{}
+		"SFX_Impacts_Explos"{}
+				"SFX_Impacts_1P_Hits_3P_Explosions"		{"volume"			"1.65"}
+				"SFX_Impacts_3P_Hits_1P_Explosions"{}
+				"SFX_Impacts_3P_Hits_3P_Explosions"		{"volume"			"1.32"
+														"radius"			"1"}
+		"SFX_Impacts_1P_Hits_3P"{}
+			"SFX_Impacts_1P_Hits_3P_Bullets"		{"volume"			".8"}
+		"SFX_Impacts_3P_Hits_1P"{}
+			"SFX_Impacts_3P_Hits_1P_Bullets"{}
+		"SFX_Impacts_3P_Hits_3P"{}
+			"SFX_Impacts_3P_Hits_3P_Bullets"		{"volume"			"0.8"}
+
+		"SFX_Impacts_1P_Hits_Environment"{}
+			"SFX_Impacts_1P_Hits_Environment_Bullets"{}
+			"SFX_Impacts_1P_Hits_Environment_Explosions"{}
+		"SFX_Impacts_3P_Hits_Environment"			{"volume"			"1.5"}
+			"SFX_Impacts_3P_Hits_Environment_Bullets"{}
+			"SFX_Impacts_3P_Hits_Environment_Explosions"{}
+		"SFX_Impacts_Deaths"{}
+		"SFX_Impacts_Whizbys"					{"volume"			"2"}
+		"SFX_Impacts_Physics"{}
+		"SFX_Impacts_TitanDamageStates"{}
+			"SFX_Impacts_TitanDamageStates_1P_Hits_3P"{}
+			"SFX_Impacts_TitanDamageStates_3P_Hits_1P"{}
+			"SFX_Impacts_TitanDamageStates_3P_Hits_3P"{}
+
+	"SFX_Vehicles"							{"volume"			"1.0"}
+		"SFX_Vehicles_Crows"{}
+		"SFX_Vehicles_Goblins"					{"volume"			"1.0"}
+		"SFX_Vehicles_Redeye"{}
+		"SFX_Vehicles_Megacarriers"{}
+		"SFX_Vehicles_DropPods"{}
+
+	"SFX_Gadgets"{}
+		"SFX_Gadgets_Cloak"{}
+		"SFX_Gadgets_DataKnife"{}
+		"SFX_Gadgets_Zipline"{}
+		"SFX_Gadgets_Throwables"{}
+		"SFX_Gadgets_Vortex"{}
+
+	"SFX_Ability"{}
+		"SFX_Ability_OrbitalStrike"{}
+		"SFX_Ability_SpectreDrop"{}
+		"SFX_Ability_BombingRun"{}
+		"SFX_Ability_OrbitalLaser"{}
+		"SFX_Ability_ElectricSmoke"{}
+		"SFX_Ability_ShieldWall"{}
+	"SFX_UI"{}
+		"SFX_UI_Menu"						{"volume"			"1.0"}
+	"SFX_Creatures"{}
+		"SFX_Creatures_Flyers"{}
+		"SFX_Creatures_Leviathans"{"volume"			".7"}
+	"SFX_Coop"{}
+"DIAL"
+{
+"volume"			".85"
+}
+	"DIAL_Scripted_Dial"						{"volume"			"3"}
+		"DIAL_Scripted_Dial_GruntSkits"{}
+	"DIAL_CTF"									{"volume"			"2.5"}
+	"DIAL_COOP"									{"volume"			"1.5"}
+	"DIAL_LTS"									{"volume"			"2.8"}
+	"DIAL_CTT"									{"volume"			"2.8"}
+	"DIAL_MFDP"									{"volume"			"2.8"}
+	"DIAL_8V8"									{"volume"			"2.8"}
+	"DIAL_TitanETA"								{"volume"			"2.4"}
+	"DIAL_Lobby"								{"volume"			"2.5"}
+		"DIAL_Lobby_IMC"{}
+		"DIAL_Lobby_Militia"{}
+	"DIAL_LevelCommentary"						{"volume"			"2.4"}
+		"DIAL_LevelCommentary_IMC"{}
+		"DIAL_LevelCommentary_Militia"{}
+	"DIAL_VDU"									{"volume"			"3.2"}
+		"DIAL_VDU_Bish"							{"volume"			"1.1"}
+		"DIAL_VDU_Sarah"						{"volume"			"1.1"}
+		"DIAL_VDU_MacAllan"{}
+		"DIAL_VDU_Dispatch"{}
+		"DIAL_VDU_ColonelGraves"{}
+		"DIAL_VDU_SergeantBlisk"{}
+		"DIAL_VDU_Spyglass"{}
+	"DIAL_Commentary"							{"volume"			"2.4"}
+		"DIAL_Commentary_Bish" {}
+		"DIAL_Commentary_Sarah" {}
+		"DIAL_Commentary_MacAllan"{}
+		"DIAL_Commentary_Dispatch"{}
+		"DIAL_Commentary_ColonelGraves"{}
+		"DIAL_Commentary_SergeantBlisk"{}
+		"DIAL_Commentary_Spyglass"{}
+	"DIAL_BitchinBetty"							{"volume"			"3.5"}
+		"DIAL_BitchinBetty_Default"{}
+		"DIAL_BitchinBetty_Jarvis"{}
+		"DIAL_BitchinBetty_Sexy"{}
+		"DIAL_BitchinBetty_Butler"				{"volume"			"1.20"}
+		"DIAL_BitchinBetty_NavEuro"				{"volume"			"1.25"}
+		"DIAL_BitchinBetty_Prototype"			{"volume"			"0.80"}
+		"DIAL_BitchinBetty_Breathy"				{"volume"			"1.10"}
+		"DIAL_BitchinBetty_Intl"				{"volume"			"0.90"}
+
+
+	"DIAL_AI"{}
+		"DIAL_AI_Battle"{"volume"			"2.1" "radius"			".9"}
+				"DIAL_AI_Battle_IMC"{"volume"			"1.5"}
+				"DIAL_AI_Battle_Militia"{}
+		"DIAL_AI_Couplets"{}
+			"DIAL_AI_Couplets_IMC"{}
+			"DIAL_AI_Couplets_Militia"{}
+		"DIAL_AI_HighCombat"{}
+			"DIAL_AI_HighCombat_IMC"{}
+			"DIAL_AI_HighCombat_IMC_Spectre"{}
+			"DIAL_AI_HighCombat_Militia"{}
+			"DIAL_AI_HighCombat_Militia_Spectre"{}
+		"DIAL_AI_MedCombat"{}
+			"DIAL_AI_MedCombat_IMC"{}
+			"DIAL_AI_MedCombat_Militia"{}
+		"DIAL_AI_Impacts"{}
+	"DIAL_AMB"{}
+		"DIAL_AMB_PA"{}
+		"DIAL_AMB_RelicShip"				{"volume"			"0.85"}
+		"DIAL_AMB_AngelCityPA"{}
+		"DIAL_AMB_AngelCityPsyOps"{}
+		"DIAL_AMB_OupostRailgunPA"			{"volume"			"3.0"}
+		"DIAL_AMB_AirbasePA"				{"volume"			"0.4"}
+		"DIAL_AMB_O2FemalePA"				{"volume"			"0.75"}
+		"DIAL_AMB_CorporateFemalePA"		{"volume"			"0.6"}
+		"DIAL_AMB_CorporateMuseumPA"		{"volume"			"0.7"}
+
+
+
+
+
+"MUSIC"
+{
+"volume"			"0.75"
+}
+	"MUSIC_Cinematic"{}
+		"MUSIC_Cinematic_NPE"{}
+		"MUSIC_Cinematic_Fracture"{}
+		"Music_Cinematic_Colony"{}
+		"Music_Cinematic_Relic"{}
+		"MUSIC_Cinematic_AngelCity"{}
+		"Music_Cinematic_Outpost"{}
+		"MUSIC_Cinematic_Boneyard"{}
+		"Music_Cinematic_Airbase"{}
+		"Music_Cinematic_O2"{}
+		"Music_Cinematic_Corporate"{}
+	"MUSIC_Gameplay"{}
+		"MUSIC_Gameplay_NPE"{}
+		"MUSIC_Gameplay_Fracture"{}
+		"Music_Gameplay_Colony"{}
+		"Music_Gameplay_Relic"{}
+		"MUSIC_Gameplay_AngelCity"{}
+		"Music_Gameplay_Outpost"{}
+		"MUSIC_Gameplay_Boneyard"{}
+		"Music_Gameplay_Airbase"{}
+		"Music_Gameplay_O2"{}
+		"Music_Gameplay_Corporate"{}
+		"Music_Gameplay_Lagoon"{}
+		"Music_Gameplay_Rise"{}
+		"Music_Gameplay_Overlook"{}
+		"Music_Gameplay_TrainingGround"{}
+		"Music_Gameplay_SmugglersCove"{}
+		"Music_Gameplay_Nexus"{}
+	"MUSIC_Action"{}
+		"MUSIC_Action_Militia"{}
+			"MUSIC_Action_Militia_Pilot"{}
+				"MUSIC_Action_Militia_Pilot_LOW"{"volume"			"1.2"}
+				"MUSIC_Action_Militia_Pilot_HIGH"{}
+			"MUSIC_Action_Militia_Titan"{}
+				"MUSIC_Action_Militia_Titan_LOW"{"volume"			"1.2"}
+				"MUSIC_Action_Militia_Titan_HIGH"{}
+		"MUSIC_Action_IMC"{}
+			"MUSIC_Action_IMC_Pilot"{}
+				"MUSIC_Action_IMC_Pilot_LOW"{}
+				"MUSIC_Action_IMC_Pilot_HIGH"{}
+			"MUSIC_Action_IMC_Titan"{}
+				"MUSIC_Action_IMC_Titan_LOW"{}
+				"MUSIC_Action_IMC_Titan_HIGH"{}
+	"MUSIC_ClassicMP"{}
+		"MUSIC_ClassicMP_Intro"{}
+			"MUSIC_ClassicMP_Intro_Militia"{}
+			"MUSIC_ClassicMP_Intro_IMC"{}
+		"MUSIC_ClassicMP_RoundEnd"{}
+			"MUSIC_ClassicMP_RoundEnd_Militia"{}
+			"MUSIC_ClassicMP_RoundEnd_IMC"{}
+
+"ENDING"
+{
+"volume"			"2.5"
+}
+
+//////////////
+//DUCK GROUPS
+//////////////
+
+"1stperson"{}
+"ambient"{}
+"cinematic"{}
+"FleshImpacts"{}
+"megathumper"{}
+"music"{}
+"player"{}
+"scripted"{}
+"titan"{}
+"ui"{}
+"vo"{}
+"voice"{}
+"weapon"{}
+"weapons"{}
+"E3_Start"{}
+
+

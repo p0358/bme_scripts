@@ -1,0 +1,2123 @@
+// CTF Game Mode Dialogue
+
+
+// Bish:
+
+
+"diag_mcor_bish_ctf_modeAnnc_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_modeAnnc_01.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_modeAnnc_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_modeAnnc_02.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_modeAnnc_03"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_modeAnnc_03.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_modeAnnc_04"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_modeAnnc_04.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_enemyHasOurFlag_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_enemyHasOurFlag_01.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_enemyHasOurFlag_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_enemyHasOurFlag_02.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_enemyHasOurFlag_03"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_enemyHasOurFlag_03.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_enemyHasOurFlag_04"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_enemyHasOurFlag_04.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_enemyHasOurFlag_05"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_enemyHasOurFlag_05.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_enemyHasOurFlag_06"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_enemyHasOurFlag_06.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_weTookEnemyFlag_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_weTookEnemyFlag_01.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_weTookEnemyFlag_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_weTookEnemyFlag_02.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_weTookEnemyFlag_03"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_weTookEnemyFlag_03.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_weTookEnemyFlag_04"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_weTookEnemyFlag_04.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_weTookEnemyFlag_05"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_weTookEnemyFlag_05.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_playerTookEnemyFlag_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_playerTookEnemyFlag_01.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_playerTookEnemyFlag_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_playerTookEnemyFlag_02.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_enemyCapturedOurFlag_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_enemyCapturedOurFlag_01.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_enemyCapturedOurFlag_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_enemyCapturedOurFlag_02.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_enemyCapturedOurFlag_03"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_enemyCapturedOurFlag_03.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_weCapturedEnemyFlag_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_weCapturedEnemyFlag_01.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_weCapturedEnemyFlag_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_weCapturedEnemyFlag_02.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_weCapturedEnemyFlag_03"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_weCapturedEnemyFlag_03.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_weDroppedEnemyFlag_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_weDroppedEnemyFlag_01.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_enemyDroppedOurFlag_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_enemyDroppedOurFlag_01.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_ourFlagReturned_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_ourFlagReturned_01.wav"
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_ourFlagReturned_01_d.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_ourFlagReturned_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_ourFlagReturned_02.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_enemyFlagReturned_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_enemyFlagReturned_01.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_enemyFlagReturned_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_enemyFlagReturned_02.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_flagReturnRemind_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_flagReturnRemind_01.wav"
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_flagReturnRemind_01_a.wav"
+	}
+}
+
+
+"diag_mcor_bish_ctf_flagReturnRemind_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_flagReturnRemind_02.wav"
+	}
+}
+
+
+
+
+// Blisk:
+
+
+"diag_imc_blisk_ctf_modeAnnc_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_modeAnnc_01.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_modeAnnc_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_modeAnnc_02.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_modeAnnc_03"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_modeAnnc_03.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_modeAnnc_04"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_modeAnnc_04.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_enemyHasOurFlag_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_enemyHasOurFlag_01.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_enemyHasOurFlag_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_enemyHasOurFlag_02.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_enemyHasOurFlag_03"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_enemyHasOurFlag_03.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_enemyHasOurFlag_04"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_enemyHasOurFlag_04.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_enemyHasOurFlag_05"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_enemyHasOurFlag_05.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_enemyHasOurFlag_06"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_enemyHasOurFlag_06.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_weTookEnemyFlag_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_weTookEnemyFlag_01.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_weTookEnemyFlag_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_weTookEnemyFlag_02.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_weTookEnemyFlag_03"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_weTookEnemyFlag_03.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_weTookEnemyFlag_04"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_weTookEnemyFlag_04.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_weTookEnemyFlag_05"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_weTookEnemyFlag_05.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_playerTookEnemyFlag_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_playerTookEnemyFlag_01.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_playerTookEnemyFlag_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_playerTookEnemyFlag_02.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_enemyCapturedOurFlag_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_enemyCapturedOurFlag_01.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_enemyCapturedOurFlag_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_enemyCapturedOurFlag_02.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_enemyCapturedOurFlag_03"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_enemyCapturedOurFlag_03.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_weCapturedEnemyFlag_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_weCapturedEnemyFlag_01.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_weCapturedEnemyFlag_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_weCapturedEnemyFlag_02.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_weCapturedEnemyFlag_03"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_weCapturedEnemyFlag_03.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_weDroppedEnemyFlag_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_weDroppedEnemyFlag_01.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_enemyDroppedOurFlag_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_enemyDroppedOurFlag_01.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_ourFlagReturned_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_ourFlagReturned_01.wav"
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_ourFlagReturned_01_a.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_ourFlagReturned_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_ourFlagReturned_02.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_enemyFlagReturned_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_enemyFlagReturned_01.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_enemyFlagReturned_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_enemyFlagReturned_02.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_flagReturnRemind_01"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_flagReturnRemind_01.wav"
+	}
+}
+
+
+"diag_imc_blisk_ctf_flagReturnRemind_02"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_flagReturnRemind_02.wav"
+	}
+}
+
+// #ADD Grouped Aliases
+
+"diag_mcor_bish_ctf_enemyHasOurFlag_grp"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_enemyHasOurFlag_01.wav"
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_enemyHasOurFlag_02.wav"
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_enemyHasOurFlag_03.wav"
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_enemyHasOurFlag_04.wav"
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_enemyHasOurFlag_05.wav"
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_enemyHasOurFlag_06.wav"
+	
+	}
+}
+
+
+"diag_mcor_bish_ctf_weTookEnemyFlag_grp"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_weTookEnemyFlag_01.wav"
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_weTookEnemyFlag_02.wav"
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_weTookEnemyFlag_03.wav"
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_weTookEnemyFlag_04.wav"
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_weTookEnemyFlag_05.wav"
+	
+	}
+}
+
+
+"diag_mcor_bish_ctf_playerTookEnemyFlag_grp"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_playerTookEnemyFlag_01.wav"
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_playerTookEnemyFlag_02.wav"
+	
+	}
+}
+
+
+
+"diag_mcor_bish_ctf_enemyCapturedOurFlag_grp"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_enemyCapturedOurFlag_01.wav"
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_enemyCapturedOurFlag_02.wav"
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_enemyCapturedOurFlag_03.wav"
+	
+	}
+}
+
+
+
+
+"diag_mcor_bish_ctf_weCapturedEnemyFlag_grp"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_weCapturedEnemyFlag_01.wav"
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_weCapturedEnemyFlag_02.wav"
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_weCapturedEnemyFlag_03.wav"
+	
+	}
+}
+
+
+"diag_mcor_bish_ctf_weDroppedEnemyFlag_grp"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_weDroppedEnemyFlag_01.wav"
+	
+	}
+}
+
+
+"diag_mcor_bish_ctf_enemyDroppedOurFlag_grp"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_enemyDroppedOurFlag_01.wav"
+	
+	}
+}
+
+
+"diag_mcor_bish_ctf_ourFlagReturned_grp"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_ourFlagReturned_01.wav"
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_ourFlagReturned_02.wav"
+	
+	}
+}
+
+
+"diag_mcor_bish_ctf_enemyFlagReturned_grp"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_enemyFlagReturned_01.wav"
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_enemyFlagReturned_02.wav"
+	
+	}
+}
+
+"diag_mcor_bish_ctf_flagReturnRemind_grp"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_flagReturnRemind_01.wav"
+	"wave"	"dialogue/CTF/diag_mcor_bish_ctf_flagReturnRemind_02.wav"
+	
+	}
+}
+
+// #ADD Blisk group aliases
+
+
+
+"diag_imc_blisk_ctf_enemyHasOurFlag_grp"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_enemyHasOurFlag_01.wav"
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_enemyHasOurFlag_02.wav"
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_enemyHasOurFlag_03.wav"
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_enemyHasOurFlag_04.wav"
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_enemyHasOurFlag_05.wav"
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_enemyHasOurFlag_06.wav"
+	
+	}
+}
+
+
+"diag_imc_blisk_ctf_weTookEnemyFlag_grp"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_weTookEnemyFlag_01.wav"
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_weTookEnemyFlag_02.wav"
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_weTookEnemyFlag_03.wav"
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_weTookEnemyFlag_04.wav"
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_weTookEnemyFlag_05.wav"
+	
+	}
+}
+
+
+"diag_imc_blisk_ctf_playerTookEnemyFlag_grp"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_playerTookEnemyFlag_01.wav"
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_playerTookEnemyFlag_02.wav"
+	
+	}
+}
+
+
+
+"diag_imc_blisk_ctf_enemyCapturedOurFlag_grp"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_enemyCapturedOurFlag_01.wav"
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_enemyCapturedOurFlag_02.wav"
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_enemyCapturedOurFlag_03.wav"
+	
+	}
+}
+
+
+
+"diag_imc_blisk_ctf_weCapturedEnemyFlag_grp"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_weCapturedEnemyFlag_01.wav"
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_weCapturedEnemyFlag_02.wav"
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_weCapturedEnemyFlag_03.wav"
+	
+	}
+}
+
+
+"diag_imc_blisk_ctf_weDroppedEnemyFlag_grp"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_weDroppedEnemyFlag_01.wav"
+	
+	}
+}
+
+
+"diag_imc_blisk_ctf_enemyDroppedOurFlag_grp"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_enemyDroppedOurFlag_01.wav"
+	
+	}
+}
+
+
+"diag_imc_blisk_ctf_ourFlagReturned_grp"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_ourFlagReturned_01.wav"
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_ourFlagReturned_02.wav"
+	
+	}
+}
+
+
+"diag_imc_blisk_ctf_enemyFlagReturned_grp"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_enemyFlagReturned_01.wav"
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_enemyFlagReturned_02.wav"
+	
+	}
+}
+
+"diag_imc_blisk_ctf_flagReturnRemind_grp"
+{
+
+	"flags"			"drymix,noduck"
+	"mixgroup"		"vo,DIAL,DIAL_CTF"
+	"volume"		"1.2"
+	"radius"		"0"
+	
+	"ducks"			"SFX,0.5:30.0,100.0,0,0"	
+	"ducks"			"music,0.5:30.0,100.0,0,0"	
+	"ducks"			"DIAL_AI,0.5:30.0,100.0,0,0"
+	"ducks"			"DIAL_AMB,0.4:30.0,100.0,0,0"
+	
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 1.2"
+			"1"	"R, 1.2"
+		}
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_flagReturnRemind_01.wav"
+	"wave"	"dialogue/CTF/diag_imc_blisk_ctf_flagReturnRemind_02.wav"
+	
+	}
+}

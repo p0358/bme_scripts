@@ -1,0 +1,195 @@
+////////////////////
+// GLOBAL AMBIENCE /
+////////////////////
+
+"Amb_Lagoon_EXT_Global"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Lagoon"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"1.8"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Lagoon/Ambience/AMB_Lagoon_EXT_Global_6ch_v1_LP_COMP.wav"
+	}
+}
+
+"Amb_Lagoon_INT_Temple"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Lagoon"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"5.0"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Lagoon/Ambience/AMB_Lagoon_INT_Temple_6ch_v1_LP.wav"
+	}
+}
+
+
+"Amb_Lagoon_INT_SmallRoom"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Lagoon"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"3.0"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Lagoon/Ambience/AMB_Lagoon_INT_SmallRoom_6ch_v1_LP.wav"
+	}
+}
+
+"Amb_Lagoon_INT_ClosedRoom"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Lagoon"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"4.0"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Lagoon/Ambience/AMB_Lagoon_INT_ClosedRoom_6ch_v1_LP.wav"
+	}
+}
+
+
+////////////////////
+// Emitters        //
+////////////////////
+
+"Amb_Lagoon_Emitter_WaterLap"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Lagoon"
+	"flags"			"loop"
+	"radius"		"700"
+	
+	
+	"rndwave"
+	{
+	"volume"		"1.0,1.5"
+	"pitch"			"80,120"
+	"limit"			"3"
+	
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLap_1ch_01.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLap_1ch_02.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLap_1ch_03.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLap_1ch_04.wav"
+	}
+}
+
+"Amb_Lagoon_Emitter_WaterLapShore"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Lagoon"
+	"flags"			"loop"
+	"radius"		"500"
+	
+	
+	"rndwave"
+	{
+	"volume"		"1.0,1.5"
+	"pitch"			"100,120"
+	"limit"			"3"
+	
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLapShore_1ch_01.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLapShore_1ch_02.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLapShore_1ch_03.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLapShore_1ch_04.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLapShore_1ch_05.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLapShore_1ch_06.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLapShore_1ch_07.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLapShore_1ch_08.wav"
+	}
+}
+
+"Amb_Lagoon_Emitter_WaterfallTop"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Lagoon"
+	"flags"			"loop"
+	"radius"		"2000"
+	
+	
+	"rndwave"
+	{
+	"volume"		"2.0"
+	"pitch"			"80,120"
+	
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterfallTop_1ch_01.wav"
+	}
+}
+
+"Amb_Lagoon_Emitter_WaterfallBottom" 
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Lagoon"
+	"flags"			"loop"
+	"radius"		"1500"
+	
+	
+	"rndwave"
+	{
+	"volume"		"2.0"
+	"pitch"			"80,120"
+	
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterfallBottom_1ch_01.wav"
+	}
+}
+
+"Amb_Lagoon_Emitter_Stream"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Lagoon"
+	"flags"			"loop"
+	"radius"		"1500"
+	
+	
+	"rndwave"
+	{
+	"volume"		"4.0,5.0"
+	"pitch"			"80,120"
+	
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_Stream_1ch_01.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_Stream_1ch_02.wav"
+	}
+}
+
+
+"Amb_Lagoon_Emitter_Birdflock"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Lagoon"
+	"radius"		"3000"
+	
+	
+	
+	"rndwave"
+	{
+	"volume"		"8.0,9.0"
+	"pitch"			"90,95"
+	
+	"wave"			"Maps/Lagoon/Emitters/Amb_Emit_Lagoon_BirdFlock_1ch_v1_01.wav"
+	"wave"			"Maps/Lagoon/Emitters/Amb_Emit_Lagoon_BirdFlock_1ch_v1_02.wav"
+	"wave"			"Maps/Lagoon/Emitters/Amb_Emit_Lagoon_BirdFlock_1ch_v1_03.wav"
+	"wave"			"Maps/Lagoon/Emitters/Amb_Emit_Lagoon_BirdFlock_1ch_v1_04.wav"
+	"wave"			"Maps/Lagoon/Emitters/Amb_Emit_Lagoon_BirdFlock_1ch_v1_05.wav"
+	}
+}
+///////////////////
+//		MUSIC
+///////////////////
+
+
+

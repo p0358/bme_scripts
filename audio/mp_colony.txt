@@ -1,0 +1,713 @@
+////////////////////
+// GLOBAL AMBIENCE /
+////////////////////
+
+"amb_colony_EXT_global"  {
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Colony"
+	"flags"			"omni, loop"
+	"radius"		"0"
+	"volume"		"0.7"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Colony/Ambience/AMB_Colony_EXT_Global_6ch_v1_LP.wav"
+	}
+
+}
+
+"AMB_Colony_INT_Default"  {
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Colony"
+	"flags"			"omni, loop"
+	"radius"		"0"
+	"volume"		"2.0"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Colony/Ambience/AMB_Colony_INT_Default_6ch_v1_LP.wav"
+	}
+
+}
+
+
+"AMB_Colony_INT_HalfOpen"  {
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Colony"
+	"flags"			"omni, loop"
+	"radius"		"0"
+	"volume"		"1.6"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Colony/Ambience/AMB_Colony_INT_HalfOpen_6ch_v1_LP.wav"
+	}
+
+}
+
+"AMB_Colony_INT_SmallRoom"  {
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Colony"
+	"flags"			"omni, loop"
+	"radius"		"0"
+	"volume"		"1.2"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Colony/Ambience/AMB_Colony_INT_SmallRoom_6ch_v1_LP.wav"
+	}
+
+}
+
+"AMB_Colony_INT_ClosedRoom"  {
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Colony"
+	"flags"			"omni, loop"
+	"radius"		"0"
+	"volume"		"3.0"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Colony/Ambience/AMB_Colony_INT_ClosedRoom_6ch_v1_LP.wav"
+	}
+
+}
+
+"AMB_Colony_EXT_LightRainLayer"  {
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Colony"
+	"flags"			"omni, loop, mobile"
+	"radius"		"0"
+	"volume"		"5.0"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Colony/Ambience/AMB_Colony_EXT_LightRainLayer_Short_6ch_v1_LP.wav"
+	}
+
+}
+
+"Colony_DistantThunder"  {
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Colony"
+	"flags"			"omni"
+	"radius"		"0"
+	"pitch"			"90,110"
+	"volume"		"0.8,1.2"
+
+	"wave"			"null.wav"
+
+}
+
+"Colony_DistantThunder_IntroBeat1"  {
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Colony"
+	"flags"			"mobile, omni"
+	"radius"		"0"
+	"pitch"			"90,110"
+	"volume"		"0.8,1.2"
+
+	"wave"			"null.wav"
+}
+
+
+"Colony_DistantThunder_IntroBeat2"  {
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Colony"
+	"flags"			"mobile, omni"
+	"radius"		"0"
+	"pitch"			"90,110"
+	"volume"		"0.8,1.2"
+
+	"wave"			"null.wav"
+
+}
+
+//////////////////////
+// IMC INTRO       //
+////////////////////
+
+"Colony_Scr_IMCIntro_FlyIn"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"4.7"
+	"radius"		"10000"
+	"falloff"		"5"
+	"pitch" 		"100"
+	"flags"				"mobile"
+
+	"rndwave"
+	{
+		"wave"		"campaign/colony/Colony_Scr_IMCIntro_Dropship_6ch_v1_01.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"	"4.3"
+		"wave"		"campaign/colony/Colony_Scr_IMCIntro_SlaughterScreams_6ch_v1_01.wav"
+	}
+}
+
+
+"Colony_Scr_BliskIntro_Foley_Part1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Colony"
+	"volume"		"3.7"
+	"radius"		"1000"
+	"falloff"		"0"
+	"pitch" 		"100"
+	"flags"			"mobile"
+
+	"rndwave"
+	{
+		"wave"		"campaign/colony/Colony_Scr_IMC_BliskIntroFoley_pt1_fr462_1ch_01.wav"
+	}
+}
+
+
+"Colony_Scr_BliskIntro_Foley_Part2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Colony"
+	"volume"		"3.7"
+	"radius"		"1000"
+	"falloff"		"0"
+	"pitch" 		"100"
+	"flags"			"mobile"
+
+	"rndwave"
+	{
+		"wave"		"campaign/colony/Colony_Scr_IMC_BliskIntroFoley_pt2_fr861_1ch_01.wav"
+	}
+}
+
+"Colony_Scr_BliskIntro_Foley_Part3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Colony"
+	"volume"		"3.7"
+	"radius"		"1000"
+	"falloff"		"0"
+	"pitch" 		"100"
+	"flags"			"mobile"
+
+	"rndwave"
+	{
+		"wave"		"campaign/colony/Colony_Scr_IMC_BliskIntroFoley_pt3_fr1206_1ch_01.wav"
+	}
+}
+
+
+
+"Colony_Scr_IMCIntro_Stratton1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"2"
+	"radius"		"10000"
+	"falloff"		"5"
+	"pitch" 		"100"
+
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"folddownDistance"	"400"
+
+		"wave"		"campaign/colony/Colony_Scr_Stratton1Hover_LR_v1.wav"
+	}
+}
+
+"Colony_Scr_IMCIntro_Stratton2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"2"
+	"radius"		"10000"
+	"falloff"		"5"
+	"pitch" 		"100"
+
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"folddownDistance"	"400"
+
+		"wave"		"campaign/colony/Colony_Scr_Stratton2Hover_LR_v1.wav"
+	}
+}
+
+"Colony_Scr_IMCIntro_Stratton3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"4"
+	"radius"		"10000"
+	"falloff"		"5"
+	"pitch" 		"100"
+
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"folddownDistance"	"400"
+
+		"wave"		"campaign/colony/Colony_Scr_Stratton3_Hover_LR_v1.wav"
+	}
+}
+
+"Colony_Scr_IMCIntro_Stratton4"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"3.5"
+	"radius"		"10000"
+	"falloff"		"5"
+	"pitch" 		"100"
+
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"folddownDistance"	"400"
+
+		"wave"		"campaign/colony/Colony_Scr_Stratton4_Hover_LR_v1.wav"
+	}
+}
+
+//////////////////////
+// MILITA INTRO       //
+////////////////////
+
+"Colony_Scr_MilitiaIntro_DropshipFlyinAmb" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted"
+	"volume"		"3.5"
+	"radius"		"5000"
+	"falloff"		"8"
+	"flags"				"mobile"
+
+	"rndwave"
+	{
+	"wave"			"campaign/Colony/Colony_Scr_MilitiaIntro_Dropship_6ch_v1.wav"
+	}
+}
+
+"Colony_Scr_MilitiaIntro_DropshipFlyaway" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted"
+	"volume"		"3.5"
+	"radius"		"15000"
+	"falloff"		"8"
+
+	"rndwave"
+	{
+	"limit"			"1" 				// Check hookup
+	"flags"			"spatialized"
+	"wave"			"campaign/Colony/Colony_Scr_MilitiaIntro_DropshipFlyaway_2ch_v1.wav"
+	}
+}
+
+
+"Colony_Scr_SarahIntro_Foley_Part1" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Colony"
+	"volume"		"4"
+	"radius"		"1000"
+
+	"rndwave"
+	{
+	"wave"			"campaign/Colony/Colony_Scr_MCOR_SarahIntroFoley_pt1_fr385_1ch_01.wav"
+	}
+}
+
+"Colony_Scr_SarahIntro_Foley_Part2" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Colony"
+	"volume"		"4"
+	"radius"		"1000"
+
+	"rndwave"
+	{
+	"wave"			"campaign/Colony/Colony_Scr_MCOR_SarahIntroFoley_pt2_fr617_1ch_01.wav"
+	}
+}
+
+"Colony_Scr_SarahIntro_Foley_Part3" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Colony"
+	"volume"		"4"
+	"radius"		"1000"
+
+	"rndwave"
+	{
+	"wave"			"campaign/Colony/Colony_Scr_MCOR_SarahIntroFoley_pt3_fr892_1ch_01.wav"
+	}
+}
+
+
+
+////////////////////
+// AMBIENT EMITTERS/
+////////////////////
+
+"spectre_palette_harness_open"
+{
+	"mixgroup"			"scripted,SFX,SFX_Scripted,SFX_Scripted_Colony"
+	"volume"			"5.2"
+	"pitch"				"100"
+	"falloff"			"2"
+	"radius"			"10000"
+	"flags"				"mobile"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"folddownDistance"	"400"
+		"minrange"			"0"
+		"maxrange"			"1900"
+		"limit"				"3"
+		"volume"			"4.2"
+
+			"wave"				"campaign/corporate/Corporate_Scr_MedBayRack_Offload_Spectre_2ch_v1_01.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_MedBayRack_Offload_Spectre_2ch_v1_02.wav"
+			"wave"				"campaign/corporate/Corporate_Scr_MedBayRack_Offload_Spectre_2ch_v1_03.wav"
+	}
+}
+
+"spectre_palette_lights_activate"
+{
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Colony"
+	"volume"		"7.8"
+	"radius"		"10000"
+	"falloff"		"5"
+	"pitch" 		"95,105"
+	"flags"			"mobile"
+
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"folddownDistance"	"400"
+
+		"wave"		"campaign/colony/Colony_Scr_SpectrePowerupLight2On_1_LR_v1.wav"
+		"wave"		"campaign/colony/Colony_Scr_SpectrePowerupLight2On_2_LR_v1.wav"
+		"wave"		"campaign/colony/Colony_Scr_SpectrePowerupLight2On_3_LR_v1.wav"
+	}
+}
+
+"colony_spectre_initialize_beep"
+{
+	"mixgroup"		"SFX,SFX_3P,SFX_3P_Movement,SFX_3P_Movement_Spectres"
+	"volume"		"3.2"
+	"flags"			"layered"
+
+	"rndwave"
+
+	{
+
+	"startDistance"     		"0"
+ 	"peakDistance"     		"0"
+ 	"startCurve"       		"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"2000"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+
+	"limit"			"2"
+
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Initialize_Beep_1ch_v1_01.wav"
+
+	}
+
+		"rndwave"
+
+	{
+
+	"pitch"						"60"
+	"startDistance"     		"0"
+ 	"peakDistance"     		"0"
+ 	"startCurve"       		"0"
+ 	"falloffStart"      		"0"
+ 	"falloffEnd"        		"2000"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+
+	"limit"			"2"
+
+		"wave"		"campaign/corporate/Corporate_Scr_Spectre_Initialize_Beep_1ch_v1_01.wav"
+
+	}
+}
+
+"amb_colony_fire_small"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Colony"
+	"volume"			"2"
+	"pitch"				"100"
+	"flags"				"mobile,loop,layered"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"2"
+		"limit"				"2"
+
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v1_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v2_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v3_LP_Crackle.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "800"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"2"
+		"limit"				"2"
+
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v1_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v2_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v3_LP_Flame.wav"
+	}
+
+}
+
+"amb_colony_fire_medium"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Colony"
+	"volume"			"2"
+	"pitch"				"100"
+	"flags"				"mobile,loop,layered"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"2"
+		"limit"				"2"
+
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v1_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v2_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v3_LP_Crackle.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "800"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"2"
+		"limit"				"2"
+
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v1_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v2_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v3_LP_Flame.wav"
+	}
+
+}
+
+"amb_colony_fire_large"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Colony"
+	"volume"			"2"
+	"pitch"				"100"
+	"flags"				"mobile,loop,layered"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"2"
+		"limit"				"2"
+
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Big_LR_v1_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Big_LR_v2_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Big_LR_v3_LP_Crackle.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "800"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"2"
+		"limit"				"2"
+
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Big_LR_v1_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Big_LR_v2_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Big_LR_v3_LP_Flame.wav"
+	}
+
+}
+
+////////////////////
+// MUSIC /
+////////////////////
+
+"Music_Colony_MCOR_Opening" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic,MUSIC_Cinematic_Colony"
+	"volume"		"2.6"
+	"radius"		"0"
+	"flags"			"music"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}	
+	"wave"			"music\Campaign\Colony\TF_Master_CY_Intro_MCOR_STMIX_88_BPM.wav"
+	}
+}
+
+"Music_Colony_IMC_Opening" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic,MUSIC_Cinematic_Colony"
+	"volume"		"4"
+	"radius"		"0"
+	"flags"			"music"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.5"
+			"1"		"LS,1.0"
+			"2"		"R,1.5"
+			"2"		"RS,1.0"			
+		}	
+	"wave"			"music\Campaign\Colony\TF_Master_CY_Intro_IMC_STMIX_120_BPM.wav"
+	}
+}
+
+
+"Music_Colony_MCOR_Win" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic,MUSIC_Gameplay_Colony"
+	"volume"		"2.1"
+	"radius"		"0"
+	"flags"			"music"
+	"ducks"			"SFX_AMB_Beds,0.8a:2,2,0,0"
+
+	"wave"			"music\Campaign\AngelCity\TF_AC_Epilogue_Win_TempTrack.wav"
+
+}
+
+"Music_Colony_MCOR_Lose" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic,MUSIC_Gameplay_Colony"
+	"volume"		"2.0"
+	"radius"		"0"
+	"flags"			"music"
+	"ducks"			"SFX_AMB_Beds,0.8a:2,2,0,0"
+
+	"wave"			"music\Campaign\AngelCity\TF_AC_Epilogue_Lose_TempTrack.wav"
+
+}
+
+"Music_Colony_IMC_Win" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic,MUSIC_Gameplay_Colony"
+	"volume"		"2.0"
+	"radius"		"0"
+	"flags"			"music"
+	"ducks"			"SFX_AMB_Beds,0.8a:2,2,0,0"
+
+	"wave"			"music\Campaign\AngelCity\TF_AC_Epilogue_Win_TempTrack.wav"
+
+}
+
+"Music_Colony_IMC_Lose" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic,MUSIC_Gameplay_Colony"
+	"volume"		"2.0"
+	"radius"		"0"
+	"flags"			"music"
+	"ducks"			"SFX_AMB_Beds,0.8a:2,2,0,0"
+
+	"wave"			"music\Campaign\AngelCity\TF_AC_Epilogue_Lose_TempTrack.wav"
+
+}
+
+
+////////////////////
+// INTRO - MILITIA
+////////////////////
+
+
+
+////////////////////
+// INTRO - IMC
+////////////////////

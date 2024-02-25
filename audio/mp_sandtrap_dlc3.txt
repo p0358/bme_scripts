@@ -1,0 +1,234 @@
+////////////////////
+// GLOBAL AMBIENCE /
+////////////////////
+
+"Amb_Sandtrap_EXT_Global"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Sandtrap"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"4.0"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"maps/Sandtrap/Ambience/AMB_Sandtrap_EXT_Global_6ch_v1_01_LP.wav"
+	}
+
+}
+
+
+"Amb_Sandtrap_INT_Global"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Sandtrap"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"4.0"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"maps/Sandtrap/Ambience/AMB_Sandtrap_INT_Global_6ch_v1_02_LP.wav"
+	}
+
+}
+
+
+
+///////////////////
+//		EMITTERS
+///////////////////
+
+
+
+"amb_sandtrap_emitter_lappingwater_v1"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Sandtrap"
+	"flags"			"loop"
+	"radius"		"500"
+	"volume"		"2"
+	"pitch"			"95,105"
+
+
+	"rndwave"
+	{
+		"limit"				"3"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_01.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_02.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_03.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_04.wav"
+	}
+
+}
+
+"amb_sandtrap_emitter_lappingwater_v2"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Sandtrap"
+	"flags"			"loop"
+	"radius"		"500"
+	"volume"		"2"
+	"pitch"			"95,105"
+
+
+	"rndwave"
+	{
+		"limit"				"3"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_05.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_06.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_07.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_08.wav"
+
+	}
+}
+
+"amb_sandtrap_emitter_lappingwater_v3"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Sandtrap"
+	"flags"			"loop"
+	"radius"		"500"
+	"volume"		"2"
+	"pitch"			"95,105"
+
+
+	"rndwave"
+	{
+		"limit"				"3"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_09.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_10.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_11.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_12.wav"
+
+
+	}
+}
+
+
+
+"amb_sandwater_emitter_sparks"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Sandtrap"
+	"flags"			"mobile,loop"
+	"radius"		"600"
+	"volume"		"2.5"
+	"pitch"			"95,105"
+
+
+	"rndwave"
+	{
+	"limit"			"2"
+	"wave"			"Maps/Haven/Ambient/Haven_Emitter_ElectricalGrind_1ch_v4_01.wav"
+	"wave"			"Maps/Haven/Ambient/Haven_Emitter_ElectricalGrind_1ch_v4_02.wav"
+
+	}
+}
+
+"amb_sandtrap_emitter_giantpump"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Sandtrap"
+	"flags"			"loop"
+	"radius"		"3000"
+	"volume"		"2.3"
+	"pitch"			"100"
+
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"folddownDistance"		"800"
+		"limit"			"2"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_GiantPump_2ch_v1_01.wav"
+
+	}
+}
+
+"amb_Sandtrap_emitter_longpipe"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Sandtrap"
+	"flags"			"loop"
+	"radius"		"1000"
+	"volumeScale"	"2.8"
+	"falloff"		"1"
+	"pitch"			"95,105"
+
+	"rndwave"
+	{
+		"limit"			"3"
+		"volume"		"6"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_Pipe_1ch_v1_01.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_Pipe_1ch_v1_02.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_Pipe_1ch_v1_03.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_Pipe_1ch_v1_04.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_Pipe_1ch_v1_05.wav"
+
+	}
+}
+
+
+"amb_sandtrap_emitter_steam_small"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Sandtrap"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"700"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"volume"			"5"
+		"pitch"				"80,120"
+		"limit"				"3"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Small_1ch_01_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Small_1ch_02_LP.wav"
+	}
+}
+
+"amb_sandtrap_emitter_steam_medium"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Sandtrap"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"700"
+	"falloff"			"4"
+	"flags"				"mobile,loop"
+
+
+	"rndwave"
+	{
+		"volume"			"5"
+		"pitch"				"80,120"
+		"limit"				"3"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Medium_1ch_01_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Medium_1ch_02_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Medium_1ch_03_LP.wav"
+	}
+}
+
+
+"amb_sandtrap_emitter_fan"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Sandtrap"
+	"flags"			"loop"
+	"radius"		"700"
+
+
+	"rndwave"
+	{
+	"volume"		"1.0,1.5"
+	"pitch"			"80,120"
+	"limit"				"3"
+
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_GeneratorLoop_LR_v3_LP.wav"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_FanLoop_LR_v1_LP.wav"
+	}
+}

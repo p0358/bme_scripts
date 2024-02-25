@@ -1,0 +1,2185 @@
+////////////////////
+// GLOBAL AMBIENCE /
+////////////////////
+
+"amb_boneyard_EXT_global"  {
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Boneyard"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"1.5"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Boneyard/Ambience/AMB_Boneyard_EXT_Global_6ch_v2_LP.wav"
+	}
+
+}
+
+"amb_boneyard_INT_HalfOpen"  {
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Boneyard"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"1.5"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Boneyard/Ambience/AMB_Boneyard_INT_HalfOpen_6ch_v1_LP.wav"
+	}
+
+}
+
+
+"amb_boneyard_INT_ClosedRoom"  {
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Boneyard"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"3.0"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Boneyard/Ambience/AMB_Boneyard_INT_ClosedRoom_6ch_v1_LP.wav"
+	}
+
+}
+
+////////////////////
+// MUSIC /
+////////////////////
+
+
+"Music_Boneyard_IMC_Opening" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic,MUSIC_Cinematic_Boneyard"
+	"volume"		"3.5"
+	"radius"		"0"
+	"flags"			"music"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}	
+	"wave"			"music\Campaign\Boneyard\TF_Master_BY_Intro_IMC_STMIX_95_BPM.wav"
+	}
+}
+
+"Music_Boneyard_Militia_Opening" {
+
+	"mixgroup"		"scripted,MUSIC,MUSIC_Cinematic,MUSIC_Cinematic_Boneyard"
+	"volume"		"2"
+	"radius"		"0"
+	"flags"			"music"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}	
+	"wave"			"music\Campaign\Boneyard\TF_Master_BY_Intro_MCOR_STMIX_83_BPM.wav"
+	}
+}
+
+
+////////////////////
+// IMC INTRO       //
+////////////////////
+
+"Boneyard_Scr_IMCIntro_FlyIn"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volume"		"4"
+	"radius"		"10000"
+	"falloff"		"5"
+	"pitch" 		"82"
+	"flags"			"mobile"
+
+	"rndwave"
+	{
+		"wave"		"campaign/boneyard/Boneyard_IMC_Flyin_6ch_a_v1.wav"
+	}
+}
+
+"Boneyard_Scr_BliskIntro_Foley_Part1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volume"		"4"
+	"radius"		"1000"
+	"falloff"		"0"
+	"pitch" 		"100"
+	"flags"			"mobile"
+
+	"rndwave"
+	{
+		"wave"		"campaign/boneyard/Boneyard_Scr_IMC_BliskIntroFoley_pt1_fr6_1ch_01.wav"
+	}
+}
+
+"Boneyard_Scr_BliskIntro_Foley_Part2"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volume"		"4"
+	"radius"		"1000"
+	"falloff"		"0"
+	"pitch" 		"100"
+	"flags"			"mobile"
+
+	"rndwave"
+	{
+		"wave"		"campaign/boneyard/Boneyard_Scr_IMC_BliskIntroFoley_pt2_fr234_1ch_01.wav"
+	}
+}
+
+"Boneyard_Scr_BliskIntro_Foley_Part3"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volume"		"4"
+	"radius"		"1000"
+	"falloff"		"0"
+	"pitch" 		"100"
+	"flags"			"mobile"
+
+	"rndwave"
+	{
+		"wave"		"campaign/boneyard/Boneyard_Scr_IMC_BliskIntroFoley_pt3_fr467_1ch_01.wav"
+	}
+}
+
+
+
+////////////////////
+// MILITIA INTRO  //
+////////////////////
+
+"Boneyard_Scr_MilitiaIntro_DropshipFlyinAmb" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted"
+	"volume"		"2"
+	"radius"		"5000"
+	"falloff"		"8"
+	"flags"			"mobile"
+
+	"rndwave"
+	{
+	"wave"			"campaign/Boneyard/Boneyard_Scr_MilitiaIntro_Dropship_6ch_v1.wav"
+	}
+}
+
+
+
+"Boneyard_Scr_MacAllanIntro_Foley_Part1"
+{
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volume"		"4"
+	"radius"		"1000"
+	"falloff"		"0"
+	"pitch" 		"100"
+	"flags"			"mobile"
+
+	"rndwave"
+	{
+		"wave"		"campaign/boneyard/Boneyard_Scr_MCOR_MacAllenIntroFoley_pt1_fr213_1ch_01.wav"
+	}
+}
+
+
+"Boneyard_Scr_MilitiaIntro_DropshipFlyaway" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted"
+	"volume"		"2"
+	"radius"		"25000"
+	"falloff"		"8"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+	"wave"			"campaign/Boneyard/Boneyard_Scr_MilitiaIntro_DropshipFlyaway_2ch_v1.wav"
+	}
+}
+
+////////////////////
+// TOWER AMBIENCE /
+////////////////////
+
+"Boneyard_tower_prefire"
+
+{
+
+	"volume"		"10.5"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_Turrets,SFX_Weapons_Turrets_Gunfire"
+	"flags"			"mobile,nevercull"
+	"radius"		"90000"
+	"falloff"		"0"
+
+	"wave"			"ambient/amb_outpost_cannon_prefire.wav"
+
+}
+
+"Boneyard_tower_fire"
+
+{
+
+	"volume"		"10.5"
+	"mixgroup"		"weapon,SFX,SFX_Weapons,SFX_Weapons_Turrets,SFX_Weapons_Turrets_Gunfire"
+	"flags"			"mobile,nevercull"
+	"radius"		"90000"
+	"falloff"		"0"
+
+	"wave"			"ambient/amb_outpost_cannon_fire.wav"
+
+}
+
+////////////////////
+// HARDPOINT EVENTS//
+////////////////////
+
+"boneyard_hardpoint_imc_overload_buildup"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"flags"				"layered,mobile"
+	"occlusionDuckScale"	"3"	
+
+	"rndwave"
+	{
+		"volume"			"5"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "2600"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_IMC_Overload_6ch_v1_01.wav"
+	}
+
+}
+
+"boneyard_hardpoint_imc_overload_electricity"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"flags"				"layered,mobile"
+	"occlusionDuckScale"	"3"	
+
+
+	"rndwave"
+	{
+		"volume"			"1.5,2"
+		"pitch"				"70,130"
+
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1600"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_Electricity_1ch_v1_01.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_Electricity_1ch_v1_02.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_Electricity_1ch_v1_03.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_Electricity_1ch_v1_04.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_Electricity_1ch_v1_05.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Hardpoint_Electricity_1ch_v1_06.wav"
+	}
+
+}
+
+
+////////////////////////////////////
+// CREATURES - LEVIATHAN         //
+//////////////////////////////////
+
+"Leviathan_Reaction_Small"
+{
+	"mixgroup"			"SFX,SFX_Creatures,SFX_Creatures_Leviathans"
+	"volumescale"			".8"
+	"pitch"				"85,120"
+	"flags"				"layered,nevercull"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"10000"
+		"limit"				"2"
+		"volume"			"7"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "5000000"
+        "falloffEnd"      "5000000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+		"clampVolume"       		"1"		
+
+			"wave"				"Creatures/Leviathans/Leviathan_BrayStart_2ch_v1_01.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_BrayStart_2ch_v1_02.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_BrayStart_2ch_v1_03.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_BrayStart_2ch_v1_04.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_BrayStart_2ch_v1_05.wav"
+			"wave"				"null1.wav"
+			"wave"				"null2.wav"
+			"wave"				"null3.wav"
+			"wave"				"null4.wav"
+			"wave"				"null5.wav"			
+	}
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"10000"
+		"limit"				"2"
+		"volume"			"7"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "5000000"
+        "falloffEnd"      "5000000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+		"clampVolume"       		"1"			
+
+			"wave"				"Creatures/Leviathans/Leviathan_Growl_2ch_v1_01.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_Growl_2ch_v1_02.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_Growl_2ch_v1_03.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_Growl_2ch_v1_04.wav"
+			"wave"				"null1.wav"
+			"wave"				"null2.wav"
+			"wave"				"null3.wav"
+			"wave"				"null4.wav"
+			"wave"				"null5.wav"		
+	}
+}
+
+
+"Leviathan_Reaction_Big"
+{
+	"mixgroup"			"SFX,SFX_Creatures,SFX_Creatures_Leviathans"
+	"volumescale"			"1,2.5"
+	"pitch"				"80,110"
+	"flags"				"layered,nevercull"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"10000"
+		"limit"				"2"
+		"volume"			"6"
+		"delay"				"300"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "5000000"
+        "falloffEnd"      "5000000"
+        "startCurve"      "6"
+        "falloffCurve"    "0"
+		"clampVolume"       		"1"			
+
+			"wave"				"Creatures/Leviathans/Leviathan_LongRoar_2ch_v2_01.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_LongRoar_2ch_v2_02.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_LongRoar_2ch_v2_03.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_LongRoar_2ch_v2_04.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_LongRoar_2ch_v2_05.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_LongRoar_2ch_v2_06.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_LongRoar_2ch_v2_07.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_LongRoar_2ch_v2_08.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_LongRoar_2ch_v2_09.wav"
+			"wave"				"null1.wav"
+			"wave"				"null2.wav"
+			"wave"				"null3.wav"
+			"wave"				"null4.wav"
+			"wave"				"null5.wav"		
+			"wave"				"null6.wav"	
+	}
+
+}
+
+"Leviathan_DeathVocal"
+{
+	"mixgroup"			"SFX,SFX_Creatures,SFX_Creatures_Leviathans"
+	"volumescale"			".8"
+	"pitch"				"100"
+	"flags"				"layered,nevercull"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"10000"
+		"limit"				"1"
+		"volume"			"7"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "5000000"
+        "falloffEnd"      "5000000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+		"clampVolume"       		"1"			
+
+			"wave"				"Creatures/Leviathans/Leviathan_DeathScream_2ch_v1_01.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_DeathScream_2ch_v1_02.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_DeathScream_2ch_v1_03.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_DeathScream_2ch_v1_04.wav"
+
+	}
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"10000"
+		"limit"				"1"
+		"volume"			"7"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "5000000"
+        "falloffEnd"      "5000000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+		"clampVolume"       		"1"			
+
+			"wave"				"Creatures/Leviathans/Leviathan_DeathMoan_2ch_v1_01.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_DeathMoan_2ch_v1_02.wav"
+
+	}
+}
+
+"Leviathan_Bodyfall"
+{
+	"mixgroup"			"SFX,SFX_Creatures,SFX_Creatures_Leviathans"
+	"volumescale"			".8"
+	"pitch"				"100"
+	"flags"				"layered,nevercull"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"10000"
+		"limit"				"1"
+		"volume"			"7"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "20000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"Creatures/Leviathans/Leviathan_Bodyfall_2ch_v1_01.wav"
+
+	}
+}
+
+"Leviathan_Footstep"
+{
+	"mixgroup"			"SFX,SFX_Creatures,SFX_Creatures_Leviathans"
+	"volumescale"			"0"
+	"pitch"				"100"
+	"flags"				"layered"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"10000"
+		"limit"				"2"
+		"volume"			"5"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "15000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"Creatures/Leviathans/Leviathan_Footstep_Close_2ch_v1_01.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_Footstep_Close_2ch_v1_02.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_Footstep_Close_2ch_v1_03.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_Footstep_Close_2ch_v1_04.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_Footstep_Close_2ch_v1_05.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_Footstep_Close_2ch_v1_06.wav"
+
+	}
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"20000"
+		"limit"				"2"
+		"volume"			"7"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "30000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"Creatures/Leviathans/Leviathan_Footstep_Distant_2ch_v1_01.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_Footstep_Distant_2ch_v1_02.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_Footstep_Distant_2ch_v1_03.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_Footstep_Distant_2ch_v1_04.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_Footstep_Distant_2ch_v1_05.wav"
+			"wave"				"Creatures/Leviathans/Leviathan_Footstep_Distant_2ch_v1_06.wav"
+
+	}
+}
+
+
+////////////////////////////////////
+// CREATURES - FLYERS            //
+//////////////////////////////////
+
+"Flyer_AttackVocal"
+{
+	"mixgroup"			"SFX,SFX_Creatures,SFX_Creatures_Flyers"
+	"volumescale"			".75"
+	"pitch"				"85,120"
+	"flags"				"layered,nevercull"
+	"occlusionDuckScale"	"1.5"
+	
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"700"
+		"limit"				"2"
+		"volume"			"7"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "20000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"Creatures/Flyers/Flyers_AttackScream_2ch_v1_01.wav"
+			"wave"				"Creatures/Flyers/Flyers_AttackScream_2ch_v1_02.wav"
+			"wave"				"Creatures/Flyers/Flyers_AttackScream_2ch_v1_03.wav"
+			"wave"				"Creatures/Flyers/Flyers_AttackScream_2ch_v1_04.wav"
+			"wave"				"Creatures/Flyers/Flyers_AttackScream_2ch_v1_05.wav"
+			"wave"				"Creatures/Flyers/Flyers_AttackScream_2ch_v1_06.wav"
+
+	}
+}
+
+"Flyer_FlyingVocal"
+{
+	"mixgroup"			"SFX,SFX_Creatures,SFX_Creatures_Flyers"
+	"volumescale"			".1"
+	"pitch"				"50,100"
+	"flags"				"layered"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"700"
+		"limit"				"2"
+		"volume"			"7"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "18000"
+        "falloffEnd"      "20000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"Creatures/Flyers/Flyers_FlyingScream_2ch_v1_01.wav"
+//			"wave"				"Creatures/Flyers/Flyers_FlyingScream_2ch_v1_02.wav"
+			"wave"				"Creatures/Flyers/Flyers_FlyingScream_2ch_v1_03.wav"
+			"wave"				"Creatures/Flyers/Flyers_FlyingScream_2ch_v1_04.wav"
+			"wave"				"Creatures/Flyers/Flyers_FlyingScream_2ch_v1_05.wav"
+			"wave"				"Creatures/Flyers/Flyers_FlyingScream_2ch_v1_06.wav"
+			"wave"				"Creatures/Flyers/Flyers_FlyingScream_2ch_v1_07.wav"
+			"wave"				"Creatures/Flyers/Flyers_FlyingScream_2ch_v1_08.wav"
+			"wave"				"Creatures/Flyers/Flyers_FlyingScream_2ch_v1_09.wav"
+//			"wave"				"Creatures/Flyers/Flyers_FlyingScream_2ch_v1_10.wav"
+			"wave"				"Creatures/Flyers/Flyers_FlyingScream_2ch_v1_11.wav"
+			"wave"				"Creatures/Flyers/Flyers_FlyingScream_2ch_v1_12.wav"
+//			"wave"				"Creatures/Flyers/Flyers_FlyingScream_2ch_v1_13.wav"
+//			"wave"				"Creatures/Flyers/Flyers_FlyingScream_2ch_v1_14.wav"
+	}
+}
+
+"Flyer_GroupPanicVocal"
+{
+	"mixgroup"			"SFX,SFX_Creatures,SFX_Creatures_Flyers"
+	"volumescale"			".55"
+	"pitch"				"90"
+	"flags"				"layered,nevercull"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"10000"
+		"limit"				"1"
+		"volume"			"7"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "18000"
+        "falloffEnd"      "20000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"Creatures/Flyers/Flyers_GroupPanicResponse_2ch_v1_01.wav"
+
+	}
+}
+
+"Flyer_PerchVocal"
+{
+	"mixgroup"			"SFX,SFX_Creatures,SFX_Creatures_Flyers"
+	"volumescale"			".8"
+	"pitch"				"70,130"
+	"flags"				"layered,nevercull"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"700"
+		"limit"				"3"
+		"volume"			"2"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "2000"
+        "falloffEnd"      "2000"
+        "startCurve"      "5"
+        "falloffCurve"    "0"
+
+			"wave"				"Creatures/Flyers/Flyers_PerchScream_2ch_v1_01.wav"
+			"wave"				"Creatures/Flyers/Flyers_PerchScream_2ch_v1_02.wav"
+			"wave"				"Creatures/Flyers/Flyers_PerchScream_2ch_v1_03.wav"
+			"wave"				"Creatures/Flyers/Flyers_PerchScream_2ch_v1_04.wav"
+			"wave"				"Creatures/Flyers/Flyers_PerchScream_2ch_v1_05.wav"
+			"wave"				"Creatures/Flyers/Flyers_PerchScream_2ch_v1_06.wav"
+			"wave"				"Creatures/Flyers/Flyers_PerchScream_2ch_v1_07.wav"
+			"wave"				"Creatures/Flyers/Flyers_PerchScream_2ch_v1_08.wav"
+
+			"wave"				"Creatures/Flyers/Flyers_StartToFlyScream_2ch_v1_01.wav"
+			"wave"				"Creatures/Flyers/Flyers_StartToFlyScream_2ch_v1_02.wav"
+			"wave"				"Creatures/Flyers/Flyers_StartToFlyScream_2ch_v1_03.wav"
+			"wave"				"Creatures/Flyers/Flyers_StartToFlyScream_2ch_v1_04.wav"
+			"wave"				"Creatures/Flyers/Flyers_StartToFlyScream_2ch_v1_05.wav"
+
+			"wave"				"Creatures/Flyers/Flyers_AttackScream_2ch_v1_01.wav"
+			"wave"				"Creatures/Flyers/Flyers_AttackScream_2ch_v1_02.wav"
+			"wave"				"Creatures/Flyers/Flyers_AttackScream_2ch_v1_03.wav"
+			"wave"				"Creatures/Flyers/Flyers_AttackScream_2ch_v1_04.wav"
+			"wave"				"Creatures/Flyers/Flyers_AttackScream_2ch_v1_05.wav"
+			"wave"				"Creatures/Flyers/Flyers_AttackScream_2ch_v1_06.wav"
+
+	}
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"700"
+		"limit"				"3"
+		"volume"			"2"
+
+		"startDistance"   "2000"
+        "peakDistance"    "2000"
+        "falloffStart"    "2000"
+        "falloffEnd"      "6000"
+        "startCurve"      "5"
+        "falloffCurve"    "0"
+
+			"wave"				"Creatures/Flyers/Flyers_FlyingScream_2ch_v1_01.wav"
+//			"wave"				"Creatures/Flyers/Flyers_FlyingScream_2ch_v1_02.wav"
+			"wave"				"Creatures/Flyers/Flyers_FlyingScream_2ch_v1_03.wav"
+			"wave"				"Creatures/Flyers/Flyers_FlyingScream_2ch_v1_04.wav"
+			"wave"				"Creatures/Flyers/Flyers_FlyingScream_2ch_v1_05.wav"
+			"wave"				"Creatures/Flyers/Flyers_FlyingScream_2ch_v1_06.wav"
+			"wave"				"Creatures/Flyers/Flyers_FlyingScream_2ch_v1_07.wav"
+			"wave"				"Creatures/Flyers/Flyers_FlyingScream_2ch_v1_08.wav"
+			"wave"				"Creatures/Flyers/Flyers_FlyingScream_2ch_v1_09.wav"
+//			"wave"				"Creatures/Flyers/Flyers_FlyingScream_2ch_v1_10.wav"
+
+	}
+}
+
+"Flyer_StartToFlyVocal"
+{
+	"mixgroup"			"SFX,SFX_Creatures,SFX_Creatures_Flyers"
+	"volumescale"			"1"
+	"pitch"				"70,130"
+	"flags"				"layered"
+	"occlusionDuckScale"	"1.5"
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"700"
+		"limit"				"3"
+		"volume"			"3.5"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "20000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+//			"wave"				"Creatures/Flyers/Flyers_StartToFlyScream_2ch_v1_01.wav"
+//			"wave"				"Creatures/Flyers/Flyers_StartToFlyScream_2ch_v1_02.wav"
+//			"wave"				"Creatures/Flyers/Flyers_StartToFlyScream_2ch_v1_03.wav"
+//			"wave"				"Creatures/Flyers/Flyers_StartToFlyScream_2ch_v1_04.wav"
+//			"wave"				"Creatures/Flyers/Flyers_StartToFlyScream_2ch_v1_05.wav"
+
+			"wave"				"Creatures/Flyers/Flyers_AttackScream_2ch_v1_01.wav"
+			"wave"				"Creatures/Flyers/Flyers_AttackScream_2ch_v1_02.wav"
+			"wave"				"Creatures/Flyers/Flyers_AttackScream_2ch_v1_03.wav"
+			"wave"				"Creatures/Flyers/Flyers_AttackScream_2ch_v1_04.wav"
+			"wave"				"Creatures/Flyers/Flyers_AttackScream_2ch_v1_05.wav"
+			"wave"				"Creatures/Flyers/Flyers_AttackScream_2ch_v1_06.wav"
+	}
+}
+
+///////////////////////////////////
+// DROPSHIPS ATTACKED BY FLYERS  //
+///////////////////////////////////
+
+"Crow_Dropship_Flyer_Attack_Vertical_Succesful"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"radius"		"25000"
+	"volume"		"2"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+		"wave"			"vehicles\Crow\Crow_Dropship_Flyer_Attack_Vertical_Succesful_2ch_v1.wav"
+	}
+}
+
+"Crow_Flyer_Dropshipattack_Vertical"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"radius"		"25000"
+	"volume"		"2"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+		"wave"			"vehicles\Crow\Crow_Flyer_Dropshipattack_Vertical_2ch_v1.wav"
+	}
+}
+
+"Crow_Flyer_Dropshipattack"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"radius"		"25000"
+	"volume"		"2"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+		"wave"			"vehicles\Crow\Crow_Flyer_Dropshipattack_2ch_v1.wav"
+	}
+}
+
+"Goblin_Dropship_Flyer_Attack_Vertical_Succesful"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"radius"		"25000"
+	"volume"		"2"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+	"wave"			"vehicles\Goblin\Goblin_Dropship_Flyer_Attack_Vertical_Successful_LR_v1.wav"
+	}
+}
+
+"Goblin_Flyer_Dropshipattack_Vertical"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"radius"		"25000"
+	"volume"		"2"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+	"wave"			"vehicles\Goblin\Goblin_Dropship_Flyer_Attack_Vertical_LR_v1.wav"
+	}
+}
+
+"Goblin_Flyer_Dropshipattack"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_Vehicles,SFX_Vehicles_Goblins"
+	"radius"		"25000"
+	"volume"		"2"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+	"wave"			"vehicles\Goblin\Goblin_Flyer_DropshipAttack_LR_v1.wav"
+	}
+}
+
+
+////////////////////
+// SCRIPTED EVENTS//
+////////////////////
+
+
+"boneyard_scr_dogwhistle_idle"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"flags"				"layered"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"limit"				"1"
+		"volume"			"7"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "3000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"campaign/boneyard/Boneyard_Scr_Dogwhistle_Idle_Mech_Close_2ch_v1_01.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Dogwhistle_Idle_Mech_Close_2ch_v1_02.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Dogwhistle_Idle_Mech_Close_2ch_v1_03.wav"
+	}
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"folddownDistance"	"200"
+		"panWidth"			"90"
+		"limit"				"12"
+		"volume"			"6"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "6000"
+        "startCurve"      "5"
+        "falloffCurve"    "0"
+
+			"wave"				"campaign/boneyard/Boneyard_Scr_Dogwhistle_Idle_Mech_MedDist_2ch_v1_01.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Dogwhistle_Idle_Mech_MedDist_2ch_v1_02.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Dogwhistle_Idle_Mech_MedDist_2ch_v1_03.wav"
+	}
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"folddownDistance"	"500"
+		"panWidth"			"90"
+		"limit"				"1"
+		"volume"			"5"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "15000"
+        "startCurve"      "5"
+        "falloffCurve"    "0"
+
+			"wave"				"campaign/boneyard/Boneyard_Scr_Dogwhistle_Idle_Mech_Dist_2ch_v1_01.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Dogwhistle_Idle_Mech_Dist_2ch_v1_02.wav"
+			"wave"				"campaign/boneyard/Boneyard_Scr_Dogwhistle_Idle_Mech_Dist_2ch_v1_03.wav"
+	}
+
+}
+
+
+"boneyard_scr_dogwhistle_pulsefail"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volume"			"4"
+	"pitch"				"100"
+	"flags"				"layered,nevercull"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"limit"				"1"
+		"volume"			"5"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "8000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"campaign/boneyard/Boneyard_Scr_Dogwhistle_PulseFail_Mech_Close_2ch_v1_01.wav"
+	}
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"folddownDistance"	"200"
+		"panWidth"			"90"
+		"limit"				"1"
+		"volume"			"5"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "30000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"campaign/boneyard/Boneyard_Scr_Dogwhistle_PulseFail_Mech_MedDist_2ch_v1_01.wav"
+	}
+
+}
+
+
+"boneyard_scr_dogwhistle_pulsefail_build"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"flags"				"layered,nevercull"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"limit"				"1"
+		"volume"			"5"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "12000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"campaign/boneyard/Boneyard_Scr_Tower_MinorPulseBuild_2ch_v1_01.wav"
+	}
+
+
+}
+
+"boneyard_scr_dogwhistle_pulsefail_Fire"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volume"			"3"
+	"pitch"				"100"
+	"flags"				"layered,nevercull"
+	
+	"rndwave"
+   	{
+			
+	"limit"				"1"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"20"
+ 	"falloffEnd"        		"3000"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+
+	"wave"				"null.wav"
+
+	}	
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"limit"				"1"
+		"volume"			"4"
+
+		"ducks"				"SFX_Weapons_AI,0.7:0,4000,0,0"
+		"ducks"				"SFX_AMB,0.7:0,4000,0,0"		
+		"ducks"				"Music,0.5:0,4000,0,0"	
+		//"ducks"				"DIAL_AI,0.5:0,4000,0,0"		
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "1000"
+        "falloffEnd"      "100000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"campaign/boneyard/Boneyard_Scr_Tower_MinorPulseFire_2ch_v1_01.wav"
+	}
+}
+
+"boneyard_scr_dogwhistle_pulsesuccess_idle_Fire"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volume"			"4"
+	"pitch"				"100"
+	"flags"				"layered,nevercull"
+
+	"rndwave"
+   	{
+		
+	"limit"				"1"
+
+	"startDistance"     		"0"
+ 	"peakDistance"     			"0"
+ 	"startCurve"       			"0"
+ 	"falloffStart"      		"20"
+ 	"falloffEnd"        		"3000"
+ 	"falloffCurve"      		"0"
+ 	"clampVolume"       		"0"
+
+	"wave"				"null.wav"
+
+	}	
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"limit"				"1"
+		"volume"			"2"
+
+		"ducks"				"SFX_Weapons_AI,0.7:0,4000,0,0"
+		"ducks"				"SFX_AMB,0.7:0,4000,0,0"		
+		"ducks"				"Music,0.5:0,4000,0,0"	
+		//"ducks"				"DIAL_AI,0.5:0,4000,0,0"		
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "100000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"campaign/boneyard/Boneyard_Scr_Tower_MinorPulseFire_2ch_v1_01.wav"
+	}
+}
+
+
+"boneyard_scr_dogwhistle_pulsesuccess"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volume"			"3"
+	"pitch"				"100"
+	"flags"				"layered,nevercull"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"limit"				"1"
+		"volume"			"5"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "100000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"campaign/boneyard/Boneyard_Scr_Dogwhistle_PulseSuccess_Mech_Close_2ch_v1_01.wav"
+	}
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"folddownDistance"	"200"
+		"panWidth"			"90"
+		"limit"				"1"
+		"volume"			"5"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "15000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"campaign/boneyard/Boneyard_Scr_Dogwhistle_PulseSuccess_Mech_MedDist_2ch_v1_01.wav"
+	}
+}
+
+"boneyard_scr_dogwhistle_pulsesuccess_build"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volume"			"1.5"
+	"pitch"				"100"
+	"flags"				"layered,nevercull"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"limit"				"1"
+		"volume"			"5"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "1000"
+        "falloffEnd"      "13000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"campaign/boneyard/Boneyard_Scr_Tower_MajorPulseBuild_2ch_v1_01.wav"
+	}
+
+
+}
+
+"boneyard_scr_dogwhistle_pulsesuccess_Fire"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"flags"				"layered,nevercull"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"limit"				"1"
+		"volume"			"5"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "1000"
+        "falloffEnd"      "15000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"campaign/boneyard/Boneyard_Scr_Tower_MajorPulseFire_2ch_v1_01.wav"
+	}
+}
+
+
+
+"boneyard_scr_dogwhistle_explosion"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volume"			"5.5"
+	"pitch"				"100"
+	"flags"				"layered,nevercull"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"2000"
+		"limit"				"1"
+		"volume"			"5"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "1000"
+        "falloffEnd"      "30000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"campaign/boneyard/Boneyard_Scr_Dogwhistle_Explosion_2ch_v2_01.wav"
+	}
+}
+
+"boneyard_flyer_fly2"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"flags"				"layered"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+		"limit"				"12"
+		"volume"			"2"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "2000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Fly2_Close_2ch_v1_01.wav"
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Fly2_Close_2ch_v1_02.wav"
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Fly2_Close_2ch_v1_03.wav"
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Fly2_Close_2ch_v1_04.wav"
+	}
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"folddownDistance"	"200"
+		"panWidth"			"90"
+		"limit"				"12"
+		"volume"			"2"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "2000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Fly2_MedDist_2ch_v1_01.wav"
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Fly2_MedDist_2ch_v1_02.wav"
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Fly2_MedDist_2ch_v1_03.wav"
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Fly2_MedDist_2ch_v1_04.wav"
+	}
+}
+
+"boneyard_flyer_dropshipattack"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"flags"				"layered,mobile"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+		"limit"				"2"
+		"volume"			"3.5"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "3000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_DropshipAttack_Close_2ch_v1_01.wav"
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_DropshipAttack_Close_2ch_v1_02.wav"
+	}
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"folddownDistance"	"200"
+		"panWidth"			"90"
+		"limit"				"2"
+		"volume"			"3.5"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "7000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_DropshipAttack_MedDist_2ch_v1_01.wav"
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_DropshipAttack_MedDist_2ch_v1_02.wav"
+	}
+}
+
+
+"boneyard_flyer_dropshipattack_vertical"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"flags"				"layered,mobile"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+		"limit"				"2"
+		"volume"			"3.5"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "3000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_DropshipAttack_Vertical_Close_2ch_v1_01.wav"
+	}
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"folddownDistance"	"200"
+		"panWidth"			"90"
+		"limit"				"2"
+		"volume"			"3.5"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "7000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_DropshipAttack_Vertical_MedDist_2ch_v1_01.wav"
+	}
+}
+
+
+"boneyard_flyer_land"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volumescale"			"2"
+	"pitch"				"100"
+	"flags"				"layered,mobile"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+		"limit"				"3"
+		"volume"			"3.5"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "2000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Land_Close_2ch_v1_01.wav"
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Land_Close_2ch_v1_02.wav"
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Land_Close_2ch_v1_03.wav"
+	}
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"folddownDistance"	"200"
+		"panWidth"			"90"
+		"limit"				"3"
+		"volume"			"3.5"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "3500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Land_MedDist_2ch_v1_01.wav"
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Land_MedDist_2ch_v1_02.wav"
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Land_MedDist_2ch_v1_03.wav"
+	}
+}
+
+"boneyard_flyer_perched_takeoff"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volumescale"			"2"
+	"pitch"				"100"
+	"flags"				"layered,mobile"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+		"limit"				"2"
+		"volume"			"2"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "3000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Perched_Takeoff_Close_2ch_v1_01.wav"
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Perched_Takeoff_Close_2ch_v1_02.wav"
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Perched_Takeoff_Close_2ch_v1_03.wav"
+	}
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"folddownDistance"	"200"
+		"panWidth"			"90"
+		"limit"				"3"
+		"volume"			"2"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "4500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Perched_Takeoff_MedDist_2ch_v1_01.wav"
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Perched_Takeoff_MedDist_2ch_v1_02.wav"
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Perched_Takeoff_MedDist_2ch_v1_03.wav"
+	}
+}
+
+
+"boneyard_flyer_perched_takeoffattacked"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volumescale"			"2"
+	"pitch"				"100"
+	"flags"				"layered,mobile"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+		"limit"				"2"
+		"volume"			"2"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "3000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Perched_TakeoffAttacked_Close_2ch_v1_01.wav"
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Perched_TakeoffAttacked_Close_2ch_v1_02.wav"
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Perched_TakeoffAttacked_Close_2ch_v1_03.wav"
+	}
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"folddownDistance"	"200"
+		"panWidth"			"90"
+		"limit"				"3"
+		"volume"			"2"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "4500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Perched_TakeoffAttacked_MedDist_2ch_v1_01.wav"
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Perched_TakeoffAttacked_MedDist_2ch_v1_02.wav"
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_Perched_TakeoffAttacked_MedDist_2ch_v1_03.wav"
+	}
+}
+
+"boneyard_flyer_pickingupsoldier_dive"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volumescale"			"2"
+	"pitch"				"100"
+	"flags"				"layered,mobile"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+		"limit"				"3"
+		"volume"			"2"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "3000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_PickingUpSoldier_Dive_Close_2ch_v1_01.wav"
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_PickingUpSoldier_Dive_Close_2ch_v1_01.wav"
+	}
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"folddownDistance"	"200"
+		"panWidth"			"90"
+		"limit"				"3"
+		"volume"			"2"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "4500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_PickingUpSoldier_Dive_MedDist_2ch_v1_01.wav"
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_PickingUpSoldier_Dive_MedDist_2ch_v1_01.wav"
+	}
+}
+
+"boneyard_flyer_pickingupsoldier_intro"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Boneyard"
+	"volumescale"			"2"
+	"pitch"				"100"
+	"flags"				"layered,mobile"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+		"limit"				"3"
+		"volume"			"2"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "3000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_PickingUpSoldier_Intro_Close_2ch_v1_01.wav"
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_PickingUpSoldier_Intro_Close_2ch_v1_01.wav"
+	}
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"folddownDistance"	"200"
+		"panWidth"			"90"
+		"limit"				"3"
+		"volume"			"2"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "4500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_PickingUpSoldier_Intro_MedDist_2ch_v1_01.wav"
+			"wave"				"monsters/flyers/Boneyard_Scr_Flyer_PickingUpSoldier_Intro_MedDist_2ch_v1_01.wav"
+	}
+}
+
+//////////////////////
+// AMBIENT EMITTERS//
+////////////////////
+
+"amb_boneyard_emitter_acroom"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"700"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"volume"			"2.5"
+		"limit"				"2"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_ACRoom_1ch_01.wav"
+	}
+
+}
+
+"amb_boneyard_emitter_fan_antique"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"700"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"volume"			"3"
+		"limit"				"2"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Fan_Antique_1ch_01.wav"
+	}
+
+}
+
+"amb_boneyard_emitter_fan_blade"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"700"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"volume"			"3"
+		"limit"				"2"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Fan_Blade_1ch_01.wav"
+	}
+
+	"rndwave"
+	{
+		"volume"			"4"
+		"limit"				"2"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Industrial_Vent_1ch_01.wav"
+	}
+
+}
+
+"amb_boneyard_emitter_fan_scifi"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"700"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"volume"			"3"
+		"limit"				"2"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Fan_SciFi_1ch_01.wav"
+	}
+
+}
+
+"amb_boneyard_emitter_generator_huge"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Boneyard"
+	"volume"			"5"
+	"pitch"				"100"
+	"radius"			"1000"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"volume"			"10"
+		"limit"				"2"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Generator_Huge_1ch_01.wav"
+	}
+
+}
+
+
+"amb_boneyard_emitter_generator_hum"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"1000"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"volume"			"8"
+		"limit"				"2"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Generator_Hum_1ch_01.wav"
+	}
+
+}
+
+"amb_boneyard_emitter_generator_medium"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"1000"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"volume"			"10"
+		"limit"				"2"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Generator_Medium_1ch_01.wav"
+	}
+
+}
+
+"amb_boneyard_emitter_generator_scifi"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"1000"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"volume"			"10"
+		"limit"				"2"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Generator_SciFi_1ch_01.wav"
+	}
+
+}
+
+"amb_boneyard_emitter_generator_small"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"700"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+
+		"volume"			"10"
+		"limit"				"3"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Generator_Small_1ch_01.wav"
+	}
+
+}
+
+"amb_boneyard_emitter_industrial_vent"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"700"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"volume"			"5"
+		"limit"				"3"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Industrial_Vent_1ch_01.wav"
+	}
+
+}
+
+"amb_boneyard_emitter_industrial_vent2"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"700"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"volume"			"5"
+		"limit"				"3"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Industrial_Vent2_1ch_01.wav"
+	}
+}
+
+"amb_boneyard_emitter_computerfans"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"700"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"volume"			"5"
+		"limit"				"3"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_ComputerFans_1ch_01.wav"
+	}
+}
+
+"amb_boneyard_emitter_console"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"1000"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"volume"			"5"
+		"limit"				"3"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Console1_LR_v1_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Console1_LR_v2_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Console1_LR_v3_LP.wav"
+	}
+}
+
+"amb_boneyard_emitter_steam_tiny"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"600"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"volume"			"5"
+		"pitch"				"80,120"
+		"limit"				"3"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Tiny_1ch_01_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Tiny_1ch_02_LP.wav"
+	}
+}
+
+
+
+"amb_boneyard_emitter_steam_small"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"700"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"volume"			"5"
+		"pitch"				"80,120"
+		"limit"				"3"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Small_1ch_01_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Small_1ch_02_LP.wav"
+	}
+}
+
+"amb_boneyard_emitter_steam_medium"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"700"
+	"falloff"			"4"
+	"flags"				"mobile,loop"
+
+
+	"rndwave"
+	{
+		"volume"			"5"
+		"pitch"				"80,120"
+		"limit"				"3"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Medium_1ch_01_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Medium_1ch_02_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Medium_1ch_03_LP.wav"
+	}
+}
+
+
+"amb_boneyard_emitter_steam_large"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"700"
+	"falloff"			"4"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"volume"			"5"
+		"pitch"				"80,120"
+		"limit"				"3"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Large_1ch_01_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Large_1ch_02_LP.wav"
+	}
+}
+
+
+"amb_boneyard_fire_small"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"flags"				"loop,layered"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "500"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"2"
+		"limit"				"3"
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v1_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v2_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v3_LP_Crackle.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1200"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"2"
+		"limit"				"3"
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v1_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v2_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Small_LR_v3_LP_Flame.wav"
+	}
+
+}
+
+"amb_boneyard_fire_medium"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"flags"				"loop,layered"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "600"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"2"
+		"limit"				"3"
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v1_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v2_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v3_LP_Crackle.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1400"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"2"
+		"limit"				"3"
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v1_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v2_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v3_LP_Flame.wav"
+	}
+
+}
+
+"amb_boneyard_fire_large"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Boneyard"
+	"volume"			"2"
+	"pitch"				"100"
+	"flags"				"loop,layered"
+
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "600"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"2"
+		"limit"				"3"
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Big_LR_v1_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Big_LR_v2_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Big_LR_v3_LP_Crackle.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "1400"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+		
+		"volume"			"2"
+		"limit"				"3"
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Big_LR_v1_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Big_LR_v2_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Big_LR_v3_LP_Flame.wav"
+	}
+
+}

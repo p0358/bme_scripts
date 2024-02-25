@@ -1,0 +1,243 @@
+"player_bullet_impact"
+{
+	"mixgroup"			"1stperson,SFX,SFX_Impacts,SFX_Impacts_3P_Hits_1P,SFX_Impacts_3P_Hits_1P_Bullets"
+
+	"volume"			".875,1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"				"90,110"
+
+	"rndwave"
+	{
+		"wave"				"impacts/Player_Bullet_Hit_01.wav"
+		"wave"				"impacts/Player_Bullet_Hit_02.wav"
+		"wave"				"impacts/Player_Bullet_Hit_03.wav"
+		"wave"				"impacts/Player_Bullet_Hit_05.wav"
+		"wave"				"impacts/Player_Bullet_Hit_06.wav"
+		"wave"				"impacts/Player_Bullet_Hit_07.wav"
+		"wave"				"impacts/Player_Bullet_Hit_08.wav"
+
+
+	}
+}
+
+"player_bullet_impact_heavy"
+{
+	"mixgroup"			"1stperson,SFX,SFX_Impacts,SFX_Impacts_3P_Hits_1P,SFX_Impacts_3P_Hits_1P_Bullets"
+	"volume"			".875,1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"				"90,110"
+
+	"rndwave"
+	{
+		"wave"				"impacts/Player_Bullet_Hit_Heavy_01.wav"
+		"wave"				"impacts/Player_Bullet_Hit_Heavy_02.wav"
+		"wave"				"impacts/Player_Bullet_Hit_Heavy_03.wav"
+		"wave"				"impacts/Player_Bullet_Hit_Heavy_04.wav"
+		"wave"				"impacts/Player_Bullet_Hit_Heavy_05.wav"
+		"wave"				"impacts/Player_Bullet_Hit_Heavy_06.wav"
+	}
+}
+
+"player_heartbeat"
+{
+	"mixgroup"			"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"volume"			"0.875"
+	"soundlevel"	"SNDLVL_150dB"
+	"pitch"				"90,110"
+
+	"rndwave"
+	{
+		"wave"				"player/player_pain_heartbeat2.wav"
+	}
+}
+
+"player_exhale"
+{
+	"mixgroup"			"1stperson,SFX,SFX_Player,SFX_Player_Pilot"
+	"volume"			"0.875"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"				"90,110"
+
+	"rndwave"
+	{
+		"wave"				"player/player_pain_exhale_at_end.wav"
+	}
+}
+
+
+// Hitbeeps
+
+"Player.Hitbeep"
+{
+	"mixgroup"		"ui,SFX,SFX_Impacts,SFX_Impacts_1P_Hits_3P"
+	"radius"		"0"
+
+	"rndwave"
+	{
+	"delay"			"0"
+	"volume"		"4"
+	"pitch"			"150"
+		"channels"
+		{
+			"1"		"C,1.0"
+		}
+
+	"wave"			"impacts/hitbeep2.wav"
+
+	}
+}
+
+"Player.Hitbeep_crit"
+{
+
+	"mixgroup"		"ui,SFX,SFX_Impacts,SFX_Impacts_1P_Hits_3P"
+	"radius"		"0"
+	"rndwave"
+	{
+
+	"volume"		"4"
+		"channels"
+		{
+			"1"		"C,1.0"
+		}
+
+	"wave"			"impacts/hitbeep2.wav"
+
+	}
+}
+
+
+"Player.HitbeepArmor"
+{
+
+	"mixgroup"		"ui,SFX,SFX_Impacts,SFX_Impacts_1P_Hits_3P"
+	"radius"		"2000"
+	"rndwave"
+	{
+
+	"volume"		"0"
+		"channels"
+		{
+			"1"		"C,1.0"
+		}
+
+	"wave"			"impacts/hitbeep2.wav"
+
+	}
+}
+
+"Player.HitbeepInvincible"
+{
+
+	"mixgroup"		"ui,SFX,SFX_Impacts,SFX_Impacts_1P_Hits_3P"
+	"radius"		"2000"
+	"rndwave"
+	{
+
+	"volume"		"0"
+
+		"channels"
+		{
+			"1"		"C,1.0"
+		}
+
+	"wave"			"impacts/hitbeep2.wav"
+
+	}
+}
+
+
+"Player.HitbeepVortex"
+{
+
+	"mixgroup"		"ui,SFX,SFX_Impacts,SFX_Impacts_1P_Hits_3P"
+	"radius"		"0"
+	"rndwave"
+	{
+
+	"volume"		"4"
+		"channels"
+		{
+			"1"		"C,1.0"
+		}
+
+	"wave"			"impacts/hitbeep2.wav"
+
+	}
+}
+
+"player.OnFire"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Colony"
+	"volume"			"6"
+	"pitch"				"100"
+	"flags"				"mobile,loop,layered"
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "300"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"6"
+		"limit"				"2"
+
+
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v1_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v2_LP_Crackle.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v3_LP_Crackle.wav"
+	}
+
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"200"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "800"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+
+
+		"volume"			"6"
+		"limit"				"2"
+
+
+			//"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v1_LP_Flame.wav"
+			"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v2_LP_Flame.wav"
+			//"wave"				"maps/Colony/Emitters/AMB_Colony_FireLoop_Medium_LR_v3_LP_Flame.wav"
+	}
+
+}
+
+
+
+"AI.Melee_Impact"
+{
+
+	"mixgroup"		"player,SFX,SFX_Player,SFX_Player_Pilot"
+	"radius"		"500"
+	"volume"		"3.8"
+
+	"rndwave"
+		{
+		"limit"				"2"
+		"pitch"				"120,130"
+		"wave"				"player/player_human_melee1.wav"
+		"wave"				"player/player_human_melee3.wav"
+		}
+
+}
+

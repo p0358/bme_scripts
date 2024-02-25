@@ -1,0 +1,1643 @@
+////////////////////
+// GLOBAL AMBIENCE /
+////////////////////
+
+
+"amb_angelcity_EXT_global"  {
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_AngelCity"
+	"flags"			"omni, loop"
+	"radius"		"0"
+	"volume"		"2.8"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Angel_City/Ambience/AMB_AngelCity_EXT_Global_6ch_v3_LP.wav"
+	}
+	
+}
+
+"amb_angelcity_INT_SmallRoom"  {
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_AngelCity"
+	"flags"			"omni, loop"
+	"radius"		"0"
+	"volume"		"2.8"
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Angel_City/Ambience/AMB_AngelCity_INT_SmallRoom_6ch_v1_LP.wav"
+	}
+}
+
+"amb_angelcity_INT_ClosedRoom"  {
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_AngelCity"
+	"flags"			"omni, loop"
+	"radius"		"0"
+	"volume"		"2.8"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Angel_City/Ambience/AMB_AngelCity_INT_ClosedRoom_6ch_v1_LP.wav"
+	}
+}
+
+
+"amb_angelcity_EXT_LevelIntroOneshot"  {
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Fracture"
+	"flags"			"omni"
+	"radius"		"0"
+	"volume"		"2.8"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/Angel_City/Ambience/AMB_AngelCity_EXT_LevelIntroOneshot_6ch_v3.wav"
+	}
+	
+	
+}
+
+
+////////////////////
+// INTRO MUSIC /
+////////////////////
+
+
+"Music_AngelCity_MCOR_Opening" {
+
+	"mixgroup"		"MUSIC,MUSIC_Cinematic,MUSIC_Cinematic_AngelCity"
+	"volume"		"2"
+	"radius"		"0"
+	"flags"			"music"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}	
+	"wave"			"music\Campaign\AngelCity\TF_Master_AC_Intro_MCOR_STMIX_183_BPM.wav"
+	}
+}
+
+"Music_AngelCity_IMC_Opening" {
+
+	"mixgroup"		"MUSIC,MUSIC_Cinematic,MUSIC_Cinematic_AngelCity"
+	"volume"		"2"
+	"radius"		"0"
+	"flags"			"music"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}	
+	"wave"			"music\Campaign\AngelCity\TF_Master_AC_Intro_IMC_STMIX_140_BPM.wav"
+	}
+}
+
+
+////// MCOR ACTION ///////////////////////
+
+
+"Music_AngelCity_MCOR_PilotAction1_LOW" {
+
+	"mixgroup"		"MUSIC,MUSIC_Action,MUSIC_Action_Militia,MUSIC_Action_Militia_Pilot,MUSIC_Action_Militia_Pilot_LOW"
+	"volume"		"1.8"
+	"radius"		"0"
+	"flags"			"music"
+	"ducks"			"SFX_AMB_Beds,0.5:2000,2000,0,0"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}	
+	"wave"			"music/Action/Militia/TF_Master_LOW_MediumPilotAction_MCOR1_STMIX_112_BPM.wav"
+	"wave"			"music/Action/Militia/TF_Master_LOW_MediumPilotAction_MCOR2_STMIX_120_BPM.wav"
+	}
+}
+
+"Music_AngelCity_MCOR_PilotAction2_LOW" {
+
+	"mixgroup"		"MUSIC,MUSIC_Action,MUSIC_Action_Militia,MUSIC_Action_Militia_Pilot,MUSIC_Action_Militia_Pilot_LOW"
+	"volume"		"1.8"
+	"radius"		"0"
+	"flags"			"music"
+	"ducks"			"SFX_AMB_Beds,0.5:2000,2000,0,0"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}		
+
+	"wave"			"music/Action/Militia/TF_Master_LOW_MedPilotAction_MCOR3_STMIX_110_BPM.wav"
+	"wave"			"music/Action/Militia/TF_Master_LOW_FastPilotAction_MCOR2_STMIX_136_BPM.wav"
+	}
+}
+
+"Music_AngelCity_MCOR_TitanAction1_LOW" {
+
+	"mixgroup"		"MUSIC,MUSIC_Action,MUSIC_Action_Militia,MUSIC_Action_Militia_Titan,MUSIC_Action_Militia_Titan_LOW"
+	"volume"		"2.2"
+	"radius"		"0"
+	"flags"			"music"
+	"ducks"			"SFX_AMB_Beds,0.5:2000,2000,0,0"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}		
+	"wave"			"music/Action/Militia/TF_Master_LOW_MediumTitanAction_MCOR1_STMIX_80_BPM.wav"
+	"wave"			"music/Action/Militia/TF_Master_LOW_MedTitanAction_MCOR2_STMIX_98_BPM_v2.wav"
+	"wave"			"music/Action/Militia/TF_Master_LOW_MediumTitanAction_MCOR3_STMIX.wav"
+	
+	}
+}
+
+"Music_AngelCity_MCOR_TitanAction2_LOW" {
+
+	"mixgroup"		"MUSIC,MUSIC_Action,MUSIC_Action_Militia,MUSIC_Action_Militia_Titan,MUSIC_Action_Militia_Titan_LOW"
+	"volume"		"2.2"
+	"radius"		"0"
+	"flags"			"music"
+	"ducks"			"SFX_AMB_Beds,0.5:2000,2000,0,0"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}		
+
+	"wave"			"music/Action/Militia/TF_Master_LOW_FastTitanAction_MCOR1_STMIX_86_BPM.wav"
+	"wave"			"music/Action/Militia/TF_Master_LOW_FastTitanAction_MCOR2_STMIX_135_BPM.wav"	
+	"wave"			"music/Action/Militia/TF_Master_LOW_FastTitanAction_MCOR3_STMIX_120_BPM.wav"	
+	}
+}
+
+
+"Music_AngelCity_MCOR_PilotAction1_HIGH" {
+
+	"mixgroup"		"MUSIC,MUSIC_Action,MUSIC_Action_Militia,MUSIC_Action_Militia_Pilot,MUSIC_Action_Militia_Pilot_HIGH"
+	"volume"		"1.8"
+	"radius"		"0"
+	"flags"			"music"
+	"ducks"			"SFX_AMB_Beds,0.5:2000,2000,0,0"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}	
+	"wave"			"music/Action/Militia/TF_Master_MediumPilotAction_MCOR1_STMIX_112_BPM.wav"
+	"wave"			"music/Action/Militia/TF_Master_MediumPilotAction_MCOR2_STMIX_120_BPM.wav"
+	"wave"			"music/Action/Militia/TF_Master_MediumPilotAction_MCOR3_STMIX_110_BPM.wav"
+	}
+}
+
+"Music_AngelCity_MCOR_PilotAction2_HIGH" {
+
+	"mixgroup"		"MUSIC,MUSIC_Action,MUSIC_Action_Militia,MUSIC_Action_Militia_Pilot,MUSIC_Action_Militia_Pilot_HIGH"
+	"volume"		"1.8"
+	"radius"		"0"
+	"flags"			"music"
+	"ducks"			"SFX_AMB_Beds,0.5:2000,2000,0,0"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}		
+	"wave"			"music/Action/Militia/TF_Master_FastPilotAction_MCOR1_STMIX_145_BPM.wav"
+	"wave"			"music/Action/Militia/TF_Master_FastPilotAction_MCOR2_STMIX_136_BPM.wav"
+	"wave"			"music/Action/Militia/TF_Master_FastPilotAction_MCOR3_STMIX_150_BPM.wav"	
+	}
+}
+
+"Music_AngelCity_MCOR_TitanAction1_HIGH" {
+
+	"mixgroup"		"MUSIC,MUSIC_Action,MUSIC_Action_Militia,MUSIC_Action_Militia_Titan,MUSIC_Action_Militia_Titan_HIGH"
+	"volume"		"1.8"
+	"radius"		"0"
+	"flags"			"music"
+	"ducks"			"SFX_AMB_Beds,0.5:2000,2000,0,0"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}		
+	"wave"			"music/Action/Militia/TF_Master_MediumTitanAction_MCOR1_STMIX_80_BPM.wav"	
+	"wave"			"music/Action/Militia/TF_Master_MediumTitanAction_MCOR2_STMIX_98_BPM.wav"	
+	"wave"			"music/Action/Militia/TF_Master_MediumTitanAction_MCOR3_STMIX.wav"			
+	}
+}
+
+"Music_AngelCity_MCOR_TitanAction2_HIGH" {
+
+	"mixgroup"		"MUSIC,MUSIC_Action,MUSIC_Action_Militia,MUSIC_Action_Militia_Titan,MUSIC_Action_Militia_Titan_HIGH"
+	"volume"		"1.8"
+	"radius"		"0"
+	"flags"			"music"
+	"ducks"			"SFX_AMB_Beds,0.5:2000,2000,0,0"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}		
+	"wave"			"music/Action/Militia/TF_Master_FastTitanAction_MCOR1_STMIX_86_BPM.wav"	
+	"wave"			"music/Action/Militia/TF_Master_FastTitanAction_MCOR2_STMIX_135_BPM.wav"	
+	"wave"			"music/Action/Militia/TF_Master_FastTitanAction_MCOR3_STMIX_120_BPM.wav"	
+	}
+}
+
+
+/////// IMC ACTION ////////////////////
+
+
+
+"Music_AngelCity_IMC_PilotAction1_LOW" {
+
+	"mixgroup"		"MUSIC,MUSIC_Action,MUSIC_Action_IMC,MUSIC_Action_IMC_Pilot,MUSIC_Action_IMC_Pilot_LOW"
+	"volume"		"1.8"
+	"radius"		"0"
+	"flags"			"music"
+	"ducks"			"SFX_AMB_Beds,0.5:2000,2000,0,0"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}	
+	"wave"			"music/Action/IMC/TF_Master_LOW_MediumPilotAction_IMC1_STMIX_112_BPM.wav"
+	"wave"			"music/Action/IMC/TF_Master_LOW_MediumPilotAction_IMC2_STMIX_145_BPM.wav"
+	"wave"			"music/Action/IMC/TF_Master_LOW_MediumPilotAction_IMC3_STMIX_145_BPM.wav"
+	}
+}
+
+"Music_AngelCity_IMC_PilotAction2_LOW" {
+
+	"mixgroup"		"MUSIC,MUSIC_Action,MUSIC_Action_IMC,MUSIC_Action_IMC_Pilot,MUSIC_Action_IMC_Pilot_LOW"
+	"volume"		"1.8"
+	"radius"		"0"
+	"flags"			"music"
+	"ducks"			"SFX_AMB_Beds,0.5:2000,2000,0,0"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}		
+	"wave"			"music/Action/IMC/TF_Master_LOW_FastPilotAction_IMC1_STMIX_170_BPM.wav"
+	"wave"			"music/Action/IMC/TF_Master_LOW_FastPilotAction_IMC2_STMIX_150_BPM.wav"
+	"wave"			"music/Action/IMC/TF_Master_LOW_FastPilotAction_IMC3_STMIX_162_BPM.wav"	
+	}
+}
+
+"Music_AngelCity_IMC_TitanAction1_LOW" {
+
+	"mixgroup"		"MUSIC,MUSIC_Action,MUSIC_Action_IMC,MUSIC_Action_IMC_Titan,MUSIC_Action_IMC_Titan_LOW"
+	"volume"		"2.2"
+	"radius"		"0"
+	"flags"			"music"
+	"ducks"			"SFX_AMB_Beds,0.5:2000,2000,0,0"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}		
+	"wave"			"music/Action/IMC/TF_Master_LOW_MediumTitanAction_IMC1_STMIX_100_BPM.wav"
+	"wave"			"music/Action/IMC/TF_Master_LOW_MediumTitanAction_IMC2_STMIX_140_BPM.wav"
+	"wave"			"music/Action/IMC/TF_Master_LOW_MediumTitanAction_IMC3_STMIX_124_BPM.wav"	
+	"wave"			"music/Action/IMC/TF_Master_LOW_MedTitanAction_IMC_ALT_STMIX_80_BPM.wav"
+	
+	}
+}
+
+"Music_AngelCity_IMC_TitanAction2_LOW" {
+
+	"mixgroup"		"MUSIC,MUSIC_Action,MUSIC_Action_IMC,MUSIC_Action_IMC_Titan,MUSIC_Action_IMC_Titan_LOW"
+	"volume"		"2.2"
+	"radius"		"0"
+	"flags"			"music"
+	"ducks"			"SFX_AMB_Beds,0.5:2000,2000,0,0"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}		
+
+	"wave"			"music/Action/IMC/TF_Master_LOW_TitanShowdownFRACT_IMC_STMIX_150_BPM.wav"
+	"wave"			"music/Action/IMC/TF_Master_LOW_FastTitanAction_IMC1_STMIX_160_BPM.wav"
+	"wave"			"music/Action/IMC/TF_Master_LOW_FastTitanAction_IMC2_STMIX_120_BPM.wav"	
+	"wave"			"music/Action/IMC/TF_Master_LOW_FastTitanAction_IMC3_STMIX_86_BPM.wav"		
+	}
+}
+
+
+"Music_AngelCity_IMC_PilotAction1_HIGH" {
+
+	"mixgroup"		"MUSIC,MUSIC_Action,MUSIC_Action_IMC,MUSIC_Action_IMC_Pilot,MUSIC_Action_IMC_Pilot_HIGH"
+	"volume"		"1.8"
+	"radius"		"0"
+	"flags"			"music"
+	"ducks"			"SFX_AMB_Beds,0.5:2000,2000,0,0"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}	
+	"wave"			"music/Action/IMC/TF_Master_MediumPilotAction_IMC1_STMIX_112_BPM.wav"	
+	"wave"			"music/Action/IMC/TF_Master_MediumPilotAction_IMC2_STMIX_145_BPM.wav"
+	"wave"			"music/Action/IMC/TF_Master_MediumPilotAction_IMC3_STMIX_145_BPM.wav"
+
+	}
+}
+
+"Music_AngelCity_IMC_PilotAction2_HIGH" {
+
+	"mixgroup"		"MUSIC,MUSIC_Action,MUSIC_Action_IMC,MUSIC_Action_IMC_Pilot,MUSIC_Action_IMC_Pilot_HIGH"
+	"volume"		"1.8"
+	"radius"		"0"
+	"flags"			"music"
+	"ducks"			"SFX_AMB_Beds,0.5:2000,2000,0,0"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}		
+
+	"wave"			"music/Action/IMC/TF_Master_FastPilotAction_IMC1_STMIX_170_BPM.wav"
+	"wave"			"music/Action/IMC/TF_Master_FastPilotAction_IMC2_STMIX_150_BPM.wav"
+	"wave"			"music/Action/IMC/TF_Master_FastPilotAction_IMC3_STMIX_162_BPM.wav"	
+	}
+}
+
+"Music_AngelCity_IMC_TitanAction1_HIGH" {
+
+	"mixgroup"		"MUSIC,MUSIC_Action,MUSIC_Action_IMC,MUSIC_Action_IMC_Titan,MUSIC_Action_IMC_Titan_HIGH"
+	"volume"		"1.8"
+	"radius"		"0"
+	"flags"			"music"
+	"ducks"			"SFX_AMB_Beds,0.5:2000,2000,0,0"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}		
+	"wave"			"music/Action/IMC/TF_Master_MediumTitanAction_IMC_ALT_STMIX_80_BPM.wav"	
+	"wave"			"music/Action/IMC/TF_Master_MediumTitanAction_IMC1_STMIX_100_BPM.wav"	
+	"wave"			"music/Action/IMC/TF_Master_MediumTitanAction_IMC2_STMIX_140_BPM.wav"	
+	"wave"			"music/Action/IMC/TF_Master_MediumTitanAction_IMC3_STMIX_124_BPM.wav"	
+		
+	}
+}
+
+"Music_AngelCity_IMC_TitanAction2_HIGH" {
+
+	"mixgroup"		"MUSIC,MUSIC_Action,MUSIC_Action_IMC,MUSIC_Action_IMC_Titan,MUSIC_Action_IMC_Titan_HIGH"
+	"volume"		"1.8"
+	"radius"		"0"
+	"flags"			"music"
+	"ducks"			"SFX_AMB_Beds,0.5:2000,2000,0,0"
+
+	"rndwave"
+	{
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}		
+	
+	"wave"			"music/Action/IMC/TF_Master_FastTitanAction_IMC1_STMIX_160_BPM.wav"	
+	"wave"			"music/Action/IMC/TF_Master_FastTitanAction_IMC2_STMIX_120_BPM.wav"		
+	"wave"			"music/Action/IMC/TF_Master_FastTitanAction_IMC3_STMIX_86_BPM.wav"
+	}
+}
+
+
+"Music_AngelCity_MCOR_Win" {
+
+	"mixgroup"		"MUSIC,MUSIC_Gameplay,MUSIC_Gameplay_AngelCity"
+	"volume"		"2.5"
+	"radius"		"0"
+	"flags"			"music"
+	"ducks"			"SFX_AMB_Beds,0.3:2000,5000,0,0"
+
+	"rndwave"
+   	{	
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}		
+	"wave"			"music\Epilogue\TF_Master_E3_EpilogueWin_WithElVln_STMIX_150_BPM.wav"
+//	"wave"			"music\Epilogue\TF_Master_EpilogueWin_MCOR1_STMIX_176_BPM.wav"	
+	}
+
+}
+
+"Music_AngelCity_MCOR_Lose" {
+
+	"mixgroup"		"MUSIC,MUSIC_Gameplay,MUSIC_Gameplay_AngelCity"
+	"volume"		"2.5"
+	"radius"		"0"
+	"flags"			"music"
+	"ducks"			"SFX_AMB_Beds,0.3:2000,5000,0,0"
+
+	"rndwave"
+   	{	
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}		
+	"wave"			"music\Epilogue\TF_Master_EpilogueLose_MCOR1_STMIX_174_BPM.wav"
+//	"wave"			"music\Epilogue\TF_Master_EpilogueLose_MCOR2_STMIX_150_BPM.wav"	
+	}
+}
+
+"Music_AngelCity_IMC_Win" {
+
+	"mixgroup"		"MUSIC,MUSIC_Gameplay,MUSIC_Gameplay_AngelCity"
+	"volume"		"2.5"
+	"radius"		"0"
+	"flags"			"music"
+	"ducks"			"SFX_AMB_Beds,0.3:2000,5000,0,0"
+
+	"rndwave"
+   	{	
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}		
+	"wave"			"music\Epilogue\TF_Master_EpilogueWin_IMC1_STMIX_90_BPM.wav"
+//	"wave"			"music\Epilogue\TF_Master_EpilogueWin_IMC2_STMIX_104_BPM.wav"	
+	}
+
+}
+
+"Music_AngelCity_IMC_Lose" {
+
+	"mixgroup"		"MUSIC,MUSIC_Gameplay,MUSIC_Gameplay_AngelCity"
+	"volume"		"2.5"
+	"radius"		"0"
+	"flags"			"music"
+	"ducks"			"SFX_AMB_Beds,0.3:2000,5000,0,0"
+	"rndwave"
+   	{	
+			"channels"
+		{
+			"1"		"L,1.0"
+			"1"		"LS,0.5"
+			"2"		"R,1.0"
+			"2"		"RS,0.5"			
+		}		
+//	"wave"			"music\Epilogue\TF_Master_EpilogueLose_IMC1_STMIX_78_BPM.wav"
+	"wave"			"music\Epilogue\TF_Master_EpilogueLose_IMC2_STMIX_155_BPM.wav"	
+	}
+
+}
+
+
+////////////////////////////
+// CAMPAIGN MILITIA INTRO //
+////////////////////////////
+
+
+
+"AngelCity_Scr_MCORIntro_Titan_RaiseLower"  
+{
+
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Story"
+	"radius"		"5000"
+	"volume"		"4.5"
+	
+	
+	
+	"rndwave"
+	{
+	"flags"				"spatialized"	
+	"panWidth"			"90"
+	"folddownDistance"	"200"
+	"wave"			"campaign/angelcity/AngelCity_Scr_MCORIntro_Titan_RaiseLower_2ch_01.wav"
+	}
+	
+}
+
+
+"AngelCity_Scr_MCORIntro_Titan_StandUp"  
+{
+
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Story"
+	"radius"		"5000"
+	"volume"		"6.0"
+	
+	"rndwave"
+	{
+	"flags"				"spatialized"	
+	"panWidth"			"90"
+	"folddownDistance"	"200"
+	"wave"			"campaign/angelcity/AngelCity_Scr_MCORIntro_Titan_StandUp_2ch_01.wav"
+	}
+	
+}
+
+"AngelCity_Scr_MCORIntro_Hatch_Open" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"4"
+	"radius"		"500"
+	"falloff"		"8"
+	"flags"			"mobile"
+
+	"rndwave"
+	{
+	"wave"			"campaign/angelcity/AngelCity_Scr_MCORIntro_Hatch_Open_1ch_v1.wav"
+	}
+
+}
+
+"AngelCity_Scr_MCORIntro_Hatch_Close" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"3"
+	"radius"		"500"
+	"falloff"		"8"
+
+
+	"rndwave"
+	{
+	"wave"			"campaign/angelcity/AngelCity_Scr_MCORIntro_Hatch_Close_1ch_v1.wav"
+	}
+
+}
+
+"AngelCity_Scr_MCORIntro_Barker_Lowered" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"2"
+	"radius"		"500"
+	"falloff"		"8"
+
+
+	"rndwave"
+	{
+	"wave"			"campaign/angelcity/AngelCity_Scr_MCORIntro_BarkerLowered_1ch_v1.wav"
+	}
+
+}
+
+"AngelCity_Scr_MCORIntro_MacAllan_Mvmt1" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"4"
+	"radius"		"500"
+	"falloff"		"8"
+
+
+	"rndwave"
+	{
+	"wave"			"campaign/angelcity/AngelCity_Scr_MCORIntro_MacAllanMvmt1_1ch_v1.wav"
+	}
+
+}
+
+"AngelCity_Scr_MCORIntro_MacAllan_Mvmt2" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"4"
+	"radius"		"500"
+	"falloff"		"8"
+
+
+	"rndwave"
+	{
+	"wave"			"campaign/angelcity/AngelCity_Scr_MCORIntro_MacAllanMvmt2_1ch_v1.wav"
+	}
+
+}
+
+"AngelCity_Scr_MCORIntro_MacAllan_JumpsIn" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"4"
+	"radius"		"500"
+	"falloff"		"8"
+
+
+	"rndwave"
+	{
+	"wave"			"campaign/angelcity/AngelCity_Scr_MCORIntro_MacAllan_JumpsIn_1ch_v1.wav"
+	}
+
+}
+
+"AngelCity_Scr_MCORIntro_Grunt_JumpsIn" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"4"
+	"radius"		"500"
+	"falloff"		"8"
+	"flags"			"mobile"
+
+	"rndwave"
+	{
+	"wave"			"campaign/angelcity/AngelCity_Scr_MCORIntro_Grunt_JumpsIn_1ch_v1.wav"
+	}
+
+}
+
+
+////////////////////////
+// CAMPAIGN IMC INTRO //
+////////////////////////
+
+"AngelCity_Scr_IMCIntro_DropshipFlyinAmb" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted"
+	"volume"		"2.5"
+	"radius"		"5000"
+	"falloff"		"8"
+
+	"rndwave"
+	{
+	"wave"			"campaign/angelcity/AngelCity_Scr_IMCIntro_DropshipFlyinAmb_6ch_v2_01.wav"
+	}
+}
+
+"AngelCity_Scr_IMCIntro_DropshipDoorOpen" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted"
+	"volume"		"2.2"
+	"radius"		"500"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+	"panWidth"		"45"
+	"folddownDistance"	"250"
+	"wave"			"campaign/angelcity/AngelCity_Scr_IMCIntro_DropshipDoorOpen_2ch_v1_01.wav"
+	}
+}
+
+"AngelCity_Spyglass_WalkToHatchAndOpen"
+{
+	"mixgroup"			"SFX,SFX_Scripted"
+	"volume"			"3"
+	"pitch"				"100"
+	"radius"			"500"
+	
+	
+	"rndwave"
+	{
+
+				"wave"				"campaign/AngelCity/AngelCity_Scr_Spyglass_Intro_WalkToHatchAndOpen_1ch_v1.wav"
+	}
+
+}
+
+// Also keeping the generic and Classic Mode dropship foley in this script
+
+"Generic_Spyglass_WalkToHatchAndOpen"
+{
+	"mixgroup"			"SFX,SFX_Scripted"
+	"volume"			"5.0"
+	"pitch"				"100"
+	"radius"			"500"
+	
+	
+	"rndwave"
+	{
+
+				"wave"				"campaign/AngelCity/Generic_Scr_Spyglass_Intro_WalkToHatchAndOpen_1ch_v1.wav"
+	}
+
+}
+
+"Generic_Spectre_WalkToHatchAndOpen"
+{
+	"mixgroup"			"SFX,SFX_Scripted"
+	"volume"			"5.0"
+	"pitch"				"100"
+	"radius"			"500"
+	
+	
+	"rndwave"
+	{
+
+				"wave"				"ai/Spectre/Movement/DropshipIntros/Generic_Scr_Spectre_Intro_WalkToHatchAndOpen_1ch_v1.wav"
+	}
+
+}
+
+"Generic_Marvin_WalkToHatchAndOpen"
+{
+	"mixgroup"			"SFX,SFX_Scripted"
+	"volume"			"5.0"
+	"pitch"				"100"
+	"radius"			"500"
+	
+	
+	"rndwave"
+	{
+
+				"wave"				"ai/Marvin/New/DropshipIntros/Generic_Scr_Marvin_Intro_WalkToHatchAndOpen_1ch_v1.wav"
+	}
+
+}
+
+"AngelCity_Scr_IMCIntro_Titan_Cover"  
+{
+
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Story"
+	"radius"		"5000"
+	"volume"		"4"
+	
+	
+	"rndwave"
+	{
+	"flags"				"spatialized"	
+	"panWidth"			"90"
+	"folddownDistance"	"400"
+	
+	"wave"			"campaign/angelcity/AngelCity_Scr_IMCIntro_Titan_Cover_2ch_01.wav"
+	}
+	
+}
+
+"AngelCity_Scr_IMCIntro_Titan_ReturnFire"  
+{
+
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Story"
+	"radius"		"5000"
+	"volume"		"4"
+	
+	"rndwave"
+	{
+	"flags"				"spatialized"	
+	"panWidth"			"90"
+	"folddownDistance"	"400"
+	
+	"wave"			"campaign/angelcity/AngelCity_Scr_IMCIntro_Titan_ReturnFire_2ch_01.wav"
+	}
+	
+}
+
+
+"AngelCity_Scr_IMCIntro_Titan_MoveOut"  
+{
+
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_Story"
+	"radius"		"5000"
+	"volume"		"4"
+	
+	
+	"rndwave"
+	
+	{
+	"flags"				"spatialized"	
+	"panWidth"			"90"
+	"folddownDistance"	"400"
+	
+	"wave"			"campaign/angelcity/AngelCity_Scr_IMCIntro_Titan_MoveOut_2ch_01.wav"
+	}
+	
+}
+
+
+"AngelCity_Scr_IMCIntro_RightGrunt_Step" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"3"
+	"radius"		"500"
+	"falloff"		"8"
+
+	"rndwave"
+	{
+	"wave"			"campaign/angelcity/AngelCity_Scr_IMCIntro_RightGrunt_Step_1ch_v1.wav"
+	}
+
+}
+
+"AngelCity_Scr_IMCIntro_RightGrunt_DiveGetUp" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"3"
+	"radius"		"500"
+	"falloff"		"8"
+
+	"rndwave"
+	{
+	"wave"			"campaign/angelcity/AngelCity_Scr_IMCIntro_RightGrunt_DiveGetUp_1ch_v1.wav"
+	}
+
+}
+
+"AngelCity_Scr_IMCIntro_RightGrunt_Run" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"3"
+	"radius"		"500"
+	"falloff"		"8"
+
+	"rndwave"
+	{
+	"wave"			"campaign/angelcity/AngelCity_Scr_IMCIntro_RightGrunt_Run_1ch_v1.wav"
+	}
+
+}
+
+"AngelCity_Scr_IMCIntro_LeftGrunt_Mvmt1" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"3"
+	"radius"		"500"
+	"falloff"		"8"
+
+	"rndwave"
+	{
+	"wave"			"campaign/angelcity/AngelCity_Scr_IMCIntro_LeftGrunt_Mvmt1_1ch_v1.wav"
+	}
+
+}
+
+"AngelCity_Scr_IMCIntro_LeftGrunt_Mvmt2" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"3"
+	"radius"		"500"
+	"falloff"		"8"
+
+	"rndwave"
+	{
+	"wave"			"campaign/angelcity/AngelCity_Scr_IMCIntro_LeftGrunt_Mvmt2_1ch_v1.wav"
+	}
+}
+
+"AngelCity_Scr_RightRocketFire" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"6"
+	"pitch"			"75"
+	"radius"		"5000"
+	"falloff"		"8"
+
+	"rndwave"
+	{
+	"wave"			"campaign/angelcity/AngelCity_Scr_IMCIntro_HornetRightMissile_1ch_v1_01.wav"
+	}
+}
+
+
+"AngelCity_Scr_LeftRocketExplo" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"7"
+	"radius"		"5000"
+	"falloff"		"0"
+
+	"rndwave"
+	{
+	"wave"			"campaign/angelcity/AngelCity_Scr_IMCIntro_HornetRocketExplo_2ch_v1_01.wav"
+	}
+}
+
+
+"AngelCity_Scr_HornetRise" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"2"
+	"radius"		"5000"
+	"falloff"		"7"
+	"flags"			"mobile"
+	
+	"rndwave"
+	{
+	"delay"			"1800"
+	"flags"			"spatialized"
+	"folddownDistance"	"1000"
+	"wave"			"campaign/angelcity/AngelCity_Scr_Hornet_RiseUpAndHover_2ch_v2_01.wav"
+	}
+}
+
+"AngelCity_Scr_HornetExplodes" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"3"
+	"radius"		"5000"
+	"falloff"		"8"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+	"wave"			"campaign/angelcity/AngelCity_Scr_HornetExplo_2ch_v2_1.wav"
+	}
+}
+
+
+
+//////////////////
+// LEVEL SOUNDS //
+//////////////////
+
+
+"AngelCity_Scr_CarExplodes" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"4"
+	"radius"		"2000"
+	"falloff"		"0"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+	"limit"			"2"
+	"wave"			"campaign/angelcity/Explo_Vehicle_Generic_2ch_v1_01.wav"
+	"wave"			"campaign/angelcity/Explo_Vehicle_Generic_2ch_v1_02.wav"
+	"wave"			"campaign/angelcity/Explo_Vehicle_Generic_2ch_v1_03.wav"
+	"wave"			"campaign/angelcity/Explo_Vehicle_Generic_2ch_v1_04.wav"
+	}
+}
+
+"AngelCity_Scr_DroneExplodes" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"5"
+	"pitch"			"140,150"
+	"radius"		"2000"
+	"falloff"		"0"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+	"limit"			"2"
+	"wave"			"campaign/angelcity/Explo_Vehicle_Generic_2ch_v1_01.wav"
+	"wave"			"campaign/angelcity/Explo_Vehicle_Generic_2ch_v1_02.wav"
+	"wave"			"campaign/angelcity/Explo_Vehicle_Generic_2ch_v1_03.wav"
+	"wave"			"campaign/angelcity/Explo_Vehicle_Generic_2ch_v1_04.wav"
+	}
+}
+
+
+"AngelCity_Scr_SearchLaserSweep" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"4"
+	"radius"		"1000"
+	"falloff"		"1"
+	"flags"			"mobile"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+	"panWidth"		"45"
+	"folddownDistance"	"1000"
+	"limit"			"2"
+	"wave"			"campaign/angelcity/AngelCity_Scr_Scanning_2ch_v1_01.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_Scanning_2ch_v1_02.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_Scanning_2ch_v1_03.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_Scanning_2ch_v1_04.wav"
+	}
+}
+
+"AngelCity_Scr_StratonSearchHover" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"4"
+	"radius"		"5000"
+	"falloff"		"1"
+	"flags"			"mobile,loop"
+
+	"rndwave"
+	{
+	"limit"			"2"
+	"wave"			"campaign/angelcity/AngelCity_Scr_StratonHover_1ch_v1_01.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_StratonHover_1ch_v1_02.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_StratonHover_1ch_v1_03.wav"
+	}
+}
+
+
+"AngelCity_Scr_DroneSearchHover" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"2.0"
+	"radius"		"1500"
+	"pitch"			"100"
+	"falloff"		"1"
+	"flags"			"mobile,loop"
+
+	"rndwave"
+	{
+	"limit"			"4"
+	"wave"			"campaign/angelcity/AngelCity_Scr_DroneIdle_1ch_v1_1.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_DroneIdle_1ch_v1_2.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_DroneIdle_1ch_v1_3.wav"
+	}
+}
+
+"AngelCity_Scr_DroneSearchMove" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"3.5"
+	"pitch"			"100"
+	"radius"		"2000"
+	"falloff"		"1"
+
+	"rndwave"
+	{
+	"limit"			"4"
+	"wave"			"campaign/angelcity/AngelCity_Scr_DroneMove_1ch_v1_1.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_DroneMove_1ch_v1_2.wav"
+	}
+}
+
+"AngelCity_Scr_StratonDogfightFlybys" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"4"
+	"pitch"			"85,115"
+	"radius"		"30000"
+	"falloff"		"1"
+
+	"rndwave"
+	{
+	"limit"			"3"
+	"wave"			"campaign/angelcity/Straton_Flyby1_AC_2ch_v1_01.wav"
+	"wave"			"campaign/angelcity/Straton_Flyby1_AC_2ch_v1_02.wav"
+	"wave"			"campaign/angelcity/Straton_Flyby1_AC_2ch_v1_03.wav"
+	"wave"			"campaign/angelcity/Straton_Flyby1_AC_2ch_v1_04.wav"
+	"wave"			"campaign/angelcity/Straton_Flyby1_AC_2ch_v1_05.wav"
+	"wave"			"campaign/angelcity/Straton_Flyby1_AC_2ch_v1_06.wav"
+	}
+}
+
+
+"AngelCity_Scr_MegaCarrierWarpIn" {
+
+	"mixgroup"		"scripted,SFX,SFX_Vehicles,SFX_Vehicles_Redeye"
+	"volume"		"4"
+	"radius"		"1000000"
+	"flags"			"nevercull"
+
+	"rndwave"
+	{
+	"volume"		"1.7"
+	"pitch"			"75"
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_04.wav"
+	}
+
+}
+
+"AngelCity_Scr_MegaCarrierFlyIn" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"3"
+	"radius"		"1000000"
+	"falloff"		"0"
+	"flags"			"noduck,nevercull"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+	"wave"			"campaign/angelcity/AngelCity_Scr_MegacarrierEntrance_2ch_v1_1.wav"
+	}
+}
+
+"AngelCity_Scr_StratonsExitMegaCarrier" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"2.5,3.5"
+	"pitch"			"80,120"
+	"radius"		"50000"
+	"flags"			"nevercull"
+	"falloff"		"0"
+
+	"rndwave"
+	{
+	"limit"			"2"
+	"wave"			"campaign/angelcity/AngelCity_Scr_StratonsDeployFromMega_1ch_v1_01.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_StratonsDeployFromMega_1ch_v1_02.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_StratonsDeployFromMega_1ch_v1_03.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_StratonsDeployFromMega_1ch_v1_04.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_StratonsDeployFromMega_1ch_v1_05.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_StratonsDeployFromMega_1ch_v1_06.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_StratonsDeployFromMega_1ch_v1_07.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_StratonsDeployFromMega_1ch_v1_08.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_StratonsDeployFromMega_1ch_v1_09.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_StratonsDeployFromMega_1ch_v1_10.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_StratonsDeployFromMega_1ch_v1_11.wav"
+	}
+}
+
+"AngelCity_Scr_RedeyeWarpIn" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"3.5"
+	"radius"		"1000000"
+	"flags"			"nevercull"
+	"falloff"		"0"
+
+
+	"rndwave"
+	{
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_04.wav"
+	}
+}
+
+"AngelCity_Scr_RedeyeFlyIn" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"4"
+	"pitch"			"103"
+	"radius"		"1000000"
+	"falloff"		"0"
+	"flags"			"noduck,nevercull"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+	"wave"			"campaign/angelcity/AngelCity_Scr_RedeyeEntrance_2ch_v1_1.wav"
+	}
+}
+"AngelCity_Scr_RedeyeWeaponFire" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"3"
+	"pitch"			"110,135"
+	"radius"		"50000"
+	"flags"			"nevercull"
+	"falloff"		"0"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+	"limit"			"8"
+	"wave"			"campaign/angelcity/AngelCity_Scr_RedeyeWeaponFire_2ch_v1_1.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_RedeyeWeaponFire_2ch_v1_2.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_RedeyeWeaponFire_2ch_v1_3.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_RedeyeWeaponFire_2ch_v1_4.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_RedeyeWeaponFire_2ch_v1_5.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_RedeyeWeaponFire_2ch_v1_6.wav"
+	}
+}
+
+"AngelCity_Scr_RedeyeWeaponExplos" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"1,4"
+	"pitch"			"110,160"
+	"radius"		"50000"
+	"flags"			"nevercull"
+	"falloff"		"0"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+	"limit"			"2"
+	"wave"			"campaign/angelcity/AngelCity_Scr_RedeyeWeaponFireExplo_2ch_v1_1.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_RedeyeWeaponFireExplo_2ch_v1_2.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_RedeyeWeaponFireExplo_2ch_v1_3.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_RedeyeWeaponFireExplo_2ch_v1_4.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_RedeyeWeaponFireExplo_2ch_v1_5.wav"
+	"wave"			"campaign/angelcity/AngelCity_Scr_RedeyeWeaponFireExplo_2ch_v1_6.wav"
+	}
+}
+
+"AngelCity_Scr_IMCLoss_MegaCarrierLeaves" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"3"
+	"radius"		"1000000"
+	"falloff"		"0"
+	"flags"			"noduck,nevercull"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+	"wave"			"campaign/angelcity/AngelCity_Scr_IMCLose_MegacarrierLeaves_2ch_v2_1.wav"
+	}
+}
+
+"AngelCity_Scr_IMCWin_MegaCarrierLeaves" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"2.2"
+	"radius"		"1000000"
+	"falloff"		"0"
+	"flags"			"noduck,nevercull"
+
+	"rndwave"
+	{
+	"flags"			"spatialized"
+	"wave"			"campaign/angelcity/AngelCity_Scr_IMCWin_MegacarrierLeaves_2ch_v2_1.wav"
+	}
+}
+
+
+"AngelCity_Scr_RedeyeWarpOut" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volume"		"4"
+	"radius"		"50000"
+	"flags"			"nevercull"
+	"falloff"		"0"
+
+	"rndwave"
+	{
+	"wave"			"vehicles/Smallship/SmallShip_WarpIn_M_04.wav"
+	}
+}
+
+
+
+"AngelCity_Scr_VDU_SentinelUnderFire"
+{
+
+	"flags"		"drymix,noduck"
+	"mixgroup"	"vo,DIAL,DIAL_Scripted_Dial"
+	"volume"	"1.2"
+	"pitch"		"PITCH_NORM"
+	"radius"	"0"
+	"ducks"		"SFX,0.7:1.0,1.0,0,0"
+	"ducks"		"music,0.5:1.0,1.0,0,0"
+	"ducks"		"DIAL_AI,0.5:1.0,1.0,0,0"
+	"rndwave"
+	{
+		"channels"
+		{
+			"1"	"L, 2.0"
+			"1"	"R, 2.0"
+		}
+	"wave"	"campaign/angelcity/AngelCity_Scr_VDU_SentinelUnderFire1ch_v1_01.wav"
+	}
+}
+
+//----------------------
+//AMBIENT EMITTERS
+//----------------------
+
+"amb_angelcity_emitter_AsianAd"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_AngelCity"
+	"radius"		"1000"
+	"volume"		"1.0"
+	"nextAlias"		"amb_angelcity_emitter_AsianAd"
+	
+	
+	"rndwave"
+	{
+	"delay"			"15000,45000"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_AsianAd_1ch_01.wav"
+	}
+}
+
+"amb_angelcity_emitter_CheesyAd"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_AngelCity"
+	"radius"		"1000"
+	"volume"		"1.0"
+	"nextAlias"		"amb_angelcity_emitter_CheesyAd"  
+	
+	"rndwave"
+	{
+	"delay"			"15000,45000"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_CheesyAd_1ch_01.wav"
+	}
+}
+
+
+"amb_angelcity_emitter_NewsAd"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_AngelCity"
+	"radius"		"1000"
+	"volume"		"1.0"
+	"nextAlias"		"amb_angelcity_emitter_NewsAd"  
+	
+	
+	"rndwave"
+	{
+	"delay"			"15000,45000"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_CheesyAd_1ch_01.wav"
+	}
+}
+
+
+"amb_angelcity_emitter_DockWater_01"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_AngelCity"
+	"flags"			"mobile,loop"
+	"radius"		"1500"
+	"volume"		"3.5"
+	"pitch"			"90,110"
+	
+	
+	"rndwave"
+	{
+	"limit"			"2"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DockWater_1ch_01.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DockWater_1ch_02.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DockWater_1ch_03.wav"
+	}
+}
+
+"amb_angelcity_emitter_DockWater_02"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_AngelCity"
+	"flags"			"mobile,loop"
+	"radius"		"1500"
+	"volume"		"3.5"
+	"pitch"			"90,110"
+	
+	
+	"rndwave"
+	{
+	"limit"			"2"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DockWater_1ch_04.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DockWater_1ch_05.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DockWater_1ch_06.wav"
+	}
+}
+
+"amb_angelcity_emitter_DockWater_03"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_AngelCity"
+	"flags"			"mobile,loop"
+	"radius"		"1500"
+	"volume"		"3.5"
+	"pitch"			"90,110"
+	
+	
+	"rndwave"
+	{
+	"limit"			"2"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DockWater_1ch_07.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DockWater_1ch_08.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DockWater_1ch_09.wav"
+	}
+}
+
+"amb_angelcity_emitter_DockWater_04"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_AngelCity"
+	"flags"			"mobile,loop"
+	"radius"		"1500"
+	"volume"		"3.5"
+	"pitch"			"90,110"
+	
+	
+	"rndwave"
+	{
+	"limit"			"2"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DockWater_1ch_10.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DockWater_1ch_11.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DockWater_1ch_12.wav"
+	}
+}
+
+"amb_angelcity_emitter_DoorKeyCode"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_AngelCity"
+	"flags"			"mobile,loop"
+	"radius"		"500"
+	"volume"		"2.0"
+	
+	
+	"rndwave"
+	{
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DoorKeyCode_1ch_01.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DoorKeyCode_1ch_02.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DoorKeyCode_1ch_03.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DoorKeyCode_1ch_04.wav"
+	}
+}
+
+"amb_angelcity_emitter_VendingMachine"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_AngelCity"
+	"flags"			"mobile,loop"
+	"radius"		"500"
+	"volume"		"2.0"
+	
+	
+	"rndwave"
+	{
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_VendingMachine_1ch_01.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_VendingMachine_1ch_02.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_VendingMachine_1ch_03.wav"
+	}
+}
+
+"amb_angelcity_emitter_HoloSign"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_AngelCity"
+	"flags"			"mobile,loop"
+	"radius"		"800"
+	"volume"		"3.0"
+	
+	
+	"rndwave"
+	{
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_HoloSign_1ch_01.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_HoloSign_1ch_02.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_HoloSign_1ch_03.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_HoloSign_1ch_04.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_HoloSign_1ch_05.wav"
+	}
+}
+
+"amb_angelcity_emitter_StaticHoloSign"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_AngelCity"
+	"flags"			"mobile,loop"
+	"radius"		"800"
+	"volume"		"3.0"
+	
+	
+	"rndwave"
+	{
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_StaticHoloSign_1ch_01.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_StaticHoloSign_1ch_02.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_StaticHoloSign_1ch_03.wav"
+	}
+}
+
+"amb_angelcity_emitter_NeonSign"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_AngelCity"
+	"flags"			"mobile,loop"
+	"radius"		"800"
+	"volume"		"3.0"
+	"pitch"			"90,110"
+	
+	
+	"rndwave"
+	{
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_NeonSign_1ch_01.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_NeonSign_1ch_02.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_NeonSign_1ch_03.wav"
+	}
+}
+
+"amb_angelcity_emitter_Seagulls_01"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_AngelCity"
+	"radius"		"10000"
+	"volume"		"2.0"
+	"nextAlias"		"amb_angelcity_emitter_Seagulls_02" 
+	
+	
+	"rndwave"
+	{
+	"delay"			"15000,45000"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_Seagulls_1ch_01.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_Seagulls_1ch_02.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_Seagulls_1ch_03.wav"
+	}
+}
+
+"amb_angelcity_emitter_Seagulls_02"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_AngelCity"
+	"radius"		"3000"
+	"volume"		"2.0"
+	"nextAlias"		"amb_angelcity_emitter_Seagulls_03" 
+	
+	
+	"rndwave"
+	{
+	"delay"			"15000,45000"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_Seagulls_1ch_04.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_Seagulls_1ch_05.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_Seagulls_1ch_06.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_Seagulls_1ch_07.wav"
+	}
+}
+
+"amb_angelcity_emitter_Seagulls_03"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_AngelCity"
+	"radius"		"5000"
+	"volume"		"2.0"
+	"nextAlias"		"amb_angelcity_emitter_Seagulls_01" 
+	
+	
+	"rndwave"
+	{
+	"delay"			"15000,45000"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_Seagulls_1ch_08.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_Seagulls_1ch_09.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_Seagulls_1ch_10.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_Seagulls_1ch_11.wav"
+	}
+}
+
+
+
+
+

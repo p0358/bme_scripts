@@ -1,0 +1,336 @@
+////////////////////
+// GLOBAL AMBIENCE /
+////////////////////
+
+"Amb_Haven_EXT_Global"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Haven"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"1.3"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"maps/Nexus/Ambience/AMB_Nexus_EXT_Global_6ch_v2_LP_COMP.wav"
+	}
+
+}
+
+
+"Amb_Haven_INT_Building"
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_Haven"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"1.2"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"maps/Nexus/Ambience/AMB_Nexus_INT_SmallRoom_6ch_v1_LP.wav"
+	}
+
+}
+
+
+
+///////////////////
+//		EMITTERS
+///////////////////
+
+
+///////////////////
+//SCRIPTED EVENTS
+///////////////////
+
+
+"Haven_Scr_StratonDogfightFlybys" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volumescale"		"3"
+	"pitch"			"85,108"
+	"falloff"		"1"
+	"flags"			"layered"
+
+	"rndwave"
+	{
+	"limit"			"3"
+	"volume"		"3.4,3.8"
+	
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "500"
+        "falloffEnd"      "20000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+		
+		"flags"			"spatialized"
+		"folddownDistance"	"2000"
+		
+		"wave"			"maps/Haven/Scripted/Haven_Scr_Straton_Flyby1_2ch_v1_01.wav"
+		"wave"			"maps/Haven/Scripted/Haven_Scr_Straton_Flyby1_2ch_v1_02.wav"
+		"wave"			"maps/Haven/Scripted/Haven_Scr_Straton_Flyby1_2ch_v1_03.wav"
+		"wave"			"maps/Haven/Scripted/Haven_Scr_Straton_Flyby1_2ch_v1_04.wav"
+		"wave"			"maps/Haven/Scripted/Haven_Scr_Straton_Flyby1_2ch_v1_05.wav"
+		
+	}
+}
+
+"Haven_Scr_CarrierWarpOut" {
+
+	"mixgroup"		"scripted,SFX,SFX_Scripted,SFX_Scripted_Story"
+	"volumeScale"	"2.5"
+	"radius"		"50000"
+	"flags"			"nevercull"
+	"falloff"		"0"
+
+	"rndwave"
+	{
+	"pitch"			"100"
+	"volume"		"4"
+	"wave"			"maps/haven/scripted/Haven_Scr_CarrierWarpout_Short_2ch_v2_01.wav"
+	}
+}
+
+
+"Haven_Scr_FlybyWaterSpray"
+{
+	"mixgroup"			"SFX,SFX_Scripted,SFX_Scripted_Haven"
+	"volumescale"		"1.8"
+	"flags"				"layered"
+
+	"rndwave"
+	{
+
+		"delay"			  "250"
+	
+		"flags"			"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"500"
+		"limit"				"2"
+		"volume"			"7"
+		"pitch"				"97,102"
+
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "12000"
+        "startCurve"      "0"
+        "falloffCurve"    "0"
+				
+			"wave"				"maps/Haven/Scripted/Haven_Scr_FlybyWaterSpray_Close_2ch_v1_01.wav"
+			"wave"				"maps/Haven/Scripted/Haven_Scr_FlybyWaterSpray_Close_2ch_v1_02.wav"
+			"wave"				"maps/Haven/Scripted/Haven_Scr_FlybyWaterSpray_Close_2ch_v1_03.wav"
+			"wave"				"maps/Haven/Scripted/Haven_Scr_FlybyWaterSpray_Close_2ch_v1_04.wav"
+			"wave"				"maps/Haven/Scripted/Haven_Scr_FlybyWaterSpray_Close_2ch_v1_05.wav"
+			"wave"				"maps/Haven/Scripted/Haven_Scr_FlybyWaterSpray_Close_2ch_v1_06.wav"
+
+	}
+
+	"rndwave"
+	{
+
+		"flags"			"spatialized"
+		"folddownDistance"	"200"
+		"panWidth"			"45"
+		"limit"				"2"
+		"volume"			"6"
+		"pitch"				"97,102"
+		
+		"startDistance"   "0"
+        "peakDistance"    "0"
+        "falloffStart"    "0"
+        "falloffEnd"      "15000"
+        "startCurve"      "5"
+        "falloffCurve"    "0"
+
+		"wave"				"maps/Haven/Scripted/Haven_Scr_FlybyWaterSpray_Dist_2ch_v1_01.wav"
+		"wave"				"maps/Haven/Scripted/Haven_Scr_FlybyWaterSpray_Dist_2ch_v1_02.wav"
+		"wave"				"maps/Haven/Scripted/Haven_Scr_FlybyWaterSpray_Dist_2ch_v1_03.wav"
+		"wave"				"maps/Haven/Scripted/Haven_Scr_FlybyWaterSpray_Dist_2ch_v1_04.wav"
+		"wave"				"maps/Haven/Scripted/Haven_Scr_FlybyWaterSpray_Dist_2ch_v1_05.wav"
+		"wave"				"maps/Haven/Scripted/Haven_Scr_FlybyWaterSpray_Dist_2ch_v1_06.wav"
+		
+
+	}
+}
+
+
+"Haven_Emit_Waterfall_Bottom"
+
+{
+
+	"volume"		"0.75"
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Haven"	
+	"flags"		"mobile,loop"
+	"radius"		"1250"	
+	"pitch"			"90,105"
+	
+	"wave"			"ambient/amb_fracture_waterfall_bottom2.wav"
+	
+}
+
+
+"Haven_Emit_Waterfall_Falling"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Haven"
+	"flags"				"mobile,loop"
+	"volume"			"1.0"
+	"radius"			"1500"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"panWidth"			"90"
+		"folddownDistance"	"500"
+		"pitch"				"90,105"
+		"wave"				"Maps/Corporate/Emitters/AMB_Emit_Corporate_SplashFountain_2ch_01.wav"
+	}
+}
+
+"Amb_Haven_Emit_WaterLap"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Haven"
+	"flags"			"loop"
+	"radius"		"700"
+	
+	
+	"rndwave"
+	{
+	"volume"		"1.0,1.5"
+	"pitch"			"80,120"
+	"limit"			"3"
+	
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLap_1ch_01.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLap_1ch_02.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLap_1ch_03.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLap_1ch_04.wav"
+	}
+}
+
+"Amb_Haven_Emitter_WaterLapShore"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Haven"
+	"flags"			"loop"
+	"radius"		"600"
+	
+	
+	"rndwave"
+	{
+	"volume"		"1.0,1.5"
+	"pitch"			"100,120"
+	"limit"			"3"
+	
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLapShore_1ch_01.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLapShore_1ch_02.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLapShore_1ch_03.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLapShore_1ch_04.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLapShore_1ch_05.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLapShore_1ch_06.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLapShore_1ch_07.wav"
+	"wave"			"Maps/Lagoon/Emitters/AMB_Emit_Lagoon_WaterLapShore_1ch_08.wav"
+	}
+}
+
+
+
+"Haven_emit_DockWater_01"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Haven"
+	"flags"			"mobile,loop"
+	"radius"		"1500"
+	"volume"		"3.5"
+	"pitch"			"90,110"
+	
+	
+	"rndwave"
+	{
+	"limit"			"3"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DockWater_1ch_01.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DockWater_1ch_02.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DockWater_1ch_03.wav"
+	}
+}
+
+"Haven_emit_DockWater_02"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Haven"
+	"flags"			"mobile,loop"
+	"radius"		"1500"
+	"volume"		"3.5"
+	"pitch"			"90,110"
+	
+	
+	"rndwave"
+	{
+	"limit"			"3"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DockWater_1ch_04.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DockWater_1ch_05.wav"
+	"wave"			"Maps/Angel_City/Emitters/AMB_Emit_AngelCity_DockWater_1ch_06.wav"
+	}
+}
+
+"Haven_emit_TrickleFountain"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Haven"
+	"flags"				"loop"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"50"
+		"limit"				"2"
+		"wave"				"Maps/Corporate/Emitters/AMB_Emit_Corporate_TrickleFountain_2ch_01.wav"
+	}
+}
+
+"Haven_emit_TrickleFountain_2"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Haven"
+	"flags"				"loop"
+	"volume"			"2.5"
+	"radius"			"600"
+	"pitch"				"100"
+
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"50"
+		"limit"				"2"
+		"wave"				"Maps/Corporate/Emitters/AMB_Emit_Corporate_TrickleFountain_2ch_01.wav"
+	}
+}
+"Haven_emit_ElectricalGrind"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Haven"
+	"flags"			"mobile,loop"
+	"radius"		"600"
+	"volume"		"2.5"
+	"pitch"			"95,105"
+	
+	
+	"rndwave"
+	{
+	"limit"			"2"
+	"wave"			"Maps/Haven/Ambient/Haven_Emitter_ElectricalGrind_1ch_v4_01.wav"
+	"wave"			"Maps/Haven/Ambient/Haven_Emitter_ElectricalGrind_1ch_v4_02.wav"
+
+	}
+}
+
+

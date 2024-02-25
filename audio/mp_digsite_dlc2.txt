@@ -1,0 +1,814 @@
+////////////////////
+// GLOBAL AMBIENCE /
+////////////////////
+
+"Amb_DigSite_EXT_Global"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_DigSite"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"0.7"
+
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/DigSite/Ambience/AMB_DigSite_EXT_Global_6ch_v2_LP.wav"
+	}
+	
+}
+
+"Amb_DigSite_INT_Room_HalfOpen"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_DigSite"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"0.7"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/DigSite/Ambience/AMB_DigSite_INT_Room_HalfOpen_6ch_v1_LP.wav"
+	}
+	
+}
+
+"Amb_DigSite_INT_ClosedRoom"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Beds,SFX_AMB_Beds_DigSite"
+	"flags"			"omni,loop"
+	"radius"		"0"
+	"volume"		"0.7"
+	
+	"rndwave"
+	{
+	"limit"			"1"
+	"wave"			"Maps/DigSite/Ambience/AMB_DigSite_INT_ClosedRoom_6ch_v1_LP.wav"
+	}
+}
+
+
+///////////////////
+//SCRIPTED EVENTS
+///////////////////
+
+
+"DigSite_Scr_Digger_Spindown_Twitch_Spinup"  
+{
+
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_DigSite"
+		
+	"volume"		"5.3"
+	"falloff"		"0"
+	"pitch"			"100"
+	"flags"			"mobile,layered,nevercull"
+	"occlusionDuckScale"	"0.8"
+
+		"rndwave"
+	{
+	
+		"flags"			"spatialized"
+		"folddownDistance"	"800"
+		"startDistance"		"0"
+		"startCurve"		"0"
+		"peakDistance"		"0"
+		"falloffStart"		"1500"
+		"falloffEnd"		"5000"
+		"falloffCurve"		"0"
+		"limit"			"1"
+
+		"wave"			"Maps/DigSite/Scripted/DigSite_Scr_Digger_SpinDown_Twitch_Spinup_2ch_v1.wav"
+	
+	}
+	
+		"rndwave"
+	{
+	
+		"flags"			"spatialized"
+		"folddownDistance"	"800"
+		
+		"volume"			"7.3"
+		"pitch"				"95"
+		
+		"startDistance"		"0"
+		"startCurve"		"0"
+		"peakDistance"		"0"
+		"falloffStart"		"1250"
+		"falloffEnd"		"2300"
+		"falloffCurve"		"0"
+		"limit"			"1"
+
+		"wave"			"Maps/DigSite/Scripted/DigSite_Scr_Digger_SpinDown_Twitch_Spinup_RocksClose_2ch_v1.wav"
+	
+	}
+	
+		"rndwave"
+	{
+	
+		"flags"			"spatialized"
+		"folddownDistance"	"0"
+		
+		"volume"			"7.5"
+		"startDistance"		"1400"
+		"startCurve"		"0"
+		"peakDistance"		"0"
+		"falloffStart"		"2500"
+		"falloffEnd"		"13000"
+		"falloffCurve"		"0"
+		"limit"			"1"
+
+		"wave"			"Maps/DigSite/Scripted/DigSite_Scr_Digger_SpinDown_Twitch_Spinup_Dist_2ch_v1.wav"
+	
+	}
+		
+}
+
+"DigSite_Scr_Digger_Spin_LP"  
+{
+
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_DigSite"
+		
+	"volume"		"5.3"
+	"falloff"		"0"
+	"pitch"			"100"
+	"flags"			"mobile,loop,layered,nevercull"
+	"occlusionDuckScale"	"0.8"
+
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"folddownDistance"	"800"
+		"startDistance"		"0"
+		"startCurve"		"0"
+		"peakDistance"		"0"
+		"falloffStart"		"1500"
+		"falloffEnd"		"5000"
+		"falloffCurve"		"0"
+		
+		"limit"			"1"
+		"flags"			"spatialized"
+		"folddowndistance"	"400"
+		"wave"			"Maps/DigSite/Scripted/DigSite_Scr_Digger_Spin_LP_2ch_v1.wav"
+	
+	}
+	
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"folddownDistance"	"800"
+		
+		"volume"			"6.4"
+		"pitch"				"95"
+		"startDistance"		"0"
+		"startCurve"		"0"
+		"peakDistance"		"0"
+		"falloffStart"		"1250"
+		"falloffEnd"		"2300"
+		"falloffCurve"		"0"
+		
+		"limit"			"1"
+		"flags"			"spatialized"
+		"folddowndistance"	"400"
+		"wave"			"Maps/DigSite/Scripted/DigSite_Scr_Digger_Spin_RocksClose_LP_2ch_v1.wav"
+	
+	}
+	
+		"rndwave"
+	{
+	
+		"flags"			"spatialized"
+		"folddownDistance"	"0"
+		
+		"volume"			"7.5"
+		"startDistance"		"1400"
+		"startCurve"		"0"
+		"peakDistance"		"0"
+		"falloffStart"		"2500"
+		"falloffEnd"		"13000"
+		"falloffCurve"		"0"
+		"limit"			"1"
+
+		"wave"			"Maps/DigSite/Scripted/DigSite_Scr_Digger_Spin_Dist_LP_2ch_v1.wav"
+	
+	}
+	
+}
+
+
+
+"DigSite_Scr_Grinder_DoorOpen"  
+{
+
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_DigSite"
+	"volume"			"8.6"
+	"pitch"				"92,100"
+	"radius"			"1700"
+	
+	
+	
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"10"
+					
+			"wave"				"Maps/DigSite/Scripted/DigSite_Scr_GrinderDoors_Open_2ch_v1_01.wav"
+			"wave"				"Maps/DigSite/Scripted/DigSite_Scr_GrinderDoors_Open_2ch_v1_02.wav"
+	}
+}
+
+"DigSite_Scr_Grinder_DoorClose"  
+{
+
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_DigSite"
+	"volume"			"9.6"
+	"pitch"				"92,100"
+	"radius"			"1700"
+	
+	
+	"rndwave"
+	{
+		"flags"			"spatialized"
+		"panWidth"			"45"
+		"folddownDistance"	"10"
+			
+			"wave"				"Maps/DigSite/Scripted/DigSite_Scr_GrinderDoors_Close_2ch_v1_01.wav"
+			"wave"				"Maps/DigSite/Scripted/DigSite_Scr_GrinderDoors_Close_2ch_v1_02.wav"
+	}
+}
+
+"DigSite_Scr_Grinder_SpinUp"  
+{
+
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_DigSite"
+	"volume"		"4.1"
+	"falloff"		"0"
+	"pitch"			"100"
+	"flags"			"mobile,layered,nevercull"
+	"occlusionDuckScale"	"0.5"
+		
+	"rndwave"
+
+	{
+		"flags"			"spatialized"
+		"folddownDistance"	"800"
+		"startDistance"		"0"
+		"startCurve"		"0"
+		"peakDistance"		"0"
+		"falloffStart"		"850"
+		"falloffEnd"		"1800"
+		"falloffCurve"		"0"
+	"limit"			"2"
+	"wave"				"Maps/DigSite/Scripted/DigSite_Scr_Grinder_Spinup_and_Run_2ch_v1.wav"
+
+	}
+}
+
+"DigSite_Scr_Grinder_LP"  
+{
+
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_DigSite"
+	"volume"		"8.7"
+	"radius"		"5000"
+	"falloff"		"0.5"
+	"flags"			"mobile"
+
+	"rndwave"
+
+	{
+
+		"wave"			"null.wav"
+	}
+}
+
+"DigSite_Scr_Grinder_SpinDown"  
+{
+
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_DigSite"
+	"volume"			"4.1"
+	"pitch"				"100"
+	"falloff"			"0"
+	"flags"				"mobile,layered,nevercull"
+	"occlusionDuckScale"	"0.5"
+	
+	"rndwave"
+	{
+		"delay"			"5"
+		"flags"			"spatialized"
+		"folddownDistance"	"800"
+		"startDistance"		"0"
+		"startCurve"		"0"
+		"peakDistance"		"0"
+		"falloffStart"		"850"
+		"falloffEnd"		"1800"
+		"falloffCurve"		"0"
+
+		"limit"				"2"		
+
+			"wave"				"Maps/Digsite/Scripted/DigSite_Scr_Grinder_SpinDown_2ch_v1.wav"
+	}
+}
+
+"DigSite_Scr_Generator_SpinUp"  
+{
+
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_DigSite"
+	"volume"		"5.6"
+	"pitch"			"91,103"
+	"flags"			"mobile,layered"
+
+	"rndwave"
+
+
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"300"
+		
+		"limit"			"4"
+		
+		"startDistance"		"0"
+		"startCurve"		"0"
+		"peakDistance"		"0"
+		"falloffStart"		"400"
+		"falloffEnd"		"1500"
+		"falloffCurve"		"0"
+		
+		"wave"				"Maps/Digsite/Scripted/DigSite_Scr_Generator_Spinup_2ch_v1_01.wav"
+		"wave"				"Maps/Digsite/Scripted/DigSite_Scr_Generator_Spinup_2ch_v1_02.wav"
+		"wave"				"Maps/Digsite/Scripted/DigSite_Scr_Generator_Spinup_2ch_v1_03.wav"
+		"wave"				"Maps/Digsite/Scripted/DigSite_Scr_Generator_Spinup_2ch_v1_04.wav"
+
+	}
+}
+
+"DigSite_Scr_Generator_LP"  
+{
+
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_DigSite"
+	"volume"		"4.6"
+	"pitch"			"95,103"
+	"flags"			"mobile,layered,loop"
+
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"300"
+		"limit"			"4"
+		
+		"startDistance"		"0"
+		"startCurve"		"0"
+		"peakDistance"		"0"
+		"falloffStart"		"400"
+		"falloffEnd"		"1500"
+		"falloffCurve"		"0"
+		
+		"wave"				"Maps/Digsite/Scripted/DigSite_Scr_Generator_2ch_v1_01_LP.wav"
+		"wave"				"Maps/Digsite/Scripted/DigSite_Scr_Generator_2ch_v1_02_LP.wav"
+		"wave"				"Maps/Digsite/Scripted/DigSite_Scr_Generator_2ch_v1_03_LP.wav"
+		"wave"				"Maps/Digsite/Scripted/DigSite_Scr_Generator_2ch_v1_04_LP.wav"
+		
+	}
+}
+
+"DigSite_Scr_Generator_SpinDown"  
+{
+
+	"mixgroup"		"SFX,SFX_Scripted,SFX_Scripted_DigSite"
+	"volume"		"5.6"
+	"pitch"			"91,103"
+	"falloff"		"1"
+	"flags"			"mobile,layered"
+		
+	"rndwave"
+	{
+		"flags"				"spatialized"
+		"folddownDistance"	"300"
+		"limit"			"4"
+	
+		"startDistance"		"0"
+		"startCurve"		"0"
+		"peakDistance"		"0"
+		"falloffStart"		"400"
+		"falloffEnd"		"1500"
+		"falloffCurve"		"0"
+
+		"wave"				"Maps/Digsite/Scripted/DigSite_Scr_Generator_Spindown_2ch_v1_01.wav"
+		"wave"				"Maps/Digsite/Scripted/DigSite_Scr_Generator_Spindown_2ch_v1_02.wav"
+		"wave"				"Maps/Digsite/Scripted/DigSite_Scr_Generator_Spindown_2ch_v1_03.wav"
+		"wave"				"Maps/Digsite/Scripted/DigSite_Scr_Generator_Spindown_2ch_v1_04.wav"
+		
+	}
+}
+
+
+"DigSite_Scr_RockEnergyCylinder_Start"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_DigSite"
+	"radius"		"1500"
+	"flags"			"nevercull"
+	
+	
+	"rndwave"
+	{
+	"volume"		"2.5"
+	"pitch"			"98,102"
+	"flags"			"spatialized"
+	"foldDowndistance"	"50"
+	
+	"limit"				"2"
+	
+	"wave"			"Maps/DigSite/Scripted/DigSite_Scr_RockEnergyCylinder_Start_2ch_v1_01.wav"
+	"wave"			"Maps/DigSite/Scripted/DigSite_Scr_RockEnergyCylinder_Start_2ch_v1_02.wav"
+	"wave"			"Maps/DigSite/Scripted/DigSite_Scr_RockEnergyCylinder_Start_2ch_v1_03.wav"
+	}
+}
+
+
+"DigSite_Scr_RockEnergyCylinder_Loop"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_DigSite"
+	"flags"			"loop,nevercull"
+	"radius"		"1500"
+	
+	
+	
+	"rndwave"
+	{
+	"volume"		"2.5"
+	"pitch"			"98,102"
+	"flags"			"spatialized"
+	"foldDowndistance"	"50"
+	
+	"limit"				"2"
+	
+	"wave"			"Maps/DigSite/Scripted/DigSite_Scr_RockEnergyCylinder_Loop_2ch_v1_01_LP.wav"
+	"wave"			"Maps/DigSite/Scripted/DigSite_Scr_RockEnergyCylinder_Loop_2ch_v1_02_LP.wav"
+	}
+}
+
+"DigSite_Scr_RockEnergyCylinder_Diffuse_Loop"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_DigSite"
+	"flags"			"loop,nevercull"
+	"radius"		"1500"
+		
+	
+	"rndwave"
+	{
+	"volume"		"2.5"
+	"pitch"			"98,102"
+	"flags"			"spatialized"
+	"foldDowndistance"	"50"
+	
+	"limit"				"2"
+	
+	"wave"			"Maps/DigSite/Scripted/DigSite_Scr_RockEnergyCylinder_Diffuse_Loop_2ch_v1_LP.wav"
+
+	}
+}
+
+"DigSite_Scr_RockEnergyCylinder_Stop"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_DigSite"
+	"radius"		"1500"
+	"flags"			"nevercull"
+	
+	
+	"rndwave"
+	{
+	"volume"		"2.5"
+	"pitch"			"96,102"
+	"flags"			"spatialized"
+	"foldDowndistance"	"50"
+	"limit"			"2"
+	
+	"wave"			"Maps/DigSite/Scripted/DigSite_Scr_RockEnergyCylinder_Stop_2ch_v1_01.wav"
+	
+	}
+	
+}
+
+"DigSite_Scr_Digger_DamageImpact_3p_vs_1p"
+{
+
+// digger hurts pilot, victim perspective
+
+	"mixgroup"		"SFX,SFX_Impacts,SFX_Impacts_3P_Hits_1P,SFX_Impacts_3P_Hits_1P_Bullets,FleshImpacts"
+	"radius"		"0"
+	"volumescale"	"1.7"
+	"flags"			"nevercull"
+	
+//	"ducks"			"SFX_Weapons_Pilot_1P_Gunfire,0.3"
+//	"ducks"			"SFX_Weapons_SingleShot_Pilot_1P_Gunfire,0.15"
+//	"ducks"			"SFX_Weapons_Titan_1P_Gunfire,0.3"
+//	"ducks"			"SFX_Weapons_SingleShot_Titan_1P_Gunfire,0.15"
+	"ducks"			"ambient,0.3:0.0"
+	"ducks"			"SFX_Weapons_AI,0.3:0.0"
+	"ducks"			"SFX_Scripted_DigSite,0.3:0.0"
+	
+	"rndwave"
+	
+	{
+	
+	"channels" {
+	
+		"1"			"L"
+		"2"			"R"
+	
+	}
+	
+	"volume"			"4"
+	"pitch"				"90,105"
+	"folddownDistance"	"0"
+	
+		"wave"			"Maps/DigSite/Scripted/DigSite_Scr_Digger_DamageImpact_2ch_v1_07.wav"
+		"wave"			"Maps/DigSite/Scripted/DigSite_Scr_Digger_DamageImpact_2ch_v1_08.wav"
+		"wave"			"Maps/DigSite/Scripted/DigSite_Scr_Digger_DamageImpact_2ch_v1_09.wav"
+	}
+	
+}
+
+"DigSite_Scr_Digger_DamageImpact_3p_vs_3p"
+{
+
+// digger hurts pilot, bystander perspective
+
+	"mixgroup"		"SFX,SFX_Impacts,SFX_Impacts_3P_Hits_1P,SFX_Impacts_3P_Hits_1P_Bullets,FleshImpacts"
+	"radius"		"1500"
+	"volumescale"	"1.2"
+	"flags"			"nevercull"
+	
+//	"ducks"			"SFX_Weapons_Pilot_1P_Gunfire,0.3"
+//	"ducks"			"SFX_Weapons_SingleShot_Pilot_1P_Gunfire,0.15"
+//	"ducks"			"SFX_Weapons_Titan_1P_Gunfire,0.3"
+//	"ducks"			"SFX_Weapons_SingleShot_Titan_1P_Gunfire,0.15"
+	"ducks"			"ambient,0.3:0.0"
+	"ducks"			"SFX_Weapons_AI,0.3:0.0"
+	"ducks"			"SFX_Scripted_DigSite,0.3:0.0"
+	
+	"rndwave"
+	
+	{
+	
+	"volume"			"4"
+	"pitch"				"90,105"
+	"flags"				"spatialized"
+	"panWidth"			"45"
+	"folddownDistance"	"0"
+	
+		"wave"			"Maps/DigSite/Scripted/DigSite_Scr_Digger_DamageImpact_2ch_v1_07.wav"
+		"wave"			"Maps/DigSite/Scripted/DigSite_Scr_Digger_DamageImpact_2ch_v1_08.wav"
+		"wave"			"Maps/DigSite/Scripted/DigSite_Scr_Digger_DamageImpact_2ch_v1_09.wav"
+	}
+	
+}
+
+
+"DigSite_Scr_Digger_DamageImpact_Kill_3p_vs_1p"
+{
+
+// digger kills pilot, victim perspective
+
+	"mixgroup"		"SFX,SFX_Impacts,SFX_Impacts_3P_Hits_1P,SFX_Impacts_3P_Hits_1P_Bullets,FleshImpacts"
+	"radius"		"0"
+	"volumescale"	"1.7"
+	"flags"			"nevercull"
+	
+//	"ducks"			"SFX_Weapons_Pilot_1P_Gunfire,0.3"
+//	"ducks"			"SFX_Weapons_SingleShot_Pilot_1P_Gunfire,0.15"
+//	"ducks"			"SFX_Weapons_Titan_1P_Gunfire,0.3"
+//	"ducks"			"SFX_Weapons_SingleShot_Titan_1P_Gunfire,0.15"
+	"ducks"			"ambient,0.3:0.0"
+	"ducks"			"SFX_Weapons_AI,0.3:0.0"
+	"ducks"			"SFX_Scripted_DigSite,0.3:0.0"
+	
+	"rndwave"
+	
+	{
+	
+	"channels" {
+	
+		"1"			"L"
+		"2"			"R"
+	
+	}
+	
+	"volume"			"4"
+	"pitch"				"90,105"
+
+	"folddownDistance"	"0"
+	
+		"wave"			"Maps/DigSite/Scripted/DigSite_Scr_Digger_DamageImpact_2ch_v1_01.wav"
+		"wave"			"Maps/DigSite/Scripted/DigSite_Scr_Digger_DamageImpact_2ch_v1_02.wav"
+		"wave"			"Maps/DigSite/Scripted/DigSite_Scr_Digger_DamageImpact_2ch_v1_03.wav"
+		"wave"			"Maps/DigSite/Scripted/DigSite_Scr_Digger_DamageImpact_2ch_v1_04.wav"
+		"wave"			"Maps/DigSite/Scripted/DigSite_Scr_Digger_DamageImpact_2ch_v1_05.wav"
+		"wave"			"Maps/DigSite/Scripted/DigSite_Scr_Digger_DamageImpact_2ch_v1_06.wav"
+	}
+	
+}
+
+"DigSite_Scr_Digger_DamageImpact_Kill_3p_vs_3p"
+{
+
+// digger hurts pilot, bystander perspective
+
+	"mixgroup"		"SFX,SFX_Impacts,SFX_Impacts_3P_Hits_1P,SFX_Impacts_3P_Hits_1P_Bullets,FleshImpacts"
+	"radius"		"1500"
+	"volumescale"	"1.4"
+	"flags"			"nevercull"
+	
+//	"ducks"			"SFX_Weapons_Pilot_1P_Gunfire,0.3"
+//	"ducks"			"SFX_Weapons_SingleShot_Pilot_1P_Gunfire,0.15"
+//	"ducks"			"SFX_Weapons_Titan_1P_Gunfire,0.3"
+//	"ducks"			"SFX_Weapons_SingleShot_Titan_1P_Gunfire,0.15"
+	"ducks"			"ambient,0.3:0.0"
+	"ducks"			"SFX_Weapons_AI,0.3:0.0"
+	"ducks"			"SFX_Scripted_DigSite,0.3:0.0"
+	
+	"rndwave"
+	
+	{
+	
+	"volume"			"4"
+	"pitch"				"90,105"
+	"flags"				"spatialized"
+	"panWidth"			"45"
+	"folddownDistance"	"0"
+	
+		"wave"			"Maps/DigSite/Scripted/DigSite_Scr_Digger_DamageImpact_2ch_v1_01.wav"
+		"wave"			"Maps/DigSite/Scripted/DigSite_Scr_Digger_DamageImpact_2ch_v1_02.wav"
+		"wave"			"Maps/DigSite/Scripted/DigSite_Scr_Digger_DamageImpact_2ch_v1_03.wav"
+		"wave"			"Maps/DigSite/Scripted/DigSite_Scr_Digger_DamageImpact_2ch_v1_04.wav"
+		"wave"			"Maps/DigSite/Scripted/DigSite_Scr_Digger_DamageImpact_2ch_v1_05.wav"
+		"wave"			"Maps/DigSite/Scripted/DigSite_Scr_Digger_DamageImpact_2ch_v1_06.wav"
+	}
+	
+}
+
+///////////////////
+//		EMITTERS
+///////////////////
+
+"DigSite_Emit_Fan"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_DigSite"
+	"flags"			"loop"
+	"radius"		"700"
+	
+	
+	"rndwave"
+	{
+	"volume"		"4.0,4.5"
+	"pitch"			"80,120"
+	"flags"			"spatialized"
+	"panWidth"			"45"
+	"folddownDistance"	"80"
+	"limit"				"3"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_GeneratorLoop_LR_v3_LP.wav"
+	"wave"			"Maps/Overlook/Emitters/AMB_Overlook_EXT_FanLoop_LR_v1_LP.wav"
+	}
+}
+
+
+
+
+"DigSite_Emit_Console"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_DigSite"
+	"volume"			"2"
+	"pitch"				"110"
+	"radius"			"800"
+	"flags"				"loop"
+
+
+	"rndwave"
+	{
+		"volume"			"5"
+		"limit"				"4"
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Console1_LR_v1_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Console1_LR_v2_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Console1_LR_v3_LP.wav"
+	}
+}
+
+"DigSite_Emit_RotatingDrum"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_DigSite"
+	"flags"			"layered,mobile,loop"
+	"occlusionDuckScale"	"0"
+	
+	
+	"rndwave"
+	{
+	"volume"		"5.5"
+	"pitch"			"100"
+	"flags"			"spatialized"
+	"folddownDistance"	"80"
+	"limit"				"3"
+	
+		"startDistance"		"0"
+		"startCurve"		"0"
+		"peakDistance"		"0"
+		"falloffStart"		"100"
+		"falloffEnd"		"1100"
+		"falloffCurve"		"0"
+	
+	"wave"			"Maps/DigSite/Emitters/DigSite_Emit_RotatingDrum_2ch_v1_LP.wav"
+
+	}
+}
+
+"DigSite_Emit_Steam_Medium"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_DigSite"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"700"
+	"flags"				"mobile,loop"
+
+
+	"rndwave"
+	{
+		"volume"			"2"
+		"pitch"				"80,120"
+		"limit"				"3"
+
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Medium_1ch_01_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Medium_1ch_02_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Medium_1ch_03_LP.wav"
+	}
+}
+
+"DigSite_Emit_Steam_Large"
+{
+	"mixgroup"			"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_DigSite"
+	"volume"			"2"
+	"pitch"				"100"
+	"radius"			"700"
+	"flags"				"mobile,loop"
+
+
+	"rndwave"
+	{
+		"volume"			"2"
+		"pitch"				"80,120"
+		"limit"				"3"
+
+
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Large_1ch_01_LP.wav"
+			"wave"				"maps/boneyard/emitters/AMB_Emit_Boneyard_Steam_Large_1ch_02_LP.wav"
+	}
+}
+
+"DigSite_Emit_LappingWater_v1"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Swampland"
+	"flags"			"loop"
+	"radius"		"800"
+	"volume"		"0.8"
+	"pitch"			"95,105"
+	
+	
+	"rndwave"
+	{
+		"limit"				"3"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_01.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_02.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_03.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_04.wav"
+	}
+	
+}
+
+"DigSite_Emit_LappingWater_v2"  
+{
+
+	"mixgroup"		"ambient,SFX,SFX_AMB,SFX_AMB_Emitters,SFX_AMB_Emitters_Swampland"
+	"flags"			"loop"
+	"radius"		"800"
+	"volume"		"0.8"
+	"pitch"			"95,105"
+	
+	
+	"rndwave"
+	{
+		"limit"				"3"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_05.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_06.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_07.wav"
+		"wave"			"Maps/Swampland/Emitters/AMB_Emit_Swampland_WaterLapping_1ch_v1_08.wav"
+
+	}
+}
