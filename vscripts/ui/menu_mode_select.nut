@@ -174,6 +174,7 @@ function InitMatchSettingsMenu( menu )
 	AddDescFocusHandler( file.burnCardSetButton, "#PM_DESC_BURN_CARDS" )
 
 	uiGlobal.matchSettingsChanged <- false
+	uiGlobal.resettingPrivateMatchSettings <- false
 }
 
 
@@ -204,6 +205,7 @@ function OnOpenMatchSettingsMenu()
 	UpdateMappedConVarFromPlaylist( "pm_burn_cards" )
 
 	thread UpdateMatchSettingsSliderValues( menu )
+	thread AutoApplyAndRefreshMatchSettings( menu )
 
 	RegisterButtonPressedCallback( BUTTON_X, ApplyMatchSettings )
 	RegisterButtonPressedCallback( BUTTON_Y, ResetMatchSettingsToDefaultDialog )
@@ -359,6 +361,57 @@ function UpdateMatchSettingsSliderValues( menu )
 		SetTitanRebuildTimeText( file.titanRebuildLabel, GetTitanRebuildFromConVar() )
 
 		wait 0
+	}
+}
+
+function AutoApplyAndRefreshMatchSettings( menu )
+{
+	EndSignal( uiGlobal.signalDummy, "OnCloseMatchSettingsMenu" )
+
+	local modeName = GetModeNameForEnum( level.ui.privatematch_mode )
+	local lastSettingsChangedTime = Time()
+	local lastSettingsChangedWait = 1
+
+	while ( true )
+	{
+		if (ApplyMatchSettingsIfChanged())
+			lastSettingsChangedTime = Time()
+
+		if (uiGlobal.resettingPrivateMatchSettings)
+			lastSettingsChangedTime = Time()
+
+		///
+
+		if (Time() - lastSettingsChangedTime > 1)
+		{
+			local modeName = GetModeNameForEnum( level.ui.privatematch_mode )
+			file.modeSettingsName = modeName
+
+			file.gameModeLabel.SetText( GAMETYPE_TEXT[ modeName ] )
+
+			uiGlobal.matchSettingsChanged = false
+
+			UpdateGametypeConVarsFromPlaylist()
+
+			UpdateMappedConVarFromPlaylist( "pm_pilot_health" )
+			UpdateMappedConVarFromPlaylist( "pm_pilot_ammo" )
+			UpdateMappedConVarFromPlaylist( "pm_pilot_minimap" )
+			UpdateFloatConVarFromPlaylist( "pm_pilot_respawn_delay" )
+
+			UpdateSecondsConVarFromPlaylist( "pm_titan_build" )
+			UpdateSecondsConVarFromPlaylist( "pm_titan_rebuild" )
+			UpdateMappedConVarFromPlaylist( "pm_titan_shields" )
+
+			UpdateMappedConVarFromPlaylist( "pm_ai_type" )
+			UpdateMappedConVarFromPlaylist( "pm_ai_lethality" )
+			UpdateMappedConVarFromPlaylist( "pm_burn_cards" )
+
+			uiGlobal.resettingPrivateMatchSettings = false
+		}
+
+		///
+
+		wait 0.1
 	}
 }
 
@@ -552,7 +605,7 @@ function MatchSettingsFocusUpdate( button )
 
 function ApplyMatchSettings( button )
 {
-	ClientCommand( "ResetMatchSettingsToDefault" )
+	//ClientCommand( "ResetMatchSettingsToDefault" )
 
 	UpdatePlaylistFromConVar( "pm_time_limit" )
 	UpdatePlaylistFromConVar( "pm_score_limit" )
@@ -574,8 +627,48 @@ function ApplyMatchSettings( button )
 }
 Globalize( ApplyMatchSettings )
 
+function ApplyMatchSettingsIfChanged( button = null )
+{
+	local anythingChanged = false
+
+	/*if ( anythingChanged = ConVarValueChanged( "pm_time_limit" ) || anythingChanged ) UpdatePlaylistFromConVar( "pm_time_limit" )
+	if ( anythingChanged = ConVarValueChanged( "pm_score_limit" ) || anythingChanged ) UpdatePlaylistFromConVar( "pm_score_limit" )
+
+	if ( anythingChanged = ConVarValueChanged( "pm_pilot_health" ) || anythingChanged ) UpdatePlaylistFromConVar( "pm_pilot_health" )
+	if ( anythingChanged = ConVarValueChanged( "pm_pilot_ammo" ) || anythingChanged ) UpdatePlaylistFromConVar( "pm_pilot_ammo" )
+	if ( anythingChanged = ConVarValueChanged( "pm_pilot_minimap" ) || anythingChanged ) UpdatePlaylistFromConVar( "pm_pilot_minimap" )
+	if ( anythingChanged = ConVarValueChanged( "pm_pilot_respawn_delay" ) || anythingChanged ) UpdatePlaylistFromConVar( "pm_pilot_respawn_delay" )
+
+	if ( anythingChanged = ConVarValueChanged( "pm_titan_build" ) || anythingChanged ) UpdatePlaylistFromConVar( "pm_titan_build" )
+	if ( anythingChanged = ConVarValueChanged( "pm_titan_rebuild" ) || anythingChanged ) UpdatePlaylistFromConVar( "pm_titan_rebuild" )
+	if ( anythingChanged = ConVarValueChanged( "pm_titan_shields" ) || anythingChanged ) UpdatePlaylistFromConVar( "pm_titan_shields" )
+
+	if ( anythingChanged = ConVarValueChanged( "pm_ai_type" ) || anythingChanged ) UpdatePlaylistFromConVar( "pm_ai_type" )
+	if ( anythingChanged = ConVarValueChanged( "pm_ai_lethality" ) || anythingChanged ) UpdatePlaylistFromConVar( "pm_ai_lethality" )
+	if ( anythingChanged = ConVarValueChanged( "pm_burn_cards" ) || anythingChanged ) UpdatePlaylistFromConVar( "pm_burn_cards" )*/
+
+	local pm_cvars = ["pm_time_limit", "pm_score_limit", "pm_pilot_health", "pm_pilot_ammo", "pm_pilot_minimap",
+	 	"pm_pilot_respawn_delay", "pm_titan_build", "pm_titan_rebuild", "pm_titan_rebuild", "pm_titan_shields",
+	 	"pm_ai_type", "pm_ai_lethality", "pm_burn_cards"]
+
+	foreach (pm_cvar in pm_cvars)
+	{
+		if (ConVarValueChanged(pm_cvar))
+		{
+			UpdatePlaylistFromConVar(pm_cvar)
+			anythingChanged = true
+		}
+	}
+
+	uiGlobal.matchSettingsChanged = false
+
+	return anythingChanged
+}
+Globalize( ApplyMatchSettingsIfChanged )
+
 function ResetMatchSettingsToDefaultDialog( button )
 {
+	uiGlobal.resettingPrivateMatchSettings = true
 	UpdateGametypeConVarsFromPlaylist( true )
 
 	UpdateMappedConVarFromPlaylist( "pm_pilot_health", true )

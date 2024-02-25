@@ -113,8 +113,9 @@ function UpdateFooterButtons( menuName = null )
 			footerData.gamepad.append( { label = "#B_BUTTON_BACK" } )
 			footerData.pc.append( { label = "#BACK", func = PCBackButton_Activate } )
 
-			footerData.gamepad.append( { label = "#X_BUTTON_APPLY", func = ApplyMatchSettings } )
-			footerData.pc.append( { label = "#APPLY", func = ApplyMatchSettings } )
+			// BME: now applied automatically (and if they're not applied, player will be asked with dialog to apply after pressing back)
+			//footerData.gamepad.append( { label = "#X_BUTTON_APPLY", func = ApplyMatchSettings } )
+			//footerData.pc.append( { label = "#APPLY", func = ApplyMatchSettings } )
 
 			footerData.gamepad.append( { label = "#Y_BUTTON_RESTORE_DEFAULTS", func = ResetMatchSettingsToDefaultDialog } )
 			footerData.pc.append( { label = "#RESTORE_DEFAULTS", func = ResetMatchSettingsToDefaultDialog } )
