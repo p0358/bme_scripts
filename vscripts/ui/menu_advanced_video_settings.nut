@@ -15,6 +15,11 @@ function main()
 	file.buttonYPressedRegistered <- false
 
 	file.updateResolutionChangedCountdown <- false
+
+	file.FOVLabel <- null
+	file.FOVLabelMin <- null
+	file.FOVScaleInitial <- null
+	RegisterSignal( "OnCloseAdvancedVideoSettingsMenu" )
 }
 
 function InitAdvancedVideoSettingsMenu( menu )
@@ -33,6 +38,7 @@ function InitAdvancedVideoSettingsMenu( menu )
 	AddEventHandlerToButtonClass( menu, "AntialiasingSwitchClass", UIE_GET_FOCUS, Antialiasing_Focused )
 	AddEventHandlerToButtonClass( menu, "VSyncButtonClass", UIE_GET_FOCUS, VSync_Focused )
 	AddEventHandlerToButtonClass( menu, "FOVSliderClass", UIE_GET_FOCUS, FOV_Focused )
+	AddEventHandlerToButtonClass( menu, "FOVSliderClass", UIE_LOSE_FOCUS, FOV_LostFocus )
 	AddEventHandlerToButtonClass( menu, "TextureDetailSwitchClass", UIE_GET_FOCUS, TextureDetail_Focused )
 	AddEventHandlerToButtonClass( menu, "FilteringModeSwitchClass", UIE_GET_FOCUS, FilteringMode_Focused )
 
@@ -49,6 +55,15 @@ function InitAdvancedVideoSettingsMenu( menu )
 	AddEventHandlerToButtonClass( menu, "AdvancedVideoButtonClass", UIE_CHANGE, AdvancedVideoButton_Changed )
 
 	AddEventHandlerToButtonClass( menu, "PCFooterButtonClass", UIE_GET_FOCUS, PCFooterButtonClass_Focused )
+
+	file.FOVLabel = menu.GetChild( "LblFOVMax" )
+	file.FOVLabelMin = menu.GetChild( "LblFOVMin" )
+	uiGlobal.keepPlayingFOVVideo <- false
+	uiGlobal.playingFOVVideo <- false
+	uiGlobal.FOVFocusTime <- 0
+
+	//uiGlobal.temp_fovfocuscount <- 0
+	//uiGlobal.temp_fovunfocuscount <- 0
 }
 
 function OnOpenAdvancedVideoSettingsMenu( menu )
@@ -83,10 +98,15 @@ function OnOpenAdvancedVideoSettingsMenu( menu )
 			file.buttonYPressedRegistered = true
 		}
 	}
+
+	file.FOVScaleInitial = GetConVarString("cl_fovScale")
+	thread UpdateAdvancedVideoSettingsSliderValues( menu )
 }
 
 function OnCloseAdvancedVideoSettingsMenu( menu )
 {
+	Signal( uiGlobal.signalDummy, "OnCloseAdvancedVideoSettingsMenu" )
+
 	if ( file.buttonXPressedRegistered )
 	{
 		DeregisterButtonPressedCallback( BUTTON_X, ApplyVideoSettingsButton_Activate )
@@ -97,6 +117,26 @@ function OnCloseAdvancedVideoSettingsMenu( menu )
 	{
 		DeregisterButtonPressedCallback( BUTTON_Y, RestoreRecommendedDialog )
 		file.buttonYPressedRegistered = false
+	}
+}
+
+function UpdateAdvancedVideoSettingsSliderValues( menu )
+{
+	EndSignal( uiGlobal.signalDummy, "OnCloseAdvancedVideoSettingsMenu" )
+
+	while ( true )
+	{
+		//local fov_degrees = GetConVarFloat( "cl_fovScale" ) * 70
+		local fov_degrees = GetConVarFloat( "sv_rcon_banpenalty" ) * 70
+		//local fov_degrees_string = GetConVarString("cl_fovScale")
+		//if (fov_degrees_string != file.FOVScaleInitial) {
+			//ClientCommand("cl_fovScale " + file.FOVScaleInitial) // restore until we apply
+		//}
+		fov_degrees = RoundToNearestMultiplier( fov_degrees, 1.0 )
+		file.FOVLabel.SetText( fov_degrees.tostring() ) // format( "%2.1f", timeLimit )
+		file.FOVLabelMin.SetText( format( "scale: %f", GetConVarFloat( "sv_rcon_banpenalty" ) ) ) // format( "%2.1f", timeLimit )
+
+		wait 0
 	}
 }
 
@@ -390,9 +430,89 @@ function VSync_Focused( button )
 
 function FOV_Focused( button )
 {
+	//uiGlobal.temp_fovfocuscount++;
+	uiGlobal.FOVFocusTime = Time()
 	local menu = GetMenu( "AdvancedVideoSettingsMenu" )
-	SetElementsTextByClassname( menu, "MenuItemDescriptionClass", "#ADVANCED_VIDEO_MENU_FOV_DESC" )
+	//SetElementsTextByClassname( menu, "MenuItemDescriptionClass", "#ADVANCED_VIDEO_MENU_FOV_DESC" )
+	SetElementsTextByClassname( menu, "MenuItemDescriptionClass",
+		//"Field of View controls how wide you can see. Turning this up may increase CPU and GPU load."
+		TranslateTokenToUTF8("#ADVANCED_VIDEO_MENU_FOV_DESC")
+		+ "\nHigher values may let skilled pilots see more on the battlefield. Lower values are better if you sit far from your screen."
+		//+ "\nDefault value is 70.\nValue frequently used by PC players is 90. (scale: 1.300000)" // and the default max
+		+ "\nDefault value is 70.\nValue frequently used by PC players and the default max is 90. (scale: 1.3)"
+		//+ "\nFocus: " + uiGlobal.temp_fovfocuscount + ", disfocus: " + uiGlobal.temp_fovunfocuscount
+		+ (!IsConnected()     ? "\nThe video played in background should help you in sensing the difference."
+		: " ^F4D5A600Open these settings on main menu to see a video that could help you see the difference.")
+		)
+
+	if (!IsConnected() && !uiGlobal.keepPlayingFOVVideo)
+	{
+		uiGlobal.keepPlayingFOVVideo = true
+		thread PlayFOVVideo()
+	}
 }
+
+// with current approach it's going to reset video playback on each click,
+// because it fires 2 events of focus gain and 2 of focus lost (most likely: lost, gain, lost, gain)
+// if we want to do something about it, we might wire lost focus function to other elements' focus gain events
+function FOV_LostFocus( button )
+{
+	//uiGlobal.temp_fovunfocuscount++;
+	if ( uiGlobal.playingIntro && uiGlobal.playingFOVVideo && uiGlobal.keepPlayingFOVVideo && !IsConnected()
+		&& uiGlobal.FOVFocusTime + 0.2 < Time() )
+	{
+		Signal( uiGlobal.signalDummy, "PlayVideoEnded" )
+	}
+	uiGlobal.keepPlayingFOVVideo = false
+}
+
+// In case we still wanted to play the vid in UI
+// https://steamcommunity.com/discussions/forum/20/882966056829269381/
+// https://www.moddb.com/forum/thread/source-playing-video-files-in-game
+// https://github.com/RubberWar/Portal-2/blob/master/src/game/client/vgui_hudvideo.cpp
+// https://github.com/InfoSmart/InSource/blob/master/game/client/vgui_video.cpp (VideoBIKMaterial%i is in Titanfall too)
+// http://hlssmod.net/he_code/game/client/vgui_video.cpp (old?)
+// https://github.com/scen/ionlib/blob/master/src/sdk/hl2_csgo/game/client/vgui_movie_display.cpp (prop, not interesting to us)
+// https://github.com/ValveSoftware/source-sdk-2013/blob/master/sp/src/game/client/vgui_video.cpp
+/* so create your main panel
+after that create the videopanel with that
+xpos
+ypos
+wide
+tall
+filename
+command
+i think that now you got all you need to realize this addition :) */
+// but we went with background video playing for now:
+
+function PlayFOVVideo()
+{
+	if (uiGlobal.playingFOVVideo)
+		return
+	uiGlobal.playingFOVVideo = true
+	local mainMenu = GetMenu("MainMenu")
+	//if (uiGlobal.activeMenu == mainMenu)
+		DisableBackgroundMovie()
+
+	uiGlobal.playingIntro = true
+	while ( uiGlobal.keepPlayingFOVVideo )
+	{
+		PlayVideo( "15ms_480x400.bik", false )
+
+		WaitSignal( uiGlobal.signalDummy, "PlayVideoEnded" )
+		StopVideo()
+	}
+
+	uiGlobal.playingIntro = false
+	uiGlobal.keepPlayingFOVVideo = false
+
+	//if (uiGlobal.activeMenu == mainMenu)
+		EnableBackgroundMovie()
+
+	uiGlobal.playingFOVVideo = false
+	wait 0 // not sure why? xd
+}
+Globalize( PlayFOVVideo )
 
 function PCFooterButtonClass_Focused( button )
 {
