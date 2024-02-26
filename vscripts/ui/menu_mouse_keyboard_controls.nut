@@ -2,6 +2,11 @@
 function main()
 {
 	Globalize( InitMouseKeyboardControlsMenu )
+	Globalize( OnOpenKeyboardControlsMenu )
+	Globalize( OnCloseKeyboardControlsMenu )
+
+	file.SensitivityLabel <- null
+	RegisterSignal( "OnCloseKeyboardControlsMenu" )
 }
 
 function InitMouseKeyboardControlsMenu( menu )
@@ -13,6 +18,32 @@ function InitMouseKeyboardControlsMenu( menu )
 	AddEventHandlerToButtonClass( menu, "MouseAccelerationSwitchClass", UIE_GET_FOCUS, MouseAcceleration_Focused )
 	AddEventHandlerToButtonClass( menu, "MouseInvertSwitchClass", UIE_GET_FOCUS, MouseInvert_Focused )
 	AddEventHandlerToButtonClass( menu, "PCFooterButtonClass", UIE_GET_FOCUS, PCFooterButtonClass_Focused )
+
+	file.SensitivityLabel = menu.GetChild( "LblMouseSensitivity" )
+}
+
+function OnOpenKeyboardControlsMenu( menu )
+{
+	thread UpdateMouseKeyboardControlsSliderValues( menu )
+}
+
+function OnCloseKeyboardControlsMenu( menu )
+{
+	Signal( uiGlobal.signalDummy, "OnCloseKeyboardControlsMenu" )
+}
+
+function UpdateMouseKeyboardControlsSliderValues( menu )
+{
+	EndSignal( uiGlobal.signalDummy, "OnCloseKeyboardControlsMenu" )
+
+	while ( true )
+	{
+		local m_sensitivity = GetConVarFloat( "m_sensitivity" )
+		//m_sensitivity = RoundToNearestMultiplier( m_sensitivity, 1.0 )
+		file.SensitivityLabel.SetText( m_sensitivity.tostring() ) // format( "%2.1f", timeLimit )
+
+		wait 0
+	}
 }
 
 function MouseKeyboardBindings_Focused( button )

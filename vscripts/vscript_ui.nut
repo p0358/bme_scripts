@@ -1786,6 +1786,10 @@ function OpenMenuWrapper( menu, focusDefault )
 			OnOpenKeyboardBindingsMenu( menu )
 			break
 
+		case "MouseKeyboardControlsMenu":
+			OnOpenKeyboardControlsMenu( menu )
+			break
+
 		case "AdvancedVideoSettingsMenu":
 			OnOpenAdvancedVideoSettingsMenu( menu )
 			break
@@ -1928,6 +1932,10 @@ function CloseMenuWrapper( menu )
 
 		case "MouseKeyboardBindingsMenu":
 			OnCloseKeyboardBindingsMenu( menu )
+			break
+
+		case "MouseKeyboardControlsMenu":
+			OnCloseKeyboardControlsMenu( menu )
 			break
 
 		case "AdvancedVideoSettingsMenu":
