@@ -36,12 +36,64 @@ function InitClassicMenu( menu )
 	AddEventHandlerToButton( menu, "PlaylistList", UIE_CLICK, OnPlaylistButton_Activate )
 }
 
+function PlaylistButtonsUpdate(list) // BME
+{
+	local count = list.GetListSize()
+	for ( local i = 0; i < count; i++)
+	{
+		local button = list.GetListItem(i)
+		//button.SetNew(true)
+
+		local internalPlaylistName = button.GetScriptID()
+
+		local monthlyCountText = GetPlaylistCountDescForMonthly( internalPlaylistName )
+		local worldTotalCountText = GetPlaylistCountDescForWorldTotal( internalPlaylistName )
+		local regionCountText = GetPlaylistCountDescForRegion( internalPlaylistName )
+		local worldCountText = GetPlaylistCountDescForWorld( internalPlaylistName )
+
+		local regionCount = regionCountText.tointeger()
+		local worldCount = worldCountText.tointeger()
+
+		local name = GetPlaylistVar( internalPlaylistName, "name" )
+
+		if (worldCount == 0)
+		{
+			//button.SetColor(220, 220, 220, 255) // nothing
+			//button.SetColorBG(220, 220, 220, 255) // nothing
+			//button.SetText( name + "^DDDDDD00test^DDDDDDFFtest2") // not working
+			//button.SetEnabled(false) // makes buttons non-clickable
+			// locked would display lock icon, we don't want that either...
+		}
+		else
+		{
+			//button.SetColor(255, 255, 255, 255)
+			//button.SetColorBG(255, 255, 255, 255)
+			//button.SetEnabled(true)
+		}
+
+		if (internalPlaylistName != "at" && internalPlaylistName != "coop")
+		{
+			if (regionCount > 2 || worldCount > 4)
+			{
+				button.SetNew(true)
+			}
+			else
+			{
+				button.SetNew(false)
+			}
+		}
+	}
+}
+Globalize( PlaylistButtonsUpdate )
+
 function OnPlaylistSelection_Changed( list )
 {
 	local button = list.GetListSelectedItem()
 
 	if ( button )
 		UpdatePlaylistElements( list.GetParentMenu(), button.GetScriptID() )
+
+	PlaylistButtonsUpdate(list)
 }
 
 function OnOpenClassicMenu()
@@ -177,6 +229,9 @@ function ServerCallback_UserCountsUpdated( team, regionHashtagCount )
 	uiGlobal.playerCounts <- {}
 	uiGlobal.playlistUserCounts <- {}
 	uiGlobal.playerCounts.hashtag <- regionHashtagCount
+
+	// Force a refresh: (not sure if this ever gets triggered actually xd)
+	PlaylistButtonsUpdate( uiGlobal.playlistList )
 }
 
 function ServerCallback_PlaylistUserCountsUpdated( team, playlist0, playlist0Count, playlist1, playlist1Count, playlist2, playlist2Count, playlist3, playlist3Count )
@@ -199,5 +254,7 @@ function ServerCallback_PlaylistUserCountsUpdated( team, playlist0, playlist0Cou
 	local playlist3Name = GetPlaylistName( playlist3 )
 	printl( "playlist " + playlist3Name + " has " + playlist3Count + " players using your hashtag" )
 	uiGlobal.playlistUserCounts[hashtag][playlist3Name] <- playlist3Count
-}
 
+	// Force a refresh: (not sure if this ever gets triggered actually xd)
+	PlaylistButtonsUpdate( uiGlobal.playlistList )
+}
