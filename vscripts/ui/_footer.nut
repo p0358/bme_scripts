@@ -9,6 +9,12 @@ function main()
 	Globalize( AppendPCInviteLabels )
 	Globalize( AppendGamepadInviteLabels )
 	Globalize( UpdateFooters )
+
+	// BME
+	Globalize( Discord_IsEnabled )
+	Globalize( Discord_IsJoinable )
+	Globalize( DiscordInviteFriends )
+	Globalize( InviteFriendsDialog )
 }
 
 function InitFooterButtons()
@@ -30,7 +36,7 @@ function InitFooterButtons()
 		thread UpdateXboxCanInvite()
 		thread UpdateXboxCanOpenPartyApp()
 	}
-	else if ( Origin_IsEnabled() )
+	else if ( Origin_IsEnabled() || Discord_IsEnabled() )
 	{
 		thread UpdateOriginInvite()
 	}
@@ -113,7 +119,7 @@ function UpdateFooterButtons( menuName = null )
 			footerData.gamepad.append( { label = "#B_BUTTON_BACK" } )
 			footerData.pc.append( { label = "#BACK", func = PCBackButton_Activate } )
 
-			// BME: now applied automatically (and if they're not applied, player will be asked with dialog to apply after pressing back)
+			// now applied automatically (and if they're not applied, player will be asked with dialog to apply after pressing back)
 			//footerData.gamepad.append( { label = "#X_BUTTON_APPLY", func = ApplyMatchSettings } )
 			//footerData.pc.append( { label = "#APPLY", func = ApplyMatchSettings } )
 
@@ -219,7 +225,7 @@ function UpdateFooterButtons( menuName = null )
 			{
 				footerData.gamepad.append( { label = "#XBOX_SWITCH_TEAMS" } )
 				footerData.pc.append( { label = "#SWITCH_TEAMS", func = PCSwitchTeamsButton_Activate } )
-				footerData.pc.append( { label = "PRESETS", func = PCPresetsButton_Activate } ) // BME
+				footerData.pc.append( { label = "PRESETS", func = PCPresetsButton_Activate } )
 			}
 
 			footerData.pc = AppendPCInviteLabels( footerData.pc )
@@ -307,7 +313,7 @@ function UpdateFooterButtons( menuName = null )
 			footerData.gamepad = AppendGamepadInviteLabels( footerData.gamepad )
 			footerData.pc = AppendPCInviteLabels( footerData.pc )
 
-			if (IsFullyConnected() && GetActiveLevel() != "mp_lobby") // BME
+			if (IsFullyConnected() && GetActiveLevel() != "mp_lobby")
 			{
 				// gamepad default = ^798B9800, pc default = nothing
 				// #6EEB6A = light green
@@ -505,10 +511,10 @@ function AppendGamepadInviteLabels( footerData )
 		if ( uiGlobal.canXBoxInvite )
 			footerData.append( { label = "#XBOX_INVITE_FRIENDS" } )	// XboxInviteFriends
 	}
-	else if ( Origin_IsEnabled() )
+	else if ( Origin_IsEnabled() || Discord_IsEnabled() )
 	{
 		if ( uiGlobal.canOriginInvite )
-			footerData.append( { label = "#XBOX_INVITE_FRIENDS" } ) // OriginInviteFriends
+			footerData.append( { label = "#XBOX_INVITE_FRIENDS" } ) // InviteFriendsDialog
 	}
 
 	return footerData
@@ -516,10 +522,10 @@ function AppendGamepadInviteLabels( footerData )
 
 function AppendPCInviteLabels( footerData )
 {
-	if ( Origin_IsEnabled() )
+	if ( Origin_IsEnabled() || Discord_IsEnabled() )
 	{
 		if ( uiGlobal.canOriginInvite )
-			footerData.append( { label = "#INVITE_FRIENDS", func = OriginInviteFriends } )
+			footerData.append( { label = "#INVITE_FRIENDS", func = InviteFriendsDialog } )
 	}
 
 	return footerData
@@ -621,7 +627,7 @@ function UpdateXboxCanOpenPartyApp()
 
 function UpdateOriginInvite()
 {
-	Assert( Origin_IsEnabled() )
+	Assert( Origin_IsEnabled() || Discord_IsEnabled() )
 
 	local lastResult = false
 
@@ -630,17 +636,18 @@ function UpdateOriginInvite()
 		while ( !uiGlobal.activeMenu )
 			WaitSignal( uiGlobal.signalDummy, "ActiveMenuChanged" )
 
-		uiGlobal.canOriginInvite = ( IsFooterMenu() && (uiGlobal.activeMenu != GetMenu( "MouseKeyboardBindingsMenu") ) && IsConnected() && AmIPartyLeader() && Origin_IsJoinable() )
+		local canOriginInvite = ( IsFooterMenu() && (uiGlobal.activeMenu != GetMenu( "MouseKeyboardBindingsMenu") ) && IsConnected() /*&& AmIPartyLeader()*/ )
+		uiGlobal.canOriginInvite = canOriginInvite && ((Origin_IsEnabled() && Origin_IsJoinable()) || (Discord_IsEnabled() && Discord_IsJoinable()))
 
 		if ( uiGlobal.canOriginInvite != lastResult )
 		{
 			if ( uiGlobal.canOriginInvite )
 			{
-				RegisterButtonPressedCallback( BUTTON_TRIGGER_RIGHT, OriginInviteFriends )
+				RegisterButtonPressedCallback( BUTTON_TRIGGER_RIGHT, InviteFriendsDialog )
 			}
 			else
 			{
-				DeregisterButtonPressedCallback( BUTTON_TRIGGER_RIGHT, OriginInviteFriends )
+				DeregisterButtonPressedCallback( BUTTON_TRIGGER_RIGHT, InviteFriendsDialog )
 			}
 
 			UpdateFooterButtons()
@@ -758,12 +765,79 @@ function XboxOpenPartyApp( button )
 	Durango_OpenPartyApp()
 }
 
-function OriginInviteFriends( button )
+function Discord_IsEnabled()
+{
+	local res = false
+	try {
+		res = GetConVarBool("bme_is_discord_initialized")
+	} catch (e) {}
+	return res
+}
+
+function Discord_IsJoinable()
+{
+	local res = false
+	try {
+		res = GetConVarBool("bme_is_discord_joinable")
+	} catch (e) {}
+	return res
+}
+
+function OriginInviteFriends()
 {
 	Assert( Origin_IsEnabled() )
 	Assert( Origin_IsJoinable() )
 
 	Origin_ShowInviteFriendsDialog()
+}
+
+function DiscordInviteFriends()
+{
+	ClientCommand("bme_discord_friends_invite_open")
+}
+
+function InviteFriendsDialog( button )
+{
+	local origin = Origin_IsEnabled() && Origin_IsJoinable()
+	local discord = Discord_IsEnabled() && Discord_IsJoinable()
+
+	if (origin || discord)
+	{
+		if (origin && !discord)
+		{
+			// only origin
+			OriginInviteFriends()
+			return
+		}
+		else if (discord && !origin)
+		{
+			// only discord
+			DiscordInviteFriends()
+			return
+		}
+	}
+
+	// choice dialog if both are available
+
+	local buttonData = []
+	if (origin)
+		buttonData.append( { name = "EA App / Origin", func = OriginInviteFriends } )
+	if (discord)
+		buttonData.append( { name = "Discord", func = DiscordInviteFriends } )
+	buttonData.append( { name = "#CLOSE", func = null } )
+
+	local footerData = []
+	footerData.append( { label = "#A_BUTTON_SELECT" } )
+	footerData.append( { label = "#B_BUTTON_CLOSE" } )
+
+	local dialogData = {}
+	dialogData.header <- "Select a platform"
+	//dialogData.detailsMessage <- "Select on which platform you would like to invite friends on. Selecting one will open a dialog in its overlay, if enabled, otherwise the invite dialog will appear in its client window."
+	dialogData.detailsMessage <- "Selecting a platform to invite friends on will open a dialog in its overlay, if enabled, otherwise the invite dialog will appear in its client window."
+	dialogData.buttonData <- buttonData
+	dialogData.footerData <- footerData
+
+	OpenChoiceDialog( dialogData )
 }
 
 function LoadoutEditMouseclickNotice( button ) // BME
