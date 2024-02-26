@@ -632,9 +632,6 @@ function LeaveDialog()
 	{
 		if ( PartyHasMembers() )
 		{
-			if ( AmIPartyLeader() && !IsPrivateMatch() )
-				buttonData.append( { name = "#YES_LEAVE_WITH_PARTY", func = LeaveMatchWithParty } )
-
 			if ( IsLobby() )
 			{
 				if ( isCoopMenu )
@@ -646,6 +643,9 @@ function LeaveDialog()
 			{
 				buttonData.append( { name = "#YES_LEAVE_MATCH", func = LeaveMatchSolo } )
 			}
+
+			if ( AmIPartyLeader() && !IsPrivateMatch() ) // BME: moved to the bottom as non-default
+				buttonData.append( { name = "#YES_LEAVE_WITH_PARTY", func = LeaveMatchWithParty } )
 		}
 		else
 		{
