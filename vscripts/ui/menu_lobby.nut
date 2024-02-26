@@ -500,6 +500,7 @@ function TrainingButton_ActivateOrStartDialog( button )
 		//buttonData.append( { name = "#TRAINING_CONTINUE", func = DialogChoice_DoTrainingWithResumeChoice1, nameData = text } )
 
 		buttonData.append( { name = "#CANCEL", func = null } )
+
 		header = "#TRAINING_PLAYAGAIN_PROMPT"
 		//desc = "#TRAINING_PLAYAGAIN_PROMPT_DESC"
 		//desc = "#TRAINING_PLAYAGAIN_PROMPT_DESC \n(both buttons open submenus)" // it will make not convert the localized string...

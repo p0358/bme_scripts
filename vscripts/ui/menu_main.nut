@@ -24,6 +24,7 @@ function InitMainMenu( menu )
 
 	file.activeProfile <- menu.GetChild( "ActiveProfile" )
 	file.versionDisplay <- menu.GetChild( "versionDisplay" )
+	file.versionDisplay2 <- menu.GetChild( "versionDisplay2" )
 
 	file.datacenterGamepad <- menu.GetChild( "DatacenterGamepad" )
 	file.datacenterGamepad.EnableKeyBindingIcons()

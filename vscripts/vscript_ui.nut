@@ -2370,6 +2370,8 @@ function PopulateNewUnlockTable( newUnlockTable, arrayName, enumName )
 
 function ClearRefNew( ref )
 {
+	if ( !("newMeta" in uiGlobal) )
+		return
 	if ( !uiGlobal.newMeta[ref].isNew )
 		return
 
@@ -2394,6 +2396,8 @@ function ClearRefNew( ref )
 
 function HasAnyNewItem( refType, parentRef = null )
 {
+	if (!("newMeta" in uiGlobal))
+		return false
 	return (uiGlobal.newMeta[refType].newCount > 0)
 }
 

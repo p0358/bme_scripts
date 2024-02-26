@@ -43,6 +43,51 @@ function PrintObject( obj, indent, depth, maxDepth )
 	}
 }
 
+PrintObjectBuffer <- ""
+function PrintObjectToBuffer( obj, indent, depth, maxDepth )
+{
+	if ( IsTable( obj ) )
+	{
+		if ( depth >= maxDepth )
+		{
+			PrintObjectBuffer += "{...}" + "\n"
+			return
+		}
+
+		PrintObjectBuffer +=  "{" + "\n"
+		foreach ( k, v in obj )
+		{
+			PrintObjectBuffer += TableIndent( indent + 2 ) + k + " = "
+			PrintObjectToBuffer( v, indent + 2, depth + 1, maxDepth )
+		}
+		PrintObjectBuffer +=  TableIndent( indent ) + "}" + "\n"
+	}
+	else if ( IsArray( obj ) )
+	{
+		if ( depth >= maxDepth )
+		{
+			PrintObjectBuffer += "[...]" + "\n"
+			return
+		}
+
+		PrintObjectBuffer +=  "[" + "\n"
+		foreach ( v in obj )
+		{
+			PrintObjectBuffer += TableIndent( indent + 2 )
+			PrintObjectToBuffer( v, indent + 2, depth + 1, maxDepth )
+		}
+		PrintObjectBuffer +=  TableIndent( indent ) + "]" + "\n"
+	}
+	else if ( obj != null )
+	{
+		PrintObjectBuffer += "" + obj + "\n"
+	}
+	else
+	{
+		PrintObjectBuffer += "<null>" + "\n"
+	}
+}
+
 
 
 function FunctionToString( func )
@@ -106,7 +151,11 @@ function AssertParameters( func, paramCount, paramDesc )
 function PrintTable( tbl, indent = 0, maxDepth = 4 )
 {
 	print( TableIndent( indent ) )
-	PrintObject( tbl, indent, 0, maxDepth )
+	//PrintObject( tbl, indent, 0, maxDepth )
+	PrintObjectBuffer = ""
+	PrintObjectToBuffer( tbl, indent, 0, maxDepth ) // to avoid unnecessary newlines
+	printl(PrintObjectBuffer)
+	PrintObjectBuffer = ""
 }
 
 function Bind( func )
@@ -266,6 +315,16 @@ function deg_sin( angle )
 function deg_cos( angle )
 {
 	return ( cos( angle * (PI/180) ) )
+}
+
+// apparently some stuff in UI calls GetMapName, while UI only has GetActiveLevel, this is to universally mitigate that
+if ( IsUI() && !("GetMapName" in getroottable()) )
+{
+	function GetMapName()
+	{
+		return GetActiveLevel()
+	}
+	Globalize( GetMapName )
 }
 
 function IsLobby()
@@ -453,8 +512,8 @@ function GetAllModesAndMapsCompleteData( player = null )
 	local currentMode = null
 	if ( !IsLobby() )
 	{
-		currentMap = GetMapName()
-		currentMode = GameRules.GetGameMode()
+		currentMap = IsUI() ? GetActiveLevel() : GetMapName()
+		currentMode = IsUI() ? GetConVarString( "mp_gamemode" ) : GameRules.GetGameMode()
 	}
 
 	local statVarName = GetPersistentStatVar( "game_stats", "game_completed" )
@@ -726,7 +785,7 @@ function Coop_GetMaxTeamScore( mapName = null )
 {
 	//Coop gives 3 stars for 90% completion, but this returns the max possible value.
 	if ( mapName == null )
-		mapName = GetMapName()
+		mapName = IsUI() ? GetActiveLevel() : GetMapName()
 
 	if ( developer() > 0 && !( mapName in COOP_STAR_SCORE_REQUIREMENT ) )
 		return COOP_STAR_SCORE_REQUIREMENT[ "default" ][MAX_STAR_COUNT]	// so that we don't break test maps etc.
