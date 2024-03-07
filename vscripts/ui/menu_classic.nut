@@ -7,6 +7,8 @@ function main()
 	Globalize( ServerCallback_UserCountsUpdated );
 	Globalize( ServerCallback_PlaylistUserCountsUpdated );
 
+	Globalize( OnPlaylistButton_Activate ) // BME: to run it from "Ignore" option callback on DLC missing notice
+
 	file.playlistImages <- []
 	file.playlistImages.append( "default" )
 	file.playlistImages.append( "coop" )
@@ -110,7 +112,7 @@ function OnOpenClassicMenu()
 }
 Globalize( OnOpenClassicMenu )
 
-function OnPlaylistButton_Activate( list )
+function OnPlaylistButton_Activate( list, ignore_dlc = false )
 {
 	//Work around for Frontier Defense Lobby issue. We put the classic menu back on the stack, but party members shouldn't be able to access the playlist page.
 	if ( !AmIPartyLeader() )
@@ -127,7 +129,7 @@ function OnPlaylistButton_Activate( list )
 	playlist = button.GetScriptID()
 	Assert( playlist != "" )
 
-	if ( !DoWeHaveRequiredDLCForPlaylist( playlist ) )
+	if ( !DoWeHaveRequiredDLCForPlaylist( playlist ) && !ignore_dlc )
 	{
 		if ( uiGlobal.activeDialog )
 			return
@@ -135,6 +137,7 @@ function OnPlaylistButton_Activate( list )
 		local playlistName = GetPlaylistVar( playlist, "name" )
 
 		local buttonData = []
+		buttonData.append( { name = "IGNORE", func = function() : ( list ) { OnPlaylistButton_Activate( list, true ) } } )
 		buttonData.append( { name = "#DLC_GO_TO_STORE", func = function() { ShowDLCStore() } } )
 		buttonData.append( { name = "#CLOSE", func = null } )
 
