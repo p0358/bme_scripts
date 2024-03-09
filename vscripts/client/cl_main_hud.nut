@@ -131,6 +131,8 @@ function main()
 	file.crosshairPriorityOrder <- []
 
 	file.gameModeAnnounced <- false  // Set when the game mode announcement plays so we know it happened at least once
+
+	file.lastPlayerCount <- 0 // BME
 }
 
 
