@@ -2326,7 +2326,10 @@ function MainHud_InitScoreBars( vgui, player, scoreGroup )
 
 
 	local gameMode = GameRules.GetGameMode()
-	scoreboardProgressBars.GameModeLabel.SetText( GAMETYPE_TEXT[gameMode] )
+	local gametypeText = GAMETYPE_TEXT[gameMode]
+	if ( IsSwitchSidesBased() && !IsRoundBased() )
+		gametypeText = TranslateTokenToUTF8( gametypeText ) + " (" + (HasSwitchedSides() ? "2" : "1") + "/2)"
+	scoreboardProgressBars.GameModeLabel.SetText( gametypeText )
 
 	local friendlyTeam = player.GetTeam()
 	local enemyTeam = friendlyTeam == TEAM_IMC ? TEAM_MILITIA : TEAM_IMC
