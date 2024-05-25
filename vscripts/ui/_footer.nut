@@ -788,11 +788,13 @@ function OriginInviteFriends()
 	Assert( Origin_IsEnabled() )
 	Assert( Origin_IsJoinable() )
 
+	printt( "Showing Origin invite friends dialog" )
 	Origin_ShowInviteFriendsDialog()
 }
 
 function DiscordInviteFriends()
 {
+	printt( "Showing Discord invite friends dialog" )
 	ClientCommand("bme_discord_friends_invite_open")
 }
 
