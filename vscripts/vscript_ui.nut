@@ -2023,6 +2023,10 @@ function CloseMenuWrapper( menu )
 			OnCloseCoopPartyCustomMenu( menu )
 			break
 
+		case "ClassicMenu":
+			OnCloseClassicMenu()
+			break
+
 		default:
 			break
 	}

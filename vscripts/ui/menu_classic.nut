@@ -8,6 +8,9 @@ function main()
 	Globalize( ServerCallback_PlaylistUserCountsUpdated );
 
 	Globalize( OnPlaylistButton_Activate ) // BME: to run it from "Ignore" option callback on DLC missing notice
+	Globalize( BME_PlaylistCountsUpdated )
+
+	RegisterSignal( "ClosedClassicMenu" ) // BME
 
 	file.playlistImages <- []
 	file.playlistImages.append( "default" )
@@ -38,6 +41,49 @@ function InitClassicMenu( menu )
 	AddEventHandlerToButton( menu, "PlaylistList", UIE_CLICK, OnPlaylistButton_Activate )
 }
 
+function GetPlaylistCountDescForMonthly_( internalPlaylistName ) // BME
+{
+	local ret = GetPlaylistCountDescForMonthly( internalPlaylistName )
+	if ( ret != "" ) return ret
+	try {
+		ret = GetPlaylistCountDescForMonthly_BME()
+		return (ret == "") ? "" : ("^00FF0000" + ret)
+	} catch (e) { printt( "GetPlaylistCountDescForMonthly: data not found for playlist", internalPlaylistName ) }
+	return ""
+}
+function GetPlaylistCountDescForWorldTotal_( internalPlaylistName ) // BME
+{
+	local ret = GetPlaylistCountDescForWorldTotal( internalPlaylistName )
+	if ( ret != "" && ret != "0" ) return ret
+	try {
+		ret = GetPlaylistCountDescForWorldTotal_BME()
+		return (ret == "") ? "" : ("^00FF0000" + ret)
+	} catch (e) { printt( "GetPlaylistCountDescForWorldTotal_: data not found for playlist", internalPlaylistName ) }
+	return ""
+}
+function GetPlaylistCountDescForRegion_( internalPlaylistName ) // BME
+{
+	local ret = GetPlaylistCountDescForRegion( internalPlaylistName )
+	if ( ret != "" ) return ret
+	if ( StringContains( internalPlaylistName, " " ) ) return ""
+	try {
+		ret = GetPlaylistCountDescForRegion_BME( internalPlaylistName )
+		return (ret == "") ? "" : ("^00FF0000" + ret)
+	} catch (e) { printt( "GetPlaylistCountDescForRegion_: data not found for playlist", internalPlaylistName ) }
+	return ""
+}
+function GetPlaylistCountDescForWorld_( internalPlaylistName ) // BME
+{
+	local ret = GetPlaylistCountDescForWorld( internalPlaylistName )
+	if ( ret != "" ) return ret
+	if ( StringContains( internalPlaylistName, " " ) ) return ""
+	try {
+		ret = GetPlaylistCountDescForWorld_BME( internalPlaylistName )
+		return (ret == "") ? "" : ("^00FF0000" + ret)
+	} catch (e) { printt( "GetPlaylistCountDescForWorld_: data not found for playlist", internalPlaylistName ) }
+	return ""
+}
+
 function PlaylistButtonsUpdate(list) // BME
 {
 	local count = list.GetListSize()
@@ -48,10 +94,10 @@ function PlaylistButtonsUpdate(list) // BME
 
 		local internalPlaylistName = button.GetScriptID()
 
-		local monthlyCountText = GetPlaylistCountDescForMonthly( internalPlaylistName )
-		local worldTotalCountText = GetPlaylistCountDescForWorldTotal( internalPlaylistName )
-		local regionCountText = GetPlaylistCountDescForRegion( internalPlaylistName )
-		local worldCountText = GetPlaylistCountDescForWorld( internalPlaylistName )
+		local monthlyCountText = GetPlaylistCountDescForMonthly_( internalPlaylistName )
+		local worldTotalCountText = GetPlaylistCountDescForWorldTotal_( internalPlaylistName )
+		local regionCountText = GetPlaylistCountDescForRegion_( internalPlaylistName )
+		local worldCountText = GetPlaylistCountDescForWorld_( internalPlaylistName )
 
 		local regionCount = regionCountText.tointeger()
 		local worldCount = worldCountText.tointeger()
@@ -98,6 +144,19 @@ function OnPlaylistSelection_Changed( list )
 	PlaylistButtonsUpdate(list)
 }
 
+function BME_KeepRefreshingPlaylistCounts()
+{
+	EndSignal( level, "ClosedClassicMenu" )
+	for ( ;; )
+	{
+		if ( IsFullyConnected() )
+		{
+			BME_RefreshPlaylistCounts()
+		}
+		wait 20
+	}
+}
+
 function OnOpenClassicMenu()
 {
 	//Work around for Frontier Defense Lobby issue. We put the classic menu back on the stack, but party members shouldn't be able to access the playlist page.
@@ -109,8 +168,19 @@ function OnOpenClassicMenu()
 
 	// Force a refresh:
 	OnPlaylistSelection_Changed( uiGlobal.playlistList )
+
+	if ( GetPlaylistCountDescForWorldTotal("") == "0" && GetPlaylistCountDescForWorld("at") == "" ) // if there's no data in game
+	{
+		thread BME_KeepRefreshingPlaylistCounts()
+	}
 }
 Globalize( OnOpenClassicMenu )
+
+function OnCloseClassicMenu() // BME
+{
+	Signal( level, "ClosedClassicMenu" )
+}
+Globalize( OnCloseClassicMenu )
 
 function OnPlaylistButton_Activate( list, ignore_dlc = false )
 {
@@ -195,10 +265,10 @@ function UpdatePlaylistElements( menu, internalPlaylistName )
 	local regionCountElems = GetElementsByClassname( menu, "PlaylistPlayercountRegionText" )
 	local worldCountElems = GetElementsByClassname( menu, "PlaylistPlayercountWorldwideText" )
 
-	local monthlyCountText = GetPlaylistCountDescForMonthly( internalPlaylistName )
-	local worldTotalCountText = GetPlaylistCountDescForWorldTotal( internalPlaylistName )
-	local regionCountText = GetPlaylistCountDescForRegion( internalPlaylistName )
-	local worldCountText = GetPlaylistCountDescForWorld( internalPlaylistName )
+	local monthlyCountText = GetPlaylistCountDescForMonthly_( internalPlaylistName )
+	local worldTotalCountText = GetPlaylistCountDescForWorldTotal_( internalPlaylistName )
+	local regionCountText = GetPlaylistCountDescForRegion_( internalPlaylistName )
+	local worldCountText = GetPlaylistCountDescForWorld_( internalPlaylistName )
 
 
 	local monthlyLabelText = (monthlyCountText == "") ? "" : "#PLAYLIST_PLAYERCOUNT_THIS_MONTH"
@@ -260,4 +330,10 @@ function ServerCallback_PlaylistUserCountsUpdated( team, playlist0, playlist0Cou
 
 	// Force a refresh: (not sure if this ever gets triggered actually xd)
 	PlaylistButtonsUpdate( uiGlobal.playlistList )
+}
+
+function BME_PlaylistCountsUpdated()
+{
+	printt( "[BME] Playlist counts were updated from HTTP, refreshing UI" )
+	OnPlaylistSelection_Changed( uiGlobal.playlistList )
 }
