@@ -2,6 +2,9 @@ debugFrontlinePos <- Vector( 0, 0, 0 )
 debugFrontlineDir <- Vector( 0, 0, 0 )
 const DEV_COUNTDOWNTIMER = 0//turn on to see the countdown timer to match starts - helps with lining up intros
 
+// BME: this is kinda ugly to do it here, but for some reason we cannot replace _cl_mapspawn.nut, so we do that here...
+IncludeFile( "client/cl_scoreboard_save" )
+
 function main()
 {
 	RegisterSignal( "ExitFireteamDroppod" )
@@ -884,6 +887,8 @@ function ServerCallback_AnnounceWinner( teamIndex, subStringIndex, winnerDetermi
 	{
 		Ranked_WinnerDetermined()
 	}
+
+	thread BME_ScoreboardSave()
 }
 
 function BME_RoundOver(source = "")
