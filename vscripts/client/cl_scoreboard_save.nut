@@ -29,7 +29,7 @@ function BME_ScoreboardSave()
     out.scoreIMC <- GameRules.GetTeamScore( TEAM_IMC )
     out.scoreMILITIA <- GameRules.GetTeamScore( TEAM_MILITIA )
     out.scoreWinners <- GameRules.GetTeamScore( level.nv.winningTeam )
-    out.scoreLosers <- GetEnemyTeam( level.nv.winningTeam )
+    out.scoreLosers <- GameRules.GetTeamScore( GetEnemyTeam( level.nv.winningTeam ) )
 
     out.maxTeamPlayers <- level.maxTeamSize
     out.numPlayersIMC <- GetTeamPlayerCount( TEAM_IMC )
