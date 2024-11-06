@@ -43,19 +43,28 @@ function FullscreenMinimapButtonPressed( player )
 	if ( !IsAlive( player ) || IsWatchingKillReplay() || !level.fullscreenMinimapEnabled || Riff_MinimapState() == eMinimapState.Hidden || 	PlayerHasPassive( player, PAS_MINIMAP_ALL ) )
 		return
 
-	ShowFullMap( player )
+	if ( GetConVarBool( "bme_toggle_map" ) && level.showingFullscreenMap )
+		ResetAndShowMinimap( player )
+	else
+		ShowFullMap( player )
 }
 
 function FullscreenMinimapButtonReleased( player )
 {
-	if ( !IsAlive( player ) || IsWatchingKillReplay() || !level.fullscreenMinimapEnabled || Riff_MinimapState() == eMinimapState.Hidden )
-		return
+	if ( !GetConVarBool( "bme_toggle_map" ) )
+	{
+		if ( !IsAlive( player ) || IsWatchingKillReplay() || !level.fullscreenMinimapEnabled || Riff_MinimapState() == eMinimapState.Hidden )
+			return
 
-	ResetAndShowMinimap( player )
+		ResetAndShowMinimap( player )
+	}
 }
 
 function ShowFullMap( player )
 {
+	if ( level.showingFullscreenMap )
+		return
+
 	level.showingFullscreenMap = true
 	SetCrosshairPriorityState( crosshairPriorityLevel.MENU, CROSSHAIR_STATE_HIDE_ALL )
 	HideMinimap( player )
@@ -66,6 +75,9 @@ function ShowFullMap( player )
 
 function ResetAndShowMinimap( player )
 {
+	if ( !level.showingFullscreenMap )
+		return
+
 	level.showingFullscreenMap = false
 	if ( !IsInScoreboard( player ) )
 		ClearCrosshairPriority( crosshairPriorityLevel.MENU )
