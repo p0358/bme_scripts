@@ -8,7 +8,7 @@ function main()
 		RegisterConCommandTriggeredCallback( "+displayFullscreenMap", FullscreenMinimapButtonPressed )
 		RegisterConCommandTriggeredCallback( "-displayFullscreenMap", FullscreenMinimapButtonReleased )
 
-		RegisterConCommandTriggeredCallback( "+toggleFullscreenMap", ToggleFullscreenMinimap )
+		RegisterConCommandTriggeredCallback( "+toggleFullscreenMap", ToggleFullscreenMinimap ) // BME
 	}
 
 	if ( !reloadingScripts )
@@ -56,14 +56,14 @@ function FullscreenMinimapButtonReleased( player )
 	ResetAndShowMinimap( player )
 }
 
-function ToggleFullscreenMinimap( player )
+function ToggleFullscreenMinimap( player ) // BME
 {
-	if ( !IsAlive( player ) || IsWatchingKillReplay() || !level.fullscreenMinimapEnabled || Riff_MinimapState() == eMinimapState.Hidden || 	PlayerHasPassive( player, PAS_MINIMAP_ALL ) )
+	if ( !IsAlive( player ) || IsWatchingKillReplay() || !level.fullscreenMinimapEnabled || Riff_MinimapState() == eMinimapState.Hidden )
 		return
 
 	if ( level.showingFullscreenMap )
 		ResetAndShowMinimap( player )
-	else
+	else if ( !PlayerHasPassive( player, PAS_MINIMAP_ALL ) )
 		ShowFullMap( player )
 }
 
