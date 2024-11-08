@@ -69,9 +69,6 @@ function ToggleFullscreenMinimap( player ) // BME
 
 function ShowFullMap( player )
 {
-	if ( level.showingFullscreenMap )
-		return
-
 	level.showingFullscreenMap = true
 	SetCrosshairPriorityState( crosshairPriorityLevel.MENU, CROSSHAIR_STATE_HIDE_ALL )
 	HideMinimap( player )
@@ -82,9 +79,6 @@ function ShowFullMap( player )
 
 function ResetAndShowMinimap( player )
 {
-	if ( !level.showingFullscreenMap )
-		return
-
 	level.showingFullscreenMap = false
 	if ( !IsInScoreboard( player ) )
 		ClearCrosshairPriority( crosshairPriorityLevel.MENU )
