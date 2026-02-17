@@ -766,19 +766,11 @@ function UpdateDashBarColor( player )
 		return
 
 	local soul = player.GetTitanSoul()
-	if ( IsValid( soul ) && GetSoulTitanType( soul ) != "stryder" )
-		return
-
-	// its a titan only passive. Pilot doesn't even have dash bar anyway.
-	if ( !player.IsTitan() )
+	if ( !IsValid( soul ) || GetSoulTitanType( soul ) != "stryder" )
 		return
 
 	local cockpit = player.GetCockpit()
 	if ( !IsValid( cockpit ) )
-		return
-
-	local mainVGUI = cockpit.GetMainVGUI()
-	if ( !mainVGUI )
 		return
 
 	local dashBar = cockpit.s.dashBar
