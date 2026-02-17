@@ -269,6 +269,7 @@ function Flyout_GetModInfo( weaponRef, modRef, isDesc )
 */
 	return info
 }
+Globalize( Flyout_GetModInfo )
 
 function Flyout_ShowWeaponChallenge( weaponRef, challengeRef )
 {
