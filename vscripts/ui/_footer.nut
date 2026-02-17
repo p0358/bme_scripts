@@ -767,11 +767,16 @@ function XboxOpenPartyApp( button )
 
 function Discord_IsEnabled()
 {
-	local res = false
 	try {
-		res = GetConVarBool("bme_is_discord_ready")
-	} catch (e) {}
-	return res
+		// This won't be defined if game was started with -nodiscord
+		// We want to check just for cvar's existence, since Discord can be
+		// not ready yet at the moment of vscript_ui initialization and that would
+		// screw with some things...
+		GetConVarBool("bme_is_discord_ready")
+	} catch (e) {
+		return false
+	}
+	return true
 }
 
 function Discord_IsJoinable()
