@@ -29,52 +29,38 @@ function InitDialogMenu( menu )
 function InitChoiceDialogMenu( menu )
 {
 	uiGlobal.choiceDialogData <- null
-	uiGlobal.choice2DialogData <- null
 
 	AddEventHandlerToButtonClass( menu, "ChoiceDialogButtonClass", UIE_CLICK, OnChoiceButton_Activate )
 }
 
 function InitChoiceDialog2Menu( menu )
 {
-	uiGlobal.choice2DialogData <- null
-	//AddEventHandlerToButton( menu, "ButtonsPanel", UIE_CLICK, OnButtonsPanel_Activate )
-	///AddEventHandlerToButtonClass( menu, "ChoiceDialogButtonClass", UIE_CLICK, Bind( OnChoice2Button_Activate ) )
+	uiGlobal.choice2DialogState <- {}
 
-	//AddEventHandlerToButtonClass( menu, "ChoiceDialogButtonClass", UIE_CLICK, OnChoice2Button_Activate )
-	///AddEventHandlerToButtonClass( menu.GetChild( "ButtonsPanel" ), "ChoiceDialogButtonClass", UIE_CLICK, Bind( OnChoice2Button_Activate ) )
-	//AddEventHandlerToButtonClass( menu, "ChoiceDialogButtonClass", UIE_CLICK, Bind( OnChoice2Button_Activate ) )
-
-	//AddEventHandlerToButtonClass( menu, "Choice2ScrollUpClass", UIE_CLICK, Bind( OnChoice2ListScrollUp_Activate ) )
-	//AddEventHandlerToButtonClass( menu, "Choice2ScrollDownClass", UIE_CLICK, Bind( OnChoice2ListScrollDown_Activate ) )
-	///menu.GetChild( "ButtonsPanel" ).SetParentMenu( menu )
-
-	// ui/menu_dialog.nut #68 [UI] the index 'file' does not exist
-	/*AddEventHandlerToButtonClass( menu, "ChoiceDialogButtonClass", UIE_CLICK, Bind( OnChoice2Button_Activate ) )
-	AddEventHandlerToButtonClass( menu, "ChoiceDialogButtonClass", UIE_GET_FOCUS, Bind( Choice2Button_Focused ) )
-	AddEventHandlerToButtonClass( menu, "Choice2ScrollUpClass", UIE_CLICK, Bind( OnChoice2ListScrollUp_Activate ) )
-	AddEventHandlerToButtonClass( menu, "Choice2ScrollDownClass", UIE_CLICK, Bind( OnChoice2ListScrollDown_Activate ) )*/
-	//RegisterButtonPressedCallback( MOUSE_WHEEL_UP, OnChoice2ListScrollUp_Activate )
-	//RegisterButtonPressedCallback( MOUSE_WHEEL_DOWN, OnChoice2ListScrollDown_Activate )
+	AddEventHandlerToButtonClass( menu, "ChoiceDialogButtonClass", UIE_CLICK, OnChoice2Button_Activate )
+	AddEventHandlerToButtonClass( menu, "ChoiceDialogButtonClass", UIE_GET_FOCUS, Choice2Button_Focused )
+	AddEventHandlerToButtonClass( menu, "Choice2ScrollUpClass", UIE_CLICK, OnChoice2ListScrollUp_Activate )
+	AddEventHandlerToButtonClass( menu, "Choice2ScrollDownClass", UIE_CLICK, OnChoice2ListScrollDown_Activate )
 }
 
 function OnChoice2ListScrollUp_Activate(...)
 {
-	file.mapListScrollState--
-	if ( file.mapListScrollState < 0 )
-		file.mapListScrollState = 0
+	uiGlobal.choice2DialogState.mapListScrollState--
+	if ( uiGlobal.choice2DialogState.mapListScrollState < 0 )
+		uiGlobal.choice2DialogState.mapListScrollState = 0
 
 	UpdateMapListScroll()
 }
 
 function OnChoice2ListScrollDown_Activate(...)
 {
-	file.mapListScrollState++
-	if ( file.mapListScrollState > file.numMapButtonsOffScreen )
-		file.mapListScrollState = file.numMapButtonsOffScreen
+	uiGlobal.choice2DialogState.mapListScrollState++
+	if ( uiGlobal.choice2DialogState.mapListScrollState > uiGlobal.choice2DialogState.numMapButtonsOffScreen )
+		uiGlobal.choice2DialogState.mapListScrollState = uiGlobal.choice2DialogState.numMapButtonsOffScreen
 
 	UpdateMapListScroll()
 
-	//ClientCommand("disconnect \"Scrolled down: "+file.mapListScrollState+"\"")
+	//ClientCommand("disconnect \"Scrolled down: "+uiGlobal.choice2DialogState.mapListScrollState+"\"")
 
 }
 
@@ -83,13 +69,13 @@ function Choice2Button_Focused( button )
 	local buttonID = button.GetScriptID().tointeger()
 
 	// Update window scrolling if we highlight a map not in view
-	local minScrollState = clamp( buttonID - (CHOICE2_VISIBLE_ROWS - 1), 0, file.numMapButtonsOffScreen )
-	local maxScrollState = clamp( buttonID, 0, file.numMapButtonsOffScreen )
+	local minScrollState = clamp( buttonID - (CHOICE2_VISIBLE_ROWS - 1), 0, uiGlobal.choice2DialogState.numMapButtonsOffScreen )
+	local maxScrollState = clamp( buttonID, 0, uiGlobal.choice2DialogState.numMapButtonsOffScreen )
 
-	if ( file.mapListScrollState < minScrollState )
-		file.mapListScrollState = minScrollState
-	if ( file.mapListScrollState > maxScrollState )
-		file.mapListScrollState = maxScrollState
+	if ( uiGlobal.choice2DialogState.mapListScrollState < minScrollState )
+		uiGlobal.choice2DialogState.mapListScrollState = minScrollState
+	if ( uiGlobal.choice2DialogState.mapListScrollState > maxScrollState )
+		uiGlobal.choice2DialogState.mapListScrollState = maxScrollState
 
 	UpdateMapListScroll()
 }
@@ -102,9 +88,9 @@ function OnButtonsPanel_Activate(button)
 
 function UpdateMapListScroll()
 {
-	local buttons = file.buttons
+	local buttons = uiGlobal.choice2DialogState.buttons
 	local basePos = buttons[0].GetBasePos()
-	local offset = buttons[0].GetHeight() * file.mapListScrollState
+	local offset = buttons[0].GetHeight() * uiGlobal.choice2DialogState.mapListScrollState
 
 	buttons[0].SetPos( basePos[0], basePos[1] - offset )
 }
@@ -137,23 +123,20 @@ function OnChoiceButton_Activate( button )
 function OnChoice2Button_Activate( button )
 {
 	local buttonID = button.GetScriptID().tointeger()
-	//ClientCommand("disconnect \"Callback works: "+buttonID+"\"")
 
 	CloseDialog()
 
-	Assert( uiGlobal.choice2DialogData )
+	Assert( uiGlobal.choiceDialogData )
 
-	if ( "trainingResume" in uiGlobal.choice2DialogData[buttonID] && uiGlobal.choice2DialogData[buttonID].trainingResume ) {
-
-		if (uiGlobal.choice2DialogData[buttonID].trainingResume == 2137) ClientCommand("disconnect \"shit: "+buttonID+"\"")
-
-		SetPlayerTrainingResumeChoice( uiGlobal.choice2DialogData[buttonID].trainingResume );
-		UI_DoTraining();
+	if ( "trainingResume" in uiGlobal.choiceDialogData[buttonID] && uiGlobal.choiceDialogData[buttonID].trainingResume )
+	{
+		SetPlayerTrainingResumeChoice( uiGlobal.choiceDialogData[buttonID].trainingResume )
+		UI_DoTraining()
 		return
 	}
 
-	if ( "func" in uiGlobal.choice2DialogData[buttonID] && uiGlobal.choice2DialogData[buttonID].func && "call" in uiGlobal.choice2DialogData[buttonID].func )
-		uiGlobal.choice2DialogData[buttonID].func.call( this )
+	if ( "func" in uiGlobal.choiceDialogData[buttonID] && uiGlobal.choiceDialogData[buttonID].func && "call" in uiGlobal.choiceDialogData[buttonID].func )
+		uiGlobal.choiceDialogData[buttonID].func.call( this )
 }
 
 function OnDataCenterButton_Activate( button )
@@ -312,9 +295,6 @@ function OpenChoiceDialog( dialogData, menu = null )
 	else
 		uiGlobal.choiceDialogData = buttonData
 
-	if (menu == GetMenu("ChoiceDialog2"))
-		uiGlobal.choice2DialogData = uiGlobal.choiceDialogData
-
 	// now set up each button: hide, or set text and show
 	foreach ( idx, button in buttons )
 	{
@@ -388,19 +368,13 @@ function OpenChoiceDialog( dialogData, menu = null )
 
 	OpenMenuWrapper( uiGlobal.activeDialog, true )
 
-	if (menu == GetMenu("ChoiceDialog2")) {
-		// must be here, or we will get error for "file" from these funcs
-		AddEventHandlerToButtonClass( menu, "ChoiceDialogButtonClass", UIE_CLICK, Bind( OnChoice2Button_Activate ) )
-		AddEventHandlerToButtonClass( menu, "ChoiceDialogButtonClass", UIE_GET_FOCUS, Bind( Choice2Button_Focused ) )
-		AddEventHandlerToButtonClass( menu, "Choice2ScrollUpClass", UIE_CLICK, Bind( OnChoice2ListScrollUp_Activate ) )
-		AddEventHandlerToButtonClass( menu, "Choice2ScrollDownClass", UIE_CLICK, Bind( OnChoice2ListScrollDown_Activate ) )
-
+	if (menu == GetMenu("ChoiceDialog2"))
+	{
 		RegisterButtonPressedCallback( MOUSE_WHEEL_UP, OnChoice2ListScrollUp_Activate )
 		RegisterButtonPressedCallback( MOUSE_WHEEL_DOWN, OnChoice2ListScrollDown_Activate )
-		file.mapListScrollState <- 0
-		file.numMapButtonsOffScreen <- null
-		file.buttons <- GetElementsByClassname( menu, "ChoiceDialogButtonClass" )
-		file.numMapButtonsOffScreen = 14 + 1 - CHOICE2_VISIBLE_ROWS
+		uiGlobal.choice2DialogState.mapListScrollState <- 0
+		uiGlobal.choice2DialogState.buttons <- GetElementsByClassname( menu, "ChoiceDialogButtonClass" )
+		uiGlobal.choice2DialogState.numMapButtonsOffScreen <- 14 + 1 - CHOICE2_VISIBLE_ROWS
 	}
 
 }
