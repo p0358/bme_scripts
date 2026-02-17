@@ -769,7 +769,7 @@ function Discord_IsEnabled()
 {
 	local res = false
 	try {
-		res = GetConVarBool("bme_is_discord_initialized")
+		res = GetConVarBool("bme_is_discord_ready")
 	} catch (e) {}
 	return res
 }
@@ -823,7 +823,7 @@ function InviteFriendsDialog( button )
 
 	local buttonData = []
 	if (origin)
-		buttonData.append( { name = "EA App / Origin", func = OriginInviteFriends } )
+		buttonData.append( { name = "EA App", func = OriginInviteFriends } )
 	if (discord)
 		buttonData.append( { name = "Discord", func = DiscordInviteFriends } )
 	buttonData.append( { name = "#CLOSE", func = null } )
