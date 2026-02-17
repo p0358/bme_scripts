@@ -135,7 +135,7 @@ function OnChoice2Button_Activate( button )
 		return
 	}
 
-	if ( "func" in uiGlobal.choiceDialogData[buttonID] && uiGlobal.choiceDialogData[buttonID].func && "call" in uiGlobal.choiceDialogData[buttonID].func )
+	if ( "func" in uiGlobal.choiceDialogData[buttonID] && uiGlobal.choiceDialogData[buttonID].func )
 		uiGlobal.choiceDialogData[buttonID].func.call( this )
 }
 
@@ -237,11 +237,14 @@ function OpenChoiceDialog( dialogData, menu = null )
 	if ( ("spinner" in dialogData) && dialogData.spinner != null )
 		spinner = dialogData.spinner
 
+	menu.s.navBackFunc <- null
 	foreach ( footer in footerData )
 	{
 		if ( "func" in footer && footer.func != null )
-			menu.s.navBackFunc <- footer.func // Only needed for back button for now
+			menu.s.navBackFunc = footer.func // Only needed for back button for now
 	}
+	if ( ("navBackFunc" in dialogData) && dialogData.navBackFunc != null )
+		menu.s.navBackFunc = dialogData.navBackFunc
 
 	//PrintTable( dialogData )
 

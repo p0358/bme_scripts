@@ -770,10 +770,14 @@ function UICodeCallback_NavigateBack()
 	{
 		if ( !uiGlobal.forceDialogChoice )
 		{
+			local navBackFunc = null
 			if ( "navBackFunc" in uiGlobal.activeDialog.s && uiGlobal.activeDialog.s.navBackFunc != null )
-				uiGlobal.activeDialog.s.navBackFunc.call( this )
+				navBackFunc = uiGlobal.activeDialog.s.navBackFunc
 
 			CloseDialog( true )
+			
+			if ( navBackFunc != null )
+				navBackFunc.call( this )
 		}
 	}
 	else if ( uiGlobal.activeMenu )

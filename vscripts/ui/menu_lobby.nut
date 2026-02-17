@@ -73,6 +73,7 @@ function main()
 	Globalize( DialogChoice_Training_New )
 	Globalize( DialogChoice_DoTrainingWithResumeChoice0 )
 	Globalize( DialogChoice_DoTrainingWithResumeChoice1 )
+	Globalize( Training_StartOrShowDialog )
 
 	Globalize( ServerCallback_DoTraining )
 	Globalize( ServerCallback_EndTraining )
@@ -91,7 +92,7 @@ function InitLobbyMenu( menu )
 	AddEventHandlerToButton( menu, "BigPlayButton1", UIE_CLICK, BigPlayButton1_Activate )
 	AddEventHandlerToButton( menu, "CoopMatchButton", UIE_CLICK, CoopMatchButton_Activate )
 	AddEventHandlerToButton( menu, "PrivateMatchButton", UIE_CLICK, OnPrivateMatchButton_Activate )
-	AddEventHandlerToButton( menu, "TrainingButton", UIE_CLICK, TrainingButton_ActivateOrStartDialog )
+	AddEventHandlerToButton( menu, "TrainingButton", UIE_CLICK, TrainingButton_Activate )
 
 	AddEventHandlerToButton( menu, "StartMatchButton", UIE_CLICK, OnStartMatchButton_Activate )
 	AddEventHandlerToButton( menu, "StartMatchButton", UIE_GET_FOCUS, OnStartMatchButton_GetFocus )
@@ -458,7 +459,12 @@ function ServerCallback_EndTraining()
 	LeaveMatchWithParty()
 }
 
-function TrainingButton_ActivateOrStartDialog( button )
+function TrainingButton_Activate( button )
+{
+	Training_StartOrShowDialog()
+}
+
+function Training_StartOrShowDialog()
 {
 	local buttonData = []
 
@@ -549,7 +555,7 @@ function DialogChoice_Training_New() // BME
 	buttonData.append( { name = "#TRAINING_FULL", func = DialogChoice_RestartTraining } )
 	buttonData.append( { name = "#TRAINING_PILOT_ONLY", func = DialogChoice_TrainPilotOnly } )
 	buttonData.append( { name = "#TRAINING_TITAN_ONLY", func = DialogChoice_TrainTitanOnly } )
-	buttonData.append( { name = "#CANCEL", func = null } )
+	buttonData.append( { name = "#CANCEL", func = Training_StartOrShowDialog } )
 
 	local header = "#TRAINING_PLAYAGAIN_PROMPT"
 	local desc = "#TRAINING_PLAYAGAIN_PROMPT_DESC"
@@ -558,6 +564,7 @@ function DialogChoice_Training_New() // BME
 	dialogData.header <- header
 	dialogData.detailsMessage <- desc
 	dialogData.buttonData <- buttonData
+	dialogData.navBackFunc <- Training_StartOrShowDialog
 
 	OpenChoiceDialog( dialogData, GetMenu( "TrainingDialog" ) )
 }
@@ -567,34 +574,6 @@ function DialogChoice_Training_Custom() // BME
 	CloseDialog(false)
 
 	local buttonData = []
-	local textMappings = ["#NPE_MODULE_MENU_DESC_1", "#NPE_MODULE_MENU_DESC_2", "#NPE_MODULE_MENU_DESC_3", "#NPE_MODULE_MENU_DESC_4", "#NPE_MODULE_MENU_DESC_5", "#NPE_MODULE_MENU_DESC_6", "#NPE_MODULE_MENU_DESC_7", "#NPE_MODULE_MENU_DESC_8", "#NPE_MODULE_MENU_DESC_9", "#NPE_MODULE_MENU_DESC_10", "#NPE_MODULE_MENU_DESC_11", "#NPE_MODULE_MENU_DESC_12", "#NPE_MODULE_MENU_DESC_13", "#NPE_MODULE_MENU_DESC_14"]
-	//foreach (local text in textMappings)
-	//buttonData.append( { name = ("1. " + text), func = DialogChoice_DoTrainingWithResumeChoice1 } )
-	//foreach (text in textMappings) {
-	//	buttonData.append( { name = text, func = DialogChoice_DoTrainingWithResumeChoice1 } )
-	//}
-	/*for (local i = 0; i < 14; i++)
-	{
-		local text = textMappings[i]
-		buttonData.append( { name = text, func = DialogChoice_DoTrainingWithResumeChoice1 } )
-	}*/
-	/*buttonData.append( { name = "#NPE_MODULE_MENU_DESC_1", func = function() { SetPlayerTrainingResumeChoice( 0 ); UI_DoTraining() } } )
-	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_2", func = function() { SetPlayerTrainingResumeChoice( 1 ); UI_DoTraining() } } )
-	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_3", func = function() { SetPlayerTrainingResumeChoice( 2 ); UI_DoTraining() } } )
-	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_4", func = function() { SetPlayerTrainingResumeChoice( 3 ); UI_DoTraining() } } )
-	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_5", func = function() { SetPlayerTrainingResumeChoice( 4 ); UI_DoTraining() } } )
-	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_6", func = function() { SetPlayerTrainingResumeChoice( 5 ); UI_DoTraining() } } )
-	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_7", func = function() { SetPlayerTrainingResumeChoice( 6 ); UI_DoTraining() } } )
-	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_8", func = function() { SetPlayerTrainingResumeChoice( 7 ); UI_DoTraining() } } )
-	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_9", func = function() { SetPlayerTrainingResumeChoice( 8 ); UI_DoTraining() } } )
-	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_10", func = function() { SetPlayerTrainingResumeChoice( 9 ); UI_DoTraining() } } )
-	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_11", func = function() { SetPlayerTrainingResumeChoice( 10 ); UI_DoTraining() } } )
-	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_12", func = function() { SetPlayerTrainingResumeChoice( 11 ); UI_DoTraining() } } )
-	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_13", func = function() { SetPlayerTrainingResumeChoice( 12 ); UI_DoTraining() } } )
-	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_14", func = function() { SetPlayerTrainingResumeChoice( 13 ); UI_DoTraining() } } )
-	buttonData.append( { name = "NPE_MODULE_MENU_DESC_14", func = function() { /*SetPlayerTrainingResumeChoice( 13 ); UI_DoTraining()* / } } )
-	buttonData.append( { name = "NPE_MODULE_MENU_DESC_15 -> 14", func = function() { ClientCommand("disconnect \"14\"") } } )*/
-	//buttonData.append( { name = "14 test", func = function() { SetPlayerTrainingResumeChoice( 14 ); UI_DoTraining() } } )
 
 	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_1", trainingResume = 0 } )
 	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_2", trainingResume = 1 } )
@@ -611,7 +590,7 @@ function DialogChoice_Training_Custom() // BME
 	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_13", trainingResume = 12 } )
 	buttonData.append( { name = "#NPE_MODULE_MENU_DESC_14", trainingResume = 13 } )
 
-	buttonData.append( { name = "#CANCEL", func = null } )
+	buttonData.append( { name = "#CANCEL", func = Training_StartOrShowDialog } )
 
 	local header = "Continue from..."
 	//local desc = "#TRAINING_PLAYAGAIN_PROMPT_DESC"
@@ -621,6 +600,7 @@ function DialogChoice_Training_Custom() // BME
 	dialogData.header <- header
 	dialogData.detailsMessage <- desc
 	dialogData.buttonData <- buttonData
+	dialogData.navBackFunc <- Training_StartOrShowDialog
 
 	OpenChoiceDialog( dialogData, GetMenu( "ChoiceDialog2" ) )
 }
