@@ -1227,13 +1227,13 @@ function PlayerWeaponFlyout( player )
 	if ( !ItemDefined( weaponRef ) )
 		return
 
+	local flyoutRefs = []
 	foreach ( modRef in modRefs )
 	{
-		if ( !SubitemDefined( weaponRef, modRef ) )
-			return
+		if ( SubitemDefined( weaponRef, modRef ) )
+			flyoutRefs.append( modRef )
 	}
-
-	thread Flyout_ShowWeapon( weaponRef, modRefs )
+	thread Flyout_ShowWeapon( weaponRef, flyoutRefs )
 }
 
 function ShouldShowPlayerWeaponFlyout( player, weapon )

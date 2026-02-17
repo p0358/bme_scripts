@@ -918,7 +918,7 @@ function ValidateLoadoutProperty( player, loadoutType, loadoutIndex, property, r
 	}
 
 	// invalid attachment
-	if ( childRef && !TMPHasSubitem( ref, childRef ) )
+	if ( childRef && !SubitemDefined( ref, childRef ) )
 		return false
 
 	if ( IsItemLocked( ref, childRef, player ) )

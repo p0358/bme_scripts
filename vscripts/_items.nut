@@ -58,8 +58,6 @@ function main()
 	Globalize( GetSubitemImage )
 	Globalize( GetSubitemIcon )
 
-	Globalize( TMPHasSubitem )
-
 	Globalize( GetAllItemsOfType )
 	Globalize( GetAllItemRefs )
 	Globalize( GetAllItemAttachments )
@@ -994,10 +992,7 @@ function SubitemDefined( parentRef, childRef )
 	Assert( parentRef in itemData )
 	Assert( "subitems" in itemData[parentRef] )
 
-	if ( childRef in itemData[parentRef].subitems )
-		return true
-
-	return false
+	return ( childRef in itemData[parentRef].subitems )
 }
 
 function GetSubitemData( parentRef, childRef )
@@ -1027,11 +1022,6 @@ function GetSubitemName( parentRef, childRef )
 	if (!( "name" in itemData[parentRef].subitems[childRef] )) return null
 
 	return itemData[parentRef].subitems[childRef].name
-}
-
-function TMPHasSubitem( parentRef, childRef )
-{
-	return (childRef in itemData[parentRef].subitems)
 }
 
 function GetSubitemDescription( parentRef, childRef )

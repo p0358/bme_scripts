@@ -160,13 +160,6 @@ function Flyout_ShowWeapon( weaponRef, modRefs )
 	{
 		if ( modRef in level.burnCardWeaponModList )
 			useBurnColor = true
-
-		// TEMP prevent error for unknown mods
-		if ( TMPHasSubitem( weaponRef, modRef ) )
-			continue
-
-		modRefs = []
-		break
 	}
 
 	/* // GEN check?  The problem is these numbers are wrong because we don't tell the client about their challenge progress mid-match
