@@ -23,6 +23,8 @@ function main()
 	level.towerMain <- null
 	
 	SetFullscreenMinimapParameters( 4.0, -3000, -200, 180 )
+	if ( GAMETYPE == COOPERATIVE )
+		SetCustomMinimapZoom( 2 )
 }
 
 function EntitiesDidLoad()

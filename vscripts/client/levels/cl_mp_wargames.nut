@@ -5,6 +5,9 @@ function main()
 	IncludeFileAllowMultipleLoads( "client/objects/cl_phantom_fighter" )
 
 	SetFullscreenMinimapParameters( 4.9, -1000, 250, 180 )
+	if ( GAMETYPE == COOPERATIVE )
+		SetCustomMinimapZoom( 2 )
+
 	// --- custom classic MP scripting after here ---
 	if ( !GetClassicMPMode() )
 		return
