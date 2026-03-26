@@ -233,9 +233,10 @@ function BurnCardPressedZoomStart( player )
 	if ( file.disableInput )
 		return
 
-	local freeSlots = GetPlayerMaxStoredBurnCards( player ) - GetPlayerTotalBurnCards( player )
-	if ( freeSlots < 0 )
-		return
+        // BME: allow for pile to be edited no matter what
+	//local freeSlots = GetPlayerMaxStoredBurnCards( player ) - GetPlayerTotalBurnCards( player )
+	//if ( freeSlots < 0 )
+	//	return
 
 	file.zoomed = true
 
@@ -1141,13 +1142,14 @@ function DrawLobbyBurnCards()
 	for ( ;; )
 	{
 		wait 0
-		file.mustDiscard = GetPlayerMaxStoredBurnCards( player ) - GetPlayerTotalBurnCards( player ) < 0
-		if ( file.mustDiscard )
-		{
-			file.zoomed = false
-			if ( Pile() == PileActive() )
-				SetCurrentPile( PILE_DECK )
-		}
+		// BME: allow for pile to be edited no matter what
+		//file.mustDiscard = GetPlayerMaxStoredBurnCards( player ) - GetPlayerTotalBurnCards( player ) < 0
+		//if ( file.mustDiscard )
+		//{
+		//	file.zoomed = false
+		//	if ( Pile() == PileActive() )
+		//		SetCurrentPile( PILE_DECK )
+		//}
 
 		file.maxActiveBurnCards = GetPlayerMaxActiveBurnCards( player )
 		RedrawAllPiles()
@@ -2698,9 +2700,10 @@ function MoveSelectedBurnCardToFront( player, slotForCard )
 	if ( slotForCard >= pileActive.burnCardTables.len() )
 		return
 
-	// can't put cards in your active slots if your deck is more than full
-	if ( GetPlayerTotalBurnCards( player ) > GetPlayerMaxStoredBurnCards( player ) )
-		return
+        // BME: allow for pile to be edited no matter what
+	//// can't put cards in your active slots if your deck is more than full
+	//if ( GetPlayerTotalBurnCards( player ) > GetPlayerMaxStoredBurnCards( player ) )
+	//	return
 
 	SetPileOffset( pileActive, slotForCard )
 
@@ -3456,9 +3459,10 @@ function BurnCardSelectCardInternal( player )
 	{
 		if ( pile == PileDeck() )
 		{
-			// can't put cards in your active slots if your deck is more than full
-			if ( GetPlayerTotalBurnCards( player ) > GetPlayerMaxStoredBurnCards( player ) )
-				return
+		        // BME: allow for pile to be edited no matter what
+			//// can't put cards in your active slots if your deck is more than full
+			//if ( GetPlayerTotalBurnCards( player ) > GetPlayerMaxStoredBurnCards( player ) )
+			//	return
 
 			local slotForCard = FindEmptyActiveBurnCardSlot( player )
 			if ( slotForCard != null )
