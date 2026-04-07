@@ -50,6 +50,10 @@ function InitMenuInGame( menu )
 	 	file.trackedChallengeButtons.append( button )
 	}
 
+        AddEventHandlerToButtonClass( menu, "ChallengesButtonClass", UIE_CLICK, AdvanceMenuEventHandler( GetMenu( "ChallengesMenu" ) ) )
+	AddEventHandlerToButtonClass( menu, "StatsButtonClass", UIE_CLICK, AdvanceMenuEventHandler( GetMenu( "ViewStatsMenu" ) ) )
+	
+
 	local buttons = GetElementsByClassname( menu, "RankedButtonClass" )
 	file.BtnRanked <- buttons[0]
 }
