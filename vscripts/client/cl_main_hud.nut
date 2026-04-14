@@ -790,7 +790,6 @@ function UpdateDashBarColor( player )
 	dashBar.ColorOverTime( col[0], col[1], col[2], alpha, 0.5, INTERPOLATOR_DEACCEL )
 	dashBarFG.ColorOverTime( col_FG[0], col_FG[1], col_FG[2], alpha_FG, 0.5, INTERPOLATOR_DEACCEL )
 }
-Globalize( UpdateDashBarColor )
 
 // TMP.. there are more efficient ways to do this like HudAnimations.txt... but they take too long to setup right now
 function TitanShieldBarPulseThink( cockpit, player )
